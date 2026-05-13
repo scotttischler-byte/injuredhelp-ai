@@ -24,3 +24,92 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Hero radial pulse — opacity + transform only */
+@keyframes hero-radial-pulse {
+  0%,
+  100% {
+    opacity: 0.22;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.38;
+    transform: scale(1.06);
+  }
+}
+
+.hero-radial-pulse {
+  animation: hero-radial-pulse 10s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+/* Urgency pill entrance */
+@keyframes urgency-slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-urgency-in {
+  animation: urgency-slide-down 0.65s ease-out both;
+  will-change: transform, opacity;
+}
+
+/* Stats count-up section entrance */
+@keyframes fade-up-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stat-reveal {
+  animation: fade-up-in 0.55s ease-out both;
+  will-change: transform, opacity;
+}
+
+/* How-it-works step reveal */
+.step-reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.5s ease-out,
+    transform 0.5s ease-out;
+  will-change: transform, opacity;
+}
+
+.step-reveal.step-reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Trust marquee — mobile only via class from parent */
+@keyframes trust-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.trust-marquee-track {
+  animation: trust-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+@media (min-width: 768px) {
+  .trust-marquee-track {
+    animation: none;
+    transform: none !important;
+  }
+}
