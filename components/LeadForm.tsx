@@ -4,6 +4,7 @@ import { forwardRef, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { DEFAULT_LEAD_FORM_COPY, type Lang, type LeadFormCopy } from "@/lib/homeTranslations";
 import { ALL_STATES } from "@/lib/states";
+import { trackLeadConversion } from "@/lib/trackConversion";
 import { INJURY_OPTIONS, TIMING_OPTIONS, US_STATES } from "@/lib/usStates";
 
 declare global {
@@ -180,6 +181,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       });
       if (!res.ok) throw new Error("Failed");
       pushLeadSubmitted();
+      trackLeadConversion();
       void fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

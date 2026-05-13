@@ -53,6 +53,16 @@ export const viewport: Viewport = {
 const rawGtm = process.env.NEXT_PUBLIC_GTM_ID?.trim() ?? "";
 const gtmId = /^GTM-[A-Z0-9]+$/i.test(rawGtm) ? rawGtm.toUpperCase() : "";
 
+const googleAdsTagId = process.env.NEXT_PUBLIC_GOOGLE_ADS_TAG_ID?.trim() ?? "";
+const googleAdsInline = googleAdsTagId
+  ? `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${googleAdsTagId}');
+`.trim()
+  : "";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -72,6 +82,17 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans">
+        {googleAdsTagId ? (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${googleAdsTagId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-ads-tag" strategy="afterInteractive">
+              {googleAdsInline}
+            </Script>
+          </>
+        ) : null}
         {gtmId ? (
           <>
             <Script
