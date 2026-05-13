@@ -1,0 +1,10 @@
+{
+  "name": "WreckMatch",
+  "short_name": "WreckMatch",
+  "description": "Free car accident legal help",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#e53e3e",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

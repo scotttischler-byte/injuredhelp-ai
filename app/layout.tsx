@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
+import { CookieConsent } from "@/components/CookieConsent";
+import { Providers } from "@/components/Providers";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,7 +26,7 @@ const legalServiceJsonLd = {
   areaServed: "US",
   serviceType: "Personal Injury Legal Referral",
   priceRange: "Free",
-  availableLanguage: "English",
+  availableLanguage: ["English", "Spanish"],
 };
 
 export const metadata: Metadata = {
@@ -33,6 +35,7 @@ export const metadata: Metadata = {
   description:
     "Were you injured in a car accident? WreckMatch connects you with a licensed personal injury attorney in your state in under 60 seconds. Free, no obligation, contingency only.",
   icons: { icon: "/favicon.svg" },
+  manifest: "/manifest.json",
   openGraph: {
     title: "WreckMatch – Free Legal Help After Your Car Accident",
     description:
@@ -41,6 +44,10 @@ export const metadata: Metadata = {
     siteName: "WreckMatch",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#e53e3e",
 };
 
 const rawGtm = process.env.NEXT_PUBLIC_GTM_ID?.trim() ?? "";
@@ -85,7 +92,8 @@ export default function RootLayout({
             </noscript>
           </>
         ) : null}
-        {children}
+        <Providers>{children}</Providers>
+        <CookieConsent />
       </body>
     </html>
   );
