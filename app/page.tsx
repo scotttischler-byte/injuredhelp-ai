@@ -226,12 +226,12 @@ export default function Home() {
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-gray-400 sm:text-lg">
             WreckMatch connects injured accident victims with licensed personal injury attorneys in their
             state — for free, in under 60 seconds. No fees unless you win. The law firms in our network have
-            secured <strong className="font-semibold text-gray-200">$1 billion+</strong> for clients and
+            secured <strong className="font-semibold text-gray-200">over $1 billion</strong> for clients and
             maintain a <strong className="font-semibold text-gray-200">99.9% success rate</strong>
             <sup className="text-red-400">*</sup>.
           </p>
           <div className="mx-auto mt-8 flex max-w-3xl flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-white sm:text-base">
-            <span>✅ $1B+ partner recoveries</span>
+            <span>✅ Over $1 billion partner recoveries</span>
             <span className="hidden text-gray-600 sm:inline">|</span>
             <span>✅ 99.9% network success rate</span>
             <span className="hidden text-gray-600 sm:inline">|</span>
@@ -274,7 +274,7 @@ export default function Home() {
         <span>🇺🇸 All 50 States</span>
         <span>📋 HIPAA Compliant Intake</span>
         <span>⭐ 4.9/5 Client Rating</span>
-        <span>🏆 $1B+ · 99.9% partner network</span>
+        <span>🏆 Over $1 billion · 99.9% partner network</span>
       </div>
 
       {/* SECTION C — LEAD FORM */}
@@ -460,20 +460,20 @@ export default function Home() {
       <section className="bg-gray-950 px-4 py-10">
         <div className="mx-auto grid max-w-5xl grid-cols-2 gap-8 text-center md:grid-cols-4 md:gap-4">
           <div>
-            <p className="text-2xl font-bold text-white sm:text-3xl">$1B+</p>
-            <p className="mt-1 text-sm text-gray-400">Recovered by partner law firms</p>
+            <p className="text-xl font-bold leading-tight text-white sm:text-2xl md:text-3xl">$1 Billion+</p>
+            <p className="mt-1 text-sm text-gray-400">Total recoveries — partner law firms</p>
           </div>
           <div>
             <p className="text-2xl font-bold text-white sm:text-3xl">99.9%</p>
             <p className="mt-1 text-sm text-gray-400">Success rate — our network</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-white sm:text-3xl">50 States</p>
-            <p className="mt-1 text-sm text-gray-400">Nationwide coverage</p>
+            <p className="text-2xl font-bold text-white sm:text-3xl">50</p>
+            <p className="mt-1 text-sm text-gray-400">States covered nationwide</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-white sm:text-3xl">&lt; 60 sec</p>
-            <p className="mt-1 text-sm text-gray-400">Time to reach attorney team</p>
+            <p className="text-2xl font-bold text-white sm:text-3xl">&lt;60s</p>
+            <p className="mt-1 text-sm text-gray-400">To reach attorney team</p>
           </div>
         </div>
         <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-relaxed text-gray-500">
@@ -494,9 +494,9 @@ export default function Home() {
           Real People. Real Results.
         </h2>
         <p className="mx-auto mb-6 max-w-2xl text-center text-sm text-gray-600 sm:text-base">
-          You&apos;re joining clients matched to firms that have delivered <strong className="text-gray-800">$1B+</strong>{" "}
-          in results with a <strong className="text-gray-800">99.9%</strong> success rate across our attorney
-          network
+          You&apos;re joining clients matched to firms that have delivered{" "}
+          <strong className="text-gray-800">over $1 billion</strong> in results with a{" "}
+          <strong className="text-gray-800">99.9%</strong> success rate across our attorney network
           <sup className="font-semibold text-red-600">*</sup>.
         </p>
         <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
@@ -556,7 +556,7 @@ export default function Home() {
               {
                 emoji: "⚖️",
                 title: "Get Matched to an Attorney",
-                body: "Licensed PI lawyers from a network with $1B+ recovered and a 99.9% track record.",
+                body: "Licensed PI lawyers from a network with over $1 billion recovered and a 99.9% track record.",
               },
               {
                 emoji: "💰",
@@ -582,7 +582,7 @@ export default function Home() {
       {/* SECTION G — TRUST BAR */}
       <section className="bg-gray-950 px-4 py-6">
         <p className="mx-auto flex max-w-4xl flex-wrap justify-center gap-x-2 gap-y-2 text-center text-sm text-white sm:text-base">
-          <span>🏆 $1B+ · 99.9% partner network</span>
+          <span>🏆 Over $1 billion · 99.9% partner network</span>
           <span className="hidden sm:inline">&nbsp;|&nbsp;</span>
           <span>🔒 Secure & Confidential</span>
           <span className="hidden sm:inline">&nbsp;|&nbsp;</span>
@@ -663,7 +663,7 @@ export default function Home() {
             circumstances. By submitting you consent to be contacted by phone and SMS.
           </p>
           <p>
-            <sup className="text-gray-600">*</sup> References to aggregate recoveries (e.g. $1B+) and
+            <sup className="text-gray-600">*</sup> References to aggregate recoveries (over $1 billion) and
             success rates (e.g. 99.9%) reflect partner-firm-reported network data as described in the{" "}
             <a href="#advertising-legal-notice" className="text-gray-400 underline hover:text-gray-300">
               Advertising &amp; legal notice
