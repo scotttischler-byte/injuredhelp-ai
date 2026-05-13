@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { insertLead } from "@/lib/db";
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 /** Mirrors lead capture for the admin dashboard (does not replace GHL / Twilio / Retell). */
 export async function POST(req: NextRequest) {
   try {
@@ -8,13 +10,15 @@ export async function POST(req: NextRequest) {
       firstName?: string;
       lastName?: string;
       phone?: string;
+      email?: string;
       state?: string;
       timing?: string;
       injuries?: string[];
       source?: string;
     };
 
-    if (!body.firstName || !body.phone || !body.state) {
+    const emailTrimmed = body.email?.trim() ?? "";
+    if (!body.firstName || !body.phone || !body.state || !emailTrimmed || !EMAIL_RE.test(emailTrimmed)) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
@@ -22,6 +26,7 @@ export async function POST(req: NextRequest) {
       firstName: body.firstName,
       lastName: body.lastName,
       phone: body.phone,
+      email: emailTrimmed,
       state: body.state,
       timing: body.timing,
       injuries: body.injuries,

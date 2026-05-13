@@ -6,12 +6,19 @@ const twilioClient = twilio(
   process.env.TWILIO_AUTH_TOKEN!
 );
 
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 export async function POST(req: NextRequest) {
   try {
-    const { firstName, lastName, phone, state, timing, injuries } = await req.json();
+    const { firstName, lastName, phone, email, state, timing, injuries } = await req.json();
 
     if (!firstName || !phone || !state || !timing) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+    }
+
+    const emailTrimmed = typeof email === "string" ? email.trim() : "";
+    if (!emailTrimmed || !EMAIL_RE.test(emailTrimmed)) {
+      return NextResponse.json({ error: "Missing or invalid email" }, { status: 400 });
     }
 
     const cleanPhone = phone.replace(/\D/g, "");
@@ -21,7 +28,7 @@ export async function POST(req: NextRequest) {
     const results = await Promise.allSettled([
       // 1. Twilio SMS
       twilioClient.messages.create({
-        body: `Hi ${firstName}! We received your injury case request. An attorney's team is calling you right now. Questions? Reply anytime.`,
+        body: `Hi ${firstName}! We received your injury case request (${emailTrimmed}). An attorney's team is calling you right now. Questions? Reply anytime.`,
         from: process.env.TWILIO_PHONE_NUMBER!,
         to: e164Phone,
       }),
@@ -39,6 +46,7 @@ export async function POST(req: NextRequest) {
           agent_id: process.env.RETELL_AGENT_ID!,
           retell_llm_dynamic_variables: {
             lead_name: firstName,
+            lead_email: emailTrimmed,
             lead_state: state,
             accident_timing: timing,
             injury_types: injuries?.join(", ") || "Not specified",
@@ -52,6 +60,7 @@ export async function POST(req: NextRequest) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: fullName,
+          email: emailTrimmed,
           phone: e164Phone,
           state,
           accident_timing: timing,

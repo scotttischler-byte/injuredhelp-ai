@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS leads (
   first_name TEXT NOT NULL,
   last_name TEXT,
   phone TEXT NOT NULL,
+  email TEXT,
   state TEXT NOT NULL,
   timing TEXT,
   injuries TEXT,

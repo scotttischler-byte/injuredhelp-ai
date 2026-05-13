@@ -31,6 +31,7 @@ export type LeadRow = {
   first_name: string;
   last_name: string | null;
   phone: string;
+  email: string | null;
   state: string;
   timing: string | null;
   injuries: string | null;
@@ -43,6 +44,7 @@ export async function insertLead(input: {
   firstName: string;
   lastName?: string;
   phone: string;
+  email?: string | null;
   state: string;
   timing?: string;
   injuries?: string[];
@@ -52,12 +54,14 @@ export async function insertLead(input: {
   const sql = getSql();
   if (!sql) throw new Error("DATABASE_URL is not configured");
   const injuries = input.injuries?.length ? input.injuries.join(", ") : null;
+  const email = input.email?.trim() || null;
   await sql`
-    INSERT INTO leads (first_name, last_name, phone, state, timing, injuries, source, ghl_synced)
+    INSERT INTO leads (first_name, last_name, phone, email, state, timing, injuries, source, ghl_synced)
     VALUES (
       ${input.firstName},
       ${input.lastName ?? null},
       ${input.phone},
+      ${email},
       ${input.state},
       ${input.timing ?? null},
       ${injuries},

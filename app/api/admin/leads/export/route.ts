@@ -7,13 +7,26 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   const leads = await listLeads(2000);
-  const header = ["id", "first_name", "last_name", "phone", "state", "timing", "injuries", "source", "ghl_synced", "created_at"];
+  const header = [
+    "id",
+    "first_name",
+    "last_name",
+    "phone",
+    "email",
+    "state",
+    "timing",
+    "injuries",
+    "source",
+    "ghl_synced",
+    "created_at",
+  ];
   const lines = leads.map((l) =>
     [
       l.id,
       csv(l.first_name),
       csv(l.last_name ?? ""),
       csv(l.phone),
+      csv(l.email ?? ""),
       csv(l.state),
       csv(l.timing ?? ""),
       csv(l.injuries ?? ""),

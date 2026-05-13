@@ -16,7 +16,7 @@ export default async function AdminLeadsPage({ searchParams }: Props) {
     if (state && l.state !== state) return false;
     if (source && (l.source ?? "") !== source) return false;
     if (!q) return true;
-    const hay = `${l.first_name} ${l.last_name ?? ""} ${l.phone}`.toLowerCase();
+    const hay = `${l.first_name} ${l.last_name ?? ""} ${l.phone} ${l.email ?? ""}`.toLowerCase();
     return hay.includes(q);
   });
 
@@ -41,7 +41,7 @@ export default async function AdminLeadsPage({ searchParams }: Props) {
         <input
           name="q"
           defaultValue={q}
-          placeholder="Search name or phone"
+          placeholder="Search name, phone, or email"
           className="rounded-lg border border-gray-800 bg-gray-950 px-3 py-2 text-sm text-white"
         />
         <input
@@ -70,6 +70,7 @@ export default async function AdminLeadsPage({ searchParams }: Props) {
             <tr>
               <th className="px-4 py-3">Name</th>
               <th className="px-4 py-3">Phone</th>
+              <th className="px-4 py-3">Email</th>
               <th className="px-4 py-3">State</th>
               <th className="px-4 py-3">Injuries</th>
               <th className="px-4 py-3">Timing</th>
@@ -85,6 +86,7 @@ export default async function AdminLeadsPage({ searchParams }: Props) {
                   {l.first_name} {l.last_name ?? ""}
                 </td>
                 <td className="px-4 py-3 text-gray-200">{l.phone}</td>
+                <td className="px-4 py-3 text-gray-200">{l.email ?? "—"}</td>
                 <td className="px-4 py-3 text-gray-200">{l.state}</td>
                 <td className="px-4 py-3 text-gray-400">{l.injuries ?? "—"}</td>
                 <td className="px-4 py-3 text-gray-400">{l.timing ?? "—"}</td>
