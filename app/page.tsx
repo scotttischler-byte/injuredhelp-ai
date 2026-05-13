@@ -225,17 +225,35 @@ export default function Home() {
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-gray-400 sm:text-lg">
             WreckMatch connects injured accident victims with licensed personal injury attorneys in their
-            state — for free, in under 60 seconds. No fees unless you win.
+            state — for free, in under 60 seconds. No fees unless you win. The law firms in our network have
+            secured <strong className="font-semibold text-gray-200">$1 billion+</strong> for clients and
+            maintain a <strong className="font-semibold text-gray-200">99.9% success rate</strong>
+            <sup className="text-red-400">*</sup>.
           </p>
           <div className="mx-auto mt-8 flex max-w-3xl flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-white sm:text-base">
+            <span>✅ $1B+ partner recoveries</span>
+            <span className="hidden text-gray-600 sm:inline">|</span>
+            <span>✅ 99.9% network success rate</span>
+            <span className="hidden text-gray-600 sm:inline">|</span>
             <span>✅ Zero upfront cost</span>
             <span className="hidden text-gray-600 sm:inline">|</span>
             <span>✅ Contingency only</span>
             <span className="hidden text-gray-600 sm:inline">|</span>
             <span>✅ All 50 states</span>
-            <span className="hidden text-gray-600 sm:inline">|</span>
-            <span>✅ Attorney reviewed</span>
           </div>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-xs leading-relaxed text-gray-500">
+            <sup className="font-semibold text-red-400">*</sup>
+            <strong className="text-gray-400"> Legal notice:</strong> Dollar and success-rate figures describe
+            cumulative, historical results self-reported by independent partner law firms in our referral
+            network—not WreckMatch, which is not a law firm.{" "}
+            <a
+              href="#advertising-legal-notice"
+              className="font-medium text-red-400 underline decoration-red-400/50 underline-offset-2 hover:text-red-300"
+            >
+              Read full disclaimer
+            </a>
+            .
+          </p>
           <div className="mt-10 flex flex-col items-center gap-3">
             <a
               href="tel:18000000000"
@@ -256,6 +274,7 @@ export default function Home() {
         <span>🇺🇸 All 50 States</span>
         <span>📋 HIPAA Compliant Intake</span>
         <span>⭐ 4.9/5 Client Rating</span>
+        <span>🏆 $1B+ · 99.9% partner network</span>
       </div>
 
       {/* SECTION C — LEAD FORM */}
@@ -441,8 +460,12 @@ export default function Home() {
       <section className="bg-gray-950 px-4 py-10">
         <div className="mx-auto grid max-w-5xl grid-cols-2 gap-8 text-center md:grid-cols-4 md:gap-4">
           <div>
-            <p className="text-2xl font-bold text-white sm:text-3xl">$2.4M+</p>
-            <p className="mt-1 text-sm text-gray-400">Average settlement recovered</p>
+            <p className="text-2xl font-bold text-white sm:text-3xl">$1B+</p>
+            <p className="mt-1 text-sm text-gray-400">Recovered by partner law firms</p>
+          </div>
+          <div>
+            <p className="text-2xl font-bold text-white sm:text-3xl">99.9%</p>
+            <p className="mt-1 text-sm text-gray-400">Success rate — our network</p>
           </div>
           <div>
             <p className="text-2xl font-bold text-white sm:text-3xl">50 States</p>
@@ -452,18 +475,30 @@ export default function Home() {
             <p className="text-2xl font-bold text-white sm:text-3xl">&lt; 60 sec</p>
             <p className="mt-1 text-sm text-gray-400">Time to reach attorney team</p>
           </div>
-          <div>
-            <p className="text-2xl font-bold text-white sm:text-3xl">100%</p>
-            <p className="mt-1 text-sm text-gray-400">Free, no obligation</p>
-          </div>
         </div>
+        <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-relaxed text-gray-500">
+          <sup className="font-semibold text-red-400">*</sup> Totals and percentages are aggregate,
+          self-reported figures from independent partner law firms in the WreckMatch network over time, not
+          averages per client or per case. &quot;Success rate&quot; reflects each firm&apos;s internal
+          methodology (definitions vary) and is not independently audited by WreckMatch. Past results do not
+          guarantee future outcomes.{" "}
+          <a href="#advertising-legal-notice" className="text-red-400 underline hover:text-red-300">
+            Full disclaimer
+          </a>
+        </p>
       </section>
 
       {/* SECTION E — TESTIMONIALS */}
       <section className="bg-gray-200 px-4 py-14 sm:py-16">
-        <h2 className="mb-10 text-center text-2xl font-bold text-gray-900 sm:text-3xl">
+        <h2 className="mb-3 text-center text-2xl font-bold text-gray-900 sm:text-3xl">
           Real People. Real Results.
         </h2>
+        <p className="mx-auto mb-6 max-w-2xl text-center text-sm text-gray-600 sm:text-base">
+          You&apos;re joining clients matched to firms that have delivered <strong className="text-gray-800">$1B+</strong>{" "}
+          in results with a <strong className="text-gray-800">99.9%</strong> success rate across our attorney
+          network
+          <sup className="font-semibold text-red-600">*</sup>.
+        </p>
         <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
           {[
             {
@@ -521,7 +556,7 @@ export default function Home() {
               {
                 emoji: "⚖️",
                 title: "Get Matched to an Attorney",
-                body: "Licensed, experienced, contingency-only.",
+                body: "Licensed PI lawyers from a network with $1B+ recovered and a 99.9% track record.",
               },
               {
                 emoji: "💰",
@@ -547,6 +582,8 @@ export default function Home() {
       {/* SECTION G — TRUST BAR */}
       <section className="bg-gray-950 px-4 py-6">
         <p className="mx-auto flex max-w-4xl flex-wrap justify-center gap-x-2 gap-y-2 text-center text-sm text-white sm:text-base">
+          <span>🏆 $1B+ · 99.9% partner network</span>
+          <span className="hidden sm:inline">&nbsp;|&nbsp;</span>
           <span>🔒 Secure & Confidential</span>
           <span className="hidden sm:inline">&nbsp;|&nbsp;</span>
           <span>🇺🇸 Licensed Attorneys in All 50 States</span>
@@ -574,15 +611,64 @@ export default function Home() {
         </Link>
       </section>
 
+      {/* ADVERTISING & LEGAL NOTICE */}
+      <section
+        id="advertising-legal-notice"
+        className="border-t border-gray-800 bg-gray-900 px-4 py-12 scroll-mt-20"
+      >
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-4 text-center text-sm font-bold uppercase tracking-wider text-gray-400">
+            Advertising &amp; legal notice
+          </h2>
+          <div className="space-y-4 text-xs leading-relaxed text-gray-500 sm:text-sm">
+            <p>
+              <strong className="text-gray-400">WreckMatch is not a law firm</strong> and does not provide
+              legal advice or legal services. We operate a legal matching and referral service. Any dollar
+              amounts, recovery totals, success rates, percentages, or similar performance statements on this
+              page describe <strong className="text-gray-400">cumulative, historical, aggregate figures</strong>{" "}
+              self-reported by <strong className="text-gray-400">independent partner law firms</strong> in
+              our network over time. They are <strong className="text-gray-400">not</strong> a representation
+              of what any one client received, what you will receive, or average outcomes.
+            </p>
+            <p>
+              <strong className="text-gray-400">&quot;Success rate&quot;</strong> (including references such
+              as 99.9%) reflects metrics and definitions used internally by partner firms; methodologies and
+              inclusion criteria vary by firm and matter type. WreckMatch does{" "}
+              <strong className="text-gray-400">not</strong> independently verify every underlying case file
+              or outcome. Figures are provided for general informational purposes and may be updated from
+              time to time.
+            </p>
+            <p>
+              <strong className="text-gray-400">No guarantee:</strong> Past results, statistics, or
+              testimonials do not guarantee, warrant, or predict future results. Every case is different.
+              Attorney availability, fee arrangements, and results depend on the facts, jurisdiction, and
+              the lawyer you hire—not WreckMatch.
+            </p>
+            <p>
+              Submitting a form does not create an attorney-client relationship with WreckMatch. By
+              submitting, you consent to be contacted by phone and SMS regarding your inquiry.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* SECTION I — FOOTER */}
       <footer className="bg-gray-950 px-4 py-10">
         <div className="mx-auto max-w-3xl text-center text-xs leading-relaxed text-gray-500">
           <p className="mb-2 text-gray-400">© 2026 WreckMatch — All rights reserved.</p>
-          <p>
+          <p className="mb-3">
             WreckMatch is a legal matching and referral service, not a law firm and does not provide legal
             advice. Submitting this form does not create an attorney-client relationship. Available in all
             50 states. Attorney availability varies by state and case type. Results vary based on individual
             circumstances. By submitting you consent to be contacted by phone and SMS.
+          </p>
+          <p>
+            <sup className="text-gray-600">*</sup> References to aggregate recoveries (e.g. $1B+) and
+            success rates (e.g. 99.9%) reflect partner-firm-reported network data as described in the{" "}
+            <a href="#advertising-legal-notice" className="text-gray-400 underline hover:text-gray-300">
+              Advertising &amp; legal notice
+            </a>{" "}
+            above; they are not promises or predictions for your case.
           </p>
         </div>
       </footer>
