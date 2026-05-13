@@ -142,9 +142,9 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       if (!form.timing) errs.timing = c.errTiming;
       if (form.injuries.length === 0) errs.injuries = c.errInjuries;
     }
-    if (variant === "guide") {
-      if (!form.email.trim()) errs.email = "Email is required.";
-      else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) errs.email = "Enter a valid email.";
+    if (!form.email.trim()) errs.email = "Email is required.";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
+      errs.email = "Enter a valid email.";
     }
     setFieldErrors(errs);
     return Object.keys(errs).length === 0;
@@ -168,7 +168,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       timing,
       injuries,
       source,
-      email: form.email.trim() || undefined,
+      email: form.email.trim(),
       smsOptIn: form.smsOptIn,
       language,
     };
@@ -189,6 +189,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           firstName: body.firstName,
           lastName: body.lastName,
           phone: body.phone,
+          email: body.email,
           state: body.state,
           timing: body.timing,
           injuries: body.injuries,
@@ -201,7 +202,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           lastName,
           phone: form.phone,
           state: form.state,
-          email: form.email.trim() || undefined,
+          email: form.email.trim(),
         });
       }
       const dest =
@@ -295,25 +296,6 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
             ) : null}
           </div>
 
-          {showGuideExtras ? (
-            <div>
-              <label htmlFor="wm-email" className={labelClass}>
-                Email
-              </label>
-              <input
-                id="wm-email"
-                name="email"
-                type="email"
-                autoComplete="email"
-                aria-required="true"
-                className={inputClass}
-                value={form.email}
-                onChange={(e) => setForm({ ...form, email: e.target.value })}
-              />
-              {fieldErrors.email && <p className="mt-1 text-sm text-red-700">{fieldErrors.email}</p>}
-            </div>
-          ) : null}
-
           <div>
             <label htmlFor="wm-phone" className={labelClass}>
               {c.phone}
@@ -324,13 +306,31 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
               type="tel"
               inputMode="tel"
               autoComplete="tel"
-              placeholder="Sarah — AI Accident Specialist"
+              placeholder="Your phone number"
               aria-required="true"
               className={`${inputClass} py-4 text-lg`}
               value={form.phone}
               onChange={(e) => setForm({ ...form, phone: formatPhone(e.target.value) })}
             />
             {fieldErrors.phone && <p className="mt-1 text-sm text-red-700">{fieldErrors.phone}</p>}
+          </div>
+
+          <div>
+            <label htmlFor="wm-email" className={labelClass}>
+              EMAIL ADDRESS
+            </label>
+            <input
+              id="wm-email"
+              name="email"
+              type="email"
+              autoComplete="email"
+              placeholder="Your email address"
+              aria-required="true"
+              className={inputClass}
+              value={form.email}
+              onChange={(e) => setForm({ ...form, email: e.target.value })}
+            />
+            {fieldErrors.email && <p className="mt-1 text-sm text-red-700">{fieldErrors.email}</p>}
           </div>
 
           <div>
