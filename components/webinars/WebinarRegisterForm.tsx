@@ -1,6 +1,11 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import {
+  getTikTokAttribution,
+  newTikTokEventId,
+  trackTikTokLeadBrowser,
+} from "@/lib/tiktok-attribution";
 
 declare global {
   interface Window {
@@ -21,6 +26,10 @@ export function WebinarRegisterForm({ slug }: { slug: string }) {
     setStatus("loading");
     setMessage(null);
     try {
+      const tiktokEventId = newTikTokEventId();
+      const { ttclid, ttp } = getTikTokAttribution();
+      trackTikTokLeadBrowser(tiktokEventId);
+
       const submitBody = {
         firstName,
         lastName: "-",
@@ -30,6 +39,10 @@ export function WebinarRegisterForm({ slug }: { slug: string }) {
         timing: "Within the last 30 days",
         injuries: ["❓ Not Sure"],
         source: "webinar-registration",
+        ttclid,
+        ttp,
+        tiktokEventId,
+        pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
       };
 
       const submitRes = await fetch("/api/submit", {

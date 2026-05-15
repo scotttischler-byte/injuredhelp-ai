@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import twilio from "twilio";
+import { trackTikTokLead } from "@/lib/tiktok-events";
 
 const twilioClient = twilio(
   process.env.TWILIO_ACCOUNT_SID!,
@@ -11,8 +12,21 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export async function POST(req: NextRequest) {
   try {
-    const { firstName, lastName, phone, email, state, timing, injuries, source, language } =
-      await req.json();
+    const {
+      firstName,
+      lastName,
+      phone,
+      email,
+      state,
+      timing,
+      injuries,
+      source,
+      language,
+      ttclid,
+      ttp,
+      tiktokEventId,
+      pageUrl,
+    } = await req.json();
 
     if (!firstName || !phone || !state || !timing) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
@@ -61,10 +75,17 @@ export async function POST(req: NextRequest) {
 
     const twimlSay = `<Response><Say voice="alice">New WreckMatch lead. ${firstName} from ${state}. Injury type: ${injuryRows.join(" and ")}. Their number is ${phone.split("").join(" ")}. Calling them now.</Say></Response>`;
 
+    const clientIp =
+      req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      req.headers.get("x-real-ip")?.trim() ||
+      null;
+    const userAgent = req.headers.get("user-agent");
+
     const settledLabels = [
       "twilio_lead_sms",
       "retell",
       "ghl",
+      "tiktok_lead",
       "email_scott",
       "email_cathy",
       "call_scott",
@@ -118,6 +139,19 @@ export async function POST(req: NextRequest) {
           source: "InjuredHelp.ai",
           timestamp: new Date().toISOString(),
         }),
+      }),
+
+      // TikTok Events API — Lead (server-side)
+      trackTikTokLead({
+        email: emailTrimmed,
+        phoneE164: e164Phone,
+        pageUrl: typeof pageUrl === "string" ? pageUrl : "https://www.injuredhelp.ai/",
+        ip: clientIp,
+        userAgent,
+        ttclid: typeof ttclid === "string" ? ttclid : null,
+        ttp: typeof ttp === "string" ? ttp : null,
+        eventId: typeof tiktokEventId === "string" ? tiktokEventId : undefined,
+        state,
       }),
 
       // Email to Scott
