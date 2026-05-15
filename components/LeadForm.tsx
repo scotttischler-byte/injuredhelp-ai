@@ -8,6 +8,7 @@ import {
   getTikTokAttribution,
   newTikTokEventId,
   saveTikTokLeadSession,
+  trackTikTokCompleteRegistration,
   trackTikTokLeadBrowser,
   trackTikTokSubmitForm,
 } from "@/lib/tiktok-attribution";
@@ -203,6 +204,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         body: JSON.stringify(body),
       });
       if (!res.ok) throw new Error("Failed");
+      trackTikTokCompleteRegistration(tiktokEventId);
       pushLeadSubmitted();
       trackLeadConversion();
       void fetch("/api/leads", {

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const FOOTER_DISCLAIMER = `WreckMatch is a legal matching and referral service, not a law firm and does not provide legal advice. Submitting this form does not create an attorney-client relationship. Available in all 50 states. Attorney availability varies by state and case type. Results vary based on individual circumstances. By submitting you consent to be contacted by phone and SMS.`;
 
 type Props = {
-  searchParams: Promise<{ firstName?: string | string[]; tiktokEventId?: string | string[] }>;
+  searchParams: Promise<{ firstName?: string | string[] }>;
 };
 
 function firstParam(value: string | string[] | undefined): string {
@@ -31,12 +31,10 @@ export default async function ThankYouPage({ searchParams }: Props) {
   const sp = await searchParams;
   const raw = firstParam(sp.firstName).trim();
   const displayName = raw ? safeDecode(raw) : "";
-  const tiktokEventIdRaw = firstParam(sp.tiktokEventId).trim();
-  const tiktokEventId = tiktokEventIdRaw ? safeDecode(tiktokEventIdRaw) : undefined;
 
   return (
     <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
-      <TikTokThankYouFunnel eventId={tiktokEventId} />
+      <TikTokThankYouFunnel />
       <main className="flex flex-1 flex-col items-center justify-center px-4 py-16">
         <ThankYouCard displayName={displayName} />
       </main>

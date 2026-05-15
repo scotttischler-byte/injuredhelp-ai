@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import twilio from "twilio";
-import { trackTikTokLead, trackTikTokSubmitForm } from "@/lib/tiktok-events";
+import {
+  trackTikTokCompleteRegistration,
+  trackTikTokLead,
+  trackTikTokSubmitForm,
+} from "@/lib/tiktok-events";
 
 const twilioClient = twilio(
   process.env.TWILIO_ACCOUNT_SID!,
@@ -87,6 +91,7 @@ export async function POST(req: NextRequest) {
       "ghl",
       "tiktok_submit_form",
       "tiktok_lead",
+      "tiktok_complete_registration",
       "email_scott",
       "email_cathy",
       "call_scott",
@@ -158,6 +163,7 @@ export async function POST(req: NextRequest) {
         return Promise.all([
           trackTikTokSubmitForm(tiktokBase),
           trackTikTokLead(tiktokBase),
+          trackTikTokCompleteRegistration(tiktokBase),
         ]);
       })(),
 
