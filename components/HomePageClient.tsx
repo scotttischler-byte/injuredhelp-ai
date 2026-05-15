@@ -8,22 +8,18 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { ACTIVITY_MESSAGES } from "@/lib/homeTranslations";
 import { ALL_STATES } from "@/lib/states";
 
-const EXIT_MODAL_KEY = "wreckmatch_exit_modal_shown";
-
 export function HomePageClient() {
   const { lang, t } = useLanguage();
   const [slotsRemaining, setSlotsRemaining] = useState<number | null>(null);
   const [toastVisible, setToastVisible] = useState(false);
   const [toastIndex, setToastIndex] = useState(0);
   const [toastDismissed, setToastDismissed] = useState(false);
-  const [exitModalOpen, setExitModalOpen] = useState(false);
   const [faqOpen, setFaqOpen] = useState<number | null>(null);
   const [formInView, setFormInView] = useState(false);
   const [stepsVisible, setStepsVisible] = useState(false);
 
   const stepsSectionRef = useRef<HTMLElement>(null);
   const formCardRef = useRef<HTMLDivElement>(null);
-  const lastActivityRef = useRef(0);
 
   /* Urgency slots: UI-only random 3–7 on client mount (not a live inventory system). */
   useEffect(() => {
@@ -75,49 +71,6 @@ export function HomePageClient() {
     io.observe(el);
     return () => io.disconnect();
   }, []);
-
-  const tryShowExitModal = useCallback(() => {
-    if (typeof window === "undefined") return;
-    if (sessionStorage.getItem(EXIT_MODAL_KEY)) return;
-    sessionStorage.setItem(EXIT_MODAL_KEY, "1");
-    setExitModalOpen(true);
-  }, []);
-
-  /* Desktop exit intent */
-  useEffect(() => {
-    const onLeave = (e: MouseEvent) => {
-      if (e.clientY > 24) return;
-      tryShowExitModal();
-    };
-    document.documentElement.addEventListener("mouseleave", onLeave);
-    return () => document.documentElement.removeEventListener("mouseleave", onLeave);
-  }, [tryShowExitModal]);
-
-  /* Mobile: 45s inactivity */
-  useEffect(() => {
-    const isCoarse = window.matchMedia("(pointer: coarse)").matches;
-    if (!isCoarse) return;
-
-    const bump = () => {
-      lastActivityRef.current = Date.now();
-    };
-    bump();
-    const events = ["touchstart", "scroll", "keydown", "click"] as const;
-    events.forEach((ev) => window.addEventListener(ev, bump, { passive: true }));
-
-    const tick = () => {
-      if (Date.now() - lastActivityRef.current >= 45000) {
-        tryShowExitModal();
-        clearInterval(iv);
-      }
-    };
-    const iv = setInterval(tick, 1000);
-
-    return () => {
-      events.forEach((ev) => window.removeEventListener(ev, bump));
-      clearInterval(iv);
-    };
-  }, [tryShowExitModal]);
 
   const scrollToForm = useCallback(() => {
     document.getElementById("form")?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -474,49 +427,6 @@ export function HomePageClient() {
           </p>
         </div>
       </footer>
-
-      {/* Exit intent modal */}
-      {exitModalOpen && (
-        <div
-          className="fixed inset-0 z-[60] flex items-center justify-center bg-black/60 p-4 transition-opacity duration-200"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="exit-modal-title"
-        >
-          <div className="relative w-full max-w-md rounded-2xl bg-white p-6 shadow-2xl transition-all duration-200">
-            <button
-              type="button"
-              className="absolute right-3 top-3 rounded-lg px-2 py-1 text-sm text-gray-500 transition-all duration-200 hover:bg-gray-100"
-              onClick={() => setExitModalOpen(false)}
-              aria-label="Close"
-            >
-              ✕
-            </button>
-            <p className="text-center text-xs font-bold uppercase tracking-wider text-[#cc0000]">{t.exitBadge}</p>
-            <h2 id="exit-modal-title" className="mt-2 text-center text-xl font-bold text-gray-900 sm:text-2xl">
-              {t.exitTitle}
-            </h2>
-            <p className="mt-3 text-center text-sm text-gray-600">{t.exitBody}</p>
-            <button
-              type="button"
-              className="mt-6 w-full rounded-xl bg-[#cc0000] py-3 text-base font-bold text-white transition-opacity duration-200 hover:bg-[#b30000]"
-              onClick={() => {
-                setExitModalOpen(false);
-                scrollToForm();
-              }}
-            >
-              {t.exitCta}
-            </button>
-            <button
-              type="button"
-              className="mt-3 w-full text-center text-xs text-gray-500 transition-opacity duration-200 hover:text-gray-700"
-              onClick={() => setExitModalOpen(false)}
-            >
-              {t.exitDismiss}
-            </button>
-          </div>
-        </div>
-      )}
 
       {/* Activity toast */}
       {toastVisible && !toastDismissed && (

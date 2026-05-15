@@ -97,11 +97,6 @@ export type HomeCopy = {
   footerP2: string;
   advertisingHeading: string;
   advertisingBlocks: string[];
-  exitBadge: string;
-  exitTitle: string;
-  exitBody: string;
-  exitCta: string;
-  exitDismiss: string;
   activityLabel: string;
   leadFormSr: string;
   heroLegalPrefix: string;
@@ -320,11 +315,6 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
       "No guarantee: Past results, statistics, or testimonials do not guarantee, warrant, or predict future results. Every case is different. Attorney availability, fee arrangements, and results depend on the facts, jurisdiction, and the lawyer you hire—not WreckMatch.",
       "Submitting a form does not create an attorney-client relationship with WreckMatch. By submitting, you consent to be contacted by phone and SMS regarding your inquiry.",
     ],
-    exitBadge: "WreckMatch",
-    exitTitle: "Wait — Don't Leave Without Getting Help",
-    exitBody: "You may be owed significant compensation. It takes 30 seconds and costs nothing.",
-    exitCta: "Get My Free Case Review →",
-    exitDismiss: "No thanks, I'll handle it myself",
     activityLabel: "Recent activity:",
     leadFormSr: "Request free legal help after a car accident",
     heroLegalPrefix: "Legal notice:",
@@ -417,11 +407,6 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
       "Sin garantía: Resultados pasados o testimonios no garantizan resultados futuros. Cada caso es distinto. La disponibilidad del abogado y los honorarios dependen de los hechos y la jurisdicción.",
       "Enviar un formulario no crea relación abogado-cliente con WreckMatch. Al enviar aceptas ser contactado por teléfono y SMS.",
     ],
-    exitBadge: "WreckMatch",
-    exitTitle: "Espera — no te vayas sin obtener ayuda",
-    exitBody: "Podrías tener derecho a compensación importante. Toma 30 segundos y no cuesta nada.",
-    exitCta: "Obtener mi revisión de caso gratis →",
-    exitDismiss: "No gracias, lo manejaré solo",
     activityLabel: "Actividad reciente:",
     leadFormSr: "Solicitar ayuda legal gratuita después de un accidente de auto",
     heroLegalPrefix: "Aviso legal:",
