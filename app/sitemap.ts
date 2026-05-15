@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/thank-you`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
     { url: `${base}/webinars`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${base}/press`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
   ];
 
   const webinars = WEBINARS.map((w) => ({
