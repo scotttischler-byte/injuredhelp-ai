@@ -4,7 +4,9 @@ import { FormEvent, useState } from "react";
 import {
   getTikTokAttribution,
   newTikTokEventId,
+  saveTikTokLeadSession,
   trackTikTokLeadBrowser,
+  trackTikTokSubmitForm,
 } from "@/lib/tiktok-attribution";
 
 declare global {
@@ -28,7 +30,9 @@ export function WebinarRegisterForm({ slug }: { slug: string }) {
     try {
       const tiktokEventId = newTikTokEventId();
       const { ttclid, ttp } = getTikTokAttribution();
+      trackTikTokSubmitForm(tiktokEventId);
       trackTikTokLeadBrowser(tiktokEventId);
+      saveTikTokLeadSession({ tiktokEventId, email, phone, ttclid, ttp });
 
       const submitBody = {
         firstName,

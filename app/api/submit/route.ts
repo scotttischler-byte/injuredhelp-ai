@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import twilio from "twilio";
-import { trackTikTokLead } from "@/lib/tiktok-events";
+import { trackTikTokLead, trackTikTokSubmitForm } from "@/lib/tiktok-events";
 
 const twilioClient = twilio(
   process.env.TWILIO_ACCOUNT_SID!,
@@ -85,6 +85,7 @@ export async function POST(req: NextRequest) {
       "twilio_lead_sms",
       "retell",
       "ghl",
+      "tiktok_submit_form",
       "tiktok_lead",
       "email_scott",
       "email_cathy",
@@ -141,18 +142,24 @@ export async function POST(req: NextRequest) {
         }),
       }),
 
-      // TikTok Events API — Lead (server-side)
-      trackTikTokLead({
-        email: emailTrimmed,
-        phoneE164: e164Phone,
-        pageUrl: typeof pageUrl === "string" ? pageUrl : "https://www.injuredhelp.ai/",
-        ip: clientIp,
-        userAgent,
-        ttclid: typeof ttclid === "string" ? ttclid : null,
-        ttp: typeof ttp === "string" ? ttp : null,
-        eventId: typeof tiktokEventId === "string" ? tiktokEventId : undefined,
-        state,
-      }),
+      // TikTok Events API — SubmitForm + Lead (server-side funnel)
+      (() => {
+        const tiktokBase = {
+          email: emailTrimmed,
+          phoneE164: e164Phone,
+          pageUrl: typeof pageUrl === "string" ? pageUrl : "https://www.injuredhelp.ai/",
+          ip: clientIp,
+          userAgent,
+          ttclid: typeof ttclid === "string" ? ttclid : null,
+          ttp: typeof ttp === "string" ? ttp : null,
+          eventId: typeof tiktokEventId === "string" ? tiktokEventId : undefined,
+          state,
+        };
+        return Promise.all([
+          trackTikTokSubmitForm(tiktokBase),
+          trackTikTokLead(tiktokBase),
+        ]);
+      })(),
 
       // Email to Scott
       resendClient

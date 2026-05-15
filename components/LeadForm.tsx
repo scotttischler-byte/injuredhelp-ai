@@ -7,7 +7,9 @@ import { ALL_STATES } from "@/lib/states";
 import {
   getTikTokAttribution,
   newTikTokEventId,
+  saveTikTokLeadSession,
   trackTikTokLeadBrowser,
+  trackTikTokSubmitForm,
 } from "@/lib/tiktok-attribution";
 import { trackLeadConversion } from "@/lib/trackConversion";
 import { INJURY_OPTIONS, TIMING_OPTIONS, US_STATES } from "@/lib/usStates";
@@ -167,7 +169,15 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
 
     const tiktokEventId = newTikTokEventId();
     const { ttclid, ttp } = getTikTokAttribution();
+    trackTikTokSubmitForm(tiktokEventId);
     trackTikTokLeadBrowser(tiktokEventId);
+    saveTikTokLeadSession({
+      tiktokEventId,
+      email: form.email.trim(),
+      phone: form.phone,
+      ttclid,
+      ttp,
+    });
 
     const body = {
       firstName: form.firstName.trim(),
@@ -220,7 +230,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       }
       const dest =
         thankYouPath?.({ firstName: form.firstName.trim(), source }) ??
-        `/thank-you?firstName=${encodeURIComponent(form.firstName.trim())}&source=${encodeURIComponent(source)}`;
+        `/thank-you?firstName=${encodeURIComponent(form.firstName.trim())}&source=${encodeURIComponent(source)}&tiktokEventId=${encodeURIComponent(tiktokEventId)}`;
       router.push(dest);
     } catch {
       setSubmitStep(1);

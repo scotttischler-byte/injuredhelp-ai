@@ -5,6 +5,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/LanguageContext";
 import { LeadForm } from "@/components/LeadForm";
 import { SiteHeader } from "@/components/SiteHeader";
+import { TikTokHomeFunnel } from "@/components/TikTokFunnel";
+import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
 import { ACTIVITY_MESSAGES } from "@/lib/homeTranslations";
 import { ALL_STATES } from "@/lib/states";
 
@@ -73,6 +75,7 @@ export function HomePageClient() {
   }, []);
 
   const scrollToForm = useCallback(() => {
+    trackTikTokClickButton("scroll_to_form");
     document.getElementById("form")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, []);
 
@@ -97,6 +100,7 @@ export function HomePageClient() {
       className={`min-h-screen bg-gray-100 text-gray-900 md:pb-0 ${!formInView ? "pb-[calc(4.5rem+env(safe-area-inset-bottom,0px))]" : ""}`}
     >
       <SiteHeader />
+      <TikTokHomeFunnel />
 
       {/* SECTION B — HERO */}
       <section className="relative isolate overflow-hidden bg-gray-950 px-4 py-14 sm:py-24">
@@ -168,6 +172,7 @@ export function HomePageClient() {
           <div className="mt-10 flex flex-col items-center gap-3">
             <a
               href="tel:19785156063"
+              onClick={() => trackTikTokClickButton("hero_call")}
               className="inline-flex w-full max-w-md items-center justify-center rounded-xl bg-[#cc0000] px-6 py-4 text-lg font-bold text-white shadow-lg shadow-red-900/40 transition-transform duration-200 hover:scale-[1.02] hover:bg-[#b30000] sm:text-xl"
             >
               {t.callBtn}
@@ -335,6 +340,7 @@ export function HomePageClient() {
         <p className="mx-auto mt-4 max-w-2xl text-base text-red-100">{t.urgencyCtaBody}</p>
         <Link
           href="#form"
+          onClick={() => trackTikTokClickButton("urgency_cta")}
           className="mt-8 inline-flex items-center justify-center rounded-xl bg-white px-8 py-4 text-lg font-bold text-[#cc0000] shadow-lg transition-transform duration-200 hover:scale-[1.02] hover:bg-gray-100"
         >
           {t.urgencyCtaBtn}
@@ -468,6 +474,7 @@ export function HomePageClient() {
       >
         <a
           href="tel:19785156063"
+          onClick={() => trackTikTokClickButton("mobile_call_bar")}
           className="flex flex-1 items-center justify-center bg-gray-900 text-sm font-semibold text-white transition-opacity duration-200 hover:bg-gray-800"
         >
           📞 {t.mobileCtaCall}
