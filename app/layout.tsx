@@ -4,7 +4,12 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { headers } from "next/headers";
 import { CookieConsent } from "@/components/CookieConsent";
 import { Providers } from "@/components/Providers";
-import { siteOriginFromHeaders } from "@/lib/site";
+import {
+  brandFromHeaders,
+  BRAND_CONFIG,
+  siteOriginFromHeaders,
+  type SiteBrand,
+} from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,15 +22,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-function legalServiceJsonLd(origin: string) {
+function legalServiceJsonLd(origin: string, brand: SiteBrand) {
+  const cfg = BRAND_CONFIG[brand];
   return {
     "@context": "https://schema.org",
     "@type": "LegalService",
-    name: "WreckMatch",
-    description:
-      "WreckMatch connects car accident victims with licensed personal injury attorneys in all 50 states.",
+    name: cfg.name,
+    description: `${cfg.name} connects car accident victims with licensed personal injury attorneys in all 50 states.`,
     url: origin,
-    telephone: "+19785156063",
+    telephone: cfg.phone,
     areaServed: "US",
     serviceType: "Personal Injury Legal Referral",
     priceRange: "Free",
@@ -36,24 +41,30 @@ function legalServiceJsonLd(origin: string) {
 export async function generateMetadata(): Promise<Metadata> {
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
+  const brand = brandFromHeaders(h);
+  const cfg = BRAND_CONFIG[brand];
   return {
     metadataBase: new URL(origin),
     title: {
-      default: "WreckMatch – Free Legal Help After Your Car Accident",
-      template: "%s | WreckMatch",
+      default: `${cfg.name} – ${cfg.tagline}`,
+      template: `%s | ${cfg.name}`,
     },
     description:
-      "Were you injured in a car accident? WreckMatch connects you with a licensed personal injury attorney in your state in under 60 seconds. Free, no obligation, contingency only.",
+      brand === "wreckmatch"
+        ? "Were you injured in a car accident? WreckMatch connects you with a licensed personal injury attorney in your state in under 60 seconds. Free, no obligation, contingency only."
+        : `${cfg.name} uses AI to instantly connect accident victims with top personal injury attorneys. Free consultation, no fees unless you win.`,
     icons: { icon: "/favicon.svg" },
     manifest: "/manifest.json",
     robots: { index: true, follow: true },
     openGraph: {
-      title: "WreckMatch – Free Legal Help After Your Car Accident",
+      title: `${cfg.name} – ${cfg.tagline}`,
       description:
         "Injured in a car accident? Get matched with a licensed attorney in seconds. No fees unless you win.",
-      siteName: "WreckMatch",
+      siteName: cfg.name,
       type: "website",
+      url: origin,
     },
+    alternates: { canonical: `${origin}/` },
   };
 }
 
@@ -95,7 +106,8 @@ export default async function RootLayout({
 }>) {
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
-  const jsonLd = legalServiceJsonLd(origin);
+  const brand = brandFromHeaders(h);
+  const jsonLd = legalServiceJsonLd(origin, brand);
 
   return (
     <html

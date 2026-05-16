@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { verifyContentApiKey } from "@/lib/automation-auth";
 import { callClaude } from "@/lib/anthropic";
+import { INJUREDHELP_URL, WRECKMATCH_URL } from "@/lib/site";
 
 export async function POST(req: NextRequest) {
   if (!verifyContentApiKey(req)) {
@@ -16,7 +17,7 @@ export async function POST(req: NextRequest) {
 
   const text = await callClaude({
     system:
-      "You are a legal content writer for WreckMatch. Return MDX with YAML frontmatter only. No guarantees. Include phone (978) 515-6063 and injuredhelp.ai CTA and disclaimer: WreckMatch is a legal referral service, not a law firm.",
+      `You are a legal content writer for WreckMatch. Return MDX with YAML frontmatter only. No guarantees. Include phone (978) 515-6063 and CTAs to ${WRECKMATCH_URL} and ${INJUREDHELP_URL}. Disclaimer: WreckMatch is a legal referral service, not a law firm.`,
     messages: [
       {
         role: "user",

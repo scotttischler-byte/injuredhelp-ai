@@ -31,7 +31,7 @@ export async function GET(req: NextRequest) {
     messages: [
       {
         role: "user",
-        content: `Write a short backlink outreach email from WreckMatch / InjuredHelp.ai to ${target.site_name ?? "site"} (${target.site_url ?? ""}). Goal: mention free Car Accident Survival Guide as a resource. 4 sentences max.`,
+        content: `Write a short backlink outreach email from WreckMatch to ${target.site_name ?? "site"} (${target.site_url ?? ""}). Goal: mention free Car Accident Survival Guide as a resource. 4 sentences max.`,
       },
     ],
     maxTokens: 300,

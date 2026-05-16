@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
-import { siteOriginFromHeaders } from "@/lib/site";
+import { brandFromHeaders, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy | WreckMatch",
-  description:
-    "How WreckMatch and InjuredHelp.ai collect, use, and protect your personal information.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const h = await headers();
+  const brand = brandFromHeaders(h);
+  const cfg = BRAND_CONFIG[brand];
+  return {
+    title: `Privacy Policy | ${cfg.name}`,
+    description: `How ${cfg.name} collects, uses, and protects your personal information.`,
+  };
+}
 
 const LAST_UPDATED = "May 15, 2026";
 
@@ -18,6 +22,8 @@ function Prose({ children }: { children: React.ReactNode }) {
 export default async function PrivacyPage() {
   const h = await headers();
   const siteOrigin = siteOriginFromHeaders(h);
+  const brand = brandFromHeaders(h);
+  const cfg = BRAND_CONFIG[brand];
   const siteHost = siteOrigin.replace(/^https:\/\//, "");
 
   return (
@@ -25,7 +31,7 @@ export default async function PrivacyPage() {
       <header className="border-b border-gray-800">
         <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-4">
           <Link href="/" className="text-sm font-semibold text-red-400 hover:text-red-300">
-            ← Back to WreckMatch
+            ← Back to {cfg.name}
           </Link>
           <a href="tel:+19785156063" className="text-sm text-gray-400 hover:text-white">
             (978) 515-6063
@@ -39,14 +45,13 @@ export default async function PrivacyPage() {
         <p className="mt-2 text-sm text-gray-500">Last updated: {LAST_UPDATED}</p>
 
         <p className="mt-6 text-sm leading-relaxed text-gray-300">
-          This Privacy Policy describes how <strong className="text-white">WreckMatch</strong> (“we,” “us,” or
+          This Privacy Policy describes how <strong className="text-white">{cfg.name}</strong> (“we,” “us,” or
           “our”) collects, uses, and shares information when you visit{" "}
           <Link href="/" className="text-red-400 hover:text-red-300">
             {siteHost}
           </Link>{" "}
-          and related sites (the “Services”). WreckMatch operates InjuredHelp.ai and WreckMatch.com as legal
-          matching and referral services. We are <strong className="text-white">not a law firm</strong> and do
-          not provide legal advice.
+          and related sites (the “Services”). {cfg.name} provides legal matching and referral services. We are{" "}
+          <strong className="text-white">not a law firm</strong> and do not provide legal advice.
         </p>
 
         <section className="mt-10">

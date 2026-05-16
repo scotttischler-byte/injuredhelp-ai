@@ -1,12 +1,17 @@
 import Link from "next/link";
 import { headers } from "next/headers";
 import { getAllPress } from "@/lib/press";
-import { siteOriginFromHeaders } from "@/lib/site";
+import { brandFromHeaders, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 
-export const metadata = {
-  title: "WreckMatch in the News | Press",
-  description: "Press releases, media kit, and contact information for WreckMatch / InjuredHelp.ai.",
-};
+export async function generateMetadata() {
+  const h = await headers();
+  const brand = brandFromHeaders(h);
+  const cfg = BRAND_CONFIG[brand];
+  return {
+    title: `${cfg.name} in the News | Press`,
+    description: `Press releases, media kit, and contact information for ${cfg.name}.`,
+  };
+}
 
 export default async function PressIndexPage() {
   const items = getAllPress();

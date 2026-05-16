@@ -15,6 +15,10 @@ export async function POST(req: NextRequest) {
       timing?: string;
       injuries?: string[];
       source?: string;
+      geo_tag?: string;
+      attorney_assigned?: string;
+      city?: string;
+      zip?: string;
     };
 
     const emailTrimmed = body.email?.trim() ?? "";
@@ -31,8 +35,11 @@ export async function POST(req: NextRequest) {
       timing: body.timing,
       injuries: body.injuries,
       source: body.source,
-      // GHL sync is tracked separately; successful /api/submit implies handoff attempted.
       ghlSynced: true,
+      geo_tag: body.geo_tag,
+      attorney_assigned: body.attorney_assigned,
+      city: body.city,
+      zip: body.zip,
     });
 
     return NextResponse.json({ ok: true });

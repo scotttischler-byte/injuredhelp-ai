@@ -34,7 +34,7 @@ export async function GET(req: NextRequest) {
     messages: [
       {
         role: "user",
-        content: `Write a professional press release for WreckMatch / InjuredHelp.ai.\nDateline: Monroe, WI.\nPhone (978) 515-6063.\nSites: InjuredHelp.ai and WreckMatch.com.\nAngle: ${trigger}\nInclude one phrase naturally: car accident legal help OR accident survival guide OR personal injury attorney matching.`,
+        content: `Write a professional press release for WreckMatch.\nDateline: Monroe, WI.\nPhone (978) 515-6063.\nAngle: ${trigger}\nInclude one phrase naturally: car accident legal help OR accident survival guide OR personal injury attorney matching.`,
       },
     ],
     maxTokens: 1400,

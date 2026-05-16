@@ -5,7 +5,7 @@ export function wreckmatchEmailHtml(params: {
   bodyHtml: string;
   ctaHref?: string;
   ctaLabel?: string;
-  /** Privacy / unsubscribe links (defaults to injuredhelp.ai for cron emails). */
+  /** Privacy / unsubscribe links (defaults to SITE_URL for cron emails). */
   siteUrl?: string;
 }) {
   const siteUrl = (params.siteUrl ?? SITE_URL).replace(/\/$/, "");

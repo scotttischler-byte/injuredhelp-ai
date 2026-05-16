@@ -71,7 +71,7 @@ export function trackTikTokViewContent(props?: {
   if (!oncePerSession(sessionKey)) return;
   trackBrowser("ViewContent", {
     content_type: "lead_form",
-    content_name: props?.content_name ?? "injuredhelp_home",
+    content_name: props?.content_name ?? "wreckmatch_home",
   });
 }
 

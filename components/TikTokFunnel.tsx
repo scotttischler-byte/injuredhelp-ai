@@ -1,12 +1,13 @@
 "use client";
 
 import { useEffect } from "react";
+import { tiktokContentNameFromWindow } from "@/lib/brand-client";
 import { trackTikTokViewContent } from "@/lib/tiktok-attribution";
 
 /** Fires ViewContent once per session on the homepage. */
 export function TikTokHomeFunnel() {
   useEffect(() => {
-    trackTikTokViewContent({ content_name: "injuredhelp_home" });
+    trackTikTokViewContent({ content_name: tiktokContentNameFromWindow() });
   }, []);
   return null;
 }

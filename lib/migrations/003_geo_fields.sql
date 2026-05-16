@@ -1,0 +1,5 @@
+-- Neon PostgreSQL: geo routing fields on leads
+ALTER TABLE leads ADD COLUMN IF NOT EXISTS geo_tag TEXT;
+ALTER TABLE leads ADD COLUMN IF NOT EXISTS attorney_assigned TEXT;
+ALTER TABLE leads ADD COLUMN IF NOT EXISTS city TEXT;
+ALTER TABLE leads ADD COLUMN IF NOT EXISTS zip TEXT;
