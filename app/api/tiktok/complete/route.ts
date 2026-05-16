@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { trackTikTokCompleteRegistration } from "@/lib/tiktok-events";
-import { absoluteUrl, siteOriginFromHeaders } from "@/lib/site";
+import { absoluteUrl, brandFromHeaders, siteOriginFromHeaders } from "@/lib/site";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -30,6 +30,7 @@ export async function POST(req: NextRequest) {
       null;
 
     const origin = siteOriginFromHeaders(req.headers);
+    const brand = brandFromHeaders(req.headers);
     const result = await trackTikTokCompleteRegistration({
       email: emailTrimmed,
       phoneE164: e164Phone,
@@ -39,6 +40,7 @@ export async function POST(req: NextRequest) {
       userAgent: req.headers.get("user-agent"),
       ttclid: body.ttclid ?? null,
       ttp: body.ttp ?? null,
+      brand,
     });
 
     return NextResponse.json({ ok: result.ok });

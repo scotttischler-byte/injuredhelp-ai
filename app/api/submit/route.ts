@@ -150,6 +150,7 @@ export async function POST(req: NextRequest) {
       eventId: typeof tiktokEventId === "string" ? tiktokEventId : undefined,
       state,
       contentName: cfg.tiktokContentName,
+      brand,
     };
 
     const retellAgentId = cfg.retellAgentId?.trim() || process.env.RETELL_AGENT_ID?.trim() || "";

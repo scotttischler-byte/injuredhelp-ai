@@ -4,13 +4,13 @@ import { forwardRef, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { DEFAULT_LEAD_FORM_COPY, type Lang, type LeadFormCopy } from "@/lib/homeTranslations";
 import { ALL_STATES } from "@/lib/states";
+import { tiktokContentNameFromWindow } from "@/lib/brand-client";
 import {
   getTikTokAttribution,
   newTikTokEventId,
   saveTikTokLeadSession,
   trackTikTokCompleteRegistration,
-  trackTikTokLeadBrowser,
-  trackTikTokSubmitForm,
+  trackTikTokLeadConversion,
 } from "@/lib/tiktok-attribution";
 import { trackLeadConversion } from "@/lib/trackConversion";
 import { INJURY_OPTIONS, TIMING_OPTIONS, US_STATES } from "@/lib/usStates";
@@ -170,15 +170,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
 
     const tiktokEventId = newTikTokEventId();
     const { ttclid, ttp } = getTikTokAttribution();
-    trackTikTokSubmitForm(tiktokEventId);
-    trackTikTokLeadBrowser(tiktokEventId);
-    saveTikTokLeadSession({
-      tiktokEventId,
-      email: form.email.trim(),
-      phone: form.phone,
-      ttclid,
-      ttp,
-    });
+    const emailTrimmed = form.email.trim();
 
     const body = {
       firstName: form.firstName.trim(),
@@ -188,7 +180,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       timing,
       injuries,
       source,
-      email: form.email.trim(),
+      email: emailTrimmed,
       smsOptIn: form.smsOptIn,
       language,
       ttclid,
@@ -204,6 +196,20 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         body: JSON.stringify(body),
       });
       if (!res.ok) throw new Error("Failed");
+
+      trackTikTokLeadConversion({
+        eventId: tiktokEventId,
+        email: emailTrimmed,
+        phone: form.phone,
+        contentName: tiktokContentNameFromWindow(),
+      });
+      saveTikTokLeadSession({
+        tiktokEventId,
+        email: emailTrimmed,
+        phone: form.phone,
+        ttclid,
+        ttp,
+      });
       trackTikTokCompleteRegistration(tiktokEventId);
       pushLeadSubmitted();
       trackLeadConversion();
@@ -227,7 +233,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           lastName,
           phone: form.phone,
           state: form.state,
-          email: form.email.trim(),
+          email: emailTrimmed,
         });
       }
       const dest =

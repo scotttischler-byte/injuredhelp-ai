@@ -1,12 +1,12 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { tiktokContentNameFromWindow } from "@/lib/brand-client";
 import {
   getTikTokAttribution,
   newTikTokEventId,
   saveTikTokLeadSession,
-  trackTikTokLeadBrowser,
-  trackTikTokSubmitForm,
+  trackTikTokLeadConversion,
 } from "@/lib/tiktok-attribution";
 
 declare global {
@@ -30,15 +30,13 @@ export function WebinarRegisterForm({ slug }: { slug: string }) {
     try {
       const tiktokEventId = newTikTokEventId();
       const { ttclid, ttp } = getTikTokAttribution();
-      trackTikTokSubmitForm(tiktokEventId);
-      trackTikTokLeadBrowser(tiktokEventId);
-      saveTikTokLeadSession({ tiktokEventId, email, phone, ttclid, ttp });
+      const emailTrimmed = email.trim();
 
       const submitBody = {
         firstName,
         lastName: "-",
         phone,
-        email,
+        email: emailTrimmed,
         state,
         timing: "Within the last 30 days",
         injuries: ["❓ Not Sure"],
@@ -56,6 +54,14 @@ export function WebinarRegisterForm({ slug }: { slug: string }) {
       });
       if (!submitRes.ok) throw new Error("submit");
 
+      trackTikTokLeadConversion({
+        eventId: tiktokEventId,
+        email: emailTrimmed,
+        phone,
+        contentName: tiktokContentNameFromWindow(),
+      });
+      saveTikTokLeadSession({ tiktokEventId, email: emailTrimmed, phone, ttclid, ttp });
+
       await fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -63,7 +69,7 @@ export function WebinarRegisterForm({ slug }: { slug: string }) {
           firstName,
           lastName: "-",
           phone,
-          email,
+          email: emailTrimmed,
           state,
           timing: submitBody.timing,
           injuries: submitBody.injuries,

@@ -1,8 +1,12 @@
 /** Client-side TikTok Pixel helpers (browser). */
 
+import { brandFromWindowHost, tiktokContentNameFromWindow } from "@/lib/brand-client";
+import { isTikTokPixelProductionEnabled } from "@/lib/tiktok-pixel";
+
 type Ttq = {
   track: (event: string, props?: Record<string, unknown>) => void;
   identify?: (props: Record<string, unknown>) => void;
+  page?: () => void;
 };
 
 function getTtq(): Ttq | undefined {
@@ -10,7 +14,23 @@ function getTtq(): Ttq | undefined {
   return (window as Window & { ttq?: Ttq }).ttq;
 }
 
+/** Production + WreckMatch host only (matches layout pixel gating). */
+export function isTikTokBrowserTrackingEnabled(): boolean {
+  if (!isTikTokPixelProductionEnabled()) return false;
+  return brandFromWindowHost() === "wreckmatch";
+}
+
+/** E.164 for TikTok Advanced Matching (US leads). */
+export function phoneToTikTokE164(phone: string): string {
+  const digits = phone.replace(/\D/g, "");
+  if (!digits) return "";
+  if (digits.length === 11 && digits.startsWith("1")) return `+${digits}`;
+  if (digits.length === 10) return `+1${digits}`;
+  return `+${digits}`;
+}
+
 function trackBrowser(event: string, props?: Record<string, unknown>): void {
+  if (!isTikTokBrowserTrackingEnabled()) return;
   try {
     getTtq()?.track?.(event, props);
   } catch {
@@ -62,6 +82,57 @@ export function newTikTokEventId(): string {
   return `lead_${Date.now()}_${Math.random().toString(36).slice(2)}`;
 }
 
+/**
+ * Advanced Matching: plain email + E.164 phone (TikTok hashes client-side).
+ * Must run before ttq.track('Lead').
+ */
+export function identifyTikTokUser(email: string, phone: string): void {
+  if (!isTikTokBrowserTrackingEnabled()) return;
+  const ttq = getTtq();
+  if (!ttq?.identify) return;
+
+  const emailNorm = email.trim().toLowerCase();
+  const phone_number = phoneToTikTokE164(phone);
+  if (!emailNorm && !phone_number) return;
+
+  try {
+    ttq.identify({
+      ...(emailNorm ? { email: emailNorm } : {}),
+      ...(phone_number ? { phone_number } : {}),
+    });
+  } catch {
+    /* ignore */
+  }
+}
+
+/**
+ * On successful lead submit: identify → SubmitForm → Lead (browser pixel).
+ */
+export function trackTikTokLeadConversion(params: {
+  eventId: string;
+  email: string;
+  phone: string;
+  contentName?: string;
+}): void {
+  if (!isTikTokBrowserTrackingEnabled()) return;
+
+  const content_name = params.contentName ?? tiktokContentNameFromWindow();
+
+  identifyTikTokUser(params.email, params.phone);
+
+  trackBrowser("SubmitForm", {
+    event_id: params.eventId,
+    content_type: "lead_form",
+    content_name,
+  });
+
+  trackBrowser("Lead", {
+    event_id: `${params.eventId}_lead`,
+    content_type: "lead_form",
+    content_name,
+  });
+}
+
 /** Top-of-funnel: landing / form page viewed (once per session key). */
 export function trackTikTokViewContent(props?: {
   content_name?: string;
@@ -71,7 +142,7 @@ export function trackTikTokViewContent(props?: {
   if (!oncePerSession(sessionKey)) return;
   trackBrowser("ViewContent", {
     content_type: "lead_form",
-    content_name: props?.content_name ?? "wreckmatch_home",
+    content_name: props?.content_name ?? tiktokContentNameFromWindow(),
   });
 }
 
@@ -108,7 +179,7 @@ export function trackTikTokClickButton(buttonName: string): void {
   });
 }
 
-/** Bottom-of-funnel: form submitted (pair with server SubmitForm + same event_id). */
+/** @deprecated Use trackTikTokLeadConversion after successful submit. */
 export function trackTikTokSubmitForm(eventId: string): void {
   trackBrowser("SubmitForm", {
     event_id: eventId,
@@ -117,7 +188,7 @@ export function trackTikTokSubmitForm(eventId: string): void {
   });
 }
 
-/** Lead objective (many campaigns optimize on Lead). */
+/** @deprecated Use trackTikTokLeadConversion after successful submit. */
 export function trackTikTokLeadBrowser(eventId: string): void {
   trackBrowser("Lead", {
     event_id: `${eventId}_lead`,

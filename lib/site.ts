@@ -47,6 +47,7 @@ export const BRAND_CONFIG = {
     email: "help@wreckmatch.com",
     ghlSource: "WreckMatch",
     tiktokContentName: "wreckmatch_home",
+    tiktokPixelId: "D83MMQ3C77U9FQKB73JG",
     retellAgentId: process.env.RETELL_AGENT_ID ?? "",
   },
   injuredhelp: {
@@ -56,6 +57,7 @@ export const BRAND_CONFIG = {
     email: "help@injuredhelp.ai",
     ghlSource: "InjuredHelp.ai",
     tiktokContentName: "injuredhelp_home",
+    tiktokPixelId: process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID_IH?.trim() ?? "",
     retellAgentId: process.env.RETELL_AGENT_ID_IH ?? process.env.RETELL_AGENT_ID ?? "",
   },
 } as const;
