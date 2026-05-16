@@ -115,14 +115,6 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <head>
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        {tiktokPixelId ? (
-          <>
-            <link rel="preconnect" href="https://analytics.tiktok.com" />
-            <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
-          </>
-        ) : null}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -131,7 +123,7 @@ export default async function RootLayout({
       <body className="min-h-full flex flex-col font-sans">
         <Script
           src="https://cdn.gomega.ai/scripts/optimizer.min.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         {googleAdsTagId ? (
           <>
