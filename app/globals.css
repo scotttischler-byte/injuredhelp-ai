@@ -25,6 +25,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Hero: CSS-only background (no image). LCP is typically the h1 below. */
+.hero-lcp-heading {
+  text-rendering: optimizeLegibility;
+}
+
 /* Hero radial pulse — opacity + transform only */
 @keyframes hero-radial-pulse {
   0%,
@@ -40,7 +45,12 @@ body {
 
 .hero-radial-pulse {
   animation: hero-radial-pulse 10s ease-in-out infinite;
-  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-radial-pulse {
+    will-change: transform, opacity;
+  }
 }
 
 /* Urgency pill entrance */

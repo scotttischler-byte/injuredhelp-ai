@@ -115,10 +115,6 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <head>
-        <Script
-          src="https://cdn.gomega.ai/scripts/optimizer.min.js"
-          strategy="beforeInteractive"
-        />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         {tiktokPixelId ? (
@@ -133,13 +129,17 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans">
+        <Script
+          src="https://cdn.gomega.ai/scripts/optimizer.min.js"
+          strategy="afterInteractive"
+        />
         {googleAdsTagId ? (
           <>
             <Script
               src={`https://www.googletagmanager.com/gtag/js?id=${googleAdsTagId}`}
-              strategy="afterInteractive"
+              strategy="lazyOnload"
             />
-            <Script id="google-ads-tag" strategy="afterInteractive">
+            <Script id="google-ads-tag" strategy="lazyOnload">
               {googleAdsInline}
             </Script>
           </>
@@ -148,7 +148,7 @@ export default async function RootLayout({
           <>
             <Script
               id="gtm-head"
-              strategy="afterInteractive"
+              strategy="lazyOnload"
               dangerouslySetInnerHTML={{
                 __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${gtmId}');`,
               }}
@@ -165,7 +165,7 @@ export default async function RootLayout({
           </>
         ) : null}
         {tiktokPixelId ? (
-          <Script id="tiktok-pixel" strategy="afterInteractive">
+          <Script id="tiktok-pixel" strategy="lazyOnload">
             {tiktokPixelInline}
           </Script>
         ) : null}

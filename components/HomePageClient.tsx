@@ -102,7 +102,7 @@ export function HomePageClient() {
       <SiteHeader />
       <TikTokHomeFunnel />
 
-      {/* SECTION B — HERO */}
+      {/* SECTION B — HERO (LCP: CSS gradients only — no hero image) */}
       <section className="relative isolate overflow-hidden bg-gray-950 px-4 py-14 sm:py-24">
         <div
           className="pointer-events-none absolute inset-0 hero-radial-pulse"
@@ -130,7 +130,7 @@ export function HomePageClient() {
               {t.liveIndicator}
             </span>
           </div>
-          <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="hero-lcp-heading text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
             {t.headline1}
             <br />
             <span className="text-white">{t.headline2}</span>
