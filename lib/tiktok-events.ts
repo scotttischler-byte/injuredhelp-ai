@@ -1,5 +1,6 @@
 import { createHash, randomUUID } from "crypto";
-import { SITE_URL } from "@/lib/site";
+import { tiktokPixelIdForBrand } from "@/lib/tiktok-pixel";
+import { type SiteBrand, SITE_URL } from "@/lib/site";
 
 const TIKTOK_TRACK_URL = "https://business-api.tiktok.com/open_api/v1.3/event/track/";
 
@@ -30,22 +31,20 @@ export type TikTokServerEventInput = {
   eventId?: string;
   state?: string;
   contentName?: string;
+  brand?: SiteBrand;
 };
 
-function getTikTokConfig() {
+function getTikTokConfig(brand: SiteBrand = "wreckmatch") {
   const accessToken = process.env.TIKTOK_ACCESS_TOKEN?.trim();
-  const pixelId = (
-    process.env.TIKTOK_PIXEL_ID?.trim() ||
-    process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID?.trim() ||
-    "D83MMQ3C77U9FQKB73JG"
-  ).toUpperCase();
+  const pixelId =
+    process.env.TIKTOK_PIXEL_ID?.trim()?.toUpperCase() || tiktokPixelIdForBrand(brand);
   return { accessToken, pixelId };
 }
 
 export async function trackTikTokServerEvent(
   input: TikTokServerEventInput,
 ): Promise<{ ok: boolean; error?: string }> {
-  const { accessToken, pixelId } = getTikTokConfig();
+  const { accessToken, pixelId } = getTikTokConfig(input.brand ?? "wreckmatch");
 
   if (!accessToken) {
     console.error(`tiktok_${input.event}: TIKTOK_ACCESS_TOKEN not configured`);
