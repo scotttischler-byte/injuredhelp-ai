@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { trackTikTokCompleteRegistration } from "@/lib/tiktok-events";
+import { absoluteUrl, siteOriginFromHeaders } from "@/lib/site";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -28,11 +29,12 @@ export async function POST(req: NextRequest) {
       req.headers.get("x-real-ip")?.trim() ||
       null;
 
+    const origin = siteOriginFromHeaders(req.headers);
     const result = await trackTikTokCompleteRegistration({
       email: emailTrimmed,
       phoneE164: e164Phone,
       eventId: body.tiktokEventId,
-      pageUrl: body.pageUrl ?? "https://www.injuredhelp.ai/thank-you",
+      pageUrl: body.pageUrl ?? absoluteUrl("/thank-you", origin),
       ip: clientIp,
       userAgent: req.headers.get("user-agent"),
       ttclid: body.ttclid ?? null,

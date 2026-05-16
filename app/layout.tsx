@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
+import { headers } from "next/headers";
 import { CookieConsent } from "@/components/CookieConsent";
 import { Providers } from "@/components/Providers";
+import { siteOriginFromHeaders } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,36 +17,45 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const legalServiceJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  name: "WreckMatch",
-  description:
-    "WreckMatch connects car accident victims with licensed personal injury attorneys in all 50 states.",
-  url: "https://injuredhelp.ai",
-  telephone: "+19785156063",
-  areaServed: "US",
-  serviceType: "Personal Injury Legal Referral",
-  priceRange: "Free",
-  availableLanguage: ["English", "Spanish"],
-};
-
-export const metadata: Metadata = {
-  metadataBase: new URL("https://injuredhelp.ai"),
-  title: "WreckMatch – Free Legal Help After Your Car Accident",
-  description:
-    "Were you injured in a car accident? WreckMatch connects you with a licensed personal injury attorney in your state in under 60 seconds. Free, no obligation, contingency only.",
-  icons: { icon: "/favicon.svg" },
-  manifest: "/manifest.json",
-  openGraph: {
-    title: "WreckMatch – Free Legal Help After Your Car Accident",
+function legalServiceJsonLd(origin: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    name: "WreckMatch",
     description:
-      "Injured in a car accident? Get matched with a licensed attorney in seconds. No fees unless you win.",
-    url: "https://injuredhelp.ai",
-    siteName: "WreckMatch",
-    type: "website",
-  },
-};
+      "WreckMatch connects car accident victims with licensed personal injury attorneys in all 50 states.",
+    url: origin,
+    telephone: "+19785156063",
+    areaServed: "US",
+    serviceType: "Personal Injury Legal Referral",
+    priceRange: "Free",
+    availableLanguage: ["English", "Spanish"],
+  };
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  const h = await headers();
+  const origin = siteOriginFromHeaders(h);
+  return {
+    metadataBase: new URL(origin),
+    title: {
+      default: "WreckMatch – Free Legal Help After Your Car Accident",
+      template: "%s | WreckMatch",
+    },
+    description:
+      "Were you injured in a car accident? WreckMatch connects you with a licensed personal injury attorney in your state in under 60 seconds. Free, no obligation, contingency only.",
+    icons: { icon: "/favicon.svg" },
+    manifest: "/manifest.json",
+    robots: { index: true, follow: true },
+    openGraph: {
+      title: "WreckMatch – Free Legal Help After Your Car Accident",
+      description:
+        "Injured in a car accident? Get matched with a licensed attorney in seconds. No fees unless you win.",
+      siteName: "WreckMatch",
+      type: "website",
+    },
+  };
+}
 
 export const viewport: Viewport = {
   themeColor: "#e53e3e",
@@ -77,11 +88,15 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
 `.trim()
   : "";
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const h = await headers();
+  const origin = siteOriginFromHeaders(h);
+  const jsonLd = legalServiceJsonLd(origin);
+
   return (
     <html
       lang="en"
@@ -98,7 +113,7 @@ export default function RootLayout({
         ) : null}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(legalServiceJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
       <body className="min-h-full flex flex-col font-sans">

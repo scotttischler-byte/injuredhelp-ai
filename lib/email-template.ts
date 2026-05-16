@@ -1,4 +1,14 @@
-export function wreckmatchEmailHtml(params: { title: string; bodyHtml: string; ctaHref?: string; ctaLabel?: string }) {
+import { SITE_URL } from "@/lib/site";
+
+export function wreckmatchEmailHtml(params: {
+  title: string;
+  bodyHtml: string;
+  ctaHref?: string;
+  ctaLabel?: string;
+  /** Privacy / unsubscribe links (defaults to injuredhelp.ai for cron emails). */
+  siteUrl?: string;
+}) {
+  const siteUrl = (params.siteUrl ?? SITE_URL).replace(/\/$/, "");
   const cta =
     params.ctaHref && params.ctaLabel
       ? `<p style="margin:24px 0;"><a href="${params.ctaHref}" style="display:inline-block;background:#f97316;color:#0b1220;font-weight:800;padding:12px 18px;border-radius:10px;text-decoration:none;">${params.ctaLabel}</a></p>`
@@ -24,9 +34,9 @@ export function wreckmatchEmailHtml(params: { title: string; bodyHtml: string; c
         <tr><td style="padding:16px 20px;background:#0b1220;border-top:1px solid #1f2937;font-size:11px;line-height:1.5;color:#9ca3af;">
           WreckMatch is a legal referral service, not a law firm. This email is informational only.
           <div style="margin-top:10px;">
-            <a href="https://injuredhelp.ai/privacy" style="color:#fca5a5;">Privacy</a>
+            <a href="${siteUrl}/privacy" style="color:#fca5a5;">Privacy</a>
             ·
-            <a href="https://injuredhelp.ai/unsubscribe" style="color:#fca5a5;">Unsubscribe</a>
+            <a href="${siteUrl}/unsubscribe" style="color:#fca5a5;">Unsubscribe</a>
           </div>
         </td></tr>
       </table>

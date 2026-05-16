@@ -4,6 +4,7 @@ import { callClaude } from "@/lib/anthropic";
 import { verifyCronSecret } from "@/lib/automation-auth";
 import { bumpSubscriberSequence, listSubscribersDueForEmail, logAutomation } from "@/lib/db";
 import { wreckmatchEmailHtml } from "@/lib/email-template";
+import { SITE_URL } from "@/lib/site";
 
 const MAIN_SEQUENCE = [
   { day: 0, subject: "You're connected — here's what happens next" },
@@ -58,7 +59,7 @@ export async function GET(req: NextRequest) {
     const html = wreckmatchEmailHtml({
       title: step.subject,
       bodyHtml: body,
-      ctaHref: "https://injuredhelp.ai/#form",
+      ctaHref: `${SITE_URL}/#form`,
       ctaLabel: "Get free help",
     });
 

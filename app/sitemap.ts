@@ -1,9 +1,12 @@
 import type { MetadataRoute } from "next";
+import { headers } from "next/headers";
 import { getAllPress } from "@/lib/press";
+import { siteOriginFromHeaders } from "@/lib/site";
 import { WEBINARS } from "@/lib/webinars";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://injuredhelp.ai";
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const h = await headers();
+  const base = siteOriginFromHeaders(h);
   const now = new Date();
 
   const core: MetadataRoute.Sitemap = [

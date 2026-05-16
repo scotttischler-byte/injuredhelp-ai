@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { headers } from "next/headers";
+import { siteOriginFromHeaders } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | WreckMatch",
@@ -13,7 +15,11 @@ function Prose({ children }: { children: React.ReactNode }) {
   return <div className="mt-3 space-y-3 text-sm leading-relaxed text-gray-300">{children}</div>;
 }
 
-export default function PrivacyPage() {
+export default async function PrivacyPage() {
+  const h = await headers();
+  const siteOrigin = siteOriginFromHeaders(h);
+  const siteHost = siteOrigin.replace(/^https:\/\//, "");
+
   return (
     <div className="min-h-screen bg-gray-950 text-white">
       <header className="border-b border-gray-800">
@@ -36,11 +42,11 @@ export default function PrivacyPage() {
           This Privacy Policy describes how <strong className="text-white">WreckMatch</strong> (“we,” “us,” or
           “our”) collects, uses, and shares information when you visit{" "}
           <Link href="/" className="text-red-400 hover:text-red-300">
-            injuredhelp.ai
+            {siteHost}
           </Link>{" "}
-          and related sites (the “Services”). WreckMatch operates InjuredHelp.ai as a legal matching and
-          referral service. We are <strong className="text-white">not a law firm</strong> and do not provide
-          legal advice.
+          and related sites (the “Services”). WreckMatch operates InjuredHelp.ai and WreckMatch.com as legal
+          matching and referral services. We are <strong className="text-white">not a law firm</strong> and do
+          not provide legal advice.
         </p>
 
         <section className="mt-10">
@@ -194,7 +200,7 @@ export default function PrivacyPage() {
         <section className="mt-10">
           <h2 className="text-xl font-bold text-white">12. Contact us</h2>
           <Prose>
-            <p>For privacy questions or requests, contact WreckMatch / InjuredHelp.ai:</p>
+            <p>For privacy questions or requests, contact WreckMatch:</p>
             <ul className="list-none space-y-1">
               <li>
                 Phone:{" "}
@@ -205,7 +211,7 @@ export default function PrivacyPage() {
               <li>
                 Web:{" "}
                 <Link href="/" className="text-red-400 hover:text-red-300">
-                  https://injuredhelp.ai
+                  {siteOrigin}
                 </Link>
               </li>
             </ul>

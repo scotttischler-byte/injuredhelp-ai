@@ -1,13 +1,17 @@
 import Link from "next/link";
+import { headers } from "next/headers";
 import { getAllPress } from "@/lib/press";
+import { siteOriginFromHeaders } from "@/lib/site";
 
 export const metadata = {
   title: "WreckMatch in the News | Press",
   description: "Press releases, media kit, and contact information for WreckMatch / InjuredHelp.ai.",
 };
 
-export default function PressIndexPage() {
+export default async function PressIndexPage() {
   const items = getAllPress();
+  const h = await headers();
+  const siteOrigin = siteOriginFromHeaders(h);
   return (
     <div className="min-h-screen bg-gray-950 text-white">
       <div className="mx-auto max-w-5xl px-4 py-14">
@@ -35,7 +39,7 @@ export default function PressIndexPage() {
               <br />
               Phone: <a className="text-red-400" href="tel:19785156063">(978) 515-6063</a>
               <br />
-              Web: <span className="text-red-400">https://injuredhelp.ai</span>
+              Web: <span className="text-red-400">{siteOrigin}</span>
             </p>
           </div>
         </div>

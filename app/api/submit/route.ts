@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import twilio from "twilio";
+import { absoluteUrl, siteOriginFromHeaders } from "@/lib/site";
 import {
   trackTikTokCompleteRegistration,
   trackTikTokLead,
@@ -31,6 +32,8 @@ export async function POST(req: NextRequest) {
       tiktokEventId,
       pageUrl,
     } = await req.json();
+
+    const siteOrigin = siteOriginFromHeaders(req.headers);
 
     if (!firstName || !phone || !state || !timing) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
@@ -152,7 +155,7 @@ export async function POST(req: NextRequest) {
         const tiktokBase = {
           email: emailTrimmed,
           phoneE164: e164Phone,
-          pageUrl: typeof pageUrl === "string" ? pageUrl : "https://www.injuredhelp.ai/",
+          pageUrl: typeof pageUrl === "string" ? pageUrl : absoluteUrl("/", siteOrigin),
           ip: clientIp,
           userAgent,
           ttclid: typeof ttclid === "string" ? ttclid : null,

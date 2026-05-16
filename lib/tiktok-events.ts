@@ -1,4 +1,5 @@
 import { createHash, randomUUID } from "crypto";
+import { SITE_URL } from "@/lib/site";
 
 const TIKTOK_TRACK_URL = "https://business-api.tiktok.com/open_api/v1.3/event/track/";
 
@@ -67,7 +68,7 @@ export async function trackTikTokServerEvent(
     event_time: eventTime,
     context: {
       page: {
-        url: input.pageUrl ?? "https://www.injuredhelp.ai/",
+        url: input.pageUrl ?? `${SITE_URL}/`,
       },
       user: contextUser,
     },

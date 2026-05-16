@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { headers } from "next/headers";
 import { notFound } from "next/navigation";
-import { absoluteUrl } from "@/lib/site";
+import { absoluteUrl, siteOriginFromHeaders } from "@/lib/site";
 import { getPressBySlug } from "@/lib/press";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -12,10 +13,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = getPressBySlug(slug);
   if (!post) return { title: "Press | WreckMatch" };
+  const h = await headers();
+  const origin = siteOriginFromHeaders(h);
   return {
     title: `${post.meta.title} | WreckMatch`,
     description: post.meta.description,
-    alternates: { canonical: absoluteUrl(`/press/${slug}`) },
+    alternates: { canonical: absoluteUrl(`/press/${slug}`, origin) },
   };
 }
 
@@ -24,6 +27,9 @@ export default async function PressReleasePage({ params }: Props) {
   const post = getPressBySlug(slug);
   if (!post) notFound();
 
+  const h = await headers();
+  const origin = siteOriginFromHeaders(h);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -31,7 +37,7 @@ export default async function PressReleasePage({ params }: Props) {
     datePublished: post.meta.date,
     author: { "@type": "Organization", name: "WreckMatch" },
     publisher: { "@type": "Organization", name: "WreckMatch" },
-    mainEntityOfPage: absoluteUrl(`/press/${slug}`),
+    mainEntityOfPage: absoluteUrl(`/press/${slug}`, origin),
   };
 
   return (

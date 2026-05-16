@@ -1,22 +1,18 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { HomePageClient } from "@/components/HomePageClient";
+import { siteOriginFromHeaders } from "@/lib/site";
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://injuredhelp.ai"),
-  title: "WreckMatch – Free Legal Help After Your Car Accident",
-  description:
-    "Were you injured in a car accident? WreckMatch connects you with a licensed personal injury attorney in your state in under 60 seconds. Free, no obligation, contingency only.",
-  robots: { index: true, follow: true },
-  alternates: { canonical: "https://injuredhelp.ai/" },
-  openGraph: {
-    title: "WreckMatch – Free Legal Help After Your Car Accident",
-    description:
-      "Injured in a car accident? Get matched with a licensed attorney in seconds. No fees unless you win.",
-    url: "https://injuredhelp.ai",
-    siteName: "WreckMatch",
-    type: "website",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const h = await headers();
+  const origin = siteOriginFromHeaders(h);
+  return {
+    alternates: { canonical: `${origin}/` },
+    openGraph: {
+      url: `${origin}/`,
+    },
+  };
+}
 
 export default function HomePage() {
   return <HomePageClient />;
