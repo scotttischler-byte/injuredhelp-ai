@@ -103,6 +103,10 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <head>
+        <Script
+          src="https://cdn.gomega.ai/scripts/optimizer.min.js"
+          strategy="beforeInteractive"
+        />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         {tiktokPixelId ? (
