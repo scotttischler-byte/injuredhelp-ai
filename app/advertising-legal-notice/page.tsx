@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return buildPageMetadata({
     title: "Advertising & Legal Notice | WreckMatch",
     description:
-      `Full advertising disclaimer for WreckMatch, a legal referral service operated by ${OPERATOR_LEGAL_NAME}. Not a law firm.`,
+      "Advertising and legal notice for WreckMatch — a legal referral service operated by WreckMatch LLC, not a law firm.",
     path: "/advertising-legal-notice",
     headers: h,
   });

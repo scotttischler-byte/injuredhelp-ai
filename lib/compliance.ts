@@ -1,17 +1,28 @@
 export const OPERATOR_LEGAL_NAME = "WreckMatch LLC";
 
-/** Exact referral disclaimer — required above every form and primary CTA. */
-export const REFERRAL_DISCLAIMER =
-  `WreckMatch is a legal referral service operated by ${OPERATOR_LEGAL_NAME}. We are not a law firm and do not provide legal advice. Submitting this form does not create an attorney-client relationship.`;
+/** Primary — hero, geo intros, general CTAs. */
+export const PRIMARY_DISCLAIMER =
+  "WreckMatch connects accident victims with experienced personal injury attorneys in their state at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm — and we do not provide legal advice.";
 
-/** Lead paragraph on Advertising & Legal Notice page. */
+/** Full — above/below intake forms and legal notice lead. */
+export const FORM_DISCLAIMER =
+  `${PRIMARY_DISCLAIMER} Submitting this form does not create an attorney-client relationship.`;
+
+/** Short — site footer. */
+export const FOOTER_DISCLAIMER =
+  "WreckMatch is a legal referral service operated by WreckMatch LLC. We are not a law firm and do not provide legal advice.";
+
+/** @deprecated Use FORM_DISCLAIMER */
+export const REFERRAL_DISCLAIMER = FORM_DISCLAIMER;
+
+/** Advertising & Legal Notice — top paragraph. */
 export const ADVERTISING_LEAD_PARAGRAPH =
-  `WreckMatch is a legal referral service operated by ${OPERATOR_LEGAL_NAME}. We are not a law firm and do not provide legal advice. Submitting any form on this website does not create an attorney-client relationship with WreckMatch.`;
+  `${PRIMARY_DISCLAIMER} Submitting any form on this website does not create an attorney-client relationship with WreckMatch.`;
 
 export const FORM_SUCCESS_MESSAGE = (phone: string) =>
   `We are calling you within 60 seconds at ${phone}. You will speak with a live team member or Ava.`;
 
-export const BLOG_FOOTER_DISCLAIMER = `${REFERRAL_DISCLAIMER} This article is general information only, not legal advice. For personalized help call (978) 515-6063 or submit the form on our homepage.`;
+export const BLOG_FOOTER_DISCLAIMER = `${PRIMARY_DISCLAIMER} This article is general information only, not legal advice. For personalized help call (978) 515-6063 or submit the form on our homepage.`;
 
 export const WRECKMATCH_PHONE_DISPLAY = "(978) 515-6063";
 export const WRECKMATCH_PHONE_TEL = "tel:+19785156063";

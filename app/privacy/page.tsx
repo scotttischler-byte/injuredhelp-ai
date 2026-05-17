@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
-import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
+import { FORM_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { brandFromHeaders, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -226,9 +226,14 @@ export default async function PrivacyPage() {
         </section>
 
         <div className="mt-12 rounded-2xl border border-gray-800 bg-gray-900/30 p-6 text-xs leading-relaxed text-gray-500">
-          WreckMatch is a legal matching and referral service, not a law firm, and does not provide legal
-          advice. Submitting information through this site does not create an attorney-client relationship with
-          WreckMatch. Attorney availability varies by state and case type.
+          {FORM_DISCLAIMER.replace(
+            "Submitting this form",
+            "Submitting information through this site",
+          ).replace(
+            "an attorney-client relationship.",
+            "an attorney-client relationship with WreckMatch.",
+          )}{" "}
+          Attorney availability varies by state and case type.
         </div>
       </main>
     </div>

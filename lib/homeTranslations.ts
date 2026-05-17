@@ -189,7 +189,7 @@ const FORM_EN: LeadFormCopy = {
   submitBtn: "Call me back now",
   submitting: "Connecting you…",
   disclaimer:
-    "By submitting you agree to be contacted by phone and SMS regarding your case. No spam. No fees unless you win. WreckMatch is a legal referral service, not a law firm.",
+    "By submitting you agree to be contacted by phone and SMS regarding your case. No spam. No fees unless you win.",
   secureNote: "Secure & Encrypted",
   errFirstName: "First name is required.",
   errLastName: "Last name is required.",
@@ -309,22 +309,21 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     coverageHeading: "WreckMatch Covers All 50 States",
     footerCopyright: "© 2026 WreckMatch — All rights reserved.",
     footerP1:
-      "WreckMatch is a legal matching and referral service, not a law firm and does not provide legal advice. Submitting this form does not create an attorney-client relationship. Available in all 50 states. Attorney availability varies by state and case type. Results vary based on individual circumstances. By submitting you consent to be contacted by phone and SMS.",
+      "WreckMatch connects accident victims with experienced personal injury attorneys in their state at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm — and we do not provide legal advice. Available in all 50 states. Attorney availability varies by state and case type. Results vary based on individual circumstances. By submitting you consent to be contacted by phone and SMS.",
     footerP2:
       "References to aggregate recoveries (over $1 billion) and success rates (e.g. 99.9%) reflect partner-firm-reported network data as described in the Advertising & legal notice above; they are not promises or predictions for your case.",
     advertisingHeading: "Advertising & legal notice",
     advertisingBlocks: [
-      "WreckMatch is not a law firm and does not provide legal advice or legal services. We operate a legal matching and referral service. Any dollar amounts, recovery totals, success rates, percentages, or similar performance statements on this page describe cumulative, historical, aggregate figures self-reported by independent partner law firms in our network over time. They are not a representation of what any one client received, what you will receive, or average outcomes.",
+      "WreckMatch connects accident victims with experienced personal injury attorneys at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm. Any dollar amounts, recovery totals, success rates, or similar statements on this page describe cumulative, historical, aggregate figures self-reported by independent partner law firms over time. They are not a representation of what you will receive.",
       '"Success rate" (including references such as 99.9%) reflects metrics and definitions used internally by partner firms; methodologies and inclusion criteria vary by firm and matter type. WreckMatch does not independently verify every underlying case file or outcome. Figures are provided for general informational purposes and may be updated from time to time.',
       "No guarantee: Past results, statistics, or testimonials do not guarantee, warrant, or predict future results. Every case is different. Attorney availability, fee arrangements, and results depend on the facts, jurisdiction, and the lawyer you hire—not WreckMatch.",
       "Submitting a form does not create an attorney-client relationship with WreckMatch. By submitting, you consent to be contacted by phone and SMS regarding your inquiry.",
     ],
     activityLabel: "Recent activity:",
     leadFormSr: "Request free legal help after a car accident",
-    heroLegalPrefix: "Legal notice:",
-    heroLegalText:
-      "WreckMatch LLC is a legal referral service, not a law firm. We do not provide legal advice or guarantee any case outcome.",
-    heroLegalReadMore: "Read full disclaimer",
+    heroLegalPrefix: "",
+    heroLegalText: "",
+    heroLegalReadMore: "Full advertising & legal notice",
     statsDisclaimer:
       "Figures above describe our referral service operations (coverage, speed, cost to use WreckMatch). They are not case outcomes or legal results. Past results do not guarantee future outcomes.",
     statsDisclaimerLink: "Full disclaimer",
@@ -413,10 +412,9 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     ],
     activityLabel: "Actividad reciente:",
     leadFormSr: "Solicitar ayuda legal gratuita después de un accidente de auto",
-    heroLegalPrefix: "Aviso legal:",
-    heroLegalText:
-      "WreckMatch LLC es un servicio de referencia legal, no un bufete. No brindamos asesoría legal ni garantizamos resultados.",
-    heroLegalReadMore: "Leer aviso completo",
+    heroLegalPrefix: "",
+    heroLegalText: "",
+    heroLegalReadMore: "Aviso publicitario y legal completo",
     statsDisclaimer:
       "Los totales y porcentajes son cifras agregadas autodeclaradas por firmas asociadas en la red WreckMatch, no promedios por cliente. La \"tasa de éxito\" refleja la metodología interna de cada firma y no está auditada por WreckMatch. Los resultados pasados no garantizan resultados futuros.",
     statsDisclaimerLink: "Aviso completo",

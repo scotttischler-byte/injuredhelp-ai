@@ -57,7 +57,7 @@ export function legalReferralServiceJsonLd(origin: string, brand: SiteBrand) {
     provider: { "@id": ORG_ID },
     areaServed: { "@type": "Country", name: "United States" },
     description:
-      `Free attorney matching for car accident injury victims. WreckMatch is a referral service operated by ${OPERATOR_LEGAL_NAME}, not a law firm.`,
+      `Free attorney matching for car accident victims. WreckMatch connects you with experienced PI attorneys at no upfront cost. Operated by ${OPERATOR_LEGAL_NAME}, not a law firm.`,
     offers: {
       "@type": "Offer",
       price: "0",

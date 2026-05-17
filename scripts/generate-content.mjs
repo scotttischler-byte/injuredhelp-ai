@@ -47,7 +47,7 @@ async function chat(prompt) {
         {
           role: "system",
           content:
-            "You write SEO content for WreckMatch LLC, a legal referral service (not a law firm). Include disclaimers, CTA to (978) 515-6063 and /#form, internal links to /states and relevant /car-accident-help-* pages. No guaranteed outcomes.",
+            "You write SEO content for WreckMatch. Use this disclaimer: WreckMatch connects accident victims with experienced personal injury attorneys in their state at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm — and we do not provide legal advice. Include CTA to (978) 515-6063 and /#form. No guaranteed outcomes.",
         },
         { role: "user", content: prompt },
       ],

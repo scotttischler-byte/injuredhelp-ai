@@ -4,7 +4,7 @@ const DEFAULT_FAQS: FaqItem[] = [
   {
     question: "Is WreckMatch a law firm?",
     answer:
-      "No. WreckMatch LLC is a legal referral service. We connect injured drivers with licensed personal injury attorneys. We do not provide legal advice.",
+      "No. WreckMatch connects accident victims with experienced personal injury attorneys at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm — and we do not provide legal advice.",
   },
   {
     question: "How fast will someone contact me?",

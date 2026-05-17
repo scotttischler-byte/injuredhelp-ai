@@ -92,17 +92,14 @@ export function HomePageClient() {
             <span>✅ {t.trustItem5}</span>
           </div>
           <p className="mx-auto mt-4 max-w-2xl text-center text-xs leading-relaxed text-gray-500">
-            <sup className="font-semibold text-red-400">*</sup>
-            <strong className="text-gray-400"> {t.heroLegalPrefix}</strong> {t.heroLegalText}{" "}
             <a
               href="/advertising-legal-notice"
               className="font-medium text-red-400 underline decoration-red-400/50 underline-offset-2 transition-opacity duration-200 hover:text-red-300"
             >
               {t.heroLegalReadMore}
             </a>
-            .
           </p>
-          <ReferralDisclaimer className="mx-auto mt-8 max-w-2xl text-left" />
+          <ReferralDisclaimer variant="primary" className="mx-auto mt-8 max-w-2xl text-left" />
           <div className="mt-6 flex flex-col items-center gap-3">
             <a
               href="tel:+19785156063"

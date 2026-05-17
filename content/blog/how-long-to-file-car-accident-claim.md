@@ -17,7 +17,7 @@ Evidence fades: witnesses move, camera footage gets deleted, and injuries can wo
 
 ## WreckMatch can help you start today
 
-We are a **legal referral service**, not a law firm. Submit your name and phone and we will call you within **60 seconds** to connect you with a licensed attorney in your state.
+WreckMatch connects accident victims with experienced personal injury attorneys at no upfront cost. We are a **legal referral service operated by WreckMatch LLC** — not a law firm. Submit the form and we will call you within **60 seconds**.
 
 - [Free help form](/#form)
 - Call **(978) 515-6063**

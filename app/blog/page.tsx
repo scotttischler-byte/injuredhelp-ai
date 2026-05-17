@@ -25,7 +25,8 @@ export default function BlogIndexPage() {
       <main className="mx-auto max-w-3xl px-4 py-12">
         <h1 className="text-3xl font-extrabold text-gray-950 sm:text-4xl">Car accident help & resources</h1>
         <p className="mt-4 text-gray-600">
-          Educational articles from WreckMatch — a legal referral service, not a law firm.
+          Educational articles from WreckMatch — we connect accident victims with experienced personal injury
+          attorneys at no upfront cost. WreckMatch LLC is a legal referral service, not a law firm.
         </p>
         <ul className="mt-10 space-y-6">
           {posts.map((post) => (

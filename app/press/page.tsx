@@ -73,7 +73,9 @@ export default async function PressIndexPage() {
         <div className="mt-12 rounded-2xl border border-gray-800 bg-gray-900/30 p-6 text-sm text-gray-300">
           <h3 className="text-lg font-bold text-white">Boilerplate</h3>
           <p className="mt-3">
-            WreckMatch connects injured car accident victims with licensed personal injury attorneys nationwide. WreckMatch is a legal referral service, not a law firm, and does not provide legal advice.
+            WreckMatch connects accident victims with experienced personal injury attorneys nationwide at no
+            upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm — and we
+            do not provide legal advice.
           </p>
         </div>
       </div>

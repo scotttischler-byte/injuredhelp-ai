@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { TikTokThankYouFunnel } from "@/components/TikTokFunnel";
+import { FOOTER_DISCLAIMER as WM_FOOTER } from "@/lib/compliance";
 
 export const metadata: Metadata = {
   title: "You're Matched – WreckMatch",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   robots: "noindex, nofollow",
 };
 
-const FOOTER_DISCLAIMER = `WreckMatch is a legal matching and referral service, not a law firm and does not provide legal advice. Submitting this form does not create an attorney-client relationship. Available in all 50 states. Attorney availability varies by state and case type. Results vary based on individual circumstances. By submitting you consent to be contacted by phone and SMS.`;
+const FOOTER_DISCLAIMER = `${WM_FOOTER} Available in all 50 states. Attorney availability varies by state and case type. Results vary based on individual circumstances.`;
 
 type Props = {
   searchParams: Promise<{ firstName?: string | string[] }>;

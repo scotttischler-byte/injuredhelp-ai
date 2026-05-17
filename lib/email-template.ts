@@ -32,7 +32,7 @@ export function wreckmatchEmailHtml(params: {
           </p>
         </td></tr>
         <tr><td style="padding:16px 20px;background:#0b1220;border-top:1px solid #1f2937;font-size:11px;line-height:1.5;color:#9ca3af;">
-          WreckMatch is a legal referral service, not a law firm. This email is informational only.
+          WreckMatch connects accident victims with experienced personal injury attorneys at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm. This email is informational only.
           <div style="margin-top:10px;">
             <a href="${siteUrl}/privacy" style="color:#fca5a5;">Privacy</a>
             ·

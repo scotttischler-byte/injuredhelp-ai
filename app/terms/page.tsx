@@ -31,8 +31,9 @@ export default async function TermsPage() {
         <Link href="/" className="text-red-400 hover:text-red-300">
           {origin.replace(/^https:\/\//, "")}
         </Link>{" "}
-        and related services. {cfg.name} is operated by {OPERATOR_LEGAL_NAME} as a legal referral service. We
-        are <strong className="text-white">not a law firm</strong> and do not provide legal advice.
+        and related services. {cfg.name} connects accident victims with experienced personal injury attorneys
+        at no upfront cost and is operated by {OPERATOR_LEGAL_NAME} as a legal referral service. We are{" "}
+        <strong className="text-white">not a law firm</strong> and do not provide legal advice.
       </p>
       <section className="mt-10 space-y-3 text-sm leading-relaxed text-gray-300">
         <h2 className="text-xl font-bold text-white">1. Agreement</h2>

@@ -149,7 +149,8 @@ export function WebinarRegisterForm({ slug }: { slug: string }) {
         {status === "loading" ? "Registering…" : "Register free"}
       </button>
       <p className="text-xs text-gray-500">
-        By registering you agree to be contacted by phone/SMS/email. WreckMatch is a referral service, not a law firm.
+        By registering you agree to be contacted by phone/SMS/email. WreckMatch is a legal referral service
+        operated by WreckMatch LLC — not a law firm — and we do not provide legal advice.
       </p>
     </form>
   );

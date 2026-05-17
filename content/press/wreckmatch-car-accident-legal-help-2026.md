@@ -15,4 +15,4 @@ The company highlighted its **accident survival guide** resources and rapid inta
 
 Victims can call or text **(978) 515-6063** or visit **https://www.wreckmatch.com** for more information.
 
-WreckMatch is a legal referral service, not a law firm.
+WreckMatch connects accident victims with experienced personal injury attorneys at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm.

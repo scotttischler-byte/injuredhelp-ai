@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { headers } from "next/headers";
-import { OPERATOR_LEGAL_NAME, REFERRAL_DISCLAIMER } from "@/lib/compliance";
+import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 const FOOTER_LINKS = [
@@ -30,7 +30,7 @@ export async function SiteFooter() {
             </span>
           ))}
         </nav>
-        <p className="mt-6 text-center text-xs leading-relaxed text-gray-500">{REFERRAL_DISCLAIMER}</p>
+        <p className="mt-6 text-center text-xs leading-relaxed text-gray-500">{FOOTER_DISCLAIMER}</p>
         <p className="mt-3 text-center text-xs text-gray-600">
           © {new Date().getFullYear()} {OPERATOR_LEGAL_NAME} d/b/a WreckMatch —{" "}
           <a href={origin} className="text-gray-400 hover:text-white">

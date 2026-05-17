@@ -67,7 +67,7 @@ export function buildGeoFaqs(hub: GeoHub): FaqItem[] {
     {
       question: `Is WreckMatch a law firm in ${place}?`,
       answer:
-        "No. WreckMatch LLC operates a legal referral service. We connect you with licensed personal injury attorneys in your state. We do not provide legal advice.",
+        "No. WreckMatch connects accident victims with experienced personal injury attorneys at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm — and we do not provide legal advice.",
     },
     {
       question: `How fast will someone call me in ${place}?`,

@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
 
   const text = await callClaude({
     system:
-      `You are a legal content writer for WreckMatch. Return MDX with YAML frontmatter only. No guarantees. Include phone (978) 515-6063 and CTAs to ${WRECKMATCH_URL} and ${INJUREDHELP_URL}. Disclaimer: WreckMatch is a legal referral service, not a law firm.`,
+      `You are a legal content writer for WreckMatch. Return MDX with YAML frontmatter only. No guarantees. Include phone (978) 515-6063 and CTAs to ${WRECKMATCH_URL} and ${INJUREDHELP_URL}. Disclaimer: WreckMatch connects accident victims with experienced personal injury attorneys in their state at no upfront cost. We are a legal referral service operated by WreckMatch LLC — not a law firm — and we do not provide legal advice.`,
     messages: [
       {
         role: "user",

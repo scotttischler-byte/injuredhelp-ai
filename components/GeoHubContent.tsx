@@ -33,8 +33,8 @@ export function GeoHubContent({ hub }: Props) {
     : `Car Accident Help in ${name}, ${hub.profile.state}`;
 
   const intro = isState
-    ? `Injured in a ${name} car crash? WreckMatch is a free legal referral service — not a law firm — that connects you with a licensed personal injury attorney in ${name}. We call you back within 60 seconds.`
-    : `${name} sees heavy traffic and serious crashes every year. If you were hurt in a ${name} accident, WreckMatch connects you with licensed ${hub.profile.state} attorneys at no upfront cost.`;
+    ? `Injured in a ${name} car crash? WreckMatch connects accident victims with experienced personal injury attorneys in ${name} at no upfront cost. We are a referral service operated by WreckMatch LLC — not a law firm. We call you back within 60 seconds.`
+    : `${name} sees heavy traffic and serious crashes every year. If you were hurt in a ${name} accident, WreckMatch connects you with licensed ${hub.profile.state} attorneys at no upfront cost — we are not a law firm.`;
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
@@ -73,7 +73,7 @@ export function GeoHubContent({ hub }: Props) {
           </a>
         </div>
 
-        <ReferralDisclaimer className="mt-8 border-gray-200 bg-white text-gray-600" />
+        <ReferralDisclaimer variant="primary" className="mt-8 border-gray-200 bg-white text-gray-600" />
 
         {sections.map((section) => (
           <section key={section.id} className="prose prose-gray mt-10 max-w-none">
