@@ -100,6 +100,7 @@ export function GeoHubContent({ hub }: Props) {
 
         <section id="form" className="mt-12 scroll-mt-20">
           <h2 className="mb-4 text-center text-xl font-bold text-gray-900">Free attorney matching in {name}</h2>
+          <ReferralDisclaimer className="mb-4 border-gray-200 bg-white text-gray-600" />
           <LeadForm source={`geo-${hub.slug}`} preselectedState={preselectedState} />
         </section>
 

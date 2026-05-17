@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { BRAND_CONFIG, siteOriginFromHeaders, type SiteBrand } from "@/lib/site";
 
+const ORG_ID = "https://www.wreckmatch.com/#organization";
+
 export function buildPageMetadata(opts: {
   title: string;
   description: string;
@@ -32,9 +34,10 @@ export function buildPageMetadata(opts: {
 export function organizationJsonLd(origin: string, brand: SiteBrand) {
   const cfg = BRAND_CONFIG[brand];
   return {
-    "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": ORG_ID,
     name: cfg.name,
+    legalName: "Tophundred Global Ventures LLC",
     url: origin,
     telephone: cfg.phone,
     email: cfg.email,
@@ -47,23 +50,25 @@ export function organizationJsonLd(origin: string, brand: SiteBrand) {
 export function legalReferralServiceJsonLd(origin: string, brand: SiteBrand) {
   const cfg = BRAND_CONFIG[brand];
   return {
-    "@context": "https://schema.org",
     "@type": "Service",
-    name: `${cfg.name} — Legal Referral Service`,
+    name: "Legal Referral Service",
     serviceType: "Legal Referral Service",
-    provider: {
-      "@type": "Organization",
-      name: cfg.name,
-      url: origin,
-    },
-    areaServed: "US",
+    provider: { "@id": ORG_ID },
+    areaServed: { "@type": "Country", name: "United States" },
     description:
-      "Free attorney matching for car accident injury victims. WreckMatch is a referral service, not a law firm.",
+      "Free attorney matching for car accident injury victims. WreckMatch is a referral service operated by Tophundred Global Ventures LLC, not a law firm.",
     offers: {
       "@type": "Offer",
       price: "0",
       priceCurrency: "USD",
-      description: "Free consultation referral — contingency attorneys only",
+      description: "Free consultation referral — contingency fee attorneys only",
     },
+  };
+}
+
+export function siteJsonLdGraph(origin: string, brand: SiteBrand) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [organizationJsonLd(origin, brand), legalReferralServiceJsonLd(origin, brand)],
   };
 }

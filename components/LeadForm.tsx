@@ -276,7 +276,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         </p>
       )}
       {isSimple ? (
-        <p className="mb-5 text-center text-sm font-medium text-gray-600">{c.formStep1}</p>
+        <p className="mb-5 text-center text-sm font-medium text-gray-600">{c.formSubhead}</p>
       ) : null}
 
       <form onSubmit={handleSubmit} className="space-y-5" noValidate aria-live="polite">
@@ -384,6 +384,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         <span aria-hidden>🔒</span>
         <span>{c.secureNote}</span>
       </p>
+      <ReferralDisclaimer className="mt-4 border-gray-200 bg-gray-50 text-gray-600" />
     </div>
   );
 });

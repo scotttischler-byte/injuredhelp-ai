@@ -5,6 +5,7 @@ export type HomeFaqItem = { q: string; a: string };
 export type LeadFormCopy = {
   formHeadline: string;
   formStep1: string;
+  formSubhead: string;
   formStepSubmitting: string;
   firstName: string;
   lastName: string;
@@ -166,6 +167,7 @@ const FAQ_ES: HomeFaqItem[] = [
 const FORM_EN: LeadFormCopy = {
   formHeadline: "GET FREE HELP NOW",
   formStep1: "We call you back within 60 seconds — free, no obligation.",
+  formSubhead: "We call you back within 60 seconds — free, no obligation.",
   formStepSubmitting: "Connecting you now…",
   firstName: "Your Name",
   lastName: "Last Name",
@@ -204,6 +206,7 @@ const FORM_EN: LeadFormCopy = {
 const FORM_ES: LeadFormCopy = {
   formHeadline: "OBTÉN AYUDA GRATIS AHORA",
   formStep1: "Te llamamos en 60 segundos — gratis, sin obligación.",
+  formSubhead: "Te llamamos en 60 segundos — gratis, sin obligación.",
   formStepSubmitting: "Conectándote ahora…",
   firstName: "Tu Nombre",
   lastName: "Apellido",
@@ -267,7 +270,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     stat4Label: "To reach attorney team",
     testimonialsHeading: "Real People. Real Results.",
     testimonialsSubheading:
-      "You're joining clients matched to firms that have delivered over $1 billion in results.",
+      "Real clients matched to licensed personal injury attorneys in their state.",
     testimonial1:
       "I was rear-ended and had no idea what to do. WreckMatch connected me to an attorney within minutes. Couldn't be easier.",
     testimonial1name: "— Maria T., Atlanta, GA",
@@ -284,7 +287,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     step2title: "We Reach You Instantly",
     step2body: "Our team calls and texts you within 60 seconds.",
     step3title: "Get Matched to an Attorney",
-    step3body: "Licensed PI lawyers from a network with over $1 billion recovered.",
+    step3body: "Licensed personal injury lawyers in your state — contingency fee only.",
     step4title: "Get the Compensation You Deserve",
     step4body: "You pay nothing unless you win.",
     urgencyCta: "Don't Wait — Deadlines Apply to Accident Claims",
@@ -308,7 +311,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     trustStripStates: "All 50 States",
     trustStripHipaa: "HIPAA Compliant Intake",
     trustStripRating: "4.9/5 Client Rating",
-    trustStripRecoveries: "Over $1 billion · 99.9% partner network",
+    trustStripRecoveries: "Nationwide attorney network",
     coverageHeading: "WreckMatch Covers All 50 States",
     footerCopyright: "© 2026 WreckMatch — All rights reserved.",
     footerP1:
@@ -359,7 +362,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     stat4Label: "Para llegar al equipo de abogados",
     testimonialsHeading: "Personas Reales. Resultados Reales.",
     testimonialsSubheading:
-      "Te unes a clientes conectados con firmas que han entregado más de $1 mil millones en resultados.",
+      "Clientes reales conectados con abogados con licencia en su estado.",
     testimonial1:
       "Me golpearon por detrás y no sabía qué hacer. WreckMatch me conectó con un abogado en minutos. No podría ser más fácil.",
     testimonial1name: "— Maria T., Atlanta, GA",
@@ -376,7 +379,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     step2title: "Te Contactamos al Instante",
     step2body: "Nuestro equipo te llama y envía mensaje en 60 segundos.",
     step3title: "Te Conectamos con un Abogado",
-    step3body: "Abogados con licencia de una red con más de $1 mil millones recuperados.",
+    step3body: "Abogados de lesiones personales con licencia en tu estado — solo contingencia.",
     step4title: "Obtén la Compensación que Mereces",
     step4body: "No pagas nada a menos que ganes.",
     urgencyCta: "No Esperes — Los Plazos Aplican a Reclamaciones",
@@ -400,7 +403,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     trustStripStates: "Los 50 estados",
     trustStripHipaa: "Registro compatible con HIPAA",
     trustStripRating: "Calificación 4.9/5",
-    trustStripRecoveries: "Más de $1 mil millones · 99.9% en la red",
+    trustStripRecoveries: "Red nacional de abogados",
     coverageHeading: "WreckMatch cubre los 50 estados",
     footerCopyright: "© 2026 WreckMatch — Todos los derechos reservados.",
     footerP1:

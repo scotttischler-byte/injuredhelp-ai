@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GeoHubContent } from "@/components/GeoHubContent";
 import { getAllGeoHubSlugs, getGeoHubBySlug } from "@/lib/geo-routes";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, siteJsonLdGraph } from "@/lib/seo";
+import { brandFromHeaders } from "@/lib/site";
 import { headers } from "next/headers";
 
 type Props = { params: Promise<{ place: string }> };
@@ -44,16 +45,9 @@ export default async function GeoHubPage({ params }: Props) {
   if (!hub) notFound();
 
   const h = await headers();
+  const brand = brandFromHeaders(h);
   const origin = (await import("@/lib/site")).siteOriginFromHeaders(h);
-  const name = hub.type === "state" ? hub.profile.state : hub.profile.city;
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: `Car accident help in ${name}`,
-    description: `Legal referral service for car accident victims in ${name}.`,
-    url: `${origin}/car-accident-help-${place}`,
-  };
+  const jsonLd = siteJsonLdGraph(origin, brand);
 
   return (
     <>

@@ -5,7 +5,7 @@ import { headers } from "next/headers";
 import { CookieConsent } from "@/components/CookieConsent";
 import { Providers } from "@/components/Providers";
 import { SiteFooter } from "@/components/SiteFooter";
-import { legalReferralServiceJsonLd, organizationJsonLd } from "@/lib/seo";
+import { siteJsonLdGraph } from "@/lib/seo";
 import {
   brandFromHeaders,
   BRAND_CONFIG,
@@ -84,7 +84,7 @@ export default async function RootLayout({
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
   const brand = brandFromHeaders(h);
-  const jsonLd = [organizationJsonLd(origin, brand), legalReferralServiceJsonLd(origin, brand)];
+  const jsonLd = siteJsonLdGraph(origin, brand);
   const tiktokPixelId = tiktokPixelIdForBrand(brand);
   const loadTikTokPixel = shouldLoadTikTokPixel(brand);
   const tiktokPixelInline = loadTikTokPixel ? tiktokPixelInlineScript(tiktokPixelId) : "";
@@ -98,7 +98,7 @@ export default async function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({ "@context": "https://schema.org", "@graph": jsonLd }),
+            __html: JSON.stringify(jsonLd),
           }}
         />
       </head>

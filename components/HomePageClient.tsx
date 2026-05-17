@@ -19,15 +19,8 @@ const HomePageBelowFold = dynamic(() => import("@/components/HomePageBelowFold")
 
 export function HomePageClient() {
   const { lang, t } = useLanguage();
-  const [slotsRemaining, setSlotsRemaining] = useState<number | null>(null);
   const [formInView, setFormInView] = useState(false);
   const formCardRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    queueMicrotask(() => {
-      setSlotsRemaining(Math.floor(Math.random() * 5) + 3);
-    });
-  }, []);
 
   useEffect(() => {
     const el = formCardRef.current;
@@ -89,14 +82,6 @@ export function HomePageClient() {
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-gray-400 sm:text-lg md:text-xl">
             {t.subheadline}
           </p>
-          {slotsRemaining !== null && (
-            <p className="mx-auto mt-5 inline-flex items-center gap-2 rounded-full border border-red-500/50 bg-red-950/40 px-4 py-2 text-sm font-semibold text-red-300">
-              <span aria-hidden>⏱</span>
-              <span>
-                {t.slotsLine} — <span className="text-white">{slotsRemaining}</span> {t.slotsRemaining}
-              </span>
-            </p>
-          )}
           <div className="mx-auto mt-8 flex max-w-3xl flex-wrap items-center justify-center gap-x-3 gap-y-2 text-sm text-white sm:text-base">
             <span className="transition-opacity duration-200">✅ {t.trustItem1}</span>
             <span className="hidden text-gray-600 sm:inline">|</span>
@@ -137,6 +122,7 @@ export function HomePageClient() {
         <p id="lead-form-heading" className="sr-only">
           {t.leadFormSr}
         </p>
+        <ReferralDisclaimer className="mx-auto mb-4 max-w-[560px] border-gray-300 bg-white text-gray-600" />
         <LeadForm ref={formCardRef} source="homepage" language={lang} formCopy={t.form} />
       </section>
 
