@@ -1,9 +1,11 @@
 "use client";
 
-import { forwardRef, useEffect, useMemo, useState } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { DEFAULT_LEAD_FORM_COPY, type Lang, type LeadFormCopy } from "@/lib/homeTranslations";
 import { ALL_STATES } from "@/lib/states";
+import { FORM_SUCCESS_MESSAGE } from "@/lib/compliance";
 import { tiktokContentNameFromWindow } from "@/lib/brand-client";
 import {
   getTikTokAttribution,
@@ -13,7 +15,7 @@ import {
   trackTikTokLeadConversion,
 } from "@/lib/tiktok-attribution";
 import { trackLeadConversion } from "@/lib/trackConversion";
-import { INJURY_OPTIONS, TIMING_OPTIONS, US_STATES } from "@/lib/usStates";
+import { TIMING_OPTIONS, US_STATES } from "@/lib/usStates";
 
 declare global {
   interface Window {
@@ -27,13 +29,9 @@ export interface LeadFormProps {
   headline?: string;
   subheadline?: string;
   submitLabel?: string;
-  /** Full intake (default), minimal for calculator CTA, or guide funnel fields */
   variant?: "default" | "minimal" | "guide";
-  /** BCP-47 style language sent with lead (homepage bilingual toggle). */
   language?: Lang;
-  /** When set (e.g. homepage), overrides default English form strings. */
   formCopy?: LeadFormCopy;
-  /** Called after successful /api/submit (e.g. survival guide email chain) */
   afterSubmit?: (payload: {
     firstName: string;
     lastName: string;
@@ -41,7 +39,6 @@ export interface LeadFormProps {
     state: string;
     email?: string;
   }) => Promise<void>;
-  /** Custom thank-you path; default `/thank-you?firstName=...&source=...` */
   thankYouPath?: (ctx: { firstName: string; source?: string }) => string;
 }
 
@@ -51,12 +48,11 @@ type FormState = {
   phone: string;
   email: string;
   state: string;
-  timing: string;
-  injuries: string[];
+  accidentDescription: string;
   smsOptIn: boolean;
 };
 
-type FieldErrors = Partial<Record<keyof FormState | "injuries", string>>;
+type FieldErrors = Partial<Record<keyof FormState, string>>;
 
 function formatPhone(val: string) {
   const v = val.replace(/\D/g, "").slice(0, 10);
@@ -73,6 +69,11 @@ function resolvePreselectedState(ps?: string): string {
     return m?.state ?? "";
   }
   return t;
+}
+
+function emailFromPhone(phone: string): string {
+  const digits = phone.replace(/\D/g, "");
+  return `lead+${digits || "unknown"}@intake.wreckmatch.com`;
 }
 
 function pushLeadSubmitted() {
@@ -98,6 +99,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
 ) {
   const router = useRouter();
   const c = formCopy ?? DEFAULT_LEAD_FORM_COPY;
+  const isSimple = variant === "default";
 
   const [form, setForm] = useState<FormState>(() => ({
     firstName: "",
@@ -105,8 +107,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     phone: "",
     email: "",
     state: resolvePreselectedState(preselectedState),
-    timing: "",
-    injuries: [],
+    accidentDescription: "",
     smsOptIn: true,
   }));
 
@@ -117,41 +118,20 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
   }, [preselectedState]);
 
   const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
-  const [status, setStatus] = useState<"idle" | "loading" | "error">("idle");
-  const [submitStep, setSubmitStep] = useState<1 | 2>(1);
-
-  const timingPairs = useMemo(
-    () =>
-      TIMING_OPTIONS.map((value, i) => ({
-        value,
-        label: c.timingOptionsDisplay[i] ?? value,
-      })),
-    [c.timingOptionsDisplay],
-  );
-
-  const toggleInjury = (injury: string) => {
-    setForm((f) => ({
-      ...f,
-      injuries: f.injuries.includes(injury)
-        ? f.injuries.filter((i) => i !== injury)
-        : [...f.injuries, injury],
-    }));
-  };
+  const [status, setStatus] = useState<"idle" | "loading" | "error" | "success">("idle");
+  const [successPhone, setSuccessPhone] = useState("");
 
   const validate = (): boolean => {
     const errs: FieldErrors = {};
     if (!form.firstName.trim()) errs.firstName = c.errFirstName;
-    if (variant === "default" && !form.lastName.trim()) errs.lastName = c.errLastName;
     const digits = form.phone.replace(/\D/g, "");
     if (!digits) errs.phone = c.errPhone;
     else if (digits.length < 10) errs.phone = c.errPhoneDigits;
     if (!form.state) errs.state = c.errState;
-    if (variant === "default") {
-      if (!form.timing) errs.timing = c.errTiming;
-      if (form.injuries.length === 0) errs.injuries = c.errInjuries;
+    if (!isSimple && variant !== "minimal" && variant !== "guide") {
+      if (!form.lastName.trim()) errs.lastName = c.errLastName;
     }
-    if (!form.email.trim()) errs.email = "Email is required.";
-    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
+    if (!isSimple && form.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
       errs.email = "Enter a valid email.";
     }
     setFieldErrors(errs);
@@ -161,16 +141,17 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
-    setSubmitStep(2);
     setStatus("loading");
-    const timing =
-      variant === "default" ? form.timing : variant === "minimal" ? TIMING_OPTIONS[0] : TIMING_OPTIONS[0];
-    const injuries = variant === "default" ? form.injuries : ["❓ Not Sure"];
-    const lastName = variant === "default" ? form.lastName.trim() : form.lastName.trim() || "-";
+
+    const lastName = isSimple ? "-" : form.lastName.trim() || "-";
+    const emailTrimmed = isSimple ? emailFromPhone(form.phone) : form.email.trim() || emailFromPhone(form.phone);
+    const timing = TIMING_OPTIONS[0];
+    const injuries = form.accidentDescription.trim()
+      ? [`Accident notes: ${form.accidentDescription.trim().slice(0, 500)}`]
+      : ["❓ Not Sure"];
 
     const tiktokEventId = newTikTokEventId();
     const { ttclid, ttp } = getTikTokAttribution();
-    const emailTrimmed = form.email.trim();
 
     const body = {
       firstName: form.firstName.trim(),
@@ -183,6 +164,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       email: emailTrimmed,
       smsOptIn: form.smsOptIn,
       language,
+      accidentDescription: form.accidentDescription.trim() || undefined,
       ttclid,
       ttp,
       tiktokEventId,
@@ -213,6 +195,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       trackTikTokCompleteRegistration(tiktokEventId);
       pushLeadSubmitted();
       trackLeadConversion();
+
       void fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -227,6 +210,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           source: body.source,
         }),
       }).catch(() => undefined);
+
       if (afterSubmit) {
         await afterSubmit({
           firstName: form.firstName.trim(),
@@ -236,36 +220,50 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           email: emailTrimmed,
         });
       }
-      const dest =
-        thankYouPath?.({ firstName: form.firstName.trim(), source }) ??
-        `/thank-you?firstName=${encodeURIComponent(form.firstName.trim())}&source=${encodeURIComponent(source)}&tiktokEventId=${encodeURIComponent(tiktokEventId)}`;
-      router.push(dest);
+
+      setSuccessPhone(form.phone);
+      setStatus("success");
+
+      window.setTimeout(() => {
+        const dest =
+          thankYouPath?.({ firstName: form.firstName.trim(), source }) ??
+          `/thank-you?firstName=${encodeURIComponent(form.firstName.trim())}&source=${encodeURIComponent(source)}&tiktokEventId=${encodeURIComponent(tiktokEventId)}`;
+        router.push(dest);
+      }, 4000);
     } catch {
-      setSubmitStep(1);
       setStatus("error");
     }
   };
 
   const inputClass =
     "w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none ring-[#cc0000]/25 transition-all duration-200 placeholder:text-gray-400 focus:border-[#cc0000] focus:ring-2";
-
   const labelClass = "mb-1.5 block text-xs font-bold uppercase tracking-wide text-gray-600";
 
-  const showFull = variant === "default";
-  const showGuideExtras = variant === "guide";
-  const showMinimal = variant === "minimal";
-
-  const progressPct = submitStep === 1 ? 50 : 100;
+  if (status === "success") {
+    return (
+      <div
+        ref={ref as React.Ref<HTMLDivElement>}
+        id="form"
+        className="mx-auto w-full max-w-[560px] rounded-2xl border border-green-200 bg-green-50 p-8 text-center shadow-lg"
+        role="status"
+      >
+        <p className="text-3xl" aria-hidden>
+          ✓
+        </p>
+        <h2 className="mt-4 text-xl font-bold text-gray-900">You&apos;re all set</h2>
+        <p className="mt-3 text-base leading-relaxed text-gray-700">{FORM_SUCCESS_MESSAGE(successPhone)}</p>
+        <p className="mt-4 text-sm text-gray-500">Keep your phone nearby — we&apos;re calling now.</p>
+      </div>
+    );
+  }
 
   return (
     <div
-      ref={(node) => {
-        if (typeof ref === "function") ref(node);
-        else if (ref) (ref as React.MutableRefObject<HTMLDivElement | null>).current = node;
-      }}
+      ref={ref}
       id="form"
       className="relative mx-auto w-full max-w-[560px] overflow-hidden rounded-2xl border border-gray-200/80 bg-white p-6 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.18)] ring-1 ring-gray-200/80 sm:p-8"
     >
+      <ReferralDisclaimer className="mb-5 border-gray-200 bg-gray-50 text-gray-600" />
       <div className="pointer-events-none absolute left-0 right-0 top-0 h-1 bg-[#cc0000]" aria-hidden />
       {headline ? (
         <div className="mb-4 text-center">
@@ -277,170 +275,86 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           {c.formHeadline}
         </p>
       )}
-      <div className="mb-6">
-        <div className="mb-1 flex justify-between text-xs text-gray-500">
-          <span>{submitStep === 1 ? c.formStep1 : c.formStepSubmitting}</span>
-          <span>{progressPct}%</span>
-        </div>
-        <div className="h-1.5 w-full overflow-hidden rounded-full bg-gray-200">
-          <div
-            className="h-1.5 origin-left rounded-full bg-[#cc0000] transition-transform duration-300 ease-out"
-            style={{ transform: `scaleX(${progressPct / 100})` }}
-          />
-        </div>
-      </div>
+      {isSimple ? (
+        <p className="mb-5 text-center text-sm font-medium text-gray-600">{c.formStep1}</p>
+      ) : null}
+
       <form onSubmit={handleSubmit} className="space-y-5" noValidate aria-live="polite">
-        <div className={`grid gap-4 ${showGuideExtras || showMinimal ? "" : "sm:grid-cols-2"}`}>
-            <div>
-              <label htmlFor="wm-firstName" className={labelClass}>
-                {showMinimal ? "Name" : c.firstName}
-              </label>
-              <input
-                id="wm-firstName"
-                name="firstName"
-                type="text"
-                autoComplete="given-name"
-                aria-required="true"
-                className={inputClass}
-                value={form.firstName}
-                onChange={(e) => setForm({ ...form, firstName: e.target.value })}
-              />
-              {fieldErrors.firstName && <p className="mt-1 text-sm text-red-700">{fieldErrors.firstName}</p>}
-            </div>
-            {!showGuideExtras && !showMinimal ? (
-              <div>
-                <label htmlFor="wm-lastName" className={labelClass}>
-                  {c.lastName}
-                </label>
-                <input
-                  id="wm-lastName"
-                  name="lastName"
-                  type="text"
-                  autoComplete="family-name"
-                  aria-required="true"
-                  className={inputClass}
-                  value={form.lastName}
-                  onChange={(e) => setForm({ ...form, lastName: e.target.value })}
-                />
-                {fieldErrors.lastName && <p className="mt-1 text-sm text-red-700">{fieldErrors.lastName}</p>}
-              </div>
-            ) : null}
-          </div>
+        <div>
+          <label htmlFor="wm-firstName" className={labelClass}>
+            {c.firstName}
+          </label>
+          <input
+            id="wm-firstName"
+            name="firstName"
+            type="text"
+            autoComplete="given-name"
+            aria-required="true"
+            className={inputClass}
+            value={form.firstName}
+            onChange={(e) => setForm({ ...form, firstName: e.target.value })}
+          />
+          {fieldErrors.firstName && <p className="mt-1 text-sm text-red-700">{fieldErrors.firstName}</p>}
+        </div>
 
-          <div>
-            <label htmlFor="wm-phone" className={labelClass}>
-              {c.phone}
-            </label>
-            <input
-              id="wm-phone"
-              name="phone"
-              type="tel"
-              inputMode="tel"
-              autoComplete="tel"
-              placeholder="Your phone number"
-              aria-required="true"
-              className={`${inputClass} py-4 text-lg`}
-              value={form.phone}
-              onChange={(e) => setForm({ ...form, phone: formatPhone(e.target.value) })}
-            />
-            {fieldErrors.phone && <p className="mt-1 text-sm text-red-700">{fieldErrors.phone}</p>}
-          </div>
+        <div>
+          <label htmlFor="wm-phone" className={labelClass}>
+            {c.phone}
+          </label>
+          <input
+            id="wm-phone"
+            name="phone"
+            type="tel"
+            inputMode="tel"
+            autoComplete="tel"
+            placeholder="Your phone number"
+            aria-required="true"
+            className={`${inputClass} py-4 text-lg`}
+            value={form.phone}
+            onChange={(e) => setForm({ ...form, phone: formatPhone(e.target.value) })}
+          />
+          {fieldErrors.phone && <p className="mt-1 text-sm text-red-700">{fieldErrors.phone}</p>}
+        </div>
 
+        <div>
+          <label htmlFor="wm-state" className={labelClass}>
+            {c.state}
+          </label>
+          <select
+            id="wm-state"
+            name="state"
+            autoComplete="address-level1"
+            aria-required="true"
+            className={inputClass}
+            value={form.state}
+            onChange={(e) => setForm({ ...form, state: e.target.value })}
+          >
+            <option value="">{c.statePlaceholder}</option>
+            {US_STATES.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
+          {fieldErrors.state && <p className="mt-1 text-sm text-red-700">{fieldErrors.state}</p>}
+        </div>
+
+        {isSimple ? (
           <div>
-            <label htmlFor="wm-email" className={labelClass}>
-              EMAIL ADDRESS
+            <label htmlFor="wm-accident" className={labelClass}>
+              {c.accidentDescriptionLabel}
             </label>
-            <input
-              id="wm-email"
-              name="email"
-              type="email"
-              autoComplete="email"
-              placeholder="Your email address"
-              aria-required="true"
+            <textarea
+              id="wm-accident"
+              name="accidentDescription"
+              rows={4}
+              placeholder={c.accidentDescriptionPlaceholder}
               className={inputClass}
-              value={form.email}
-              onChange={(e) => setForm({ ...form, email: e.target.value })}
+              value={form.accidentDescription}
+              onChange={(e) => setForm({ ...form, accidentDescription: e.target.value })}
             />
-            {fieldErrors.email && <p className="mt-1 text-sm text-red-700">{fieldErrors.email}</p>}
           </div>
-
-          <div>
-            <label htmlFor="wm-state" className={labelClass}>
-              {c.state}
-            </label>
-            <select
-              id="wm-state"
-              name="state"
-              autoComplete="address-level1"
-              aria-required="true"
-              className={inputClass}
-              value={form.state}
-              onChange={(e) => setForm({ ...form, state: e.target.value })}
-            >
-              <option value="">{c.statePlaceholder}</option>
-              {US_STATES.map((s) => (
-                <option key={s} value={s}>
-                  {s}
-                </option>
-              ))}
-            </select>
-            {fieldErrors.state && <p className="mt-1 text-sm text-red-700">{fieldErrors.state}</p>}
-          </div>
-
-          {showFull ? (
-            <>
-              <div>
-                <label htmlFor="wm-timing" className={labelClass}>
-                  {c.timing}
-                </label>
-                <select
-                  id="wm-timing"
-                  name="timing"
-                  autoComplete="off"
-                  aria-required="true"
-                  className={inputClass}
-                  value={form.timing}
-                  onChange={(e) => setForm({ ...form, timing: e.target.value })}
-                >
-                  <option value="" disabled>
-                    {c.timingPrompt}
-                  </option>
-                  {timingPairs.map(({ value, label }) => (
-                    <option key={value} value={value}>
-                      {label}
-                    </option>
-                  ))}
-                </select>
-                {fieldErrors.timing && <p className="mt-1 text-sm text-red-700">{fieldErrors.timing}</p>}
-              </div>
-
-              <fieldset>
-                <legend className={`${labelClass} mb-2`}>{c.injuryLabel}</legend>
-                <div className="flex flex-wrap gap-2">
-                  {INJURY_OPTIONS.map((inj) => {
-                    const active = form.injuries.includes(inj);
-                    return (
-                      <button
-                        key={inj}
-                        type="button"
-                        aria-pressed={active}
-                        aria-label={`${active ? "Deselect" : "Select"} injury type ${inj}`}
-                        onClick={() => toggleInjury(inj)}
-                        className={`rounded-full border px-3 py-2 text-sm font-medium transition-opacity duration-200 ${
-                          active
-                            ? "border-[#cc0000] bg-red-50 text-red-900 ring-2 ring-red-200"
-                            : "border-gray-300 bg-gray-50 text-gray-700 hover:border-gray-400 hover:opacity-90"
-                        }`}
-                      >
-                        {inj}
-                      </button>
-                    );
-                  })}
-                </div>
-                {fieldErrors.injuries && <p className="mt-1 text-sm text-red-700">{fieldErrors.injuries}</p>}
-              </fieldset>
-            </>
-          ) : null}
+        ) : null}
 
         <label className="flex cursor-pointer items-start gap-3 text-sm text-gray-700">
           <input
@@ -453,32 +367,23 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         </label>
 
         {status === "error" && (
-          <p className="text-center text-sm text-red-700" role="status">
-            Something went wrong. Please try again.
+          <p className="text-center text-sm text-red-700" role="alert">
+            Something went wrong. Please try again or call (978) 515-6063.
           </p>
         )}
 
-        <div className="relative">
-          <span
-            className="pointer-events-none absolute inset-0 rounded-xl bg-[#cc0000]/25 opacity-60 animate-pulse"
-            aria-hidden
-          />
-          <button
-            type="submit"
-            disabled={status === "loading"}
-            className="relative w-full rounded-xl bg-[#cc0000] py-4 text-lg font-bold text-white shadow-md transition-opacity duration-200 hover:bg-[#b30000] disabled:cursor-not-allowed disabled:opacity-70"
-          >
-            {status === "loading" ? c.submitting : submitLabel ?? c.submitBtn}
-          </button>
-        </div>
+        <button
+          type="submit"
+          disabled={status === "loading"}
+          className="w-full rounded-xl bg-[#cc0000] py-4 text-lg font-bold text-white shadow-md transition-opacity duration-200 hover:bg-[#b30000] disabled:cursor-not-allowed disabled:opacity-70"
+        >
+          {status === "loading" ? c.submitting : submitLabel ?? c.submitBtn}
+        </button>
       </form>
       <p className="mt-3 flex items-center justify-center gap-2 text-center text-xs text-gray-500">
-        <span className="text-base" aria-hidden>
-          🔒
-        </span>
+        <span aria-hidden>🔒</span>
         <span>{c.secureNote}</span>
       </p>
-      <p className="mt-4 text-center text-xs leading-relaxed text-gray-500">{c.disclaimer}</p>
     </div>
   );
 });

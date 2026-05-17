@@ -77,6 +77,7 @@ export async function POST(req: NextRequest) {
       ttp,
       tiktokEventId,
       pageUrl,
+      accidentDescription,
     } = body;
 
     const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host") ?? "";
@@ -113,7 +114,8 @@ export async function POST(req: NextRequest) {
           <tr><td style="padding:8px 0;font-weight:bold;color:#444;">Phone</td><td style="padding:8px 0;color:#1C1C1E;"><a href="tel:${phone}" style="color:#C41230;">${phone}</a></td></tr>
           <tr><td style="padding:8px 0;font-weight:bold;color:#444;">State</td><td style="padding:8px 0;color:#1C1C1E;">${state}</td></tr>
           <tr><td style="padding:8px 0;font-weight:bold;color:#444;">Geo</td><td style="padding:8px 0;color:#1C1C1E;">${geo.geoTag} — ${geo.attorneyAssigned} (${geo.locationLabel})</td></tr>
-          <tr><td style="padding:8px 0;font-weight:bold;color:#444;">Injury Type</td><td style="padding:8px 0;color:#1C1C1E;">${injuryRows.join(", ")}</td></tr>
+          <tr><td style="padding:8px 0;font-weight:bold;color:#444;">Injury / Notes</td><td style="padding:8px 0;color:#1C1C1E;">${injuryRows.join(", ")}</td></tr>
+          ${typeof accidentDescription === "string" && accidentDescription.trim() ? `<tr><td style="padding:8px 0;font-weight:bold;color:#444;">Accident details</td><td style="padding:8px 0;color:#1C1C1E;">${accidentDescription.trim().slice(0, 500)}</td></tr>` : ""}
           <tr><td style="padding:8px 0;font-weight:bold;color:#444;">Accident Timing</td><td style="padding:8px 0;color:#1C1C1E;">${timing}</td></tr>
           <tr><td style="padding:8px 0;font-weight:bold;color:#444;">Source</td><td style="padding:8px 0;color:#1C1C1E;">${source || cfg.ghlSource}</td></tr>
           <tr><td style="padding:8px 0;font-weight:bold;color:#444;">Language</td><td style="padding:8px 0;color:#1C1C1E;">${language || "English"}</td></tr>

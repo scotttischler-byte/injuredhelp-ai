@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { HomeCopy, Lang } from "@/lib/homeTranslations";
 import { ACTIVITY_MESSAGES } from "@/lib/homeTranslations";
+import { HowWeHelpSection } from "@/components/HowWeHelpSection";
+import { stateHubSlug } from "@/lib/geo-routes";
 import { ALL_STATES } from "@/lib/states";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
 
@@ -76,35 +78,7 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
         ))}
       </div>
 
-      <section className="bg-gray-950 px-4 py-10">
-        <div className="mx-auto grid min-h-[120px] max-w-5xl grid-cols-2 divide-y divide-gray-800 text-center md:grid-cols-4 md:divide-x md:divide-y-0 md:divide-gray-800">
-          <div className="stat-reveal px-2 py-6 md:py-8">
-            <p className="text-xl font-bold leading-tight text-white sm:text-2xl md:text-3xl">{t.stat1Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat1Label}</p>
-          </div>
-          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.08s" }}>
-            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat2Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat2Label}</p>
-          </div>
-          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.16s" }}>
-            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat3Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat3Label}</p>
-          </div>
-          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.24s" }}>
-            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat4Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat4Label}</p>
-          </div>
-        </div>
-        <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-relaxed text-gray-500">
-          <sup className="font-semibold text-red-400">*</sup> {t.statsDisclaimer}{" "}
-          <a
-            href="#advertising-legal-notice"
-            className="text-red-400 underline transition-opacity duration-200 hover:text-red-300"
-          >
-            {t.statsDisclaimerLink}
-          </a>
-        </p>
-      </section>
+      <HowWeHelpSection t={t} />
 
       <section className="bg-gray-200 px-4 py-14 sm:py-16">
         <h2 className="mb-3 text-center text-2xl font-bold text-gray-900 sm:text-3xl">
@@ -282,7 +256,7 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
           {ALL_STATES.map((s) => (
             <Link
               key={s.slug}
-              href={`/states/${s.slug}`}
+              href={`/${stateHubSlug(s.state)}`}
               className="rounded-lg border border-gray-800 bg-gray-900 py-2 text-center text-xs font-bold text-gray-200 transition-colors hover:border-red-600 hover:text-white"
             >
               {s.abbreviation}
@@ -290,22 +264,6 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
           ))}
         </div>
       </section>
-
-      <footer className="bg-gray-950 px-4 py-10">
-        <div className="mx-auto max-w-3xl text-center text-xs leading-relaxed text-gray-500">
-          <p className="mb-2 text-gray-400">{t.footerCopyright}</p>
-          <p className="mb-3">{t.footerP1}</p>
-          <p>
-            <sup className="text-gray-600">*</sup> {t.footerP2}{" "}
-            <a
-              href="#advertising-legal-notice"
-              className="text-gray-400 underline transition-opacity duration-200 hover:text-gray-300"
-            >
-              {t.advertisingHeading}
-            </a>
-          </p>
-        </div>
-      </footer>
 
       {toastVisible && !toastDismissed && (
         <div

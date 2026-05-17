@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/LanguageContext";
 import { LeadForm } from "@/components/LeadForm";
+import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { SiteHeader } from "@/components/SiteHeader";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
 
@@ -111,16 +112,17 @@ export function HomePageClient() {
             <sup className="font-semibold text-red-400">*</sup>
             <strong className="text-gray-400"> {t.heroLegalPrefix}</strong> {t.heroLegalText}{" "}
             <a
-              href="#advertising-legal-notice"
+              href="/advertising-legal-notice"
               className="font-medium text-red-400 underline decoration-red-400/50 underline-offset-2 transition-opacity duration-200 hover:text-red-300"
             >
               {t.heroLegalReadMore}
             </a>
             .
           </p>
-          <div className="mt-10 flex flex-col items-center gap-3">
+          <ReferralDisclaimer className="mx-auto mt-8 max-w-2xl text-left" />
+          <div className="mt-6 flex flex-col items-center gap-3">
             <a
-              href="tel:19785156063"
+              href="tel:+19785156063"
               onClick={() => trackTikTokClickButton("hero_call")}
               className="inline-flex w-full max-w-md items-center justify-center rounded-xl bg-[#cc0000] px-6 py-4 text-lg font-bold text-white shadow-lg shadow-red-900/40 transition-transform duration-200 hover:scale-[1.02] hover:bg-[#b30000] sm:text-xl"
             >
@@ -131,7 +133,6 @@ export function HomePageClient() {
         </div>
       </section>
 
-      {/* Lead form — loads immediately after hero */}
       <section className="px-4 py-12 sm:py-16" aria-labelledby="lead-form-heading">
         <p id="lead-form-heading" className="sr-only">
           {t.leadFormSr}

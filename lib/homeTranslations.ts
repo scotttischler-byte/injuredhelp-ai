@@ -11,6 +11,8 @@ export type LeadFormCopy = {
   phone: string;
   state: string;
   statePlaceholder: string;
+  accidentDescriptionLabel: string;
+  accidentDescriptionPlaceholder: string;
   timingPrompt: string;
   timing: string;
   timingOptionsDisplay: readonly string[];
@@ -163,13 +165,16 @@ const FAQ_ES: HomeFaqItem[] = [
 
 const FORM_EN: LeadFormCopy = {
   formHeadline: "GET FREE HELP NOW",
-  formStep1: "Step 1 of 2 — Your Info",
-  formStepSubmitting: "Step 2 of 2 — Submitting...",
-  firstName: "First Name",
+  formStep1: "We call you back within 60 seconds — free, no obligation.",
+  formStepSubmitting: "Connecting you now…",
+  firstName: "Your Name",
   lastName: "Last Name",
   phone: "Phone Number",
   state: "State",
   statePlaceholder: "Select your state...",
+  accidentDescriptionLabel: "Tell us what happened in your accident (optional)",
+  accidentDescriptionPlaceholder:
+    "Example: rear-ended at a red light, neck pain, went to ER…",
   timingPrompt: "Select timeframe",
   timing: "When did your accident happen?",
   timingOptionsDisplay: [
@@ -182,8 +187,8 @@ const FORM_EN: LeadFormCopy = {
   injuryLabel: "Injury type (select all that apply)",
   smsOptIn:
     "I agree to receive SMS updates about my case. Message and data rates may apply. Reply STOP to opt out.",
-  submitBtn: "GET FREE HELP NOW →",
-  submitting: "Submitting…",
+  submitBtn: "Call me back now",
+  submitting: "Connecting you…",
   disclaimer:
     "By submitting you agree to be contacted by phone and SMS regarding your case. No spam. No fees unless you win. WreckMatch is a legal referral service, not a law firm.",
   secureNote: "Secure & Encrypted",
@@ -198,13 +203,15 @@ const FORM_EN: LeadFormCopy = {
 
 const FORM_ES: LeadFormCopy = {
   formHeadline: "OBTÉN AYUDA GRATIS AHORA",
-  formStep1: "Paso 1 de 2 — Tu Información",
-  formStepSubmitting: "Paso 2 de 2 — Enviando...",
-  firstName: "Nombre",
+  formStep1: "Te llamamos en 60 segundos — gratis, sin obligación.",
+  formStepSubmitting: "Conectándote ahora…",
+  firstName: "Tu Nombre",
   lastName: "Apellido",
   phone: "Número de Teléfono",
   state: "Estado",
   statePlaceholder: "Selecciona tu estado...",
+  accidentDescriptionLabel: "Cuéntanos qué pasó en tu accidente (opcional)",
+  accidentDescriptionPlaceholder: "Ejemplo: choque por detrás, dolor de cuello…",
   timingPrompt: "Selecciona el periodo",
   timing: "¿Cuándo ocurrió tu accidente?",
   timingOptionsDisplay: [
@@ -217,8 +224,8 @@ const FORM_ES: LeadFormCopy = {
   injuryLabel: "Tipo de lesión (selecciona todas las que apliquen)",
   smsOptIn:
     "Acepto recibir mensajes SMS sobre mi caso. Pueden aplicar tarifas de mensajes y datos. Responde STOP para cancelar.",
-  submitBtn: "OBTENER AYUDA GRATIS AHORA →",
-  submitting: "Enviando…",
+  submitBtn: "Llámame ahora",
+  submitting: "Conectando…",
   disclaimer:
     "Al enviar, aceptas ser contactado por teléfono y SMS. Sin spam. Sin honorarios a menos que ganes. WreckMatch es un servicio de referencia legal, no un bufete de abogados.",
   secureNote: "Seguro y cifrado",
@@ -241,10 +248,10 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     headline2: "You Deserve the Right Attorney.",
     subheadline:
       "WreckMatch connects injured accident victims with licensed personal injury attorneys in their state — for free, in under 60 seconds. No fees unless you win.",
-    trustItem1: "Over $1 billion partner recoveries",
-    trustItem2: "99.9% network success rate",
-    trustItem3: "Zero upfront cost",
-    trustItem4: "Contingency only",
+    trustItem1: "Licensed attorneys in your state",
+    trustItem2: "Free matching — no upfront cost",
+    trustItem3: "60-second callback",
+    trustItem4: "Contingency fee attorneys only",
     trustItem5: "All 50 states",
     callBtn: "📞 Call or Text Now: (978) 515-6063",
     formHint: "Or fill out the form below — we'll call YOU within 60 seconds",
@@ -333,10 +340,10 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     headline2: "Mereces el Abogado Correcto.",
     subheadline:
       "WreckMatch conecta a víctimas de accidentes con abogados de lesiones personales en su estado — gratis, en menos de 60 segundos. Sin honorarios a menos que ganes.",
-    trustItem1: "Más de $1 mil millones recuperados",
-    trustItem2: "99.9% tasa de éxito en la red",
-    trustItem3: "Sin costo inicial",
-    trustItem4: "Solo si ganas",
+    trustItem1: "Abogados con licencia en tu estado",
+    trustItem2: "Emparejamiento gratis — sin costo inicial",
+    trustItem3: "Llamada en 60 segundos",
+    trustItem4: "Solo honorarios de contingencia",
     trustItem5: "Los 50 estados",
     callBtn: "📞 Llama o Escribe Ahora: (978) 515-6063",
     formHint: "O llena el formulario — te llamaremos en 60 segundos",

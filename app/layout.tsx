@@ -4,6 +4,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { headers } from "next/headers";
 import { CookieConsent } from "@/components/CookieConsent";
 import { Providers } from "@/components/Providers";
+import { SiteFooter } from "@/components/SiteFooter";
+import { legalReferralServiceJsonLd, organizationJsonLd } from "@/lib/seo";
 import {
   brandFromHeaders,
   BRAND_CONFIG,
@@ -26,22 +28,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-function legalServiceJsonLd(origin: string, brand: SiteBrand) {
-  const cfg = BRAND_CONFIG[brand];
-  return {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    name: cfg.name,
-    description: `${cfg.name} connects car accident victims with licensed personal injury attorneys in all 50 states.`,
-    url: origin,
-    telephone: cfg.phone,
-    areaServed: "US",
-    serviceType: "Personal Injury Legal Referral",
-    priceRange: "Free",
-    availableLanguage: ["English", "Spanish"],
-  };
-}
 
 export async function generateMetadata(): Promise<Metadata> {
   const h = await headers();
@@ -98,7 +84,7 @@ export default async function RootLayout({
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
   const brand = brandFromHeaders(h);
-  const jsonLd = legalServiceJsonLd(origin, brand);
+  const jsonLd = [organizationJsonLd(origin, brand), legalReferralServiceJsonLd(origin, brand)];
   const tiktokPixelId = tiktokPixelIdForBrand(brand);
   const loadTikTokPixel = shouldLoadTikTokPixel(brand);
   const tiktokPixelInline = loadTikTokPixel ? tiktokPixelInlineScript(tiktokPixelId) : "";
@@ -111,7 +97,9 @@ export default async function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({ "@context": "https://schema.org", "@graph": jsonLd }),
+          }}
         />
       </head>
       <body className="min-h-full flex flex-col font-sans">
@@ -155,7 +143,10 @@ export default async function RootLayout({
             {tiktokPixelInline}
           </Script>
         ) : null}
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+          <SiteFooter />
+        </Providers>
         <CookieConsent />
       </body>
     </html>
