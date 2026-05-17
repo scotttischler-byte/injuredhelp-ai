@@ -14,6 +14,8 @@ function resolveHub(place: string) {
   return getGeoHubBySlug(slug);
 }
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
   const slugs = getAllGeoHubSlugs();
   return slugs.map((slug) => ({
