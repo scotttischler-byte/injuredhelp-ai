@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { BRAND_CONFIG, siteOriginFromHeaders, type SiteBrand } from "@/lib/site";
 
 const ORG_ID = "https://www.wreckmatch.com/#organization";
@@ -37,7 +38,7 @@ export function organizationJsonLd(origin: string, brand: SiteBrand) {
     "@type": "Organization",
     "@id": ORG_ID,
     name: cfg.name,
-    legalName: "Tophundred Global Ventures LLC",
+    legalName: OPERATOR_LEGAL_NAME,
     url: origin,
     telephone: cfg.phone,
     email: cfg.email,
@@ -56,7 +57,7 @@ export function legalReferralServiceJsonLd(origin: string, brand: SiteBrand) {
     provider: { "@id": ORG_ID },
     areaServed: { "@type": "Country", name: "United States" },
     description:
-      "Free attorney matching for car accident injury victims. WreckMatch is a referral service operated by Tophundred Global Ventures LLC, not a law firm.",
+      `Free attorney matching for car accident injury victims. WreckMatch is a referral service operated by ${OPERATOR_LEGAL_NAME}, not a law firm.`,
     offers: {
       "@type": "Offer",
       price: "0",

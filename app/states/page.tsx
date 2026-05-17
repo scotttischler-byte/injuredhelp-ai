@@ -3,6 +3,7 @@ import Link from "next/link";
 import { headers } from "next/headers";
 import { SiteHeader } from "@/components/SiteHeader";
 import { stateHubSlug } from "@/lib/geo-routes";
+import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { buildPageMetadata } from "@/lib/seo";
 import { ALL_STATES } from "@/lib/states";
 
@@ -25,7 +26,7 @@ export default function StatesIndexPage() {
         <h1 className="text-3xl font-extrabold text-gray-950 sm:text-4xl">Car accident help by state</h1>
         <p className="mt-4 max-w-2xl text-gray-600">
           Select your state for local information and free attorney matching. WreckMatch is a referral service
-          operated by Tophundred Global Ventures LLC — we are not a law firm.
+          operated by {OPERATOR_LEGAL_NAME} — we are not a law firm.
         </p>
         <div className="mt-10 grid grid-cols-2 gap-2 sm:grid-cols-4 md:grid-cols-6">
           {ALL_STATES.map((s) => (

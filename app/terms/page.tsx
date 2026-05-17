@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 import { LegalPageShell } from "@/components/LegalPageShell";
+import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { brandFromHeaders, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 
 const LAST_UPDATED = "May 16, 2026";
@@ -30,7 +31,7 @@ export default async function TermsPage() {
         <Link href="/" className="text-red-400 hover:text-red-300">
           {origin.replace(/^https:\/\//, "")}
         </Link>{" "}
-        and related services. {cfg.name} is operated by Tophundred Global Ventures LLC as a legal referral service. We
+        and related services. {cfg.name} is operated by {OPERATOR_LEGAL_NAME} as a legal referral service. We
         are <strong className="text-white">not a law firm</strong> and do not provide legal advice.
       </p>
       <section className="mt-10 space-y-3 text-sm leading-relaxed text-gray-300">

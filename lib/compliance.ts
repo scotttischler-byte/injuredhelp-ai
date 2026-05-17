@@ -1,6 +1,8 @@
+export const OPERATOR_LEGAL_NAME = "WreckMatch LLC";
+
 /** Exact referral disclaimer — required above every form and primary CTA. */
 export const REFERRAL_DISCLAIMER =
-  "WreckMatch is a legal referral service operated by Tophundred Global Ventures LLC. We are not a law firm and do not provide legal advice. Submitting this form does not create an attorney-client relationship.";
+  `WreckMatch is a legal referral service operated by ${OPERATOR_LEGAL_NAME}. We are not a law firm and do not provide legal advice. Submitting this form does not create an attorney-client relationship.`;
 
 export const FORM_SUCCESS_MESSAGE = (phone: string) =>
   `We are calling you within 60 seconds at ${phone}. You will speak with a live team member or Ava.`;

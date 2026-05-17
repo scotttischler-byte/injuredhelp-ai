@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { headers } from "next/headers";
+import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 const FOOTER_LINKS = [
@@ -30,7 +31,7 @@ export async function SiteFooter() {
           ))}
         </nav>
         <p className="mt-6 text-center text-xs leading-relaxed text-gray-500">
-          WreckMatch is a legal referral service operated by Tophundred Global Ventures LLC. We are not a law
+          WreckMatch is a legal referral service operated by {OPERATOR_LEGAL_NAME}. We are not a law
           firm. © {new Date().getFullYear()} WreckMatch —{" "}
           <a href={origin} className="text-gray-400 hover:text-white">
             {origin.replace(/^https:\/\//, "")}
