@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GeoHubContent } from "@/components/GeoHubContent";
 import { getAllGeoHubSlugs, getGeoHubBySlug } from "@/lib/geo-routes";
-import { buildPageMetadata, siteJsonLdGraph } from "@/lib/seo";
+import { buildGeoFaqs } from "@/lib/geo-content";
+import { buildPageMetadata, faqPageJsonLd, mergeJsonLdGraph, siteJsonLdGraph } from "@/lib/seo";
 import { brandFromHeaders } from "@/lib/site";
 import { headers } from "next/headers";
 
@@ -47,7 +48,8 @@ export default async function GeoHubPage({ params }: Props) {
   const h = await headers();
   const brand = brandFromHeaders(h);
   const origin = (await import("@/lib/site")).siteOriginFromHeaders(h);
-  const jsonLd = siteJsonLdGraph(origin, brand);
+  const faqs = buildGeoFaqs(hub);
+  const jsonLd = mergeJsonLdGraph(siteJsonLdGraph(origin, brand), faqPageJsonLd(faqs));
 
   return (
     <>

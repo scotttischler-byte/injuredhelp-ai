@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
+import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { brandFromHeaders, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -50,8 +51,9 @@ export default async function PrivacyPage() {
           <Link href="/" className="text-red-400 hover:text-red-300">
             {siteHost}
           </Link>{" "}
-          and related sites (the “Services”). {cfg.name} provides legal matching and referral services. We are{" "}
-          <strong className="text-white">not a law firm</strong> and do not provide legal advice.
+          and related sites (the “Services”). {cfg.name} is operated by {OPERATOR_LEGAL_NAME} and provides legal
+          matching and referral services. We are <strong className="text-white">not a law firm</strong> and do not
+          provide legal advice.
         </p>
 
         <section className="mt-10">

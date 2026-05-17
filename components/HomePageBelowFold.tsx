@@ -78,35 +78,7 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
         ))}
       </div>
 
-      <section className="bg-gray-950 px-4 py-10">
-        <div className="mx-auto grid min-h-[120px] max-w-5xl grid-cols-2 divide-y divide-gray-800 text-center md:grid-cols-4 md:divide-x md:divide-y-0 md:divide-gray-800">
-          <div className="stat-reveal px-2 py-6 md:py-8">
-            <p className="text-xl font-bold leading-tight text-white sm:text-2xl md:text-3xl">{t.stat1Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat1Label}</p>
-          </div>
-          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.08s" }}>
-            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat2Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat2Label}</p>
-          </div>
-          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.16s" }}>
-            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat3Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat3Label}</p>
-          </div>
-          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.24s" }}>
-            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat4Value}</p>
-            <p className="mt-1 text-sm text-gray-400">{t.stat4Label}</p>
-          </div>
-        </div>
-        <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-relaxed text-gray-500">
-          <sup className="font-semibold text-red-400">*</sup> {t.statsDisclaimer}{" "}
-          <a
-            href="/advertising-legal-notice"
-            className="text-red-400 underline transition-opacity duration-200 hover:text-red-300"
-          >
-            {t.statsDisclaimerLink}
-          </a>
-        </p>
-      </section>
+      <HowWeHelpSection t={t} />
 
       <section className="bg-gray-200 px-4 py-14 sm:py-16">
         <h2 className="mb-3 text-center text-2xl font-bold text-gray-900 sm:text-3xl">
@@ -147,13 +119,6 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
             🗺️ {t.linkStates}
           </Link>
           <span className="hidden text-gray-300 sm:inline">|</span>
-          <Link href="/case-calculator" className="text-[#cc0000] underline-offset-4 hover:underline">
-            📊 {t.linkCalculator}
-          </Link>
-          <span className="hidden text-gray-300 sm:inline">|</span>
-          <Link href="/survival-guide" className="text-[#cc0000] underline-offset-4 hover:underline">
-            📥 {t.linkGuide}
-          </Link>
         </div>
       </section>
 

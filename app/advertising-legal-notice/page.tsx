@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 import { LegalPageShell } from "@/components/LegalPageShell";
-import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
+import { ADVERTISING_LEAD_PARAGRAPH, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { HOME_TRANSLATIONS } from "@/lib/homeTranslations";
 import { buildPageMetadata } from "@/lib/seo";
 import { brandFromHeaders } from "@/lib/site";
@@ -27,9 +27,7 @@ export default async function AdvertisingLegalNoticePage() {
     <LegalPageShell brand={brand} title={t.advertisingHeading}>
       <div className="space-y-4 text-sm leading-relaxed text-gray-300">
         <p className="rounded-lg border border-gray-700 bg-gray-900/50 p-4 text-gray-200">
-          WreckMatch is a legal referral service operated by <strong>{OPERATOR_LEGAL_NAME}</strong>.
-          We are <strong>not a law firm</strong> and do not provide legal advice. Submitting any form on this
-          website does not create an attorney-client relationship with WreckMatch.
+          {ADVERTISING_LEAD_PARAGRAPH}
         </p>
         {t.advertisingBlocks.map((block) => (
           <p key={block.slice(0, 48)}>{block}</p>

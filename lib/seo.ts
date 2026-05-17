@@ -73,3 +73,25 @@ export function siteJsonLdGraph(origin: string, brand: SiteBrand) {
     "@graph": [organizationJsonLd(origin, brand), legalReferralServiceJsonLd(origin, brand)],
   };
 }
+
+export type FaqItem = { question: string; answer: string };
+
+export function faqPageJsonLd(faqs: FaqItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+}
+
+export function mergeJsonLdGraph(...graphs: Record<string, unknown>[]) {
+  const entities = graphs.flatMap((g) => {
+    if (Array.isArray(g["@graph"])) return g["@graph"] as Record<string, unknown>[];
+    return [g];
+  });
+  return { "@context": "https://schema.org", "@graph": entities };
+}

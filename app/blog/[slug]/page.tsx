@@ -7,7 +7,8 @@ import { headers } from "next/headers";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BLOG_FOOTER_DISCLAIMER, WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/compliance";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
-import { buildPageMetadata } from "@/lib/seo";
+import { blogFaqsForSlug } from "@/lib/blog-faqs";
+import { buildPageMetadata, faqPageJsonLd } from "@/lib/seo";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -41,12 +42,14 @@ export default async function BlogPostPage({ params }: Props) {
     headline: meta.title,
     description: meta.description,
     datePublished: meta.date,
-    author: { "@type": "Organization", name: "WreckMatch" },
+    author: { "@type": "Organization", name: "WreckMatch", legalName: "WreckMatch LLC" },
   };
+  const faqLd = faqPageJsonLd(blogFaqsForSlug(slug));
 
   return (
     <div className="min-h-screen bg-gray-100">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <SiteHeader />
       <article className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
         <nav className="mb-6 text-sm text-gray-500">

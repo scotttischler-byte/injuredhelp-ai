@@ -174,7 +174,7 @@ const FORM_EN: LeadFormCopy = {
   phone: "Phone Number",
   state: "State",
   statePlaceholder: "Select your state...",
-  accidentDescriptionLabel: "Tell us what happened in your accident (optional)",
+  accidentDescriptionLabel: "Tell us what happened…",
   accidentDescriptionPlaceholder:
     "Example: rear-ended at a red light, neck pain, went to ER…",
   timingPrompt: "Select timeframe",
