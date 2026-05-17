@@ -13,9 +13,7 @@ const TikTokHomeFunnel = dynamic(
   { ssr: false },
 );
 
-const HomePageBelowFold = dynamic(() => import("@/components/HomePageBelowFold"), {
-  ssr: false,
-});
+import HomePageBelowFold from "@/components/HomePageBelowFold";
 
 export function HomePageClient() {
   const { lang, t } = useLanguage();

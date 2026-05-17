@@ -17,7 +17,6 @@ export type LeadFormCopy = {
   timingPrompt: string;
   timing: string;
   timingOptionsDisplay: readonly string[];
-  injuryLabel: string;
   smsOptIn: string;
   submitBtn: string;
   submitting: string;
@@ -29,7 +28,6 @@ export type LeadFormCopy = {
   errPhoneDigits: string;
   errState: string;
   errTiming: string;
-  errInjuries: string;
 };
 
 export type HomeCopy = {
@@ -186,7 +184,6 @@ const FORM_EN: LeadFormCopy = {
     "6–12 months ago",
     "Over a year ago",
   ],
-  injuryLabel: "Injury type (select all that apply)",
   smsOptIn:
     "I agree to receive SMS updates about my case. Message and data rates may apply. Reply STOP to opt out.",
   submitBtn: "Call me back now",
@@ -200,7 +197,6 @@ const FORM_EN: LeadFormCopy = {
   errPhoneDigits: "Enter a valid 10-digit phone number.",
   errState: "Please select your state.",
   errTiming: "Please select when the accident happened.",
-  errInjuries: "Select at least one injury type.",
 };
 
 const FORM_ES: LeadFormCopy = {
@@ -224,7 +220,6 @@ const FORM_ES: LeadFormCopy = {
     "Hace 6–12 meses",
     "Hace más de un año",
   ],
-  injuryLabel: "Tipo de lesión (selecciona todas las que apliquen)",
   smsOptIn:
     "Acepto recibir mensajes SMS sobre mi caso. Pueden aplicar tarifas de mensajes y datos. Responde STOP para cancelar.",
   submitBtn: "Llámame ahora",
@@ -238,7 +233,6 @@ const FORM_ES: LeadFormCopy = {
   errPhoneDigits: "Ingresa un número de teléfono válido de 10 dígitos.",
   errState: "Selecciona tu estado.",
   errTiming: "Selecciona cuándo ocurrió el accidente.",
-  errInjuries: "Selecciona al menos un tipo de lesión.",
 };
 
 export const DEFAULT_LEAD_FORM_COPY: LeadFormCopy = FORM_EN;
@@ -260,14 +254,14 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     formHint: "Or fill out the form below — we'll call YOU within 60 seconds",
     slotsLine: "Free consultations available today",
     slotsRemaining: "slots remaining",
-    stat1Value: "$1 Billion+",
-    stat1Label: "Total recoveries — partner law firms",
-    stat2Value: "99.9%",
-    stat2Label: "Success rate — our network",
-    stat3Value: "50",
-    stat3Label: "States covered nationwide",
-    stat4Value: "< 60s",
-    stat4Label: "To reach attorney team",
+    stat1Value: "50",
+    stat1Label: "States covered",
+    stat2Value: "< 60s",
+    stat2Label: "Typical callback time",
+    stat3Value: "$0",
+    stat3Label: "Upfront cost to match",
+    stat4Value: "24/7",
+    stat4Label: "Intake available",
     testimonialsHeading: "Real People. Real Results.",
     testimonialsSubheading:
       "Real clients matched to licensed personal injury attorneys in their state.",
@@ -329,10 +323,10 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     leadFormSr: "Request free legal help after a car accident",
     heroLegalPrefix: "Legal notice:",
     heroLegalText:
-      "Dollar and success-rate figures describe cumulative, historical results self-reported by independent partner law firms in our referral network—not WreckMatch, which is not a law firm.",
+      "WreckMatch LLC is a legal referral service, not a law firm. We do not provide legal advice or guarantee any case outcome.",
     heroLegalReadMore: "Read full disclaimer",
     statsDisclaimer:
-      "Totals and percentages are aggregate, self-reported figures from independent partner law firms in the WreckMatch network over time, not averages per client or per case. \"Success rate\" reflects each firm's internal methodology (definitions vary) and is not independently audited by WreckMatch. Past results do not guarantee future outcomes.",
+      "Figures above describe our referral service operations (coverage, speed, cost to use WreckMatch). They are not case outcomes or legal results. Past results do not guarantee future outcomes.",
     statsDisclaimerLink: "Full disclaimer",
     form: FORM_EN,
   },
@@ -352,14 +346,14 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     formHint: "O llena el formulario — te llamaremos en 60 segundos",
     slotsLine: "Consultas gratuitas disponibles hoy",
     slotsRemaining: "lugares disponibles",
-    stat1Value: "$1 Billion+",
-    stat1Label: "Recuperaciones totales — firmas asociadas",
-    stat2Value: "99.9%",
-    stat2Label: "Tasa de éxito — nuestra red",
-    stat3Value: "50",
-    stat3Label: "Estados cubiertos",
-    stat4Value: "< 60s",
-    stat4Label: "Para llegar al equipo de abogados",
+    stat1Value: "50",
+    stat1Label: "Estados cubiertos",
+    stat2Value: "< 60s",
+    stat2Label: "Tiempo típico de llamada",
+    stat3Value: "$0",
+    stat3Label: "Costo inicial para emparejar",
+    stat4Value: "24/7",
+    stat4Label: "Registro disponible",
     testimonialsHeading: "Personas Reales. Resultados Reales.",
     testimonialsSubheading:
       "Clientes reales conectados con abogados con licencia en su estado.",
@@ -421,7 +415,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     leadFormSr: "Solicitar ayuda legal gratuita después de un accidente de auto",
     heroLegalPrefix: "Aviso legal:",
     heroLegalText:
-      "Las cifras en dólares y tasas de éxito describen resultados históricos agregados autodeclarados por firmas asociadas independientes en nuestra red de referencias — no WreckMatch, que no es un bufete.",
+      "WreckMatch LLC es un servicio de referencia legal, no un bufete. No brindamos asesoría legal ni garantizamos resultados.",
     heroLegalReadMore: "Leer aviso completo",
     statsDisclaimer:
       "Los totales y porcentajes son cifras agregadas autodeclaradas por firmas asociadas en la red WreckMatch, no promedios por cliente. La \"tasa de éxito\" refleja la metodología interna de cada firma y no está auditada por WreckMatch. Los resultados pasados no garantizan resultados futuros.",

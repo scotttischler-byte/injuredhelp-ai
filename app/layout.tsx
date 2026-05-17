@@ -103,10 +103,6 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans">
-        <Script
-          src="https://cdn.gomega.ai/scripts/optimizer.min.js"
-          strategy="lazyOnload"
-        />
         {googleAdsTagId ? (
           <>
             <Script
