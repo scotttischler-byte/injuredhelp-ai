@@ -7,8 +7,8 @@ type Props = {
 const boxStyle = {
   margin: "25px 0 20px",
   padding: 20,
-  backgroundColor: "#f8f9fa",
-  border: "1px solid #ccc",
+  background: "#f8f9fa",
+  border: "1px solid #d1d5db",
   borderRadius: 8,
   fontSize: "0.94rem",
   lineHeight: 1.55,
@@ -18,10 +18,10 @@ const boxStyle = {
 export function FormConsentSection({ checked, onChange, error }: Props) {
   return (
     <div className="consent-section" data-compliance="tcpa-consent-checkbox" style={boxStyle}>
-      {/* REQUIRED CONSENT CHECKBOX */}
+      {/* REQUIRED TCPA CONSENT CHECKBOX - MUST BE CHECKED TO SUBMIT */}
       <label
         htmlFor="tcpa-consent-geo"
-        style={{ display: "flex", alignItems: "flex-start", gap: 12, cursor: "pointer" }}
+        style={{ display: "flex", alignItems: "flex-start", gap: 12, cursor: "pointer", fontWeight: 400 }}
       >
         <input
           id="tcpa-consent-geo"
@@ -32,7 +32,7 @@ export function FormConsentSection({ checked, onChange, error }: Props) {
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
           aria-required="true"
-          style={{ marginTop: 4, width: 22, height: 22, accentColor: "#0066ff", flexShrink: 0 }}
+          style={{ width: 22, height: 22, marginTop: 4, accentColor: "#0066ff", flexShrink: 0 }}
         />
         <span>
           I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys about my
