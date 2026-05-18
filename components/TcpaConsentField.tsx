@@ -1,51 +1,29 @@
-/** Server-rendered TCPA consent — plain HTML checkbox in initial response for crawlers/reviewers. */
+/** Server-rendered TCPA consent — literal HTML for crawlers and ad-platform reviewers. */
+const TCPA_CONSENT_HTML = `<!-- REQUIRED CONSENT CHECKBOX -->
+<div class="consent-section" data-compliance="tcpa-consent-checkbox" style="margin: 25px 0 20px; padding: 20px; background-color: #f8f9fa; border: 1px solid #ccc; border-radius: 8px; font-size: 0.94rem; line-height: 1.55;">
+  <label for="tcpa-consent" style="display: flex; align-items: flex-start; gap: 12px; cursor: pointer;">
+    <input
+      id="tcpa-consent"
+      type="checkbox"
+      name="tcpaConsent"
+      value="yes"
+      required
+      aria-required="true"
+      style="margin-top: 4px; width: 22px; height: 22px; accent-color: #0066ff; flex-shrink: 0;"
+    />
+    <span>
+      I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys about my inquiry.
+      Message and data rates may apply. Reply STOP to opt out.
+      <strong>Submitting this form does not create an attorney-client relationship.</strong>
+    </span>
+  </label>
+  <p style="margin-top: 14px; font-size: 0.9rem; color: #555;">
+    By submitting, you agree to our
+    <a href="/privacy" target="_blank">Privacy Policy</a> and
+    <a href="/terms" target="_blank">Terms of Service</a>.
+  </p>
+</div>`;
+
 export function TcpaConsentField() {
-  return (
-    <>
-      {/* TCPA REQUIRED CONSENT CHECKBOX - THIS MUST BE CHECKED */}
-      <div
-        className="consent-section"
-        data-compliance="tcpa-consent-checkbox"
-        style={{
-          margin: "25px 0 18px",
-          padding: 18,
-          backgroundColor: "#f8f9fa",
-          border: "1px solid #d1d5db",
-          borderRadius: 8,
-          fontSize: "0.93rem",
-        }}
-      >
-        <label
-          htmlFor="tcpa-consent"
-          style={{ display: "flex", alignItems: "flex-start", gap: 12, cursor: "pointer" }}
-        >
-          <input
-            id="tcpa-consent"
-            type="checkbox"
-            name="tcpaConsent"
-            required
-            value="yes"
-            aria-required="true"
-            style={{ width: 22, height: 22, marginTop: 3, accentColor: "#0d6efd" }}
-          />
-          <span>
-            I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys about my
-            inquiry. Message and data rates may apply. Reply STOP to opt out.{" "}
-            <strong>Submitting this form does not create an attorney-client relationship.</strong>
-          </span>
-        </label>
-        <p style={{ marginTop: 14, fontSize: "0.9rem", color: "#444" }}>
-          By submitting, you agree to our{" "}
-          <a href="/privacy" target="_blank" rel="noopener">
-            Privacy Policy
-          </a>{" "}
-          and{" "}
-          <a href="/terms" target="_blank" rel="noopener">
-            Terms of Service
-          </a>
-          .
-        </p>
-      </div>
-    </>
-  );
+  return <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: TCPA_CONSENT_HTML }} />;
 }
