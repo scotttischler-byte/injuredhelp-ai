@@ -26,3 +26,12 @@ export const BLOG_FOOTER_DISCLAIMER = `${PRIMARY_DISCLAIMER} This article is gen
 
 export const WRECKMATCH_PHONE_DISPLAY = "(978) 515-6063";
 export const WRECKMATCH_PHONE_TEL = "tel:+19785156063";
+
+export const BUSINESS_ADDRESS = "832 Saint Augustine Road, Colgate, WI 53017";
+export const COMPLIANCE_EMAIL = "help@wreckmatch.com";
+
+/** Required intake consent (checkbox above submit). */
+export const SMS_CONSENT_LABEL =
+  "I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys regarding my inquiry. Message & data rates may apply. Reply STOP to opt out. I understand submitting this form does not create an attorney-client relationship.";
+
+export const LEGAL_LAST_UPDATED = "May 18, 2026";

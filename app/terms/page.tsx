@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
 import { LegalPageShell } from "@/components/LegalPageShell";
-import { OPERATOR_LEGAL_NAME } from "@/lib/compliance";
+import { LEGAL_LAST_UPDATED, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { brandFromHeaders, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 
-const LAST_UPDATED = "May 16, 2026";
+const LAST_UPDATED = LEGAL_LAST_UPDATED;
 
 export async function generateMetadata(): Promise<Metadata> {
   const h = await headers();
   const brand = brandFromHeaders(h);
   const cfg = BRAND_CONFIG[brand];
   return {
-    title: `Terms of Use | ${cfg.name}`,
+    title: `Terms of Service | ${cfg.name}`,
     description: `Terms governing ${cfg.name} website, chat, and customer care communications.`,
   };
 }
@@ -24,7 +24,7 @@ export default async function TermsPage() {
   const origin = siteOriginFromHeaders(h);
 
   return (
-    <LegalPageShell brand={brand} title="Terms of Use">
+    <LegalPageShell brand={brand} title="Terms of Service">
       <p className="mt-2 text-sm text-gray-500">Last updated: {LAST_UPDATED}</p>
       <p className="mt-6 text-sm leading-relaxed text-gray-300">
         These Terms of Use govern your access to {cfg.name} at{" "}
@@ -38,11 +38,15 @@ export default async function TermsPage() {
       <section className="mt-10 space-y-3 text-sm leading-relaxed text-gray-300">
         <h2 className="text-xl font-bold text-white">1. Agreement</h2>
         <p>
-          By using our website, chat widget, phone, or SMS programs, you agree to these Terms and our{" "}
-          <Link href="/privacy" className="text-red-400 underline">
+          By using WreckMatch.com, you agree to these Terms. Submitting the form gives us and our partner attorneys
+          consent to contact you by phone, text (SMS), and email. You must be 18+ and provide accurate information.
+        </p>
+        <p className="pt-2">
+          See our{" "}
+          <Link href="/privacy-policy" className="text-red-400 underline">
             Privacy Policy
-          </Link>
-          .
+          </Link>{" "}
+          for data practices.
         </p>
         <h2 className="pt-4 text-xl font-bold text-white">2. Eligibility</h2>
         <p>You must be at least 18 years old and able to consent to be contacted about your inquiry.</p>
@@ -59,7 +63,11 @@ export default async function TermsPage() {
           </Link>{" "}
           for text messaging details.
         </p>
-        <h2 className="pt-4 text-xl font-bold text-white">5. Contact</h2>
+        <h2 className="pt-4 text-xl font-bold text-white">5. No guarantees</h2>
+        <p>We make no guarantees about case outcomes or attorney results.</p>
+        <h2 className="pt-4 text-xl font-bold text-white">6. Governing law</h2>
+        <p>These Terms are governed by the laws of the State of Wisconsin, USA.</p>
+        <h2 className="pt-4 text-xl font-bold text-white">7. Contact</h2>
         <p>
           Questions:{" "}
           <a href={`mailto:${cfg.email}`} className="text-red-400 underline">

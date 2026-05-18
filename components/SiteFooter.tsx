@@ -4,10 +4,10 @@ import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 const FOOTER_LINKS = [
-  { href: "/privacy", label: "Privacy Policy" },
-  { href: "/terms", label: "Terms of Use" },
+  { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/terms-of-service", label: "Terms of Service" },
+  { href: "/advertising-legal-notice", label: "Advertising & Legal Notice" },
   { href: "/sms-terms", label: "SMS Terms" },
-  { href: "/advertising-legal-notice", label: "Full Advertising & Legal Notice" },
 ] as const;
 
 export async function SiteFooter() {
@@ -31,10 +31,16 @@ export async function SiteFooter() {
           ))}
         </nav>
         <p className="mt-6 text-center text-xs leading-relaxed text-gray-500">{FOOTER_DISCLAIMER}</p>
-        <p className="mt-3 text-center text-xs text-gray-600">
-          © {new Date().getFullYear()} {OPERATOR_LEGAL_NAME} d/b/a WreckMatch —{" "}
+        <p className="mt-3 text-center text-xs font-medium text-gray-500">
+          © {new Date().getFullYear()} {OPERATOR_LEGAL_NAME} — Legal Referral Service (Not a Law Firm)
+        </p>
+        <p className="mt-1 text-center text-xs text-gray-600">
           <a href={origin} className="text-gray-400 hover:text-white">
             {origin.replace(/^https:\/\//, "")}
+          </a>
+          {" · "}
+          <a href="tel:+19785156063" className="text-gray-400 hover:text-white">
+            (978) 515-6063
           </a>
         </p>
       </div>

@@ -42,7 +42,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description:
       brand === "wreckmatch"
-        ? "Were you injured in a car accident? WreckMatch connects you with a licensed personal injury attorney in your state in under 60 seconds. Free, no obligation, contingency only."
+        ? "Free legal referral for car accident victims. Matched with licensed attorneys in your state. No upfront fees."
         : `${cfg.name} uses AI to instantly connect accident victims with top personal injury attorneys. Free consultation, no fees unless you win.`,
     icons: { icon: "/favicon.svg" },
     manifest: "/manifest.json",

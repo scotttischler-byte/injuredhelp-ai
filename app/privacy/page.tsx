@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { headers } from "next/headers";
-import { FORM_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
+import {
+  BUSINESS_ADDRESS,
+  COMPLIANCE_EMAIL,
+  FORM_DISCLAIMER,
+  LEGAL_LAST_UPDATED,
+  OPERATOR_LEGAL_NAME,
+  WRECKMATCH_PHONE_DISPLAY,
+  WRECKMATCH_PHONE_TEL,
+} from "@/lib/compliance";
 import { brandFromHeaders, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -14,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const LAST_UPDATED = "May 15, 2026";
+const LAST_UPDATED = LEGAL_LAST_UPDATED;
 
 function Prose({ children }: { children: React.ReactNode }) {
   return <div className="mt-3 space-y-3 text-sm leading-relaxed text-gray-300">{children}</div>;
@@ -46,14 +54,20 @@ export default async function PrivacyPage() {
         <p className="mt-2 text-sm text-gray-500">Last updated: {LAST_UPDATED}</p>
 
         <p className="mt-6 text-sm leading-relaxed text-gray-300">
-          This Privacy Policy describes how <strong className="text-white">{cfg.name}</strong> (“we,” “us,” or
-          “our”) collects, uses, and shares information when you visit{" "}
+          {OPERATOR_LEGAL_NAME} (&quot;WreckMatch,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) operates{" "}
           <Link href="/" className="text-red-400 hover:text-red-300">
             {siteHost}
-          </Link>{" "}
-          and related sites (the “Services”). {cfg.name} is operated by {OPERATOR_LEGAL_NAME} and provides legal
-          matching and referral services. We are <strong className="text-white">not a law firm</strong> and do not
-          provide legal advice.
+          </Link>
+          . This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit
+          our website or submit a form.
+        </p>
+        <p className="mt-4 text-sm leading-relaxed text-gray-300">
+          <strong className="text-white">We are a legal referral service — not a law firm.</strong> Submitting a
+          form does not create an attorney-client relationship. See our{" "}
+          <Link href="/advertising-legal-notice" className="text-red-400 hover:underline">
+            Advertising &amp; Legal Notice
+          </Link>
+          .
         </p>
 
         <section className="mt-10">
@@ -130,12 +144,25 @@ export default async function PrivacyPage() {
                 reorganization, with notice where required by law.
               </li>
             </ul>
-            <p>We do not sell your personal information for money.</p>
+            <p>
+              <strong className="text-white">Do Not Sell My Personal Information</strong> — We do not sell your
+              personal information.
+            </p>
           </Prose>
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">5. Cookies and analytics</h2>
+          <h2 className="text-xl font-bold text-white">5. HIPAA note</h2>
+          <p className="mt-3 text-sm leading-relaxed text-gray-300">
+            We are <strong className="text-white">not</strong> a covered entity under HIPAA. We use secure intake
+            practices (256-bit encryption, secure forms) but we do not provide medical services or store detailed
+            protected health information ourselves. Medical details you share are handled directly by the matched
+            attorneys.
+          </p>
+        </section>
+
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-white">6. Cookies and analytics</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-300">
             We use cookies and similar technologies to remember preferences, understand how visitors use the
             site, and measure marketing campaigns. You can control cookies through your browser settings. Our
@@ -146,7 +173,7 @@ export default async function PrivacyPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">6. Data retention</h2>
+          <h2 className="text-xl font-bold text-white">7. Data retention</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-300">
             We retain personal information for as long as needed to fulfill the purposes described in this
             policy, including maintaining business records, resolving disputes, and meeting legal requirements.
@@ -154,16 +181,16 @@ export default async function PrivacyPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">7. Security</h2>
+          <h2 className="text-xl font-bold text-white">8. Security</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-300">
-            We use reasonable administrative, technical, and organizational measures designed to protect
-            personal information. No method of transmission over the Internet or electronic storage is
-            completely secure, and we cannot guarantee absolute security.
+            We use 256-bit SSL encryption and industry-standard security measures designed to protect personal
+            information. No method of transmission over the Internet is completely secure, and we cannot guarantee
+            absolute security.
           </p>
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">8. Your choices and rights</h2>
+          <h2 className="text-xl font-bold text-white">9. Your choices and rights (CCPA / GDPR where applicable)</h2>
           <Prose>
             <p>
               Depending on where you live, you may have rights to access, correct, delete, or restrict certain
@@ -179,7 +206,7 @@ export default async function PrivacyPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">9. Children</h2>
+          <h2 className="text-xl font-bold text-white">10. Children</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-300">
             The Services are not directed to children under 13 (or under 16 where applicable), and we do not
             knowingly collect personal information from children. If you believe a child has provided us
@@ -188,7 +215,7 @@ export default async function PrivacyPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">10. Third-party links</h2>
+          <h2 className="text-xl font-bold text-white">11. Third-party links</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-300">
             The Services may link to third-party websites or services. We are not responsible for their privacy
             practices. We encourage you to review their policies before providing personal information.
@@ -196,7 +223,7 @@ export default async function PrivacyPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">11. Changes to this policy</h2>
+          <h2 className="text-xl font-bold text-white">12. Changes to this policy</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-300">
             We may update this Privacy Policy from time to time. The “Last updated” date at the top reflects the
             latest version. Material changes may be posted on this page or otherwise communicated as required
@@ -205,21 +232,22 @@ export default async function PrivacyPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">12. Contact us</h2>
+          <h2 className="text-xl font-bold text-white">13. Contact us</h2>
           <Prose>
-            <p>For privacy questions or requests, contact WreckMatch:</p>
+            <p>For privacy questions or requests, contact {OPERATOR_LEGAL_NAME}:</p>
             <ul className="list-none space-y-1">
+              <li>{BUSINESS_ADDRESS}</li>
               <li>
                 Phone:{" "}
-                <a href="tel:+19785156063" className="text-red-400 hover:text-red-300">
-                  (978) 515-6063
+                <a href={WRECKMATCH_PHONE_TEL} className="text-red-400 hover:text-red-300">
+                  {WRECKMATCH_PHONE_DISPLAY}
                 </a>
               </li>
               <li>
-                Web:{" "}
-                <Link href="/" className="text-red-400 hover:text-red-300">
-                  {siteOrigin}
-                </Link>
+                Email:{" "}
+                <a href={`mailto:${COMPLIANCE_EMAIL}`} className="text-red-400 hover:text-red-300">
+                  {COMPLIANCE_EMAIL}
+                </a>
               </li>
             </ul>
           </Prose>

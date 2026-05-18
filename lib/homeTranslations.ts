@@ -28,6 +28,7 @@ export type LeadFormCopy = {
   errPhoneDigits: string;
   errState: string;
   errTiming: string;
+  errSmsConsent: string;
 };
 
 export type HomeCopy = {
@@ -185,7 +186,7 @@ const FORM_EN: LeadFormCopy = {
     "Over a year ago",
   ],
   smsOptIn:
-    "I agree to receive SMS updates about my case. Message and data rates may apply. Reply STOP to opt out.",
+    "I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys regarding my inquiry. Message & data rates may apply. Reply STOP to opt out. I understand submitting this form does not create an attorney-client relationship.",
   submitBtn: "Call me back now",
   submitting: "Connecting you…",
   disclaimer:
@@ -197,6 +198,7 @@ const FORM_EN: LeadFormCopy = {
   errPhoneDigits: "Enter a valid 10-digit phone number.",
   errState: "Please select your state.",
   errTiming: "Please select when the accident happened.",
+  errSmsConsent: "Please check the box to consent to contact about your inquiry.",
 };
 
 const FORM_ES: LeadFormCopy = {
@@ -221,11 +223,10 @@ const FORM_ES: LeadFormCopy = {
     "Hace más de un año",
   ],
   smsOptIn:
-    "Acepto recibir mensajes SMS sobre mi caso. Pueden aplicar tarifas de mensajes y datos. Responde STOP para cancelar.",
+    "Doy mi consentimiento para ser contactado por teléfono, SMS y correo por WreckMatch y abogados asociados sobre mi consulta. Pueden aplicar tarifas. Responde STOP para cancelar. Entiendo que enviar este formulario no crea relación abogado-cliente.",
   submitBtn: "Llámame ahora",
   submitting: "Conectando…",
-  disclaimer:
-    "Al enviar, aceptas ser contactado por teléfono y SMS. Sin spam. Sin honorarios a menos que ganes. WreckMatch es un servicio de referencia legal, no un bufete de abogados.",
+  disclaimer: "Al enviar, aceptas ser contactado por teléfono y SMS. Sin spam. Sin honorarios a menos que ganes.",
   secureNote: "Seguro y cifrado",
   errFirstName: "El nombre es obligatorio.",
   errLastName: "El apellido es obligatorio.",
@@ -233,6 +234,7 @@ const FORM_ES: LeadFormCopy = {
   errPhoneDigits: "Ingresa un número de teléfono válido de 10 dígitos.",
   errState: "Selecciona tu estado.",
   errTiming: "Selecciona cuándo ocurrió el accidente.",
+  errSmsConsent: "Marca la casilla para consentir el contacto sobre tu consulta.",
 };
 
 export const DEFAULT_LEAD_FORM_COPY: LeadFormCopy = FORM_EN;
@@ -274,7 +276,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     testimonial3:
       "The whole process took less than 2 minutes. I had an attorney calling me before I put my phone down.",
     testimonial3name: "— Sandra K., Houston, TX",
-    verifiedClient: "Verified Client",
+    verifiedClient: "Verified Client – Results not guaranteed",
     howHeading: "How WreckMatch Works",
     step1title: "Tell Us What Happened",
     step1body: "30 seconds. Name, phone, state, when it happened.",
@@ -303,9 +305,9 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     trustStripEnc: "256-bit Encrypted",
     trustStripLicensed: "Licensed Attorneys Only",
     trustStripStates: "All 50 States",
-    trustStripHipaa: "HIPAA Compliant Intake",
+    trustStripHipaa: "Secure Intake",
     trustStripRating: "4.9/5 Client Rating",
-    trustStripRecoveries: "Nationwide attorney network",
+    trustStripRecoveries: "Nationwide Network",
     coverageHeading: "WreckMatch Covers All 50 States",
     footerCopyright: "© 2026 WreckMatch — All rights reserved.",
     footerP1:
@@ -365,7 +367,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     testimonial3:
       "Todo el proceso tomó menos de 2 minutos. Tenía un abogado llamándome antes de bajar el teléfono.",
     testimonial3name: "— Sandra K., Houston, TX",
-    verifiedClient: "Cliente verificado",
+    verifiedClient: "Cliente verificado – Resultados no garantizados",
     howHeading: "Cómo Funciona WreckMatch",
     step1title: "Cuéntanos Lo Que Pasó",
     step1body: "30 segundos. Nombre, teléfono, estado, cuándo ocurrió.",
@@ -394,9 +396,9 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     trustStripEnc: "Cifrado 256 bits",
     trustStripLicensed: "Solo abogados con licencia",
     trustStripStates: "Los 50 estados",
-    trustStripHipaa: "Registro compatible con HIPAA",
+    trustStripHipaa: "Registro seguro",
     trustStripRating: "Calificación 4.9/5",
-    trustStripRecoveries: "Red nacional de abogados",
+    trustStripRecoveries: "Red nacional",
     coverageHeading: "WreckMatch cubre los 50 estados",
     footerCopyright: "© 2026 WreckMatch — Todos los derechos reservados.",
     footerP1:
