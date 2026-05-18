@@ -281,7 +281,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         <p className="mb-5 text-center text-sm font-medium text-gray-600">{c.formSubhead}</p>
       ) : null}
 
-      <form onSubmit={handleSubmit} className="space-y-5" noValidate aria-live="polite">
+      <form onSubmit={handleSubmit} className="space-y-5" aria-live="polite">
         <div>
           <label htmlFor="wm-firstName" className={labelClass}>
             {c.firstName}
