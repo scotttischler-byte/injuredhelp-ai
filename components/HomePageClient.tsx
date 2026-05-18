@@ -14,8 +14,13 @@ const TikTokHomeFunnel = dynamic(
 );
 
 import HomePageBelowFold from "@/components/HomePageBelowFold";
+import type { ReactNode } from "react";
 
-export function HomePageClient() {
+type Props = {
+  tcpaConsent?: ReactNode;
+};
+
+export function HomePageClient({ tcpaConsent }: Props) {
   const { lang, t } = useLanguage();
   const [formInView, setFormInView] = useState(false);
   const formCardRef = useRef<HTMLDivElement>(null);
@@ -118,7 +123,7 @@ export function HomePageClient() {
           {t.leadFormSr}
         </p>
         <ReferralDisclaimer className="mx-auto mb-4 max-w-[560px] border-gray-300 bg-white text-gray-600" />
-        <LeadForm ref={formCardRef} source="homepage" language={lang} formCopy={t.form} />
+        <LeadForm ref={formCardRef} source="homepage" language={lang} formCopy={t.form} tcpaConsent={tcpaConsent} />
       </section>
 
       <HomePageBelowFold lang={lang} t={t} formInView={formInView} scrollToForm={scrollToForm} />

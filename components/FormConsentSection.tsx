@@ -11,9 +11,8 @@ const boxStyle: CSSProperties = {
   padding: 15,
   background: "#f8f9fa",
   borderRadius: 8,
-  fontSize: "0.9rem",
-  lineHeight: 1.5,
   border: "1px solid #ddd",
+  fontSize: "0.92rem",
 };
 
 const labelStyle: CSSProperties = {
@@ -21,7 +20,6 @@ const labelStyle: CSSProperties = {
   alignItems: "flex-start",
   gap: 10,
   cursor: "pointer",
-  fontWeight: "normal",
 };
 
 const checkboxStyle: CSSProperties = {
@@ -34,35 +32,23 @@ const checkboxStyle: CSSProperties = {
 const policyStyle: CSSProperties = {
   marginTop: 12,
   fontSize: "0.88rem",
-  color: "#444",
 };
 
 const linkStyle: CSSProperties = {
   textDecoration: "underline",
 };
 
-/** Required TCPA consent + policy links — above submit on main intake form. */
+/** Client fallback TCPA consent (geo / non-homepage forms). */
 export function FormConsentSection({ checked, onChange, error }: Props) {
   return (
-    <div
-      className="consent-section"
-      style={boxStyle}
-      role="group"
-      aria-labelledby="tcpa-consent-heading"
-      data-compliance="tcpa-consent-checkbox"
-    >
-      <p
-        id="tcpa-consent-heading"
-        style={{ margin: "0 0 10px", fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", color: "#555" }}
-      >
-        Required: check the box to continue
-      </p>
-      <label htmlFor="tcpa-consent" style={labelStyle}>
+    <div className="consent-section" style={boxStyle} data-compliance="tcpa-consent-checkbox">
+      <label htmlFor="tcpa-consent-geo" style={labelStyle}>
         <input
-          id="tcpa-consent"
+          id="tcpa-consent-geo"
           type="checkbox"
           name="tcpaConsent"
           required
+          value="yes"
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
           style={checkboxStyle}

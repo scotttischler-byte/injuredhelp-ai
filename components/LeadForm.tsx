@@ -1,6 +1,6 @@
 "use client";
 
-import { forwardRef, useEffect, useState } from "react";
+import { forwardRef, useEffect, useRef, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { DEFAULT_LEAD_FORM_COPY, type Lang, type LeadFormCopy } from "@/lib/homeTranslations";
@@ -41,6 +41,8 @@ export interface LeadFormProps {
     email?: string;
   }) => Promise<void>;
   thankYouPath?: (ctx: { firstName: string; source?: string }) => string;
+  /** Server-rendered TCPA checkbox (homepage) — ensures native input in HTML for reviewers. */
+  tcpaConsent?: ReactNode;
 }
 
 type FormState = {
@@ -83,6 +85,10 @@ function pushLeadSubmitted() {
   window.dataLayer.push({ event: "lead_submitted" });
 }
 
+function getTcpaConsentInput(formEl: HTMLFormElement | null): HTMLInputElement | null {
+  return formEl?.querySelector<HTMLInputElement>('input[name="tcpaConsent"]') ?? null;
+}
+
 export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadForm(
   {
     source = "website",
@@ -95,12 +101,15 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     formCopy,
     afterSubmit,
     thankYouPath,
+    tcpaConsent,
   },
   ref,
 ) {
   const router = useRouter();
   const c = formCopy ?? DEFAULT_LEAD_FORM_COPY;
   const isSimple = variant === "default";
+  const usesServerConsent = isSimple && Boolean(tcpaConsent);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const [form, setForm] = useState<FormState>(() => ({
     firstName: "",
@@ -121,6 +130,24 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
   const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
   const [status, setStatus] = useState<"idle" | "loading" | "error" | "success">("idle");
   const [successPhone, setSuccessPhone] = useState("");
+  const [consentChecked, setConsentChecked] = useState(false);
+
+  useEffect(() => {
+    if (!usesServerConsent) return;
+    const input = getTcpaConsentInput(formRef.current);
+    if (!input) return;
+    const sync = () => setConsentChecked(input.checked);
+    sync();
+    input.addEventListener("change", sync);
+    return () => input.removeEventListener("change", sync);
+  }, [usesServerConsent]);
+
+  const isConsentChecked = (): boolean => {
+    if (usesServerConsent) {
+      return getTcpaConsentInput(formRef.current)?.checked ?? false;
+    }
+    return form.smsOptIn;
+  };
 
   const validate = (): boolean => {
     const errs: FieldErrors = {};
@@ -129,7 +156,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     if (!digits) errs.phone = c.errPhone;
     else if (digits.length < 10) errs.phone = c.errPhoneDigits;
     if (!form.state) errs.state = c.errState;
-    if (!form.smsOptIn) errs.smsOptIn = c.errSmsConsent;
+    if (!isConsentChecked()) errs.smsOptIn = c.errSmsConsent;
     if (!isSimple && variant !== "minimal" && variant !== "guide") {
       if (!form.lastName.trim()) errs.lastName = c.errLastName;
     }
@@ -164,7 +191,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       injuries,
       source,
       email: emailTrimmed,
-      smsOptIn: form.smsOptIn,
+      smsOptIn: isConsentChecked(),
       language,
       accidentDescription: form.accidentDescription.trim() || undefined,
       ttclid,
@@ -281,7 +308,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         <p className="mb-5 text-center text-sm font-medium text-gray-600">{c.formSubhead}</p>
       ) : null}
 
-      <form onSubmit={handleSubmit} className="space-y-5" aria-live="polite">
+      <form ref={formRef} onSubmit={handleSubmit} className="space-y-5" aria-live="polite">
         <div>
           <label htmlFor="wm-firstName" className={labelClass}>
             {c.firstName}
@@ -358,7 +385,16 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           </div>
         ) : null}
 
-        {isSimple ? (
+        {isSimple && tcpaConsent ? (
+          <>
+            {tcpaConsent}
+            {fieldErrors.smsOptIn ? (
+              <p className="-mt-2 text-sm text-red-700" role="alert">
+                {fieldErrors.smsOptIn}
+              </p>
+            ) : null}
+          </>
+        ) : isSimple ? (
           <FormConsentSection
             checked={form.smsOptIn}
             onChange={(checked) => setForm({ ...form, smsOptIn: checked })}
@@ -393,8 +429,12 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
 
         <button
           type="submit"
-          disabled={status === "loading"}
+          disabled={
+            status === "loading" ||
+            (isSimple && !(usesServerConsent ? consentChecked : form.smsOptIn))
+          }
           className="w-full rounded-xl bg-[#cc0000] py-4 text-lg font-bold text-white shadow-md transition-opacity duration-200 hover:bg-[#b30000] disabled:cursor-not-allowed disabled:opacity-70"
+          aria-disabled={isSimple && !(usesServerConsent ? consentChecked : form.smsOptIn)}
         >
           {status === "loading" ? c.submitting : submitLabel ?? c.submitBtn}
         </button>
