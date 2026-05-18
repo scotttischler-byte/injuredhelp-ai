@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { HomePageClient } from "@/components/HomePageClient";
-import { TcpaConsentField } from "@/components/TcpaConsentField";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -16,5 +15,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function HomePage() {
-  return <HomePageClient tcpaConsent={<TcpaConsentField />} />;
+  return <HomePageClient />;
 }

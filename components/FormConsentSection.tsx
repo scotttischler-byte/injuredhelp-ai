@@ -2,29 +2,55 @@ type Props = {
   checked: boolean;
   onChange: (checked: boolean) => void;
   error?: string;
+  inputId?: string;
 };
 
-const boxStyle = {
-  margin: "25px 0 20px",
-  padding: 20,
-  background: "#f8f9fa",
-  border: "1px solid #d1d5db",
-  borderRadius: 8,
-  fontSize: "0.94rem",
-  lineHeight: 1.55,
-} as const;
-
-/** Client TCPA consent (geo / non-homepage forms). */
-export function FormConsentSection({ checked, onChange, error }: Props) {
+/** Required TCPA consent — real JSX checkbox (SSR + client), above submit button. */
+export function FormConsentSection({
+  checked,
+  onChange,
+  error,
+  inputId = "tcpa-consent",
+}: Props) {
   return (
-    <div className="consent-section" data-compliance="tcpa-consent-checkbox" style={boxStyle}>
-      {/* REQUIRED TCPA CONSENT CHECKBOX - MUST BE CHECKED TO SUBMIT */}
+    <div
+      className="consent-section"
+      data-compliance="tcpa-consent-checkbox"
+      style={{
+        margin: "25px 0 20px",
+        padding: 20,
+        background: "#f8f9fa",
+        border: "1px solid #d1d5db",
+        borderRadius: 8,
+        fontSize: "0.94rem",
+        lineHeight: 1.55,
+      }}
+    >
+      {/* REQUIRED TCPA CONSENT CHECKBOX - USERS MUST CHECK THIS */}
+      <p
+        style={{
+          margin: "0 0 10px",
+          fontSize: "0.8rem",
+          fontWeight: 700,
+          color: "#333",
+          textTransform: "uppercase",
+          letterSpacing: "0.04em",
+        }}
+      >
+        Required: check the box below to submit
+      </p>
       <label
-        htmlFor="tcpa-consent-geo"
-        style={{ display: "flex", alignItems: "flex-start", gap: 12, cursor: "pointer", fontWeight: 400 }}
+        htmlFor={inputId}
+        style={{
+          display: "flex",
+          alignItems: "flex-start",
+          gap: 12,
+          cursor: "pointer",
+          fontWeight: 400,
+        }}
       >
         <input
-          id="tcpa-consent-geo"
+          id={inputId}
           type="checkbox"
           name="tcpaConsent"
           value="yes"
@@ -32,7 +58,13 @@ export function FormConsentSection({ checked, onChange, error }: Props) {
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
           aria-required="true"
-          style={{ width: 22, height: 22, marginTop: 4, accentColor: "#0066ff", flexShrink: 0 }}
+          style={{
+            width: 22,
+            height: 22,
+            marginTop: 4,
+            accentColor: "#0066ff",
+            flexShrink: 0,
+          }}
         />
         <span>
           I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys about my
