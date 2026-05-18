@@ -1,4 +1,4 @@
-import Link from "next/link";
+import type { CSSProperties } from "react";
 
 type Props = {
   checked: boolean;
@@ -6,18 +6,58 @@ type Props = {
   error?: string;
 };
 
+const boxStyle: CSSProperties = {
+  margin: "20px 0 15px",
+  padding: 15,
+  background: "#f8f9fa",
+  borderRadius: 8,
+  fontSize: "0.9rem",
+  lineHeight: 1.5,
+  border: "1px solid #ddd",
+};
+
+const labelStyle: CSSProperties = {
+  display: "flex",
+  alignItems: "flex-start",
+  gap: 10,
+  cursor: "pointer",
+  fontWeight: "normal",
+};
+
+const checkboxStyle: CSSProperties = {
+  marginTop: 4,
+  width: 20,
+  height: 20,
+  flexShrink: 0,
+};
+
+const policyStyle: CSSProperties = {
+  marginTop: 12,
+  fontSize: "0.88rem",
+  color: "#444",
+};
+
+const linkStyle: CSSProperties = {
+  textDecoration: "underline",
+};
+
 /** Required TCPA consent + policy links — above submit on main intake form. */
 export function FormConsentSection({ checked, onChange, error }: Props) {
   return (
     <div
-      className="consent-section my-5 space-y-3 rounded-lg border border-gray-200 bg-[#f8f9fa] p-4 text-[0.9rem] leading-relaxed text-gray-700"
+      className="consent-section"
+      style={boxStyle}
       role="group"
       aria-labelledby="tcpa-consent-heading"
+      data-compliance="tcpa-consent-checkbox"
     >
-      <p id="tcpa-consent-heading" className="text-xs font-bold uppercase tracking-wide text-gray-600">
-        Required consent (check box to continue)
+      <p
+        id="tcpa-consent-heading"
+        style={{ margin: "0 0 10px", fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", color: "#555" }}
+      >
+        Required: check the box to continue
       </p>
-      <label htmlFor="tcpa-consent" className="flex cursor-pointer items-start gap-2.5">
+      <label htmlFor="tcpa-consent" style={labelStyle}>
         <input
           id="tcpa-consent"
           type="checkbox"
@@ -25,40 +65,29 @@ export function FormConsentSection({ checked, onChange, error }: Props) {
           required
           checked={checked}
           onChange={(e) => onChange(e.target.checked)}
-          className="mt-1 h-5 w-5 shrink-0 rounded border-gray-300 text-[#cc0000] focus:ring-[#cc0000]"
+          style={checkboxStyle}
           aria-required="true"
-          aria-describedby="tcpa-consent-text"
         />
-        <span id="tcpa-consent-text">
-          I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys about
-          my inquiry. Message and data rates may apply. Reply STOP to opt out.{" "}
+        <span>
+          I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys about my
+          inquiry. Message and data rates may apply. Reply STOP to opt out.{" "}
           <strong>Submitting this form does not create an attorney-client relationship.</strong>
         </span>
       </label>
       {error ? (
-        <p className="text-sm text-red-700" role="alert">
+        <p style={{ marginTop: 8, fontSize: "0.85rem", color: "#b91c1c" }} role="alert">
           {error}
         </p>
       ) : null}
-      <p className="text-[0.88rem] text-gray-600">
+      <p style={policyStyle}>
         By submitting, you agree to our{" "}
-        <Link
-          href="/privacy"
-          className="font-medium text-[#cc0000] underline underline-offset-2 hover:text-[#b30000]"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/privacy" target="_blank" rel="noopener noreferrer" style={linkStyle}>
           Privacy Policy
-        </Link>{" "}
+        </a>{" "}
         and{" "}
-        <Link
-          href="/terms"
-          className="font-medium text-[#cc0000] underline underline-offset-2 hover:text-[#b30000]"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="/terms" target="_blank" rel="noopener noreferrer" style={linkStyle}>
           Terms of Service
-        </Link>
+        </a>
         .
       </p>
     </div>
