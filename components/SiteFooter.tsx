@@ -4,8 +4,8 @@ import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 const FOOTER_LINKS = [
-  { href: "/privacy-policy", label: "Privacy Policy" },
-  { href: "/terms-of-service", label: "Terms of Service" },
+  { href: "/privacy", label: "Privacy Policy" },
+  { href: "/terms", label: "Terms of Service" },
   { href: "/advertising-legal-notice", label: "Advertising & Legal Notice" },
   { href: "/sms-terms", label: "SMS Terms" },
 ] as const;

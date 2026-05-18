@@ -152,12 +152,12 @@ export default async function PrivacyPage() {
         </section>
 
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-white">5. HIPAA note</h2>
+          <h2 className="text-xl font-bold text-white">5. Health information</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-300">
-            We are <strong className="text-white">not</strong> a covered entity under HIPAA. We use secure intake
-            practices (256-bit encryption, secure forms) but we do not provide medical services or store detailed
-            protected health information ourselves. Medical details you share are handled directly by the matched
-            attorneys.
+            We are <strong className="text-white">not</strong> a medical provider or covered health care entity. We
+            use secure intake practices (256-bit encryption, secure forms) but we do not provide medical services or
+            store detailed protected health information ourselves. Medical details you share are handled directly by
+            the matched attorneys.
           </p>
         </section>
 

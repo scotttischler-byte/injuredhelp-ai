@@ -1,16 +1,6 @@
 {
-  "crons": [
-    { "path": "/api/generate-content/cron", "schedule": "0 8 * * *" },
-    { "path": "/api/generate-content/cron", "schedule": "0 13 * * *" },
-    { "path": "/api/generate-content/cron", "schedule": "0 18 * * *" },
-    { "path": "/api/automation/reddit", "schedule": "0 9 * * *" },
-    { "path": "/api/automation/reddit", "schedule": "0 15 * * *" },
-    { "path": "/api/automation/social", "schedule": "0 10 * * *" },
-    { "path": "/api/automation/social", "schedule": "0 16 * * *" },
-    { "path": "/api/automation/press-release", "schedule": "0 9 1 * *" },
-    { "path": "/api/automation/email", "schedule": "0 * * * *" },
-    { "path": "/api/automation/autocomplete", "schedule": "0 6 * * *" },
-    { "path": "/api/automation/outreach", "schedule": "0 10 * * 1" },
-    { "path": "/api/automation/youtube", "schedule": "0 11 * * *" }
+  "redirects": [
+    { "source": "/privacy-policy", "destination": "/privacy", "permanent": true },
+    { "source": "/terms-of-service", "destination": "/terms", "permanent": true }
   ]
 }

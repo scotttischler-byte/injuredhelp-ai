@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { DEFAULT_LEAD_FORM_COPY, type Lang, type LeadFormCopy } from "@/lib/homeTranslations";
 import { ALL_STATES } from "@/lib/states";
-import { FORM_SUCCESS_MESSAGE, SMS_CONSENT_LABEL } from "@/lib/compliance";
-import { FormPolicyAgreement } from "@/components/FormPolicyAgreement";
+import { FormConsentSection } from "@/components/FormConsentSection";
+import { FORM_SUCCESS_MESSAGE } from "@/lib/compliance";
 import { tiktokContentNameFromWindow } from "@/lib/brand-client";
 import {
   getTikTokAttribution,
@@ -358,24 +358,32 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           </div>
         ) : null}
 
-        <label className="flex cursor-pointer items-start gap-3 text-sm text-gray-700">
-          <input
-            type="checkbox"
-            required
-            className="mt-1 h-4 w-4 shrink-0 rounded border-gray-300 text-[#cc0000] focus:ring-[#cc0000]"
+        {isSimple ? (
+          <FormConsentSection
             checked={form.smsOptIn}
-            onChange={(e) => setForm({ ...form, smsOptIn: e.target.checked })}
-            aria-required="true"
+            onChange={(checked) => setForm({ ...form, smsOptIn: checked })}
+            error={fieldErrors.smsOptIn}
           />
-          <span>{isSimple ? SMS_CONSENT_LABEL : c.smsOptIn}</span>
-        </label>
-        {fieldErrors.smsOptIn && (
-          <p className="-mt-3 text-sm text-red-700" role="alert">
-            {fieldErrors.smsOptIn}
-          </p>
+        ) : (
+          <>
+            <label className="flex cursor-pointer items-start gap-3 text-sm text-gray-700">
+              <input
+                type="checkbox"
+                required
+                className="mt-1 h-4 w-4 shrink-0 rounded border-gray-300 text-[#cc0000] focus:ring-[#cc0000]"
+                checked={form.smsOptIn}
+                onChange={(e) => setForm({ ...form, smsOptIn: e.target.checked })}
+                aria-required="true"
+              />
+              <span>{c.smsOptIn}</span>
+            </label>
+            {fieldErrors.smsOptIn ? (
+              <p className="-mt-3 text-sm text-red-700" role="alert">
+                {fieldErrors.smsOptIn}
+              </p>
+            ) : null}
+          </>
         )}
-
-        <FormPolicyAgreement />
 
         {status === "error" && (
           <p className="text-center text-sm text-red-700" role="alert">

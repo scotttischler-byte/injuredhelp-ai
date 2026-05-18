@@ -43,7 +43,7 @@ export default async function TermsPage() {
         </p>
         <p className="pt-2">
           See our{" "}
-          <Link href="/privacy-policy" className="text-red-400 underline">
+          <Link href="/privacy" className="text-red-400 underline">
             Privacy Policy
           </Link>{" "}
           for data practices.
