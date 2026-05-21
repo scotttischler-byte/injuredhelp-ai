@@ -78,9 +78,37 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
         ))}
       </div>
 
-      <HowWeHelpSection t={t} />
+      <section className="bg-gray-950 px-4 py-10">
+        <div className="mx-auto grid min-h-[120px] max-w-5xl grid-cols-2 divide-y divide-gray-800 text-center md:grid-cols-4 md:divide-x md:divide-y-0 md:divide-gray-800">
+          <div className="stat-reveal px-2 py-6 md:py-8">
+            <p className="text-xl font-bold leading-tight text-white sm:text-2xl md:text-3xl">{t.stat1Value}</p>
+            <p className="mt-1 text-sm text-gray-400">{t.stat1Label}</p>
+          </div>
+          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.08s" }}>
+            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat2Value}</p>
+            <p className="mt-1 text-sm text-gray-400">{t.stat2Label}</p>
+          </div>
+          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.16s" }}>
+            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat3Value}</p>
+            <p className="mt-1 text-sm text-gray-400">{t.stat3Label}</p>
+          </div>
+          <div className="stat-reveal px-2 py-6 md:py-8" style={{ animationDelay: "0.24s" }}>
+            <p className="text-2xl font-bold text-white sm:text-3xl">{t.stat4Value}</p>
+            <p className="mt-1 text-sm text-gray-400">{t.stat4Label}</p>
+          </div>
+        </div>
+        <p className="mx-auto mt-8 max-w-3xl text-center text-xs leading-relaxed text-gray-500">
+          <sup className="font-semibold text-red-400">*</sup> {t.statsDisclaimer}{" "}
+          <a
+            href="/advertising-legal-notice"
+            className="text-red-400 underline transition-opacity duration-200 hover:text-red-300"
+          >
+            {t.statsDisclaimerLink}
+          </a>
+        </p>
+      </section>
 
-      <section className="bg-gray-200 px-4 py-14 sm:py-16">
+      <section id="testimonials" className="scroll-mt-20 bg-gray-200 px-4 py-14 sm:py-16">
         <h2 className="mb-3 text-center text-2xl font-bold text-gray-900 sm:text-3xl">
           {t.testimonialsHeading}
         </h2>
@@ -122,7 +150,7 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
         </div>
       </section>
 
-      <section ref={stepsSectionRef} className="bg-white px-4 py-14 sm:py-16">
+      <section id="how-it-works" ref={stepsSectionRef} className="scroll-mt-20 bg-white px-4 py-14 sm:py-16">
         <h2 className="mb-12 text-center text-2xl font-bold text-gray-900 sm:text-3xl">{t.howHeading}</h2>
         <div className="relative mx-auto max-w-5xl">
           <div
@@ -189,7 +217,7 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
         </Link>
       </section>
 
-      <section className="border-t border-gray-200 bg-gray-100 px-4 py-14 sm:py-16">
+      <section id="faq" className="scroll-mt-20 border-t border-gray-200 bg-gray-100 px-4 py-14 sm:py-16">
         <h2 className="mb-8 text-center text-2xl font-bold text-gray-900 sm:text-3xl">{t.faqHeading}</h2>
         <div className="mx-auto max-w-3xl space-y-3">
           {t.faq.map((item, i) => {
@@ -243,7 +271,7 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
         </div>
       </section>
 
-      <section className="border-t border-gray-800 bg-gray-950 px-4 py-12">
+      <section id="states" className="scroll-mt-20 border-t border-gray-800 bg-gray-950 px-4 py-12">
         <h2 className="mb-6 text-center text-xl font-bold text-white sm:text-2xl">{t.coverageHeading}</h2>
         <div className="mx-auto grid max-w-5xl grid-cols-5 gap-2 sm:grid-cols-8 md:grid-cols-9 lg:grid-cols-[repeat(13,minmax(0,1fr))]">
           {ALL_STATES.map((s) => (

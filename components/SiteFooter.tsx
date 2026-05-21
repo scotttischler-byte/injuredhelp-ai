@@ -29,6 +29,10 @@ export async function SiteFooter() {
               </Link>
             </span>
           ))}
+          <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
+          <Link href="/llms.txt" className="text-gray-500 underline-offset-4 hover:text-gray-300 hover:underline">
+            LLM site guide
+          </Link>
         </nav>
         <p className="mt-6 text-center text-xs leading-relaxed text-gray-500">{FOOTER_DISCLAIMER}</p>
         <p className="mt-3 text-center text-xs font-medium text-gray-500">

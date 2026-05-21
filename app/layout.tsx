@@ -95,6 +95,7 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <head>
+        <link rel="alternate" type="text/plain" href={`${origin}/llms.txt`} title="LLM site summary" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
