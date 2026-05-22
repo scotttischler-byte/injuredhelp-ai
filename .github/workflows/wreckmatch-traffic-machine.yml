@@ -39,10 +39,14 @@ jobs:
         run: pip install -r scripts/autopilot_requirements.txt
 
       - name: Secret status (no values logged)
+        env:
+          HAS_ANTHROPIC: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+          HAS_OPENAI: ${{ secrets.OPENAI_API_KEY != '' }}
+          HAS_CRON: ${{ secrets.CRON_SECRET != '' }}
         run: |
-          echo "ANTHROPIC_API_KEY: $([ -n '${{ secrets.ANTHROPIC_API_KEY }}' ] && echo set || echo missing — template posts)"
-          echo "OPENAI_API_KEY: $([ -n '${{ secrets.OPENAI_API_KEY }}' ] && echo set || echo missing)"
-          echo "CRON_SECRET: $([ -n '${{ secrets.CRON_SECRET }}' ] && echo set || echo missing — skip prod cron curl)"
+          echo "ANTHROPIC_API_KEY: $([ \"$HAS_ANTHROPIC\" = true ] && echo set || echo missing - template posts)"
+          echo "OPENAI_API_KEY: $([ \"$HAS_OPENAI\" = true ] && echo set || echo missing)"
+          echo "CRON_SECRET: $([ \"$HAS_CRON\" = true ] && echo set || echo missing - skip prod cron curl)"
 
       - name: Refill topic queue
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.refill != '' && github.event.inputs.refill != '0'
@@ -81,12 +85,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog/*.md content/syndication/ content/autopilot/
           git diff --staged --quiet && echo "No changes" && exit 0
-          git commit -m "$(cat <<'EOF'
-content(traffic-machine): truck/severe injury posts + social syndication
-
-Automated 30-min publish for WreckMatch organic + AI visibility.
-EOF
-)"
+          git commit -m "content(traffic-machine): truck/severe injury posts + social syndication"
           git push
 
       - name: Trigger production cron (social + reddit)
@@ -96,7 +95,7 @@ EOF
           SITE: https://www.wreckmatch.com
         run: |
           if [ -z "$CRON_SECRET" ]; then
-            echo "CRON_SECRET not set — skip remote cron (add secret in GitHub)"
+            echo "CRON_SECRET not set - skip remote cron (add secret in GitHub)"
             exit 0
           fi
           for path in /api/automation/social /api/automation/reddit; do

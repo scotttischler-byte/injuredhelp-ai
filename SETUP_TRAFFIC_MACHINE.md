@@ -41,6 +41,9 @@ vercel --prod
 
 Make sure **Actions** are enabled: [repo Actions settings](https://github.com/scotttischler-byte/injuredhelp-ai/settings/actions).
 
+If the workflow fails on **git push**, allow the bot to write to `main`:  
+**Settings → Actions → General → Workflow permissions → Read and write**, and if you use branch protection, check **Allow GitHub Actions to create and approve pull requests** or add an exception for `github-actions[bot]`.
+
 ## Login GitHub CLI (optional, so the script sets secrets for you)
 
 ```bash
