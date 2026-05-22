@@ -395,7 +395,7 @@ def call_claude_api(system: str, user: str, max_tokens: int = 2400) -> str | Non
         return None
     payload = json.dumps(
         {
-            "model": os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514"),
+            "model": os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6"),
             "max_tokens": max_tokens,
             "system": system,
             "messages": [{"role": "user", "content": user}],
@@ -640,7 +640,7 @@ def run_once(
 def main() -> int:
     load_env()
     p = argparse.ArgumentParser(description="WreckMatch traffic machine")
-    p.add_argument("--batch", type=int, default=1)
+    p.add_argument("--batch", type=int, default=0, help="Posts to publish (0 = refill-only)")
     p.add_argument("--refill", type=int, default=0)
     p.add_argument("--ai", action="store_true")
     p.add_argument("--claude-first", action="store_true")
@@ -653,6 +653,13 @@ def main() -> int:
     if args.refill:
         refill_queue(q, args.refill)
         save_queue(q)
+        if args.batch < 1:
+            log("Refill-only complete")
+            return 0
+
+    if args.batch < 1:
+        log("Nothing to publish (set --batch N)")
+        return 1
 
     has_ai = bool(
         os.getenv("ANTHROPIC_API_KEY", "").strip() or os.getenv("OPENAI_API_KEY", "").strip()

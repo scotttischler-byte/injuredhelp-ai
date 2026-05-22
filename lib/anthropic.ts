@@ -16,7 +16,7 @@ export async function callClaude(params: {
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "claude-sonnet-4-20250514",
+      model: process.env.ANTHROPIC_MODEL?.trim() || "claude-sonnet-4-6",
       max_tokens: params.maxTokens ?? 1200,
       system: params.system,
       messages: params.messages,
