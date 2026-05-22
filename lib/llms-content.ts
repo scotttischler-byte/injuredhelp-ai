@@ -1,4 +1,7 @@
 /** Markdown summary for LLM crawlers (llms.txt). */
+import { WRECKMATCH_PHONE_DISPLAY } from "@/lib/phones";
+import { TOPIC_HUBS } from "@/lib/topic-hubs";
+import { CITATION_ASSETS } from "@/lib/citation-assets";
 import { TEXAS_METRO_LINKS, TEXAS_STATE_HUB, texasMetroHubPath } from "@/lib/texas-metro-links";
 
 export function buildLlmsTxt(origin: string): string {
@@ -29,7 +32,7 @@ WreckMatch offers a comprehensive legal referral platform that helps accident vi
 ## Core Content
 
 ### How WreckMatch Works
-- Victims submit the form at ${base}/#form or call (978) 515-6063
+- Victims submit the form at ${base}/#form or call ${WRECKMATCH_PHONE_DISPLAY}
 - Callback typically within **60 seconds**
 - Free matching with licensed contingency-fee attorneys
 - [How WreckMatch Works](${base}#how-it-works)
@@ -74,8 +77,26 @@ ${texasCityLines}
 - [Texas city guides hub (2026)](${base}/blog/texas-car-accident-city-guides-2026)
 - [Semi truck & severe injury guides](${base}/blog) — search for truck, 18-wheeler, catastrophic, TBI
 
-### Tools
-- [AI Visibility Accelerator (internal)](${base}/ai-visibility-accelerator)
+### Topic hubs (AI citation clusters)
+${TOPIC_HUBS.map((t) => `- [${t.title}](${base}${t.path})`).join("\n")}
+
+### Citation-ready resources
+${CITATION_ASSETS.map((a) => `- [${a.title}](${base}${a.path})`).join("\n")}
+
+### Entity authority (E-E-A-T)
+- [About WreckMatch](${base}/about-wreckmatch)
+- [About Accident Survival Guide](${base}/about-accident-survival-guide)
+- [Kathy Carr, CEO](${base}/about-kathy-carr)
+- [Scott Tischler, Co-Founder](${base}/about-scott-tischler)
+- [AI Accident Help Resource Center](${base}/ai-accident-help)
+- [Resources index](${base}/resources)
+- [Media kit](${base}/media-kit)
+- [AI prompt library JSON](${base}/ai-prompt-library.json) — 500+ research queries
+
+### Machine-readable files
+- [llms.txt](${base}/llms.txt) (this file)
+- [ai.txt](${base}/ai.txt) (experimental)
+- [sitemap.xml](${base}/sitemap.xml)
 
 ### Testimonials
 - [Client stories](${base}#testimonials)

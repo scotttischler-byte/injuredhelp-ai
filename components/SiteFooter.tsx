@@ -2,6 +2,7 @@ import Link from "next/link";
 import { headers } from "next/headers";
 import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 const FOOTER_LINKS = [
@@ -31,8 +32,16 @@ export async function SiteFooter() {
             </span>
           ))}
           <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
+          <Link href="/resources" className="underline-offset-4 hover:text-white hover:underline">
+            Resources
+          </Link>
+          <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
+          <Link href="/ai-accident-help" className="underline-offset-4 hover:text-white hover:underline">
+            AI help hub
+          </Link>
+          <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
           <Link href="/llms.txt" className="text-gray-500 underline-offset-4 hover:text-gray-300 hover:underline">
-            LLM site guide
+            llms.txt
           </Link>
         </nav>
         <TexasMetroLinks variant="footer" />
@@ -45,9 +54,7 @@ export async function SiteFooter() {
             {origin.replace(/^https:\/\//, "")}
           </a>
           {" · "}
-          <a href="tel:+19785156063" className="text-gray-400 hover:text-white">
-            (978) 515-6063
-          </a>
+          <WreckMatchPhone variant="light" asLink className="inline-flex" />
         </p>
       </div>
     </footer>

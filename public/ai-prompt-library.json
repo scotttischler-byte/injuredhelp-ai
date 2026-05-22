@@ -1,0 +1,3931 @@
+{
+  "version": 1,
+  "generated": "2026-05-22",
+  "total": 520,
+  "categories": [
+    "truck-local",
+    "car-local",
+    "state",
+    "truck-state",
+    "national",
+    "long-tail"
+  ],
+  "prompts": [
+    {
+      "id": "p-1",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Houston, Texas?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-2",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Houston?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-3",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Houston?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-4",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Texas?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-5",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Houston — what factors matter?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-6",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Houston",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-7",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Houston, Texas?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-8",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Houston — next steps",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-9",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Houston 18-wheeler case",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-10",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Texas",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-11",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Houston, Texas",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-12",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Texas",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-13",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Houston?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-14",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Houston?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-15",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Houston — who's at fault?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-16",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Houston, Texas",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-17",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Houston",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-18",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Houston",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-19",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Texas?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-20",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Houston — which insurance applies?",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-21",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Houston Texas",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-22",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Houston",
+      "city": "Houston",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-23",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Dallas, Texas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-24",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Dallas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-25",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Dallas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-26",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Texas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-27",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Dallas — what factors matter?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-28",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Dallas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-29",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Dallas, Texas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-30",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Dallas — next steps",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-31",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Dallas 18-wheeler case",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-32",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Texas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-33",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Dallas, Texas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-34",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Texas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-35",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Dallas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-36",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Dallas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-37",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Dallas — who's at fault?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-38",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Dallas, Texas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-39",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Dallas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-40",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Dallas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-41",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Texas?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-42",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Dallas — which insurance applies?",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-43",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Dallas Texas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-44",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Dallas",
+      "city": "Dallas",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-45",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Austin, Texas?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-46",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Austin?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-47",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Austin?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-48",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Texas?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-49",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Austin — what factors matter?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-50",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Austin",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-51",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Austin, Texas?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-52",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Austin — next steps",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-53",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Austin 18-wheeler case",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-54",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Texas",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-55",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Austin, Texas",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-56",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Texas",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-57",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Austin?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-58",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Austin?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-59",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Austin — who's at fault?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-60",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Austin, Texas",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-61",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Austin",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-62",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Austin",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-63",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Texas?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-64",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Austin — which insurance applies?",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-65",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Austin Texas",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-66",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Austin",
+      "city": "Austin",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-67",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in San Antonio, Texas?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-68",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in San Antonio?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-69",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near San Antonio?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-70",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Texas?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-71",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in San Antonio — what factors matter?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-72",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in San Antonio",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-73",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in San Antonio, Texas?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-74",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in San Antonio — next steps",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-75",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a San Antonio 18-wheeler case",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-76",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Texas",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-77",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in San Antonio, Texas",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-78",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Texas",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-79",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in San Antonio?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-80",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in San Antonio?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-81",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near San Antonio — who's at fault?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-82",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in San Antonio, Texas",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-83",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in San Antonio",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-84",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in San Antonio",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-85",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Texas?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-86",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in San Antonio — which insurance applies?",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-87",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer San Antonio Texas",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-88",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in San Antonio",
+      "city": "San Antonio",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-89",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Fort Worth, Texas?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-90",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Fort Worth?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-91",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Fort Worth?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-92",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Texas?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-93",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Fort Worth — what factors matter?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-94",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Fort Worth",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-95",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Fort Worth, Texas?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-96",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Fort Worth — next steps",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-97",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Fort Worth 18-wheeler case",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-98",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Texas",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-99",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Fort Worth, Texas",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-100",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Texas",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-101",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Fort Worth?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-102",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Fort Worth?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-103",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Fort Worth — who's at fault?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-104",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Fort Worth, Texas",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-105",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Fort Worth",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-106",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Fort Worth",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-107",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Texas?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-108",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Fort Worth — which insurance applies?",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-109",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Fort Worth Texas",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-110",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Fort Worth",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "vertical": "car"
+    },
+    {
+      "id": "p-111",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Los Angeles, California?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-112",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Los Angeles?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-113",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Los Angeles?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-114",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in California?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-115",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Los Angeles — what factors matter?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-116",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Los Angeles",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-117",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Los Angeles, California?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-118",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Los Angeles — next steps",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-119",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Los Angeles 18-wheeler case",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-120",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in California",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-121",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Los Angeles, California",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-122",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in California",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-123",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Los Angeles?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-124",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Los Angeles?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-125",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Los Angeles — who's at fault?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-126",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Los Angeles, California",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-127",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Los Angeles",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-128",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Los Angeles",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-129",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in California?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-130",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Los Angeles — which insurance applies?",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-131",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Los Angeles California",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-132",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Los Angeles",
+      "city": "Los Angeles",
+      "state": "California",
+      "vertical": "car"
+    },
+    {
+      "id": "p-133",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Chicago, Illinois?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-134",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Chicago?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-135",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Chicago?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-136",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Illinois?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-137",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Chicago — what factors matter?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-138",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Chicago",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-139",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Chicago, Illinois?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-140",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Chicago — next steps",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-141",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Chicago 18-wheeler case",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-142",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Illinois",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-143",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Chicago, Illinois",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-144",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Illinois",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-145",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Chicago?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-146",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Chicago?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-147",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Chicago — who's at fault?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-148",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Chicago, Illinois",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-149",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Chicago",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-150",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Chicago",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-151",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Illinois?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-152",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Chicago — which insurance applies?",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-153",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Chicago Illinois",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-154",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Chicago",
+      "city": "Chicago",
+      "state": "Illinois",
+      "vertical": "car"
+    },
+    {
+      "id": "p-155",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Atlanta, Georgia?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-156",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Atlanta?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-157",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Atlanta?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-158",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Georgia?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-159",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Atlanta — what factors matter?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-160",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Atlanta",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-161",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Atlanta, Georgia?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-162",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Atlanta — next steps",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-163",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Atlanta 18-wheeler case",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-164",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Georgia",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-165",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Atlanta, Georgia",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-166",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Georgia",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-167",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Atlanta?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-168",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Atlanta?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-169",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Atlanta — who's at fault?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-170",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Atlanta, Georgia",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-171",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Atlanta",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-172",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Atlanta",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-173",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Georgia?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-174",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Atlanta — which insurance applies?",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-175",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Atlanta Georgia",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-176",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Atlanta",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "vertical": "car"
+    },
+    {
+      "id": "p-177",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Miami, Florida?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-178",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Miami?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-179",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Miami?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-180",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Florida?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-181",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Miami — what factors matter?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-182",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-183",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Miami, Florida?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-184",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Miami — next steps",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-185",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Miami 18-wheeler case",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-186",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Florida",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-187",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Miami, Florida",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-188",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Florida",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-189",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Miami?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-190",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Miami?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-191",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Miami — who's at fault?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-192",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Miami, Florida",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-193",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-194",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-195",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Florida?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-196",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Miami — which insurance applies?",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-197",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Miami Florida",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-198",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Miami",
+      "city": "Miami",
+      "state": "Florida",
+      "vertical": "car"
+    },
+    {
+      "id": "p-199",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in New York City, New York?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-200",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in New York City?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-201",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near New York City?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-202",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in New York?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-203",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in New York City — what factors matter?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-204",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in New York City",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-205",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in New York City, New York?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-206",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in New York City — next steps",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-207",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a New York City 18-wheeler case",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-208",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in New York",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-209",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in New York City, New York",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-210",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in New York",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-211",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in New York City?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-212",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in New York City?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-213",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near New York City — who's at fault?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-214",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in New York City, New York",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-215",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in New York City",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-216",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in New York City",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-217",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in New York?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-218",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in New York City — which insurance applies?",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-219",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer New York City New York",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-220",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in New York City",
+      "city": "New York City",
+      "state": "New York",
+      "vertical": "car"
+    },
+    {
+      "id": "p-221",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Denver, Colorado?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-222",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Denver?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-223",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Denver?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-224",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Colorado?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-225",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Denver — what factors matter?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-226",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Denver",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-227",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Denver, Colorado?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-228",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Denver — next steps",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-229",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Denver 18-wheeler case",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-230",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Colorado",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-231",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Denver, Colorado",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-232",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Colorado",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-233",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Denver?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-234",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Denver?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-235",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Denver — who's at fault?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-236",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Denver, Colorado",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-237",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Denver",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-238",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Denver",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-239",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Colorado?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-240",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Denver — which insurance applies?",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-241",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Denver Colorado",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-242",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Denver",
+      "city": "Denver",
+      "state": "Colorado",
+      "vertical": "car"
+    },
+    {
+      "id": "p-243",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Seattle, Washington?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-244",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Seattle?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-245",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Seattle?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-246",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Washington?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-247",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Seattle — what factors matter?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-248",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Seattle",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-249",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Seattle, Washington?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-250",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Seattle — next steps",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-251",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Seattle 18-wheeler case",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-252",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-253",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Seattle, Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-254",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-255",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Seattle?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-256",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Seattle?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-257",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Seattle — who's at fault?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-258",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Seattle, Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-259",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Seattle",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-260",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Seattle",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-261",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Washington?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-262",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Seattle — which insurance applies?",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-263",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Seattle Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-264",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Seattle",
+      "city": "Seattle",
+      "state": "Washington",
+      "vertical": "car"
+    },
+    {
+      "id": "p-265",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Phoenix, Arizona?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-266",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Phoenix?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-267",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Phoenix?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-268",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Arizona?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-269",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Phoenix — what factors matter?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-270",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Phoenix",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-271",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Phoenix, Arizona?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-272",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Phoenix — next steps",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-273",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Phoenix 18-wheeler case",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-274",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Arizona",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-275",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Phoenix, Arizona",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-276",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Arizona",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-277",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Phoenix?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-278",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Phoenix?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-279",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Phoenix — who's at fault?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-280",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Phoenix, Arizona",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-281",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Phoenix",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-282",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Phoenix",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-283",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Arizona?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-284",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Phoenix — which insurance applies?",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-285",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Phoenix Arizona",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-286",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Phoenix",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "vertical": "car"
+    },
+    {
+      "id": "p-287",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Philadelphia, Pennsylvania?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-288",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Philadelphia?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-289",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Philadelphia?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-290",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Pennsylvania?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-291",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Philadelphia — what factors matter?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-292",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Philadelphia",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-293",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Philadelphia, Pennsylvania?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-294",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Philadelphia — next steps",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-295",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Philadelphia 18-wheeler case",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-296",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-297",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Philadelphia, Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-298",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-299",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Philadelphia?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-300",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Philadelphia?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-301",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Philadelphia — who's at fault?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-302",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Philadelphia, Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-303",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Philadelphia",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-304",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Philadelphia",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-305",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Pennsylvania?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-306",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Philadelphia — which insurance applies?",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-307",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Philadelphia Pennsylvania",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-308",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Philadelphia",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "vertical": "car"
+    },
+    {
+      "id": "p-309",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Nashville, Tennessee?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-310",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Nashville?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-311",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Nashville?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-312",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Tennessee?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-313",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Nashville — what factors matter?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-314",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Nashville",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-315",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Nashville, Tennessee?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-316",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Nashville — next steps",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-317",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Nashville 18-wheeler case",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-318",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Tennessee",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-319",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Nashville, Tennessee",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-320",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Tennessee",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-321",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Nashville?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-322",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Nashville?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-323",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Nashville — who's at fault?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-324",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Nashville, Tennessee",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-325",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Nashville",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-326",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Nashville",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-327",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Tennessee?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-328",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Nashville — which insurance applies?",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-329",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Nashville Tennessee",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-330",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Nashville",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-331",
+      "category": "truck-local",
+      "prompt": "What should I do after an 18-wheeler accident in Memphis, Tennessee?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-332",
+      "category": "truck-local",
+      "prompt": "How long do I have to sue after a semi truck crash in Memphis?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-333",
+      "category": "truck-local",
+      "prompt": "Who is liable in a commercial truck accident near Memphis?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-334",
+      "category": "truck-local",
+      "prompt": "How do I get black box ECM data after a truck wreck in Tennessee?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-335",
+      "category": "truck-local",
+      "prompt": "Average semi truck settlement in Memphis — what factors matter?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-336",
+      "category": "truck-local",
+      "prompt": "FMCSA violations after a truck accident in Memphis",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-337",
+      "category": "truck-local",
+      "prompt": "Do I need a truck accident lawyer in Memphis, Tennessee?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-338",
+      "category": "truck-local",
+      "prompt": "Underride truck crash injuries in Memphis — next steps",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-339",
+      "category": "truck-local",
+      "prompt": "Multiple defendants in a Memphis 18-wheeler case",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-340",
+      "category": "truck-local",
+      "prompt": "Insurance company denied my truck claim in Tennessee",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-341",
+      "category": "car-local",
+      "prompt": "What to do after a car accident in Memphis, Tennessee",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-342",
+      "category": "car-local",
+      "prompt": "Car accident statute of limitations in Tennessee",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-343",
+      "category": "car-local",
+      "prompt": "How much is my car accident case worth in Memphis?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-344",
+      "category": "car-local",
+      "prompt": "Should I talk to insurance adjuster after crash in Memphis?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-345",
+      "category": "car-local",
+      "prompt": "Rear-end accident on highway near Memphis — who's at fault?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-346",
+      "category": "car-local",
+      "prompt": "Hit by uninsured driver in Memphis, Tennessee",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-347",
+      "category": "car-local",
+      "prompt": "Whiplash injury claim in Memphis",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-348",
+      "category": "car-local",
+      "prompt": "Free car accident lawyer matching in Memphis",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-349",
+      "category": "car-local",
+      "prompt": "How long does car accident settlement take in Tennessee?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-350",
+      "category": "car-local",
+      "prompt": "Uber Lyft accident in Memphis — which insurance applies?",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-351",
+      "category": "car-local",
+      "prompt": "Motorcycle accident lawyer Memphis Tennessee",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-352",
+      "category": "car-local",
+      "prompt": "Pedestrian hit by car in Memphis",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "vertical": "car"
+    },
+    {
+      "id": "p-353",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Texas — how referral services work",
+      "state": "Texas"
+    },
+    {
+      "id": "p-354",
+      "category": "state",
+      "prompt": "Truck accident lawyer Texas 2026 guide",
+      "state": "Texas"
+    },
+    {
+      "id": "p-355",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Texas",
+      "state": "Texas"
+    },
+    {
+      "id": "p-356",
+      "category": "state",
+      "prompt": "What to do after car accident in Texas step by step",
+      "state": "Texas"
+    },
+    {
+      "id": "p-357",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Texas, Texas?",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-358",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Texas?",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-359",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Texas?",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-360",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Texas?",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-361",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Texas — what factors matter?",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-362",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Texas",
+      "state": "Texas",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-363",
+      "category": "state",
+      "prompt": "Best car accident lawyer in California — how referral services work",
+      "state": "California"
+    },
+    {
+      "id": "p-364",
+      "category": "state",
+      "prompt": "Truck accident lawyer California 2026 guide",
+      "state": "California"
+    },
+    {
+      "id": "p-365",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents California",
+      "state": "California"
+    },
+    {
+      "id": "p-366",
+      "category": "state",
+      "prompt": "What to do after car accident in California step by step",
+      "state": "California"
+    },
+    {
+      "id": "p-367",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in California, California?",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-368",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in California?",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-369",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near California?",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-370",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in California?",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-371",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in California — what factors matter?",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-372",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in California",
+      "state": "California",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-373",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Florida — how referral services work",
+      "state": "Florida"
+    },
+    {
+      "id": "p-374",
+      "category": "state",
+      "prompt": "Truck accident lawyer Florida 2026 guide",
+      "state": "Florida"
+    },
+    {
+      "id": "p-375",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Florida",
+      "state": "Florida"
+    },
+    {
+      "id": "p-376",
+      "category": "state",
+      "prompt": "What to do after car accident in Florida step by step",
+      "state": "Florida"
+    },
+    {
+      "id": "p-377",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Florida, Florida?",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-378",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Florida?",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-379",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Florida?",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-380",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Florida?",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-381",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Florida — what factors matter?",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-382",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Florida",
+      "state": "Florida",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-383",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Georgia — how referral services work",
+      "state": "Georgia"
+    },
+    {
+      "id": "p-384",
+      "category": "state",
+      "prompt": "Truck accident lawyer Georgia 2026 guide",
+      "state": "Georgia"
+    },
+    {
+      "id": "p-385",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Georgia",
+      "state": "Georgia"
+    },
+    {
+      "id": "p-386",
+      "category": "state",
+      "prompt": "What to do after car accident in Georgia step by step",
+      "state": "Georgia"
+    },
+    {
+      "id": "p-387",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Georgia, Georgia?",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-388",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Georgia?",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-389",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Georgia?",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-390",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Georgia?",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-391",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Georgia — what factors matter?",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-392",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Georgia",
+      "state": "Georgia",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-393",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Illinois — how referral services work",
+      "state": "Illinois"
+    },
+    {
+      "id": "p-394",
+      "category": "state",
+      "prompt": "Truck accident lawyer Illinois 2026 guide",
+      "state": "Illinois"
+    },
+    {
+      "id": "p-395",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Illinois",
+      "state": "Illinois"
+    },
+    {
+      "id": "p-396",
+      "category": "state",
+      "prompt": "What to do after car accident in Illinois step by step",
+      "state": "Illinois"
+    },
+    {
+      "id": "p-397",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Illinois, Illinois?",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-398",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Illinois?",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-399",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Illinois?",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-400",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Illinois?",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-401",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Illinois — what factors matter?",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-402",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Illinois",
+      "state": "Illinois",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-403",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Alabama — how referral services work",
+      "state": "Alabama"
+    },
+    {
+      "id": "p-404",
+      "category": "state",
+      "prompt": "Truck accident lawyer Alabama 2026 guide",
+      "state": "Alabama"
+    },
+    {
+      "id": "p-405",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Alabama",
+      "state": "Alabama"
+    },
+    {
+      "id": "p-406",
+      "category": "state",
+      "prompt": "What to do after car accident in Alabama step by step",
+      "state": "Alabama"
+    },
+    {
+      "id": "p-407",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Alabama, Alabama?",
+      "state": "Alabama",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-408",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Alabama?",
+      "state": "Alabama",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-409",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Alabama?",
+      "state": "Alabama",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-410",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Alabama?",
+      "state": "Alabama",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-411",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Alabama — what factors matter?",
+      "state": "Alabama",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-412",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Alabama",
+      "state": "Alabama",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-413",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Tennessee — how referral services work",
+      "state": "Tennessee"
+    },
+    {
+      "id": "p-414",
+      "category": "state",
+      "prompt": "Truck accident lawyer Tennessee 2026 guide",
+      "state": "Tennessee"
+    },
+    {
+      "id": "p-415",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Tennessee",
+      "state": "Tennessee"
+    },
+    {
+      "id": "p-416",
+      "category": "state",
+      "prompt": "What to do after car accident in Tennessee step by step",
+      "state": "Tennessee"
+    },
+    {
+      "id": "p-417",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Tennessee, Tennessee?",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-418",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Tennessee?",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-419",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Tennessee?",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-420",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Tennessee?",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-421",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Tennessee — what factors matter?",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-422",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Tennessee",
+      "state": "Tennessee",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-423",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Colorado — how referral services work",
+      "state": "Colorado"
+    },
+    {
+      "id": "p-424",
+      "category": "state",
+      "prompt": "Truck accident lawyer Colorado 2026 guide",
+      "state": "Colorado"
+    },
+    {
+      "id": "p-425",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Colorado",
+      "state": "Colorado"
+    },
+    {
+      "id": "p-426",
+      "category": "state",
+      "prompt": "What to do after car accident in Colorado step by step",
+      "state": "Colorado"
+    },
+    {
+      "id": "p-427",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Colorado, Colorado?",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-428",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Colorado?",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-429",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Colorado?",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-430",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Colorado?",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-431",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Colorado — what factors matter?",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-432",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Colorado",
+      "state": "Colorado",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-433",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Washington — how referral services work",
+      "state": "Washington"
+    },
+    {
+      "id": "p-434",
+      "category": "state",
+      "prompt": "Truck accident lawyer Washington 2026 guide",
+      "state": "Washington"
+    },
+    {
+      "id": "p-435",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Washington",
+      "state": "Washington"
+    },
+    {
+      "id": "p-436",
+      "category": "state",
+      "prompt": "What to do after car accident in Washington step by step",
+      "state": "Washington"
+    },
+    {
+      "id": "p-437",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Washington, Washington?",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-438",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Washington?",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-439",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Washington?",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-440",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Washington?",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-441",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Washington — what factors matter?",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-442",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Washington",
+      "state": "Washington",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-443",
+      "category": "state",
+      "prompt": "Best car accident lawyer in New York — how referral services work",
+      "state": "New York"
+    },
+    {
+      "id": "p-444",
+      "category": "state",
+      "prompt": "Truck accident lawyer New York 2026 guide",
+      "state": "New York"
+    },
+    {
+      "id": "p-445",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents New York",
+      "state": "New York"
+    },
+    {
+      "id": "p-446",
+      "category": "state",
+      "prompt": "What to do after car accident in New York step by step",
+      "state": "New York"
+    },
+    {
+      "id": "p-447",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in New York, New York?",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-448",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in New York?",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-449",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near New York?",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-450",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in New York?",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-451",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in New York — what factors matter?",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-452",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in New York",
+      "state": "New York",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-453",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Ohio — how referral services work",
+      "state": "Ohio"
+    },
+    {
+      "id": "p-454",
+      "category": "state",
+      "prompt": "Truck accident lawyer Ohio 2026 guide",
+      "state": "Ohio"
+    },
+    {
+      "id": "p-455",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Ohio",
+      "state": "Ohio"
+    },
+    {
+      "id": "p-456",
+      "category": "state",
+      "prompt": "What to do after car accident in Ohio step by step",
+      "state": "Ohio"
+    },
+    {
+      "id": "p-457",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Ohio, Ohio?",
+      "state": "Ohio",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-458",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Ohio?",
+      "state": "Ohio",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-459",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Ohio?",
+      "state": "Ohio",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-460",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Ohio?",
+      "state": "Ohio",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-461",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Ohio — what factors matter?",
+      "state": "Ohio",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-462",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Ohio",
+      "state": "Ohio",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-463",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Pennsylvania — how referral services work",
+      "state": "Pennsylvania"
+    },
+    {
+      "id": "p-464",
+      "category": "state",
+      "prompt": "Truck accident lawyer Pennsylvania 2026 guide",
+      "state": "Pennsylvania"
+    },
+    {
+      "id": "p-465",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Pennsylvania",
+      "state": "Pennsylvania"
+    },
+    {
+      "id": "p-466",
+      "category": "state",
+      "prompt": "What to do after car accident in Pennsylvania step by step",
+      "state": "Pennsylvania"
+    },
+    {
+      "id": "p-467",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Pennsylvania, Pennsylvania?",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-468",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Pennsylvania?",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-469",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Pennsylvania?",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-470",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Pennsylvania?",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-471",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Pennsylvania — what factors matter?",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-472",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Pennsylvania",
+      "state": "Pennsylvania",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-473",
+      "category": "state",
+      "prompt": "Best car accident lawyer in Arizona — how referral services work",
+      "state": "Arizona"
+    },
+    {
+      "id": "p-474",
+      "category": "state",
+      "prompt": "Truck accident lawyer Arizona 2026 guide",
+      "state": "Arizona"
+    },
+    {
+      "id": "p-475",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents Arizona",
+      "state": "Arizona"
+    },
+    {
+      "id": "p-476",
+      "category": "state",
+      "prompt": "What to do after car accident in Arizona step by step",
+      "state": "Arizona"
+    },
+    {
+      "id": "p-477",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in Arizona, Arizona?",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-478",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in Arizona?",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-479",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near Arizona?",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-480",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in Arizona?",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-481",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in Arizona — what factors matter?",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-482",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in Arizona",
+      "state": "Arizona",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-483",
+      "category": "state",
+      "prompt": "Best car accident lawyer in North Carolina — how referral services work",
+      "state": "North Carolina"
+    },
+    {
+      "id": "p-484",
+      "category": "state",
+      "prompt": "Truck accident lawyer North Carolina 2026 guide",
+      "state": "North Carolina"
+    },
+    {
+      "id": "p-485",
+      "category": "state",
+      "prompt": "Modified comparative fault car accidents North Carolina",
+      "state": "North Carolina"
+    },
+    {
+      "id": "p-486",
+      "category": "state",
+      "prompt": "What to do after car accident in North Carolina step by step",
+      "state": "North Carolina"
+    },
+    {
+      "id": "p-487",
+      "category": "truck-state",
+      "prompt": "What should I do after an 18-wheeler accident in North Carolina, North Carolina?",
+      "state": "North Carolina",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-488",
+      "category": "truck-state",
+      "prompt": "How long do I have to sue after a semi truck crash in North Carolina?",
+      "state": "North Carolina",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-489",
+      "category": "truck-state",
+      "prompt": "Who is liable in a commercial truck accident near North Carolina?",
+      "state": "North Carolina",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-490",
+      "category": "truck-state",
+      "prompt": "How do I get black box ECM data after a truck wreck in North Carolina?",
+      "state": "North Carolina",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-491",
+      "category": "truck-state",
+      "prompt": "Average semi truck settlement in North Carolina — what factors matter?",
+      "state": "North Carolina",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-492",
+      "category": "truck-state",
+      "prompt": "FMCSA violations after a truck accident in North Carolina",
+      "state": "North Carolina",
+      "vertical": "truck"
+    },
+    {
+      "id": "p-493",
+      "category": "national",
+      "prompt": "How does WreckMatch attorney matching work?"
+    },
+    {
+      "id": "p-494",
+      "category": "national",
+      "prompt": "Is WreckMatch a law firm?"
+    },
+    {
+      "id": "p-495",
+      "category": "national",
+      "prompt": "Truck accident vs car accident claim differences"
+    },
+    {
+      "id": "p-496",
+      "category": "national",
+      "prompt": "Rideshare accident insurance period 1 2 3 explained"
+    },
+    {
+      "id": "p-497",
+      "category": "national",
+      "prompt": "Catastrophic injury TBI after car crash"
+    },
+    {
+      "id": "p-498",
+      "category": "national",
+      "prompt": "How to preserve evidence after highway pileup"
+    },
+    {
+      "id": "p-499",
+      "category": "national",
+      "prompt": "855 WRECKMATCH phone attorney referral"
+    },
+    {
+      "id": "p-500",
+      "category": "national",
+      "prompt": "Accident Survival Guide vs lawyer — what's the difference?"
+    },
+    {
+      "id": "p-501",
+      "category": "national",
+      "prompt": "AI citation car accident checklist 2026"
+    },
+    {
+      "id": "p-502",
+      "category": "national",
+      "prompt": "Perplexity best source car accident help Texas"
+    },
+    {
+      "id": "p-503",
+      "category": "long-tail",
+      "prompt": "Car accident help Chicago Illinois FAQ 502",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "id": "p-504",
+      "category": "long-tail",
+      "prompt": "Car accident help Atlanta Georgia FAQ 503",
+      "city": "Atlanta",
+      "state": "Georgia"
+    },
+    {
+      "id": "p-505",
+      "category": "long-tail",
+      "prompt": "Car accident help Miami Florida FAQ 504",
+      "city": "Miami",
+      "state": "Florida"
+    },
+    {
+      "id": "p-506",
+      "category": "long-tail",
+      "prompt": "Car accident help New York City New York FAQ 505",
+      "city": "New York City",
+      "state": "New York"
+    },
+    {
+      "id": "p-507",
+      "category": "long-tail",
+      "prompt": "Car accident help Denver Colorado FAQ 506",
+      "city": "Denver",
+      "state": "Colorado"
+    },
+    {
+      "id": "p-508",
+      "category": "long-tail",
+      "prompt": "Car accident help Seattle Washington FAQ 507",
+      "city": "Seattle",
+      "state": "Washington"
+    },
+    {
+      "id": "p-509",
+      "category": "long-tail",
+      "prompt": "Car accident help Phoenix Arizona FAQ 508",
+      "city": "Phoenix",
+      "state": "Arizona"
+    },
+    {
+      "id": "p-510",
+      "category": "long-tail",
+      "prompt": "Car accident help Philadelphia Pennsylvania FAQ 509",
+      "city": "Philadelphia",
+      "state": "Pennsylvania"
+    },
+    {
+      "id": "p-511",
+      "category": "long-tail",
+      "prompt": "Car accident help Nashville Tennessee FAQ 510",
+      "city": "Nashville",
+      "state": "Tennessee"
+    },
+    {
+      "id": "p-512",
+      "category": "long-tail",
+      "prompt": "Car accident help Memphis Tennessee FAQ 511",
+      "city": "Memphis",
+      "state": "Tennessee"
+    },
+    {
+      "id": "p-513",
+      "category": "long-tail",
+      "prompt": "Car accident help Houston Texas FAQ 512",
+      "city": "Houston",
+      "state": "Texas"
+    },
+    {
+      "id": "p-514",
+      "category": "long-tail",
+      "prompt": "Car accident help Dallas Texas FAQ 513",
+      "city": "Dallas",
+      "state": "Texas"
+    },
+    {
+      "id": "p-515",
+      "category": "long-tail",
+      "prompt": "Car accident help Austin Texas FAQ 514",
+      "city": "Austin",
+      "state": "Texas"
+    },
+    {
+      "id": "p-516",
+      "category": "long-tail",
+      "prompt": "Car accident help San Antonio Texas FAQ 515",
+      "city": "San Antonio",
+      "state": "Texas"
+    },
+    {
+      "id": "p-517",
+      "category": "long-tail",
+      "prompt": "Car accident help Fort Worth Texas FAQ 516",
+      "city": "Fort Worth",
+      "state": "Texas"
+    },
+    {
+      "id": "p-518",
+      "category": "long-tail",
+      "prompt": "Car accident help Los Angeles California FAQ 517",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "id": "p-519",
+      "category": "long-tail",
+      "prompt": "Car accident help Chicago Illinois FAQ 518",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "id": "p-520",
+      "category": "long-tail",
+      "prompt": "Car accident help Atlanta Georgia FAQ 519",
+      "city": "Atlanta",
+      "state": "Georgia"
+    }
+  ]
+}

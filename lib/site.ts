@@ -43,7 +43,7 @@ export const BRAND_CONFIG = {
   wreckmatch: {
     name: "WreckMatch",
     tagline: "Free Legal Help After Your Car Accident",
-    phone: process.env.WRECKMATCH_PHONE ?? "+19785156063",
+    phone: process.env.WRECKMATCH_PHONE?.trim() || "+18558973256",
     email: "help@wreckmatch.com",
     ghlSource: "WreckMatch",
     tiktokContentName: "wreckmatch_home",

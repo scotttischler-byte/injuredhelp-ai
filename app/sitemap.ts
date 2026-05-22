@@ -4,7 +4,26 @@ import { getAllGeoHubSlugs } from "@/lib/geo-routes";
 import { getAllPosts } from "@/lib/posts";
 import { TEXAS_METRO_LINKS } from "@/lib/texas-metro-links";
 import { ACCIDENT_VARIANT_CITIES, PRIORITY_PLACE_BY_SLUG } from "@/lib/priority-places/registry";
+import { CITATION_ASSETS } from "@/lib/citation-assets";
+import { TOPIC_HUBS } from "@/lib/topic-hubs";
 import { siteOriginFromHeaders } from "@/lib/site";
+
+const SEO_STATIC = [
+  "/car-accident-help",
+  "/truck-accident-help",
+  "/motorcycle-accident-help",
+  "/rideshare-accident-help",
+  "/pedestrian-accident-help",
+  "/uninsured-driver-accident-help",
+  "/ai-accident-help",
+  "/resources",
+  "/media-kit",
+  "/about-wreckmatch",
+  "/about-accident-survival-guide",
+  "/about-scott-tischler",
+  "/about-kathy-carr",
+  ...CITATION_ASSETS.map((a) => a.path),
+];
 
 const TEXAS_PLACE_SLUGS = new Set(TEXAS_METRO_LINKS.map((m) => m.placeSlug));
 const PRIORITY_PLACE_SLUGS = new Set(PRIORITY_PLACE_BY_SLUG.keys());
@@ -35,6 +54,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${origin}/sms-terms`, lastModified: now, changeFrequency: "monthly", priority: 0.3 },
     { url: `${origin}/press`, lastModified: now, changeFrequency: "weekly", priority: 0.5 },
     { url: `${origin}/webinars`, lastModified: now, changeFrequency: "weekly", priority: 0.5 },
+    { url: `${origin}/ai.txt`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    ...SEO_STATIC.map((path) => ({
+      url: `${origin}${path}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: path.includes("truck") ? 0.95 : path.includes("ai-accident") ? 0.9 : 0.82,
+    })),
+    ...TOPIC_HUBS.filter((t) => !SEO_STATIC.includes(t.path)).map((t) => ({
+      url: `${origin}${t.path}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    })),
   ];
 
   const blogPosts = getAllPosts().map((p) => ({

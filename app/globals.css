@@ -22,7 +22,39 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+/* Mobile-first: touch targets, readable type, no horizontal scroll */
+@media (max-width: 767px) {
+  html {
+    font-size: 17px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 16px !important; /* prevents iOS zoom on focus */
+    min-height: 48px;
+  }
+
+  a,
+  button {
+    touch-action: manipulation;
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.touch-manipulation {
+  touch-action: manipulation;
 }
 
 /* Hero: CSS-only background (no image). LCP is typically the h1 below. */

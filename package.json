@@ -9,7 +9,8 @@
     "lint": "eslint",
     "generate:blog": "node scripts/generate-content.mjs blog",
     "generate:geo": "node scripts/generate-content.mjs geo",
-    "export:geo": "npx tsx scripts/export-priority-geo-markdown.ts"
+    "export:geo": "npx tsx scripts/export-priority-geo-markdown.ts",
+    "generate:prompts": "node scripts/generate-ai-prompt-library.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

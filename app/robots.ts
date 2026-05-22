@@ -31,7 +31,17 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
       },
       ...AI_AGENTS.map((userAgent) => ({
         userAgent,
-        allow: ["/", "/llms.txt", "/blog/", "/car-accident-help-"],
+        allow: [
+          "/",
+          "/llms.txt",
+          "/ai.txt",
+          "/blog/",
+          "/car-accident-help",
+          "/car-accident-help-",
+          "/truck-accident-help",
+          "/ai-accident-help",
+          "/resources",
+        ],
         disallow: ["/api/", "/admin"],
       })),
     ],

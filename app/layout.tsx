@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { headers } from "next/headers";
 import { CookieConsent } from "@/components/CookieConsent";
+import { MobileGlobalCTA } from "@/components/MobileGlobalCTA";
 import { Providers } from "@/components/Providers";
 import { SiteFooter } from "@/components/SiteFooter";
 import { siteJsonLdGraph } from "@/lib/seo";
@@ -60,7 +61,11 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export const viewport: Viewport = {
-  themeColor: "#e53e3e",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#0f172a",
+  viewportFit: "cover",
 };
 
 const rawGtm = process.env.NEXT_PUBLIC_GTM_ID?.trim() ?? "";
@@ -96,6 +101,7 @@ export default async function RootLayout({
     >
       <head>
         <link rel="alternate" type="text/plain" href={`${origin}/llms.txt`} title="LLM site summary" />
+        <link rel="alternate" type="text/plain" href={`${origin}/ai.txt`} title="AI crawler policy" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -144,6 +150,7 @@ export default async function RootLayout({
           {children}
           <SiteFooter />
         </Providers>
+        <MobileGlobalCTA />
         <CookieConsent />
       </body>
     </html>
