@@ -1,0 +1,86 @@
+# WreckMatch blog autopilot — runs every hour, 24/7/365
+# Publishes AI-optimized posts to content/blog → Vercel redeploys wreckmatch.com
+
+name: WreckMatch blog autopilot (24/7)
+
+on:
+  schedule:
+    # Every hour at :17 UTC (~12 min after the hour)
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Number of posts this run"
+        required: false
+        default: "1"
+      refill:
+        description: "Refill topic queue count (0 = skip)"
+        required: false
+        default: "0"
+      use_ai:
+        description: "Use OpenAI for richer posts"
+        type: boolean
+        default: true
+
+concurrency:
+  group: wreckmatch-blog-autopilot
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/autopilot_requirements.txt
+
+      - name: Refill topic queue (manual)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.refill != '' && github.event.inputs.refill != '0'
+        env:
+          REFILL: ${{ github.event.inputs.refill }}
+        run: python scripts/wreckmatch_blog_autopilot.py --refill "$REFILL"
+
+      - name: Ensure queue has topics
+        run: |
+          python -c "
+          import json, pathlib
+          p = pathlib.Path('content/autopilot/blog_queue.json')
+          q = json.loads(p.read_text())
+          if len(q.get('pending', [])) < 10:
+            import subprocess
+            subprocess.run(['python', 'scripts/wreckmatch_blog_autopilot.py', '--refill', '150'], check=True)
+          "
+
+      - name: Generate and publish blog post(s)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4o-mini
+          WRECKMATCH_SITE: https://www.wreckmatch.com
+        run: |
+          BATCH="${{ github.event.inputs.batch || '1' }}"
+          AI_FLAG=""
+          if [ "${{ github.event.inputs.use_ai }}" != "false" ]; then
+            AI_FLAG="--ai"
+          fi
+          python scripts/wreckmatch_blog_autopilot.py --batch "$BATCH" $AI_FLAG --delay 3
+
+      - name: Commit and push (triggers Vercel deploy)
+        run: |
+          git config user.name "wreckmatch-blog-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/blog/*.md content/autopilot/blog_queue.json content/autopilot/blog_generation.log
+          git diff --staged --quiet && echo "No new posts this run" && exit 0
+          git commit -m "$(cat <<'EOF'
+content(autopilot): publish AI blog post [24/7 machine]
+
+Automated hourly WreckMatch educational post for LLM and search visibility.
+EOF
+)"
+          git push
