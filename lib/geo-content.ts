@@ -8,6 +8,7 @@ import {
   texasCitySlugFromHubSlug,
   type TexasCityContent,
 } from "@/lib/texas-city-content";
+import { TEXAS_METRO_LINKS, TEXAS_STATE_HUB, texasMetroHubPath } from "@/lib/texas-metro-links";
 
 const COMMON_CRASH_TYPES = [
   "rear-end collisions at signals and on highways",
@@ -332,23 +333,23 @@ export function geoRelatedLinks(hub: GeoHub): { href: string; label: string }[] 
     });
     const tcSlug = texasCitySlugFromHubSlug(hub.slug);
     if (tcSlug) {
-      const peers: Record<string, string> = {
-        houston: "Houston",
-        "san-antonio": "San Antonio",
-        dallas: "Dallas",
-        "fort-worth": "Fort Worth",
-        austin: "Austin",
-      };
-      Object.entries(peers).forEach(([slug, label]) => {
-        if (slug !== tcSlug) {
-          links.push({ href: `/car-accident-help-${slug}`, label: `${label} car accident help` });
+      TEXAS_METRO_LINKS.forEach((m) => {
+        if (m.placeSlug !== tcSlug) {
+          links.push({ href: texasMetroHubPath(m.placeSlug), label: `${m.label} car accident help` });
         }
       });
     }
   } else {
-    hub.profile.majorCities.slice(0, 4).forEach((city) => {
-      links.push({ href: `/${cityHubSlug(city)}`, label: `${city} car accident help` });
-    });
+    if (hub.type === "state" && hub.profile.state === "Texas") {
+      links.push({ href: TEXAS_STATE_HUB, label: "Texas statewide guide" });
+      TEXAS_METRO_LINKS.forEach((m) => {
+        links.push({ href: texasMetroHubPath(m.placeSlug), label: `${m.label} car accident help` });
+      });
+    } else {
+      hub.profile.majorCities.slice(0, 6).forEach((city) => {
+        links.push({ href: `/${cityHubSlug(city)}`, label: `${city} car accident help` });
+      });
+    }
   }
   return links;
 }

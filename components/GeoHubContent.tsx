@@ -10,6 +10,7 @@ import {
   geoPlaceLabel,
   geoRelatedLinks,
 } from "@/lib/geo-content";
+import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import type { GeoHub } from "@/lib/geo-routes";
 import { cityHubSlug, stateHubSlug } from "@/lib/geo-routes";
 import { texasCitySlugFromHubSlug } from "@/lib/texas-city-content";
@@ -143,7 +144,18 @@ export function GeoHubContent({ hub }: Props) {
           </section>
         ))}
 
-        {isState ? (
+        {isState && name === "Texas" ? (
+          <section className="mt-10 rounded-2xl border border-gray-200 bg-gray-50 p-6">
+            <h2 className="text-xl font-bold text-gray-900">Texas city guides (2026) — AI-optimized</h2>
+            <p className="mt-2 text-sm text-gray-600">
+              Hyper-local guides for the busiest Texas metros: statute of limitations, insurance tactics,
+              and free attorney matching.
+            </p>
+            <div className="mt-4">
+              <TexasMetroLinks variant="inline" showStateLink={false} />
+            </div>
+          </section>
+        ) : isState ? (
           <section className="mt-10">
             <h2 className="text-xl font-bold text-gray-900">Major cities we serve in {name}</h2>
             <ul className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">

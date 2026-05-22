@@ -1,5 +1,5 @@
 {
-  "count": 5,
+  "count": 11,
   "cities": [
     {
       "slug": "houston",
@@ -30,6 +30,42 @@
       "city": "Austin",
       "file": "car-accident-help-austin.md",
       "url": "https://www.wreckmatch.com/car-accident-help-austin"
+    },
+    {
+      "slug": "el-paso",
+      "city": "El Paso",
+      "file": "car-accident-help-el-paso.md",
+      "url": "https://www.wreckmatch.com/car-accident-help-el-paso"
+    },
+    {
+      "slug": "corpus-christi",
+      "city": "Corpus Christi",
+      "file": "car-accident-help-corpus-christi.md",
+      "url": "https://www.wreckmatch.com/car-accident-help-corpus-christi"
+    },
+    {
+      "slug": "plano",
+      "city": "Plano",
+      "file": "car-accident-help-plano.md",
+      "url": "https://www.wreckmatch.com/car-accident-help-plano"
+    },
+    {
+      "slug": "lubbock",
+      "city": "Lubbock",
+      "file": "car-accident-help-lubbock.md",
+      "url": "https://www.wreckmatch.com/car-accident-help-lubbock"
+    },
+    {
+      "slug": "arlington-texas",
+      "city": "Arlington",
+      "file": "car-accident-help-arlington-texas.md",
+      "url": "https://www.wreckmatch.com/car-accident-help-arlington-texas"
+    },
+    {
+      "slug": "irving",
+      "city": "Irving",
+      "file": "car-accident-help-irving.md",
+      "url": "https://www.wreckmatch.com/car-accident-help-irving"
     }
   ]
 }

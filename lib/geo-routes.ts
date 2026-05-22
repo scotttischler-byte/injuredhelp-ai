@@ -9,11 +9,23 @@ export function hubSlugFromName(name: string): string {
     .replace(/\s+/g, "-");
 }
 
+export function cityPlaceSlug(profile: CityProfile): string {
+  return profile.placeSlug ?? hubSlugFromName(profile.city);
+}
+
 export function stateHubSlug(stateName: string): string {
   return `car-accident-help-${hubSlugFromName(stateName)}`;
 }
 
+/** Full hub slug for a city profile (used in sitemap and lookups). */
+export function cityHubSlugFromProfile(profile: CityProfile): string {
+  return `car-accident-help-${cityPlaceSlug(profile)}`;
+}
+
+/** @deprecated Prefer cityHubSlugFromProfile when you have a CityProfile. */
 export function cityHubSlug(cityName: string): string {
+  const match = ALL_CITIES.find((c) => c.city === cityName);
+  if (match) return cityHubSlugFromProfile(match);
   return `car-accident-help-${hubSlugFromName(cityName)}`;
 }
 
@@ -22,7 +34,7 @@ const STATE_BY_HUB = new Map<string, StateProfile>(
 );
 
 const CITY_BY_HUB = new Map<string, CityProfile>(
-  ALL_CITIES.map((c) => [cityHubSlug(c.city), c]),
+  ALL_CITIES.map((c) => [cityHubSlugFromProfile(c), c]),
 );
 
 export type GeoHub =
@@ -40,6 +52,6 @@ export function getGeoHubBySlug(slug: string): GeoHub | null {
 export function getAllGeoHubSlugs(): string[] {
   const slugs = new Set<string>();
   for (const s of ALL_STATES) slugs.add(stateHubSlug(s.state));
-  for (const c of ALL_CITIES) slugs.add(cityHubSlug(c.city));
+  for (const c of ALL_CITIES) slugs.add(cityHubSlugFromProfile(c));
   return [...slugs];
 }

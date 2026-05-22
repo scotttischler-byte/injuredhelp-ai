@@ -7,6 +7,8 @@ export interface CityProfile {
   majorHighways: string[];
   localHospitals: string[];
   localTip: string;
+  /** URL segment when city name collides across states (e.g. arlington-texas). */
+  placeSlug?: string;
 }
 
 export const ALL_CITIES: CityProfile[] = [
@@ -3065,20 +3067,65 @@ export const ALL_CITIES: CityProfile[] = [
     "localTip": "Fort Worth and Tarrant County report significant annual crash volume. I-35W merge zones with Dallas create complex claims — get medical care and legal review early."
   },
   {
+    "slug": "car-accident-lawyer-corpus-christi-texas",
+    "city": "Corpus Christi",
+    "state": "Texas",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~320,000 (city); Nueces County coastal metro",
+    "majorHighways": ["I-37", "US-181", "SH 358 (South Padre Island Dr)", "Ocean Drive"],
+    "localHospitals": ["Christus Spohn (Level II trauma)", "Corpus Christi Medical Center"],
+    "localTip": "Corpus Christi sees significant coastal and port-related traffic crashes. US-181 and SPID corridors have high injury rates — document weather and road conditions."
+  },
+  {
+    "slug": "car-accident-lawyer-plano-texas",
+    "city": "Plano",
+    "state": "Texas",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~290,000 (city); Collin County",
+    "majorHighways": ["US-75 (Central Expressway)", "President George Bush Turnpike", "SH 121", "Dallas North Tollway"],
+    "localHospitals": ["Medical City Plano", "Texas Health Presbyterian Plano"],
+    "localTip": "Plano commuter crashes on US-75 and the Bush Turnpike are common during rush hour. Collin County claims often involve DFW multi-county liability."
+  },
+  {
+    "slug": "car-accident-lawyer-lubbock-texas",
+    "city": "Lubbock",
+    "state": "Texas",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~260,000 (city); West Texas hub",
+    "majorHighways": ["I-27", "US-84", "Loop 289", "Marsha Sharp Freeway"],
+    "localHospitals": ["University Medical Center (Level I trauma)", "Covenant Medical Center"],
+    "localTip": "Lubbock reports high crash rates per capita in West Texas. I-27 and Loop 289 see frequent intersection and weather-related collisions."
+  },
+  {
+    "slug": "car-accident-lawyer-irving-texas",
+    "city": "Irving",
+    "state": "Texas",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~260,000 (city); Dallas County",
+    "majorHighways": ["I-635 (LBJ)", "SH 114", "Loop 12", "Airport Freeway to DFW"],
+    "localHospitals": ["Baylor Scott & White Irving", "Medical City Las Colinas"],
+    "localTip": "Irving crashes cluster near DFW Airport, I-635, and SH 114. Commercial and rideshare claims are common — preserve trip and employer records."
+  },
+  {
+    "slug": "car-accident-lawyer-arlington-texas",
+    "city": "Arlington",
+    "state": "Texas",
+    "stateSlug": "car-accident-lawyer-texas",
+    "placeSlug": "arlington-texas",
+    "population": "~400,000 (city); Tarrant County",
+    "majorHighways": ["I-30", "I-20", "US-287", "State Highway 360"],
+    "localHospitals": ["Texas Health Arlington Memorial", "Medical City Arlington"],
+    "localTip": "Arlington (Texas) sits between Dallas and Fort Worth with heavy I-30 game-day and entertainment district traffic. Use arlington-texas URL — not Virginia."
+  },
+  {
     "slug": "car-accident-lawyer-el-paso-texas",
     "city": "El Paso",
     "state": "Texas",
     "stateSlug": "car-accident-lawyer-texas",
-    "population": "See U.S. Census estimates",
-    "majorHighways": [
-      "Interstate corridors",
-      "State routes near metro area"
-    ],
-    "localHospitals": [
-      "Regional Medical Center",
-      "Level I/II trauma center (verify locally)"
-    ],
-    "localTip": "El Paso sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence."
+    "population": "~680,000 (city); El Paso County border metro",
+    "majorHighways": ["I-10", "US-54 (Patriot Freeway)", "Loop 375 (Border Highway)", "I-110"],
+    "localHospitals": ["University Medical Center of El Paso", "Las Palmas Medical Center"],
+    "localTip": "El Paso sees roughly 15,000+ reported crashes annually. I-10 and US-54 carry heavy cross-border commuter volume — bilingual documentation helps claims."
   },
   {
     "slug": "car-accident-lawyer-salt-lake-city-utah",

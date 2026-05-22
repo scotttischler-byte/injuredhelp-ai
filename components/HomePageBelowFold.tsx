@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import type { HomeCopy, Lang } from "@/lib/homeTranslations";
 import { ACTIVITY_MESSAGES } from "@/lib/homeTranslations";
 import { HowWeHelpSection } from "@/components/HowWeHelpSection";
+import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import { stateHubSlug } from "@/lib/geo-routes";
 import { ALL_STATES } from "@/lib/states";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
@@ -270,6 +271,8 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
           </div>
         </div>
       </section>
+
+      <TexasMetroLinks variant="homepage" />
 
       <section id="states" className="scroll-mt-20 border-t border-gray-800 bg-gray-950 px-4 py-12">
         <h2 className="mb-6 text-center text-xl font-bold text-white sm:text-2xl">{t.coverageHeading}</h2>

@@ -777,7 +777,11 @@ export const ALL_STATES: StateProfile[] = [
       "Dallas",
       "Austin",
       "Fort Worth",
-      "El Paso"
+      "El Paso",
+      "Corpus Christi",
+      "Plano",
+      "Lubbock",
+      "Irving"
     ],
     "localTip": "In Texas, deadlines and insurance rules can change how claims are handled. Document medical care early and avoid recorded statements without guidance.",
     "insuranceMinimums": "30/60/25"

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { headers } from "next/headers";
+import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { siteOriginFromHeaders } from "@/lib/site";
 
@@ -34,6 +35,7 @@ export async function SiteFooter() {
             LLM site guide
           </Link>
         </nav>
+        <TexasMetroLinks variant="footer" />
         <p className="mt-6 text-center text-xs leading-relaxed text-gray-500">{FOOTER_DISCLAIMER}</p>
         <p className="mt-3 text-center text-xs font-medium text-gray-500">
           © {new Date().getFullYear()} {OPERATOR_LEGAL_NAME} — Legal Referral Service (Not a Law Firm)

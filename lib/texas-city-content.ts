@@ -3,7 +3,70 @@
  * Source: tools/ai-visibility-accelerator/output/content/city-posts/
  */
 
-export type TexasCitySlug = "houston" | "san-antonio" | "dallas" | "fort-worth" | "austin";
+export type TexasCitySlug =
+  | "houston"
+  | "san-antonio"
+  | "dallas"
+  | "fort-worth"
+  | "austin"
+  | "el-paso"
+  | "corpus-christi"
+  | "plano"
+  | "lubbock"
+  | "arlington-texas"
+  | "irving";
+
+function makeTexasCity(
+  slug: TexasCitySlug,
+  city: string,
+  localNote: string,
+  highways: string,
+  hospitals: string,
+  stats: { label: string; value: string }[],
+): TexasCityContent {
+  const sol = "2 years";
+  return {
+    slug,
+    city,
+    highways,
+    hospitals,
+    localNote,
+    stats,
+    immediateSteps: [
+      "Move to safety and call 911 if anyone is injured.",
+      "Do not admit fault — stick to facts.",
+      "Photograph vehicles, plates, injuries, and road conditions.",
+      "Exchange insurance and registration with all drivers.",
+      "Collect witness names and phone numbers.",
+      "Seek medical care within 24 hours.",
+      "Notify your insurer — decline recorded statements first.",
+      "Preserve dashcam, Ring, or business security video.",
+    ],
+    criticalSteps: [
+      `Get medical evaluation within 24 hours — insurers in ${city} dispute treatment gaps.`,
+      "Obtain the police / Texas crash report for your county.",
+      "Log every adjuster contact with dates and names.",
+      "Do not post about the crash on social media.",
+      `Track lost wages; Texas SOL is typically ${sol} — confirm with counsel.`,
+      "Review UM/UIM coverage on your policy.",
+      "Do not accept the first low settlement offer.",
+      "Use free WreckMatch matching before signing releases.",
+    ],
+    mistakes: [
+      { mistake: "Recorded statement too early", consequence: "Insurer uses contradictions to reduce payout" },
+      { mistake: "Delayed medical treatment", consequence: "Claims treated as minor injury" },
+      { mistake: "Missing Texas filing deadline", consequence: "Claim may be barred" },
+      { mistake: "Accepting quick settlement", consequence: "Future damages waived" },
+    ],
+    insuranceTactics: [
+      "Quick lowball before treatment completes",
+      "Recorded statements used out of context",
+      "Disputing soft-tissue and whiplash injuries",
+      "Delay tactics then pressure to sign",
+      "Blaming pre-existing medical conditions",
+    ],
+  };
+}
 
 export type TexasCityContent = {
   slug: TexasCitySlug;
@@ -254,6 +317,84 @@ export const TEXAS_CITY_CONTENT: Record<TexasCitySlug, TexasCityContent> = {
       "Minimizing tech-corridor wage-loss claims",
     ],
   },
+  "el-paso": makeTexasCity(
+    "el-paso",
+    "El Paso",
+    "El Paso County sees 15,000+ crashes annually with heavy I-10 and US-54 commuter volume near the border.",
+    "I-10, US-54, Loop 375, I-110",
+    "University Medical Center of El Paso, Las Palmas Medical Center",
+    [
+      { label: "Annual reported crashes", value: "~15,000+ in El Paso County" },
+      { label: "Traffic fatalities", value: "80+ per year in metro data" },
+      { label: "High-risk corridors", value: "I-10, US-54 (Patriot Freeway)" },
+      { label: "Trauma centers", value: "UMC El Paso, Las Palmas" },
+    ],
+  ),
+  "corpus-christi": makeTexasCity(
+    "corpus-christi",
+    "Corpus Christi",
+    "Nueces County coastal crashes cluster on US-181 and SPID; port and tourist traffic add complexity.",
+    "I-37, US-181, SH 358, Ocean Drive",
+    "Christus Spohn, Corpus Christi Medical Center",
+    [
+      { label: "Annual reported crashes", value: "~8,000+ in Corpus Christi / Nueces County" },
+      { label: "Traffic fatalities", value: "40+ per year in regional data" },
+      { label: "High-risk corridors", value: "US-181, SPID (SH 358)" },
+      { label: "Trauma centers", value: "Christus Spohn Shoreline" },
+    ],
+  ),
+  plano: makeTexasCity(
+    "plano",
+    "Plano",
+    "Collin County commuter crashes on US-75 and the Bush Turnpike peak during rush hour.",
+    "US-75, Bush Turnpike, SH 121, Dallas North Tollway",
+    "Medical City Plano, Texas Health Presbyterian Plano",
+    [
+      { label: "Annual reported crashes", value: "~6,000+ in Plano / Collin County corridors" },
+      { label: "Traffic fatalities", value: "20+ per year in city limits (approx.)" },
+      { label: "High-risk corridors", value: "US-75, President George Bush Turnpike" },
+      { label: "Trauma centers", value: "Medical City Plano" },
+    ],
+  ),
+  lubbock: makeTexasCity(
+    "lubbock",
+    "Lubbock",
+    "West Texas sees high per-capita crash rates; I-27 and Loop 289 intersection injuries are common.",
+    "I-27, US-84, Loop 289, Marsha Sharp Freeway",
+    "University Medical Center (Level I), Covenant Medical Center",
+    [
+      { label: "Annual reported crashes", value: "~5,500+ in Lubbock County" },
+      { label: "Traffic fatalities", value: "30+ per year in regional reports" },
+      { label: "High-risk corridors", value: "I-27, Loop 289" },
+      { label: "Trauma centers", value: "UMC Lubbock (Level I)" },
+    ],
+  ),
+  "arlington-texas": makeTexasCity(
+    "arlington-texas",
+    "Arlington",
+    "Arlington (Texas) I-30 corridor sees game-day and entertainment district crashes between Dallas and Fort Worth.",
+    "I-30, I-20, US-287, SH 360",
+    "Texas Health Arlington Memorial, Medical City Arlington",
+    [
+      { label: "Annual reported crashes", value: "~7,000+ in Arlington / Tarrant County segments" },
+      { label: "Traffic fatalities", value: "25+ per year (approx.)" },
+      { label: "High-risk corridors", value: "I-30, SH 360, AT&T Stadium area" },
+      { label: "Trauma centers", value: "Arlington Memorial, Medical City Arlington" },
+    ],
+  ),
+  irving: makeTexasCity(
+    "irving",
+    "Irving",
+    "Irving crashes cluster near DFW Airport, I-635, and SH 114 with frequent commercial and rideshare claims.",
+    "I-635 (LBJ), SH 114, Loop 12, DFW Airport Freeway",
+    "Baylor Scott & White Irving, Medical City Las Colinas",
+    [
+      { label: "Annual reported crashes", value: "~5,000+ in Irving / Dallas County corridors" },
+      { label: "Traffic fatalities", value: "15+ per year (approx.)" },
+      { label: "High-risk corridors", value: "I-635, SH 114, DFW Airport" },
+      { label: "Trauma centers", value: "Baylor Scott & White Irving" },
+    ],
+  ),
 };
 
 export function texasCitySlugFromHubSlug(hubSlug: string): TexasCitySlug | null {
