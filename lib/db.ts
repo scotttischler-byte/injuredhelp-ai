@@ -287,7 +287,7 @@ export async function insertRedditPost(input: {
   status?: string;
 }) {
   const sql = getSql();
-  if (!sql) throw new Error("DATABASE_URL is not configured");
+  if (!sql) return;
   await sql`
     INSERT INTO reddit_posts (subreddit, post_title, post_url, our_comment, reddit_comment_id, status)
     VALUES (
@@ -336,7 +336,7 @@ export async function insertSocialPost(input: {
   post_url?: string | null;
 }) {
   const sql = getSql();
-  if (!sql) throw new Error("DATABASE_URL is not configured");
+  if (!sql) return;
   await sql`
     INSERT INTO social_posts (platform, content, source_slug, status, post_url)
     VALUES (

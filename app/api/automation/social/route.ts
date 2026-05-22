@@ -12,6 +12,9 @@ export async function GET(req: NextRequest) {
   }
 
   const summary: Record<string, string> = {};
+  if (!process.env.DATABASE_URL?.trim()) {
+    summary.db = "skipped_no_database";
+  }
   const syndication = readLatestSyndication();
 
   const items = await getLatestQueuedContent(2);
