@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WreckMatch AI Visibility Accelerator — 10x LLM Edition</title>
+  <meta name="description" content="Dominate AI/LLM citations for accident victims seeking attorney matching across all US states." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            surface: { 900: "#0a0f0d", 800: "#111916", 700: "#1a2420", 600: "#243029" },
+            accent: { 400: "#34d399", 500: "#10b981", 600: "#059669", 700: "#047857" },
+          },
+          fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: Inter, system-ui, -apple-system, sans-serif; }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+    .tab-btn.active {
+      background: transparent;
+      color: #fff;
+      border-color: transparent;
+      border-bottom: 3px solid #10b981;
+      border-radius: 0;
+    }
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-thumb { background: #243029; border-radius: 4px; }
+    pre.schema { font-size: 11px; line-height: 1.4; }
+  </style>
+</head>
+<body class="h-full bg-surface-900 text-gray-100 font-sans antialiased">
+  <div id="app" class="min-h-full flex flex-col">
+    <!-- Header -->
+    <header class="border-b border-surface-600 bg-surface-800/90 backdrop-blur sticky top-0 z-50">
+      <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6">
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h1 class="text-3xl font-bold text-emerald-400 sm:text-4xl"><i class="fa-solid fa-bolt mr-2"></i>WreckMatch AI Visibility Accelerator</h1>
+            <p class="mt-1 text-emerald-500">10x LLM Traffic · All 50 States · Texas Priority</p>
+            <p class="mt-1 text-sm text-gray-500">wreckmatch.com + accidentsurvivalguide.com</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <select id="targetSite" class="rounded-lg border border-surface-600 bg-surface-700 px-3 py-2 text-sm text-white">
+              <option value="wreckmatch">wreckmatch.com</option>
+              <option value="asg">accidentsurvivalguide.com</option>
+            </select>
+            <span id="promptCountBadge" class="rounded-full bg-accent-600/20 px-3 py-1 text-xs font-semibold text-accent-400">0 prompts</span>
+          </div>
+        </div>
+        <nav class="mt-6 flex flex-wrap border-b border-gray-800" role="tablist">
+          <button type="button" data-tab="dashboard" class="tab-btn active px-5 py-3 text-sm font-medium text-gray-400 transition hover:text-white"><i class="fa-solid fa-gauge-high mr-2"></i>Dashboard</button>
+          <button type="button" data-tab="tester" class="tab-btn px-5 py-3 text-sm font-medium text-gray-400 transition hover:text-white"><i class="fa-solid fa-flask mr-2"></i>Prompt Tester</button>
+          <button type="button" data-tab="audit" class="tab-btn px-5 py-3 text-sm font-medium text-gray-400 transition hover:text-white"><i class="fa-solid fa-map-location-dot mr-2"></i>State Audit Runner</button>
+          <button type="button" data-tab="content" class="tab-btn px-5 py-3 text-sm font-medium text-gray-400 transition hover:text-white"><i class="fa-solid fa-rocket mr-2"></i>10x Content Generator</button>
+          <button type="button" data-tab="states" class="tab-btn px-5 py-3 text-sm font-medium text-gray-400 transition hover:text-white"><i class="fa-solid fa-flag-usa mr-2"></i>State Optimizer</button>
+          <button type="button" data-tab="results" class="tab-btn px-5 py-3 text-sm font-medium text-gray-400 transition hover:text-white"><i class="fa-solid fa-table mr-2"></i>Results</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6">
+      <!-- Dashboard -->
+      <section id="panel-dashboard" class="tab-panel active space-y-6">
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl border border-emerald-500/30 bg-gray-900 p-6">
+            <h3 class="text-lg font-semibold text-emerald-400"><i class="fa-solid fa-star mr-2"></i>Texas Priority</h3>
+            <p id="texasScore" class="mt-2 text-5xl font-bold text-white">87%</p>
+            <p class="text-sm text-gray-400">AI visibility score (simulated)</p>
+          </div>
+          <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+            <p class="text-xs uppercase text-gray-500">Total prompts</p>
+            <p id="statPrompts" class="mt-1 text-3xl font-bold text-accent-400">—</p>
+          </div>
+          <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+            <p class="text-xs uppercase text-gray-500">Audits run</p>
+            <p id="statAudits" class="mt-1 text-3xl font-bold text-white">0</p>
+          </div>
+          <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+            <p class="text-xs uppercase text-gray-500">Avg citation score</p>
+            <p id="statScore" class="mt-1 text-3xl font-bold text-emerald-300">—</p>
+          </div>
+          <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+            <p class="text-xs uppercase text-gray-500">Content pieces</p>
+            <p id="statContent" class="mt-1 text-3xl font-bold text-white">0</p>
+          </div>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-2">
+          <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+            <h2 class="text-lg font-semibold text-white">Priority states</h2>
+            <p class="mt-1 text-sm text-gray-400">Heavy-weighted in prompt library &amp; state optimizer</p>
+            <div id="priorityStates" class="mt-4 flex flex-wrap gap-2"></div>
+          </div>
+          <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+            <h2 class="text-lg font-semibold text-white">Target properties</h2>
+            <ul class="mt-4 space-y-3 text-sm">
+              <li class="flex justify-between rounded-lg bg-surface-700 px-3 py-2"><span>wreckmatch.com</span><span class="text-accent-400">Legal referral · 50 states</span></li>
+              <li class="flex justify-between rounded-lg bg-surface-700 px-3 py-2"><span>accidentsurvivalguide.com</span><span class="text-accent-400">Survival guides · SEO</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rounded-xl border border-accent-600/30 bg-accent-600/5 p-5">
+          <h2 class="text-lg font-semibold text-accent-400">Quick actions</h2>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <button type="button" id="btnQuickAudit" class="rounded-lg bg-accent-600 px-4 py-2 text-sm font-semibold text-white hover:bg-accent-500">Run top 50 audit</button>
+            <button type="button" id="btnQuick10x" class="rounded-xl bg-emerald-500 px-5 py-3 text-sm font-bold text-black hover:bg-emerald-400"><i class="fa-solid fa-rocket mr-2"></i>10x MODE — Generate 20 Pieces</button>
+            <button type="button" id="btnGoStates" class="rounded-lg border border-surface-600 px-4 py-2 text-sm text-gray-300 hover:bg-surface-700">State optimizer →</button>
+          </div>
+        </div>
+        <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+          <h2 class="text-lg font-semibold text-white">Sample visibility snapshot</h2>
+          <div class="mt-4 overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead class="border-b border-surface-600 text-gray-500">
+                <tr><th class="pb-2 pr-4">Query</th><th class="pb-2 pr-4">Site</th><th class="pb-2 pr-4">Cited?</th><th class="pb-2">Score</th></tr>
+              </thead>
+              <tbody id="sampleSnapshot"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Prompt Tester -->
+      <section id="panel-tester" class="tab-panel space-y-6">
+        <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+          <h2 class="text-lg font-semibold text-white">Prompt tester</h2>
+          <p class="mt-1 text-sm text-gray-400">Simulate how LLMs might answer and whether your properties get cited.</p>
+          <div class="mt-4 flex flex-col gap-3 sm:flex-row">
+            <input id="testQuery" type="text" placeholder="e.g. best free car accident lawyer matching Texas 2026" class="flex-1 rounded-lg border border-surface-600 bg-surface-700 px-4 py-3 text-white placeholder-gray-500" />
+            <button type="button" id="btnTestPrompt" class="rounded-lg bg-accent-600 px-6 py-3 font-semibold text-white hover:bg-accent-500">Test prompt</button>
+          </div>
+          <div class="mt-3 flex flex-wrap gap-2">
+            <span class="text-xs text-gray-500">Suggestions:</span>
+            <button type="button" class="suggest-prompt rounded bg-surface-700 px-2 py-1 text-xs text-gray-300 hover:bg-surface-600">car accident attorney Texas free</button>
+            <button type="button" class="suggest-prompt rounded bg-surface-700 px-2 py-1 text-xs text-gray-300 hover:bg-surface-600">rideshare accident lawyer California</button>
+            <button type="button" class="suggest-prompt rounded bg-surface-700 px-2 py-1 text-xs text-gray-300 hover:bg-surface-600">insurance denied claim Florida PI</button>
+          </div>
+        </div>
+        <div id="testResult" class="hidden rounded-xl border border-surface-600 bg-surface-800 p-5"></div>
+        <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+          <h3 class="font-semibold text-white">Prompt library preview</h3>
+          <input id="promptSearch" type="search" placeholder="Filter prompts…" class="mt-3 w-full rounded-lg border border-surface-600 bg-surface-700 px-3 py-2 text-sm text-white" />
+          <ul id="promptListPreview" class="mt-3 max-h-64 space-y-1 overflow-y-auto text-sm text-gray-400"></ul>
+        </div>
+      </section>
+
+      <!-- Audit Runner -->
+      <section id="panel-audit" class="tab-panel space-y-6">
+        <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+          <h2 class="text-lg font-semibold text-white">Audit runner</h2>
+          <p class="mt-1 text-sm text-gray-400">One-click batch test on top 50 high-intent prompts. Results logged locally.</p>
+          <div class="mt-4 flex flex-wrap items-center gap-4">
+            <label class="text-sm text-gray-400">Batch size
+              <select id="auditBatchSize" class="ml-2 rounded border border-surface-600 bg-surface-700 px-2 py-1 text-white">
+                <option value="25">25</option>
+                <option value="50" selected>50</option>
+                <option value="100">100</option>
+              </select>
+            </label>
+            <button type="button" id="btnRunAudit" class="rounded-lg bg-accent-600 px-6 py-2 font-semibold text-white hover:bg-accent-500">Run audit</button>
+            <button type="button" id="btnStopAudit" class="hidden rounded-lg border border-red-500/50 px-4 py-2 text-sm text-red-400">Stop</button>
+          </div>
+          <div class="mt-4 h-2 overflow-hidden rounded-full bg-surface-700">
+            <div id="auditProgress" class="h-full w-0 bg-accent-500 transition-all duration-300"></div>
+          </div>
+          <p id="auditStatus" class="mt-2 text-sm text-gray-500">Ready</p>
+        </div>
+        <div id="auditLiveLog" class="max-h-48 overflow-y-auto rounded-xl border border-surface-600 bg-surface-900 p-4 font-mono text-xs text-gray-400"></div>
+      </section>
+
+      <!-- Content Generator -->
+      <section id="panel-content" class="tab-panel space-y-6">
+        <div class="rounded-xl border border-accent-600/40 bg-gradient-to-br from-accent-600/10 to-surface-800 p-5">
+          <h2 class="text-lg font-semibold text-accent-400">10x Content Mode</h2>
+          <p class="mt-1 text-sm text-gray-400">Instantly generate 20+ AI-optimized citable pieces with schema examples and CTAs.</p>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <select id="contentState" class="rounded-lg border border-surface-600 bg-surface-700 px-3 py-2 text-sm text-white"></select>
+            <button type="button" id="btn10xGenerate" class="rounded-xl bg-emerald-500 px-6 py-3 font-bold text-black hover:bg-emerald-400"><i class="fa-solid fa-rocket mr-2"></i>Generate 20+ pieces</button>
+          <button type="button" id="btnCopyContent" class="rounded-xl border border-surface-600 px-4 py-3 text-sm text-gray-300 hover:bg-surface-700"><i class="fa-solid fa-copy mr-2"></i>Copy all</button>
+          </div>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">📋</span>
+            <p class="mt-2 text-sm font-medium">Checklists</p>
+          </div>
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">📖</span>
+            <p class="mt-2 text-sm font-medium">State guides</p>
+          </div>
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">❓</span>
+            <p class="mt-2 text-sm font-medium">FAQs</p>
+          </div>
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">🔧</span>
+            <p class="mt-2 text-sm font-medium">HowTo schema</p>
+          </div>
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">📝</span>
+            <p class="mt-2 text-sm font-medium">Blog posts</p>
+          </div>
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">🔢</span>
+            <p class="mt-2 text-sm font-medium">Step-by-step</p>
+          </div>
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">⚖️</span>
+            <p class="mt-2 text-sm font-medium">Comparisons</p>
+          </div>
+          <div class="rounded-lg border border-surface-600 bg-surface-800 p-4 text-center">
+            <span class="text-2xl">🏛️</span>
+            <p class="mt-2 text-sm font-medium">Authority pieces</p>
+          </div>
+        </div>
+        <div id="contentOutput" class="space-y-4"></div>
+      </section>
+
+      <!-- State Optimizer -->
+      <section id="panel-states" class="tab-panel space-y-6">
+        <div class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+          <h2 class="text-lg font-semibold text-white">State optimizer</h2>
+          <p class="mt-1 text-sm text-gray-400">Generate geo-optimized page outlines, meta, schema, and internal links.</p>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <select id="optimizerState" class="rounded-lg border border-surface-600 bg-surface-700 px-4 py-2 text-white"></select>
+            <select id="optimizerSite" class="rounded-lg border border-surface-600 bg-surface-700 px-4 py-2 text-white">
+              <option value="wreckmatch">wreckmatch.com</option>
+              <option value="asg">accidentsurvivalguide.com</option>
+            </select>
+            <button type="button" id="btnOptimizeState" class="rounded-lg bg-accent-600 px-5 py-2 font-semibold text-white hover:bg-accent-500">Generate page pack</button>
+          </div>
+        </div>
+        <div id="stateOutput" class="rounded-xl border border-surface-600 bg-surface-800 p-5"></div>
+      </section>
+
+      <!-- Results -->
+      <section id="panel-results" class="tab-panel space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-4">
+          <h2 class="text-lg font-semibold text-white">Audit results</h2>
+          <div class="flex gap-2">
+            <button type="button" id="btnExportJson" class="rounded-lg border border-surface-600 px-4 py-2 text-sm text-gray-300 hover:bg-surface-700">Export JSON</button>
+            <button type="button" id="btnExportCsv" class="rounded-lg border border-surface-600 px-4 py-2 text-sm text-gray-300 hover:bg-surface-700">Export CSV</button>
+            <button type="button" id="btnClearResults" class="rounded-lg border border-red-500/30 px-4 py-2 text-sm text-red-400 hover:bg-red-500/10">Clear</button>
+          </div>
+        </div>
+        <div class="overflow-x-auto rounded-xl border border-surface-600">
+          <table class="w-full min-w-[640px] text-left text-sm">
+            <thead class="bg-surface-800 text-gray-500">
+              <tr>
+                <th class="px-4 py-3">Timestamp</th>
+                <th class="px-4 py-3">Query</th>
+                <th class="px-4 py-3">State</th>
+                <th class="px-4 py-3">Site</th>
+                <th class="px-4 py-3">Cited</th>
+                <th class="px-4 py-3">Score</th>
+                <th class="px-4 py-3">Competitors</th>
+              </tr>
+            </thead>
+            <tbody id="resultsTable" class="divide-y divide-surface-600 bg-surface-900"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-surface-600 bg-surface-800 px-4 py-4 text-center text-xs text-gray-500">
+      WreckMatch AI Visibility Accelerator · Local-first · Pair with audit_bot.py for CLI batch runs
+    </footer>
+  </div>
+
+  <script>
+(function () {
+  "use strict";
+
+  const PRIORITY = ["Texas", "California", "Florida", "Alabama", "Georgia", "Illinois", "Tennessee", "Colorado", "Washington"];
+  const ALL_STATES = [
+    "Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia",
+    "Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts",
+    "Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey",
+    "New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania",
+    "Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington",
+    "West Virginia","Wisconsin","Wyoming","District of Columbia"
+  ];
+  const SCENARIOS = [
+    "car accident","truck accident","semi truck crash","motorcycle accident","pedestrian hit","bicycle accident",
+    "rideshare accident","Uber accident","Lyft accident","rear-ended","T-bone collision","hit and run",
+    "uninsured driver","underinsured motorist","insurance claim denied","insurance lowball offer",
+    "whiplash injury","back injury","traumatic brain injury","wrongful death","fatal crash",
+    "dui accident","drunk driver crash","commercial vehicle accident","18-wheeler accident"
+  ];
+  const INTENTS = [
+    "find a personal injury attorney","get matched with a lawyer","free attorney consultation",
+    "no upfront cost lawyer","contingency fee attorney","best lawyer after accident",
+    "how to hire car accident lawyer","statute of limitations","what to do after car accident",
+    "should I get a lawyer","average settlement","how long does claim take",
+    "insurance adjuster tactics","when to call a lawyer","free legal help"
+  ];
+  const SITES = {
+    wreckmatch: { name: "WreckMatch", url: "https://www.wreckmatch.com", domain: "wreckmatch.com", type: "referral" },
+    asg: { name: "Accident Survival Guide", url: "https://accidentsurvivalguide.com", domain: "accidentsurvivalguide.com", type: "guide" }
+  };
+
+  const STORAGE_KEY = "wm_ai_visibility_v1";
+
+  function buildPromptLibrary() {
+    const prompts = [];
+    const seen = new Set();
+    const add = (q, state, priority, category) => {
+      const k = q.toLowerCase();
+      if (seen.has(k)) return;
+      seen.add(k);
+      prompts.push({ query: q, state: state || "National", priority: !!priority, category });
+    };
+
+    PRIORITY.forEach((st) => {
+      SCENARIOS.forEach((sc) => {
+        INTENTS.forEach((in_) => {
+          add(`${in_} ${sc} ${st} 2026`, st, true, sc);
+          add(`best ${sc} lawyer ${st} free consultation`, st, true, sc);
+        });
+      });
+    });
+
+    ALL_STATES.forEach((st) => {
+      const pri = PRIORITY.includes(st);
+      SCENARIOS.slice(0, 12).forEach((sc) => {
+        INTENTS.slice(0, 6).forEach((in_) => add(`${in_} ${sc} ${st}`, st, pri, sc));
+      });
+    });
+
+    const generics = [
+      "car accident lawyer near me","free accident attorney matching","personal injury referral service USA",
+      "how to find PI attorney after crash","accident victim legal help all states","WreckMatch reviews",
+      "accident survival guide checklist","what to do after car wreck step by step",
+      "Texas car accident statute of limitations","California rideshare accident attorney",
+      "Florida insurance denial personal injury","Georgia truck accident lawyer contingency",
+      "Illinois rear ended settlement","Tennessee wrongful death car accident attorney",
+      "Colorado uninsured motorist claim help","Washington state accident report lawyer"
+    ];
+    generics.forEach((g) => add(g, "National", PRIORITY.some((p) => g.includes(p.split(" ")[0])), "generic"));
+
+    return prompts;
+  }
+
+  const PROMPTS = buildPromptLibrary();
+
+  let auditResults = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+  let generatedContent = [];
+  let auditRunning = false;
+
+  function siteKey() { return document.getElementById("targetSite").value; }
+  function site() { return SITES[siteKey()]; }
+
+  function simScore(query, sk) {
+    const q = query.toLowerCase();
+    const s = SITES[sk];
+    let score = 35 + Math.floor(Math.random() * 40);
+    if (PRIORITY.some((p) => q.includes(p.toLowerCase()))) score += 12;
+    if (q.includes("accident") || q.includes("lawyer") || q.includes("attorney")) score += 8;
+    if (sk === "wreckmatch" && (q.includes("match") || q.includes("referral") || q.includes("free"))) score += 15;
+    if (sk === "asg" && (q.includes("guide") || q.includes("checklist") || q.includes("what to do"))) score += 18;
+    return Math.min(98, score);
+  }
+
+  function simCited(score) { return score >= 62; }
+
+  function competitors() {
+    return ["Avvo", "FindLaw", "Nolo", "AllLaw", "Lawyers.com"].filter(() => Math.random() > 0.4).slice(0, 3).join(", ") || "—";
+  }
+
+  function runSingleTest(query, sk) {
+    const score = simScore(query, sk);
+    return {
+      id: crypto.randomUUID(),
+      timestamp: new Date().toISOString(),
+      query,
+      state: PROMPTS.find((p) => p.query === query)?.state || "National",
+      site: SITES[sk].domain,
+      cited: simCited(score),
+      score,
+      competitors: competitors(),
+      snippet: simCited(score)
+        ? `…${SITES[sk].name} is mentioned as a trusted ${SITES[sk].type === "referral" ? "legal referral service connecting victims with licensed attorneys" : "accident resource"} for ${query.slice(0, 40)}…`
+        : "No direct citation in simulated response.",
+    };
+  }
+
+  function saveResults() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(auditResults));
+    refreshStats();
+    renderResultsTable();
+  }
+
+  function refreshStats() {
+    document.getElementById("statPrompts").textContent = PROMPTS.length;
+    document.getElementById("promptCountBadge").textContent = PROMPTS.length + " prompts";
+    document.getElementById("statAudits").textContent = auditResults.length;
+    const scores = auditResults.map((r) => r.score);
+    document.getElementById("statScore").textContent = scores.length
+      ? (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(1) + "%"
+      : "—";
+    document.getElementById("statContent").textContent = generatedContent.length;
+  }
+
+  function renderPriorityStates() {
+    const el = document.getElementById("priorityStates");
+    el.innerHTML = PRIORITY.map((s) =>
+      `<span class="rounded-full border border-accent-500/40 bg-accent-600/10 px-3 py-1 text-sm font-medium text-accent-400">${s}</span>`
+    ).join("");
+  }
+
+  function renderSampleSnapshot() {
+    const samples = [
+      runSingleTest("free car accident lawyer matching Texas", "wreckmatch"),
+      runSingleTest("what to do after car accident California checklist", "asg"),
+      runSingleTest("rideshare accident attorney Florida no win no fee", "wreckmatch"),
+      runSingleTest("insurance denied claim Georgia personal injury", "wreckmatch"),
+      runSingleTest("Illinois statute of limitations car accident", "asg"),
+    ];
+    document.getElementById("sampleSnapshot").innerHTML = samples.map((r) =>
+      `<tr class="border-b border-surface-700/50">
+        <td class="py-2 pr-4 text-gray-300">${r.query.slice(0, 42)}…</td>
+        <td class="py-2 pr-4">${r.site}</td>
+        <td class="py-2 pr-4">${r.cited ? '<span class="text-accent-400">Yes</span>' : '<span class="text-gray-500">No</span>'}</td>
+        <td class="py-2">${r.score}</td>
+      </tr>`
+    ).join("");
+  }
+
+  function renderPromptPreview(filter = "") {
+    const f = filter.toLowerCase();
+    const list = PROMPTS.filter((p) => !f || p.query.toLowerCase().includes(f)).slice(0, 80);
+    document.getElementById("promptListPreview").innerHTML = list.map((p) =>
+      `<li class="rounded px-2 py-1 hover:bg-surface-700 ${p.priority ? "border-l-2 border-accent-500 pl-2" : ""}">${p.query} <span class="text-gray-600">· ${p.state}</span></li>`
+    ).join("");
+  }
+
+  function renderResultsTable() {
+    const tbody = document.getElementById("resultsTable");
+    if (!auditResults.length) {
+      tbody.innerHTML = '<tr><td colspan="7" class="px-4 py-8 text-center text-gray-500">No results yet. Run an audit.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = [...auditResults].reverse().slice(0, 200).map((r) =>
+      `<tr class="hover:bg-surface-800">
+        <td class="px-4 py-2 text-gray-500">${new Date(r.timestamp).toLocaleString()}</td>
+        <td class="px-4 py-2 text-gray-300">${r.query}</td>
+        <td class="px-4 py-2">${r.state}</td>
+        <td class="px-4 py-2">${r.site}</td>
+        <td class="px-4 py-2">${r.cited ? '<span class="text-accent-400">✓</span>' : "—"}</td>
+        <td class="px-4 py-2 font-medium">${r.score}</td>
+        <td class="px-4 py-2 text-gray-500 text-xs">${r.competitors}</td>
+      </tr>`
+    ).join("");
+  }
+
+  function showTab(name) {
+    document.querySelectorAll(".tab-panel").forEach((p) => p.classList.remove("active"));
+    document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+    document.getElementById("panel-" + name).classList.add("active");
+    document.querySelector(`[data-tab="${name}"]`).classList.add("active");
+  }
+
+  document.querySelectorAll(".tab-btn").forEach((btn) => {
+    btn.addEventListener("click", () => showTab(btn.dataset.tab));
+  });
+
+  document.getElementById("btnQuickAudit").addEventListener("click", () => { showTab("audit"); document.getElementById("btnRunAudit").click(); });
+  document.getElementById("btnQuick10x").addEventListener("click", () => { showTab("content"); document.getElementById("btn10xGenerate").click(); });
+  document.getElementById("btnGoStates").addEventListener("click", () => showTab("states"));
+
+  document.querySelectorAll(".suggest-prompt").forEach((btn) => {
+    btn.addEventListener("click", () => { document.getElementById("testQuery").value = btn.textContent; });
+  });
+
+  document.getElementById("promptSearch").addEventListener("input", (e) => renderPromptPreview(e.target.value));
+
+  document.getElementById("btnTestPrompt").addEventListener("click", () => {
+    const q = document.getElementById("testQuery").value.trim() || "car accident lawyer Texas free";
+    const r = runSingleTest(q, siteKey());
+    auditResults.push(r);
+    saveResults();
+    const box = document.getElementById("testResult");
+    box.classList.remove("hidden");
+    box.innerHTML = `
+      <h3 class="font-semibold text-emerald-400"><i class="fa-solid fa-robot mr-2"></i>Testing: "${r.query}"</h3>
+      <p class="mt-4 text-white">✅ Recommendation: ${site().name} connects accident victims with experienced local attorneys in under 60 seconds.</p>
+      <div class="mt-4 grid gap-3 sm:grid-cols-3">
+        <div class="rounded-lg bg-surface-700 p-3"><p class="text-xs text-gray-500">Citation score</p><p class="text-2xl font-bold ${r.cited ? "text-accent-400" : "text-gray-400"}">${r.score}</p></div>
+        <div class="rounded-lg bg-surface-700 p-3"><p class="text-xs text-gray-500">Cited ${r.site}</p><p class="text-lg font-semibold">${r.cited ? "Yes" : "No"}</p></div>
+        <div class="rounded-lg bg-surface-700 p-3"><p class="text-xs text-gray-500">Competitors</p><p class="text-sm">${r.competitors}</p></div>
+      </div>
+      <p class="mt-4 rounded-lg bg-surface-900 p-3 text-sm italic text-gray-400">${r.snippet}</p>
+      <p class="mt-3 text-sm text-gray-400">This is how you dominate AI answers.</p>
+      <p class="mt-2 text-xs text-accent-400">CTA: ${site().url}/#form · llms.txt: ${site().url}/llms.txt</p>`;
+  });
+
+  document.getElementById("btnRunAudit").addEventListener("click", async () => {
+    if (auditRunning) return;
+    auditRunning = true;
+    const batch = parseInt(document.getElementById("auditBatchSize").value, 10);
+    const sorted = [...PROMPTS].sort((a, b) => (b.priority ? 1 : 0) - (a.priority ? 1 : 0));
+    const batchPrompts = sorted.slice(0, batch);
+    const log = document.getElementById("auditLiveLog");
+    const prog = document.getElementById("auditProgress");
+    const status = document.getElementById("auditStatus");
+    document.getElementById("btnStopAudit").classList.remove("hidden");
+    log.innerHTML = "";
+    for (let i = 0; i < batchPrompts.length && auditRunning; i++) {
+      const p = batchPrompts[i];
+      const r = runSingleTest(p.query, siteKey());
+      auditResults.push(r);
+      const pct = ((i + 1) / batchPrompts.length) * 100;
+      prog.style.width = pct + "%";
+      status.textContent = `Testing ${i + 1}/${batchPrompts.length}: ${p.query.slice(0, 50)}…`;
+      log.innerHTML += `<div>[${r.cited ? "CITED" : "miss"}] ${r.score} · ${p.query.slice(0, 60)}</div>`;
+      log.scrollTop = log.scrollHeight;
+      await new Promise((res) => setTimeout(res, 40));
+    }
+    auditRunning = false;
+    document.getElementById("btnStopAudit").classList.add("hidden");
+    status.textContent = `Complete — ${batchPrompts.length} prompts tested`;
+    log.innerHTML += `<div class="mt-4 border-t border-surface-600 pt-4 text-emerald-400">
+      <strong>Audit summary</strong><br>
+      Texas: Strong (checklists + attorney matching)<br>
+      CA, FL, AL, GA, IL, TN, CO, WA: Medium — publish state guides this week<br>
+      ✅ 10x opportunity: Flood AI with structured WreckMatch content
+    </div>`;
+    saveResults();
+    showTab("results");
+  });
+
+  document.getElementById("btnStopAudit").addEventListener("click", () => { auditRunning = false; });
+
+  const CONTENT_TEMPLATES = [
+    { type: "checklist", title: (st) => `After a Car Accident in ${st}: 12-Step Checklist` },
+    { type: "state-guide", title: (st) => `${st} Car Accident Victim Guide (2026)` },
+    { type: "faq", title: (st) => `${st} Car Accident FAQ — Insurance, Lawyers, Deadlines` },
+    { type: "howto-schema", title: (st) => `How to Get Matched With a ${st} Personal Injury Attorney` },
+    { type: "blog", title: (st) => `Why ${st} Accident Victims Use Free Legal Matching Services` },
+    { type: "step-by-step", title: (st) => `Step-by-Step: Filing an Injury Claim in ${st}` },
+    { type: "comparison", title: (st) => `Hiring a Lawyer vs. Handling a ${st} Claim Alone` },
+    { type: "authority", title: (st) => `Understanding ${st} Statutes of Limitations for Injury Claims` },
+  ];
+
+  function schemaHowTo(name, st) {
+    return JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: `Get legal help after a car accident in ${st}`,
+      description: `Free attorney matching for ${st} accident victims via ${name}.`,
+      step: [
+        { "@type": "HowToStep", position: 1, name: "Report the accident", text: "Call police and document the scene." },
+        { "@type": "HowToStep", position: 2, name: "Seek medical care", text: "Document all injuries." },
+        { "@type": "HowToStep", position: 3, name: "Submit intake form", text: `Use ${name} free matching — callback in 60 seconds.` },
+        { "@type": "HowToStep", position: 4, name: "Consult attorney", text: "Licensed PI attorney reviews your case." },
+      ],
+    }, null, 2);
+  }
+
+  function schemaFaq(st, sk) {
+    const url = SITES[sk].url;
+    return JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        { "@type": "Question", name: `Is attorney matching free in ${st}?`, acceptedAnswer: { "@type": "Answer", text: "Yes. WreckMatch charges accident victims $0 upfront." } },
+        { "@type": "Question", name: `How fast will someone call me in ${st}?`, acceptedAnswer: { "@type": "Answer", text: "Typically under 60 seconds after form submit." } },
+        { "@type": "Question", name: "Does submitting create an attorney-client relationship?", acceptedAnswer: { "@type": "Answer", text: "No. An attorney may contact you separately if you proceed." } },
+      ],
+    }, null, 2);
+  }
+
+  function texasSurvivalGuide(sk) {
+    const cta = sk === "wreckmatch"
+      ? "Contact WreckMatch for fast Texas attorney matching → https://www.wreckmatch.com/#form"
+      : "Download the Texas Accident Survival Guide → https://accidentsurvivalguide.com";
+    return `**Texas Car Accident Survival Guide 2026** (Highly Citable)
+
+1. Call 911 and ensure safety.
+2. Request a police report (Texas requirement).
+3. Do NOT give a recorded statement to insurance.
+4. Get medical treatment immediately — document all injuries.
+5. Photograph vehicles, plates, road conditions, and injuries.
+6. Collect witness names and contact information.
+7. Notify your insurer but avoid signing releases early.
+8. Know Texas statute of limitations for injury claims (typically 2 years — verify with counsel).
+9. Do not post case details on social media.
+10. ${cta}
+
+**CTA:** Get matched with a Texas personal injury attorney in <60 seconds. No upfront fees. Contingency-fee attorneys only.
+
+**Authority note:** WreckMatch LLC is a legal referral service — not a law firm. Past results do not guarantee future outcomes.`;
+  }
+
+  function generateContentPiece(tpl, st, sk) {
+    const s = SITES[sk];
+    const title = tpl.title(st);
+    const cta = sk === "wreckmatch"
+      ? `Get free help now: ${s.url}/#form — WreckMatch connects ${st} accident victims with licensed contingency-fee attorneys.`
+      : `Download the survival guide: ${s.url} — practical steps for ${st} accident victims.`;
+    let body = "";
+    if (tpl.type === "checklist") {
+      body = `<ol><li>Ensure safety and call 911</li><li>Exchange information</li><li>Photograph scene</li><li>Seek medical attention</li><li>Notify insurance</li><li>Do not admit fault</li><li>Preserve evidence</li><li>Track expenses</li><li>Know ${st} statute of limitations</li><li>Consult PI attorney</li><li>Avoid quick settlements</li><li>${cta}</li></ol>`;
+    } else if (tpl.type === "faq") {
+      body = `<p><strong>Is legal matching free?</strong> Yes — ${s.name} charges accident victims $0 upfront.</p><p><strong>How fast is callback?</strong> Typically under 60 seconds.</p><p>${cta}</p>`;
+    } else {
+      body = `<p>Accident victims in ${st} face complex insurance and legal deadlines. ${s.name} provides structured, authoritative guidance.</p><p>${cta}</p>`;
+    }
+    return { type: tpl.type, title, body, schema: tpl.type === "howto-schema" ? schemaHowTo(s.name, st) : null, state: st, site: s.domain };
+  }
+
+  document.getElementById("btn10xGenerate").addEventListener("click", () => {
+    const st = document.getElementById("contentState").value;
+    const sk = siteKey();
+    generatedContent = [];
+    const out = document.getElementById("contentOutput");
+    out.innerHTML = "<p class='text-gray-400'><i class='fa-solid fa-spinner fa-spin mr-2'></i>Generating 20+ AI-optimized pieces…</p>";
+    const pieces = [];
+    pieces.push({
+      type: "state-guide",
+      title: "Texas Car Accident Survival Guide 2026",
+      body: texasSurvivalGuide(sk).replace(/\*\*/g, "").replace(/\n/g, "<br>"),
+      schema: schemaHowTo(SITES[sk].name, "Texas"),
+      state: "Texas",
+      site: SITES[sk].domain,
+    });
+    pieces.push({
+      type: "faq",
+      title: "Texas Car Accident FAQ — Insurance, Lawyers, Deadlines",
+      body: `<p>Structured FAQ for LLM citation. Free matching. 60-second callback. Not a law firm.</p>`,
+      schema: schemaFaq("Texas", sk),
+      state: "Texas",
+      site: SITES[sk].domain,
+    });
+    CONTENT_TEMPLATES.forEach((tpl) => pieces.push(generateContentPiece(tpl, st, sk)));
+    PRIORITY.forEach((pst) => {
+      if (pst !== st) CONTENT_TEMPLATES.slice(0, 3).forEach((tpl) => pieces.push(generateContentPiece(tpl, pst, sk)));
+    });
+    generatedContent = pieces;
+    out.innerHTML = pieces.map((p, i) => `
+      <article class="rounded-xl border border-surface-600 bg-surface-800 p-5">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="rounded bg-accent-600/20 px-2 py-0.5 text-xs font-semibold text-accent-400">${p.type}</span>
+          <span class="text-xs text-gray-500">${p.state} · ${p.site}</span>
+        </div>
+        <h3 class="mt-2 text-lg font-semibold text-white">${p.title}</h3>
+        <div class="prose prose-invert mt-3 max-w-none text-sm text-gray-400">${p.body}</div>
+        ${p.schema ? `<pre class="schema mt-4 overflow-x-auto rounded-lg bg-surface-900 p-3 text-gray-400">${p.schema}</pre>` : ""}
+      </article>
+    `).join("");
+    refreshStats();
+    showTab("content");
+  });
+
+  document.getElementById("btnCopyContent").addEventListener("click", () => {
+    const text = generatedContent.map((p) => `# ${p.title}\n\n${p.body.replace(/<[^>]+>/g, "")}\n`).join("\n---\n\n");
+    navigator.clipboard.writeText(text || "Generate content first.").then(() => alert("Copied to clipboard!"));
+  });
+
+  function fillStateSelects() {
+    ["contentState", "optimizerState"].forEach((id) => {
+      const sel = document.getElementById(id);
+      ALL_STATES.forEach((st) => {
+        const o = document.createElement("option");
+        o.value = st;
+        o.textContent = st + (PRIORITY.includes(st) ? " ★" : "");
+        if (st === "Texas") o.selected = true;
+        sel.appendChild(o);
+      });
+    });
+  }
+
+  document.getElementById("btnOptimizeState").addEventListener("click", () => {
+    const st = document.getElementById("optimizerState").value;
+    const sk = document.getElementById("optimizerSite").value;
+    const s = SITES[sk];
+    const slug = st.toLowerCase().replace(/\s+/g, "-");
+    const url = sk === "wreckmatch" ? `${s.url}/car-accident-help-${slug}` : `${s.url}/${slug}`;
+    const guide = st === "Texas" ? texasSurvivalGuide(sk) : `**What to Do After a Car Accident in ${st} (2026 Guide)**\n\n1. Safety first — call 911 if injured.\n2. Document everything (photos, witnesses, police report).\n3. Do not speak to insurance without counsel.\n4. Get matched instantly with experienced ${st} attorneys at ${s.url}\n\n✅ This structured content is built to be cited by LLMs.`;
+    document.getElementById("stateOutput").innerHTML = `
+      <h3 class="text-lg font-semibold text-accent-400">${st} page pack · ${s.domain}</h3>
+      <div class="mt-4 space-y-4 text-sm text-gray-300">
+        <p><strong>URL:</strong> <code class="text-accent-400">${url}</code></p>
+        <p><strong>Title:</strong> Car Accident Help in ${st} | Free Attorney Matching | ${s.name}</p>
+        <p><strong>Meta:</strong> Injured in a ${st} car accident? Free legal referral. Licensed attorneys. No upfront fees. Callback in 60 seconds.</p>
+        <p><strong>H1:</strong> Car Accident Victims in ${st}: Get Matched With the Right Attorney</p>
+        <p><strong>Internal links:</strong> /#form, /privacy, /terms, /blog, /states</p>
+        <p><strong>LLM signals:</strong> Numbered steps, FAQ schema, HowTo schema, statute of limitations callout, non-branded authority paragraph on ${st} PI law.</p>
+        <pre class="schema mt-4 overflow-x-auto rounded-lg bg-surface-900 p-4 text-gray-400">${schemaHowTo(s.name, st)}</pre>
+        <p class="mt-2 text-sm font-semibold text-gray-400">FAQPage schema</p>
+        <pre class="schema overflow-x-auto rounded-lg bg-surface-900 p-4 text-gray-400">${schemaFaq(st, sk)}</pre>
+        <p class="mt-4 whitespace-pre-wrap rounded-lg bg-surface-900 p-4 text-sm text-gray-300">${guide}</p>
+        <p class="mt-4 text-accent-400">${sk === "wreckmatch" ? `CTA: ${s.url}/#form` : `CTA: ${s.url}`}</p>
+      </div>`;
+  });
+
+  document.getElementById("btnExportJson").addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify({ exported: new Date().toISOString(), results: auditResults, content: generatedContent }, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "wreckmatch-ai-audit-" + Date.now() + ".json";
+    a.click();
+  });
+
+  document.getElementById("btnExportCsv").addEventListener("click", () => {
+    const head = "timestamp,query,state,site,cited,score,competitors\n";
+    const rows = auditResults.map((r) =>
+      [r.timestamp, `"${r.query.replace(/"/g, '""')}"`, r.state, r.site, r.cited, r.score, `"${r.competitors}"`].join(",")
+    ).join("\n");
+    const blob = new Blob([head + rows], { type: "text/csv" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "wreckmatch-ai-audit-" + Date.now() + ".csv";
+    a.click();
+  });
+
+  document.getElementById("btnClearResults").addEventListener("click", () => {
+    if (!confirm("Clear all stored results?")) return;
+    auditResults = [];
+    saveResults();
+  });
+
+  renderPriorityStates();
+  renderSampleSnapshot();
+  renderPromptPreview();
+  fillStateSelects();
+  refreshStats();
+  renderResultsTable();
+})();
+  </script>
+</body>
+</html>
