@@ -57,7 +57,14 @@ export async function generateMetadata(): Promise<Metadata> {
       url: origin,
     },
     alternates: { canonical: `${origin}/` },
+    verification: googleSiteVerification(),
   };
+}
+
+function googleSiteVerification(): Metadata["verification"] {
+  const token = process.env.GOOGLE_SITE_VERIFICATION?.trim();
+  if (!token) return undefined;
+  return { google: token };
 }
 
 export const viewport: Viewport = {
