@@ -41,7 +41,7 @@ QUEUE_PATH = ROOT / "content/autopilot/blog_queue.json"
 LOG_PATH = ROOT / "content/autopilot/blog_generation.log"
 SITE = os.getenv("WRECKMATCH_SITE", "https://www.wreckmatch.com").rstrip("/")
 CTA = f"{SITE}/#form"
-PHONE = os.getenv("WRECKMATCH_PHONE_DISPLAY", "(855) 897-3256")
+PHONE = os.getenv("WRECKMATCH_PHONE_DISPLAY", "855 WRECKMATCH (855) 897-3256")
 NETWORK_LINE = (
     "WreckMatch connects victims with attorneys from a **network of 800+ participating "
     "law firms** nationwide — free matching, typically under 60 seconds."

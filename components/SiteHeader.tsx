@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/LanguageContext";
 import { LogoLight } from "@/components/Logo";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
+import { WRECKMATCH_PHONE_TEL } from "@/lib/phones";
 
 const RESOURCE_LINKS = [
   { href: "/blog", key: "linkBlog" as const },
@@ -112,10 +114,10 @@ export function SiteHeader() {
             </button>
           </div>
           <a
-            href="tel:+19785156063"
-            className="hidden text-xs font-semibold text-white hover:text-red-300 sm:inline sm:text-sm"
+            href={WRECKMATCH_PHONE_TEL}
+            className="hidden sm:inline"
           >
-            📞 (978) 515-6063
+            <WreckMatchPhone variant="dark" vanityClassName="!text-sm" digitsClassName="!text-xs" />
           </a>
           <button
             type="button"
@@ -179,11 +181,11 @@ export function SiteHeader() {
             </button>
           </div>
           <a
-            href="tel:+19785156063"
-            className="mt-4 flex w-full items-center justify-center rounded-xl bg-[#cc0000] py-3 text-sm font-bold text-white"
+            href={WRECKMATCH_PHONE_TEL}
+            className="mt-4 flex w-full items-center justify-center rounded-xl border border-emerald-500/40 bg-slate-900 py-3"
             onClick={closeMobile}
           >
-            📞 Call (978) 515-6063
+            <WreckMatchPhone variant="dark" />
           </a>
         </nav>
       ) : null}

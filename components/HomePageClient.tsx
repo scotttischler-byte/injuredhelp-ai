@@ -8,7 +8,8 @@ import { LeadForm } from "@/components/LeadForm";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StickyConversionBar } from "@/components/StickyConversionBar";
-import { WRECKMATCH_PHONE_ACTIVATION_NOTE, WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/phones";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
+import { WRECKMATCH_PHONE_ACTIVATION_NOTE } from "@/lib/phones";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
 
 const TikTokHomeFunnel = dynamic(
@@ -89,13 +90,14 @@ export function HomePageClient() {
             </div>
             <p className="mx-auto mt-4 max-w-xl text-xs text-slate-500 lg:mx-0">{WRECKMATCH_PHONE_ACTIVATION_NOTE}</p>
             <ReferralDisclaimer variant="primary" className="mx-auto mt-6 max-w-xl border-slate-700 bg-slate-900/60 text-slate-300 lg:mx-0" />
-            <a
-              href={WRECKMATCH_PHONE_TEL}
+            <div
+              className="mt-6 inline-flex w-full max-w-md justify-center rounded-xl border border-emerald-500/50 bg-slate-900 px-6 py-4 lg:justify-start"
               onClick={() => trackTikTokClickButton("hero_call")}
-              className="mt-6 inline-flex w-full max-w-md items-center justify-center rounded-xl border border-emerald-500/50 bg-slate-900 px-6 py-4 text-lg font-bold text-emerald-400 transition hover:bg-slate-800 lg:w-auto"
+              onKeyDown={() => undefined}
+              role="presentation"
             >
-              📞 Call {WRECKMATCH_PHONE_DISPLAY}
-            </a>
+              <WreckMatchPhone variant="dark" asLink className="lg:items-start" />
+            </div>
           </div>
 
           <div ref={formCardRef}>

@@ -1,6 +1,7 @@
 "use client";
 
-import { WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/phones";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
+import { WRECKMATCH_PHONE_TEL } from "@/lib/phones";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
 
 type Props = {
@@ -16,13 +17,13 @@ export function StickyConversionBar({ visible, onScrollToForm }: Props) {
       className="fixed bottom-0 left-0 right-0 z-50 border-t border-emerald-500/40 bg-slate-950/95 px-3 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.4)] backdrop-blur-md md:hidden"
       style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
     >
-      <div className="mx-auto flex max-w-lg gap-2">
+      <div className="mx-auto flex max-w-lg items-center gap-2">
         <a
           href={WRECKMATCH_PHONE_TEL}
           onClick={() => trackTikTokClickButton("sticky_call")}
-          className="flex flex-1 items-center justify-center rounded-xl border border-emerald-500/50 bg-slate-900 px-3 py-3 text-sm font-bold text-emerald-400"
+          className="flex shrink-0 flex-col items-center rounded-xl border border-emerald-500/50 bg-slate-900 px-2 py-2"
         >
-          📞 {WRECKMATCH_PHONE_DISPLAY}
+          <WreckMatchPhone variant="dark" vanityClassName="!text-sm" digitsClassName="!text-xs" />
         </a>
         <button
           type="button"
@@ -32,7 +33,7 @@ export function StickyConversionBar({ visible, onScrollToForm }: Props) {
           }}
           className="flex flex-1 items-center justify-center rounded-xl bg-emerald-500 px-3 py-3 text-sm font-bold text-slate-950"
         >
-          Free match →
+          Free attorney match →
         </button>
       </div>
     </div>

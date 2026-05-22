@@ -8,6 +8,7 @@ import { ALL_STATES } from "@/lib/states";
 import { FormConsentSection } from "@/components/FormConsentSection";
 import { ACCIDENT_TYPES } from "@/lib/accident-types";
 import { FORM_SUCCESS_MESSAGE } from "@/lib/compliance";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { WRECKMATCH_PHONE_TEL } from "@/lib/phones";
 import { tiktokContentNameFromWindow } from "@/lib/brand-client";
 import {
@@ -140,8 +141,9 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) errs.email = "Enter a valid email.";
       if (!form.accidentType) errs.accidentType = c.errAccidentType;
     }
+    if (isConversion && !form.lastName.trim()) errs.lastName = c.errLastName;
     if (!form.smsOptIn) errs.smsOptIn = c.errSmsConsent;
-    if (!isSimple && variant !== "minimal" && variant !== "guide") {
+    if (!isSimple && !isConversion && variant !== "minimal" && variant !== "guide") {
       if (!form.lastName.trim()) errs.lastName = c.errLastName;
     }
     if (!isSimple && form.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
@@ -156,7 +158,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     if (!validate()) return;
     setStatus("loading");
 
-    const lastName = isSimple ? "-" : form.lastName.trim() || "-";
+    const lastName = isConversion || !isSimple ? form.lastName.trim() || "-" : "-";
     const emailTrimmed = isConversion
       ? form.email.trim()
       : isSimple
@@ -313,22 +315,63 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
       ) : null}
 
       <form ref={formRef} onSubmit={handleSubmit} className="space-y-5" aria-live="polite">
-        <div>
-          <label htmlFor="wm-firstName" className={labelClass}>
-            {c.firstName}
-          </label>
-          <input
-            id="wm-firstName"
-            name="firstName"
-            type="text"
-            autoComplete="given-name"
-            aria-required="true"
-            className={inputClass}
-            value={form.firstName}
-            onChange={(e) => setForm({ ...form, firstName: e.target.value })}
-          />
-          {fieldErrors.firstName && <p className="mt-1 text-sm text-red-700">{fieldErrors.firstName}</p>}
-        </div>
+        {isConversion ? (
+          <div className="grid gap-5 sm:grid-cols-2">
+            <div>
+              <label htmlFor="wm-firstName" className={labelClass}>
+                {c.firstName}
+              </label>
+              <input
+                id="wm-firstName"
+                name="firstName"
+                type="text"
+                autoComplete="given-name"
+                aria-required="true"
+                className={inputClass}
+                value={form.firstName}
+                onChange={(e) => setForm({ ...form, firstName: e.target.value })}
+              />
+              {fieldErrors.firstName && (
+                <p className="mt-1 text-sm text-red-400">{fieldErrors.firstName}</p>
+              )}
+            </div>
+            <div>
+              <label htmlFor="wm-lastName" className={labelClass}>
+                {c.lastName}
+              </label>
+              <input
+                id="wm-lastName"
+                name="lastName"
+                type="text"
+                autoComplete="family-name"
+                aria-required="true"
+                className={inputClass}
+                value={form.lastName}
+                onChange={(e) => setForm({ ...form, lastName: e.target.value })}
+              />
+              {fieldErrors.lastName && (
+                <p className="mt-1 text-sm text-red-400">{fieldErrors.lastName}</p>
+              )}
+            </div>
+          </div>
+        ) : (
+          <div>
+            <label htmlFor="wm-firstName" className={labelClass}>
+              {c.firstName}
+            </label>
+            <input
+              id="wm-firstName"
+              name="firstName"
+              type="text"
+              autoComplete="given-name"
+              aria-required="true"
+              className={inputClass}
+              value={form.firstName}
+              onChange={(e) => setForm({ ...form, firstName: e.target.value })}
+            />
+            {fieldErrors.firstName && <p className="mt-1 text-sm text-red-700">{fieldErrors.firstName}</p>}
+          </div>
+        )}
 
         {isConversion ? (
           <div>
@@ -366,7 +409,9 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
             value={form.phone}
             onChange={(e) => setForm({ ...form, phone: formatPhone(e.target.value) })}
           />
-          {fieldErrors.phone && <p className="mt-1 text-sm text-red-700">{fieldErrors.phone}</p>}
+          {fieldErrors.phone && (
+            <p className={`mt-1 text-sm ${isConversion ? "text-red-400" : "text-red-700"}`}>{fieldErrors.phone}</p>
+          )}
         </div>
 
         <div>
@@ -468,8 +513,8 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         {status === "error" && (
           <p className={`text-center text-sm ${isConversion ? "text-red-400" : "text-red-700"}`} role="alert">
             Something went wrong. Please try again or call{" "}
-            <a href={WRECKMATCH_PHONE_TEL} className="underline">
-              (855) 897-3256
+            <a href={WRECKMATCH_PHONE_TEL} className="font-semibold text-emerald-400 underline">
+              855 WRECKMATCH
             </a>
             .
           </p>
@@ -487,6 +532,11 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         >
           {status === "loading" ? c.submitting : submitLabel ?? c.submitBtn}
         </button>
+        {isConversion ? (
+          <div className="flex justify-center pt-1">
+            <WreckMatchPhone variant="dark" asLink />
+          </div>
+        ) : null}
       </form>
       <p className="mt-3 flex items-center justify-center gap-2 text-center text-xs text-gray-500">
         <span aria-hidden>🔒</span>

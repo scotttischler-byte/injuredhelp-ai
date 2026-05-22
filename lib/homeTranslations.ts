@@ -193,7 +193,7 @@ const FORM_EN: LeadFormCopy = {
   ],
   smsOptIn:
     "I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys regarding my inquiry. Message & data rates may apply. Reply STOP to opt out. I understand submitting this form does not create an attorney-client relationship.",
-  submitBtn: "GET FREE CALLBACK NOW — (855) 897-3256",
+  submitBtn: "GET FREE CALLBACK NOW",
   submitting: "Connecting you…",
   disclaimer:
     "By submitting you agree to be contacted by phone and SMS regarding your case. No spam. No fees unless you win.",
@@ -265,12 +265,12 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     headline2: "Get the Attorney You Deserve.",
     subheadline:
       "WreckMatch connects you with experienced personal injury attorneys in your state — free matching in under 60 seconds. No upfront fees.",
-    trustItem1: "855-897-3256",
+    trustItem1: "855 WRECKMATCH",
     trustItem2: "60-Second Callback",
     trustItem3: "All 50 States",
     trustItem4: "Licensed Attorneys Only",
     trustItem5: "Secure & Encrypted",
-    callBtn: "📞 Call Now: (855) 897-3256",
+    callBtn: "Call 855 WRECKMATCH",
     formHint: "Or fill out the form below — we'll call YOU within 60 seconds",
     slotsLine: "Free consultations available today",
     slotsRemaining: "slots remaining",

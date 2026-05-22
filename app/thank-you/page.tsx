@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { TikTokThankYouFunnel } from "@/components/TikTokFunnel";
 import { FOOTER_DISCLAIMER as WM_FOOTER } from "@/lib/compliance";
-import { WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/phones";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 
 export const metadata: Metadata = {
   title: "You're Matched – WreckMatch",
@@ -60,15 +60,12 @@ function ThankYouCard({ displayName }: { displayName: string }) {
         {displayName ? `You're All Set, ${displayName}!` : "You're All Set!"}
       </h1>
       <p className="mt-4 text-center text-base leading-relaxed text-gray-300">
-        An attorney team member will call and text{" "}
-        <a
-          href={WRECKMATCH_PHONE_TEL}
-          className="font-semibold text-emerald-400 underline decoration-emerald-500 underline-offset-2 hover:text-emerald-300"
-        >
-          {WRECKMATCH_PHONE_DISPLAY}
-        </a>{" "}
-        within the next 60 seconds. Keep your phone close.
+        An attorney team member will call and text you within the next 60 seconds. Keep your phone
+        close.
       </p>
+      <div className="mt-4 flex justify-center">
+        <WreckMatchPhone variant="dark" asLink />
+      </div>
       <p className="mt-6 text-center text-sm leading-relaxed text-gray-400">
         Our team is already reviewing your case details. Most clients hear from an attorney within
         minutes — not days.

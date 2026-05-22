@@ -6,7 +6,8 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { headers } from "next/headers";
 import { SiteHeader } from "@/components/SiteHeader";
-import { BLOG_FOOTER_DISCLAIMER, WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/compliance";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
+import { BLOG_FOOTER_DISCLAIMER } from "@/lib/compliance";
 import { blogCoverForSlug } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
@@ -84,13 +85,10 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
         <div className="mt-10 rounded-xl border border-[#cc0000]/30 bg-red-50 p-6 text-center">
           <p className="font-semibold text-gray-900">Hurt in a crash? Get matched free in 60 seconds.</p>
-          <div className="mt-4 flex flex-wrap justify-center gap-3">
-            <a
-              href={WRECKMATCH_PHONE_TEL}
-              className="rounded-xl bg-[#cc0000] px-5 py-3 font-bold text-white hover:bg-[#b30000]"
-            >
-              Call {WRECKMATCH_PHONE_DISPLAY}
-            </a>
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
+            <div className="rounded-xl border border-emerald-200 bg-white px-5 py-3">
+              <WreckMatchPhone variant="light" asLink />
+            </div>
             <Link
               href="/#form"
               className="rounded-xl border border-gray-300 bg-white px-5 py-3 font-semibold hover:bg-gray-50"

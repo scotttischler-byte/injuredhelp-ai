@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { LeadForm } from "@/components/LeadForm";
 import { SiteHeader } from "@/components/SiteHeader";
-import { WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/compliance";
+import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { WRECKMATCH_PHONE_ACTIVATION_NOTE } from "@/lib/phones";
 import {
   buildGeoFaqs,
@@ -70,13 +70,10 @@ export function GeoHubContent({ hub }: Props) {
           {keywords.slice(0, 3).join(" · ")}
         </p>
 
-        <div className="mt-6 flex flex-wrap gap-3">
-          <a
-            href={WRECKMATCH_PHONE_TEL}
-            className="inline-flex items-center rounded-xl bg-[#cc0000] px-5 py-3 font-bold text-white hover:bg-[#b30000]"
-          >
-            Call {WRECKMATCH_PHONE_DISPLAY}
-          </a>
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <div className="rounded-xl border border-emerald-500/40 bg-slate-900 px-4 py-3">
+            <WreckMatchPhone variant="dark" asLink />
+          </div>
           <a
             href="#form"
             className="inline-flex items-center rounded-xl border border-gray-300 bg-white px-5 py-3 font-semibold text-gray-900 hover:bg-gray-50"
