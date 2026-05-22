@@ -4,11 +4,12 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 
+const HIDE_EXACT = ["/"]; // homepage uses StickyConversionBar
 const HIDE_PREFIXES = ["/admin", "/thank-you"];
 
 export function MobileGlobalCTA() {
   const pathname = usePathname() ?? "";
-  if (HIDE_PREFIXES.some((p) => pathname.startsWith(p))) return null;
+  if (HIDE_EXACT.includes(pathname) || HIDE_PREFIXES.some((p) => pathname.startsWith(p))) return null;
 
   return (
     <div
