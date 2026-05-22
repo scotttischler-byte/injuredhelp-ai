@@ -38,6 +38,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/autopilot_requirements.txt
 
+      - name: Secret status (no values logged)
+        run: |
+          echo "ANTHROPIC_API_KEY: $([ -n '${{ secrets.ANTHROPIC_API_KEY }}' ] && echo set || echo missing — template posts)"
+          echo "OPENAI_API_KEY: $([ -n '${{ secrets.OPENAI_API_KEY }}' ] && echo set || echo missing)"
+          echo "CRON_SECRET: $([ -n '${{ secrets.CRON_SECRET }}' ] && echo set || echo missing — skip prod cron curl)"
+
       - name: Refill topic queue
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.refill != '' && github.event.inputs.refill != '0'
         run: python scripts/wreckmatch_blog_autopilot.py --refill "${{ github.event.inputs.refill }}"
