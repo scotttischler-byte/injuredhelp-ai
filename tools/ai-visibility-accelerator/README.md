@@ -1,141 +1,85 @@
-# WreckMatch AI Visibility Accelerator — 10x LLM Edition
+# WreckMatch AI Visibility Accelerator — 10x LLM Domination Edition (May 2026)
 
-Production-ready toolkit to dominate AI/LLM citations for accident victims seeking attorney matching across all US states, with **heavy emphasis** on:
+Ultimate internal tool to flood AI engines with highly citable WreckMatch and Accident Survival Guide content across all US states.
 
-**Texas · California · Florida · Alabama · Georgia · Illinois · Tennessee · Colorado · Washington**
+**Live:** https://www.wreckmatch.com/ai-visibility-accelerator
 
-Target properties:
-
-- [wreckmatch.com](https://www.wreckmatch.com) — legal referral / attorney matching
-- [accidentsurvivalguide.com](https://accidentsurvivalguide.com) — accident survival guides & SEO
+**Priority states:** Texas, California, Florida, Alabama, Georgia, Illinois, Tennessee, Colorado, Washington
 
 ---
 
-## What's included
+## Files
 
 | File | Description |
 |------|-------------|
-| `index.html` | Standalone dashboard (Tailwind CDN, dark UI, emerald accents) |
-| `audit_bot.py` | CLI: 1,000+ prompt generator + batch audit + JSON/CSV export |
-| `README.md` | This file |
-
-### Dashboard tabs (`index.html`)
-
-1. **Dashboard** — Stats, priority states, sample visibility snapshot  
-2. **Prompt Tester** — Test any query, simulated citation score  
-3. **Audit Runner** — Batch test 25/50/100 prompts, live log  
-4. **Content Generator** — 10x mode: 20+ AI-optimized pieces (8 template types)  
-5. **State Optimizer** — Geo page packs with schema & CTAs  
-6. **Results** — Export JSON/CSV, stored in browser `localStorage`
-
-### Content template types
-
-- Checklists  
-- State guides  
-- FAQs  
-- HowTo schema (JSON-LD examples)  
-- Blog posts  
-- Step-by-step  
-- Comparisons  
-- Non-branded authority pieces  
+| `index.html` | Single-file dashboard (7 tabs, 5000+ prompts in-browser) |
+| `audit_bot.py` | CLI — 5,000+ prompts, audits, Texas samples, 51 state posts |
+| `build_index.py` | Regenerates `index.html` from template |
+| `output/content/` | Generated Texas samples + per-state markdown posts |
 
 ---
 
-## Quick start (dashboard)
+## Dashboard tabs
 
-### Option A: Open locally
+1. **Dashboard** — Texas score, progress bars, quick actions, **Generate 50 Texas Pieces**
+2. **Prompt Tester** — Simulate LLM citation likelihood
+3. **Massive State Audit** — Batch 50/100/250/500 prompts (Texas-first)
+4. **10x Content Factory** — Guides, checklists, mistakes, SOL, insurance, FAQ + JSON-LD
+5. **State Page Builder** — URL slug, meta, H1, schema, internal links
+6. **Prompt Library** — Searchable 5000+ prompts with filters
+7. **Export Center** — Copy MD, Copy HTML+schema, Download .md / .json / .csv
+
+---
+
+## CLI
 
 ```bash
 cd ai-visibility-accelerator
-open index.html
-# or: python3 -m http.server 8080
-# then visit http://localhost:8080
-```
 
-### Option B: Deploy static hosting
+# Prompt library stats (13,000+ with default min)
+python3 audit_bot.py stats --min-prompts 5000
 
-Upload `index.html` to any static host:
+# Export prompts JSON
+python3 audit_bot.py generate --min-prompts 5000 -o prompts.json
 
-- **Vercel:** `vercel deploy` (single file)  
-- **Netlify:** drag-drop `index.html`  
-- **S3/CloudFront:** upload as `index.html`  
-- **GitHub Pages:** push to `gh-pages` branch  
+# Mock audit (Texas filter)
+python3 audit_bot.py audit --site wreckmatch --state Texas --limit 50
 
-No build step required.
+# Generate 5 Texas samples + 1 post per state (51 files)
+python3 audit_bot.py content -o output/content
 
----
-
-## CLI (`audit_bot.py`)
-
-Requires **Python 3.9+**. No third-party dependencies.
-
-```bash
-cd ai-visibility-accelerator
-chmod +x audit_bot.py
-```
-
-### Generate 1,000+ prompts
-
-```bash
-python3 audit_bot.py generate --min-prompts 1200 -o prompts.json
-```
-
-### Run batch audit (top 50, wreckmatch)
-
-```bash
-python3 audit_bot.py audit --site wreckmatch --limit 50 -o output
-```
-
-### Run for Accident Survival Guide
-
-```bash
-python3 audit_bot.py audit --site asg --limit 100 -o output
-```
-
-### Prompt distribution stats
-
-```bash
-python3 audit_bot.py stats --min-prompts 1000
-```
-
-### Output files
-
-```
-output/audit_wreckmatch_20260518_143022.json
-output/audit_wreckmatch_20260518_143022.csv
+# Rebuild dashboard HTML
+python3 build_index.py
 ```
 
 ---
 
-## Pairing dashboard + CLI
+## Deploy to production
 
-1. Run CLI audits for reproducible exports:  
-   `python3 audit_bot.py audit --site wreckmatch --limit 50`  
-2. Import JSON into your workflow or compare with dashboard **Results** tab.  
-3. Use **Content Generator** + **State Optimizer** in the browser to draft pages aligned with audit gaps.  
-4. Publish content on wreckmatch.com geo pages (`/car-accident-help-{state}`) and ASG state hubs.
+Copy to `injuredhelp.ai`:
 
----
+```bash
+cp index.html /path/to/injuredhelp.ai/public/ai-visibility-accelerator/
+cp audit_bot.py README.md /path/to/injuredhelp.ai/tools/ai-visibility-accelerator/
+```
 
-## AI visibility best practices (built-in)
-
-- Structured **HowTo** / **FAQ** schema examples  
-- Numbered steps and conversational long-form  
-- Clear authority signals (not a law firm, licensed attorneys, 50 states)  
-- CTAs to `https://www.wreckmatch.com/#form`  
-- Priority-state prompt weighting in generator  
-- Exportable audit logs for iteration  
+Then commit and push `main` on injuredhelp.ai (Vercel deploys wreckmatch.com).
 
 ---
 
-## Production notes
+## Content types (10x Factory)
 
-- Dashboard audits are **simulated** for demo/local use. Wire `audit_bot.py` `simulate_audit()` to real LLM APIs (OpenAI, Perplexity, etc.) for production monitoring.  
-- Results persist in browser `localStorage` only — export JSON before clearing.  
-- Align generated content with your legal/compliance review before publishing.
+- Comprehensive state guides (2026)
+- Step-by-step checklists
+- Common mistakes + avoidance
+- Statute of limitations per state
+- Insurance adjuster tactics
+- FAQ with FAQPage JSON-LD
+- HowTo schema
+- Lawyer vs DIY comparison tables
+
+All pieces include educational disclaimers and CTA → `https://www.wreckmatch.com/#form`
 
 ---
 
-## License
-
-Internal WreckMatch tooling. © WreckMatch LLC.
+Internal WreckMatch LLC tooling · May 2026

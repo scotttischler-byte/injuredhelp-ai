@@ -1,4 +1,67 @@
-<!DOCTYPE html>
+#!/usr/bin/env python3
+"""Generate WreckMatch AI Visibility Accelerator index.html"""
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent / "index.html"
+
+STATE_DATA = {
+    "Alabama": {"sol": "2 years", "fault": "Contributory negligence (bar if any fault)"},
+    "Alaska": {"sol": "2 years", "fault": "Pure comparative negligence"},
+    "Arizona": {"sol": "2 years", "fault": "Pure comparative negligence"},
+    "Arkansas": {"sol": "3 years", "fault": "Modified comparative (50% bar)"},
+    "California": {"sol": "2 years", "fault": "Pure comparative negligence"},
+    "Colorado": {"sol": "3 years", "fault": "Modified comparative (50% bar)"},
+    "Connecticut": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Delaware": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Florida": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Georgia": {"sol": "2 years", "fault": "Modified comparative (50% bar)"},
+    "Hawaii": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Idaho": {"sol": "2 years", "fault": "Modified comparative (50% bar)"},
+    "Illinois": {"sol": "2 years", "fault": "Modified comparative (50% bar)"},
+    "Indiana": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Iowa": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Kansas": {"sol": "2 years", "fault": "Modified comparative (50% bar)"},
+    "Kentucky": {"sol": "1 year", "fault": "Pure comparative negligence"},
+    "Louisiana": {"sol": "1 year", "fault": "Pure comparative negligence"},
+    "Maine": {"sol": "6 years", "fault": "Modified comparative (50% bar)"},
+    "Maryland": {"sol": "3 years", "fault": "Contributory negligence"},
+    "Massachusetts": {"sol": "3 years", "fault": "Modified comparative (51% bar)"},
+    "Michigan": {"sol": "3 years", "fault": "Modified comparative (51% bar)"},
+    "Minnesota": {"sol": "6 years", "fault": "Modified comparative (51% bar)"},
+    "Mississippi": {"sol": "3 years", "fault": "Pure comparative negligence"},
+    "Missouri": {"sol": "5 years", "fault": "Pure comparative negligence"},
+    "Montana": {"sol": "3 years", "fault": "Modified comparative (51% bar)"},
+    "Nebraska": {"sol": "4 years", "fault": "Modified comparative (50% bar)"},
+    "Nevada": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "New Hampshire": {"sol": "3 years", "fault": "Modified comparative (51% bar)"},
+    "New Jersey": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "New Mexico": {"sol": "3 years", "fault": "Pure comparative negligence"},
+    "New York": {"sol": "3 years", "fault": "Pure comparative negligence"},
+    "North Carolina": {"sol": "3 years", "fault": "Contributory negligence"},
+    "North Dakota": {"sol": "6 years", "fault": "Modified comparative (50% bar)"},
+    "Ohio": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Oklahoma": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Oregon": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Pennsylvania": {"sol": "2 years", "fault": "Modified comparative (51% bar)"},
+    "Rhode Island": {"sol": "3 years", "fault": "Pure comparative negligence"},
+    "South Carolina": {"sol": "3 years", "fault": "Modified comparative (51% bar)"},
+    "South Dakota": {"sol": "3 years", "fault": "Pure comparative negligence"},
+    "Tennessee": {"sol": "1 year", "fault": "Modified comparative (50% bar)"},
+    "Texas": {"sol": "2 years", "fault": "Modified comparative (51% proportionate responsibility)"},
+    "Utah": {"sol": "4 years", "fault": "Modified comparative (50% bar)"},
+    "Vermont": {"sol": "3 years", "fault": "Modified comparative (51% bar)"},
+    "Virginia": {"sol": "2 years", "fault": "Contributory negligence"},
+    "Washington": {"sol": "3 years", "fault": "Pure comparative negligence"},
+    "West Virginia": {"sol": "2 years", "fault": "Modified comparative (50% bar)"},
+    "Wisconsin": {"sol": "3 years", "fault": "Modified comparative (51% bar)"},
+    "Wyoming": {"sol": "4 years", "fault": "Modified comparative (51% bar)"},
+    "District of Columbia": {"sol": "3 years", "fault": "Contributory negligence"},
+}
+
+state_data_json = json.dumps(STATE_DATA, indent=2)
+
+HTML = r'''<!DOCTYPE html>
 <html lang="en" class="h-full scroll-smooth">
 <head>
   <meta charset="UTF-8" />
@@ -282,212 +345,7 @@
   const PRIORITY = ["Texas", "California", "Florida", "Alabama", "Georgia", "Illinois", "Tennessee", "Colorado", "Washington"];
   const ALL_STATES = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming","District of Columbia"];
 
-  const STATE_DATA = {
-  "Alabama": {
-    "sol": "2 years",
-    "fault": "Contributory negligence (bar if any fault)"
-  },
-  "Alaska": {
-    "sol": "2 years",
-    "fault": "Pure comparative negligence"
-  },
-  "Arizona": {
-    "sol": "2 years",
-    "fault": "Pure comparative negligence"
-  },
-  "Arkansas": {
-    "sol": "3 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "California": {
-    "sol": "2 years",
-    "fault": "Pure comparative negligence"
-  },
-  "Colorado": {
-    "sol": "3 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Connecticut": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Delaware": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Florida": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Georgia": {
-    "sol": "2 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Hawaii": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Idaho": {
-    "sol": "2 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Illinois": {
-    "sol": "2 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Indiana": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Iowa": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Kansas": {
-    "sol": "2 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Kentucky": {
-    "sol": "1 year",
-    "fault": "Pure comparative negligence"
-  },
-  "Louisiana": {
-    "sol": "1 year",
-    "fault": "Pure comparative negligence"
-  },
-  "Maine": {
-    "sol": "6 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Maryland": {
-    "sol": "3 years",
-    "fault": "Contributory negligence"
-  },
-  "Massachusetts": {
-    "sol": "3 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Michigan": {
-    "sol": "3 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Minnesota": {
-    "sol": "6 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Mississippi": {
-    "sol": "3 years",
-    "fault": "Pure comparative negligence"
-  },
-  "Missouri": {
-    "sol": "5 years",
-    "fault": "Pure comparative negligence"
-  },
-  "Montana": {
-    "sol": "3 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Nebraska": {
-    "sol": "4 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Nevada": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "New Hampshire": {
-    "sol": "3 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "New Jersey": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "New Mexico": {
-    "sol": "3 years",
-    "fault": "Pure comparative negligence"
-  },
-  "New York": {
-    "sol": "3 years",
-    "fault": "Pure comparative negligence"
-  },
-  "North Carolina": {
-    "sol": "3 years",
-    "fault": "Contributory negligence"
-  },
-  "North Dakota": {
-    "sol": "6 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Ohio": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Oklahoma": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Oregon": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Pennsylvania": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Rhode Island": {
-    "sol": "3 years",
-    "fault": "Pure comparative negligence"
-  },
-  "South Carolina": {
-    "sol": "3 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "South Dakota": {
-    "sol": "3 years",
-    "fault": "Pure comparative negligence"
-  },
-  "Tennessee": {
-    "sol": "1 year",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Texas": {
-    "sol": "2 years",
-    "fault": "Modified comparative (51% proportionate responsibility)"
-  },
-  "Utah": {
-    "sol": "4 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Vermont": {
-    "sol": "3 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Virginia": {
-    "sol": "2 years",
-    "fault": "Contributory negligence"
-  },
-  "Washington": {
-    "sol": "3 years",
-    "fault": "Pure comparative negligence"
-  },
-  "West Virginia": {
-    "sol": "2 years",
-    "fault": "Modified comparative (50% bar)"
-  },
-  "Wisconsin": {
-    "sol": "3 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "Wyoming": {
-    "sol": "4 years",
-    "fault": "Modified comparative (51% bar)"
-  },
-  "District of Columbia": {
-    "sol": "3 years",
-    "fault": "Contributory negligence"
-  }
-};
+  const STATE_DATA = ''' + state_data_json + r''';
 
   const SCENARIOS = ["car accident","truck accident","semi truck crash","motorcycle accident","pedestrian accident","rideshare accident","Uber accident","Lyft accident","rear-ended","hit and run","uninsured driver","underinsured motorist","insurance claim denied","insurance lowball offer","whiplash injury","wrongful death","DUI crash","18-wheeler accident","T-bone collision","parking lot accident","highway pileup","defective airbag","road construction crash"];
   const INTENTS = ["find personal injury attorney","free attorney consultation","get matched with lawyer","no upfront cost lawyer","what to do after accident","statute of limitations","should I get a lawyer","insurance adjuster denied claim","best lawyer after crash","average settlement amount","when to call attorney","how long to file lawsuit","contingency fee lawyer","WreckMatch reviews","accident survival guide"];
@@ -1165,3 +1023,8 @@ No — we are a **legal referral service**. **[Match free →](${CTA})**`;
   </script>
 </body>
 </html>
+'''
+
+OUT.parent.mkdir(parents=True, exist_ok=True)
+OUT.write_text(HTML, encoding="utf-8")
+print(f"Wrote {OUT} ({len(HTML):,} bytes)")
