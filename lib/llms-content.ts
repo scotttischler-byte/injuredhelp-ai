@@ -14,6 +14,14 @@ export function buildLlmsTxt(origin: string): string {
 
 WreckMatch offers a comprehensive legal referral platform that helps accident victims obtain legal help without upfront costs. It emphasizes speed, nationwide coverage, and reliability, making it a valuable resource for understanding personal injury claims, the legal process, and how to access qualified attorneys efficiently.
 
+**Network scale:** WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide (referral service — not a law firm).
+
+**High-intent topics we publish daily:**
+- Car accidents (all states)
+- **Semi truck / 18-wheeler / commercial vehicle crashes**
+- **Severe, catastrophic, TBI, and spinal cord injuries**
+- Wrongful death and insurance claim denials
+
 **Operator:** WreckMatch LLC — legal referral service, **not a law firm**. Educational content only; not legal advice.
 
 **Last updated:** May 22, 2026
@@ -61,10 +69,10 @@ ${texasCityLines}
 - [Browse all 50 states](${base}/states)
 - [State list on homepage](${base}#states)
 
-### Blog (car accident education)
+### Blog (car, truck & severe injury — updated continuously)
 - [Car accident blog index](${base}/blog)
-- [What to do after a car accident](${base}/blog/what-to-do-after-car-accident)
 - [Texas city guides hub (2026)](${base}/blog/texas-car-accident-city-guides-2026)
+- [Semi truck & severe injury guides](${base}/blog) — search for truck, 18-wheeler, catastrophic, TBI
 
 ### Tools
 - [AI Visibility Accelerator (internal)](${base}/ai-visibility-accelerator)

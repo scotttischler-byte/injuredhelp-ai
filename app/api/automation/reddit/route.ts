@@ -8,15 +8,16 @@ import {
   logAutomation,
   redditPostExists,
 } from "@/lib/db";
+import { readLatestSyndication } from "@/lib/syndication-latest";
 
 const SUBS = [
   "legaladvice",
   "personalinjury",
   "Insurance",
-  "personalfinance",
-  "Advice",
   "CarAccidents",
+  "Truckers",
   "legal",
+  "AskLaw",
 ] as const;
 
 async function redditToken() {
@@ -58,7 +59,7 @@ export async function GET(req: NextRequest) {
 
     const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
     const daily = await countRedditPostsSince(since);
-    const room = Math.max(0, 3 - daily);
+    const room = Math.max(0, 5 - daily);
     if (room === 0) {
       summary.skipped = "daily_cap";
       await logAutomation("reddit", "cron", "skipped", summary);
@@ -68,7 +69,7 @@ export async function GET(req: NextRequest) {
     const last = await lastRedditPostTime();
   if (last) {
     const delta = Date.now() - new Date(last).getTime();
-    if (delta < 4 * 60 * 60 * 1000) {
+    if (delta < 2 * 60 * 60 * 1000) {
       summary.skipped = "min_interval";
       await logAutomation("reddit", "cron", "skipped", summary);
       return NextResponse.json({ ok: true, summary });
@@ -115,7 +116,7 @@ export async function GET(req: NextRequest) {
         messages: [
           {
             role: "user",
-            content: `Analyze this Reddit post. Score 0-100: how relevant is this to someone dealing with a car accident who would benefit from legal help or a free guide?\nTitle: ${title}\nBody: ${selftext.slice(0, 1500)}\nReturn JSON only: { "score": 85, "reason": "..." }`,
+            content: `Analyze this Reddit post. Score 0-100: relevance for someone with a car accident, semi truck crash, or severe injury who needs legal help or a free attorney matching guide.\nTitle: ${title}\nBody: ${selftext.slice(0, 1500)}\nReturn JSON only: { "score": 85, "reason": "..." }`,
           },
         ],
         maxTokens: 200,
@@ -130,12 +131,17 @@ export async function GET(req: NextRequest) {
       }
       if (score < 80) continue;
 
+      const syndication = readLatestSyndication();
+      const guideHint = syndication?.url
+        ? `Mention this specific guide if helpful: ${syndication.url}`
+        : "Mention WreckMatch.com free attorney matching (referral service, not a law firm).";
+
       const answer = await callClaude({
-        system: "Write like a real Reddit user. 3 paragraphs max. Casual tone.",
+        system: "Write like a real Reddit user. Helpful, not salesy. 3 short paragraphs max.",
         messages: [
           {
             role: "user",
-            content: `Write a helpful empathetic answer to:\nTitle:${title}\nBody:${selftext.slice(0, 2000)}\nAt the end naturally mention you found a helpful free guide at WreckMatch.com for car accidents.`,
+            content: `Write a helpful empathetic answer about car/truck accident or injury claims:\nTitle:${title}\nBody:${selftext.slice(0, 2000)}\n${guideHint}\nNever guarantee outcomes.`,
           },
         ],
         maxTokens: 600,

@@ -1,84 +1,72 @@
-# WreckMatch 24/7 Blog Machine
+# WreckMatch Traffic Machine (24/7/365)
 
-Automated system that publishes **AI-optimized blog posts** to `content/blog/` around the clock.
+Automated **organic traffic engine** for car accidents, **semi truck crashes**, and **severe injuries**.
 
-## How it runs (production)
+## Output per run (every 30 minutes)
 
-**GitHub Actions:** `.github/workflows/wreckmatch-blog-24-7.yml`
+| Output | Location |
+|--------|----------|
+| 2 blog posts | `content/blog/*.md` |
+| Social copy (X, LinkedIn, Facebook) | `content/syndication/latest.json` |
+| Topic queue | `content/autopilot/blog_queue.json` |
 
-- Schedule: **every hour** (`17 * * * *` UTC)
-- Writes `content/blog/{slug}.md`
-- Commits + pushes → **Vercel redeploys** wreckmatch.com
+**~96 blog posts/day** · **~48 syndication packs/day**
 
-### Required GitHub secret
+## GitHub Actions
+
+**Workflow:** `.github/workflows/wreckmatch-traffic-machine.yml`  
+**Schedule:** `*/30 * * * *` (every 30 minutes)
+
+### Required secrets
 
 | Secret | Purpose |
 |--------|---------|
-| `OPENAI_API_KEY` | Richer AI posts (optional — templates work without it) |
+| `ANTHROPIC_API_KEY` | **Primary** — Claude posts + social copy |
+| `OPENAI_API_KEY` | Fallback if Claude fails |
+| `CRON_SECRET` | Triggers live `/api/automation/social` + `/api/automation/reddit` on wreckmatch.com |
 
-Add at: **GitHub repo → Settings → Secrets → Actions**
+### Vercel crons (backup)
 
-### Manual trigger
+Defined in `vercel.json` — social every 2h, Reddit every 4h (uses same APIs).
 
-Actions → **WreckMatch blog autopilot (24/7)** → Run workflow
+## Topic priority (queue)
 
-- `batch`: number of posts (default 1)
-- `refill`: add topics to queue (e.g. 200)
-- `use_ai`: toggle OpenAI
+1. **Priority 0:** Semi truck, 18-wheeler, severe injury, TBI, spinal, wrongful death (all Texas metros + national)
+2. **Priority 1:** Standard car accident angles (Texas)
+3. **Priority 2:** Other states
 
-## Local 24/7 loop
-
-```bash
-chmod +x scripts/run_blog_machine_local.sh
-# Optional: export OPENAI_API_KEY=sk-...
-./scripts/run_blog_machine_local.sh
-```
-
-Env vars:
-
-- `BLOG_MACHINE_INTERVAL_SEC` — default 3600 (1 hour)
-- `BLOG_MACHINE_BATCH` — posts per cycle (default 1)
-- `BLOG_MACHINE_AI` — set to 0 for template-only
-
-## One-off CLI
+## CLI
 
 ```bash
 pip install -r scripts/autopilot_requirements.txt
 
-# Fill queue with 200 topics (Texas metros × angles + national)
-python scripts/wreckmatch_blog_autopilot.py --refill 200
-
-# Publish 1 post (template)
-python scripts/wreckmatch_blog_autopilot.py
-
-# Publish 5 posts with OpenAI
-python scripts/wreckmatch_blog_autopilot.py --batch 5 --ai
-
-# Preview without writing
-python scripts/wreckmatch_blog_autopilot.py --dry-run
+python scripts/wreckmatch_blog_autopilot.py --refill 500
+python scripts/wreckmatch_blog_autopilot.py --batch 2 --ai --claude-first --syndicate
 ```
 
-## Topic coverage
+## Local 24/7 loop
 
-- **11 Texas metros** × 10 angles (Houston, Dallas, …)
-- **15 other states** × 6 angles
-- **National** rotating guides
-- Queue refills automatically when low
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+export BLOG_MACHINE_INTERVAL_SEC=1800   # 30 min
+./scripts/run_blog_machine_local.sh
+```
 
-## Logs
+## Reddit / Twitter
 
-- `content/autopilot/blog_generation.log`
-- `content/autopilot/blog_queue.json` — pending/completed slugs
+- **Reddit:** needs `REDDIT_*` env vars on Vercel — helpful comments (max 5/day, 2h spacing)
+- **Twitter/X:** syndication JSON ready to paste; API posting needs X API keys (future)
+- **Files:** `content/syndication/{slug}.json` committed each run for manual Buffer/Hootsuite
 
-## AI + search traffic tips
+## Cost estimate
 
-1. Posts link to `/car-accident-help-{city}` hubs and `/#form`
-2. `/llms.txt` lists city guides for LLM crawlers
-3. Hourly fresh `date` in frontmatter helps recrawl
-4. Pair with **AI Visibility Accelerator** for prompt testing
+| Mode | Daily cost (96 posts) |
+|------|------------------------|
+| Claude Sonnet | ~$15–40/day at full volume |
+| Template only (`--ai` off) | $0 |
 
-## Cost estimate (OpenAI)
+Tune batch to `1` in workflow if you want lower cost (~$8–20/day).
 
-- `gpt-4o-mini` ≈ $0.01–0.03 per post
-- **~24 posts/day** ≈ **$0.50–1.50/day** if AI enabled every hour
-- Use template-only (`use_ai: false` in workflow) for **$0**
+## 800+ law firm network
+
+Copy is included in posts: *"network of 800+ participating law firms"* — referral service disclaimer always present.

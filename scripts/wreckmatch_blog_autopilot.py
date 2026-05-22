@@ -1,21 +1,19 @@
 #!/usr/bin/env python3
 """
-WreckMatch 24/7/365 AI Blog Autopilot
-=====================================
-Generates and publishes one AI-optimized blog post per run to content/blog/*.md
-Designed for GitHub Actions (hourly cron) or local loop.
+WreckMatch Traffic Machine — 24/7/365 blog + social syndication
+==============================================================
+Focus: car accidents, semi/truck crashes, severe & catastrophic injuries.
+Publishes to content/blog/*.md + content/syndication/ for X/LinkedIn/Reddit.
 
 Usage:
-  python scripts/wreckmatch_blog_autopilot.py              # next topic, 1 post
-  python scripts/wreckmatch_blog_autopilot.py --batch 5    # 5 posts
-  python scripts/wreckmatch_blog_autopilot.py --refill 200 # rebuild topic queue
-  python scripts/wreckmatch_blog_autopilot.py --ai         # force OpenAI (needs key)
-  python scripts/wreckmatch_blog_autopilot.py --dry-run
+  python scripts/wreckmatch_blog_autopilot.py --refill 500
+  python scripts/wreckmatch_blog_autopilot.py --batch 2 --ai --syndicate
+  python scripts/wreckmatch_blog_autopilot.py --claude-first
 
 Environment:
-  OPENAI_API_KEY     optional — richer posts (gpt-4o-mini default)
-  OPENAI_MODEL       default gpt-4o-mini
-  WRECKMATCH_SITE    default https://www.wreckmatch.com
+  ANTHROPIC_API_KEY  preferred (Claude)
+  OPENAI_API_KEY     fallback
+  WRECKMATCH_SITE    https://www.wreckmatch.com
 """
 
 from __future__ import annotations
@@ -26,6 +24,7 @@ import os
 import re
 import sys
 import time
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -37,11 +36,16 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 BLOG_DIR = ROOT / "content/blog"
+SYNDICATION_DIR = ROOT / "content/syndication"
 QUEUE_PATH = ROOT / "content/autopilot/blog_queue.json"
 LOG_PATH = ROOT / "content/autopilot/blog_generation.log"
 SITE = os.getenv("WRECKMATCH_SITE", "https://www.wreckmatch.com").rstrip("/")
 CTA = f"{SITE}/#form"
 PHONE = "(978) 515-6063"
+NETWORK_LINE = (
+    "WreckMatch connects victims with attorneys from a **network of 800+ participating "
+    "law firms** nationwide — free matching, typically under 60 seconds."
+)
 
 DISCLAIMER = (
     "**Educational only — not legal advice.** WreckMatch LLC is a legal referral service, "
@@ -62,9 +66,25 @@ TEXAS_METROS = [
     ("irving", "Irving"),
 ]
 
-ANGLES = [
+# Priority 0 — high-intent organic traffic (truck + severe injury)
+INJURY_ANGLES = [
+    ("semi-truck-accident", "Semi Truck Accident in {city}, {state}: What to Do (2026)"),
+    ("18-wheeler-crash", "18-Wheeler Crash in {city}, {state} — Victim Guide (2026)"),
+    ("tractor-trailer-injury", "Tractor-Trailer Injury in {city}, {state}: Legal Steps (2026)"),
+    ("severe-injury-car-accident", "Severe Injury After a Car Accident in {city}, {state} (2026)"),
+    ("catastrophic-injury", "Catastrophic Injury Car Crash in {city}, {state} (2026)"),
+    ("tbi-car-accident", "Traumatic Brain Injury (TBI) From a Car Accident in {city}, {state}"),
+    ("spinal-cord-injury", "Spinal Cord Injury After a Crash in {city}, {state} (2026)"),
+    ("wrongful-death-car", "Wrongful Death Car Accident in {city}, {state} — Family Guide"),
+    ("commercial-truck-lawyer", "Do I Need a Truck Accident Lawyer in {city}, {state}? (2026)"),
+    ("underride-override", "Underride or Override Truck Crash in {city}, {state} (2026)"),
+    ("fmcsa-violation", "FMCSA Violations After a Truck Crash in {city}, {state}"),
+    ("black-box-truck", "Black Box Data After a Semi Crash in {city}, {state}"),
+]
+
+STANDARD_ANGLES = [
     ("what-to-do-after", "What to Do After a Car Accident in {city}, {state} (2026)"),
-    ("statute-of-limitations", "{state} Car Accident Statute of Limitations — {city} Guide (2026)"),
+    ("statute-of-limitations", "{state} Car Accident Statute of Limitations — {city} (2026)"),
     ("insurance-denied", "Insurance Denied Your Claim in {city}? ({state} 2026)"),
     ("common-mistakes", "7 Costly Car Accident Mistakes in {city}, {state} (2026)"),
     ("lawyer-vs-diy", "Should You Hire a Lawyer After a {city} Crash? ({state} 2026)"),
@@ -76,21 +96,16 @@ ANGLES = [
 ]
 
 NATIONAL_STATES = [
+    ("Texas", "Houston", "houston"),
     ("California", "Los Angeles", None),
     ("Florida", "Miami", None),
     ("Georgia", "Atlanta", None),
     ("Illinois", "Chicago", None),
-    ("New York", "New York", None),
     ("Pennsylvania", "Philadelphia", None),
     ("Ohio", "Columbus", None),
-    ("Michigan", "Detroit", None),
     ("North Carolina", "Charlotte", None),
-    ("Arizona", "Phoenix", None),
     ("Tennessee", "Nashville", None),
-    ("Colorado", "Denver", None),
-    ("Washington", "Seattle", None),
-    ("New Jersey", "Newark", None),
-    ("Virginia", "Virginia Beach", None),
+    ("Arizona", "Phoenix", None),
 ]
 
 
@@ -104,7 +119,7 @@ def log(msg: str) -> None:
 
 def slugify(text: str) -> str:
     s = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
-    return re.sub(r"-+", "-", s)[:80]
+    return re.sub(r"-+", "-", s)[:90]
 
 
 def load_env() -> None:
@@ -116,7 +131,7 @@ def load_env() -> None:
 def load_queue() -> dict[str, Any]:
     if QUEUE_PATH.exists():
         return json.loads(QUEUE_PATH.read_text(encoding="utf-8"))
-    return {"version": 1, "completed_slugs": [], "stats": {"total_published": 0}, "pending": []}
+    return {"version": 2, "completed_slugs": [], "stats": {"total_published": 0}, "pending": []}
 
 
 def save_queue(q: dict[str, Any]) -> None:
@@ -124,53 +139,90 @@ def save_queue(q: dict[str, Any]) -> None:
     QUEUE_PATH.write_text(json.dumps(q, indent=2) + "\n", encoding="utf-8")
 
 
+def is_truck_topic(topic: dict[str, Any]) -> bool:
+    a = topic.get("angle", "")
+    return any(
+        x in a
+        for x in (
+            "semi",
+            "truck",
+            "18-wheeler",
+            "tractor",
+            "fmcsa",
+            "black-box",
+            "underride",
+            "commercial",
+        )
+    )
+
+
+def is_severe_topic(topic: dict[str, Any]) -> bool:
+    a = topic.get("angle", "")
+    return any(
+        x in a
+        for x in ("severe", "catastrophic", "tbi", "spinal", "wrongful-death", "brain")
+    )
+
+
 def build_topic_pool(count: int) -> list[dict[str, Any]]:
     topics: list[dict[str, Any]] = []
-    for place, city in TEXAS_METROS:
-        for angle_slug, title_tpl in ANGLES:
-            topics.append({
-                "angle": angle_slug,
-                "title": title_tpl.format(city=city, state="Texas"),
-                "city": city,
-                "state": "Texas",
-                "place_slug": place,
-                "priority": 1,
-            })
-    for state, city, _ in NATIONAL_STATES:
-        for angle_slug, title_tpl in ANGLES[:6]:
-            topics.append({
-                "angle": angle_slug,
-                "title": title_tpl.format(city=city, state=state),
-                "city": city,
-                "state": state,
-                "place_slug": None,
-                "priority": 2,
-            })
-    # Generic national
-    generics = [
-        "What to Do After a Car Accident in 2026 — Complete Guide",
-        "How to Get Matched with a Car Accident Lawyer in 60 Seconds",
-        "Insurance Adjuster Tactics After a Crash (2026)",
-        "Car Accident Settlement Timeline — What Victims Should Expect",
-        "WreckMatch vs Finding a Lawyer on Your Own (2026)",
-    ]
-    for i, title in enumerate(generics * 20):
+
+    def add(city: str, state: str, place: str | None, angle_slug: str, title_tpl: str, pri: int) -> None:
         topics.append({
-            "angle": "national",
-            "title": f"{title} — Part {i + 1}",
+            "angle": angle_slug,
+            "title": title_tpl.format(city=city, state=state),
+            "city": city,
+            "state": state,
+            "place_slug": place,
+            "priority": pri,
+            "vertical": "truck" if "truck" in angle_slug or "semi" in angle_slug or "wheeler" in angle_slug else (
+                "severe" if pri == 0 and angle_slug not in ("semi-truck-accident", "18-wheeler-crash") else "injury"
+                if pri == 0
+                else "auto"
+            ),
+        })
+
+    for place, city in TEXAS_METROS:
+        for angle_slug, title_tpl in INJURY_ANGLES:
+            add(city, "Texas", place, angle_slug, title_tpl, 0)
+        for angle_slug, title_tpl in STANDARD_ANGLES:
+            add(city, "Texas", place, angle_slug, title_tpl, 1)
+
+    for state, city, place in NATIONAL_STATES:
+        for angle_slug, title_tpl in INJURY_ANGLES[:8]:
+            add(city, state, place, angle_slug, title_tpl, 0)
+        for angle_slug, title_tpl in STANDARD_ANGLES[:5]:
+            add(city, state, place, angle_slug, title_tpl, 2)
+
+    nationals = [
+        "Semi Truck Accident Victim Guide — Nationwide (2026)",
+        "Severe Car Accident Injuries: When to Call a Lawyer (2026)",
+        "18-Wheeler Crash: Black Box & FMCSA Evidence (2026)",
+        "Catastrophic Injury After a Car Crash — Next Steps (2026)",
+        "How WreckMatch Matches You With a Truck Accident Lawyer in 60 Seconds",
+        "Car Accident vs Semi Truck Claim — Key Differences (2026)",
+        "Traumatic Brain Injury From a Car Accident — What Families Should Know",
+        "Wrongful Death Car Accident — State Deadlines Overview (2026)",
+    ]
+    for i, title in enumerate(nationals * 30):
+        topics.append({
+            "angle": "national-injury",
+            "title": title if i == 0 else f"{title}",
             "city": "National",
             "state": "United States",
             "place_slug": None,
-            "priority": 3,
+            "priority": 0 if i < len(nationals) else 1,
+            "vertical": "truck" if "Semi" in title or "18-Wheeler" in title or "Truck" in title else "severe",
         })
-    topics.sort(key=lambda t: t["priority"])
+
+    topics.sort(key=lambda t: (t["priority"], t.get("vertical") != "truck"))
     return topics[:count]
 
 
 def refill_queue(q: dict[str, Any], target: int) -> None:
     done = set(q.get("completed_slugs", []))
     existing = {slugify(t["title"]) for t in q.get("pending", [])}
-    pool = build_topic_pool(target * 2)
+    pool = build_topic_pool(max(target * 3, 500))
     added = 0
     for t in pool:
         slug = slugify(t["title"])
@@ -190,8 +242,7 @@ def hub_link(topic: dict[str, Any]) -> str:
         return f"{SITE}/car-accident-help-{topic['place_slug']}"
     if topic["state"] == "Texas":
         return f"{SITE}/car-accident-help-texas"
-    st = slugify(topic["state"])
-    return f"{SITE}/car-accident-help-{st}"
+    return f"{SITE}/car-accident-help-{slugify(topic['state'])}"
 
 
 def template_post(topic: dict[str, Any]) -> str:
@@ -199,23 +250,45 @@ def template_post(topic: dict[str, Any]) -> str:
     title = topic["title"]
     hub = hub_link(topic)
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    slug = topic.get("slug") or slugify(title)
+    truck = is_truck_topic(topic)
+    severe = is_severe_topic(topic)
 
     sol = "2 years" if state == "Texas" else "typically 2–3 years (verify with counsel)"
-    fault = (
-        "Modified comparative negligence (51% bar)"
-        if state == "Texas"
-        else "Varies by state — comparative or contributory rules may apply"
-    )
+    extra = ""
+    if truck:
+        extra = """
+## Semi truck & commercial vehicle specifics
+
+| Evidence | Why it matters |
+|----------|----------------|
+| Black box (ECM) data | Speed, braking, hours-of-service |
+| Driver logbooks / ELD | FMCSA violations |
+| Cargo loading records | Shifted load liability |
+| Carrier insurance limits | Often $750K–$1M+ |
+
+**Direct answer:** Truck cases often involve **multiple defendants** (driver, carrier, broker). Preserve spoliation letters immediately.
+"""
+    if severe:
+        extra += """
+## Severe & catastrophic injury considerations
+
+- Document **lifetime care needs** and future medical costs
+- Do not accept settlements before **maximum medical improvement (MMI)**
+- Life-care planners and economists may be needed
+- Wrongful death claims have **different beneficiaries and deadlines**
+"""
+
+    category = "Truck Accidents" if truck else ("Severe Injury" if severe else (state if state not in ("United States", "National") else "Car Accidents"))
 
     return f"""---
 title: "{title.replace('"', "'")}"
-description: "Educational {city} car accident guide for {state} victims — deadlines, insurance tips, mistakes to avoid, and free attorney matching via WreckMatch."
+description: "Educational guide for {city} {('semi truck and ' if truck else '')}car accident victims in {state}. Severe injury tips, deadlines, insurance tactics, free attorney matching — 800+ law firm network."
 date: "{today}"
-category: "{state if state != 'United States' else 'Resources'}"
+category: "{category}"
 state: "{state if state not in ('United States', 'National') else ''}"
-excerpt: "Quick answers for {city} crash victims: what to do, {state} deadlines, insurance tactics, and free lawyer matching in ~60 seconds."
+excerpt: "{('Semi truck or ' if truck else '')}{('severe injury ' if severe else '')}crash in {city}? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
 autopilot: true
+vertical: "{topic.get('vertical', 'auto')}"
 ---
 
 # {title}
@@ -224,83 +297,80 @@ autopilot: true
 
 **Last updated:** {today}
 
-**Quick answer:** After a crash in {city}, call 911 if injured, document the scene, get medical care, avoid recorded insurance statements, and consider **[free attorney matching]({CTA})** before accepting a settlement.
+{NETWORK_LINE}
 
-## What should you do first after a crash in {city}?
+**Quick answer:** After a {('semi truck or ' if truck else '')}crash in {city}, call 911, get trauma care, preserve evidence{(' including ECM/black box data' if truck else '')}, avoid recorded insurer statements, and use **[free attorney matching]({CTA})** before signing anything.
 
-1. Move to safety and call **911** if anyone is hurt.
-2. Photograph vehicles, plates, injuries, and road conditions.
-3. Exchange insurance and contact information.
-4. Identify witnesses before they leave.
-5. Seek medical care within 24 hours.
-6. Notify your insurer — **decline a recorded statement** until you understand your rights.
-7. Preserve dashcam or security video.
-8. **[Get free legal help →]({CTA})**
+## What should you do first?
 
-## {state} deadlines and fault rules
+1. Call **911** — truck crashes often need highway patrol + EMS.
+2. Photograph **all vehicles**, DOT numbers, plates, and scene marks.
+3. Identify **carrier name** on the tractor/trailer door.
+4. Seek **trauma care** — severe injuries may not show on X-ray day one.
+5. Do **not** give a recorded statement to any insurer.
+6. **[Get matched with a lawyer →]({CTA})**
+{extra}
+## {state} deadlines
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **{sol}** for many injury claims |
-| Fault framework | {fault} |
-| WreckMatch matching fee | **$0** upfront |
+| Statute of limitations | **{sol}** (many claims) |
+| WreckMatch fee | **$0** matching |
 
-**Direct answer:** Do not wait until the deadline approaches — evidence and witnesses disappear quickly.
+## Insurance tactics
 
-## Common mistakes {city} drivers make
+- Rushing low settlements before surgery/MRI results
+- Disputing **serious injury** thresholds
+- Multiple insurers pointing blame at each other (common in truck cases)
 
-| Mistake | Why it hurts |
-|---------|----------------|
-| Recorded statement too early | Insurers use contradictions against you |
-| Gaps in medical treatment | Suggests minor injury |
-| Accepting first settlement | Often below full value |
-| Missing filing deadline | Claim may be barred |
+## FAQ
 
-## Insurance company tactics to expect
+### Does WreckMatch have truck accident lawyers?
 
-- Quick lowball offers before treatment finishes
-- Recorded interviews designed to minimize injury
-- Delays followed by pressure to sign
-- Disputing soft-tissue or whiplash claims
-- Blaming pre-existing conditions
-
-## Should you hire a lawyer?
-
-| DIY with insurer | Attorney + WreckMatch |
-|------------------|------------------------|
-| $0 upfront | $0 matching fee |
-| Limited investigation | Full claim development |
-| You track deadlines | Attorney calendars SOL |
-| Higher stress | Attorney negotiates |
-
-Serious injury, disputed fault, or commercial vehicles in **{city}** usually warrant counsel.
-
-## Frequently asked questions
-
-### Is WreckMatch a law firm?
-
-No. WreckMatch LLC is a **legal referral service** — not a law firm. We connect you with licensed {state} attorneys.
+We refer to participating attorneys who handle **car, truck, and catastrophic injury** matters in {state}.
 
 ### How fast is callback?
 
-Typically **under 60 seconds** after you submit the form at [wreckmatch.com]({SITE}).
+Typically **under 60 seconds** at [wreckmatch.com]({SITE}).
 
-### Is this legal advice?
+### Full {city} guide
 
-No. This article is educational only. A licensed attorney in {state} advises on your specific case.
+**[{city} help hub]({hub})**
 
-### Where is the full {city} guide?
-
-See our localized hub: **[{city} car accident help]({hub})**
-
-## Get matched now
-
-**[Free {city} car accident attorney matching →]({CTA})** · Call {PHONE}
-
----
-
-*Autopilot publish {today} · [Texas city guides]({SITE}/blog/texas-car-accident-city-guides-2026) · [LLM site map]({SITE}/llms.txt)*
+**[Free attorney matching →]({CTA})** · {PHONE}
 """
+
+
+def call_claude_api(system: str, user: str, max_tokens: int = 2400) -> str | None:
+    key = os.getenv("ANTHROPIC_API_KEY", "").strip()
+    if not key:
+        return None
+    payload = json.dumps(
+        {
+            "model": os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514"),
+            "max_tokens": max_tokens,
+            "system": system,
+            "messages": [{"role": "user", "content": user}],
+        }
+    ).encode()
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=payload,
+        headers={
+            "content-type": "application/json",
+            "x-api-key": key,
+            "anthropic-version": "2023-06-01",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=120) as res:
+            data = json.loads(res.read().decode())
+        parts = data.get("content", [])
+        return "".join(p.get("text", "") for p in parts if p.get("type") == "text").strip()
+    except Exception as e:
+        log(f"Claude API error: {e}")
+        return None
 
 
 def generate_with_openai(topic: dict[str, Any]) -> str | None:
@@ -310,41 +380,34 @@ def generate_with_openai(topic: dict[str, Any]) -> str | None:
     try:
         from openai import OpenAI
     except ImportError:
-        log("openai package not installed — using template")
         return None
-
-    client = OpenAI(api_key=key)
     hub = hub_link(topic)
-    prompt = f"""Write a markdown blog post with YAML frontmatter for WreckMatch.com.
+    truck = is_truck_topic(topic)
+    severe = is_severe_topic(topic)
+    prompt = f"""Write markdown blog + YAML frontmatter for WreckMatch.com.
 
 Title: {topic['title']}
-City: {topic['city']}
-State: {topic['state']}
-Hub link: {hub}
+City: {topic['city']}, State: {topic['state']}
+Truck/semi focus: {truck}
+Severe injury focus: {severe}
+Hub: {hub}
 CTA: {CTA}
 Phone: {PHONE}
+Mention: network of 800+ participating law firms (referral service, not a law firm)
 
 Requirements:
-- YAML frontmatter: title, description, date (today), category, excerpt, autopilot: true
-- 900-1400 words
-- H2/H3 question-based headings
-- Tables for SOL, mistakes, lawyer vs DIY
-- Numbered lists
-- Quotable first sentence under each H2
-- Disclaimer: not a law firm, educational only
-- 5+ FAQ items
-- Link to hub and CTA
-- Optimized for ChatGPT/Perplexity citation in 2026
+- 1100-1600 words, H2/H3 questions, tables, numbered lists
+- Quotable first sentence per section (LLM citation 2026)
+- FMCSA/black box if truck; MMI/life-care if severe
+- category: Truck Accidents or Severe Injury or state name
+- frontmatter: title, description, date, category, excerpt, autopilot: true, vertical
 """
-    model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
     try:
+        client = OpenAI(api_key=key)
         resp = client.chat.completions.create(
-            model=model,
+            model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
             messages=[
-                {
-                    "role": "system",
-                    "content": "You write authoritative legal-adjacent educational content for WreckMatch LLC (referral service, not a law firm).",
-                },
+                {"role": "system", "content": "Expert PI referral educational content. Not a law firm."},
                 {"role": "user", "content": prompt},
             ],
             temperature=0.65,
@@ -355,11 +418,114 @@ Requirements:
         return None
 
 
+def generate_ai_post(topic: dict[str, Any], claude_first: bool) -> str:
+    system = (
+        "You write high-authority educational content for WreckMatch LLC, a legal referral "
+        "service (NOT a law firm) with 800+ participating attorneys. Focus on organic search "
+        "and LLM citation. Never guarantee outcomes."
+    )
+    hub = hub_link(topic)
+    user = f"""Write full markdown article with YAML frontmatter.
+
+{topic['title']}
+Location: {topic['city']}, {topic['state']}
+Angle: {topic.get('angle')}
+Truck case: {is_truck_topic(topic)}
+Severe injury: {is_severe_topic(topic)}
+Links: {hub} and {CTA}
+"""
+    if claude_first:
+        body = call_claude_api(system, user)
+        if body:
+            return body + "\n"
+        body = generate_with_openai(topic)
+        if body:
+            return body
+    else:
+        body = generate_with_openai(topic)
+        if body:
+            return body
+        body = call_claude_api(system, user)
+        if body:
+            return body + "\n"
+    return template_post(topic)
+
+
+def write_syndication(slug: str, topic: dict[str, Any], body: str, claude_first: bool) -> None:
+    url = f"{SITE}/blog/{slug}"
+    title = topic["title"]
+    excerpt = body[:1200]
+    truck = is_truck_topic(topic)
+    severe = is_severe_topic(topic)
+
+    sys_msg = "Write social posts only. No markdown. Output valid JSON."
+    user_msg = f"""For this WreckMatch article return JSON:
+{{
+  "twitter": "max 270 chars, urgent tone, {PHONE}, link {url}",
+  "linkedin": "150-250 words professional, 800+ law firm network, CTA {CTA}",
+  "facebook": "120-200 words empathetic, question at end",
+  "reddit_title": "helpful title for r/legaladvice style (not spammy)",
+  "reddit_body": "3 short paragraphs helpful advice, mention wreckmatch.com naturally at end",
+  "hashtags": ["#CarAccident", ...]
+}}
+Article title: {title}
+Truck: {truck}, Severe: {severe}
+Excerpt: {excerpt[:800]}
+"""
+    data: dict[str, Any] = {
+        "slug": slug,
+        "url": url,
+        "title": title,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "vertical": topic.get("vertical", "auto"),
+    }
+
+    raw = None
+    if claude_first or os.getenv("ANTHROPIC_API_KEY"):
+        raw = call_claude_api(sys_msg, user_msg, 1200)
+    if raw:
+        try:
+            m = re.search(r"\{[\s\S]*\}", raw)
+            if m:
+                data.update(json.loads(m.group()))
+        except json.JSONDecodeError:
+            pass
+
+    if "twitter" not in data:
+        tag = "#TruckAccident" if truck else "#CarAccident"
+        data["twitter"] = (
+            f"Hurt in a {('semi truck ' if truck else '')}crash in {topic['city']}? "
+            f"Free lawyer matching in 60 sec. {url} {PHONE} {tag}"
+        )[:279]
+    if "linkedin" not in data:
+        data["linkedin"] = (
+            f"{title}\n\nWreckMatch connects victims with attorneys from 800+ participating "
+            f"firms — free matching.\n\n{url}\n{CTA}"
+        )
+    if "facebook" not in data:
+        data["facebook"] = (
+            f"If you or someone you love was hurt in a crash in {topic['city']}, "
+            f"don't face insurers alone. Free help: {url}"
+        )
+    if "reddit_body" not in data:
+        data["reddit_body"] = (
+            f"Document everything, get medical care, and avoid recorded statements. "
+            f"For {('truck' if truck else 'car')} crashes in {topic['state']}, a referral service "
+            f"like WreckMatch can connect you with a lawyer quickly: {SITE}"
+        )
+
+    SYNDICATION_DIR.mkdir(parents=True, exist_ok=True)
+    out = SYNDICATION_DIR / f"{slug}.json"
+    out.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    latest = SYNDICATION_DIR / "latest.json"
+    latest.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+    log(f"Syndication → {out}")
+
+
 def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
     slug = topic.get("slug") or slugify(topic["title"])
-    # Ensure frontmatter slug consistency
     if not body.startswith("---"):
-        body = template_post(topic)  # fallback
+        body = template_post(topic)
 
     path = BLOG_DIR / f"{slug}.md"
     if path.exists():
@@ -367,7 +533,7 @@ def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
         path = BLOG_DIR / f"{slug}.md"
 
     if dry_run:
-        log(f"[dry-run] Would write {path} ({len(body)} bytes)")
+        log(f"[dry-run] Would write {path}")
         return slug
 
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
@@ -376,27 +542,29 @@ def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
     return slug
 
 
-def run_once(q: dict[str, Any], use_ai: bool, dry_run: bool) -> bool:
+def run_once(
+    q: dict[str, Any],
+    use_ai: bool,
+    claude_first: bool,
+    syndicate: bool,
+    dry_run: bool,
+) -> str | None:
     pending = q.get("pending", [])
-    if not pending:
-        refill_queue(q, 100)
+    if len(pending) < 5:
+        refill_queue(q, 300)
         pending = q.get("pending", [])
 
     if not pending:
-        log("No topics available")
-        return False
+        return None
 
     topic = pending[0]
-
-    body = None
-    if use_ai:
-        body = generate_with_openai(topic)
-    if not body:
-        body = template_post(topic)
-
+    body = generate_ai_post(topic, claude_first) if use_ai else template_post(topic)
     slug = publish_post(topic, body, dry_run)
     if not slug:
-        return False
+        return None
+
+    if syndicate and not dry_run:
+        write_syndication(slug, topic, body, claude_first)
 
     if not dry_run:
         pending.pop(0)
@@ -405,37 +573,44 @@ def run_once(q: dict[str, Any], use_ai: bool, dry_run: bool) -> bool:
         q["stats"]["total_published"] = q["stats"].get("total_published", 0) + 1
         save_queue(q)
 
-    return True
+    return slug
 
 
 def main() -> int:
     load_env()
-    p = argparse.ArgumentParser(description="WreckMatch 24/7 blog autopilot")
-    p.add_argument("--batch", type=int, default=1, help="Posts per run")
-    p.add_argument("--refill", type=int, default=0, help="Add N topics to queue")
-    p.add_argument("--ai", action="store_true", help="Use OpenAI when key set")
+    p = argparse.ArgumentParser(description="WreckMatch traffic machine")
+    p.add_argument("--batch", type=int, default=1)
+    p.add_argument("--refill", type=int, default=0)
+    p.add_argument("--ai", action="store_true")
+    p.add_argument("--claude-first", action="store_true")
+    p.add_argument("--syndicate", action="store_true")
     p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--delay", type=float, default=2.0, help="Seconds between batch posts")
+    p.add_argument("--delay", type=float, default=2.0)
     args = p.parse_args()
 
     q = load_queue()
     if args.refill:
         refill_queue(q, args.refill)
         save_queue(q)
-        if args.batch == 1 and not args.dry_run:
-            return 0
 
-    use_ai = args.ai or bool(os.getenv("OPENAI_API_KEY", "").strip())
-    ok = 0
+    has_ai = bool(
+        os.getenv("ANTHROPIC_API_KEY", "").strip() or os.getenv("OPENAI_API_KEY", "").strip()
+    )
+    use_ai = args.ai or has_ai
+    claude_first = args.claude_first or bool(os.getenv("ANTHROPIC_API_KEY", "").strip())
+    syndicate = args.syndicate or os.getenv("TRAFFIC_MACHINE_SYNDICATE", "1") == "1"
+
+    slugs: list[str] = []
     for i in range(args.batch):
-        if run_once(q, use_ai, args.dry_run):
-            ok += 1
+        slug = run_once(q, use_ai, claude_first, syndicate, args.dry_run)
+        if slug:
+            slugs.append(slug)
         if i < args.batch - 1:
             time.sleep(args.delay)
         q = load_queue()
 
-    log(f"Done: {ok}/{args.batch} posts")
-    return 0 if ok else 1
+    log(f"Done: {len(slugs)}/{args.batch} — {slugs}")
+    return 0 if slugs else 1
 
 
 if __name__ == "__main__":

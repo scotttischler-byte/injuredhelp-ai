@@ -1,0 +1,100 @@
+# WreckMatch Traffic Machine — 24/7/365 organic growth
+# Every 30 min: 2 blog posts (truck/severe injury priority) + social syndication + API hooks
+
+name: WreckMatch traffic machine
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Posts per run"
+        default: "2"
+      refill:
+        description: "Refill queue (0=skip)"
+        default: "0"
+      skip_remote_cron:
+        description: "Skip calling production cron APIs"
+        type: boolean
+        default: false
+
+concurrency:
+  group: wreckmatch-traffic-machine
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/autopilot_requirements.txt
+
+      - name: Refill topic queue
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.refill != '' && github.event.inputs.refill != '0'
+        run: python scripts/wreckmatch_blog_autopilot.py --refill "${{ github.event.inputs.refill }}"
+
+      - name: Ensure queue depth
+        run: |
+          python -c "
+          import json, pathlib, subprocess
+          p = pathlib.Path('content/autopilot/blog_queue.json')
+          q = json.loads(p.read_text())
+          if len(q.get('pending', [])) < 20:
+            subprocess.run(['python', 'scripts/wreckmatch_blog_autopilot.py', '--refill', '400'], check=True)
+          "
+
+      - name: Generate posts + syndication (Claude-first)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_MODEL: claude-sonnet-4-20250514
+          OPENAI_MODEL: gpt-4o-mini
+          WRECKMATCH_SITE: https://www.wreckmatch.com
+          TRAFFIC_MACHINE_SYNDICATE: "1"
+        run: |
+          BATCH="${{ github.event.inputs.batch || '2' }}"
+          python scripts/wreckmatch_blog_autopilot.py \
+            --batch "$BATCH" \
+            --ai \
+            --claude-first \
+            --syndicate \
+            --delay 4
+
+      - name: Commit and push (Vercel deploy)
+        run: |
+          git config user.name "wreckmatch-traffic-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/blog/*.md content/syndication/ content/autopilot/
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "$(cat <<'EOF'
+content(traffic-machine): truck/severe injury posts + social syndication
+
+Automated 30-min publish for WreckMatch organic + AI visibility.
+EOF
+)"
+          git push
+
+      - name: Trigger production cron (social + reddit)
+        if: github.event.inputs.skip_remote_cron != 'true'
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SITE: https://www.wreckmatch.com
+        run: |
+          if [ -z "$CRON_SECRET" ]; then
+            echo "CRON_SECRET not set — skip remote cron (add secret in GitHub)"
+            exit 0
+          fi
+          for path in /api/automation/social /api/automation/reddit; do
+            echo "Calling $SITE$path"
+            curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE$path" || echo "warn: $path failed"
+            sleep 5
+          done

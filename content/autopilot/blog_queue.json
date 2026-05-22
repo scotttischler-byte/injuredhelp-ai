@@ -2,22 +2,14 @@
   "version": 1,
   "description": "WreckMatch 24/7 blog autopilot queue \u2014 pending topics rotate forever",
   "completed_slugs": [
-    "texas-car-accident-statute-of-limitations-houston-guide-2026"
+    "texas-car-accident-statute-of-limitations-houston-guide-2026",
+    "insurance-denied-your-claim-in-houston-texas-2026"
   ],
   "stats": {
-    "total_published": 1,
-    "last_run_at": "2026-05-22T12:02:46.829715+00:00"
+    "total_published": 2,
+    "last_run_at": "2026-05-22T12:10:17.038690+00:00"
   },
   "pending": [
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Houston? (Texas 2026)",
-      "city": "Houston",
-      "state": "Texas",
-      "place_slug": "houston",
-      "priority": 1,
-      "slug": "insurance-denied-your-claim-in-houston-texas-2026"
-    },
     {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Houston, Texas (2026)",
@@ -170,6 +162,306 @@
       "place_slug": "san-antonio",
       "priority": 1,
       "slug": "how-long-does-a-car-accident-settlement-take-in-san-antonio-2026"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Houston, Texas: What to Do (2026)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-houston-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Houston, Texas \u2014 Victim Guide (2026)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-houston-texas-victim-guide-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Houston, Texas? (2026)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-houston-texas-2026"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Houston, Texas",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-houston-texas"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in San Antonio, Texas: What to Do (2026)",
+      "city": "San Antonio",
+      "state": "Texas",
+      "place_slug": "san-antonio",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-san-antonio-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in San Antonio, Texas \u2014 Victim Guide (2026)",
+      "city": "San Antonio",
+      "state": "Texas",
+      "place_slug": "san-antonio",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-san-antonio-texas-victim-guide-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in San Antonio, Texas? (2026)",
+      "city": "San Antonio",
+      "state": "Texas",
+      "place_slug": "san-antonio",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-san-antonio-texas-2026"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in San Antonio, Texas",
+      "city": "San Antonio",
+      "state": "Texas",
+      "place_slug": "san-antonio",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-san-antonio-texas"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Dallas, Texas: What to Do (2026)",
+      "city": "Dallas",
+      "state": "Texas",
+      "place_slug": "dallas",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-dallas-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Dallas, Texas \u2014 Victim Guide (2026)",
+      "city": "Dallas",
+      "state": "Texas",
+      "place_slug": "dallas",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-dallas-texas-victim-guide-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Dallas, Texas? (2026)",
+      "city": "Dallas",
+      "state": "Texas",
+      "place_slug": "dallas",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-dallas-texas-2026"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Dallas, Texas",
+      "city": "Dallas",
+      "state": "Texas",
+      "place_slug": "dallas",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-dallas-texas"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Fort Worth, Texas: What to Do (2026)",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "place_slug": "fort-worth",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-fort-worth-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Fort Worth, Texas \u2014 Victim Guide (2026)",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "place_slug": "fort-worth",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-fort-worth-texas-victim-guide-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Fort Worth, Texas? (2026)",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "place_slug": "fort-worth",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-fort-worth-texas-2026"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Fort Worth, Texas",
+      "city": "Fort Worth",
+      "state": "Texas",
+      "place_slug": "fort-worth",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-fort-worth-texas"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Austin, Texas: What to Do (2026)",
+      "city": "Austin",
+      "state": "Texas",
+      "place_slug": "austin",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-austin-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Austin, Texas \u2014 Victim Guide (2026)",
+      "city": "Austin",
+      "state": "Texas",
+      "place_slug": "austin",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-austin-texas-victim-guide-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Austin, Texas? (2026)",
+      "city": "Austin",
+      "state": "Texas",
+      "place_slug": "austin",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-austin-texas-2026"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Austin, Texas",
+      "city": "Austin",
+      "state": "Texas",
+      "place_slug": "austin",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-austin-texas"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in El Paso, Texas: What to Do (2026)",
+      "city": "El Paso",
+      "state": "Texas",
+      "place_slug": "el-paso",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-el-paso-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in El Paso, Texas \u2014 Victim Guide (2026)",
+      "city": "El Paso",
+      "state": "Texas",
+      "place_slug": "el-paso",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-el-paso-texas-victim-guide-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in El Paso, Texas? (2026)",
+      "city": "El Paso",
+      "state": "Texas",
+      "place_slug": "el-paso",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-el-paso-texas-2026"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in El Paso, Texas",
+      "city": "El Paso",
+      "state": "Texas",
+      "place_slug": "el-paso",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-el-paso-texas"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Corpus Christi, Texas: What to Do (2026)",
+      "city": "Corpus Christi",
+      "state": "Texas",
+      "place_slug": "corpus-christi",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-corpus-christi-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Corpus Christi, Texas \u2014 Victim Guide (2026)",
+      "city": "Corpus Christi",
+      "state": "Texas",
+      "place_slug": "corpus-christi",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-corpus-christi-texas-victim-guide-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Corpus Christi, Texas? (2026)",
+      "city": "Corpus Christi",
+      "state": "Texas",
+      "place_slug": "corpus-christi",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-corpus-christi-texas-2026"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Corpus Christi, Texas",
+      "city": "Corpus Christi",
+      "state": "Texas",
+      "place_slug": "corpus-christi",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-corpus-christi-texas"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Plano, Texas: What to Do (2026)",
+      "city": "Plano",
+      "state": "Texas",
+      "place_slug": "plano",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-plano-texas-what-to-do-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Plano, Texas \u2014 Victim Guide (2026)",
+      "city": "Plano",
+      "state": "Texas",
+      "place_slug": "plano",
+      "priority": 0,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-plano-texas-victim-guide-2026"
     }
   ]
 }
