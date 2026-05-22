@@ -95,18 +95,54 @@ STANDARD_ANGLES = [
     ("settlement-timeline", "How Long Does a Car Accident Settlement Take in {city}? (2026)"),
 ]
 
-NATIONAL_STATES = [
-    ("Texas", "Houston", "houston"),
-    ("California", "Los Angeles", None),
-    ("Florida", "Miami", None),
-    ("Georgia", "Atlanta", None),
-    ("Illinois", "Chicago", None),
-    ("Pennsylvania", "Philadelphia", None),
-    ("Ohio", "Columbus", None),
-    ("North Carolina", "Charlotte", None),
-    ("Tennessee", "Nashville", None),
-    ("Arizona", "Phoenix", None),
-]
+# States with active firm partners — queue sorts these first
+FIRM_STATES = frozenset({
+    "Texas",
+    "Alabama",
+    "Georgia",
+    "Illinois",
+    "Tennessee",
+    "Florida",
+    "Colorado",
+    "Washington",
+    "California",
+})
+
+CITIES_TS = ROOT / "lib" / "cities.ts"
+
+
+def load_all_cities() -> list[tuple[str, str, str]]:
+    """Parse ALL_CITIES from lib/cities.ts → (city, state, place_slug)."""
+    if not CITIES_TS.exists():
+        return [(city, "Texas", place) for place, city in TEXAS_METROS]
+
+    text = CITIES_TS.read_text(encoding="utf-8")
+    marker = "export const ALL_CITIES"
+    if marker not in text:
+        return [(city, "Texas", place) for place, city in TEXAS_METROS]
+
+    body = text.split(marker, 1)[1]
+    start = body.find("[")
+    end = body.rfind("];")
+    if start < 0 or end < 0:
+        return [(city, "Texas", place) for place, city in TEXAS_METROS]
+
+    array_body = body[start + 1 : end]
+    cities: list[tuple[str, str, str]] = []
+    for block in re.split(r"\n  \{", array_body):
+        if '"city":' not in block:
+            continue
+        city_m = re.search(r'"city": "([^"]+)"', block)
+        state_m = re.search(r'"state": "([^"]+)"', block)
+        if not city_m or not state_m:
+            continue
+        city, state = city_m.group(1), state_m.group(1)
+        place_m = re.search(r'"placeSlug": "([^"]+)"', block)
+        place = place_m.group(1) if place_m else slugify(city)
+        cities.append((city, state, place))
+
+    log(f"Loaded {len(cities)} cities from {CITIES_TS.name}")
+    return cities
 
 
 def log(msg: str) -> None:
@@ -164,10 +200,20 @@ def is_severe_topic(topic: dict[str, Any]) -> bool:
     )
 
 
-def build_topic_pool(count: int) -> list[dict[str, Any]]:
-    topics: list[dict[str, Any]] = []
+def firm_priority(state: str, angle_slug: str) -> int:
+    """Lower = published sooner. Firm states and truck/severe angles win."""
+    in_firm = state in FIRM_STATES
+    if angle_slug in {a for a, _ in INJURY_ANGLES}:
+        return 0 if in_firm else 2
+    return 1 if in_firm else 3
 
-    def add(city: str, state: str, place: str | None, angle_slug: str, title_tpl: str, pri: int) -> None:
+
+def build_topic_pool(limit: int = 0) -> list[dict[str, Any]]:
+    topics: list[dict[str, Any]] = []
+    all_cities = load_all_cities()
+
+    def add(city: str, state: str, place: str, angle_slug: str, title_tpl: str) -> None:
+        pri = firm_priority(state, angle_slug)
         topics.append({
             "angle": angle_slug,
             "title": title_tpl.format(city=city, state=state),
@@ -175,24 +221,19 @@ def build_topic_pool(count: int) -> list[dict[str, Any]]:
             "state": state,
             "place_slug": place,
             "priority": pri,
+            "firm_state": state in FIRM_STATES,
             "vertical": "truck" if "truck" in angle_slug or "semi" in angle_slug or "wheeler" in angle_slug else (
-                "severe" if pri == 0 and angle_slug not in ("semi-truck-accident", "18-wheeler-crash") else "injury"
-                if pri == 0
+                "severe" if pri <= 2 and angle_slug not in ("semi-truck-accident", "18-wheeler-crash")
+                and any(x in angle_slug for x in ("severe", "catastrophic", "tbi", "spinal", "wrongful"))
                 else "auto"
             ),
         })
 
-    for place, city in TEXAS_METROS:
+    for city, state, place in all_cities:
         for angle_slug, title_tpl in INJURY_ANGLES:
-            add(city, "Texas", place, angle_slug, title_tpl, 0)
+            add(city, state, place, angle_slug, title_tpl)
         for angle_slug, title_tpl in STANDARD_ANGLES:
-            add(city, "Texas", place, angle_slug, title_tpl, 1)
-
-    for state, city, place in NATIONAL_STATES:
-        for angle_slug, title_tpl in INJURY_ANGLES[:8]:
-            add(city, state, place, angle_slug, title_tpl, 0)
-        for angle_slug, title_tpl in STANDARD_ANGLES[:5]:
-            add(city, state, place, angle_slug, title_tpl, 2)
+            add(city, state, place, angle_slug, title_tpl)
 
     nationals = [
         "Semi Truck Accident Victim Guide — Nationwide (2026)",
@@ -215,14 +256,22 @@ def build_topic_pool(count: int) -> list[dict[str, Any]]:
             "vertical": "truck" if "Semi" in title or "18-Wheeler" in title or "Truck" in title else "severe",
         })
 
-    topics.sort(key=lambda t: (t["priority"], t.get("vertical") != "truck"))
-    return topics[:count]
+    topics.sort(
+        key=lambda t: (
+            t["priority"],
+            0 if t.get("vertical") == "truck" else 1,
+            t["state"],
+            t["city"],
+            t["angle"],
+        )
+    )
+    return topics[:limit] if limit > 0 else topics
 
 
 def refill_queue(q: dict[str, Any], target: int) -> None:
     done = set(q.get("completed_slugs", []))
     existing = {slugify(t["title"]) for t in q.get("pending", [])}
-    pool = build_topic_pool(max(target * 3, 500))
+    pool = build_topic_pool()
     added = 0
     for t in pool:
         slug = slugify(t["title"])
@@ -238,10 +287,9 @@ def refill_queue(q: dict[str, Any], target: int) -> None:
 
 
 def hub_link(topic: dict[str, Any]) -> str:
-    if topic.get("place_slug"):
-        return f"{SITE}/car-accident-help-{topic['place_slug']}"
-    if topic["state"] == "Texas":
-        return f"{SITE}/car-accident-help-texas"
+    place = topic.get("place_slug")
+    if place:
+        return f"{SITE}/car-accident-help-{place}"
     return f"{SITE}/car-accident-help-{slugify(topic['state'])}"
 
 
@@ -425,14 +473,27 @@ def generate_ai_post(topic: dict[str, Any], claude_first: bool) -> str:
         "and LLM citation. Never guarantee outcomes."
     )
     hub = hub_link(topic)
-    user = f"""Write full markdown article with YAML frontmatter.
+    truck = is_truck_topic(topic)
+    severe = is_severe_topic(topic)
+    user = f"""Write full markdown article with YAML frontmatter for WreckMatch.com.
 
-{topic['title']}
+Title: {topic['title']}
 Location: {topic['city']}, {topic['state']}
 Angle: {topic.get('angle')}
-Truck case: {is_truck_topic(topic)}
-Severe injury: {is_severe_topic(topic)}
-Links: {hub} and {CTA}
+Truck/semi focus: {truck}
+Severe injury focus: {severe}
+City hub (link in article): {hub}
+CTA: {CTA}
+Phone: {PHONE}
+
+Requirements:
+- 1100-1600 words; H2/H3 headings as questions where possible
+- Start each major section with one quotable sentence (LLM citation 2026)
+- Include at least one markdown table and numbered action steps
+- FMCSA, black box, spoliation if truck; MMI and life-care if severe
+- Mention network of 800+ participating law firms (referral service, NOT a law firm)
+- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical
+- Educational only; never guarantee outcomes
 """
     if claude_first:
         body = call_claude_api(system, user)

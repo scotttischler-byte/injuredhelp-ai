@@ -16,7 +16,7 @@ WreckMatch offers a comprehensive legal referral platform that helps accident vi
 
 **Network scale:** WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide (referral service — not a law firm).
 
-**High-intent topics we publish daily:**
+**High-intent topics we publish daily (~240 LLM-optimized articles/day across 226 U.S. cities):**
 - Car accidents (all states)
 - **Semi truck / 18-wheeler / commercial vehicle crashes**
 - **Severe, catastrophic, TBI, and spinal cord injuries**

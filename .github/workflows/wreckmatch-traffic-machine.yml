@@ -1,5 +1,5 @@
 # WreckMatch Traffic Machine — 24/7/365 organic growth
-# Every 30 min: 2 blog posts (truck/severe injury priority) + social syndication + API hooks
+# Every 30 min: 5 Claude posts (~240/day) across 226 cities + syndication + API hooks
 
 name: WreckMatch traffic machine
 
@@ -10,7 +10,7 @@ on:
     inputs:
       batch:
         description: "Posts per run"
-        default: "2"
+        default: "5"
       refill:
         description: "Refill queue (0=skip)"
         default: "0"
@@ -26,6 +26,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -58,8 +59,8 @@ jobs:
           import json, pathlib, subprocess
           p = pathlib.Path('content/autopilot/blog_queue.json')
           q = json.loads(p.read_text())
-          if len(q.get('pending', [])) < 20:
-            subprocess.run(['python', 'scripts/wreckmatch_blog_autopilot.py', '--refill', '400'], check=True)
+          if len(q.get('pending', [])) < 400:
+            subprocess.run(['python', 'scripts/wreckmatch_blog_autopilot.py', '--refill', '8000'], check=True)
           "
 
       - name: Generate posts + syndication (Claude-first)
@@ -71,13 +72,13 @@ jobs:
           WRECKMATCH_SITE: https://www.wreckmatch.com
           TRAFFIC_MACHINE_SYNDICATE: "1"
         run: |
-          BATCH="${{ github.event.inputs.batch || '2' }}"
+          BATCH="${{ github.event.inputs.batch || '5' }}"
           python scripts/wreckmatch_blog_autopilot.py \
             --batch "$BATCH" \
             --ai \
             --claude-first \
             --syndicate \
-            --delay 4
+            --delay 3
 
       - name: Commit and push (Vercel deploy)
         run: |

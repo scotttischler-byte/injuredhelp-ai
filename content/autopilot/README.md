@@ -6,16 +6,16 @@ Automated **organic traffic engine** for car accidents, **semi truck crashes**, 
 
 | Output | Location |
 |--------|----------|
-| 2 blog posts | `content/blog/*.md` |
-| Social copy (X, LinkedIn, Facebook) | `content/syndication/latest.json` |
+| **5** Claude blog posts | `content/blog/*.md` |
+| Social copy (X, LinkedIn, Facebook, Reddit) | `content/syndication/*.json` |
 | Topic queue | `content/autopilot/blog_queue.json` |
 
-**~96 blog posts/day** · **~48 syndication packs/day**
+**~240 blog posts/day** · **226 cities** in queue · **~5,000** topic combinations (22 angles × city)
 
 ## GitHub Actions
 
 **Workflow:** `.github/workflows/wreckmatch-traffic-machine.yml`  
-**Schedule:** `*/30 * * * *` (every 30 minutes)
+**Schedule:** `*/30 * * * *` (every 30 minutes, **5 posts/run**)
 
 ### Required secrets
 
@@ -62,7 +62,7 @@ export BLOG_MACHINE_INTERVAL_SEC=1800   # 30 min
 
 | Mode | Daily cost (96 posts) |
 |------|------------------------|
-| Claude Sonnet | ~$15–40/day at full volume |
+| Claude Sonnet | ~$40–90/day at **5 posts × 48 runs** (~240/day) |
 | Template only (`--ai` off) | $0 |
 
 Tune batch to `1` in workflow if you want lower cost (~$8–20/day).
