@@ -5,6 +5,16 @@ import { ADMIN_COOKIE, expectedAdminCookieValue } from "@/lib/admin-session";
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // Public SEO URLs: /car-accident-help-houston/truck → /car-accident-help/houston/truck
+  const geoVariantMatch = pathname.match(
+    /^\/car-accident-help-([a-z0-9-]+)\/(truck|rideshare|motorcycle)\/?$/i,
+  );
+  if (geoVariantMatch) {
+    const url = req.nextUrl.clone();
+    url.pathname = `/car-accident-help/${geoVariantMatch[1]}/${geoVariantMatch[2]}`;
+    return NextResponse.rewrite(url);
+  }
+
   // Public SEO URLs: /car-accident-help-wisconsin → internal /car-accident-help/wisconsin
   const geoMatch = pathname.match(/^\/car-accident-help-([a-z0-9-]+)\/?$/i);
   if (geoMatch) {

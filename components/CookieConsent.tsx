@@ -31,7 +31,7 @@ export function CookieConsent() {
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 z-[70] border-t border-gray-700 bg-gray-950/95 px-4 py-3 shadow-2xl backdrop-blur-sm md:py-4"
+      className="fixed bottom-0 left-0 right-0 z-[70] border-t border-gray-700 bg-gray-950 px-4 py-3 shadow-2xl md:py-4"
       role="dialog"
       aria-label="Cookie consent"
     >

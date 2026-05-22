@@ -47,12 +47,6 @@ body {
   animation: hero-radial-pulse 10s ease-in-out infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .hero-radial-pulse {
-    will-change: transform, opacity;
-  }
-}
-
 /* Urgency pill entrance */
 @keyframes urgency-slide-down {
   from {
@@ -67,7 +61,6 @@ body {
 
 .animate-urgency-in {
   animation: urgency-slide-down 0.65s ease-out both;
-  will-change: transform, opacity;
 }
 
 /* Stats count-up section entrance */
@@ -84,7 +77,6 @@ body {
 
 .stat-reveal {
   animation: fade-up-in 0.55s ease-out both;
-  will-change: transform, opacity;
 }
 
 /* How-it-works step reveal */
@@ -94,7 +86,6 @@ body {
   transition:
     opacity 0.5s ease-out,
     transform 0.5s ease-out;
-  will-change: transform, opacity;
 }
 
 .step-reveal.step-reveal-visible {
@@ -114,7 +105,6 @@ body {
 
 .trust-marquee-track {
   animation: trust-marquee 28s linear infinite;
-  will-change: transform;
 }
 
 @media (min-width: 768px) {
@@ -138,5 +128,20 @@ body {
 
 .page-enter {
   animation: page-enter 0.3s ease-out both;
-  will-change: opacity, transform;
+}
+
+/* Reduce GPU load / blur compositing on long sessions */
+@media (prefers-reduced-motion: reduce) {
+  .hero-radial-pulse,
+  .trust-marquee-track,
+  .animate-urgency-in,
+  .stat-reveal,
+  .page-enter {
+    animation: none !important;
+  }
+
+  .step-reveal {
+    opacity: 1;
+    transform: none;
+  }
 }

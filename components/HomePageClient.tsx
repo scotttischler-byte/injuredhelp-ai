@@ -106,7 +106,7 @@ export function HomePageClient() {
         </div>
       </section>
 
-      <HomePageBelowFold lang={lang} t={t} formInView={formInView} scrollToForm={scrollToForm} />
+      <HomePageBelowFold lang={lang} t={t} formInView={formInView} />
       <StickyConversionBar visible={!formInView} onScrollToForm={scrollToForm} />
     </div>
   );

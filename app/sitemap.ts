@@ -3,13 +3,16 @@ import { headers } from "next/headers";
 import { getAllGeoHubSlugs } from "@/lib/geo-routes";
 import { getAllPosts } from "@/lib/posts";
 import { TEXAS_METRO_LINKS } from "@/lib/texas-metro-links";
+import { ACCIDENT_VARIANT_CITIES, PRIORITY_PLACE_BY_SLUG } from "@/lib/priority-places/registry";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 const TEXAS_PLACE_SLUGS = new Set(TEXAS_METRO_LINKS.map((m) => m.placeSlug));
+const PRIORITY_PLACE_SLUGS = new Set(PRIORITY_PLACE_BY_SLUG.keys());
+const VARIANTS = ["truck", "rideshare", "motorcycle"] as const;
 
 function geoPagePriority(slug: string): number {
   const place = slug.replace(/^car-accident-help-/, "");
-  if (TEXAS_PLACE_SLUGS.has(place)) return 0.92;
+  if (TEXAS_PLACE_SLUGS.has(place) || PRIORITY_PLACE_SLUGS.has(place)) return 0.92;
   if (slug === "car-accident-help-texas") return 0.9;
   if (slug.startsWith("car-accident-help-")) return 0.75;
   return 0.6;
@@ -48,5 +51,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: geoPagePriority(slug),
   }));
 
-  return [...staticPages, ...blogPosts, ...geoPages];
+  const variantPages = ACCIDENT_VARIANT_CITIES.flatMap((c) =>
+    VARIANTS.map((variant) => ({
+      url: `${origin}/car-accident-help-${c.placeSlug}/${variant}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.88,
+    })),
+  );
+
+  return [...staticPages, ...blogPosts, ...geoPages, ...variantPages];
 }

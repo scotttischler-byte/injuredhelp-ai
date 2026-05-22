@@ -261,10 +261,10 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
   en: {
     urgencyBadge: "🚨 If You Were in an Accident — Read This",
     liveIndicator: "Attorney team available now",
-    headline1: "You Were in an Accident.",
-    headline2: "Get the Attorney You Deserve.",
+    headline1: "Car Accident Lawyer &",
+    headline2: "Personal Injury Attorney Matching",
     subheadline:
-      "WreckMatch connects you with experienced personal injury attorneys in your state — free matching in under 60 seconds. No upfront fees.",
+      "Nationwide car accident, truck accident, and rideshare injury help — free attorney matching in under 60 seconds. Licensed lawyers in all 50 states. No upfront fees.",
     trustItem1: "855 WRECKMATCH",
     trustItem2: "60-Second Callback",
     trustItem3: "All 50 States",

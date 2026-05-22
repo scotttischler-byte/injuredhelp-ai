@@ -14,7 +14,9 @@ import {
 import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import type { GeoHub } from "@/lib/geo-routes";
 import { cityHubSlug, stateHubSlug } from "@/lib/geo-routes";
-import { texasCitySlugFromHubSlug } from "@/lib/texas-city-content";
+import { enrichedPlaceSlugFromHubSlug } from "@/lib/priority-places/content-builder";
+import { isPriorityState, priorityPlacesForState } from "@/lib/priority-places/registry";
+import { priorityMetroHubPath } from "@/lib/priority-metro-links";
 
 type Props = {
   hub: GeoHub;
@@ -30,43 +32,54 @@ export function GeoHubContent({ hub }: Props) {
   const faqs = buildGeoFaqs(hub);
   const keywords = geoKeywords(hub);
   const related = geoRelatedLinks(hub);
-  const isTexasPriorityCity = !isState && texasCitySlugFromHubSlug(hub.slug) !== null;
+  const enrichedSlug = !isState ? enrichedPlaceSlugFromHubSlug(hub.slug) : null;
+  const isEnrichedCity = enrichedSlug !== null;
+  const isPriorityStateHub = isState && isPriorityState(name);
 
   const title =
-    isTexasPriorityCity && !isState
-      ? `What to Do After a Car Accident in ${name}, Texas (2026 Guide)`
-      : isState
-        ? `Car Accident Help in ${name}`
-        : `Car Accident Help in ${name}, ${hub.profile.state}`;
+    isEnrichedCity && !isState
+      ? `What to Do After a Car Accident in ${name} (2026 Guide)`
+      : isPriorityStateHub
+        ? `Car Accident Lawyer ${name} — What to Do After a Crash (2026)`
+        : isState
+          ? `Car Accident Help in ${name}`
+          : `Car Accident Help in ${name}, ${hub.profile.state}`;
   const intro = isState
-    ? `Injured in a ${name} car crash? WreckMatch connects accident victims with experienced personal injury attorneys in ${name} at no upfront cost. We are a referral service operated by WreckMatch LLC — not a law firm. We call you back within 60 seconds.`
-    : isTexasPriorityCity
-      ? `Hurt in a ${name}, Texas car accident? This 2026 guide covers immediate steps, Texas statute of limitations, insurance tactics, and free attorney matching. WreckMatch LLC is a referral service — not a law firm. Last updated May 2026.`
+    ? isPriorityStateHub
+      ? `Injured in a ${name} car crash? This hub links every major ${name} city guide plus statewide deadlines, insurance basics, and free attorney matching. WreckMatch LLC is a referral service — not a law firm. Last updated May 2026.`
+      : `Injured in a ${name} car crash? WreckMatch connects accident victims with experienced personal injury attorneys in ${name} at no upfront cost. We are a referral service operated by WreckMatch LLC — not a law firm. We call you back within 60 seconds.`
+    : isEnrichedCity
+      ? `Hurt in a ${name} car accident? This 2026 guide covers immediate steps, ${hub.profile.state} statute of limitations, insurance tactics, and free attorney matching. WreckMatch LLC is a referral service — not a law firm. Last updated May 2026.`
       : `${name} sees heavy traffic and serious crashes every year. If you were hurt in a ${name} accident, WreckMatch connects you with licensed ${hub.profile.state} attorneys at no upfront cost — we are not a law firm.`;
 
-  const shellClass = isTexasPriorityCity
-    ? "min-h-screen bg-slate-950 text-slate-100"
-    : "min-h-screen bg-gray-100 text-gray-900";
+  const shellClass =
+    isEnrichedCity || isPriorityStateHub
+      ? "min-h-screen bg-slate-950 text-slate-100"
+      : "min-h-screen bg-gray-100 text-gray-900";
+  const proseMuted = isEnrichedCity || isPriorityStateHub ? "text-slate-300" : "text-gray-700";
+  const proseHeading = isEnrichedCity || isPriorityStateHub ? "text-white" : "text-gray-950";
 
   return (
     <div className={shellClass}>
       <SiteHeader />
       <article className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
-        <nav className="mb-6 text-sm text-gray-500">
-          <Link href="/" className="hover:text-[#cc0000]">
+        <nav className={`mb-6 text-sm ${isEnrichedCity || isPriorityStateHub ? "text-slate-400" : "text-gray-500"}`}>
+          <Link href="/" className="hover:text-emerald-400">
             Home
           </Link>
           <span className="mx-2">/</span>
-          <Link href="/states" className="hover:text-[#cc0000]">
+          <Link href="/states" className="hover:text-emerald-400">
             States
           </Link>
           <span className="mx-2">/</span>
-          <span className="text-gray-800">{name}</span>
+          <span className={isEnrichedCity || isPriorityStateHub ? "text-slate-200" : "text-gray-800"}>{name}</span>
         </nav>
 
-        <h1 className="text-3xl font-extrabold tracking-tight text-gray-950 sm:text-4xl">{title}</h1>
-        <p className="mt-4 text-lg leading-relaxed text-gray-600">{intro}</p>
-        <p className="mt-2 text-xs text-gray-500">
+        <h1 className={`text-3xl font-extrabold tracking-tight sm:text-4xl ${proseHeading}`}>{title}</h1>
+        <p className={`mt-4 text-lg leading-relaxed ${isEnrichedCity || isPriorityStateHub ? "text-slate-400" : "text-gray-600"}`}>
+          {intro}
+        </p>
+        <p className={`mt-2 text-xs ${isEnrichedCity || isPriorityStateHub ? "text-slate-500" : "text-gray-500"}`}>
           {keywords.slice(0, 3).join(" · ")}
         </p>
 
@@ -85,17 +98,17 @@ export function GeoHubContent({ hub }: Props) {
         <ReferralDisclaimer variant="primary" className="mt-8 border-gray-200 bg-white text-gray-600" />
 
         {sections.map((section) => (
-          <section key={section.id} className="prose prose-gray mt-10 max-w-none">
-            <h2>{section.title}</h2>
+          <section key={section.id} className="mt-10 max-w-none">
+            <h2 className={`text-xl font-bold ${proseHeading}`}>{section.title}</h2>
             {section.paragraphs.map((p) => (
-              <p key={p.slice(0, 40)}>{p}</p>
+              <p key={p.slice(0, 40)} className={`mt-3 leading-relaxed ${proseMuted}`}>
+                {p}
+              </p>
             ))}
             {section.listItems && section.listItems.length > 0 && (
-              <ol className="mt-4 list-decimal space-y-2 pl-5">
+              <ol className={`mt-4 list-decimal space-y-2 pl-5 ${proseMuted}`}>
                 {section.listItems.map((item) => (
-                  <li key={item.slice(0, 48)} className="text-gray-700">
-                    {item}
-                  </li>
+                  <li key={item.slice(0, 48)}>{item}</li>
                 ))}
               </ol>
             )}
@@ -149,9 +162,9 @@ export function GeoHubContent({ hub }: Props) {
         ))}
 
         {isState && name === "Texas" ? (
-          <section className="mt-10 rounded-2xl border border-gray-200 bg-gray-50 p-6">
-            <h2 className="text-xl font-bold text-gray-900">Texas city guides (2026) — AI-optimized</h2>
-            <p className="mt-2 text-sm text-gray-600">
+          <section className="mt-10 rounded-2xl border border-emerald-500/30 bg-slate-900 p-6">
+            <h2 className="text-xl font-bold text-white">Texas city guides (2026)</h2>
+            <p className="mt-2 text-sm text-slate-400">
               Hyper-local guides for the busiest Texas metros: statute of limitations, insurance tactics,
               and free attorney matching.
             </p>
@@ -159,13 +172,29 @@ export function GeoHubContent({ hub }: Props) {
               <TexasMetroLinks variant="inline" showStateLink={false} />
             </div>
           </section>
+        ) : isState && isPriorityStateHub ? (
+          <section className="mt-10 rounded-2xl border border-emerald-500/30 bg-slate-900 p-6">
+            <h2 className="text-xl font-bold text-white">Major {name} city guides (2026)</h2>
+            <p className="mt-2 text-sm text-slate-400">
+              Car accident lawyer {name} resources by metro — local stats, deadlines, and free matching.
+            </p>
+            <ul className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
+              {priorityPlacesForState(name).map((p) => (
+                <li key={p.placeSlug}>
+                  <Link href={priorityMetroHubPath(p.placeSlug)} className="text-emerald-400 hover:underline">
+                    {p.city}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
         ) : isState ? (
           <section className="mt-10">
-            <h2 className="text-xl font-bold text-gray-900">Major cities we serve in {name}</h2>
+            <h2 className={`text-xl font-bold ${proseHeading}`}>Major cities we serve in {name}</h2>
             <ul className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
               {hub.profile.majorCities.map((city) => (
                 <li key={city}>
-                  <Link href={`/${cityHubSlug(city)}`} className="text-[#cc0000] hover:underline">
+                  <Link href={`/${cityHubSlug(city)}`} className="text-emerald-500 hover:underline">
                     {city}
                   </Link>
                 </li>

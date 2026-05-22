@@ -40,7 +40,7 @@ export function SiteHeader() {
   const closeMobile = () => setMobileOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-800/90 bg-gray-950/95 shadow-sm shadow-black/20 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-800/90 bg-gray-950 shadow-sm shadow-black/20">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-2 px-3 sm:gap-3 sm:px-4">
         <LogoLight href="/" />
 

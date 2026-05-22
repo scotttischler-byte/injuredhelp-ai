@@ -432,6 +432,7 @@ export const ALL_CITIES: CityProfile[] = [
     "slug": "car-accident-lawyer-aurora-colorado",
     "city": "Aurora",
     "state": "Colorado",
+    "placeSlug": "aurora-colorado",
     "stateSlug": "car-accident-lawyer-colorado",
     "population": "See U.S. Census estimates",
     "majorHighways": [
@@ -752,6 +753,7 @@ export const ALL_CITIES: CityProfile[] = [
     "slug": "car-accident-lawyer-columbus-georgia",
     "city": "Columbus",
     "state": "Georgia",
+    "placeSlug": "columbus-georgia",
     "stateSlug": "car-accident-lawyer-georgia",
     "population": "See U.S. Census estimates",
     "majorHighways": [
@@ -944,6 +946,7 @@ export const ALL_CITIES: CityProfile[] = [
     "slug": "car-accident-lawyer-aurora-illinois",
     "city": "Aurora",
     "state": "Illinois",
+    "placeSlug": "aurora-illinois",
     "stateSlug": "car-accident-lawyer-illinois",
     "population": "See U.S. Census estimates",
     "majorHighways": [
@@ -2208,6 +2211,7 @@ export const ALL_CITIES: CityProfile[] = [
     "slug": "car-accident-lawyer-new-york-city-new-york",
     "city": "New York City",
     "state": "New York",
+    "placeSlug": "new-york-city",
     "stateSlug": "car-accident-lawyer-new-york",
     "population": "See U.S. Census estimates",
     "majorHighways": [
@@ -3116,6 +3120,149 @@ export const ALL_CITIES: CityProfile[] = [
     "majorHighways": ["I-30", "I-20", "US-287", "State Highway 360"],
     "localHospitals": ["Texas Health Arlington Memorial", "Medical City Arlington"],
     "localTip": "Arlington (Texas) sits between Dallas and Fort Worth with heavy I-30 game-day and entertainment district traffic. Use arlington-texas URL — not Virginia."
+  },
+  {
+    "slug": "car-accident-lawyer-garland-texas",
+    "city": "Garland",
+    "state": "Texas",
+    "placeSlug": "garland",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~245,000 (city); Dallas County",
+    "majorHighways": ["I-635", "I-30", "SH 78", "President George Bush Turnpike"],
+    "localHospitals": ["Baylor Scott & White Garland", "Medical City Garland"],
+    "localTip": "Garland commuter crashes on I-635 and I-30 are common in the Dallas metro."
+  },
+  {
+    "slug": "car-accident-lawyer-frisco-texas",
+    "city": "Frisco",
+    "state": "Texas",
+    "placeSlug": "frisco",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~220,000 (city); Collin County",
+    "majorHighways": ["Dallas North Tollway", "SH 121", "US-380"],
+    "localHospitals": ["Baylor Scott & White Frisco", "Medical City Frisco"],
+    "localTip": "Frisco growth corridors see high-speed intersection and parking-lot injury crashes."
+  },
+  {
+    "slug": "car-accident-lawyer-mckinney-texas",
+    "city": "McKinney",
+    "state": "Texas",
+    "placeSlug": "mckinney",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~210,000 (city); Collin County",
+    "majorHighways": ["US-75", "SH 121", "SH 380"],
+    "localHospitals": ["Medical City McKinney", "Baylor Scott & White McKinney"],
+    "localTip": "McKinney US-75 rush-hour rear-ends are among the most common Collin County claims."
+  },
+  {
+    "slug": "car-accident-lawyer-grand-prairie-texas",
+    "city": "Grand Prairie",
+    "state": "Texas",
+    "placeSlug": "grand-prairie",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~200,000 (city); Dallas/Tarrant counties",
+    "majorHighways": ["I-20", "I-30", "SH 360"],
+    "localHospitals": ["Methodist Grand Prairie", "Medical City Arlington"],
+    "localTip": "Grand Prairie I-20/I-30 interchange crashes drive Tarrant and Dallas County injury volume."
+  },
+  {
+    "slug": "car-accident-lawyer-amarillo-texas",
+    "city": "Amarillo",
+    "state": "Texas",
+    "placeSlug": "amarillo",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~200,000 (city); Panhandle hub",
+    "majorHighways": ["I-40", "I-27", "Loop 335"],
+    "localHospitals": ["Northwest Texas Healthcare System", "BSA Hospital"],
+    "localTip": "Amarillo I-40 truck and weather-related crashes often cause severe injuries."
+  },
+  {
+    "slug": "car-accident-lawyer-brownsville-texas",
+    "city": "Brownsville",
+    "state": "Texas",
+    "placeSlug": "brownsville",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~195,000 (city); Cameron County",
+    "majorHighways": ["I-69E", "US-77", "SH 550"],
+    "localHospitals": ["Valley Baptist Medical Center"],
+    "localTip": "Brownsville border commerce on I-69E creates heavy intersection injury claims."
+  },
+  {
+    "slug": "car-accident-lawyer-killeen-texas",
+    "city": "Killeen",
+    "state": "Texas",
+    "placeSlug": "killeen",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~155,000 (city); Bell County / Fort Hood area",
+    "majorHighways": ["I-14", "US-190", "SH 201"],
+    "localHospitals": ["Carl R. Darnall Army Medical Center", "Seton Harker Heights"],
+    "localTip": "Killeen military commuter and US-190 corridor crashes are common in Central Texas."
+  },
+  {
+    "slug": "car-accident-lawyer-pasadena-texas",
+    "city": "Pasadena",
+    "state": "Texas",
+    "placeSlug": "pasadena-texas",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~150,000 (city); Harris County",
+    "majorHighways": ["I-45", "SH 225", "Beltway 8"],
+    "localHospitals": ["HCA Houston Healthcare Southeast", "Bayshore Medical Center"],
+    "localTip": "Pasadena refinery and port traffic increases commercial truck and rear-end claims."
+  },
+  {
+    "slug": "car-accident-lawyer-laredo-texas",
+    "city": "Laredo",
+    "state": "Texas",
+    "placeSlug": "laredo",
+    "stateSlug": "car-accident-lawyer-texas",
+    "population": "~255,000 (city); Webb County border metro",
+    "majorHighways": ["I-35", "US-59", "Loop 20"],
+    "localHospitals": ["Laredo Medical Center", "Doctors Hospital of Laredo"],
+    "localTip": "Laredo I-35 border commerce drives truck and multi-vehicle injury volume."
+  },
+  {
+    "slug": "car-accident-lawyer-manhattan-new-york",
+    "city": "Manhattan",
+    "state": "New York",
+    "placeSlug": "manhattan",
+    "stateSlug": "car-accident-lawyer-new-york",
+    "population": "~1.6 million (borough)",
+    "majorHighways": ["FDR Drive", "West Side Hwy", "Broadway", "Canal St"],
+    "localHospitals": ["Bellevue", "NYU Langone", "Mount Sinai"],
+    "localTip": "Manhattan taxi, delivery, and pedestrian crashes dominate Downtown and Midtown claims."
+  },
+  {
+    "slug": "car-accident-lawyer-brooklyn-new-york",
+    "city": "Brooklyn",
+    "state": "New York",
+    "placeSlug": "brooklyn",
+    "stateSlug": "car-accident-lawyer-new-york",
+    "population": "~2.7 million (borough)",
+    "majorHighways": ["BQE", "Atlantic Ave", "Flatbush Ave"],
+    "localHospitals": ["Maimonides", "NYU Langone Brooklyn", "Kings County Hospital"],
+    "localTip": "Brooklyn BQE and Atlantic Ave corridors see high-speed intersection injuries."
+  },
+  {
+    "slug": "car-accident-lawyer-queens-new-york",
+    "city": "Queens",
+    "state": "New York",
+    "placeSlug": "queens",
+    "stateSlug": "car-accident-lawyer-new-york",
+    "population": "~2.4 million (borough)",
+    "majorHighways": ["Grand Central Pkwy", "I-495 (LIE)", "Van Wyck"],
+    "localHospitals": ["Elmhurst Hospital", "NYC Health + Hospitals/Queens"],
+    "localTip": "Queens airport and LIE commuter traffic drives multi-vehicle and pedestrian claims."
+  },
+  {
+    "slug": "car-accident-lawyer-bronx-new-york",
+    "city": "Bronx",
+    "state": "New York",
+    "placeSlug": "bronx",
+    "stateSlug": "car-accident-lawyer-new-york",
+    "population": "~1.4 million (borough)",
+    "majorHighways": ["Cross Bronx Expressway", "Major Deegan", "Bruckner Blvd"],
+    "localHospitals": ["Jacobi Medical Center", "Montefiore"],
+    "localTip": "Bronx Cross Bronx Expressway ranks among the highest injury corridors in New York State."
   },
   {
     "slug": "car-accident-lawyer-el-paso-texas",

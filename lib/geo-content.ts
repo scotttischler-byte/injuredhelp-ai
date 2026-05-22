@@ -4,11 +4,13 @@ import type { FaqItem } from "@/lib/seo";
 import type { CityProfile } from "@/lib/cities";
 import { ALL_STATES, type StateProfile } from "@/lib/states";
 import {
-  TEXAS_CITY_CONTENT,
-  texasCitySlugFromHubSlug,
-  type TexasCityContent,
-} from "@/lib/texas-city-content";
+  getEnrichedCityContent,
+  enrichedPlaceSlugFromHubSlug,
+} from "@/lib/priority-places/content-builder";
+import type { EnrichedCityContent } from "@/lib/priority-places/types";
+import { isPriorityState, priorityPlacesForState, hubSlugForPlace } from "@/lib/priority-places/registry";
 import { TEXAS_METRO_LINKS, TEXAS_STATE_HUB, texasMetroHubPath } from "@/lib/texas-metro-links";
+import { ACCIDENT_VARIANT_CITIES } from "@/lib/priority-places/registry";
 
 const COMMON_CRASH_TYPES = [
   "rear-end collisions at signals and on highways",
@@ -59,33 +61,43 @@ export function geoAccidentTypes(hub: GeoHub): string[] {
   return pickVariants(hub.slug, COMMON_CRASH_TYPES, 3).map((t) => `${t} in ${place}`);
 }
 
-function buildTexasCityFaqs(tc: TexasCityContent): FaqItem[] {
+function buildEnrichedCityFaqs(tc: EnrichedCityContent): FaqItem[] {
   const city = tc.city;
-  return [
+  const state = tc.state;
+  const st = stateProfileForName(state);
+  const sol = st?.statuteOfLimitationsYears ?? 2;
+  const faqs: FaqItem[] = [
     {
       question: `What should I do immediately after a car accident in ${city}?`,
       answer:
         "Call 911 if injured, document the scene with photos, exchange insurance information, seek medical care within 24 hours, and avoid giving a recorded statement to insurance before speaking with counsel.",
     },
     {
-      question: `How long do I have to file a car accident lawsuit in ${city}, Texas?`,
-      answer:
-        "Texas generally allows two years for most personal injury claims under the statute of limitations, but exceptions apply. Confirm deadlines with a licensed Texas attorney.",
+      question: `How long do I have to file a car accident lawsuit in ${city}, ${state}?`,
+      answer: `${state} generally allows about ${sol} years for many personal injury claims, but exceptions apply. Confirm deadlines with a licensed ${state} attorney.`,
     },
     {
       question: `Is WreckMatch a law firm in ${city}?`,
-      answer:
-        "No. WreckMatch LLC is a legal referral service connecting accident victims with licensed Texas personal injury attorneys at no upfront cost. We do not provide legal advice.",
+      answer: `No. WreckMatch LLC is a legal referral service connecting accident victims with licensed ${state} personal injury attorneys at no upfront cost. We do not provide legal advice.`,
     },
-    {
+  ];
+  if (state === "Texas") {
+    faqs.splice(3, 0, {
       question: `What is Texas modified comparative fault?`,
       answer:
         "Texas uses proportionate responsibility: if you are more than 50% at fault, you generally cannot recover damages. If 50% or less at fault, recovery may be reduced by your fault percentage.",
-    },
+    });
+  } else if (st) {
+    faqs.splice(3, 0, {
+      question: `How does fault work for car accidents in ${state}?`,
+      answer: `${state} uses a ${st.comparativeFault} negligence framework${st.noFault ? " with no-fault insurance rules that can affect medical claims" : ""}. An attorney should apply these rules to your facts.`,
+    });
+  }
+  faqs.push(
     {
       question: `How fast does WreckMatch respond in ${city}?`,
       answer:
-        "After you submit the form at wreckmatch.com, our team typically initiates callback within 60 seconds to start free attorney matching.",
+        "After you submit the form at wreckmatch.com or call 855 WRECKMATCH, our team typically initiates callback within 60 seconds to start free attorney matching.",
     },
     {
       question: `Should I talk to the insurance adjuster after a ${city} crash?`,
@@ -101,11 +113,16 @@ function buildTexasCityFaqs(tc: TexasCityContent): FaqItem[] {
       answer:
         "Matching is free. Referred attorneys typically work on contingency — you pay nothing unless you win, per your agreement with the lawyer you hire.",
     },
-  ];
+  );
+  return faqs;
 }
 
-function buildTexasCitySections(tc: TexasCityContent): GeoContentSection[] {
+function buildEnrichedCitySections(tc: EnrichedCityContent): GeoContentSection[] {
   const city = tc.city;
+  const state = tc.state;
+  const st = stateProfileForName(state);
+  const sol = st?.statuteOfLimitationsYears ?? 2;
+  const faultLabel = state === "Texas" ? "Modified comparative — 51% bar" : (st?.comparativeFault ?? "State-specific");
   return [
     {
       id: "immediate",
@@ -128,15 +145,15 @@ function buildTexasCitySections(tc: TexasCityContent): GeoContentSection[] {
     },
     {
       id: "deadlines",
-      title: "Texas statute of limitations & fault rules",
+      title: `${state} statute of limitations & fault rules`,
       paragraphs: [
-        "Texas Civil Practice & Remedies Code § 16.003 sets a general two-year window for many injury claims. Proportionate responsibility (51% bar) applies to fault.",
+        `${state} injury claims are subject to filing deadlines and fault rules that vary by case type. Confirm with licensed ${state} counsel — this is educational only.`,
       ],
       table: {
         headers: ["Item", "Detail"],
         rows: [
-          ["Statute of limitations", "2 years (most PI claims)"],
-          ["Fault system", "Modified comparative — 51% bar"],
+          ["Statute of limitations", `${sol} years (many PI claims — exceptions apply)`],
+          ["Fault system", faultLabel],
           ["High-risk corridors", tc.highways],
           ["Trauma centers", tc.hospitals],
         ],
@@ -156,7 +173,7 @@ function buildTexasCitySections(tc: TexasCityContent): GeoContentSection[] {
     },
     {
       id: "insurance",
-      title: "Insurance company tactics in Texas",
+      title: `Insurance company tactics in ${city}`,
       paragraphs: [`Adjusters handling ${city} claims often use these strategies:`],
       listItems: tc.insuranceTactics,
     },
@@ -181,8 +198,11 @@ function buildTexasCitySections(tc: TexasCityContent): GeoContentSection[] {
 
 export function buildGeoFaqs(hub: GeoHub): FaqItem[] {
   if (hub.type === "city") {
-    const tcSlug = texasCitySlugFromHubSlug(hub.slug);
-    if (tcSlug) return buildTexasCityFaqs(TEXAS_CITY_CONTENT[tcSlug]);
+    const enrichedSlug = enrichedPlaceSlugFromHubSlug(hub.slug);
+    if (enrichedSlug) {
+      const ec = getEnrichedCityContent(enrichedSlug);
+      if (ec) return buildEnrichedCityFaqs(ec);
+    }
   }
   const place = geoPlaceLabel(hub);
   const state =
@@ -232,8 +252,11 @@ export type GeoContentSection = {
 
 export function buildGeoSections(hub: GeoHub): GeoContentSection[] {
   if (hub.type === "city") {
-    const tcSlug = texasCitySlugFromHubSlug(hub.slug);
-    if (tcSlug) return buildTexasCitySections(TEXAS_CITY_CONTENT[tcSlug]);
+    const enrichedSlug = enrichedPlaceSlugFromHubSlug(hub.slug);
+    if (enrichedSlug) {
+      const ec = getEnrichedCityContent(enrichedSlug);
+      if (ec) return buildEnrichedCitySections(ec);
+    }
   }
 
   const place = geoPlaceLabel(hub);
@@ -242,7 +265,10 @@ export function buildGeoSections(hub: GeoHub): GeoContentSection[] {
   const accidents = geoAccidentTypes(hub);
 
   if (hub.type === "state" && state) {
-    return [
+    const priorityCities = isPriorityState(hub.profile.state)
+      ? priorityPlacesForState(hub.profile.state)
+      : [];
+    const sections: GeoContentSection[] = [
       {
         id: "local-crashes",
         title: `Common car accident types in ${place}`,
@@ -276,6 +302,19 @@ export function buildGeoSections(hub: GeoHub): GeoContentSection[] {
         ],
       },
     ];
+    if (priorityCities.length > 0) {
+      sections.push({
+        id: "priority-metros",
+        title: `What to do after a car accident in ${place} — major city guides`,
+        paragraphs: [
+          `WreckMatch publishes 2026 city guides for high-volume metros in ${place}. Each guide covers local corridors, deadlines, insurance tactics, and free attorney matching.`,
+        ],
+        listItems: priorityCities.map(
+          (p) => `${p.city}: /${hubSlugForPlace(p.placeSlug)}`,
+        ),
+      });
+    }
+    return sections;
   }
 
   const city = hub.profile as CityProfile;
@@ -331,19 +370,39 @@ export function geoRelatedLinks(hub: GeoHub): { href: string; label: string }[] 
       href: `/${stateHubSlug(hub.profile.state)}`,
       label: `${hub.profile.state} car accident help`,
     });
-    const tcSlug = texasCitySlugFromHubSlug(hub.slug);
-    if (tcSlug) {
+    const enrichedSlug = enrichedPlaceSlugFromHubSlug(hub.slug);
+    if (enrichedSlug && hub.profile.state === "Texas") {
       TEXAS_METRO_LINKS.forEach((m) => {
-        if (m.placeSlug !== tcSlug) {
+        if (m.placeSlug !== enrichedSlug) {
           links.push({ href: texasMetroHubPath(m.placeSlug), label: `${m.label} car accident help` });
         }
       });
+    } else if (enrichedSlug && isPriorityState(hub.profile.state)) {
+      priorityPlacesForState(hub.profile.state)
+        .filter((p) => p.placeSlug !== enrichedSlug)
+        .slice(0, 8)
+        .forEach((p) => {
+          links.push({ href: `/${hubSlugForPlace(p.placeSlug)}`, label: `${p.city} car accident help` });
+        });
+    }
+    const variantBase = enrichedSlug;
+    if (variantBase && ACCIDENT_VARIANT_CITIES.some((c) => c.placeSlug === variantBase)) {
+      for (const v of ["truck", "rideshare", "motorcycle"] as const) {
+        links.push({
+          href: `/car-accident-help-${variantBase}/${v}`,
+          label: `${hub.profile.city} ${v} accident help`,
+        });
+      }
     }
   } else {
     if (hub.type === "state" && hub.profile.state === "Texas") {
       links.push({ href: TEXAS_STATE_HUB, label: "Texas statewide guide" });
       TEXAS_METRO_LINKS.forEach((m) => {
         links.push({ href: texasMetroHubPath(m.placeSlug), label: `${m.label} car accident help` });
+      });
+    } else if (hub.type === "state" && isPriorityState(hub.profile.state)) {
+      priorityPlacesForState(hub.profile.state).forEach((p) => {
+        links.push({ href: `/${hubSlugForPlace(p.placeSlug)}`, label: `${p.city} car accident help` });
       });
     } else {
       hub.profile.majorCities.slice(0, 6).forEach((city) => {

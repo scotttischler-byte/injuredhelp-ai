@@ -14,10 +14,9 @@ type Props = {
   lang: Lang;
   t: HomeCopy;
   formInView: boolean;
-  scrollToForm: () => void;
 };
 
-export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }: Props) {
+export default function HomePageBelowFold({ lang, t, formInView }: Props) {
   const [toastVisible, setToastVisible] = useState(false);
   const [toastIndex, setToastIndex] = useState(0);
   const [toastDismissed, setToastDismissed] = useState(false);
@@ -319,26 +318,6 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
         </div>
       )}
 
-      <div
-        className={`fixed inset-x-0 bottom-0 z-50 flex h-14 items-stretch gap-0 border-t border-gray-800 bg-gray-950 pb-[env(safe-area-inset-bottom,0px)] transition-transform duration-300 ease-out md:hidden ${
-          formInView ? "translate-y-full" : "translate-y-0"
-        }`}
-      >
-        <a
-          href="tel:19785156063"
-          onClick={() => trackTikTokClickButton("mobile_call_bar")}
-          className="flex flex-1 items-center justify-center bg-gray-900 text-sm font-semibold text-white transition-opacity duration-200 hover:bg-gray-800"
-        >
-          📞 {t.mobileCtaCall}
-        </a>
-        <button
-          type="button"
-          className="flex flex-1 items-center justify-center bg-[#cc0000] text-sm font-semibold text-white transition-opacity duration-200 hover:bg-[#b30000]"
-          onClick={scrollToForm}
-        >
-          {t.mobileCtaForm}
-        </button>
-      </div>
     </>
   );
 }

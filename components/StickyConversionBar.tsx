@@ -14,7 +14,7 @@ export function StickyConversionBar({ visible, onScrollToForm }: Props) {
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 z-50 border-t border-emerald-500/40 bg-slate-950/95 px-3 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.4)] backdrop-blur-md md:hidden"
+      className="fixed bottom-0 left-0 right-0 z-50 border-t border-emerald-500/40 bg-slate-950 px-3 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.4)] md:hidden"
       style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
     >
       <div className="mx-auto flex max-w-lg items-center gap-2">
