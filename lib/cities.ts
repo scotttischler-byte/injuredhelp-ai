@@ -2975,80 +2975,94 @@ export const ALL_CITIES: CityProfile[] = [
     "city": "Houston",
     "state": "Texas",
     "stateSlug": "car-accident-lawyer-texas",
-    "population": "See U.S. Census estimates",
+    "population": "~2.3 million (city); Harris County highest crash volume in Texas",
     "majorHighways": [
-      "Interstate corridors",
-      "State routes near metro area"
+      "I-45 (Gulf Freeway)",
+      "I-10",
+      "I-69/US-59",
+      "Beltway 8"
     ],
     "localHospitals": [
-      "Regional Medical Center",
-      "Level I/II trauma center (verify locally)"
+      "Memorial Hermann",
+      "Houston Methodist",
+      "Ben Taub (Level I trauma)"
     ],
-    "localTip": "Houston sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence."
+    "localTip": "Houston reports roughly 66,000+ crashes annually — highest in Texas. Rear-ends on I-45 and Beltway 8 are common; seek care and preserve evidence immediately."
   },
   {
     "slug": "car-accident-lawyer-san-antonio-texas",
     "city": "San Antonio",
     "state": "Texas",
     "stateSlug": "car-accident-lawyer-texas",
-    "population": "See U.S. Census estimates",
+    "population": "~1.5 million (city); Bexar County",
     "majorHighways": [
-      "Interstate corridors",
-      "State routes near metro area"
+      "I-35",
+      "Loop 410",
+      "US-281",
+      "SH 1604"
     ],
     "localHospitals": [
-      "Regional Medical Center",
-      "Level I/II trauma center (verify locally)"
+      "University Hospital",
+      "Methodist Hospital",
+      "Baptist Medical Center"
     ],
-    "localTip": "San Antonio sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence."
+    "localTip": "San Antonio sees roughly 39,000 reported crashes annually. I-35 and Loop 410 intersection collisions are frequent — document the scene and get medical care promptly."
   },
   {
     "slug": "car-accident-lawyer-dallas-texas",
     "city": "Dallas",
     "state": "Texas",
     "stateSlug": "car-accident-lawyer-texas",
-    "population": "See U.S. Census estimates",
+    "population": "~1.3 million (city); Dallas County",
     "majorHighways": [
-      "Interstate corridors",
-      "State routes near metro area"
+      "I-35E",
+      "I-30",
+      "I-635 (LBJ Freeway)",
+      "US-75"
     ],
     "localHospitals": [
-      "Regional Medical Center",
-      "Level I/II trauma center (verify locally)"
+      "Parkland Memorial (Level I trauma)",
+      "Baylor University Medical Center",
+      "UT Southwestern"
     ],
-    "localTip": "Dallas sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence."
+    "localTip": "Dallas County has among the highest fatality rates in Texas. Crashes on I-635 and I-35E are often severe — preserve evidence and avoid recorded insurer statements."
   },
   {
     "slug": "car-accident-lawyer-austin-texas",
     "city": "Austin",
     "state": "Texas",
     "stateSlug": "car-accident-lawyer-texas",
-    "population": "See U.S. Census estimates",
+    "population": "~1 million (city); Travis County",
     "majorHighways": [
-      "Interstate corridors",
-      "State routes near metro area"
+      "I-35",
+      "MoPac (Loop 1)",
+      "US-183",
+      "SH 130"
     ],
     "localHospitals": [
-      "Regional Medical Center",
-      "Level I/II trauma center (verify locally)"
+      "Dell Seton Medical Center",
+      "St. David's Medical Center",
+      "Ascension Seton"
     ],
-    "localTip": "Austin sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence."
+    "localTip": "Austin crash volume is rising with metro growth. I-35 construction zones and MoPac congestion drive serious injury crashes — document conditions and seek care quickly."
   },
   {
     "slug": "car-accident-lawyer-fort-worth-texas",
     "city": "Fort Worth",
     "state": "Texas",
     "stateSlug": "car-accident-lawyer-texas",
-    "population": "See U.S. Census estimates",
+    "population": "~950,000 (city); Tarrant County",
     "majorHighways": [
-      "Interstate corridors",
-      "State routes near metro area"
+      "I-35W",
+      "I-30",
+      "Loop 820",
+      "Chisholm Trail Parkway"
     ],
     "localHospitals": [
-      "Regional Medical Center",
-      "Level I/II trauma center (verify locally)"
+      "JPS Hospital",
+      "Texas Health Harris Methodist Fort Worth"
     ],
-    "localTip": "Fort Worth sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence."
+    "localTip": "Fort Worth and Tarrant County report significant annual crash volume. I-35W merge zones with Dallas create complex claims — get medical care and legal review early."
   },
   {
     "slug": "car-accident-lawyer-el-paso-texas",

@@ -12,6 +12,7 @@ import {
 } from "@/lib/geo-content";
 import type { GeoHub } from "@/lib/geo-routes";
 import { cityHubSlug, stateHubSlug } from "@/lib/geo-routes";
+import { texasCitySlugFromHubSlug } from "@/lib/texas-city-content";
 
 type Props = {
   hub: GeoHub;
@@ -32,9 +33,12 @@ export function GeoHubContent({ hub }: Props) {
     ? `Car Accident Help in ${name}`
     : `Car Accident Help in ${name}, ${hub.profile.state}`;
 
+  const isTexasPriorityCity = !isState && texasCitySlugFromHubSlug(hub.slug) !== null;
   const intro = isState
     ? `Injured in a ${name} car crash? WreckMatch connects accident victims with experienced personal injury attorneys in ${name} at no upfront cost. We are a referral service operated by WreckMatch LLC — not a law firm. We call you back within 60 seconds.`
-    : `${name} sees heavy traffic and serious crashes every year. If you were hurt in a ${name} accident, WreckMatch connects you with licensed ${hub.profile.state} attorneys at no upfront cost — we are not a law firm.`;
+    : isTexasPriorityCity
+      ? `Hurt in a ${name}, Texas car accident? This 2026 guide covers immediate steps, Texas statute of limitations, insurance tactics, and free attorney matching. WreckMatch LLC is a referral service — not a law firm. Last updated May 2026.`
+      : `${name} sees heavy traffic and serious crashes every year. If you were hurt in a ${name} accident, WreckMatch connects you with licensed ${hub.profile.state} attorneys at no upfront cost — we are not a law firm.`;
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
@@ -81,6 +85,61 @@ export function GeoHubContent({ hub }: Props) {
             {section.paragraphs.map((p) => (
               <p key={p.slice(0, 40)}>{p}</p>
             ))}
+            {section.listItems && section.listItems.length > 0 && (
+              <ol className="mt-4 list-decimal space-y-2 pl-5">
+                {section.listItems.map((item) => (
+                  <li key={item.slice(0, 48)} className="text-gray-700">
+                    {item}
+                  </li>
+                ))}
+              </ol>
+            )}
+            {section.table && (
+              <div className="mt-4 overflow-x-auto">
+                <table className="min-w-full border border-gray-200 text-sm">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      {section.table.headers.map((h) => (
+                        <th key={h} className="border border-gray-200 px-3 py-2 text-left font-semibold">
+                          {h}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {section.table.rows.map((row) => (
+                      <tr key={row.join("-").slice(0, 40)}>
+                        {row.map((cell) => (
+                          <td key={cell.slice(0, 30)} className="border border-gray-200 px-3 py-2">
+                            {cell}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+            {section.mistakeRows && section.mistakeRows.length > 0 && (
+              <div className="mt-4 overflow-x-auto">
+                <table className="min-w-full border border-gray-200 text-sm">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th className="border border-gray-200 px-3 py-2 text-left font-semibold">Mistake</th>
+                      <th className="border border-gray-200 px-3 py-2 text-left font-semibold">Consequence</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {section.mistakeRows.map((row) => (
+                      <tr key={row.mistake}>
+                        <td className="border border-gray-200 px-3 py-2 font-medium">{row.mistake}</td>
+                        <td className="border border-gray-200 px-3 py-2">{row.consequence}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
           </section>
         ))}
 

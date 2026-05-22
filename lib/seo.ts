@@ -88,6 +88,52 @@ export function faqPageJsonLd(faqs: FaqItem[]) {
   };
 }
 
+export function howToJsonLd(name: string, description: string, steps: { name: string; text: string }[]) {
+  return {
+    "@type": "HowTo",
+    name,
+    description,
+    step: steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+}
+
+export function breadcrumbJsonLd(
+  origin: string,
+  items: { name: string; path: string }[],
+) {
+  return {
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      item: `${origin}${item.path.startsWith("/") ? item.path : `/${item.path}`}`,
+    })),
+  };
+}
+
+export function localBusinessJsonLd(origin: string, city: string, brand: SiteBrand) {
+  const cfg = BRAND_CONFIG[brand];
+  return {
+    "@type": "LocalBusiness",
+    name: cfg.name,
+    description:
+      "Legal referral service for car accident victims. Not a law firm.",
+    url: origin,
+    telephone: cfg.phone,
+    areaServed: {
+      "@type": "City",
+      name: city,
+      containedInPlace: { "@type": "State", name: "Texas" },
+    },
+  };
+}
+
 export function mergeJsonLdGraph(...graphs: Record<string, unknown>[]) {
   const entities = graphs.flatMap((g) => {
     if (Array.isArray(g["@graph"])) return g["@graph"] as Record<string, unknown>[];
