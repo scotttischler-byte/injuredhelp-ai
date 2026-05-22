@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { TikTokThankYouFunnel } from "@/components/TikTokFunnel";
 import { FOOTER_DISCLAIMER as WM_FOOTER } from "@/lib/compliance";
+import { WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/phones";
 
 export const metadata: Metadata = {
   title: "You're Matched – WreckMatch",
@@ -52,7 +53,7 @@ export default async function ThankYouPage({ searchParams }: Props) {
 function ThankYouCard({ displayName }: { displayName: string }) {
   return (
     <div className="w-full max-w-lg rounded-2xl border border-gray-800 bg-gray-900/80 p-8 shadow-2xl ring-1 ring-gray-800 sm:p-10">
-      <p className="mb-6 text-center text-5xl text-green-500" aria-hidden>
+      <p className="mb-6 text-center text-5xl text-emerald-500" aria-hidden>
         ✅
       </p>
       <h1 className="text-center text-2xl font-bold text-white sm:text-3xl">
@@ -61,10 +62,10 @@ function ThankYouCard({ displayName }: { displayName: string }) {
       <p className="mt-4 text-center text-base leading-relaxed text-gray-300">
         An attorney team member will call and text{" "}
         <a
-          href="tel:+19785156063"
-          className="font-semibold text-white underline decoration-red-500 underline-offset-2 hover:text-red-300"
+          href={WRECKMATCH_PHONE_TEL}
+          className="font-semibold text-emerald-400 underline decoration-emerald-500 underline-offset-2 hover:text-emerald-300"
         >
-          (978) 515-6063
+          {WRECKMATCH_PHONE_DISPLAY}
         </a>{" "}
         within the next 60 seconds. Keep your phone close.
       </p>

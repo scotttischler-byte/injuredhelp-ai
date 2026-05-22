@@ -13,6 +13,8 @@ export interface PostMeta {
   slug: string;
   excerpt: string;
   readTime: string;
+  coverImage?: string;
+  coverAlt?: string;
 }
 
 function ensureDir() {
@@ -46,6 +48,8 @@ export function getAllPosts(): PostMeta[] {
       slug,
       excerpt,
       readTime: String(data.readTime ?? parseReadTime(content)),
+      coverImage: data.coverImage ? String(data.coverImage) : undefined,
+      coverAlt: data.coverAlt ? String(data.coverAlt) : undefined,
     } satisfies PostMeta;
   });
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -71,6 +75,8 @@ export function getPostBySlug(slug: string): { meta: PostMeta; content: string }
         slug,
         excerpt,
         readTime: String(data.readTime ?? parseReadTime(content)),
+        coverImage: data.coverImage ? String(data.coverImage) : undefined,
+        coverAlt: data.coverAlt ? String(data.coverAlt) : undefined,
       };
       return { meta, content };
     }

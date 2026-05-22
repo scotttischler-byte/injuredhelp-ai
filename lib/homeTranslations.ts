@@ -29,6 +29,12 @@ export type LeadFormCopy = {
   errState: string;
   errTiming: string;
   errSmsConsent: string;
+  email: string;
+  emailPlaceholder: string;
+  accidentType: string;
+  accidentTypePlaceholder: string;
+  errEmail: string;
+  errAccidentType: string;
 };
 
 export type HomeCopy = {
@@ -164,11 +170,11 @@ const FAQ_ES: HomeFaqItem[] = [
 ];
 
 const FORM_EN: LeadFormCopy = {
-  formHeadline: "GET FREE HELP NOW",
+  formHeadline: "Get Your Free Attorney Match Now",
   formStep1: "We call you back within 60 seconds — free, no obligation.",
-  formSubhead: "We call you back within 60 seconds — free, no obligation.",
+  formSubhead: "Free matching — no upfront fees. Educational only, not legal advice.",
   formStepSubmitting: "Connecting you now…",
-  firstName: "Your Name",
+  firstName: "First Name",
   lastName: "Last Name",
   phone: "Phone Number",
   state: "State",
@@ -187,7 +193,7 @@ const FORM_EN: LeadFormCopy = {
   ],
   smsOptIn:
     "I consent to be contacted by phone, text (SMS), and email by WreckMatch and its partner attorneys regarding my inquiry. Message & data rates may apply. Reply STOP to opt out. I understand submitting this form does not create an attorney-client relationship.",
-  submitBtn: "Call me back now",
+  submitBtn: "GET FREE CALLBACK NOW — (855) 897-3256",
   submitting: "Connecting you…",
   disclaimer:
     "By submitting you agree to be contacted by phone and SMS regarding your case. No spam. No fees unless you win.",
@@ -199,6 +205,12 @@ const FORM_EN: LeadFormCopy = {
   errState: "Please select your state.",
   errTiming: "Please select when the accident happened.",
   errSmsConsent: "Please check the box to consent to contact about your inquiry.",
+  email: "Email Address",
+  emailPlaceholder: "you@email.com",
+  accidentType: "Type of Accident",
+  accidentTypePlaceholder: "Select type of accident",
+  errEmail: "Email is required.",
+  errAccidentType: "Please select the type of accident.",
 };
 
 const FORM_ES: LeadFormCopy = {
@@ -235,6 +247,12 @@ const FORM_ES: LeadFormCopy = {
   errState: "Selecciona tu estado.",
   errTiming: "Selecciona cuándo ocurrió el accidente.",
   errSmsConsent: "Marca la casilla para consentir el contacto sobre tu consulta.",
+  email: "Correo electrónico",
+  emailPlaceholder: "tu@email.com",
+  accidentType: "Tipo de accidente",
+  accidentTypePlaceholder: "Selecciona el tipo",
+  errEmail: "El correo es obligatorio.",
+  errAccidentType: "Selecciona el tipo de accidente.",
 };
 
 export const DEFAULT_LEAD_FORM_COPY: LeadFormCopy = FORM_EN;
@@ -244,15 +262,15 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     urgencyBadge: "🚨 If You Were in an Accident — Read This",
     liveIndicator: "Attorney team available now",
     headline1: "You Were in an Accident.",
-    headline2: "You Deserve the Right Attorney.",
+    headline2: "Get the Attorney You Deserve.",
     subheadline:
-      "WreckMatch connects injured accident victims with licensed personal injury attorneys in their state — for free, in under 60 seconds. No fees unless you win.",
-    trustItem1: "Licensed attorneys in your state",
-    trustItem2: "Free matching — no upfront cost",
-    trustItem3: "60-second callback",
-    trustItem4: "Contingency fee attorneys only",
-    trustItem5: "All 50 states",
-    callBtn: "📞 Call or Text Now: (978) 515-6063",
+      "WreckMatch connects you with experienced personal injury attorneys in your state — free matching in under 60 seconds. No upfront fees.",
+    trustItem1: "855-897-3256",
+    trustItem2: "60-Second Callback",
+    trustItem3: "All 50 States",
+    trustItem4: "Licensed Attorneys Only",
+    trustItem5: "Secure & Encrypted",
+    callBtn: "📞 Call Now: (855) 897-3256",
     formHint: "Or fill out the form below — we'll call YOU within 60 seconds",
     slotsLine: "Free consultations available today",
     slotsRemaining: "slots remaining",
@@ -343,7 +361,7 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     trustItem3: "Llamada en 60 segundos",
     trustItem4: "Solo honorarios de contingencia",
     trustItem5: "Los 50 estados",
-    callBtn: "📞 Llama o Escribe Ahora: (978) 515-6063",
+    callBtn: "📞 Llama Ahora: (855) 897-3256",
     formHint: "O llena el formulario — te llamaremos en 60 segundos",
     slotsLine: "Consultas gratuitas disponibles hoy",
     slotsRemaining: "lugares disponibles",

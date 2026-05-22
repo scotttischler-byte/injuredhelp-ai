@@ -3,6 +3,7 @@ import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { LeadForm } from "@/components/LeadForm";
 import { SiteHeader } from "@/components/SiteHeader";
 import { WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/compliance";
+import { WRECKMATCH_PHONE_ACTIVATION_NOTE } from "@/lib/phones";
 import {
   buildGeoFaqs,
   buildGeoSections,
@@ -29,20 +30,26 @@ export function GeoHubContent({ hub }: Props) {
   const faqs = buildGeoFaqs(hub);
   const keywords = geoKeywords(hub);
   const related = geoRelatedLinks(hub);
-
-  const title = isState
-    ? `Car Accident Help in ${name}`
-    : `Car Accident Help in ${name}, ${hub.profile.state}`;
-
   const isTexasPriorityCity = !isState && texasCitySlugFromHubSlug(hub.slug) !== null;
+
+  const title =
+    isTexasPriorityCity && !isState
+      ? `What to Do After a Car Accident in ${name}, Texas (2026 Guide)`
+      : isState
+        ? `Car Accident Help in ${name}`
+        : `Car Accident Help in ${name}, ${hub.profile.state}`;
   const intro = isState
     ? `Injured in a ${name} car crash? WreckMatch connects accident victims with experienced personal injury attorneys in ${name} at no upfront cost. We are a referral service operated by WreckMatch LLC — not a law firm. We call you back within 60 seconds.`
     : isTexasPriorityCity
       ? `Hurt in a ${name}, Texas car accident? This 2026 guide covers immediate steps, Texas statute of limitations, insurance tactics, and free attorney matching. WreckMatch LLC is a referral service — not a law firm. Last updated May 2026.`
       : `${name} sees heavy traffic and serious crashes every year. If you were hurt in a ${name} accident, WreckMatch connects you with licensed ${hub.profile.state} attorneys at no upfront cost — we are not a law firm.`;
 
+  const shellClass = isTexasPriorityCity
+    ? "min-h-screen bg-slate-950 text-slate-100"
+    : "min-h-screen bg-gray-100 text-gray-900";
+
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900">
+    <div className={shellClass}>
       <SiteHeader />
       <article className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
         <nav className="mb-6 text-sm text-gray-500">
@@ -207,7 +214,8 @@ export function GeoHubContent({ hub }: Props) {
         <section id="form" className="mt-12 scroll-mt-20">
           <h2 className="mb-4 text-center text-xl font-bold text-gray-900">Free attorney matching in {place}</h2>
           <ReferralDisclaimer className="mb-4 border-gray-200 bg-white text-gray-600" />
-          <LeadForm source={`geo-${hub.slug}`} preselectedState={preselectedState} />
+          <p className="mb-4 text-center text-xs text-slate-500">{WRECKMATCH_PHONE_ACTIVATION_NOTE}</p>
+          <LeadForm source={`geo-${hub.slug}`} preselectedState={preselectedState} variant="conversion" />
         </section>
 
         <p className="mt-8 text-center text-sm text-gray-500">

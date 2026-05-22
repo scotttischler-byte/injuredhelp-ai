@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
@@ -6,6 +7,7 @@ import remarkGfm from "remark-gfm";
 import { headers } from "next/headers";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BLOG_FOOTER_DISCLAIMER, WRECKMATCH_PHONE_DISPLAY, WRECKMATCH_PHONE_TEL } from "@/lib/compliance";
+import { blogCoverForSlug } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { buildPageMetadata, faqPageJsonLd } from "@/lib/seo";
@@ -35,6 +37,9 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound();
 
   const { meta, content } = post;
+  const cover = meta.coverImage
+    ? { src: meta.coverImage, alt: meta.coverAlt ?? meta.title }
+    : blogCoverForSlug(slug, undefined);
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -64,7 +69,17 @@ export default async function BlogPostPage({ params }: Props) {
         <p className="mt-2 text-sm text-gray-500">
           {meta.date} · {meta.readTime}
         </p>
-        <div className="prose prose-gray mt-8 max-w-none prose-headings:font-bold prose-a:text-[#cc0000]">
+        <div className="relative mt-6 aspect-[1200/630] w-full overflow-hidden rounded-xl border border-gray-200 bg-gray-900">
+          <Image
+            src={cover.src}
+            alt={cover.alt}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 672px"
+            priority
+          />
+        </div>
+        <div className="prose prose-gray mt-8 max-w-none prose-headings:font-bold prose-a:text-emerald-600 prose-img:rounded-lg">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
         </div>
         <div className="mt-10 rounded-xl border border-[#cc0000]/30 bg-red-50 p-6 text-center">

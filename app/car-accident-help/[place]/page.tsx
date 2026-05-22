@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description =
     hub.type === "city" && tcSlug
       ? `Step-by-step ${hub.profile.city} car accident guide: Texas 2-year SOL, insurance tactics, common mistakes, and free attorney matching. Not legal advice.`
-      : `Free legal referral after a car accident in ${name}. WreckMatch is not a law firm — we connect you with licensed attorneys in 60 seconds. Call (978) 515-6063.`;
+      : `Free legal referral after a car accident in ${name}. WreckMatch is not a law firm — we connect you with licensed attorneys in 60 seconds. Call (855) 897-3256.`;
   return buildPageMetadata({
     title,
     description,

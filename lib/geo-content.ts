@@ -202,7 +202,7 @@ export function buildGeoFaqs(hub: GeoHub): FaqItem[] {
     {
       question: `How fast will someone call me in ${place}?`,
       answer:
-        "After you submit the form or call (978) 515-6063, our team typically reaches you within 60 seconds to start free attorney matching.",
+        "After you submit the form or call (855) 897-3256, our team typically reaches you within 60 seconds to start free attorney matching.",
     },
     {
       question: `What is the statute of limitations for car accidents in ${hub.type === "state" ? place : hub.profile.state}?`,

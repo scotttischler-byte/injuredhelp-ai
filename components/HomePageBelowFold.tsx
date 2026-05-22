@@ -73,7 +73,7 @@ export default function HomePageBelowFold({ lang, t, formInView, scrollToForm }:
 
   return (
     <>
-      <div className="flex flex-wrap justify-center gap-4 border-t border-gray-200 bg-gray-100 py-4 text-sm text-gray-400">
+      <div className="flex flex-wrap justify-center gap-4 border-t border-slate-800 bg-slate-950 py-4 text-sm text-slate-500">
         {trustMarquee.map((line) => (
           <span key={line}>{line}</span>
         ))}

@@ -6,7 +6,9 @@ import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { DEFAULT_LEAD_FORM_COPY, type Lang, type LeadFormCopy } from "@/lib/homeTranslations";
 import { ALL_STATES } from "@/lib/states";
 import { FormConsentSection } from "@/components/FormConsentSection";
+import { ACCIDENT_TYPES } from "@/lib/accident-types";
 import { FORM_SUCCESS_MESSAGE } from "@/lib/compliance";
+import { WRECKMATCH_PHONE_TEL } from "@/lib/phones";
 import { tiktokContentNameFromWindow } from "@/lib/brand-client";
 import {
   getTikTokAttribution,
@@ -30,7 +32,7 @@ export interface LeadFormProps {
   headline?: string;
   subheadline?: string;
   submitLabel?: string;
-  variant?: "default" | "minimal" | "guide";
+  variant?: "default" | "minimal" | "guide" | "conversion";
   language?: Lang;
   formCopy?: LeadFormCopy;
   afterSubmit?: (payload: {
@@ -50,6 +52,7 @@ type FormState = {
   email: string;
   state: string;
   accidentDescription: string;
+  accidentType: string;
   smsOptIn: boolean;
 };
 
@@ -100,7 +103,8 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
 ) {
   const router = useRouter();
   const c = formCopy ?? DEFAULT_LEAD_FORM_COPY;
-  const isSimple = variant === "default";
+  const isConversion = variant === "conversion";
+  const isSimple = variant === "default" || isConversion;
   const formRef = useRef<HTMLFormElement>(null);
 
   const [form, setForm] = useState<FormState>(() => ({
@@ -110,6 +114,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     email: "",
     state: resolvePreselectedState(preselectedState),
     accidentDescription: "",
+    accidentType: "",
     smsOptIn: false,
   }));
 
@@ -130,6 +135,11 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     if (!digits) errs.phone = c.errPhone;
     else if (digits.length < 10) errs.phone = c.errPhoneDigits;
     if (!form.state) errs.state = c.errState;
+    if (isConversion) {
+      if (!form.email.trim()) errs.email = c.errEmail;
+      else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) errs.email = "Enter a valid email.";
+      if (!form.accidentType) errs.accidentType = c.errAccidentType;
+    }
     if (!form.smsOptIn) errs.smsOptIn = c.errSmsConsent;
     if (!isSimple && variant !== "minimal" && variant !== "guide") {
       if (!form.lastName.trim()) errs.lastName = c.errLastName;
@@ -147,11 +157,18 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     setStatus("loading");
 
     const lastName = isSimple ? "-" : form.lastName.trim() || "-";
-    const emailTrimmed = isSimple ? emailFromPhone(form.phone) : form.email.trim() || emailFromPhone(form.phone);
+    const emailTrimmed = isConversion
+      ? form.email.trim()
+      : isSimple
+        ? emailFromPhone(form.phone)
+        : form.email.trim() || emailFromPhone(form.phone);
     const timing = TIMING_OPTIONS[0];
-    const injuries = form.accidentDescription.trim()
-      ? [`Accident notes: ${form.accidentDescription.trim().slice(0, 500)}`]
-      : ["❓ Not Sure"];
+    const injuryParts: string[] = [];
+    if (form.accidentType) injuryParts.push(`Accident type: ${form.accidentType}`);
+    if (form.accidentDescription.trim()) {
+      injuryParts.push(`Notes: ${form.accidentDescription.trim().slice(0, 500)}`);
+    }
+    const injuries = injuryParts.length > 0 ? injuryParts : ["❓ Not Sure"];
 
     const tiktokEventId = newTikTokEventId();
     const { ttclid, ttp } = getTikTokAttribution();
@@ -238,9 +255,15 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     }
   };
 
-  const inputClass =
-    "w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none ring-[#cc0000]/25 transition-all duration-200 placeholder:text-gray-400 focus:border-[#cc0000] focus:ring-2";
-  const labelClass = "mb-1.5 block text-xs font-bold uppercase tracking-wide text-gray-600";
+  const inputClass = isConversion
+    ? "w-full rounded-xl border border-slate-600 bg-slate-900 px-4 py-3 text-base text-white outline-none transition-all placeholder:text-slate-500 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/30"
+    : "w-full rounded-xl border border-gray-300 bg-white px-4 py-3 text-base text-gray-900 outline-none ring-[#cc0000]/25 transition-all duration-200 placeholder:text-gray-400 focus:border-[#cc0000] focus:ring-2";
+  const labelClass = isConversion
+    ? "mb-1.5 block text-xs font-bold uppercase tracking-wide text-slate-400"
+    : "mb-1.5 block text-xs font-bold uppercase tracking-wide text-gray-600";
+  const cardClass = isConversion
+    ? "relative mx-auto w-full max-w-[560px] overflow-hidden rounded-2xl border border-emerald-500/30 bg-slate-950 p-6 shadow-[0_25px_60px_-15px_rgba(16,185,129,0.25)] ring-1 ring-emerald-500/20 sm:p-8"
+    : "relative mx-auto w-full max-w-[560px] overflow-hidden rounded-2xl border border-gray-200/80 bg-white p-6 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.18)] ring-1 ring-gray-200/80 sm:p-8";
 
   if (status === "success") {
     return (
@@ -261,20 +284,27 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
   }
 
   return (
-    <div
-      ref={ref}
-      id="form"
-      className="relative mx-auto w-full max-w-[560px] overflow-hidden rounded-2xl border border-gray-200/80 bg-white p-6 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.18)] ring-1 ring-gray-200/80 sm:p-8"
-    >
-      <ReferralDisclaimer className="mb-5 border-gray-200 bg-gray-50 text-gray-600" />
-      <div className="pointer-events-none absolute left-0 right-0 top-0 h-1 bg-[#cc0000]" aria-hidden />
+    <div ref={ref} id="form" className={cardClass}>
+      <ReferralDisclaimer
+        className={
+          isConversion
+            ? "mb-5 border-slate-700 bg-slate-900/80 text-slate-300"
+            : "mb-5 border-gray-200 bg-gray-50 text-gray-600"
+        }
+      />
+      <div
+        className={`pointer-events-none absolute left-0 right-0 top-0 h-1 ${isConversion ? "bg-emerald-500" : "bg-[#cc0000]"}`}
+        aria-hidden
+      />
       {headline ? (
         <div className="mb-4 text-center">
           <p className="text-sm font-bold uppercase tracking-wider text-[#cc0000]">{headline}</p>
           {subheadline ? <p className="mt-2 text-sm text-gray-600">{subheadline}</p> : null}
         </div>
       ) : (
-        <p className="mb-2 text-center text-sm font-bold uppercase tracking-wider text-[#cc0000]">
+        <p
+          className={`mb-2 text-center text-sm font-bold uppercase tracking-wider ${isConversion ? "text-emerald-400" : "text-[#cc0000]"}`}
+        >
           {c.formHeadline}
         </p>
       )}
@@ -299,6 +329,26 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
           />
           {fieldErrors.firstName && <p className="mt-1 text-sm text-red-700">{fieldErrors.firstName}</p>}
         </div>
+
+        {isConversion ? (
+          <div>
+            <label htmlFor="wm-email" className={labelClass}>
+              {c.email}
+            </label>
+            <input
+              id="wm-email"
+              name="email"
+              type="email"
+              autoComplete="email"
+              placeholder={c.emailPlaceholder}
+              aria-required="true"
+              className={inputClass}
+              value={form.email}
+              onChange={(e) => setForm({ ...form, email: e.target.value })}
+            />
+            {fieldErrors.email && <p className="mt-1 text-sm text-red-400">{fieldErrors.email}</p>}
+          </div>
+        ) : null}
 
         <div>
           <label htmlFor="wm-phone" className={labelClass}>
@@ -339,13 +389,41 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
               </option>
             ))}
           </select>
-          {fieldErrors.state && <p className="mt-1 text-sm text-red-700">{fieldErrors.state}</p>}
+          {fieldErrors.state && (
+            <p className={`mt-1 text-sm ${isConversion ? "text-red-400" : "text-red-700"}`}>{fieldErrors.state}</p>
+          )}
         </div>
+
+        {isConversion ? (
+          <div>
+            <label htmlFor="wm-accident-type" className={labelClass}>
+              {c.accidentType}
+            </label>
+            <select
+              id="wm-accident-type"
+              name="accidentType"
+              aria-required="true"
+              className={inputClass}
+              value={form.accidentType}
+              onChange={(e) => setForm({ ...form, accidentType: e.target.value })}
+            >
+              <option value="">{c.accidentTypePlaceholder}</option>
+              {ACCIDENT_TYPES.map((t) => (
+                <option key={t} value={t}>
+                  {t}
+                </option>
+              ))}
+            </select>
+            {fieldErrors.accidentType && (
+              <p className="mt-1 text-sm text-red-400">{fieldErrors.accidentType}</p>
+            )}
+          </div>
+        ) : null}
 
         {isSimple ? (
           <div>
             <label htmlFor="wm-accident" className={labelClass}>
-              {c.accidentDescriptionLabel}
+              {isConversion ? "Briefly describe what happened (optional)" : c.accidentDescriptionLabel}
             </label>
             <textarea
               id="wm-accident"
@@ -388,15 +466,23 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
         )}
 
         {status === "error" && (
-          <p className="text-center text-sm text-red-700" role="alert">
-            Something went wrong. Please try again or call (978) 515-6063.
+          <p className={`text-center text-sm ${isConversion ? "text-red-400" : "text-red-700"}`} role="alert">
+            Something went wrong. Please try again or call{" "}
+            <a href={WRECKMATCH_PHONE_TEL} className="underline">
+              (855) 897-3256
+            </a>
+            .
           </p>
         )}
 
         <button
           type="submit"
           disabled={status === "loading" || (isSimple && !form.smsOptIn)}
-          className="w-full rounded-xl bg-[#cc0000] py-4 text-lg font-bold text-white shadow-md transition-opacity duration-200 hover:bg-[#b30000] disabled:cursor-not-allowed disabled:opacity-70"
+          className={
+            isConversion
+              ? "w-full rounded-xl bg-emerald-500 py-4 text-lg font-bold text-slate-950 shadow-lg shadow-emerald-900/40 transition-opacity duration-200 hover:bg-emerald-400 disabled:cursor-not-allowed disabled:opacity-70"
+              : "w-full rounded-xl bg-[#cc0000] py-4 text-lg font-bold text-white shadow-md transition-opacity duration-200 hover:bg-[#b30000] disabled:cursor-not-allowed disabled:opacity-70"
+          }
           aria-disabled={isSimple && !form.smsOptIn}
         >
           {status === "loading" ? c.submitting : submitLabel ?? c.submitBtn}

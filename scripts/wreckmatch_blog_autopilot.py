@@ -41,7 +41,7 @@ QUEUE_PATH = ROOT / "content/autopilot/blog_queue.json"
 LOG_PATH = ROOT / "content/autopilot/blog_generation.log"
 SITE = os.getenv("WRECKMATCH_SITE", "https://www.wreckmatch.com").rstrip("/")
 CTA = f"{SITE}/#form"
-PHONE = "(978) 515-6063"
+PHONE = os.getenv("WRECKMATCH_PHONE_DISPLAY", "(855) 897-3256")
 NETWORK_LINE = (
     "WreckMatch connects victims with attorneys from a **network of 800+ participating "
     "law firms** nationwide — free matching, typically under 60 seconds."
@@ -583,10 +583,45 @@ Excerpt: {excerpt[:800]}
     log(f"Syndication → {out}")
 
 
+def cover_for_topic(topic: dict[str, Any]) -> tuple[str, str]:
+    slug = (topic.get("slug") or topic.get("angle") or "").lower()
+    vertical = topic.get("vertical", "auto")
+    if vertical == "truck" or is_truck_topic(topic) or any(
+        x in slug for x in ("truck", "semi", "wheeler", "tractor", "fmcsa")
+    ):
+        return "/blog/covers/truck-accident.svg", "Semi truck and commercial vehicle accident guide"
+    if vertical == "severe" or is_severe_topic(topic) or any(
+        x in slug for x in ("severe", "catastrophic", "tbi", "spinal", "wrongful")
+    ):
+        return "/blog/covers/severe-injury.svg", "Severe and catastrophic car accident injury guide"
+    if any(x in slug for x in ("uber", "lyft", "rideshare")):
+        return "/blog/covers/rideshare.svg", "Uber Lyft rideshare accident legal help"
+    return "/blog/covers/car-accident.svg", "Car accident victim legal help guide"
+
+
+def inject_cover_markdown(topic: dict[str, Any], body: str) -> str:
+    src, alt = cover_for_topic(topic)
+    img = f"![{alt}]({SITE}{src})\n\n"
+    if body.startswith("---"):
+        parts = body.split("---", 2)
+        if len(parts) >= 3:
+            fm = parts[1]
+            if "coverImage:" not in fm:
+                fm = fm.rstrip() + f'\ncoverImage: "{src}"\ncoverAlt: "{alt.replace(chr(34), chr(39))}"\n'
+            rest = parts[2].lstrip()
+            if src not in rest:
+                rest = img + rest
+            return f"---{fm}---\n{rest}"
+    if src not in body:
+        return img + body
+    return body
+
+
 def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
     slug = topic.get("slug") or slugify(topic["title"])
     if not body.startswith("---"):
         body = template_post(topic)
+    body = inject_cover_markdown(topic, body)
 
     path = BLOG_DIR / f"{slug}.md"
     if path.exists():
