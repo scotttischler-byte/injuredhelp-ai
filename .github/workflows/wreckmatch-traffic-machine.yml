@@ -44,10 +44,12 @@ jobs:
           HAS_ANTHROPIC: ${{ secrets.ANTHROPIC_API_KEY != '' }}
           HAS_OPENAI: ${{ secrets.OPENAI_API_KEY != '' }}
           HAS_CRON: ${{ secrets.CRON_SECRET != '' }}
+          HAS_INDEXNOW: ${{ secrets.INDEXNOW_KEY != '' }}
         run: |
           echo "ANTHROPIC_API_KEY: $([ \"$HAS_ANTHROPIC\" = true ] && echo set || echo missing - template posts)"
           echo "OPENAI_API_KEY: $([ \"$HAS_OPENAI\" = true ] && echo set || echo missing)"
-          echo "CRON_SECRET: $([ \"$HAS_CRON\" = true ] && echo set || echo missing - skip prod cron curl)"
+          echo "CRON_SECRET: $([ \"$HAS_CRON\" = true ] && echo set || echo missing - skip prod IndexNow + cron)"
+          echo "INDEXNOW_KEY (GitHub): $([ \"$HAS_INDEXNOW\" = true ] && echo set || echo optional - IndexNow uses Vercel via CRON_SECRET)"
 
       - name: Refill topic queue
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.refill != '' && github.event.inputs.refill != '0'
@@ -91,7 +93,7 @@ jobs:
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-      - name: Notify search engines (IndexNow)
+      - name: Notify search engines (IndexNow via production)
         if: steps.commit.outputs.changed == 'true'
         env:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
@@ -100,9 +102,19 @@ jobs:
         run: |
           SLUGS=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '^content/blog/.*\.md$' | sed 's|.*/||;s|\.md||' | tr '\n' ' ')
           export SLUGS
-          python scripts/indexing_accelerator.py --from-git HEAD~1 --new-slugs $SLUGS || true
-          if [ -n "$CRON_SECRET" ]; then
-            python3 -c "
+          # Optional duplicate ping from GitHub (INDEXNOW_KEY secret). Vercel already has the key.
+          if [ -n "$INDEXNOW_KEY" ]; then
+            python3 scripts/indexing_accelerator.py --from-git HEAD~1 --new-slugs $SLUGS || true
+          else
+            echo "INDEXNOW_KEY not on GitHub (OK) — production uses Vercel INDEXNOW_KEY"
+          fi
+          if [ -z "$CRON_SECRET" ]; then
+            echo "Add CRON_SECRET to GitHub repo secrets (same value as Vercel production)"
+            exit 0
+          fi
+          echo "Waiting 90s for Vercel production deploy..."
+          sleep 90
+          python3 -c "
           import json, os, urllib.request
           slugs = [s for s in os.environ.get('SLUGS', '').split() if s]
           body = json.dumps({'slugs': slugs}).encode()
@@ -115,13 +127,9 @@ jobs:
               },
               method='POST',
           )
-          try:
-              urllib.request.urlopen(req, timeout=60)
-              print('Production indexing notify OK')
-          except Exception as e:
-              print('warn: production indexing notify:', e)
-          " || true
-          fi
+          with urllib.request.urlopen(req, timeout=90) as r:
+              print('Production IndexNow notify:', r.read().decode()[:500])
+          "
 
       - name: Trigger production cron (social + reddit)
         if: github.event.inputs.skip_remote_cron != 'true'
