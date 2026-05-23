@@ -680,8 +680,13 @@ def main() -> int:
     p.add_argument("--ai", action="store_true")
     p.add_argument("--claude-first", action="store_true")
     p.add_argument("--syndicate", action="store_true")
+    p.add_argument(
+        "--syndicate-all",
+        action="store_true",
+        help="Syndicate every post in the batch (slow). Default: last post only.",
+    )
     p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--delay", type=float, default=2.0)
+    p.add_argument("--delay", type=float, default=1.0)
     args = p.parse_args()
 
     q = load_queue()
@@ -705,7 +710,8 @@ def main() -> int:
 
     slugs: list[str] = []
     for i in range(args.batch):
-        slug = run_once(q, use_ai, claude_first, syndicate, args.dry_run)
+        do_syndicate = syndicate and (args.syndicate_all or i == args.batch - 1)
+        slug = run_once(q, use_ai, claude_first, do_syndicate, args.dry_run)
         if slug:
             slugs.append(slug)
         if i < args.batch - 1:

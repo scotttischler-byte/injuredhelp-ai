@@ -6,7 +6,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 INTERVAL="${BLOG_MACHINE_INTERVAL_SEC:-1800}"
-BATCH="${BLOG_MACHINE_BATCH:-2}"
+BATCH="${BLOG_MACHINE_BATCH:-5}"
 USE_AI="${BLOG_MACHINE_AI:-1}"
 
 echo "WreckMatch TRAFFIC MACHINE — every ${INTERVAL}s (batch=${BATCH}) truck/severe/car"

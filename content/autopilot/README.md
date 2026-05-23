@@ -2,20 +2,22 @@
 
 Automated **organic traffic engine** for car accidents, **semi truck crashes**, and **severe injuries**.
 
-## Output per run (every 30 minutes)
+## Output per run (every 15 minutes)
 
 | Output | Location |
 |--------|----------|
 | **5** Claude blog posts | `content/blog/*.md` |
-| Social copy (X, LinkedIn, Facebook, Reddit) | `content/syndication/*.json` |
+| Social copy (last post in batch) | `content/syndication/latest.json` |
 | Topic queue | `content/autopilot/blog_queue.json` |
 
-**~240 blog posts/day** · **226 cities** in queue · **~5,000** topic combinations (22 angles × city)
+**Target ~240 blog posts/day** (96 scheduled slots × 5 posts; syndication on last post only for speed) · **226 cities** in queue
 
 ## GitHub Actions
 
 **Workflow:** `.github/workflows/wreckmatch-traffic-machine.yml`  
-**Schedule:** `*/30 * * * *` (every 30 minutes, **5 posts/run**)
+**Schedule:** `*/15 * * * *` (every **15** minutes, **5 posts/run**)
+
+Monitor: GitHub → Actions → should see **~90+ successful runs per day**. If fewer, use backup pinger below.
 
 ### Required secrets
 
@@ -44,13 +46,18 @@ python scripts/wreckmatch_blog_autopilot.py --refill 500
 python scripts/wreckmatch_blog_autopilot.py --batch 2 --ai --claude-first --syndicate
 ```
 
-## Local 24/7 loop
+## Local 24/7 loop (most reliable for exactly 240/day)
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
-export BLOG_MACHINE_INTERVAL_SEC=1800   # 30 min
+export BLOG_MACHINE_INTERVAL_SEC=1800   # 30 min → 48 runs × 5 = 240
+export BLOG_MACHINE_BATCH=5
 ./scripts/run_blog_machine_local.sh
 ```
+
+## Backup: external cron (if GitHub schedule is slow)
+
+Use [cron-job.org](https://cron-job.org) to POST to GitHub API `workflow_dispatch` on `wreckmatch-traffic-machine` every 30 minutes with a fine-grained PAT (`actions:write`).
 
 ## Reddit / Twitter
 

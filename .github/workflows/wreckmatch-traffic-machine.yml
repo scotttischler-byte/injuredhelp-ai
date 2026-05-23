@@ -1,11 +1,11 @@
 # WreckMatch Traffic Machine — 24/7/365 organic growth
-# Every 30 min: 5 Claude posts (~240/day) across 226 cities + syndication + API hooks
+# Every 15 min: 5 Claude posts (up to ~480/day; target ~240/day after schedule jitter)
 
 name: WreckMatch traffic machine
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       batch:
@@ -26,7 +26,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 25
     permissions:
       contents: write
     steps:
@@ -78,7 +78,7 @@ jobs:
             --ai \
             --claude-first \
             --syndicate \
-            --delay 3
+            --delay 1
 
       - name: Commit and push (Vercel deploy)
         run: |
