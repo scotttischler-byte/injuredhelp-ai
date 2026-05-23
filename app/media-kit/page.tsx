@@ -1,8 +1,10 @@
 import { headers } from "next/headers";
 import Link from "next/link";
 import { AuthorityPageShell } from "@/components/seo/AuthorityPageShell";
-import { WRECKMATCH_ORG, SCOTT_TISCHLER, KATHY_CARR } from "@/lib/entities";
+import { RelatedGuides } from "@/components/seo/RelatedGuides";
+import { WRECKMATCH_ORG, SCOTT_TISCHLER, KATHY_CARR, ACCIDENT_SURVIVAL_GUIDE } from "@/lib/entities";
 import { WRECKMATCH_PHONE_DISPLAY } from "@/lib/phones";
+import { ALL_WHAT_TO_DO_GUIDES } from "@/lib/what-to-do-guides";
 import { buildPageMetadata, entityHubGraph } from "@/lib/seo";
 import { siteOriginFromHeaders } from "@/lib/site";
 
@@ -10,7 +12,7 @@ export async function generateMetadata() {
   const h = await headers();
   return buildPageMetadata({
     title: "WreckMatch Media Kit",
-    description: "Press assets, leadership bios, and brand facts for WreckMatch LLC.",
+    description: "Press assets, leadership bios, outreach templates, and brand facts for WreckMatch LLC.",
     path: "/media-kit",
     headers: h,
   });
@@ -46,6 +48,12 @@ export default async function MediaKitPage() {
             <li>
               <strong>Network:</strong> 800+ participating law firms (referral)
             </li>
+            <li>
+              <strong>Sister brand:</strong>{" "}
+              <a href={ACCIDENT_SURVIVAL_GUIDE.url} className="text-emerald-400 hover:underline">
+                {ACCIDENT_SURVIVAL_GUIDE.name}
+              </a>
+            </li>
           </ul>
 
           <h2 className="text-xl font-bold text-white">Leadership</h2>
@@ -62,7 +70,70 @@ export default async function MediaKitPage() {
             — {SCOTT_TISCHLER.jobTitle}
           </p>
 
-          <h2 className="text-xl font-bold text-white">Press</h2>
+          <h2 className="text-xl font-bold text-white">Cite-ready guides (AI &amp; press)</h2>
+          <RelatedGuides
+            links={ALL_WHAT_TO_DO_GUIDES.map((g) => ({ href: g.path, label: g.title }))}
+            title=""
+          />
+
+          <h2 className="text-xl font-bold text-white">Outreach templates</h2>
+          <p className="text-sm text-slate-400">Copy/paste — customize city, state, and outlet name.</p>
+
+          <div className="space-y-6 rounded-xl border border-slate-700 bg-slate-900/60 p-5 text-sm">
+            <div>
+              <h3 className="font-bold text-white">1. Local news — “What to do after a crash”</h3>
+              <p className="mt-2 text-slate-400">
+                Subject: Expert source: 5 steps after a car accident in [CITY/STATE]
+              </p>
+              <p className="mt-2">
+                Pitch Kathy Carr or Scott Tischler with links to{" "}
+                <Link href="/what-to-do-after-a-car-accident" className="text-emerald-400 hover:underline">
+                  national guide
+                </Link>{" "}
+                and state variants. Media kit + 855 WRECKMATCH.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-white">2. Truck safety / semi crash evidence</h3>
+              <p className="mt-2">
+                Pitch{" "}
+                <Link href="/truck-accident-evidence-guide" className="text-emerald-400 hover:underline">
+                  truck evidence guide
+                </Link>{" "}
+                and daily 18-wheeler educational content. No case-specific legal advice.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-bold text-white">3. Podcast guest — accident survival</h3>
+              <p className="mt-2">
+                10–15 min segments: scene checklist, when to hire a lawyer, referral vs. law firm,{" "}
+                <a href={ACCIDENT_SURVIVAL_GUIDE.url} className="text-emerald-400 hover:underline">
+                  Accident Survival Guide
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+          <p className="text-sm">
+            Full markdown templates:{" "}
+            <code className="rounded bg-slate-800 px-1.5 py-0.5 text-emerald-300">content/press/OUTREACH_TEMPLATES.md</code>
+          </p>
+
+          <h2 className="text-xl font-bold text-white">Machine-readable</h2>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>
+              <Link href="/llms.txt" className="text-emerald-400 hover:underline">
+                llms.txt
+              </Link>
+            </li>
+            <li>
+              <Link href="/ai-accident-help" className="text-emerald-400 hover:underline">
+                AI resource center
+              </Link>
+            </li>
+          </ul>
+
+          <h2 className="text-xl font-bold text-white">Press releases</h2>
           <p>
             <Link href="/press" className="text-emerald-400 hover:underline">
               Press releases →

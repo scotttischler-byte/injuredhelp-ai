@@ -5,6 +5,7 @@ import { getAllPosts } from "@/lib/posts";
 import { TEXAS_METRO_LINKS } from "@/lib/texas-metro-links";
 import { ACCIDENT_VARIANT_CITIES, PRIORITY_PLACE_BY_SLUG } from "@/lib/priority-places/registry";
 import { CITATION_ASSETS } from "@/lib/citation-assets";
+import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
 import { TOPIC_HUBS } from "@/lib/topic-hubs";
 import { siteOriginFromHeaders } from "@/lib/site";
 
@@ -23,6 +24,7 @@ const SEO_STATIC = [
   "/about-scott-tischler",
   "/about-kathy-carr",
   ...CITATION_ASSETS.map((a) => a.path),
+  ...WHAT_TO_DO_PATHS,
 ];
 
 const TEXAS_PLACE_SLUGS = new Set(TEXAS_METRO_LINKS.map((m) => m.placeSlug));
@@ -59,7 +61,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${origin}${path}`,
       lastModified: now,
       changeFrequency: "weekly" as const,
-      priority: path.includes("truck") ? 0.95 : path.includes("ai-accident") ? 0.9 : 0.82,
+      priority: path.includes("what-to-do-after")
+        ? 0.98
+        : path.includes("truck")
+          ? 0.95
+          : path.includes("ai-accident")
+            ? 0.9
+            : 0.82,
     })),
     ...TOPIC_HUBS.filter((t) => !SEO_STATIC.includes(t.path)).map((t) => ({
       url: `${origin}${t.path}`,

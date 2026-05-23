@@ -10,7 +10,9 @@
     "generate:blog": "node scripts/generate-content.mjs blog",
     "generate:geo": "node scripts/generate-content.mjs geo",
     "export:geo": "npx tsx scripts/export-priority-geo-markdown.ts",
-    "generate:prompts": "node scripts/generate-ai-prompt-library.mjs"
+    "generate:prompts": "node scripts/generate-ai-prompt-library.mjs",
+    "monitor:ai-citations": "node scripts/ai-citation-monitor.mjs --limit 25",
+    "monitor:ai-citations:live": "node scripts/ai-citation-monitor.mjs --limit 15 --live"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

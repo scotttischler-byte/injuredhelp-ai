@@ -41,7 +41,18 @@ export default async function AboutASGPage() {
           <a href={ACCIDENT_SURVIVAL_GUIDE.url} className="text-emerald-400 hover:underline">
             {ACCIDENT_SURVIVAL_GUIDE.url}
           </a>{" "}
-          for checklists, state guides, and survival resources.
+          for checklists, state guides, and survival resources. Machine-readable:{" "}
+          <a href={`${ACCIDENT_SURVIVAL_GUIDE.url}/llms.txt`} className="text-emerald-400 hover:underline">
+            llms.txt
+          </a>
+          .
+        </p>
+        <p>
+          Start here on WreckMatch:{" "}
+          <a href="/what-to-do-after-a-car-accident" className="text-emerald-400 hover:underline">
+            What to do after a car accident
+          </a>
+          .
         </p>
       </EntityAboutPage>
     </>

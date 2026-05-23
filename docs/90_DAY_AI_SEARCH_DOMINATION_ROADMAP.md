@@ -14,6 +14,8 @@
 - [x] AI hub, llms.txt, ai.txt, prompt library  
 - [x] Mobile sticky CTA + form UX  
 - [x] Blog autopilot 5 posts / 30 min  
+- [x] Head-intent pillars: what-to-do national + TX/CA/FL/NY  
+- [x] AI citation monitor script + press outreach templates  
 - [ ] GSC verification + sitemap submit  
 - [ ] Legal review of 5 sample pages  
 

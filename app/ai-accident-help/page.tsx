@@ -7,6 +7,7 @@ import { RelatedGuides } from "@/components/seo/RelatedGuides";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { TOPIC_HUBS } from "@/lib/topic-hubs";
 import { CITATION_ASSETS } from "@/lib/citation-assets";
+import { ALL_WHAT_TO_DO_GUIDES } from "@/lib/what-to-do-guides";
 import { buildPageMetadata, faqPageJsonLd, mergeJsonLdGraph, siteJsonLdGraph, webPageJsonLd } from "@/lib/seo";
 import { brandFromHeaders, siteOriginFromHeaders } from "@/lib/site";
 import { faqsForTopic } from "@/lib/topic-hub-faqs";
@@ -93,6 +94,12 @@ export default async function AIAccidentHelpPage() {
           </ul>
         </section>
 
+        <section className="mt-10">
+          <RelatedGuides
+            links={ALL_WHAT_TO_DO_GUIDES.map((g) => ({ href: g.path, label: g.title }))}
+            title="What to do after a car accident (primary pillars)"
+          />
+        </section>
         <section className="mt-10">
           <RelatedGuides links={topicLinks} title="Topic clusters" />
         </section>

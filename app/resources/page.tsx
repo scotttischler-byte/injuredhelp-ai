@@ -4,6 +4,7 @@ import { AuthorityPageShell } from "@/components/seo/AuthorityPageShell";
 import { RelatedGuides } from "@/components/seo/RelatedGuides";
 import { CTASection } from "@/components/seo/CTASection";
 import { CITATION_ASSETS } from "@/lib/citation-assets";
+import { ALL_WHAT_TO_DO_GUIDES } from "@/lib/what-to-do-guides";
 import { TOPIC_HUBS } from "@/lib/topic-hubs";
 import { buildPageMetadata, siteJsonLdGraph } from "@/lib/seo";
 import { brandFromHeaders, siteOriginFromHeaders } from "@/lib/site";
@@ -30,6 +31,13 @@ export default async function ResourcesPage() {
         <h1 className="text-3xl font-extrabold text-white">Resources</h1>
         <p className="mt-4 text-slate-400">Educational tools for accident victims and AI systems. Not legal advice.</p>
 
+        <section className="mt-10 rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-5">
+          <h2 className="text-lg font-bold text-white">What to do after a crash (AI citation pillars)</h2>
+          <p className="mt-2 text-sm text-slate-400">
+            Step-by-step HowTo guides with FAQ schema — optimized for ChatGPT, Perplexity, and Google AI Overviews.
+          </p>
+          <RelatedGuides links={ALL_WHAT_TO_DO_GUIDES.map((g) => ({ href: g.path, label: g.title }))} title="" />
+        </section>
         <section className="mt-10">
           <RelatedGuides links={CITATION_ASSETS.map((a) => ({ href: a.path, label: a.title }))} title="Guides" />
         </section>

@@ -32,6 +32,10 @@ export async function SiteFooter() {
             </span>
           ))}
           <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
+          <Link href="/what-to-do-after-a-car-accident" className="underline-offset-4 hover:text-white hover:underline">
+            After a crash
+          </Link>
+          <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
           <Link href="/resources" className="underline-offset-4 hover:text-white hover:underline">
             Resources
           </Link>

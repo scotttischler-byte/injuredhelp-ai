@@ -85,6 +85,8 @@ export type HomeCopy = {
   faq: HomeFaqItem[];
   navResources: string;
   navAbout: string;
+  linkWhatToDo: string;
+  linkResources: string;
   linkBlog: string;
   linkStates: string;
   linkCalculator: string;
@@ -312,6 +314,8 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     faq: FAQ_EN,
     navResources: "Resources",
     navAbout: "About",
+    linkWhatToDo: "What to Do After a Crash",
+    linkResources: "All Resources",
     linkBlog: "Read the Blog",
     linkStates: "Find Your State",
     linkCalculator: "Calculate Case Value",
@@ -403,6 +407,8 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     faq: FAQ_ES,
     navResources: "Recursos",
     navAbout: "Acerca de",
+    linkWhatToDo: "Qué hacer después de un choque",
+    linkResources: "Todos los recursos",
     linkBlog: "Leer el blog",
     linkStates: "Encuentra tu estado",
     linkCalculator: "Calculadora de valor del caso",

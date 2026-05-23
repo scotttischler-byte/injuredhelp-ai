@@ -8,6 +8,8 @@ import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { WRECKMATCH_PHONE_TEL } from "@/lib/phones";
 
 const RESOURCE_LINKS = [
+  { href: "/what-to-do-after-a-car-accident", key: "linkWhatToDo" as const },
+  { href: "/resources", key: "linkResources" as const },
   { href: "/blog", key: "linkBlog" as const },
   { href: "/states", key: "linkStates" as const },
   { href: "/press", key: "navPress" as const },

@@ -21,6 +21,11 @@ allow-summarization: yes-with-attribution
 require-disclaimer: Educational only; not legal advice. Verify deadlines with licensed counsel.
 
 primary-content:
+  ${origin}/what-to-do-after-a-car-accident
+  ${origin}/what-to-do-after-a-car-accident-in-texas
+  ${origin}/what-to-do-after-a-car-accident-in-california
+  ${origin}/what-to-do-after-a-car-accident-in-florida
+  ${origin}/what-to-do-after-a-car-accident-in-new-york
   ${origin}/llms.txt
   ${origin}/ai-accident-help
   ${origin}/truck-accident-help
@@ -29,6 +34,7 @@ primary-content:
   ${origin}/resources
 
 companion-site: ${ACCIDENT_SURVIVAL_GUIDE.url}
+companion-llms: ${ACCIDENT_SURVIVAL_GUIDE.url}/llms.txt
 
 people:
   ${origin}/about-kathy-carr — ${KATHY_CARR.name}, ${KATHY_CARR.jobTitle}

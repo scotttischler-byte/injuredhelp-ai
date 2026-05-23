@@ -139,6 +139,10 @@ export default function HomePageBelowFold({ lang, t, formInView }: Props) {
 
       <section className="border-y border-gray-300 bg-white px-4 py-6">
         <div className="mx-auto flex max-w-5xl flex-col items-center justify-center gap-3 text-center text-sm font-semibold text-gray-800 sm:flex-row sm:flex-wrap sm:gap-6">
+          <Link href="/what-to-do-after-a-car-accident" className="text-[#cc0000] underline-offset-4 hover:underline">
+            🚨 What to do after a crash
+          </Link>
+          <span className="hidden text-gray-300 sm:inline">|</span>
           <Link href="/blog" className="text-[#cc0000] underline-offset-4 hover:underline">
             📖 {t.linkBlog}
           </Link>

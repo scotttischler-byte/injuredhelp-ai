@@ -8,6 +8,8 @@ export const WRECKMATCH_ORG = {
     "Legal referral service connecting car and truck accident victims with licensed personal injury attorneys nationwide. Not a law firm.",
   sameAs: [
     "https://www.linkedin.com/company/wreckmatch",
+    "https://www.accidentsurvivalguide.com",
+    "https://www.accidentsurvivalguide.com/llms.txt",
   ],
 } as const;
 
