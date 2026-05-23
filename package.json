@@ -12,7 +12,9 @@
     "export:geo": "npx tsx scripts/export-priority-geo-markdown.ts",
     "generate:prompts": "node scripts/generate-ai-prompt-library.mjs",
     "monitor:ai-citations": "node scripts/ai-citation-monitor.mjs --limit 25",
-    "monitor:ai-citations:live": "node scripts/ai-citation-monitor.mjs --limit 15 --live"
+    "monitor:ai-citations:live": "node scripts/ai-citation-monitor.mjs --limit 15 --live",
+    "indexing:notify": "python scripts/indexing_accelerator.py",
+    "indexing:dry-run": "python scripts/indexing_accelerator.py --dry-run"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

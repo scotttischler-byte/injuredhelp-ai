@@ -599,6 +599,43 @@ def cover_for_topic(topic: dict[str, Any]) -> tuple[str, str]:
     return "/blog/covers/car-accident.svg", "Car accident victim legal help guide"
 
 
+def append_seo_footer(topic: dict[str, Any], body: str) -> str:
+    """Internal links to pillar + geo pages — helps crawl and rankings."""
+    if "## Related resources" in body:
+        return body
+    city = (topic.get("city") or "").strip()
+    state = (topic.get("state") or "").strip()
+    lines = [
+        "",
+        "---",
+        "",
+        "## Related resources",
+        "",
+        f"- [What to do after a car accident (national guide)]({SITE}/what-to-do-after-a-car-accident)",
+    ]
+    state_path = None
+    if state and state.lower() not in ("united states", "national", ""):
+        state_slug = state.lower().replace(" ", "-")
+        state_path = f"/what-to-do-after-a-car-accident-in-{state_slug}"
+        if state_slug in ("texas", "california", "florida", "new-york"):
+            lines.append(f"- [What to do after a crash in {state}]({SITE}{state_path})")
+        hub = f"/car-accident-help-{state_slug}"
+        if state_slug == "texas":
+            hub = "/car-accident-help-texas"
+        lines.append(f"- [{state} car accident help hub]({SITE}{hub})")
+    if city and city.lower() not in ("national", ""):
+        place = slugify(city)
+        lines.append(f"- [{city} car accident help]({SITE}/car-accident-help-{place})")
+    lines.extend(
+        [
+            f"- [Accident checklist]({SITE}/checklist-after-car-accident)",
+            f"- [Free attorney matching]({SITE}/#form) · {PHONE}",
+            "",
+        ]
+    )
+    return body.rstrip() + "\n" + "\n".join(lines)
+
+
 def inject_cover_markdown(topic: dict[str, Any], body: str) -> str:
     src, alt = cover_for_topic(topic)
     img = f"![{alt}]({SITE}{src})\n\n"
@@ -622,6 +659,7 @@ def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
     if not body.startswith("---"):
         body = template_post(topic)
     body = inject_cover_markdown(topic, body)
+    body = append_seo_footer(topic, body)
 
     path = BLOG_DIR / f"{slug}.md"
     if path.exists():

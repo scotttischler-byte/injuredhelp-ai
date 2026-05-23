@@ -107,6 +107,7 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <head>
+        <link rel="alternate" type="application/rss+xml" href={`${origin}/blog/rss.xml`} title="WreckMatch blog RSS" />
         <link rel="alternate" type="text/plain" href={`${origin}/llms.txt`} title="LLM site summary" />
         <link rel="alternate" type="text/plain" href={`${origin}/ai.txt`} title="AI crawler policy" />
         <script

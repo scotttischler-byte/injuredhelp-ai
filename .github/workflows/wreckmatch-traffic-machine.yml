@@ -81,13 +81,47 @@ jobs:
             --delay 1
 
       - name: Commit and push (Vercel deploy)
+        id: commit
         run: |
           git config user.name "wreckmatch-traffic-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog/*.md content/syndication/ content/autopilot/
-          git diff --staged --quiet && echo "No changes" && exit 0
+          git diff --staged --quiet && echo "changed=false" >> "$GITHUB_OUTPUT" && echo "No changes" && exit 0
           git commit -m "content(traffic-machine): truck/severe injury posts + social syndication"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Notify search engines (IndexNow)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SITE: https://www.wreckmatch.com
+        run: |
+          SLUGS=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '^content/blog/.*\.md$' | sed 's|.*/||;s|\.md||' | tr '\n' ' ')
+          export SLUGS
+          python scripts/indexing_accelerator.py --from-git HEAD~1 --new-slugs $SLUGS || true
+          if [ -n "$CRON_SECRET" ]; then
+            python3 -c "
+          import json, os, urllib.request
+          slugs = [s for s in os.environ.get('SLUGS', '').split() if s]
+          body = json.dumps({'slugs': slugs}).encode()
+          req = urllib.request.Request(
+              os.environ['SITE'] + '/api/indexing/notify',
+              data=body,
+              headers={
+                  'Authorization': 'Bearer ' + os.environ['CRON_SECRET'],
+                  'Content-Type': 'application/json',
+              },
+              method='POST',
+          )
+          try:
+              urllib.request.urlopen(req, timeout=60)
+              print('Production indexing notify OK')
+          except Exception as e:
+              print('warn: production indexing notify:', e)
+          " || true
+          fi
 
       - name: Trigger production cron (social + reddit)
         if: github.event.inputs.skip_remote_cron != 'true'
