@@ -16,6 +16,33 @@
 
 ---
 
+## Sitemap submit — fix “Invalid sitemap address”
+
+Your sitemap **works** (open https://www.wreckmatch.com/sitemap.xml in a browser).
+
+**Use the property:** `https://www.wreckmatch.com` (must include **www**).
+
+In **Sitemaps**, type **only**:
+
+```text
+sitemap.xml
+```
+
+Do **not** type:
+- `https://www.wreckmatch.com/sitemap.xml` (often rejected in URL-prefix properties)
+- `www.wreckmatch.com/sitemap.xml`
+- `/sitemap.xml`
+
+If your property is **Domain** type (`wreckmatch.com`), use the **full** URL:
+
+```text
+https://www.wreckmatch.com/sitemap.xml
+```
+
+Remove any old sitemap for `https://wreckmatch.com/sitemap.xml` (non-www) — that property is wrong.
+
+---
+
 ## Step 1 — Add property (you, ~2 minutes)
 
 1. Open [Google Search Console](https://search.google.com/search-console)
