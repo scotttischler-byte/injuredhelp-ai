@@ -13,9 +13,9 @@
     "generate:prompts": "node scripts/generate-ai-prompt-library.mjs",
     "monitor:ai-citations": "node scripts/ai-citation-monitor.mjs --limit 25",
     "monitor:ai-citations:live": "node scripts/ai-citation-monitor.mjs --limit 15 --live",
-    "indexing:notify": "python scripts/indexing_accelerator.py",
-    "indexing:dry-run": "python scripts/indexing_accelerator.py --dry-run",
-    "indexing:verify-key": "python scripts/indexing_accelerator.py --verify-key"
+    "indexing:notify": "python3 scripts/indexing_accelerator.py",
+    "indexing:dry-run": "python3 scripts/indexing_accelerator.py --dry-run",
+    "indexing:verify-key": "python3 scripts/indexing_accelerator.py --verify-key"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

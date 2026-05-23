@@ -3,7 +3,7 @@
 IndexNow submissions per https://www.indexnow.org/documentation
 
 Option 1 (recommended): host UTF-8 file at https://www.wreckmatch.com/{key}.txt
-with the key as the only content (served via next.config rewrite → /api/indexnow-key).
+with the key as the only content (served via next.config rewrite -> /api/indexnow-key).
 
 Usage:
   python scripts/indexing_accelerator.py
@@ -39,7 +39,7 @@ INDEXNOW_ENDPOINTS = (
 
 KEY_PATTERN = re.compile(r"^[a-zA-Z0-9-]{8,128}$")
 
-# HTML pages only (no .xml / .txt — IndexNow may return 422)
+# HTML pages only (no .xml / .txt - IndexNow may return 422)
 PRIORITY_PATHS = [
     "/",
     "/what-to-do-after-a-car-accident",
@@ -71,7 +71,7 @@ def log(msg: str) -> None:
 def validate_key(key: str) -> str | None:
     if not KEY_PATTERN.match(key):
         return (
-            "INDEXNOW_KEY must be 8–128 characters (a-z, A-Z, 0-9, hyphen only). "
+            "INDEXNOW_KEY must be 8-128 characters (a-z, A-Z, 0-9, hyphen only). "
             "Generate: openssl rand -hex 16"
         )
     return None
@@ -254,7 +254,7 @@ def main() -> int:
     entry: dict = {"at": datetime.now(timezone.utc).isoformat(), "urlCount": len(urls)}
 
     if not key:
-        entry["note"] = "INDEXNOW_KEY not set — see docs/INDEXING_AUTOMATION.md"
+        entry["note"] = "INDEXNOW_KEY not set - see docs/INDEXING_AUTOMATION.md"
         log(entry["note"])
         append_log(entry)
         return 0
@@ -274,7 +274,7 @@ def main() -> int:
 
     entry["indexnow"] = submit_batch(urls, key)
     ok = any(r.get("ok") for r in entry["indexnow"]["results"])
-    log(f"IndexNow batch: {entry['indexnow']['urlCount']} URLs → key file {entry['indexnow']['keyFile']}")
+    log(f"IndexNow batch: {entry['indexnow']['urlCount']} URLs -> key file {entry['indexnow']['keyFile']}")
     for r in entry["indexnow"]["results"]:
         log(f"  {r}")
     append_log(entry)
