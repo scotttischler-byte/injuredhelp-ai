@@ -13,8 +13,12 @@
       "schedule": "45 */4 * * *"
     },
     {
-      "path": "/api/generate-content/cron",
-      "schedule": "0 8 * * *"
+      "path": "/api/indexing/cron",
+      "schedule": "0 */4 * * *"
+    },
+    {
+      "path": "/api/automation/health",
+      "schedule": "30 13 * * *"
     }
   ]
 }

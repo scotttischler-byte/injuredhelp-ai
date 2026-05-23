@@ -1,0 +1,42 @@
+# Daily check: production automation APIs + remind if GitHub secrets missing.
+
+name: Automation health check
+
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Production automation health
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SITE: https://www.wreckmatch.com
+        run: |
+          if [ -z "$CRON_SECRET" ]; then
+            echo "::warning::CRON_SECRET missing on GitHub"
+            exit 0
+          fi
+          curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE/api/automation/health" | tee health.json
+          node -e "
+          const h = require('./health.json');
+          if (!h.ok) { console.error('Health check failed', h); process.exit(1); }
+          console.log('Automation OK:', h.checks);
+          "
+
+      - name: IndexNow cron ping
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SITE: https://www.wreckmatch.com
+        run: |
+          if [ -z "$CRON_SECRET" ]; then exit 0; fi
+          curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE/api/indexing/cron" | tee index.json
+          node -e "
+          const j = require('./index.json');
+          if (!j.ok) { console.error('IndexNow cron failed', j); process.exit(1); }
+          console.log('IndexNow submitted', j.submitted, 'URLs');
+          "
