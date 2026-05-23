@@ -1,5 +1,4 @@
 import type { MetadataRoute } from "next";
-import { headers } from "next/headers";
 import { getAllGeoHubSlugs } from "@/lib/geo-routes";
 import { getAllPosts } from "@/lib/posts";
 import { TEXAS_METRO_LINKS } from "@/lib/texas-metro-links";
@@ -8,7 +7,7 @@ import { CITATION_ASSETS } from "@/lib/citation-assets";
 import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
 import { TOPIC_HUBS } from "@/lib/topic-hubs";
 import { pressPathsForSitemap } from "@/lib/press-index";
-import { WRECKMATCH_URL, siteOriginFromHeaders } from "@/lib/site";
+import { WRECKMATCH_URL } from "@/lib/site";
 
 const SEO_STATIC = [
   "/car-accident-help",
@@ -41,7 +40,6 @@ function geoPagePriority(slug: string): number {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const h = await headers();
   // Always emit www canonical URLs (matches middleware + GSC property)
   const origin = WRECKMATCH_URL;
   const now = new Date();
