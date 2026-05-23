@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getAllPosts } from "@/lib/posts";
 import { submitIndexNowBatch } from "@/lib/indexnow";
+import { pressPathsForSitemap } from "@/lib/press-index";
 import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
 import { verifyCronSecret } from "@/lib/automation-auth";
 
@@ -18,6 +19,8 @@ const PRIORITY_PATHS = [
   "/checklist-after-car-accident",
   "/ai-accident-help",
   ...WHAT_TO_DO_PATHS,
+  "/press",
+  ...pressPathsForSitemap(),
 ];
 
 /**

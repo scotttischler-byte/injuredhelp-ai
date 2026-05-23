@@ -30,14 +30,23 @@ export default async function PressReleasePage({ params }: Props) {
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
 
+  const authorName =
+    post.meta.authorPerson === "kathy-carr"
+      ? "Kathy Carr"
+      : post.meta.authorPerson === "scott-tischler"
+        ? "Scott Tischler"
+        : "WreckMatch";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
     headline: post.meta.title,
+    description: post.meta.description,
     datePublished: post.meta.date,
-    author: { "@type": "Organization", name: "WreckMatch" },
-    publisher: { "@type": "Organization", name: "WreckMatch" },
+    author: { "@type": "Person", name: authorName },
+    publisher: { "@type": "Organization", name: "WreckMatch LLC", url: origin },
     mainEntityOfPage: absoluteUrl(`/press/${slug}`, origin),
+    ...(post.meta.syndicatedUrl ? { isBasedOn: post.meta.syndicatedUrl } : {}),
   };
 
   return (

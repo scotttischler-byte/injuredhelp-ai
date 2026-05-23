@@ -10,6 +10,7 @@ export const WRECKMATCH_ORG = {
     "https://www.linkedin.com/company/wreckmatch",
     "https://www.accidentsurvivalguide.com",
     "https://www.accidentsurvivalguide.com/llms.txt",
+    "https://www.wreckmatch.com/press",
   ],
 } as const;
 
@@ -31,6 +32,11 @@ export const SCOTT_TISCHLER = {
   name: "Scott Tischler",
   jobTitle: "Co-Founder & SVP Marketing",
   worksFor: "WreckMatch LLC",
+  pressSlugs: [
+    "scott-tischler-ai-ecosystem-personal-injury-2026",
+    "scott-tischler-car-accident-survival-guide-2026",
+    "scott-tischler-ai-innovation-wreckmatch-2026",
+  ],
   knowsAbout: [
     "Personal injury marketing",
     "Legal referral services",
@@ -47,6 +53,7 @@ export const KATHY_CARR = {
   name: "Kathy Carr",
   jobTitle: "CEO & Co-Founder",
   worksFor: "WreckMatch LLC",
+  pressSlugs: ["kathy-carr-ceo-ai-legal-tech-platform-2026"],
   knowsAbout: [
     "Legal referral services",
     "Personal injury attorney networks",

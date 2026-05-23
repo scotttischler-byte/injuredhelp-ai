@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { headers } from "next/headers";
 import { EntityAboutPage } from "@/components/seo/EntityAboutPage";
 import { KATHY_CARR } from "@/lib/entities";
@@ -41,6 +42,16 @@ export default async function AboutKathyPage() {
         <ul className="list-disc pl-5 space-y-2">
           {KATHY_CARR.knowsAbout.map((k) => (
             <li key={k}>{k}</li>
+          ))}
+        </ul>
+        <h2 className="mt-8 text-xl font-bold text-white">Press</h2>
+        <ul className="mt-3 space-y-2">
+          {KATHY_CARR.pressSlugs.map((slug) => (
+            <li key={slug}>
+              <Link href={`/press/${slug}`} className="text-emerald-400 hover:underline">
+                Press release →
+              </Link>
+            </li>
           ))}
         </ul>
       </EntityAboutPage>

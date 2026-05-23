@@ -7,6 +7,7 @@ import { ACCIDENT_VARIANT_CITIES, PRIORITY_PLACE_BY_SLUG } from "@/lib/priority-
 import { CITATION_ASSETS } from "@/lib/citation-assets";
 import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
 import { TOPIC_HUBS } from "@/lib/topic-hubs";
+import { pressPathsForSitemap } from "@/lib/press-index";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 const SEO_STATIC = [
@@ -78,6 +79,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   ];
 
+  const pressPages = pressPathsForSitemap().map((path) => ({
+    url: `${origin}${path}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
+
   const blogPosts = getAllPosts().map((p) => ({
     url: `${origin}/blog/${p.slug}`,
     lastModified: new Date(p.date),
@@ -101,5 +109,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   );
 
-  return [...staticPages, ...blogPosts, ...geoPages, ...variantPages];
+  return [...staticPages, ...pressPages, ...blogPosts, ...geoPages, ...variantPages];
 }

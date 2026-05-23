@@ -61,6 +61,12 @@ PRIORITY_PATHS = [
     "/ai-accident-help",
     "/resources",
     "/blog",
+    "/press",
+    "/press/kathy-carr-ceo-ai-legal-tech-platform-2026",
+    "/press/scott-tischler-ai-ecosystem-personal-injury-2026",
+    "/press/scott-tischler-car-accident-survival-guide-2026",
+    "/press/scott-tischler-ai-innovation-wreckmatch-2026",
+    "/press/wreckmatch-car-accident-legal-help-2026",
 ]
 
 
