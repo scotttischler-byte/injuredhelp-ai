@@ -21,7 +21,14 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     queueMicrotask(() => {
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        if (raw === "es" || raw === "en") setLangState(raw);
+        if (raw === "es" || raw === "en") {
+          setLangState(raw);
+          return;
+        }
+        const browserLang = navigator.language?.toLowerCase() ?? "";
+        if (browserLang.startsWith("es")) {
+          setLangState("es");
+        }
       } catch {
         /* ignore */
       }

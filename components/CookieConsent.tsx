@@ -2,11 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useLanguage } from "@/components/LanguageContext";
 import { signalAnalyticsLoad } from "@/components/DeferredAnalytics";
 
 const STORAGE_KEY = "wreckmatch_cookie_consent";
 
 export function CookieConsent() {
+  const { t } = useLanguage();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -48,13 +50,13 @@ export function CookieConsent() {
     <div
       className="fixed bottom-0 left-0 right-0 z-[70] border-t border-gray-700 bg-gray-950 px-4 py-3 shadow-2xl md:py-4"
       role="dialog"
-      aria-label="Cookie consent"
+      aria-label={t.cookieAriaLabel}
     >
       <div className="mx-auto flex max-w-5xl flex-col items-start gap-3 md:flex-row md:items-center md:justify-between">
         <p className="text-sm text-gray-300">
-          We use cookies to improve your experience and track conversions. By continuing, you agree to our{" "}
+          {t.cookieBannerBefore}{" "}
           <Link href="/privacy" className="text-red-400 underline hover:text-red-300">
-            Privacy Policy
+            {t.cookiePrivacyLabel}
           </Link>
           .
         </p>
@@ -64,13 +66,13 @@ export function CookieConsent() {
             onClick={accept}
             className="flex-1 rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white transition-all duration-200 hover:bg-red-500 md:flex-none"
           >
-            Accept
+            {t.cookieAccept}
           </button>
           <Link
             href="/privacy"
             className="flex-1 rounded-lg border border-gray-600 px-4 py-2 text-center text-sm font-medium text-white transition-all duration-200 hover:bg-gray-800 md:flex-none"
           >
-            Learn More
+            {t.cookieLearnMore}
           </Link>
         </div>
       </div>

@@ -38,7 +38,14 @@ export const metadata: Metadata = {
     type: "website",
     url: origin,
   },
-  alternates: { canonical: `${origin}/` },
+  alternates: {
+    canonical: `${origin}/`,
+    languages: {
+      "en-US": `${origin}/`,
+      "es-US": `${origin}/`,
+      "x-default": `${origin}/`,
+    },
+  },
   verification: googleSiteVerification(),
 };
 
@@ -103,9 +110,9 @@ export default function RootLayout({
         <Providers>
           {children}
           <SiteFooter />
+          <CookieConsent />
         </Providers>
         <MobileGlobalCTA />
-        <CookieConsent />
       </body>
     </html>
   );

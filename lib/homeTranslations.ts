@@ -114,6 +114,11 @@ export type HomeCopy = {
   heroLegalReadMore: string;
   statsDisclaimer: string;
   statsDisclaimerLink: string;
+  cookieBannerBefore: string;
+  cookiePrivacyLabel: string;
+  cookieAccept: string;
+  cookieLearnMore: string;
+  cookieAriaLabel: string;
   form: LeadFormCopy;
 };
 
@@ -351,6 +356,11 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     statsDisclaimer:
       "Figures above describe our referral service operations (coverage, speed, cost to use WreckMatch). They are not case outcomes or legal results. Past results do not guarantee future outcomes.",
     statsDisclaimerLink: "Full disclaimer",
+    cookieBannerBefore: "We use cookies to improve your experience and track conversions. By continuing, you agree to our",
+    cookiePrivacyLabel: "Privacy Policy",
+    cookieAccept: "Accept",
+    cookieLearnMore: "Learn More",
+    cookieAriaLabel: "Cookie consent",
     form: FORM_EN,
   },
   es: {
@@ -444,6 +454,11 @@ export const HOME_TRANSLATIONS: Record<Lang, HomeCopy> = {
     statsDisclaimer:
       "Los totales y porcentajes son cifras agregadas autodeclaradas por firmas asociadas en la red WreckMatch, no promedios por cliente. La \"tasa de éxito\" refleja la metodología interna de cada firma y no está auditada por WreckMatch. Los resultados pasados no garantizan resultados futuros.",
     statsDisclaimerLink: "Aviso completo",
+    cookieBannerBefore: "Usamos cookies para mejorar tu experiencia y medir conversiones. Al continuar, aceptas nuestra",
+    cookiePrivacyLabel: "Política de privacidad",
+    cookieAccept: "Aceptar",
+    cookieLearnMore: "Más información",
+    cookieAriaLabel: "Consentimiento de cookies",
     form: FORM_ES,
   },
 };

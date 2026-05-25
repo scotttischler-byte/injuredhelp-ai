@@ -91,7 +91,7 @@ export function SiteHeader() {
 
         <div className="flex shrink-0 items-center gap-1.5 sm:gap-2">
           <div
-            className="hidden items-center rounded-lg border border-gray-700/90 bg-gray-900/80 p-0.5 shadow-inner sm:flex"
+            className="flex items-center rounded-lg border border-gray-700/90 bg-gray-900/80 p-0.5 shadow-inner"
             role="group"
             aria-label="Site language"
           >
