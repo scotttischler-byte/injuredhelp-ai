@@ -81,6 +81,7 @@ jobs:
             --claude-first \
             --syndicate \
             --delay 1
+          # Requires ANTHROPIC_API_KEY for gold-tier posts; falls back to premium template if missing.
 
       - name: Commit and push (Vercel deploy)
         id: commit

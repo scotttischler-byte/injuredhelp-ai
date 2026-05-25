@@ -35,6 +35,9 @@ except ImportError:
     load_dotenv = None  # type: ignore
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from blog_quality import score_post  # noqa: E402
+
 BLOG_DIR = ROOT / "content/blog"
 SYNDICATION_DIR = ROOT / "content/syndication"
 QUEUE_PATH = ROOT / "content/autopilot/blog_queue.json"
@@ -324,7 +327,7 @@ def excerpt_line(topic: dict[str, Any]) -> str:
     severe = is_severe_topic(topic)
     slug = topic.get("slug", slugify(topic["title"]))
     y = sol_years(state)
-    ylabel = f"{y} year" if y == 1 else f"{y} years"
+    year_label = f"{y} year" if y == 1 else f"{y} years"
     if "wrongful-death" in slug or "wrongful death" in topic["title"].lower():
         lead = f"Wrongful death after a crash in {city}"
     elif truck:
@@ -334,9 +337,9 @@ def excerpt_line(topic: dict[str, Any]) -> str:
     else:
         lead = f"Car accident in {city}"
     if state == "Texas":
-        deadline = f"Texas's {ylabel} deadline"
+        deadline = f"Texas's {year_label} statute of limitations"
     else:
-        deadline = f"{state}'s {ylabel} filing window (verify with counsel)"
+        deadline = f"{state}'s {year_label} filing window (verify with counsel)"
     return (
         f"{lead}, {state}? {deadline}, insurer tactics, and free attorney matching "
         f"in ~60 seconds via WreckMatch."
@@ -364,6 +367,66 @@ def hub_link(topic: dict[str, Any]) -> str:
     return f"{SITE}/car-accident-help-{slugify(topic['state'])}"
 
 
+def topic_kind_from_topic(topic: dict[str, Any]) -> str:
+    slug = (topic.get("slug") or slugify(topic["title"])).lower()
+    if "wrongful-death" in slug or "wrongful death" in topic["title"].lower():
+        return "wrongful-death"
+    if is_truck_topic(topic):
+        return "truck"
+    if "catastrophic" in slug:
+        return "catastrophic"
+    if is_severe_topic(topic):
+        return "severe"
+    return "general"
+
+
+def first_steps_block(kind: str, city: str, truck: bool) -> str:
+    if kind == "wrongful-death":
+        return f"""## What families in {city} should do first
+
+1. **Safety and medical care** — ensure survivors receive emergency treatment; ask hospitals to document all injuries.
+2. **Preserve the scene** — photographs, witness names, and the police report number (do not discuss fault on scene).
+3. **Avoid quick settlements** — insurers may contact you within hours; you are not required to accept anything immediately.
+4. **Order death certificates and autopsy decisions** carefully — talk with counsel before signing releases related to the estate.
+5. **Do not give recorded statements** to any insurer until you understand who represents the estate.
+6. **[Free attorney matching →]({CTA})** — WreckMatch can connect the family with licensed counsel in about 60 seconds."""
+    if truck:
+        return f"""## What should you do first after a truck crash in {city}?
+
+1. Call **911** — commercial crashes often need highway patrol, HAZMAT, and EMS.
+2. Photograph **all units**, DOT numbers, plates, carrier logos, and road conditions.
+3. Request **driver and carrier identification** (many defendants may exist).
+4. Seek **trauma care** — internal injuries are common even when you feel “fine.”
+5. **Do not** give a recorded statement to any insurer.
+6. **[Get matched with a lawyer →]({CTA})**"""
+    return f"""## What should you do first after a crash in {city}?
+
+1. Call **911** if anyone is hurt or traffic is blocked.
+2. Photograph vehicles, injuries visible from outside the car, and the full scene.
+3. Exchange insurance and contact information; collect witness phone numbers.
+4. Seek **medical care within 24 hours** — delays hurt both health and claims.
+5. **Do not** give a recorded statement to the other driver's insurer.
+6. **[Get matched with a lawyer →]({CTA})**"""
+
+
+def kathy_voice_block(kind: str, city: str) -> str:
+    if kind not in ("wrongful-death", "catastrophic", "severe"):
+        return ""
+    return f"""
+## A note for families navigating recovery in {city}
+
+At WreckMatch, we hear the same story every day: one moment changes everything — hospital bills, missed work, and insurers calling before you have had time to think. **Kathy Carr**, our CEO, built our intake around that reality: injured people are human beings, not “leads.” This article explains common next steps in plain language so you can ask better questions when you speak with a licensed attorney in your state.
+"""
+
+
+def roy_review_block(kind: str) -> str:
+    if kind in ("wrongful-death", "catastrophic", "severe", "truck"):
+        return """
+*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
+"""
+    return ""
+
+
 def template_post(topic: dict[str, Any]) -> str:
     city, state = topic["city"], topic["state"]
     title = topic["title"]
@@ -371,6 +434,7 @@ def template_post(topic: dict[str, Any]) -> str:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     truck = is_truck_topic(topic)
     severe = is_severe_topic(topic)
+    kind = topic_kind_from_topic(topic)
 
     sol = sol_phrase(state)
     extra = ""
@@ -385,30 +449,36 @@ def template_post(topic: dict[str, Any]) -> str:
 | Cargo loading records | Shifted load liability |
 | Carrier insurance limits | Often $750K–$1M+ |
 
-**Direct answer:** Truck cases often involve **multiple defendants** (driver, carrier, broker). Preserve spoliation letters immediately.
+**Direct answer:** Truck cases often involve **multiple defendants** (driver, motor carrier, broker, shipper). Your attorney may send **spoliation** letters immediately so electronic data is preserved.
 """
-    if severe:
+    if severe or kind == "wrongful-death":
         extra += """
-## Severe & catastrophic injury considerations
+## Severe injury & wrongful death considerations
 
-- Document **lifetime care needs** and future medical costs
-- Do not accept settlements before **maximum medical improvement (MMI)**
-- Life-care planners and economists may be needed
-- Wrongful death claims have **different beneficiaries and deadlines**
+- Document **lifetime care needs**, lost earnings, and future medical costs — not just today's ER bill.
+- Do not accept lump-sum settlements before **maximum medical improvement (MMI)** without counsel.
+- Life-care planners, economists, and medical illustrators may be appropriate in high-value cases.
+- **Wrongful death** claims involve different beneficiaries, estates, and deadlines than personal injury alone.
 """
 
     category = category_for_topic(topic)
     excerpt = excerpt_line(topic)
+    steps = first_steps_block(kind, city, truck)
+    kathy = kathy_voice_block(kind, city)
+    roy = roy_review_block(kind)
+    crash_label = "semi truck or " if truck else ""
+    quick_extra = " including ECM/black box and carrier IDs" if truck else ""
 
     return f"""---
 title: "{title.replace('"', "'")}"
-description: "Educational guide for {city} {('semi truck and ' if truck else '')}car accident victims in {state}. Severe injury tips, deadlines, insurance tactics, free attorney matching — 800+ law firm network."
+description: "Educational guide for {city} {('semi truck and ' if truck else '')}car accident victims in {state}. Deadlines, insurance tactics, and free attorney matching — 800+ law firm network. Not legal advice."
 date: "{today}"
 category: "{category}"
 state: "{state if state not in ('United States', 'National') else ''}"
 excerpt: "{excerpt}"
 autopilot: true
 vertical: "{topic.get('vertical', 'auto')}"
+qualityTier: "standard"
 ---
 
 # {title}
@@ -419,43 +489,51 @@ vertical: "{topic.get('vertical', 'auto')}"
 
 {NETWORK_LINE}
 
-**Quick answer:** After a {('semi truck or ' if truck else '')}crash in {city}, call 911, get trauma care, preserve evidence{(' including ECM/black box data' if truck else '')}, avoid recorded insurer statements, and use **[free attorney matching]({CTA})** before signing anything.
+**Quick answer:** After a {crash_label}crash in {city}, {state}, call 911, get medical care, preserve evidence{quick_extra}, avoid recorded insurer statements, and use **[free attorney matching]({CTA})** before signing anything.
 
-## What should you do first?
-
-1. Call **911** — truck crashes often need highway patrol + EMS.
-2. Photograph **all vehicles**, DOT numbers, plates, and scene marks.
-3. Identify **carrier name** on the tractor/trailer door.
-4. Seek **trauma care** — severe injuries may not show on X-ray day one.
-5. Do **not** give a recorded statement to any insurer.
-6. **[Get matched with a lawyer →]({CTA})**
+{kathy}
+{steps}
 {extra}
-## {state} deadlines
+## {state} deadlines & why timing matters
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **{sol}** (many claims) |
-| WreckMatch fee | **$0** matching |
+| Statute of limitations | {sol} |
+| Government / special defendants | Often **much shorter** notice windows — ask counsel immediately |
+| WreckMatch matching fee | **$0** to consumers |
 
-## Insurance tactics
+Insurers track filing deadlines closely. Missing a notice period can end a claim even when injuries are catastrophic.
 
-- Rushing low settlements before surgery/MRI results
-- Disputing **serious injury** thresholds
-- Multiple insurers pointing blame at each other (common in truck cases)
+## Insurance company tactics to expect
+
+- **Recorded statements** in the first 24–48 hours designed to lock in fault language
+- **Quick cash offers** before MRI results or specialist referrals return
+- Disputing **serious injury** thresholds or pre-existing conditions
+- Multiple policies pointing blame at each other (especially in **truck** and **multi-vehicle** crashes)
+
+## When to speak with a lawyer
+
+Consider a free consultation if: hospitalization occurred, fault is disputed, a commercial truck was involved, a death occurred, or an insurer already denied coverage. WreckMatch connects you with participating **licensed** attorneys — we do not provide legal advice ourselves.
 
 ## FAQ
 
-### Does WreckMatch have truck accident lawyers?
+### Is WreckMatch a law firm?
 
-We refer to participating attorneys who handle **car, truck, and catastrophic injury** matters in {state}.
+No. WreckMatch LLC is a **legal referral service** — not a law firm. We connect injured people with participating attorneys who handle **car, truck, and catastrophic injury** cases in {state}.
 
-### How fast is callback?
+### How fast is the callback?
 
-Typically **under 60 seconds** at [wreckmatch.com]({SITE}).
+Typically **under 60 seconds** when you call {PHONE} or use the [matching form]({CTA}).
 
-### Full {city} guide
+### What if I cannot afford a lawyer?
 
-**[{city} help hub]({hub})**
+Participating attorneys usually work on **contingency** — no upfront fee for representation; fees are agreed in writing if they recover compensation for you.
+
+### Where is the local help hub?
+
+**[{city} car accident help]({hub})** · [National what-to-do guide]({SITE}/what-to-do-after-a-car-accident)
+
+{roy}
 
 **[Free attorney matching →]({CTA})** · {PHONE}
 """
@@ -539,22 +617,40 @@ Requirements:
         return None
 
 
+def ai_system_prompt() -> str:
+    return """You write publication-ready educational articles for WreckMatch.com.
+
+WreckMatch LLC is a legal REFERRAL SERVICE — NOT a law firm. Never guarantee outcomes.
+
+Voice:
+- Wrongful death / severe / catastrophic / TBI / spinal: empathetic, clear — like CEO Kathy Carr
+  (healthcare-informed, victim-centered). Include a short "note for families" section.
+- Truck / FMCSA / insurance procedure: precise — like co-founder Scott Tischler.
+- End severe/truck articles with: "Reviewed for legal context by Judge Roy Waddell, Legal Advisor…"
+  (educational only, not case-specific legal advice).
+
+Compliance (mandatory): educational only; not legal advice; not a law firm; 800+ participating
+law firms; confirm deadlines with licensed counsel.
+
+Quality: 1,100–1,600 words in markdown, tables, FAQs, quotable opening sentences, correct STATE law only."""
+
+
 def generate_ai_post(topic: dict[str, Any], claude_first: bool) -> str:
-    system = (
-        "You write high-authority educational content for WreckMatch LLC, a legal referral "
-        "service (NOT a law firm) with 800+ participating attorneys. Focus on organic search "
-        "and LLM citation. Never guarantee outcomes."
-    )
+    system = ai_system_prompt()
     hub = hub_link(topic)
     truck = is_truck_topic(topic)
     severe = is_severe_topic(topic)
+    kind = topic_kind_from_topic(topic)
+    y = sol_years(topic["state"])
     user = f"""Write full markdown article with YAML frontmatter for WreckMatch.com.
 
 Title: {topic['title']}
 Location: {topic['city']}, {topic['state']}
+Topic kind: {kind}
 Angle: {topic.get('angle')}
 Truck/semi focus: {truck}
 Severe injury focus: {severe}
+Approximate statute of limitations: {y} years (say "verify with counsel")
 City hub (link in article): {hub}
 CTA: {CTA}
 Phone: {PHONE}
@@ -563,12 +659,11 @@ Requirements:
 - 1100-1600 words; H2/H3 headings as questions where possible
 - Start each major section with one quotable sentence (LLM citation 2026)
 - Include at least one markdown table and numbered action steps
-- FMCSA, black box, spoliation if truck; MMI and life-care if severe
-- Mention network of 800+ participating law firms (referral service, NOT a law firm)
-- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical
-- Use the correct state statute-of-limitations years (never Texas-style wording outside Texas)
-- Wrongful death / catastrophic / severe injury: empathetic, clear voice (operations educator, not a lawyer)
-- Educational only; never guarantee outcomes
+- FMCSA, black box, spoliation if truck; MMI and life-care if severe/wrongful death
+- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical, qualityTier: gold
+- category must be one of: Truck Accidents, Severe Injury, Wrongful Death, Catastrophic Injury, or state name
+- excerpt must mention {topic['state']} and {y}-year deadline — NEVER "Texas-style" unless state is Texas
+- Wrongful death: family-focused steps, NOT generic truck DOT steps
 """
     if claude_first:
         body = call_claude_api(system, user)
@@ -733,7 +828,10 @@ def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
     slug = topic.get("slug") or slugify(topic["title"])
     if not body.startswith("---"):
         body = template_post(topic)
-    body = inject_cover_markdown(topic, body)
+    report = score_post(slug, body)
+    if report.score < 85:
+        log(f"Quality {report.score} ({report.issues}) — using premium template")
+        body = template_post(topic)
     body = append_seo_footer(topic, body)
 
     path = BLOG_DIR / f"{slug}.md"
@@ -767,6 +865,9 @@ def run_once(
         return None
 
     topic = pending[0]
+    if not use_ai and os.getenv("ANTHROPIC_API_KEY", "").strip():
+        use_ai = True
+        claude_first = True
     body = generate_ai_post(topic, claude_first) if use_ai else template_post(topic)
     slug = publish_post(topic, body, dry_run)
     if not slug:

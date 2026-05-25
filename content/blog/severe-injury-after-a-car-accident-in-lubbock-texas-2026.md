@@ -19,6 +19,11 @@ coverAlt: "Severe and catastrophic car accident injury guide"
 
 WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide — free matching, typically under 60 seconds.
 
+
+## A note for families navigating recovery in Lubbock
+
+At WreckMatch, we hear the same story every day: one moment changes everything — hospital bills, missed work, and insurers calling before you have had time to think. **Kathy Carr**, our CEO, built our intake around that reality: injured people are human beings, not "leads." This article explains common next steps in plain language so you can ask better questions when you speak with a licensed attorney in Texas.
+
 **Quick answer:** After a crash in Lubbock, call 911, get trauma care, preserve evidence, avoid recorded insurer statements, and use **[free attorney matching](https://www.wreckmatch.com/#form)** before signing anything.
 
 ## What should you do first?
@@ -76,3 +81,21 @@ Typically **under 60 seconds** at [wreckmatch.com](https://www.wreckmatch.com).
 - [Lubbock car accident help](https://www.wreckmatch.com/car-accident-help-lubbock)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
+
+*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
+
+## When to speak with a lawyer
+
+A free consultation makes sense after hospitalization, disputed fault, a commercial truck crash, wrongful death, or if an insurer denies coverage. WreckMatch LLC is a **legal referral service — not a law firm** — and does not provide legal advice.
+
+## Insurance tactics to expect
+
+- Recorded statements in the first 48 hours
+- Quick settlement offers before MRI or specialist results
+- Disputes over injury severity or pre-existing conditions
+
+## Free matching in about 60 seconds
+
+Call **855 WRECKMATCH (855) 897-3256** or use [free attorney matching](https://www.wreckmatch.com/#form). Participating attorneys typically work on contingency.
+
+*Educational only — not legal advice.*

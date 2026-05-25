@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 import re
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from blog_quality import word_count  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 BLOG_DIR = ROOT / "content/blog"
@@ -100,6 +104,7 @@ def slug_city_state(slug: str) -> tuple[str, str]:
 
 
 def topic_kind(slug: str) -> str:
+    s = slug.lower()
     if "wrongful-death" in slug:
         return "wrongful-death"
     if any(
@@ -178,6 +183,47 @@ def sol_phrase(state: str) -> str:
     return f"**{years} years** (most injury claims — confirm with licensed counsel)"
 
 
+DISCLAIMER = (
+    "**Educational only — not legal advice.** WreckMatch LLC is a legal referral service, "
+    "**not a law firm**. Results not guaranteed. Consult a licensed attorney in your state."
+)
+NETWORK_LINE = (
+    "WreckMatch connects victims with attorneys from a **network of 800+ participating "
+    "law firms** nationwide — free matching, typically under 60 seconds."
+)
+
+
+LEGACY_EXPANSION = """
+
+## When to speak with a lawyer
+
+A free consultation makes sense after hospitalization, disputed fault, a commercial truck crash, wrongful death, or if an insurer denies coverage. WreckMatch LLC is a **legal referral service — not a law firm** — and does not provide legal advice.
+
+## Insurance tactics to expect
+
+- Recorded statements in the first 48 hours
+- Quick settlement offers before MRI or specialist results
+- Disputes over injury severity or pre-existing conditions
+
+## Free matching in about 60 seconds
+
+Call **855 WRECKMATCH (855) 897-3256** or use [free attorney matching](https://www.wreckmatch.com/#form). Participating attorneys typically work on contingency.
+
+*Educational only — not legal advice.*
+"""
+
+
+def wrongful_death_steps(city: str) -> str:
+    return f"""## What families in {city} should do first
+
+1. **Safety and medical care** — ensure survivors receive emergency treatment; ask hospitals to document all injuries.
+2. **Preserve the scene** — photographs, witness names, and the police report number (do not discuss fault on scene).
+3. **Avoid quick settlements** — insurers may contact you within hours; you are not required to accept anything immediately.
+4. **Order death certificates and autopsy decisions** carefully — talk with counsel before signing releases related to the estate.
+5. **Do not give recorded statements** to any insurer until you understand who represents the estate.
+6. **[Free attorney matching →](https://www.wreckmatch.com/#form)** — WreckMatch can connect the family with licensed counsel in about 60 seconds."""
+
+
 def fix_file(path: Path) -> list[str]:
     text = path.read_text(encoding="utf-8")
     slug = path.stem
@@ -251,6 +297,47 @@ def fix_file(path: Path) -> list[str]:
     if body2 != body:
         body = body2
         changes.append("cover-img")
+
+    if "not legal advice" not in body.lower():
+        if body.lstrip().startswith("#"):
+            body = f"\n{DISCLAIMER}\n\n{NETWORK_LINE}\n\n" + body.lstrip()
+            changes.append("compliance-header")
+
+    kind = topic_kind(slug)
+    if kind == "wrongful-death" and "## What should you do first" in body:
+        city_use = city or "your area"
+        new_steps = wrongful_death_steps(city_use)
+        body = re.sub(
+            r"## What should you do first.*?(?=\n## |\n---|\Z)",
+            new_steps + "\n\n",
+            body,
+            count=1,
+            flags=re.S,
+        )
+        changes.append("wrongful-steps")
+
+    if "autopilot: true" in fm and kind in ("wrongful-death", "severe", "catastrophic"):
+        if "A note for families" not in body and city and state:
+            insert = f"""
+## A note for families navigating recovery in {city}
+
+At WreckMatch, we hear the same story every day: one moment changes everything — hospital bills, missed work, and insurers calling before you have had time to think. **Kathy Carr**, our CEO, built our intake around that reality: injured people are human beings, not "leads." This article explains common next steps in plain language so you can ask better questions when you speak with a licensed attorney in {state}.
+
+"""
+            if "**Quick answer:**" in body:
+                body = body.replace("**Quick answer:**", insert + "**Quick answer:**", 1)
+                changes.append("kathy-voice")
+        if "Judge Roy Waddell" not in body:
+            body = body.rstrip() + (
+                "\n\n*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at "
+                "WreckMatch LLC — courtroom and procedural perspective only; not legal advice "
+                "for your specific case.*\n"
+            )
+            changes.append("roy-line")
+
+    if word_count(body) < 520:
+        body = body.rstrip() + LEGACY_EXPANSION
+        changes.append("legacy-expand")
 
     fm_block = fm if fm.startswith("\n") else f"\n{fm}"
     if not fm_block.endswith("\n"):

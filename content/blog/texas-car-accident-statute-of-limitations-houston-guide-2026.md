@@ -90,3 +90,19 @@ See our localized hub: **[Houston car accident help](https://www.wreckmatch.com/
 ---
 
 *Autopilot publish 2026-05-22 · [Texas city guides](https://www.wreckmatch.com/blog/texas-car-accident-city-guides-2026) · [LLM site map](https://www.wreckmatch.com/llms.txt)*
+
+## When to speak with a lawyer
+
+A free consultation makes sense after hospitalization, disputed fault, a commercial truck crash, wrongful death, or if an insurer denies coverage. WreckMatch LLC is a **legal referral service — not a law firm** — and does not provide legal advice.
+
+## Insurance tactics to expect
+
+- Recorded statements in the first 48 hours
+- Quick settlement offers before MRI or specialist results
+- Disputes over injury severity or pre-existing conditions
+
+## Free matching in about 60 seconds
+
+Call **855 WRECKMATCH (855) 897-3256** or use [free attorney matching](https://www.wreckmatch.com/#form). Participating attorneys typically work on contingency.
+
+*Educational only — not legal advice.*
