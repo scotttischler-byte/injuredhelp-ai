@@ -2,7 +2,7 @@
 title: How Long Do You Have to File a Car Accident Claim?
 description: Statutes of limitations vary by state. Learn why waiting hurts your case—and how a referral service can connect you fast.
 date: 2026-05-12
-category: Legal basics
+category: "General"
 state: General
 excerpt: Every state sets a deadline to sue after a car crash. Missing it can end your case entirely.
 ---

@@ -4,13 +4,12 @@ description: "Educational guide for Philadelphia semi truck and car accident vic
 date: "2026-05-25"
 category: "Truck Accidents"
 state: "Pennsylvania"
-excerpt: "Semi truck or crash in Philadelphia? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Semi-truck crash in Philadelphia, Pennsylvania? Pennsylvania's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
 coverImage: "/blog/covers/truck-accident.svg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 ---
-![Semi truck and commercial vehicle accident guide](https://www.wreckmatch.com/blog/covers/truck-accident.svg)
 
 # Tractor-Trailer Injury in Philadelphia, Pennsylvania: Legal Steps (2026)
 
@@ -46,7 +45,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **typically 2–3 years (verify with counsel)** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) (many claims) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

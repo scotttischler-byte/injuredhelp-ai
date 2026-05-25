@@ -2,7 +2,7 @@
 title: Rideshare Accident Claims (Uber/Lyft) — Your Rights
 description: Coverage phases, app-on vs app-off, and passenger vs driver claims after an Uber or Lyft crash. General information only.
 date: 2026-05-17
-category: Rideshare
+category: "Car Accidents"
 excerpt: Rideshare crashes involve layered insurance depending on whether the driver was waiting, en route, or off-app.
 ---
 

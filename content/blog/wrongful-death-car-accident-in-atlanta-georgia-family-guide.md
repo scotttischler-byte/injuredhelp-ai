@@ -2,15 +2,14 @@
 title: "Wrongful Death Car Accident in Atlanta, Georgia — Family Guide"
 description: "Educational guide for Atlanta car accident victims in Georgia. Severe injury tips, deadlines, insurance tactics, free attorney matching — 800+ law firm network."
 date: "2026-05-24"
-category: "Severe Injury"
+category: "Wrongful Death"
 state: "Georgia"
-excerpt: "severe injury crash in Atlanta? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Wrongful death after a crash in Atlanta, Georgia? Georgia's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
 coverImage: "/blog/covers/severe-injury.svg"
 coverAlt: "Severe and catastrophic car accident injury guide"
 ---
-![Severe and catastrophic car accident injury guide](https://www.wreckmatch.com/blog/covers/severe-injury.svg)
 
 # Wrongful Death Car Accident in Atlanta, Georgia — Family Guide
 
@@ -42,7 +41,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **typically 2–3 years (verify with counsel)** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) (many claims) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

@@ -4,13 +4,12 @@ description: "Educational guide for Arlington semi truck and car accident victim
 date: "2026-05-24"
 category: "Truck Accidents"
 state: "Texas"
-excerpt: "Semi truck or crash in Arlington? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Semi-truck crash in Arlington, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
 coverImage: "/blog/covers/truck-accident.svg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 ---
-![Semi truck and commercial vehicle accident guide](https://www.wreckmatch.com/blog/covers/truck-accident.svg)
 
 # Underride or Override Truck Crash in Arlington, Texas (2026)
 
@@ -46,7 +45,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **2 years** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

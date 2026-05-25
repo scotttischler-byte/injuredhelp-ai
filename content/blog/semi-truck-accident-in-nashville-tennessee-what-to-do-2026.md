@@ -4,13 +4,12 @@ description: "Educational guide for Nashville semi truck and car accident victim
 date: "2026-05-23"
 category: "Truck Accidents"
 state: "Tennessee"
-excerpt: "Semi truck or crash in Nashville? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Semi-truck crash in Nashville, Tennessee? Tennessee's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
 coverImage: "/blog/covers/truck-accident.svg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 ---
-![Semi truck and commercial vehicle accident guide](https://www.wreckmatch.com/blog/covers/truck-accident.svg)
 
 # Semi Truck Accident in Nashville, Tennessee: What to Do (2026)
 
@@ -46,7 +45,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **typically 2–3 years (verify with counsel)** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) (many claims) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

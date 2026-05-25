@@ -2,7 +2,7 @@
 title: Motorcycle Accidents — Common Injuries and Legal Steps
 description: Road rash, fractures, and bias against riders—and how to protect a claim after a motorcycle crash.
 date: 2026-05-17
-category: Motorcycle
+category: "Car Accidents"
 excerpt: Riders face higher injury rates and unfair blame. Document the scene and get care early.
 ---
 

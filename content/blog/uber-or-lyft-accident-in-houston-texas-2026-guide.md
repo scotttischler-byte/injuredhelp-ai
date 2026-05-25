@@ -4,7 +4,7 @@ description: "Educational guide for Houston car accident victims in Texas. Sever
 date: "2026-05-22"
 category: "Texas"
 state: "Texas"
-excerpt: "crash in Houston? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Car accident in Houston, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "auto"
 ---
@@ -32,7 +32,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **2 years** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

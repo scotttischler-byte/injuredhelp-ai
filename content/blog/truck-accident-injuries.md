@@ -2,7 +2,7 @@
 title: Truck Accident Injuries — What Victims Need to Know
 description: Commercial crashes often involve severe injuries, multiple insurers, and federal rules. General information for injured drivers.
 date: 2026-05-17
-category: Truck accidents
+category: "Truck Accidents"
 excerpt: Semi and delivery truck crashes raise different evidence and deadline issues than typical fender-benders.
 ---
 

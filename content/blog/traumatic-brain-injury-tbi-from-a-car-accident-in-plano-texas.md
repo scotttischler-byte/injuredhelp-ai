@@ -4,13 +4,12 @@ description: "Educational guide for Plano car accident victims in Texas. Severe 
 date: "2026-05-24"
 category: "Severe Injury"
 state: "Texas"
-excerpt: "severe injury crash in Plano? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Serious injury crash in Plano, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
 coverImage: "/blog/covers/severe-injury.svg"
 coverAlt: "Severe and catastrophic car accident injury guide"
 ---
-![Severe and catastrophic car accident injury guide](https://www.wreckmatch.com/blog/covers/severe-injury.svg)
 
 # Traumatic Brain Injury (TBI) From a Car Accident in Plano, Texas
 
@@ -42,7 +41,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **2 years** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

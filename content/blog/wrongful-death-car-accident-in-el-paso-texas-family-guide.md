@@ -2,15 +2,14 @@
 title: "Wrongful Death Car Accident in El Paso, Texas — Family Guide"
 description: "Educational guide for El Paso car accident victims in Texas. Severe injury tips, deadlines, insurance tactics, free attorney matching — 800+ law firm network."
 date: "2026-05-24"
-category: "Severe Injury"
+category: "Wrongful Death"
 state: "Texas"
-excerpt: "severe injury crash in El Paso? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Wrongful death after a crash in El Paso, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
 coverImage: "/blog/covers/severe-injury.svg"
 coverAlt: "Severe and catastrophic car accident injury guide"
 ---
-![Severe and catastrophic car accident injury guide](https://www.wreckmatch.com/blog/covers/severe-injury.svg)
 
 # Wrongful Death Car Accident in El Paso, Texas — Family Guide
 
@@ -42,7 +41,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **2 years** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

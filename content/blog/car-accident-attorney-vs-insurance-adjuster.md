@@ -2,7 +2,7 @@
 title: Should You Talk to the Insurance Adjuster Before a Lawyer?
 description: Why the adjuster works for the insurer—not you—and how attorney matching works after an injury crash.
 date: 2026-05-14
-category: Insurance
+category: "Car Accidents"
 excerpt: The friendly adjuster is not on your side. Here is what to say, what to avoid, and when to get legal help.
 ---
 

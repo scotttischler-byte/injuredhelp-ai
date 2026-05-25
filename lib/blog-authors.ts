@@ -32,9 +32,10 @@ const RULES: Rule[] = [
   // Trucking / commercial-vehicle: Scott authored, Roy reviewed (FMCSA + interstate complexity).
   { test: /(18-wheeler|semi-truck|tractor-trailer|fmcsa|jackknife|underride|override|black-box|truck-accident)/i, author: SCOTT_TISCHLER, withReviewer: true },
 
-  // Catastrophic + wrongful death: Kathy authored (healthcare/empathy lens), Roy reviewed.
+  // Catastrophic + wrongful death + city severe-injury guides: Kathy authored, Roy reviewed.
   { test: /(wrongful-death|fatal|family-guide)/i, author: KATHY_CARR, withReviewer: true },
   { test: /(catastrophic|severe-injury|critical-injury|life-altering|paralysis)/i, author: KATHY_CARR, withReviewer: true },
+  { test: /severe-injury-after-a-car-accident/i, author: KATHY_CARR, withReviewer: true },
 
   // Medical / injury / recovery: Kathy authored.
   { test: /(whiplash|neck-injury|back-injury|soft-tissue|chiropractor)/i, author: KATHY_CARR, withReviewer: false },

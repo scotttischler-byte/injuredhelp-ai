@@ -4,13 +4,12 @@ description: "Educational guide for Los Angeles semi truck and car accident vict
 date: "2026-05-24"
 category: "Truck Accidents"
 state: "California"
-excerpt: "Semi truck or crash in Los Angeles? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "Semi-truck crash in Los Angeles, California? California's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
 coverImage: "/blog/covers/truck-accident.svg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 ---
-![Semi truck and commercial vehicle accident guide](https://www.wreckmatch.com/blog/covers/truck-accident.svg)
 
 # Tractor-Trailer Injury in Los Angeles, California: Legal Steps (2026)
 
@@ -46,7 +45,7 @@ WreckMatch connects victims with attorneys from a **network of 800+ participatin
 
 | Topic | Detail |
 |-------|--------|
-| Statute of limitations | **typically 2–3 years (verify with counsel)** (many claims) |
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) (many claims) |
 | WreckMatch fee | **$0** matching |
 
 ## Insurance tactics

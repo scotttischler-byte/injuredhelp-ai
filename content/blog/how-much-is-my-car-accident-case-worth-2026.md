@@ -2,7 +2,7 @@
 title: How Much Is My Car Accident Case Worth in 2026?
 description: Factors that drive settlement value after a crash—medical bills, lost wages, liability, and insurance limits. General information only.
 date: 2026-05-17
-category: Case value
+category: "Car Accidents"
 excerpt: There is no single formula, but certain facts consistently move car accident claim values up or down in 2026.
 ---
 

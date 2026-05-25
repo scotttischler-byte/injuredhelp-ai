@@ -2,7 +2,7 @@
 title: What to Do If the Insurance Company Denies My Claim
 description: Steps after a denial letter—review the reason, gather records, and when to speak with an attorney. General information only.
 date: 2026-05-17
-category: Insurance
+category: "Car Accidents"
 excerpt: A denial is not always the end of the road. Here is a practical order of operations.
 ---
 

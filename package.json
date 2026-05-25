@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "fix:blog-posts": "python3 scripts/fix_blog_posts.py",
     "generate:blog-covers": "node scripts/generate-blog-cover-assets.mjs",
     "generate:blog": "node scripts/generate-content.mjs blog",
     "generate:geo": "node scripts/generate-content.mjs geo",

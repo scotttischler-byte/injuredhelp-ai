@@ -2,7 +2,7 @@
 title: What to Do After a Car Accident (Step-by-Step)
 description: A practical checklist after a crash—safety, medical care, insurance, and when to speak with an attorney. General information only.
 date: 2026-05-10
-category: After a crash
+category: "Car Accidents"
 excerpt: The first hour after a collision matters. Here is a calm, practical order of operations if you are not seriously injured.
 ---
 

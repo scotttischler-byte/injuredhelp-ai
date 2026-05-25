@@ -42,6 +42,27 @@ LOG_PATH = ROOT / "content/autopilot/blog_generation.log"
 SITE = os.getenv("WRECKMATCH_SITE", "https://www.wreckmatch.com").rstrip("/")
 CTA = f"{SITE}/#form"
 PHONE = os.getenv("WRECKMATCH_PHONE_DISPLAY", "855 WRECKMATCH (855) 897-3256")
+
+# Personal-injury SOL years (educational — victims must verify with counsel)
+STATE_SOL_YEARS: dict[str, int] = {
+    "Texas": 2,
+    "Florida": 4,
+    "California": 2,
+    "Ohio": 2,
+    "Georgia": 2,
+    "Illinois": 2,
+    "Pennsylvania": 2,
+    "North Carolina": 3,
+    "Tennessee": 2,
+    "Arizona": 2,
+    "Nevada": 2,
+    "Colorado": 3,
+    "Michigan": 3,
+    "New York": 3,
+    "Louisiana": 1,
+    "Alabama": 2,
+}
+
 NETWORK_LINE = (
     "WreckMatch connects victims with attorneys from a **network of 800+ participating "
     "law firms** nationwide — free matching, typically under 60 seconds."
@@ -286,6 +307,56 @@ def refill_queue(q: dict[str, Any], target: int) -> None:
     log(f"Refilled queue: +{added} topics ({len(q['pending'])} pending)")
 
 
+def sol_years(state: str) -> int:
+    return STATE_SOL_YEARS.get(state, 2)
+
+
+def sol_phrase(state: str) -> str:
+    y = sol_years(state)
+    if y == 1:
+        return "**1 year** (many injury claims — confirm with licensed counsel)"
+    return f"**{y} years** (most injury claims — confirm with licensed counsel)"
+
+
+def excerpt_line(topic: dict[str, Any]) -> str:
+    city, state = topic["city"], topic["state"]
+    truck = is_truck_topic(topic)
+    severe = is_severe_topic(topic)
+    slug = topic.get("slug", slugify(topic["title"]))
+    y = sol_years(state)
+    ylabel = f"{y} year" if y == 1 else f"{y} years"
+    if "wrongful-death" in slug or "wrongful death" in topic["title"].lower():
+        lead = f"Wrongful death after a crash in {city}"
+    elif truck:
+        lead = f"Semi-truck crash in {city}"
+    elif severe:
+        lead = f"Serious injury crash in {city}"
+    else:
+        lead = f"Car accident in {city}"
+    if state == "Texas":
+        deadline = f"Texas's {ylabel} deadline"
+    else:
+        deadline = f"{state}'s {ylabel} filing window (verify with counsel)"
+    return (
+        f"{lead}, {state}? {deadline}, insurer tactics, and free attorney matching "
+        f"in ~60 seconds via WreckMatch."
+    )
+
+
+def category_for_topic(topic: dict[str, Any]) -> str:
+    slug = topic.get("slug", slugify(topic["title"]))
+    state = topic["state"]
+    if "wrongful-death" in slug or "wrongful death" in topic["title"].lower():
+        return "Wrongful Death"
+    if is_truck_topic(topic):
+        return "Truck Accidents"
+    if "catastrophic" in slug:
+        return "Catastrophic Injury"
+    if is_severe_topic(topic):
+        return "Severe Injury"
+    return state if state not in ("United States", "National") else "Car Accidents"
+
+
 def hub_link(topic: dict[str, Any]) -> str:
     place = topic.get("place_slug")
     if place:
@@ -301,7 +372,7 @@ def template_post(topic: dict[str, Any]) -> str:
     truck = is_truck_topic(topic)
     severe = is_severe_topic(topic)
 
-    sol = "2 years" if state == "Texas" else "typically 2–3 years (verify with counsel)"
+    sol = sol_phrase(state)
     extra = ""
     if truck:
         extra = """
@@ -326,7 +397,8 @@ def template_post(topic: dict[str, Any]) -> str:
 - Wrongful death claims have **different beneficiaries and deadlines**
 """
 
-    category = "Truck Accidents" if truck else ("Severe Injury" if severe else (state if state not in ("United States", "National") else "Car Accidents"))
+    category = category_for_topic(topic)
+    excerpt = excerpt_line(topic)
 
     return f"""---
 title: "{title.replace('"', "'")}"
@@ -334,7 +406,7 @@ description: "Educational guide for {city} {('semi truck and ' if truck else '')
 date: "{today}"
 category: "{category}"
 state: "{state if state not in ('United States', 'National') else ''}"
-excerpt: "{('Semi truck or ' if truck else '')}{('severe injury ' if severe else '')}crash in {city}? Texas-style deadlines, insurer tactics, and free lawyer matching in ~60 seconds via WreckMatch."
+excerpt: "{excerpt}"
 autopilot: true
 vertical: "{topic.get('vertical', 'auto')}"
 ---
@@ -447,8 +519,9 @@ Requirements:
 - 1100-1600 words, H2/H3 questions, tables, numbered lists
 - Quotable first sentence per section (LLM citation 2026)
 - FMCSA/black box if truck; MMI/life-care if severe
-- category: Truck Accidents or Severe Injury or state name
-- frontmatter: title, description, date, category, excerpt, autopilot: true, vertical
+- category: Truck Accidents, Severe Injury, Wrongful Death, or Catastrophic Injury — match the topic
+- excerpt: use the correct STATE deadline (never say Texas-style unless the state is Texas)
+- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical
 """
     try:
         client = OpenAI(api_key=key)
@@ -493,6 +566,8 @@ Requirements:
 - FMCSA, black box, spoliation if truck; MMI and life-care if severe
 - Mention network of 800+ participating law firms (referral service, NOT a law firm)
 - frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical
+- Use the correct state statute-of-limitations years (never Texas-style wording outside Texas)
+- Wrongful death / catastrophic / severe injury: empathetic, clear voice (operations educator, not a lawyer)
 - Educational only; never guarantee outcomes
 """
     if claude_first:

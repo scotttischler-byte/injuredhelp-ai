@@ -2,7 +2,7 @@
 title: Whiplash Injuries — Symptoms, Treatment & Compensation
 description: Neck and soft-tissue injuries after rear-end crashes—care, documentation, and claim challenges. General information only.
 date: 2026-05-17
-category: Injuries
+category: "Car Accidents"
 excerpt: Whiplash is real but often disputed by insurers. Medical records and consistent treatment matter.
 ---
 

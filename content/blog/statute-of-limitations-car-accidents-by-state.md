@@ -2,7 +2,7 @@
 title: Statute of Limitations for Car Accidents by State
 description: Why filing deadlines matter and how limits differ for injury lawsuits, property damage, and government claims.
 date: 2026-05-17
-category: Deadlines
+category: "Car Accidents"
 excerpt: Missing your state's deadline can end your right to sue—even with a strong case.
 ---
 
