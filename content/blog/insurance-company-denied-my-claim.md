@@ -6,7 +6,7 @@ category: "Car Accidents"
 excerpt: A denial is not always the end of the road. Here is a practical order of operations.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/insurance-company-denied-my-claim.jpg"
+coverImage: "/blog/covers/generated/insurance-company-denied-my-claim.webp"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

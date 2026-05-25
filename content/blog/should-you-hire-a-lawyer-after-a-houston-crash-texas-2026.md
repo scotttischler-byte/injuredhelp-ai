@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-houston-crash-texas-2026.jpg"
+coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-houston-crash-texas-2026.webp"
 ---
 
 # Should You Hire a Lawyer After a Houston Crash? (Texas 2026)

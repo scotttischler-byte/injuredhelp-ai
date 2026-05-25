@@ -193,9 +193,9 @@ NETWORK_LINE = (
 )
 
 def unique_cover_for_slug(slug: str) -> str:
-    """One JPG per slug — must match lib/blog-images.ts and generate-blog-cover-assets.mjs."""
+    """One WebP per slug — must match lib/blog-images.ts and generate-blog-cover-assets.mjs."""
     safe = re.sub(r"[^a-z0-9-]", "-", slug.lower()).strip("-")
-    return f"/blog/covers/generated/{safe}.jpg"
+    return f"/blog/covers/generated/{safe}.webp"
 
 
 PILLAR_GOLD_EXPANSION = """
@@ -387,17 +387,11 @@ When you are ready, we connect you with licensed counsel in about 60 seconds. Wr
         changes.append("scott-voice-replace")
 
     cover = unique_cover_for_slug(slug)
-    if re.search(r"^coverImage:", fm, re.M):
-        if f'coverImage: "{cover}"' not in fm:
-            fm = re.sub(
-                r"^coverImage:.*$",
-                f'coverImage: "{cover}"',
-                fm,
-                flags=re.M,
-            )
-            changes.append("cover-unique")
-    else:
-        fm = fm.rstrip() + f'\ncoverImage: "{cover}"\n'
+    if not re.search(rf'^coverImage:\s*"{re.escape(cover)}"', fm, re.M):
+        if re.search(r"^coverImage:", fm, re.M):
+            fm = re.sub(r"^coverImage:.*$", f'coverImage: "{cover}"', fm, flags=re.M)
+        else:
+            fm = fm.rstrip() + f'\ncoverImage: "{cover}"\n'
         changes.append("cover-unique")
 
     if "authorId:" not in fm:

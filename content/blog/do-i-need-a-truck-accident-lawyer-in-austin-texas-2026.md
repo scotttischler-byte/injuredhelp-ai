@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Semi-truck crash in Austin, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
-coverImage: "/blog/covers/generated/do-i-need-a-truck-accident-lawyer-in-austin-texas-2026.jpg"
+coverImage: "/blog/covers/generated/do-i-need-a-truck-accident-lawyer-in-austin-texas-2026.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

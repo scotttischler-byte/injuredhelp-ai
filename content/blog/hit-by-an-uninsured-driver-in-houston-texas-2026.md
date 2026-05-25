@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-houston-texas-2026.jpg"
+coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-houston-texas-2026.webp"
 ---
 
 # Hit by an Uninsured Driver in Houston, Texas (2026)

@@ -7,7 +7,7 @@ state: ""
 excerpt: "Semi-truck crash in your area, your state? your state's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
-coverImage: "/blog/covers/generated/how-wreckmatch-matches-you-with-a-truck-accident-lawyer-in-60-seconds.jpg"
+coverImage: "/blog/covers/generated/how-wreckmatch-matches-you-with-a-truck-accident-lawyer-in-60-seconds.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
@@ -8,7 +7,8 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { AuthorByline } from "@/components/blog/AuthorByline";
 import { BLOG_FOOTER_DISCLAIMER } from "@/lib/compliance";
-import { blogCoverForSlug, blogCoverIsUnoptimized, shouldUseGeneratedCover } from "@/lib/blog-images";
+import { BlogCoverImage } from "@/components/blog/BlogCoverImage";
+import { blogCoverForSlug, shouldUseGeneratedCover } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { authorshipForSlug } from "@/lib/blog-authors";
@@ -64,8 +64,6 @@ export default async function BlogPostPage({ params }: Props) {
     ? ALL_STATES.find((s) => s.state.toLowerCase() === meta.state?.toLowerCase())
     : undefined;
   const asgLinks = asgLinksForBlog(slug, postState);
-  const coverDirect = blogCoverIsUnoptimized(cover.src);
-
   // Merge default FAQs from the existing system with expanded FAQs, dedup by question.
   const baseFaqs = blogFaqsForSlug(slug);
   const allFaqs = [...expanded.faqs];
@@ -121,36 +119,28 @@ export default async function BlogPostPage({ params }: Props) {
   const faqLd = faqPageJsonLd(allFaqs);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-gray-100 pb-24 md:pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <SiteHeader />
-      <article className="mx-auto max-w-3xl px-4 py-10 sm:py-14">
+      <article className="mx-auto max-w-3xl px-4 py-8 sm:py-12">
         <nav className="mb-6 text-sm text-gray-500">
-          <Link href="/blog" className="hover:text-[#cc0000]">
-            Blog
+          <Link href="/blog" prefetch={false} className="font-medium hover:text-[#cc0000]">
+            ← All guides
           </Link>
-          <span className="mx-2">/</span>
-          <span className="text-gray-800">{meta.title}</span>
         </nav>
-        <p className="text-xs font-semibold uppercase tracking-wide text-[#cc0000]">{meta.category}</p>
-        <h1 className="mt-2 text-3xl font-extrabold text-gray-950 sm:text-4xl">{meta.title}</h1>
-        <p className="mt-2 text-sm text-gray-500">
+        <p className="inline-flex rounded-full bg-red-50 px-3 py-1 text-xs font-bold uppercase tracking-wide text-[#cc0000]">
+          {meta.category}
+        </p>
+        <h1 className="mt-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-950 sm:text-4xl">
+          {meta.title}
+        </h1>
+        <p className="mt-3 text-sm text-gray-500">
           {meta.date} · {meta.readTime}
         </p>
 
-        {/* Cover image — topic-matched */}
-        <div className="relative mt-6 aspect-[1200/630] w-full overflow-hidden rounded-xl border border-gray-200 bg-gray-900">
-          <Image
-            src={cover.src}
-            alt={cover.alt}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 672px"
-            priority
-            quality={70}
-            unoptimized={coverDirect}
-          />
+        <div className="relative mt-8 aspect-[1200/630] w-full overflow-hidden rounded-2xl border border-gray-200/80 bg-gray-900 shadow-lg ring-1 ring-black/5">
+          <BlogCoverImage src={cover.src} alt={cover.alt} priority />
         </div>
 
         {/* Author / reviewer + per-post disclaimer */}
@@ -281,6 +271,23 @@ export default async function BlogPostPage({ params }: Props) {
           {BLOG_FOOTER_DISCLAIMER}
         </p>
       </article>
+
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-gray-200 bg-white/95 p-3 shadow-[0_-8px_30px_rgba(0,0,0,0.12)] backdrop-blur-md md:hidden">
+        <div className="mx-auto flex max-w-lg gap-2">
+          <Link
+            href="/#form"
+            className="flex min-h-[48px] flex-1 items-center justify-center rounded-xl bg-[#cc0000] px-4 text-center text-sm font-bold text-white"
+          >
+            Free match →
+          </Link>
+          <a
+            href="tel:8558973256"
+            className="flex min-h-[48px] shrink-0 items-center justify-center rounded-xl border border-gray-300 px-4 text-sm font-semibold text-gray-800"
+          >
+            Call
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

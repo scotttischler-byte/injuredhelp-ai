@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 /**
- * One unique cover image per blog slug — no repeats across posts.
- * Composites WreckMatch photography with per-slug crop, grade, and city/topic overlay.
- * Output: public/blog/covers/generated/{slug}.jpg
+ * One unique WebP cover per blog slug (no repeats). Photography + per-slug crop/grade/overlay.
+ * Output: public/blog/covers/generated/{slug}.webp
  */
 import crypto from "node:crypto";
 import fs from "node:fs";
@@ -40,19 +39,7 @@ const TOPIC_RULES = [
   { test: /(what-to-do|first-steps|after-a-crash|after-a-car|on-scene)/i, label: "After a crash" },
 ];
 
-const POSITIONS = [
-  "north",
-  "south",
-  "east",
-  "west",
-  "center",
-  "northeast",
-  "northwest",
-  "southeast",
-  "southwest",
-  "entropy",
-  "attention",
-];
+const POSITIONS = ["north", "south", "east", "west", "center", "northeast", "northwest", "southeast", "southwest", "entropy", "attention"];
 
 function digest(slug) {
   return crypto.createHash("sha256").update(slug).digest();
@@ -66,7 +53,7 @@ function topicLabel(slug) {
   for (const rule of TOPIC_RULES) {
     if (rule.test.test(slug)) return rule.label;
   }
-  return "Car accident guide";
+  return "Car accident victim guide";
 }
 
 function slugCityState(slug) {
@@ -74,13 +61,7 @@ function slugCityState(slug) {
   const m = slug.match(re);
   if (!m) return { city: "", state: "" };
   const city = m[1].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-  const state = m[2]
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase())
-    .replace("North Carolina", "North Carolina")
-    .replace("New York", "New York")
-    .replace("New Jersey", "New Jersey")
-    .replace("South Carolina", "South Carolina");
+  const state = m[2].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   return { city, state };
 }
 
@@ -89,11 +70,7 @@ function headlineForSlug(slug) {
   if (city && state) return `${city}, ${state}`;
   if (city) return city;
   const label = topicLabel(slug);
-  return label.length > 42 ? `${label.slice(0, 39)}…` : label;
-}
-
-function sublineForSlug(slug) {
-  return topicLabel(slug);
+  return label.length > 40 ? `${label.slice(0, 37)}…` : label;
 }
 
 function escapeXml(s) {
@@ -102,55 +79,46 @@ function escapeXml(s) {
 
 function overlaySvg(slug, buf) {
   const headline = escapeXml(headlineForSlug(slug));
-  const sub = escapeXml(sublineForSlug(slug));
+  const sub = escapeXml(topicLabel(slug));
   const accentHue = pick(buf, 4, 360);
-  const variant = pick(buf, 8, 4);
-  const barW = variant === 0 ? 720 : variant === 1 ? 900 : variant === 2 ? 640 : 800;
+  const barW = 520 + pick(buf, 8, 380);
+  const slugHash = crypto.createHash("md5").update(slug).digest("hex").slice(0, 8);
   return Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
 <svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
-      <stop offset="55%" stop-color="rgba(0,0,0,0.15)"/>
-      <stop offset="100%" stop-color="rgba(0,0,0,0.82)"/>
+      <stop offset="0%" stop-color="rgba(0,0,0,0.05)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.78)"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#shade)"/>
-  <rect x="48" y="420" width="${barW}" height="6" fill="hsl(${accentHue},70%,52%)" rx="3"/>
-  <text x="56" y="88" fill="#fecaca" font-family="system-ui,sans-serif" font-size="20" font-weight="700" letter-spacing="0.12em">WRECKMATCH</text>
-  <text x="56" y="500" fill="#ffffff" font-family="system-ui,sans-serif" font-size="52" font-weight="800">${headline}</text>
-  <text x="56" y="552" fill="#d1fae5" font-family="system-ui,sans-serif" font-size="22" font-weight="600">${sub}</text>
-  <text x="56" y="590" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="16">Educational guide — not legal advice</text>
+  <rect x="48" y="418" width="${barW}" height="5" fill="hsl(${accentHue},72%,48%)" rx="2"/>
+  <text x="56" y="82" fill="#fecaca" font-family="system-ui,sans-serif" font-size="18" font-weight="700" letter-spacing="0.14em">WRECKMATCH</text>
+  <text x="56" y="488" fill="#ffffff" font-family="system-ui,sans-serif" font-size="46" font-weight="800">${headline}</text>
+  <text x="56" y="538" fill="#d1fae5" font-family="system-ui,sans-serif" font-size="21" font-weight="600">${sub}</text>
+  <text x="56" y="578" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="14">Educational only · ${slugHash}</text>
 </svg>`);
 }
 
 function slugsFromBlogDir() {
   if (!fs.existsSync(BLOG_DIR)) return [];
-  return fs
-    .readdirSync(BLOG_DIR)
-    .filter((f) => f.endsWith(".md"))
-    .map((f) => f.replace(/\.md$/, ""))
-    .sort();
+  return fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".md")).map((f) => f.replace(/\.md$/, "")).sort();
 }
 
 async function renderCover(slug) {
   const buf = digest(slug);
   const baseFile = BASE_PHOTOS[pick(buf, 0, BASE_PHOTOS.length)];
   const basePath = path.join(BASE_DIR, baseFile);
-  if (!fs.existsSync(basePath)) {
-    throw new Error(`Missing base photo: ${basePath}`);
-  }
-
   const position = POSITIONS[pick(buf, 12, POSITIONS.length)];
-  const brightness = 0.82 + pick(buf, 16, 28) / 100;
-  const saturation = 0.9 + pick(buf, 20, 25) / 100;
+  const brightness = 0.78 + pick(buf, 16, 30) / 100;
+  const saturation = 0.85 + pick(buf, 20, 28) / 100;
   const hue = pick(buf, 24, 41) - 20;
 
   const meta = await sharp(basePath).metadata();
   const w = meta.width ?? 1600;
   const h = meta.height ?? 900;
-  const cropW = Math.max(900, Math.floor(w * (0.55 + pick(buf, 28, 35) / 100)));
-  const cropH = Math.max(500, Math.floor(h * (0.55 + pick(buf, 32, 35) / 100)));
+  const cropW = Math.max(900, Math.floor(w * (0.52 + pick(buf, 28, 38) / 100)));
+  const cropH = Math.max(500, Math.floor(h * (0.52 + pick(buf, 32, 38) / 100)));
   const left = Math.min(w - cropW, Math.floor((pick(buf, 36, 100) / 100) * (w - cropW)));
   const top = Math.min(h - cropH, Math.floor((pick(buf, 40, 100) / 100) * (h - cropH)));
 
@@ -160,18 +128,23 @@ async function renderCover(slug) {
     .modulate({ brightness, saturation, hue })
     .toBuffer();
 
-  return sharp(photo)
+  await sharp(photo)
     .composite([{ input: overlaySvg(slug, buf), blend: "over" }])
-    .jpeg({ quality: 78, mozjpeg: true })
-    .toFile(path.join(OUT_DIR, `${slug}.jpg`));
+    .webp({ quality: 76, effort: 4 })
+    .toFile(path.join(OUT_DIR, `${slug}.webp`));
 }
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 const slugs = slugsFromBlogDir();
 
-// Remove old shared SVG covers from generated dir (optional cleanup)
 for (const f of fs.readdirSync(OUT_DIR)) {
-  if (f.endsWith(".svg")) fs.unlinkSync(path.join(OUT_DIR, f));
+  if (/\.(svg|jpe?g|png)$/i.test(f)) {
+    try {
+      fs.unlinkSync(path.join(OUT_DIR, f));
+    } catch {
+      /* ignore */
+    }
+  }
 }
 
 let written = 0;
@@ -180,11 +153,10 @@ for (const slug of slugs) {
   written++;
   if (written % 25 === 0) console.log(`  ${written}/${slugs.length}…`);
 }
-console.log(`Wrote ${written} unique JPG covers to ${OUT_DIR}`);
+console.log(`Wrote ${written} unique WebP covers to ${OUT_DIR}`);
 
-const paths = slugs.map((s) => `/blog/covers/generated/${s}.jpg`);
-const uniq = new Set(paths);
-if (uniq.size !== paths.length) {
-  console.error("ERROR: duplicate cover paths detected");
+const paths = slugs.map((s) => `/blog/covers/generated/${s}.webp`);
+if (new Set(paths).size !== paths.length) {
+  console.error("ERROR: duplicate cover paths");
   process.exit(1);
 }

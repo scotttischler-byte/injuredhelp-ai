@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/uber-or-lyft-accident-in-san-antonio-texas-2026-guide.jpg"
+coverImage: "/blog/covers/generated/uber-or-lyft-accident-in-san-antonio-texas-2026-guide.webp"
 ---
 
 # Uber or Lyft Accident in San Antonio, Texas (2026 Guide)

@@ -91,11 +91,15 @@ const TOPIC_LABEL: Record<Topic, string> = {
 
 function findState(meta: PostMeta, slug: string): StateProfile | undefined {
   const s = slug.toLowerCase();
-  const fromMeta = meta.state?.toLowerCase();
+  const fromMeta = meta.state?.trim().toLowerCase();
+  if (fromMeta && fromMeta !== "general") {
+    const hit = ALL_STATES.find((st) => st.state.toLowerCase() === fromMeta);
+    if (hit) return hit;
+  }
+  // Match full state slug only (e.g. -ohio-), never abbreviations like "in" inside "-in-columbus-".
   for (const st of ALL_STATES) {
-    if (fromMeta && fromMeta !== "general" && st.state.toLowerCase() === fromMeta) return st;
-    if (s.includes(`-${st.state.toLowerCase().replace(/\s+/g, "-")}`)) return st;
-    if (new RegExp(`\\b${st.abbreviation.toLowerCase()}\\b`).test(s)) return st;
+    const token = st.state.toLowerCase().replace(/\s+/g, "-");
+    if (s.includes(`-${token}-`) || s.endsWith(`-${token}`)) return st;
   }
   return undefined;
 }

@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Semi-truck crash in Dallas, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated/fmcsa-violations-after-a-truck-crash-in-dallas-texas.jpg"
+coverImage: "/blog/covers/generated/fmcsa-violations-after-a-truck-crash-in-dallas-texas.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

@@ -7,7 +7,7 @@ state: ""
 excerpt: Every state sets a deadline to sue after a car crash. Missing it can end your case entirely.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/how-long-to-file-car-accident-claim.jpg"
+coverImage: "/blog/covers/generated/how-long-to-file-car-accident-claim.webp"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

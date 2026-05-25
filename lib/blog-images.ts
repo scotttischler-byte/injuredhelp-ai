@@ -1,7 +1,6 @@
 /**
- * Cover images for blog posts — exactly one unique asset per slug (no repeats).
- *
- * Run `npm run generate:blog-covers` after adding new markdown posts.
+ * Cover images — exactly one unique WebP per slug (no repeats, no rotation).
+ * Run `npm run generate:blog-covers` after adding posts.
  */
 
 import { getAllSlugs } from "@/lib/posts";
@@ -38,33 +37,27 @@ function safeSlug(slug: string): string {
   return (slug || "wreckmatch-blog").replace(/[^a-z0-9-]/gi, "-").toLowerCase();
 }
 
-/** Unique cover path for this slug only. */
 export function blogCoverPathForSlug(slug: string): string {
-  return `${GENERATED_PREFIX}${safeSlug(slug)}.jpg`;
+  return `${GENERATED_PREFIX}${safeSlug(slug)}.webp`;
 }
 
 export function blogCoverForSlug(slug: string, _vertical?: string): BlogCover {
-  return {
-    src: blogCoverPathForSlug(slug),
-    alt: altForSlug(slug),
-  };
+  return { src: blogCoverPathForSlug(slug), alt: altForSlug(slug) };
 }
 
-export function blogCoverFromTopic(topic: {
-  angle?: string;
-  vertical?: string;
-  slug?: string;
-}): BlogCover {
+export function blogCoverFromTopic(topic: { angle?: string; vertical?: string; slug?: string }): BlogCover {
   const slug = topic.slug ?? topic.angle ?? "";
   return blogCoverForSlug(slug, topic.vertical);
 }
 
-/** True unless frontmatter already points at this slug's unique generated JPG. */
 export function shouldUseGeneratedCover(slug: string, src: string | undefined): boolean {
   if (!src) return true;
-  const expected = blogCoverPathForSlug(slug);
-  if (src === expected) return false;
-  return true;
+  return src !== blogCoverPathForSlug(slug);
+}
+
+/** Serve from /public CDN — never /_next/image (prevents timeout under traffic). */
+export function blogCoverIsUnoptimized(src: string): boolean {
+  return src.startsWith(GENERATED_PREFIX) && /\.(webp|jpe?g|png)$/i.test(src);
 }
 
 export function allBlogCoverSlugs(): string[] {
@@ -73,9 +66,4 @@ export function allBlogCoverSlugs(): string[] {
   } catch {
     return [];
   }
-}
-
-/** Static JPGs in /public — serve directly (avoids /_next/image cold-start timeouts). */
-export function blogCoverIsUnoptimized(src: string): boolean {
-  return src.startsWith(`${GENERATED_PREFIX}`) && /\.(jpe?g|png|webp)$/i.test(src);
 }

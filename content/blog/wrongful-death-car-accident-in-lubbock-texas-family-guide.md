@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Wrongful death after a crash in Lubbock, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated/wrongful-death-car-accident-in-lubbock-texas-family-guide.jpg"
+coverImage: "/blog/covers/generated/wrongful-death-car-accident-in-lubbock-texas-family-guide.webp"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

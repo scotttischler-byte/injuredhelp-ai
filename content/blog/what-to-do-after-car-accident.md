@@ -6,7 +6,7 @@ category: "Car Accidents"
 excerpt: The first hour after a collision matters. Here is a calm, practical order of operations if you are not seriously injured.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/what-to-do-after-car-accident.jpg"
+coverImage: "/blog/covers/generated/what-to-do-after-car-accident.webp"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

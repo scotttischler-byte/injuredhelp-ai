@@ -22,9 +22,9 @@ export default function BlogIndexPage() {
   const posts = paginatePosts(allPosts, 1);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <>
       <SiteHeader />
       <BlogIndex posts={posts} page={1} totalPosts={allPosts.length} />
-    </div>
+    </>
   );
 }

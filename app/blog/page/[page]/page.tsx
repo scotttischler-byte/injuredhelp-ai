@@ -44,14 +44,14 @@ export default async function BlogPaginatedPage({ params }: Props) {
   const posts = paginatePosts(allPosts, page);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <>
       <SiteHeader />
       <BlogIndex posts={posts} page={page} totalPosts={allPosts.length} />
-      <p className="pb-10 text-center text-sm text-gray-500">
-        <Link href="/blog" className="font-semibold text-[#cc0000] hover:underline">
+      <p className="-mt-4 pb-10 text-center text-sm text-gray-500">
+        <Link href="/blog" prefetch={false} className="font-semibold text-[#cc0000] hover:underline">
           Back to latest articles
         </Link>
       </p>
-    </div>
+    </>
   );
 }
