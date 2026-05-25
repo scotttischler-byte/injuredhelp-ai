@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { cache } from "react";
 import matter from "gray-matter";
 
 const POSTS_DIR = path.join(process.cwd(), "content/blog");
@@ -28,7 +29,7 @@ function parseReadTime(body: string): string {
   return `${mins} min read`;
 }
 
-export function getAllPosts(): PostMeta[] {
+function readAllPosts(): PostMeta[] {
   if (!ensureDir()) return [];
   const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md") || f.endsWith(".mdx"));
   const posts = files.map((filename) => {
@@ -54,6 +55,8 @@ export function getAllPosts(): PostMeta[] {
   });
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
+
+export const getAllPosts = cache(readAllPosts);
 
 export function getPostBySlug(slug: string): { meta: PostMeta; content: string } | null {
   if (!ensureDir()) return null;
@@ -84,10 +87,12 @@ export function getPostBySlug(slug: string): { meta: PostMeta; content: string }
   return null;
 }
 
-export function getAllSlugs(): string[] {
+function readAllSlugs(): string[] {
   if (!ensureDir()) return [];
   return fs
     .readdirSync(POSTS_DIR)
     .filter((f) => f.endsWith(".md") || f.endsWith(".mdx"))
     .map((f) => f.replace(/\.mdx?$/, ""));
 }
+
+export const getAllSlugs = cache(readAllSlugs);

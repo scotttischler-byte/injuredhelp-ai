@@ -3,6 +3,8 @@ import { headers } from "next/headers";
 import { HomePageClient } from "@/components/HomePageClient";
 import { siteOriginFromHeaders } from "@/lib/site";
 
+export const revalidate = 3600;
+
 export async function generateMetadata(): Promise<Metadata> {
   const h = await headers();
   const origin = siteOriginFromHeaders(h);

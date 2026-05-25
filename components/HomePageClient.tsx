@@ -3,7 +3,6 @@
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/LanguageContext";
-import { ExitIntentModal } from "@/components/ExitIntentModal";
 import { LeadForm } from "@/components/LeadForm";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -17,7 +16,15 @@ const TikTokHomeFunnel = dynamic(
   { ssr: false },
 );
 
-import HomePageBelowFold from "@/components/HomePageBelowFold";
+const ExitIntentModal = dynamic(
+  () => import("@/components/ExitIntentModal").then((m) => ({ default: m.ExitIntentModal })),
+  { ssr: false },
+);
+
+const HomePageBelowFold = dynamic(() => import("@/components/HomePageBelowFold"), {
+  ssr: true,
+  loading: () => <div className="min-h-[40vh] bg-slate-950" aria-hidden />,
+});
 
 export function HomePageClient() {
   const { lang, t } = useLanguage();

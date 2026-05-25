@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllGeoHubSlugs } from "@/lib/geo-routes";
+import { blogPagePath, totalBlogPages } from "@/lib/blog-pagination";
 import { getAllPosts } from "@/lib/posts";
 import { TEXAS_METRO_LINKS } from "@/lib/texas-metro-links";
 import { ACCIDENT_VARIANT_CITIES, PRIORITY_PLACE_BY_SLUG } from "@/lib/priority-places/registry";
@@ -89,6 +90,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: p.slug.includes("texas") ? 0.88 : 0.7,
   }));
 
+  const blogIndexPages = Array.from({ length: totalBlogPages(getAllPosts().length) - 1 }, (_, i) => ({
+    url: `${origin}${blogPagePath(i + 2)}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }));
+
   const geoPages = getAllGeoHubSlugs().map((slug) => ({
     url: `${origin}/${slug}`,
     lastModified: now,
@@ -105,5 +113,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })),
   );
 
-  return [...staticPages, ...pressPages, ...blogPosts, ...geoPages, ...variantPages];
+  return [...staticPages, ...pressPages, ...blogIndexPages, ...blogPosts, ...geoPages, ...variantPages];
 }
