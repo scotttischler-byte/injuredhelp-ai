@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BlogIndex } from "@/components/blog/BlogIndex";
@@ -27,12 +26,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const pages = totalBlogPages(total);
   if (!Number.isFinite(page) || page < 2 || page > pages) return {};
 
-  const h = await headers();
   return buildPageMetadata({
     title: `Car Accident Blog — Page ${page} | WreckMatch`,
     description: `Page ${page} of WreckMatch educational car accident and injury guides. Legal referral service — not a law firm.`,
     path: `/blog/page/${page}`,
-    headers: h,
   });
 }
 

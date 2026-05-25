@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { headers } from "next/headers";
 import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
-import { siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteOrigin } from "@/lib/site";
 
 const FOOTER_LINKS = [
   { href: "/privacy", label: "Privacy Policy" },
@@ -12,10 +11,9 @@ const FOOTER_LINKS = [
   { href: "/sms-terms", label: "SMS Terms" },
 ] as const;
 
-export async function SiteFooter() {
-  const h = await headers();
-  const origin = siteOriginFromHeaders(h);
+const origin = serverSiteOrigin();
 
+export function SiteFooter() {
   return (
     <footer className="mt-auto border-t border-gray-800 bg-gray-950 px-4 py-10 text-gray-400">
       <div className="mx-auto max-w-5xl">

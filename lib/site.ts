@@ -33,6 +33,17 @@ export function brandFromHeaders(headersList: Headers): SiteBrand {
   return brandFromHost(headersList.get("x-forwarded-host") ?? headersList.get("host"));
 }
 
+export function serverSiteOrigin(): string {
+  const fromEnv = process.env.NEXT_PUBLIC_SITE_ORIGIN?.trim();
+  if (fromEnv) return fromEnv.replace(/\/$/, "");
+  return WRECKMATCH_URL;
+}
+
+export function serverSiteBrand(): SiteBrand {
+  const fromEnv = process.env.NEXT_PUBLIC_SITE_BRAND?.trim()?.toLowerCase();
+  return fromEnv === "injuredhelp" ? "injuredhelp" : "wreckmatch";
+}
+
 export function absoluteUrl(path: string, origin: string = SITE_URL): string {
   if (!path.startsWith("/")) return `${origin}/${path}`;
   return `${origin}${path}`;

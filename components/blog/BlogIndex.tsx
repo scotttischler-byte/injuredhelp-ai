@@ -41,17 +41,18 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
           return (
             <li
               key={post.slug}
-              className="flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:border-[#cc0000]/40 hover:shadow-md"
+              className="flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:border-[#cc0000]/40 hover:shadow-md [content-visibility:auto] [contain-intrinsic-size:420px]"
             >
               <Link href={`/blog/${post.slug}`} className="block">
-                <div className="relative aspect-[1200/630] w-full overflow-hidden bg-gray-900">
+                <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-200">
                   <Image
                     src={cover.src}
                     alt={cover.alt}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
-                    className="object-cover transition group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
+                    className="object-cover"
                     loading="lazy"
+                    quality={60}
                   />
                 </div>
               </Link>

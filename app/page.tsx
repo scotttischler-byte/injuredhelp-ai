@@ -1,20 +1,17 @@
 import type { Metadata } from "next";
-import { headers } from "next/headers";
 import { HomePageClient } from "@/components/HomePageClient";
-import { siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteOrigin } from "@/lib/site";
 
 export const revalidate = 3600;
 
-export async function generateMetadata(): Promise<Metadata> {
-  const h = await headers();
-  const origin = siteOriginFromHeaders(h);
-  return {
-    alternates: { canonical: `${origin}/` },
-    openGraph: {
-      url: `${origin}/`,
-    },
-  };
-}
+const origin = serverSiteOrigin();
+
+export const metadata: Metadata = {
+  alternates: { canonical: `${origin}/` },
+  openGraph: {
+    url: `${origin}/`,
+  },
+};
 
 export default function HomePage() {
   return <HomePageClient />;

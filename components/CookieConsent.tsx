@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { signalAnalyticsLoad } from "@/components/DeferredAnalytics";
 
 const STORAGE_KEY = "wreckmatch_cookie_consent";
 
@@ -24,6 +25,7 @@ export function CookieConsent() {
     } catch {
       /* ignore */
     }
+    signalAnalyticsLoad();
     setVisible(false);
   };
 

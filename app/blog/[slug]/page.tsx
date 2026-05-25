@@ -4,7 +4,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { headers } from "next/headers";
 import { SiteHeader } from "@/components/SiteHeader";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { AuthorByline } from "@/components/blog/AuthorByline";
@@ -16,7 +15,7 @@ import { authorshipForSlug } from "@/lib/blog-authors";
 import { expandPostContent } from "@/lib/blog-content-expander";
 import { personPath, personSameAs, personDisplayName } from "@/lib/entities";
 import { buildPageMetadata, faqPageJsonLd } from "@/lib/seo";
-import { siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteOrigin } from "@/lib/site";
 import { WRECKMATCH_ORG } from "@/lib/entities";
 
 export const revalidate = 86400;
@@ -31,12 +30,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
-  const h = await headers();
   return buildPageMetadata({
     title: `${post.meta.title} | WreckMatch Blog`,
     description: post.meta.description,
     path: `/blog/${slug}`,
-    headers: h,
   });
 }
 
@@ -45,8 +42,7 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
-  const h = await headers();
-  const origin = siteOriginFromHeaders(h);
+  const origin = serverSiteOrigin();
 
   const { meta, content } = post;
   // Topic-matched real photography wins over the legacy SVG covers in frontmatter.
@@ -144,6 +140,7 @@ export default async function BlogPostPage({ params }: Props) {
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 672px"
             priority
+            quality={70}
           />
         </div>
 

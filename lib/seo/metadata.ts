@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteOrigin, siteOriginFromHeaders } from "@/lib/site";
 
 export type PageMetaInput = {
   title: string;
   description: string;
   path: string;
-  headers: Headers;
+  headers?: Headers;
   keywords?: string[];
   ogType?: "website" | "article";
   noIndex?: boolean;
@@ -13,7 +13,7 @@ export type PageMetaInput = {
 
 /** Reusable AI-friendly metadata — titles ≤60 chars ideal, descriptions ≤160. */
 export function buildPageMetadata(input: PageMetaInput): Metadata {
-  const origin = siteOriginFromHeaders(input.headers);
+  const origin = input.headers ? siteOriginFromHeaders(input.headers) : serverSiteOrigin();
   const path = input.path.startsWith("/") ? input.path : `/${input.path}`;
   const canonical = `${origin}${path}`;
   const description = input.description.trim().slice(0, 160);

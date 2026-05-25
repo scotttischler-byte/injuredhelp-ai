@@ -3,13 +3,22 @@
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/LanguageContext";
-import { LeadForm } from "@/components/LeadForm";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StickyConversionBar } from "@/components/StickyConversionBar";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { WRECKMATCH_PHONE_ACTIVATION_NOTE } from "@/lib/phones";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
+
+const LeadForm = dynamic(
+  () => import("@/components/LeadForm").then((m) => ({ default: m.LeadForm })),
+  {
+    ssr: true,
+    loading: () => (
+      <div className="min-h-[520px] animate-pulse rounded-2xl border border-slate-700 bg-slate-900/80" aria-hidden />
+    ),
+  },
+);
 
 const TikTokHomeFunnel = dynamic(
   () => import("@/components/TikTokFunnel").then((m) => ({ default: m.TikTokHomeFunnel })),

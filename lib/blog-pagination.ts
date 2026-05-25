@@ -1,6 +1,6 @@
 import type { PostMeta } from "@/lib/posts";
 
-export const BLOG_POSTS_PER_PAGE = 24;
+export const BLOG_POSTS_PER_PAGE = 12;
 
 export function totalBlogPages(postCount: number): number {
   return Math.max(1, Math.ceil(postCount / BLOG_POSTS_PER_PAGE));
