@@ -52,7 +52,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
                     className="object-cover"
                     loading="lazy"
-                    quality={60}
+                    quality={50}
                   />
                 </div>
               </Link>

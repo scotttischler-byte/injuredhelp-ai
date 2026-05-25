@@ -10,13 +10,26 @@ export function CookieConsent() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    queueMicrotask(() => {
+    try {
+      if (localStorage.getItem(STORAGE_KEY)) return;
+    } catch {
+      /* ignore */
+    }
+
+    const show = () => {
       try {
         if (!localStorage.getItem(STORAGE_KEY)) setVisible(true);
       } catch {
         setVisible(true);
       }
-    });
+    };
+
+    const timer = window.setTimeout(show, 5000);
+    window.addEventListener("scroll", show, { once: true, passive: true });
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener("scroll", show);
+    };
   }, []);
 
   const accept = () => {

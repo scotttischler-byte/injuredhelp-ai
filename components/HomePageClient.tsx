@@ -10,15 +10,7 @@ import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { WRECKMATCH_PHONE_ACTIVATION_NOTE } from "@/lib/phones";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
 
-const LeadForm = dynamic(
-  () => import("@/components/LeadForm").then((m) => ({ default: m.LeadForm })),
-  {
-    ssr: true,
-    loading: () => (
-      <div className="min-h-[520px] animate-pulse rounded-2xl border border-slate-700 bg-slate-900/80" aria-hidden />
-    ),
-  },
-);
+import { LeadForm } from "@/components/LeadForm";
 
 const TikTokHomeFunnel = dynamic(
   () => import("@/components/TikTokFunnel").then((m) => ({ default: m.TikTokHomeFunnel })),
@@ -79,10 +71,7 @@ export function HomePageClient() {
               {t.urgencyBadge}
             </p>
             <div className="mb-4 flex items-center justify-center gap-2 lg:justify-start" role="status">
-              <span className="relative flex h-3 w-3">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-                <span className="relative inline-flex h-3 w-3 rounded-full bg-emerald-500" />
-              </span>
+              <span className="inline-flex h-3 w-3 rounded-full bg-emerald-500" aria-hidden />
               <span className="text-sm font-medium text-emerald-400">{t.liveIndicator}</span>
             </div>
             <h1 className="hero-lcp-heading text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl">
