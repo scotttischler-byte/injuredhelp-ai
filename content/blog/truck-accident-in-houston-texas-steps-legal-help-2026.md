@@ -10,6 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
+coverImage: "/blog/covers/attorney-consultation-2.png"
 ---
 
 # Truck Accident in Houston, Texas: Steps & Legal Help (2026)

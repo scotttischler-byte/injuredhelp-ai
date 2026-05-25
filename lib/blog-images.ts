@@ -1,7 +1,8 @@
 /**
- * Cover images for blog posts — self-hosted SVG under /blog/covers/generated/.
+ * Cover images for blog posts — real photography rotated per slug (stable hash).
+ * Fallback: per-slug SVG under /blog/covers/generated/ if PNGs unavailable.
  *
- * Run `npm run generate:blog-covers` after adding new markdown posts.
+ * Run `npm run generate:blog-covers` after adding new markdown posts (SVG fallback).
  */
 
 import { getAllSlugs } from "@/lib/posts";
@@ -10,28 +11,48 @@ export type BlogCover = { src: string; alt: string };
 
 const GENERATED_PREFIX = "/blog/covers/generated/";
 
+const ACCIDENT_PHOTOS = [
+  "/blog/covers/car-accident-scene-1.png",
+  "/blog/covers/car-accident-scene-2.png",
+  "/blog/covers/car-accident-scene-3.png",
+] as const;
+
+const ATTORNEY_PHOTOS = [
+  "/blog/covers/attorney-consultation-1.png",
+  "/blog/covers/attorney-consultation-2.png",
+] as const;
+
 const TOPIC_RULES: Array<{ test: RegExp; alt: string }> = [
-  { test: /(18-wheeler|semi-truck|tractor-trailer|fmcsa|jackknife|truck-accident)/i, alt: "Truck accident legal guide cover" },
-  { test: /(wrongful-death|fatal|family-guide)/i, alt: "Wrongful death legal guide cover" },
-  { test: /(spinal|paralysis|paraplegic|quadriplegic|herniated)/i, alt: "Spinal injury legal guide cover" },
-  { test: /(traumatic-brain|brain-injury|tbi|concussion|head-injury)/i, alt: "Brain injury legal guide cover" },
-  { test: /(whiplash|neck-injury|back-injury|soft-tissue)/i, alt: "Whiplash injury legal guide cover" },
-  { test: /(catastrophic|severe-injury|critical-injury)/i, alt: "Severe injury legal guide cover" },
-  { test: /(rideshare|uber|lyft)/i, alt: "Rideshare accident legal guide cover" },
-  { test: /(motorcycle|motorbike|biker)/i, alt: "Motorcycle accident legal guide cover" },
-  { test: /(pedestrian|crosswalk|hit-by-car)/i, alt: "Pedestrian accident legal guide cover" },
-  { test: /(insurance|adjuster|claim|denied|recorded-statement)/i, alt: "Insurance claim legal guide cover" },
-  { test: /(statute-of-limitations|deadline|time-limit|filing-window)/i, alt: "Legal deadlines guide cover" },
-  { test: /(what-to-do|first-steps|after-a-crash|after-a-car|on-scene)/i, alt: "After a car crash guide cover" },
-  { test: /(recovery|medical|treatment|hospital|physical-therapy)/i, alt: "Medical recovery after crash guide cover" },
+  { test: /(18-wheeler|semi-truck|tractor-trailer|fmcsa|jackknife|truck-accident)/i, alt: "Truck accident legal guide" },
+  { test: /(wrongful-death|fatal|family-guide)/i, alt: "Wrongful death legal guide" },
+  { test: /(spinal|paralysis|paraplegic|quadriplegic|herniated)/i, alt: "Spinal injury legal guide" },
+  { test: /(traumatic-brain|brain-injury|tbi|concussion|head-injury)/i, alt: "Brain injury legal guide" },
+  { test: /(whiplash|neck-injury|back-injury|soft-tissue)/i, alt: "Whiplash injury legal guide" },
+  { test: /(catastrophic|severe-injury|critical-injury)/i, alt: "Severe injury legal guide" },
+  { test: /(rideshare|uber|lyft)/i, alt: "Rideshare accident legal guide" },
+  { test: /(motorcycle|motorbike|biker)/i, alt: "Motorcycle accident legal guide" },
+  { test: /(pedestrian|crosswalk|hit-by-car)/i, alt: "Pedestrian accident legal guide" },
+  { test: /(insurance|adjuster|claim|denied|recorded-statement)/i, alt: "Insurance claim legal guide" },
+  { test: /(statute-of-limitations|deadline|time-limit|filing-window)/i, alt: "Legal deadlines guide" },
+  { test: /(what-to-do|first-steps|after-a-crash|after-a-car|on-scene)/i, alt: "After a car crash guide" },
+  { test: /(recovery|medical|treatment|hospital|physical-therapy)/i, alt: "Medical recovery after crash guide" },
 ];
+
+function hashSlug(slug: string): number {
+  return [...slug.toLowerCase()].reduce((sum, ch) => sum + ch.charCodeAt(0), 0);
+}
+
+function isAttorneyThemed(slug: string): boolean {
+  const s = slug.toLowerCase();
+  return /(lawyer|attorney|legal|insurance|adjuster|claim|denied|statute|court|settlement|worth)/i.test(s);
+}
 
 function altForSlug(slug: string): string {
   const s = (slug || "").toLowerCase();
   for (const rule of TOPIC_RULES) {
     if (rule.test.test(s)) return `${rule.alt} — WreckMatch`;
   }
-  return `Car accident victim guide cover — WreckMatch`;
+  return "Car accident victim guide — WreckMatch";
 }
 
 function pretty(slug: string): string {
@@ -43,9 +64,11 @@ export function blogCoverPathForSlug(slug: string): string {
   return `${GENERATED_PREFIX}${safe}.svg`;
 }
 
+/** Prefer real photography; stable per slug via hash. */
 export function blogCoverForSlug(slug: string, _vertical?: string): BlogCover {
+  const pool = isAttorneyThemed(slug) ? ATTORNEY_PHOTOS : ACCIDENT_PHOTOS;
   return {
-    src: blogCoverPathForSlug(slug),
+    src: pool[hashSlug(slug) % pool.length],
     alt: altForSlug(slug) || `Editorial cover for ${pretty(slug)}`,
   };
 }
@@ -59,7 +82,14 @@ export function blogCoverFromTopic(topic: {
   return blogCoverForSlug(slug, topic.vertical);
 }
 
-/** Slugs that should have a generated asset (build-time / script). */
+/** True when frontmatter points at old generic/topic SVGs — use blogCoverForSlug instead. */
+export function isLegacyOrGeneratedSvgCover(src: string | undefined): boolean {
+  if (!src) return true;
+  if (/^\/blog\/covers\/generated\//i.test(src)) return true;
+  return /^\/blog\/covers\/[a-z0-9-]+\.svg$/i.test(src);
+}
+
+/** Slugs that should have a generated SVG asset (OG fallback / optional). */
 export function allBlogCoverSlugs(): string[] {
   try {
     return getAllSlugs();

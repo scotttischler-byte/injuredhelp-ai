@@ -7,6 +7,7 @@ state: "Texas"
 excerpt: "Houston leads Texas in crash volume. Here’s what to do after a collision, how long you have to file, and how to get free attorney matching fast."
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/car-accident-scene-1.png"
 ---
 
 # What to Do After a Car Accident in Houston (2026)

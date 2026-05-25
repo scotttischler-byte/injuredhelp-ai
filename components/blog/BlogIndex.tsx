@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { blogCoverForSlug } from "@/lib/blog-images";
+import { blogCoverForSlug, isLegacyOrGeneratedSvgCover } from "@/lib/blog-images";
 import { authorshipForSlug } from "@/lib/blog-authors";
 import { blogPagePath, totalBlogPages } from "@/lib/blog-pagination";
 import { personDisplayName } from "@/lib/entities";
@@ -33,10 +33,10 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
 
       <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => {
-          const isLegacySvgCover = /^\/blog\/covers\/[a-z0-9-]+\.svg$/i.test(post.coverImage ?? "");
-          const cover = post.coverImage && !isLegacySvgCover
-            ? { src: post.coverImage, alt: post.coverAlt ?? post.title }
-            : blogCoverForSlug(post.slug);
+          const cover =
+            post.coverImage && !isLegacyOrGeneratedSvgCover(post.coverImage)
+              ? { src: post.coverImage, alt: post.coverAlt ?? post.title }
+              : blogCoverForSlug(post.slug);
           const coverIsSvg = cover.src.endsWith(".svg");
           const { author } = authorshipForSlug(post.slug);
           return (

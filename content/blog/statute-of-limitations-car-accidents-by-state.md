@@ -6,6 +6,7 @@ category: "Car Accidents"
 excerpt: Missing your state's deadline can end your right to sue—even with a strong case.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/attorney-consultation-1.png"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

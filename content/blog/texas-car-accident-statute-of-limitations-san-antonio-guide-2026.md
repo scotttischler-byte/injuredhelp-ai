@@ -10,6 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
+coverImage: "/blog/covers/attorney-consultation-2.png"
 ---
 
 # Texas Car Accident Statute of Limitations — San Antonio Guide (2026)

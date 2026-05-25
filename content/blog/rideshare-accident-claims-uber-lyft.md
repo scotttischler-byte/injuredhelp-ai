@@ -6,6 +6,7 @@ category: "Car Accidents"
 excerpt: Rideshare crashes involve layered insurance depending on whether the driver was waiting, en route, or off-app.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/attorney-consultation-1.png"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

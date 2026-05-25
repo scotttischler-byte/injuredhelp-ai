@@ -6,6 +6,7 @@ category: "Car Accidents"
 excerpt: The friendly adjuster is not on your side. Here is what to say, what to avoid, and when to get legal help.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/attorney-consultation-2.png"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

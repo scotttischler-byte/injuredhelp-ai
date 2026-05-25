@@ -192,6 +192,30 @@ NETWORK_LINE = (
     "law firms** nationwide — free matching, typically under 60 seconds."
 )
 
+ACCIDENT_PHOTOS = [
+    "/blog/covers/car-accident-scene-1.png",
+    "/blog/covers/car-accident-scene-2.png",
+    "/blog/covers/car-accident-scene-3.png",
+]
+ATTORNEY_PHOTOS = [
+    "/blog/covers/attorney-consultation-1.png",
+    "/blog/covers/attorney-consultation-2.png",
+]
+
+
+def cover_photo_for_slug(slug: str) -> str:
+    s = slug.lower()
+    pool = (
+        ATTORNEY_PHOTOS
+        if re.search(
+            r"(lawyer|attorney|legal|insurance|adjuster|claim|denied|statute|court|settlement|worth)",
+            s,
+        )
+        else ACCIDENT_PHOTOS
+    )
+    h = sum(ord(c) for c in s)
+    return pool[h % len(pool)]
+
 
 PILLAR_GOLD_EXPANSION = """
 
@@ -380,6 +404,19 @@ When you are ready, we connect you with licensed counsel in about 60 seconds. Wr
     if kathy_pat.search(body):
         body = kathy_pat.sub(scott_section + "\n", body, count=1)
         changes.append("scott-voice-replace")
+
+    photo = cover_photo_for_slug(slug)
+    if re.search(r'^coverImage:\s*"/blog/covers/(generated/|[a-z0-9-]+\.svg)', fm, re.M):
+        fm = re.sub(
+            r'^coverImage:.*$',
+            f'coverImage: "{photo}"',
+            fm,
+            flags=re.M,
+        )
+        changes.append("cover-photo")
+    elif "coverImage:" not in fm:
+        fm = fm.rstrip() + f'\ncoverImage: "{photo}"\n'
+        changes.append("cover-photo")
 
     if "authorId:" not in fm:
         fm = fm.rstrip() + '\nauthorId: "scott-tischler"\n'

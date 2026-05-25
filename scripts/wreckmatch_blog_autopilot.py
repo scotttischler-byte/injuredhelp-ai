@@ -769,20 +769,38 @@ Excerpt: {excerpt[:800]}
     log(f"Syndication → {out}")
 
 
+ACCIDENT_PHOTOS = [
+    "/blog/covers/car-accident-scene-1.png",
+    "/blog/covers/car-accident-scene-2.png",
+    "/blog/covers/car-accident-scene-3.png",
+]
+ATTORNEY_PHOTOS = [
+    "/blog/covers/attorney-consultation-1.png",
+    "/blog/covers/attorney-consultation-2.png",
+]
+
+
 def cover_for_topic(topic: dict[str, Any]) -> tuple[str, str]:
-    slug = (topic.get("slug") or topic.get("angle") or "").lower()
-    vertical = topic.get("vertical", "auto")
-    if vertical == "truck" or is_truck_topic(topic) or any(
-        x in slug for x in ("truck", "semi", "wheeler", "tractor", "fmcsa")
-    ):
-        return "/blog/covers/truck-accident.svg", "Semi truck and commercial vehicle accident guide"
-    if vertical == "severe" or is_severe_topic(topic) or any(
-        x in slug for x in ("severe", "catastrophic", "tbi", "spinal", "wrongful")
-    ):
-        return "/blog/covers/severe-injury.svg", "Severe and catastrophic car accident injury guide"
-    if any(x in slug for x in ("uber", "lyft", "rideshare")):
-        return "/blog/covers/rideshare.svg", "Uber Lyft rideshare accident legal help"
-    return "/blog/covers/car-accident.svg", "Car accident victim legal help guide"
+    slug = (topic.get("slug") or topic.get("angle") or slugify(topic.get("title", ""))).lower()
+    pool = (
+        ATTORNEY_PHOTOS
+        if re.search(
+            r"(lawyer|attorney|legal|insurance|adjuster|claim|denied|statute|court|settlement|worth)",
+            slug,
+        )
+        else ACCIDENT_PHOTOS
+    )
+    h = sum(ord(c) for c in slug)
+    src = pool[h % len(pool)]
+    if is_truck_topic(topic) or "truck" in slug:
+        alt = "Semi truck and commercial vehicle accident guide"
+    elif is_severe_topic(topic) or any(x in slug for x in ("severe", "catastrophic", "tbi", "spinal", "wrongful")):
+        alt = "Severe and catastrophic car accident injury guide"
+    elif any(x in slug for x in ("uber", "lyft", "rideshare")):
+        alt = "Uber Lyft rideshare accident legal help"
+    else:
+        alt = "Car accident victim legal help guide"
+    return src, alt
 
 
 def append_seo_footer(topic: dict[str, Any], body: str) -> str:

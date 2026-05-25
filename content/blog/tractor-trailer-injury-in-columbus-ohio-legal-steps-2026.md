@@ -7,7 +7,7 @@ state: "Ohio"
 excerpt: "Semi-truck crash in Columbus, Ohio? Ohio's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/truck-accident.svg"
+coverImage: "/blog/covers/attorney-consultation-2.png"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

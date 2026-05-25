@@ -10,6 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
+coverImage: "/blog/covers/car-accident-scene-2.png"
 ---
 
 # Whiplash After a Car Accident in Houston, Texas — What to Know (2026)

@@ -10,6 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
+coverImage: "/blog/covers/attorney-consultation-1.png"
 ---
 
 # Insurance Denied Your Claim in San Antonio? (Texas 2026)

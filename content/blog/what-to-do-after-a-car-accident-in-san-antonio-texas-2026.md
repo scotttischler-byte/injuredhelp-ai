@@ -10,6 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
+coverImage: "/blog/covers/car-accident-scene-1.png"
 ---
 
 # What to Do After a Car Accident in San Antonio, Texas (2026)

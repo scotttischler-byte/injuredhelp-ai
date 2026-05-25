@@ -6,6 +6,7 @@ category: "Car Accidents"
 excerpt: Riders face higher injury rates and unfair blame. Document the scene and get care early.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/attorney-consultation-1.png"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

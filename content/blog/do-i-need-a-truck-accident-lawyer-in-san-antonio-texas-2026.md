@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Semi-truck crash in San Antonio, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
-coverImage: "/blog/covers/truck-accident.svg"
+coverImage: "/blog/covers/attorney-consultation-1.png"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

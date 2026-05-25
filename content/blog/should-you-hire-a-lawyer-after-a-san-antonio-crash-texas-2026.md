@@ -10,6 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
+coverImage: "/blog/covers/attorney-consultation-2.png"
 ---
 
 # Should You Hire a Lawyer After a San Antonio Crash? (Texas 2026)

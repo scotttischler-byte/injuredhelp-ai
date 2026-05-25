@@ -8,7 +8,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { AuthorByline } from "@/components/blog/AuthorByline";
 import { BLOG_FOOTER_DISCLAIMER } from "@/lib/compliance";
-import { blogCoverForSlug } from "@/lib/blog-images";
+import { blogCoverForSlug, isLegacyOrGeneratedSvgCover } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { authorshipForSlug } from "@/lib/blog-authors";
@@ -51,12 +51,10 @@ export default async function BlogPostPage({ params }: Props) {
   const origin = serverSiteOrigin();
 
   const { meta, content } = post;
-  // Topic-matched real photography wins over the legacy SVG covers in frontmatter.
-  const frontmatterCover = meta.coverImage ?? "";
-  const isLegacySvgCover = /^\/blog\/covers\/[a-z0-9-]+\.svg$/i.test(frontmatterCover);
-  const cover = meta.coverImage && !isLegacySvgCover
-    ? { src: meta.coverImage, alt: meta.coverAlt ?? meta.title }
-    : blogCoverForSlug(slug, undefined);
+  const cover =
+    meta.coverImage && !isLegacyOrGeneratedSvgCover(meta.coverImage)
+      ? { src: meta.coverImage, alt: meta.coverAlt ?? meta.title }
+      : blogCoverForSlug(slug, undefined);
 
   // Strip the leading raw markdown image (we render our own hero cover above the article).
   const cleanContent = content.replace(/^\s*!\[[^\]]*\]\([^)]+\)\s*\n+/, "");
