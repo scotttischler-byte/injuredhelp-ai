@@ -17,8 +17,11 @@ import { cityHubSlug, stateHubSlug } from "@/lib/geo-routes";
 import { enrichedPlaceSlugFromHubSlug } from "@/lib/priority-places/content-builder";
 import { isPriorityState, priorityPlacesForState } from "@/lib/priority-places/registry";
 import { priorityMetroHubPath } from "@/lib/priority-metro-links";
+import { AccidentSurvivalGuideCrossLink } from "@/components/seo/AccidentSurvivalGuideCrossLink";
 import { KeyFactsBox } from "@/components/seo/KeyFactsBox";
+import { asgLinksForState } from "@/lib/asg-links";
 import { keyFactsForGeoHub } from "@/lib/key-facts";
+import { ALL_STATES } from "@/lib/states";
 
 type Props = {
   hub: GeoHub;
@@ -37,6 +40,10 @@ export function GeoHubContent({ hub }: Props) {
   const enrichedSlug = !isState ? enrichedPlaceSlugFromHubSlug(hub.slug) : null;
   const isEnrichedCity = enrichedSlug !== null;
   const isPriorityStateHub = isState && isPriorityState(name);
+  const stateProfile = isState
+    ? ALL_STATES.find((s) => s.state === name)
+    : ALL_STATES.find((s) => s.state === stateName);
+  const asgLinks = asgLinksForState(stateProfile);
 
   const title =
     isEnrichedCity && !isState
@@ -88,6 +95,11 @@ export function GeoHubContent({ hub }: Props) {
         <KeyFactsBox
           facts={keyFactsForGeoHub(hub)}
           location={place}
+          variant={isEnrichedCity || isPriorityStateHub ? "dark" : "light"}
+        />
+
+        <AccidentSurvivalGuideCrossLink
+          links={asgLinks}
           variant={isEnrichedCity || isPriorityStateHub ? "dark" : "light"}
         />
 

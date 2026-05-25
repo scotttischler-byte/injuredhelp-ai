@@ -1,13 +1,10 @@
-import { headers } from "next/headers";
 import { buildLlmsTxt } from "@/lib/llms-content";
-import { siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteOrigin } from "@/lib/site";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export async function GET() {
-  const h = await headers();
-  const origin = siteOriginFromHeaders(h);
-  const body = buildLlmsTxt(origin);
+  const body = buildLlmsTxt(serverSiteOrigin());
 
   return new Response(body, {
     headers: {

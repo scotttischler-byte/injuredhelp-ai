@@ -11,6 +11,7 @@
  * headings, lists, tables, and FAQs consistently.
  */
 
+import { asgLinksForBlog } from "@/lib/asg-links";
 import { ALL_STATES, type StateProfile } from "@/lib/states";
 import { ALL_CITIES, type CityProfile } from "@/lib/cities";
 import type { PostMeta } from "@/lib/posts";
@@ -387,6 +388,22 @@ function howWreckmatchWorksSection(topic: Topic): ExpandedSection {
   };
 }
 
+function accidentSurvivalGuideSection(state: StateProfile | undefined, slug: string): ExpandedSection {
+  const links = asgLinksForBlog(slug, state);
+  const stateLine = state
+    ? `For ${state.state}-specific checklists and first-24-hour timelines, Accident Survival Guide publishes companion material alongside WreckMatch's attorney-matching service.`
+    : `Accident Survival Guide is WreckMatch's sister educational brand — focused on checklists, evidence preservation, and what to do in the first hours after a crash.`;
+  const linkLines = links.map((l) => `${l.label}: ${l.href}`);
+  return {
+    heading: "Accident Survival Guide — related checklists & resources",
+    paragraphs: [
+      stateLine,
+      `These pages are educational only (not legal advice) and are designed for victims who want step-by-step guidance before speaking with counsel. WreckMatch LLC operates both brands; connecting with a lawyer through WreckMatch remains free and separate from downloading or reading ASG materials.`,
+      ...linkLines,
+    ],
+  };
+}
+
 function trustAndComplianceSection(): ExpandedSection {
   return {
     heading: "Trust, compliance, and what we will never do",
@@ -413,6 +430,7 @@ export function expandPostContent(slug: string, meta: PostMeta): ExpandedContent
   const local = localResourcesSection(city, state);
   if (local) sections.push(local);
   sections.push(howWreckmatchWorksSection(topic));
+  sections.push(accidentSurvivalGuideSection(state, slug));
   sections.push(trustAndComplianceSection());
 
   return {

@@ -12,7 +12,10 @@ import { blogCoverForSlug } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { authorshipForSlug } from "@/lib/blog-authors";
+import { asgLinksForBlog } from "@/lib/asg-links";
 import { expandPostContent } from "@/lib/blog-content-expander";
+import { AccidentSurvivalGuideCrossLink } from "@/components/seo/AccidentSurvivalGuideCrossLink";
+import { ALL_STATES } from "@/lib/states";
 import { PRIORITY_BLOG_SEO } from "@/lib/priority-page-seo";
 import { personPath, personSameAs, personDisplayName } from "@/lib/entities";
 import { buildPageMetadata, faqPageJsonLd } from "@/lib/seo";
@@ -60,6 +63,11 @@ export default async function BlogPostPage({ params }: Props) {
 
   const { author, reviewer } = authorshipForSlug(slug);
   const expanded = expandPostContent(slug, meta);
+  const postState = meta.state
+    ? ALL_STATES.find((s) => s.state.toLowerCase() === meta.state?.toLowerCase())
+    : undefined;
+  const asgLinks = asgLinksForBlog(slug, postState);
+  const coverIsSvg = cover.src.endsWith(".svg");
 
   // Merge default FAQs from the existing system with expanded FAQs, dedup by question.
   const baseFaqs = blogFaqsForSlug(slug);
@@ -229,6 +237,8 @@ export default async function BlogPostPage({ params }: Props) {
             ))}
           </div>
         </section>
+
+        <AccidentSurvivalGuideCrossLink links={asgLinks} variant="light" />
 
         {/* Inline conversion */}
         <div className="mt-10 rounded-xl border border-[#cc0000]/30 bg-red-50 p-6 text-center">

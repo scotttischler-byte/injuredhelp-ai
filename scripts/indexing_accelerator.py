@@ -59,6 +59,7 @@ PRIORITY_PATHS = [
     "/car-accident-help-new-york-city",
     "/checklist-after-car-accident",
     "/ai-accident-help",
+    "/about-accident-survival-guide",
     "/resources",
     "/blog",
     "/press",

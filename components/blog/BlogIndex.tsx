@@ -37,6 +37,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
           const cover = post.coverImage && !isLegacySvgCover
             ? { src: post.coverImage, alt: post.coverAlt ?? post.title }
             : blogCoverForSlug(post.slug);
+          const coverIsSvg = cover.src.endsWith(".svg");
           const { author } = authorshipForSlug(post.slug);
           return (
             <li
@@ -53,6 +54,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
                     className="object-cover"
                     loading="lazy"
                     quality={50}
+                    unoptimized={coverIsSvg}
                   />
                 </div>
               </Link>
