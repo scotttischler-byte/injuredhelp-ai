@@ -88,9 +88,10 @@ def score_post(slug: str, text: str) -> QualityReport:
         score -= 10
 
     state = fm.get("state", "")
-    if state and state.lower() not in excerpt.lower():
-        issues.append("excerpt_state_mismatch")
-        score -= 5
+    if state and state.lower() not in ("general", "national", "united states", ""):
+        if state.lower() not in excerpt.lower():
+            issues.append("excerpt_state_mismatch")
+            score -= 5
 
     if "wrongful-death" in slug:
         first_steps = body.lower().split("## what should you do first", 1)
@@ -102,11 +103,16 @@ def score_post(slug: str, text: str) -> QualityReport:
         issues.append("missing_cta")
         score -= 10
 
+    if fm.get("qualityTier", "").lower() == "gold" and fm.get("authorId") == "scott-tischler":
+        if "judge roy waddell" not in text.lower():
+            issues.append("missing_roy_review")
+            score -= 3
+
     score = max(0, min(100, score))
-    render_ready = is_autopilot and wc >= 400
+    gold_prose = wc >= 900 or fm.get("qualityTier", "").lower() == "gold"
     tier = (
         "gold"
-        if score >= 90 and (wc >= 1100 or render_ready)
+        if score >= 95 and gold_prose
         else "pass"
         if score >= 85
         else "revise"

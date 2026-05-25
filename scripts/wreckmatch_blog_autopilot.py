@@ -409,22 +409,26 @@ def first_steps_block(kind: str, city: str, truck: bool) -> str:
 6. **[Get matched with a lawyer →]({CTA})**"""
 
 
-def kathy_voice_block(kind: str, city: str) -> str:
-    if kind not in ("wrongful-death", "catastrophic", "severe"):
-        return ""
+def scott_voice_block(kind: str, city: str, state: str) -> str:
+    place = city or state or "your area"
+    st = state or "your state"
     return f"""
-## A note for families navigating recovery in {city}
+## Why we published this guide for {place}
 
-At WreckMatch, we hear the same story every day: one moment changes everything — hospital bills, missed work, and insurers calling before you have had time to think. **Kathy Carr**, our CEO, built our intake around that reality: injured people are human beings, not “leads.” This article explains common next steps in plain language so you can ask better questions when you speak with a licensed attorney in your state.
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in {st} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+
+When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
 """
 
 
-def roy_review_block(kind: str) -> str:
-    if kind in ("wrongful-death", "catastrophic", "severe", "truck"):
-        return """
+def roy_review_block(_kind: str) -> str:
+    return """
 *Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
 """
-    return ""
+
+
+def use_ai_retry() -> bool:
+    return bool(os.getenv("ANTHROPIC_API_KEY", "").strip() or os.getenv("OPENAI_API_KEY", "").strip())
 
 
 def template_post(topic: dict[str, Any]) -> str:
@@ -464,7 +468,7 @@ def template_post(topic: dict[str, Any]) -> str:
     category = category_for_topic(topic)
     excerpt = excerpt_line(topic)
     steps = first_steps_block(kind, city, truck)
-    kathy = kathy_voice_block(kind, city)
+    scott_note = scott_voice_block(kind, city, state)
     roy = roy_review_block(kind)
     crash_label = "semi truck or " if truck else ""
     quick_extra = " including ECM/black box and carrier IDs" if truck else ""
@@ -478,7 +482,9 @@ state: "{state if state not in ('United States', 'National') else ''}"
 excerpt: "{excerpt}"
 autopilot: true
 vertical: "{topic.get('vertical', 'auto')}"
-qualityTier: "standard"
+qualityTier: "gold"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
 ---
 
 # {title}
@@ -491,7 +497,7 @@ qualityTier: "standard"
 
 **Quick answer:** After a {crash_label}crash in {city}, {state}, call 911, get medical care, preserve evidence{quick_extra}, avoid recorded insurer statements, and use **[free attorney matching]({CTA})** before signing anything.
 
-{kathy}
+{scott_note}
 {steps}
 {extra}
 ## {state} deadlines & why timing matters
@@ -617,22 +623,32 @@ Requirements:
         return None
 
 
+SCOTT_VOICE = """Scott Tischler — Co-Founder & SVP Marketing at WreckMatch LLC. Former AmEx/MetLife/UBS
+lead-program executive; built WreckMatch.com, MVA Match, AI intake (Ava), SEO/GEO strategy. Voice:
+direct, strategic, empathetic but not soft — levels the playing field vs insurers. Quote tone:
+"Insurance companies have billion-dollar systems… Most drivers are completely unprepared."
+"""
+
+
 def ai_system_prompt() -> str:
-    return """You write publication-ready educational articles for WreckMatch.com.
+    return f"""You write A+ publication-ready educational articles for WreckMatch.com.
 
 WreckMatch LLC is a legal REFERRAL SERVICE — NOT a law firm. Never guarantee outcomes.
 
-Voice:
-- Wrongful death / severe / catastrophic / TBI / spinal: empathetic, clear — like CEO Kathy Carr
-  (healthcare-informed, victim-centered). Include a short "note for families" section.
-- Truck / FMCSA / insurance procedure: precise — like co-founder Scott Tischler.
-- End severe/truck articles with: "Reviewed for legal context by Judge Roy Waddell, Legal Advisor…"
-  (educational only, not case-specific legal advice).
+AUTHOR (write AS this person — first person "we" for WreckMatch is OK, attribute insights to Scott):
+{SCOTT_VOICE}
+
+Include section "## Why we published this guide for [city]" in Scott's voice (2 short paragraphs).
+
+REVIEWER: Judge Roy Waddell reviewed for legal context — end with one italic line crediting Roy
+(Legal Advisor, educational only, not case-specific legal advice).
 
 Compliance (mandatory): educational only; not legal advice; not a law firm; 800+ participating
-law firms; confirm deadlines with licensed counsel.
+law firms; confirm deadlines with licensed counsel; 855 WRECKMATCH phone + form CTA.
 
-Quality: 1,100–1,600 words in markdown, tables, FAQs, quotable opening sentences, correct STATE law only."""
+Quality bar (A+ / 100): 1,200–1,700 words markdown, 5+ H2 sections, table, numbered steps, 4+ FAQs,
+quotable first sentence per section, correct STATE statute years only (never Texas-style outside TX).
+frontmatter qualityTier: gold and authorId: scott-tischler reviewerId: roy-waddell."""
 
 
 def generate_ai_post(topic: dict[str, Any], claude_first: bool) -> str:
@@ -660,7 +676,7 @@ Requirements:
 - Start each major section with one quotable sentence (LLM citation 2026)
 - Include at least one markdown table and numbered action steps
 - FMCSA, black box, spoliation if truck; MMI and life-care if severe/wrongful death
-- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical, qualityTier: gold
+- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical, qualityTier: gold, authorId: scott-tischler, reviewerId: roy-waddell
 - category must be one of: Truck Accidents, Severe Injury, Wrongful Death, Catastrophic Injury, or state name
 - excerpt must mention {topic['state']} and {y}-year deadline — NEVER "Texas-style" unless state is Texas
 - Wrongful death: family-focused steps, NOT generic truck DOT steps
@@ -829,9 +845,14 @@ def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
     if not body.startswith("---"):
         body = template_post(topic)
     report = score_post(slug, body)
-    if report.score < 85:
+    if report.score < 95:
         log(f"Quality {report.score} ({report.issues}) — using premium template")
         body = template_post(topic)
+        report = score_post(slug, body)
+        if report.score < 85 and use_ai_retry():
+            body2 = generate_ai_post(topic, True)
+            if body2 and score_post(slug, body2).score >= report.score:
+                body = body2
     body = append_seo_footer(topic, body)
 
     path = BLOG_DIR / f"{slug}.md"

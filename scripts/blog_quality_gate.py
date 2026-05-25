@@ -17,7 +17,7 @@ BLOG_DIR = ROOT / "content/blog"
 
 def main() -> int:
     p = argparse.ArgumentParser()
-    p.add_argument("--min-score", type=int, default=85)
+    p.add_argument("--min-score", type=int, default=95)
     p.add_argument("--json", action="store_true")
     p.add_argument("--limit", type=int, default=0)
     args = p.parse_args()
@@ -55,7 +55,7 @@ def main() -> int:
         avg = sum(r.score for r in reports) / max(len(reports), 1)
         print(f"Average score: {avg:.1f}")
         gold = sum(1 for r in reports if r.tier == "gold")
-        print(f"Gold tier (≥95, 1100+ words): {gold}")
+        print(f"Gold tier (score ≥95, 900+ words): {gold}")
 
     return 1 if failing else 0
 

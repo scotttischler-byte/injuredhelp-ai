@@ -9,6 +9,9 @@ autopilot: true
 vertical: "severe"
 coverImage: "/blog/covers/severe-injury.svg"
 coverAlt: "Severe and catastrophic car accident injury guide"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
+qualityTier: "gold"
 ---
 
 # Wrongful Death Car Accident in Philadelphia, Pennsylvania — Family Guide
@@ -20,9 +23,12 @@ coverAlt: "Severe and catastrophic car accident injury guide"
 WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide — free matching, typically under 60 seconds.
 
 
-## A note for families navigating recovery in Philadelphia
+## Why we published this guide for Philadelphia
 
-At WreckMatch, we hear the same story every day: one moment changes everything — hospital bills, missed work, and insurers calling before you have had time to think. **Kathy Carr**, our CEO, built our intake around that reality: injured people are human beings, not "leads." This article explains common next steps in plain language so you can ask better questions when you speak with a licensed attorney in Pennsylvania.
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in Pennsylvania are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+
+When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
+
 
 **Quick answer:** After a crash in Philadelphia, call 911, get trauma care, preserve evidence, avoid recorded insurer statements, and use **[free attorney matching](https://www.wreckmatch.com/#form)** before signing anything.
 

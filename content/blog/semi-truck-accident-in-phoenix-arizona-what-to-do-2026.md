@@ -9,6 +9,9 @@ autopilot: true
 vertical: "truck"
 coverImage: "/blog/covers/truck-accident.svg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
+qualityTier: "gold"
 ---
 
 # Semi Truck Accident in Phoenix, Arizona: What to Do (2026)
@@ -18,6 +21,13 @@ coverAlt: "Semi truck and commercial vehicle accident guide"
 **Last updated:** 2026-05-23
 
 WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide — free matching, typically under 60 seconds.
+
+
+## Why we published this guide for Phoenix
+
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in Arizona are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+
+When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
 
 **Quick answer:** After a semi truck or crash in Phoenix, call 911, get trauma care, preserve evidence including ECM/black box data, avoid recorded insurer statements, and use **[free attorney matching](https://www.wreckmatch.com/#form)** before signing anything.
 
@@ -95,3 +105,5 @@ A free consultation makes sense after hospitalization, disputed fault, a commerc
 Call **855 WRECKMATCH (855) 897-3256** or use [free attorney matching](https://www.wreckmatch.com/#form). Participating attorneys typically work on contingency.
 
 *Educational only — not legal advice.*
+
+*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*

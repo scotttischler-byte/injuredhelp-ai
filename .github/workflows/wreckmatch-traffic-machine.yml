@@ -1,5 +1,5 @@
 # WreckMatch Traffic Machine — 24/7/365 organic growth
-# Every 15 min: 5 Claude posts (up to ~480/day; target ~240/day after schedule jitter)
+# Every 15 min: 10 Claude posts (Scott voice; ~2x prior batch size)
 
 name: WreckMatch traffic machine
 
@@ -74,7 +74,7 @@ jobs:
           WRECKMATCH_SITE: https://www.wreckmatch.com
           TRAFFIC_MACHINE_SYNDICATE: "1"
         run: |
-          BATCH="${{ github.event.inputs.batch || '5' }}"
+          BATCH="${{ github.event.inputs.batch || '10' }}"
           python scripts/wreckmatch_blog_autopilot.py \
             --batch "$BATCH" \
             --ai \

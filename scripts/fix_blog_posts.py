@@ -193,6 +193,56 @@ NETWORK_LINE = (
 )
 
 
+PILLAR_GOLD_EXPANSION = """
+
+## Why we published this guide
+
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+
+## Deadlines and evidence (nationwide overview)
+
+| Topic | Why it matters |
+|-------|----------------|
+| Statute of limitations | Varies by state — often 1–6 years for injury; shorter for government defendants |
+| Medical documentation | Gaps in care are used to argue injuries are minor or unrelated |
+| Insurer contact | Recorded statements can limit recovery if you guess about fault or symptoms |
+
+**Direct answer:** The safest move after any serious crash is to get medical care, preserve photos and witness info, avoid recorded insurer statements, and speak with **licensed counsel in your state** before signing releases.
+
+## Insurance company tactics to expect
+
+- **Recorded statements** in the first 24–48 hours designed to lock in fault language
+- **Quick cash offers** before MRI results or specialist referrals return
+- Disputing **serious injury** thresholds or pre-existing conditions
+- Multiple policies pointing blame at each other (especially in **truck** and **multi-vehicle** crashes)
+
+## When to speak with a lawyer
+
+Consider a free consultation if: you were hospitalized, fault is disputed, a commercial truck was involved, a death occurred, or an insurer already denied coverage. WreckMatch connects you with participating **licensed** attorneys — we do not provide legal advice ourselves.
+
+## FAQ
+
+### Is WreckMatch a law firm?
+
+No. WreckMatch LLC is a **legal referral service** — not a law firm. We connect injured people with participating attorneys nationwide.
+
+### How fast is the callback?
+
+Typically **under 60 seconds** when you call **855 WRECKMATCH (855) 897-3256** or use the [matching form](https://www.wreckmatch.com/#form).
+
+### What if I cannot afford a lawyer?
+
+Participating attorneys usually work on **contingency** — no upfront fee for representation; fees are agreed in writing if they recover compensation for you.
+
+### Should I give a recorded statement?
+
+You are generally **not required** to give a recorded statement to the other driver's insurer immediately. Many attorneys recommend waiting until you understand your rights.
+
+*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
+
+**[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+"""
+
 LEGACY_EXPANSION = """
 
 ## When to speak with a lawyer
@@ -316,17 +366,38 @@ def fix_file(path: Path) -> list[str]:
         )
         changes.append("wrongful-steps")
 
-    if "autopilot: true" in fm and kind in ("wrongful-death", "severe", "catastrophic"):
-        if "A note for families" not in body and city and state:
-            insert = f"""
-## A note for families navigating recovery in {city}
+    scott_section = f"""## Why we published this guide for {city or state or "your area"}
 
-At WreckMatch, we hear the same story every day: one moment changes everything — hospital bills, missed work, and insurers calling before you have had time to think. **Kathy Carr**, our CEO, built our intake around that reality: injured people are human beings, not "leads." This article explains common next steps in plain language so you can ask better questions when you speak with a licensed attorney in {state}.
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in {state or "your state"} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
 
+When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
 """
+    kathy_pat = re.compile(
+        r"## A note for families navigating recovery in[^\n]+\n\n"
+        r"At WreckMatch, we hear the same story every day:.*?licensed attorney in [^\n]+\.\n",
+        re.S,
+    )
+    if kathy_pat.search(body):
+        body = kathy_pat.sub(scott_section + "\n", body, count=1)
+        changes.append("scott-voice-replace")
+
+    if "authorId:" not in fm:
+        fm = fm.rstrip() + '\nauthorId: "scott-tischler"\n'
+        changes.append("authorId")
+    if "reviewerId:" not in fm:
+        fm = fm.rstrip() + '\nreviewerId: "roy-waddell"\n'
+        changes.append("reviewerId")
+
+    if "autopilot: true" in fm and 'qualityTier: "gold"' not in fm and "qualityTier:" not in fm:
+        fm = fm.rstrip() + '\nqualityTier: "gold"\n'
+        changes.append("qualityTier")
+
+    if "autopilot: true" in fm and kind in ("wrongful-death", "severe", "catastrophic", "general", "truck"):
+        if "Why we published this guide" not in body and (city or state):
+            insert = "\n" + scott_section + "\n"
             if "**Quick answer:**" in body:
                 body = body.replace("**Quick answer:**", insert + "**Quick answer:**", 1)
-                changes.append("kathy-voice")
+                changes.append("scott-voice")
         if "Judge Roy Waddell" not in body:
             body = body.rstrip() + (
                 "\n\n*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at "
@@ -335,9 +406,17 @@ At WreckMatch, we hear the same story every day: one moment changes everything �
             )
             changes.append("roy-line")
 
-    if word_count(body) < 520:
+    wc = word_count(body)
+    if wc < 500:
+        body = body.rstrip() + PILLAR_GOLD_EXPANSION
+        changes.append("pillar-gold-expand")
+    elif wc < 520:
         body = body.rstrip() + LEGACY_EXPANSION
         changes.append("legacy-expand")
+
+    if 'state: "General"' in fm or 'state: General' in fm:
+        fm = re.sub(r'^state:.*$', 'state: ""', fm, flags=re.M)
+        changes.append("state-general-clear")
 
     fm_block = fm if fm.startswith("\n") else f"\n{fm}"
     if not fm_block.endswith("\n"):

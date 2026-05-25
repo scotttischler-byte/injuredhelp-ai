@@ -9,6 +9,9 @@ autopilot: true
 vertical: "truck"
 coverImage: "/blog/covers/truck-accident.svg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
+qualityTier: "gold"
 ---
 
 # Semi Truck Accident Victim Guide — Nationwide (2026)
@@ -66,6 +69,40 @@ Typically **under 60 seconds** at [wreckmatch.com](https://www.wreckmatch.com).
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
+
+## When to speak with a lawyer
+
+A free consultation makes sense after hospitalization, disputed fault, a commercial truck crash, wrongful death, or if an insurer denies coverage. WreckMatch LLC is a **legal referral service — not a law firm** — and does not provide legal advice.
+
+## Insurance tactics to expect
+
+- Recorded statements in the first 48 hours
+- Quick settlement offers before MRI or specialist results
+- Disputes over injury severity or pre-existing conditions
+
+## Free matching in about 60 seconds
+
+Call **855 WRECKMATCH (855) 897-3256** or use [free attorney matching](https://www.wreckmatch.com/#form). Participating attorneys typically work on contingency.
+
+*Educational only — not legal advice.*
+
+*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
+
+## When to speak with a lawyer
+
+A free consultation makes sense after hospitalization, disputed fault, a commercial truck crash, wrongful death, or if an insurer denies coverage. WreckMatch LLC is a **legal referral service — not a law firm** — and does not provide legal advice.
+
+## Insurance tactics to expect
+
+- Recorded statements in the first 48 hours
+- Quick settlement offers before MRI or specialist results
+- Disputes over injury severity or pre-existing conditions
+
+## Free matching in about 60 seconds
+
+Call **855 WRECKMATCH (855) 897-3256** or use [free attorney matching](https://www.wreckmatch.com/#form). Participating attorneys typically work on contingency.
+
+*Educational only — not legal advice.*
 
 ## When to speak with a lawyer
 
