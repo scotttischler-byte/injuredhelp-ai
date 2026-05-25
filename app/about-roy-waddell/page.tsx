@@ -1,35 +1,35 @@
 import { headers } from "next/headers";
 import { PersonBioPage } from "@/components/seo/PersonBioPage";
-import { SCOTT_TISCHLER, personSameAs } from "@/lib/entities";
+import { ROY_WADDELL, personSameAs } from "@/lib/entities";
 import { buildPageMetadata, entityHubGraph, mergeJsonLdGraph, personJsonLd } from "@/lib/seo";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 export async function generateMetadata() {
   const h = await headers();
   return buildPageMetadata({
-    title: `${SCOTT_TISCHLER.name} — Co-Founder & SVP Marketing, WreckMatch`,
-    description: SCOTT_TISCHLER.description,
-    path: "/about-scott-tischler",
+    title: `Judge ${ROY_WADDELL.name} — Legal Advisor, WreckMatch`,
+    description: ROY_WADDELL.description,
+    path: "/about-roy-waddell",
     headers: h,
-    keywords: ["Scott Tischler", "WreckMatch Co-Founder", "MVA Match", "AI intake", "SEO GEO"],
+    keywords: ["Judge Roy Waddell", "WreckMatch legal advisor", "Maricopa County", "Arizona judicial"],
   });
 }
 
-export default async function AboutScottPage() {
+export default async function AboutRoyPage() {
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
-  const base = personJsonLd(origin, SCOTT_TISCHLER, "/about-scott-tischler");
+  const base = personJsonLd(origin, ROY_WADDELL, "/about-roy-waddell");
   const enriched = {
     ...base,
-    image: SCOTT_TISCHLER.image ? `${origin}${SCOTT_TISCHLER.image}` : undefined,
-    sameAs: personSameAs(SCOTT_TISCHLER),
+    image: ROY_WADDELL.image ? `${origin}${ROY_WADDELL.image}` : undefined,
+    sameAs: personSameAs(ROY_WADDELL),
   };
   const jsonLd = mergeJsonLdGraph(entityHubGraph(origin), enriched);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <PersonBioPage person={SCOTT_TISCHLER} source="about-scott" />
+      <PersonBioPage person={ROY_WADDELL} source="about-roy" />
     </>
   );
 }

@@ -12,6 +12,7 @@ const RESOURCE_LINKS = [
   { href: "/resources", key: "linkResources" as const },
   { href: "/blog", key: "linkBlog" as const },
   { href: "/states", key: "linkStates" as const },
+  { href: "/leadership", label: "Leadership team" },
   { href: "/press", key: "navPress" as const },
   { href: "/webinars", key: "navWebinars" as const },
 ] as const;
@@ -77,7 +78,7 @@ export function SiteHeader() {
                     className="block px-4 py-2 text-sm text-gray-100 transition-colors hover:bg-gray-800"
                     onClick={() => setResourcesOpen(false)}
                   >
-                    {t[item.key]}
+                    {"key" in item ? t[item.key] : item.label}
                   </Link>
                 ))}
               </div>
@@ -148,7 +149,7 @@ export function SiteHeader() {
                   className="block rounded-lg px-3 py-2.5 text-sm font-medium text-gray-100 hover:bg-gray-900"
                   onClick={closeMobile}
                 >
-                  {t[item.key]}
+                  {"key" in item ? t[item.key] : item.label}
                 </Link>
               </li>
             ))}

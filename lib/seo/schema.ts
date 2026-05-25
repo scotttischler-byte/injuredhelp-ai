@@ -53,7 +53,13 @@ export function webSiteJsonLd(origin: string) {
 
 export function personJsonLd(
   origin: string,
-  person: typeof SCOTT_TISCHLER | typeof KATHY_CARR,
+  person: {
+    readonly id: string;
+    readonly name: string;
+    readonly jobTitle: string;
+    readonly description: string;
+    readonly knowsAbout: readonly string[];
+  },
   path: string,
 ) {
   return {

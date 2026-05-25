@@ -1,60 +1,35 @@
-import Link from "next/link";
 import { headers } from "next/headers";
-import { EntityAboutPage } from "@/components/seo/EntityAboutPage";
-import { KATHY_CARR } from "@/lib/entities";
+import { PersonBioPage } from "@/components/seo/PersonBioPage";
+import { KATHY_CARR, personSameAs } from "@/lib/entities";
 import { buildPageMetadata, entityHubGraph, mergeJsonLdGraph, personJsonLd } from "@/lib/seo";
 import { siteOriginFromHeaders } from "@/lib/site";
 
 export async function generateMetadata() {
   const h = await headers();
   return buildPageMetadata({
-    title: `${KATHY_CARR.name} — CEO, WreckMatch`,
+    title: `${KATHY_CARR.name} — CEO & Co-Founder, WreckMatch`,
     description: KATHY_CARR.description,
     path: "/about-kathy-carr",
     headers: h,
-    keywords: ["Kathy Carr", "WreckMatch CEO", "legal referral"],
+    keywords: ["Kathy Carr", "WreckMatch CEO", "MVA Match", "RKJ In-Home Services", "legal referral"],
   });
 }
 
 export default async function AboutKathyPage() {
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
-  const jsonLd = mergeJsonLdGraph(entityHubGraph(origin), personJsonLd(origin, KATHY_CARR, "/about-kathy-carr"));
+  const base = personJsonLd(origin, KATHY_CARR, "/about-kathy-carr");
+  const enriched = {
+    ...base,
+    image: KATHY_CARR.image ? `${origin}${KATHY_CARR.image}` : undefined,
+    sameAs: personSameAs(KATHY_CARR),
+  };
+  const jsonLd = mergeJsonLdGraph(entityHubGraph(origin), enriched);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <EntityAboutPage
-        title={KATHY_CARR.name}
-        subtitle={KATHY_CARR.jobTitle}
-        source="about-kathy"
-        crumbs={[
-          { label: "Home", href: "/" },
-          { label: KATHY_CARR.name },
-        ]}
-      >
-        <p>{KATHY_CARR.description}</p>
-        <p>
-          Kathy oversees WreckMatch LLC strategy, partnerships with participating law firms nationwide, and consumer
-          trust for the WreckMatch and Accident Survival Guide brands.
-        </p>
-        <h2 className="text-xl font-bold text-white">Leadership focus</h2>
-        <ul className="list-disc pl-5 space-y-2">
-          {KATHY_CARR.knowsAbout.map((k) => (
-            <li key={k}>{k}</li>
-          ))}
-        </ul>
-        <h2 className="mt-8 text-xl font-bold text-white">Press</h2>
-        <ul className="mt-3 space-y-2">
-          {KATHY_CARR.pressSlugs.map((slug) => (
-            <li key={slug}>
-              <Link href={`/press/${slug}`} className="text-emerald-400 hover:underline">
-                Press release →
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </EntityAboutPage>
+      <PersonBioPage person={KATHY_CARR} source="about-kathy" />
     </>
   );
 }
