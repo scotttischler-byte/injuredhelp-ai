@@ -2,16 +2,19 @@ import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { BlogIndex } from "@/components/blog/BlogIndex";
 import { paginatePosts } from "@/lib/blog-pagination";
+import { PRIORITY_PAGE_SEO } from "@/lib/priority-page-seo";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const revalidate = 3600;
 
+const blogSeo = PRIORITY_PAGE_SEO["/blog"]!;
+
 export const metadata: Metadata = buildPageMetadata({
-  title: "Car Accident & Injury Blog | WreckMatch",
-  description:
-    "Educational car accident, truck crash, and injury guides authored by WreckMatch operators and reviewed for legal context. WreckMatch LLC is a referral service — not a law firm.",
+  title: blogSeo.title,
+  description: blogSeo.description,
   path: "/blog",
+  keywords: blogSeo.keywords,
 });
 
 export default function BlogIndexPage() {

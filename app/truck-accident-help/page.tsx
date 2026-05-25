@@ -1,27 +1,25 @@
-import { headers } from "next/headers";
 import { TopicHubPage } from "@/components/seo/TopicHubPage";
 import { TOPIC_HUBS } from "@/lib/topic-hubs";
 import { faqsForTopic } from "@/lib/topic-hub-faqs";
+import { PRIORITY_PAGE_SEO } from "@/lib/priority-page-seo";
 import { buildPageMetadata, breadcrumbJsonLd, faqPageJsonLd, mergeJsonLdGraph, siteJsonLdGraph, webPageJsonLd } from "@/lib/seo";
-import { brandFromHeaders, siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteBrand, serverSiteOrigin } from "@/lib/site";
 
 const hub = TOPIC_HUBS.find((h) => h.slug === "truck")!;
+const seo = PRIORITY_PAGE_SEO[hub.path]!;
 
-export async function generateMetadata() {
-  const h = await headers();
-  return buildPageMetadata({
-    title: hub.title,
-    description: hub.description,
-    path: hub.path,
-    headers: h,
-    keywords: hub.keywords,
-  });
-}
+export const revalidate = 86400;
+
+export const metadata = buildPageMetadata({
+  title: seo.title,
+  description: seo.description,
+  path: hub.path,
+  keywords: seo.keywords ?? hub.keywords,
+});
 
 export default async function TruckAccidentHelpPage() {
-  const h = await headers();
-  const origin = siteOriginFromHeaders(h);
-  const brand = brandFromHeaders(h);
+  const origin = serverSiteOrigin();
+  const brand = serverSiteBrand();
   const faqs = faqsForTopic("truck");
   const jsonLd = mergeJsonLdGraph(
     siteJsonLdGraph(origin, brand),
@@ -36,7 +34,7 @@ export default async function TruckAccidentHelpPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <TopicHubPage hub={hub} faqs={faqs} extraLinks={[{ href: "/truck-accident-evidence-guide", label: "Truck evidence guide" }]} />
+      <TopicHubPage hub={{ ...hub, title: seo.title, description: seo.description }} faqs={faqs} extraLinks={[{ href: "/truck-accident-evidence-guide", label: "Truck evidence guide" }]} />
     </>
   );
 }

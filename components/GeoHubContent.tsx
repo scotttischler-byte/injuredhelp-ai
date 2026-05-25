@@ -17,6 +17,8 @@ import { cityHubSlug, stateHubSlug } from "@/lib/geo-routes";
 import { enrichedPlaceSlugFromHubSlug } from "@/lib/priority-places/content-builder";
 import { isPriorityState, priorityPlacesForState } from "@/lib/priority-places/registry";
 import { priorityMetroHubPath } from "@/lib/priority-metro-links";
+import { KeyFactsBox } from "@/components/seo/KeyFactsBox";
+import { keyFactsForGeoHub } from "@/lib/key-facts";
 
 type Props = {
   hub: GeoHub;
@@ -82,6 +84,12 @@ export function GeoHubContent({ hub }: Props) {
         <p className={`mt-2 text-xs ${isEnrichedCity || isPriorityStateHub ? "text-slate-500" : "text-gray-500"}`}>
           {keywords.slice(0, 3).join(" · ")}
         </p>
+
+        <KeyFactsBox
+          facts={keyFactsForGeoHub(hub)}
+          location={place}
+          variant={isEnrichedCity || isPriorityStateHub ? "dark" : "light"}
+        />
 
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <div className="rounded-xl border border-emerald-500/40 bg-slate-900 px-4 py-3">

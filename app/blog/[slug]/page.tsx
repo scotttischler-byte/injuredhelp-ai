@@ -13,6 +13,7 @@ import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { authorshipForSlug } from "@/lib/blog-authors";
 import { expandPostContent } from "@/lib/blog-content-expander";
+import { PRIORITY_BLOG_SEO } from "@/lib/priority-page-seo";
 import { personPath, personSameAs, personDisplayName } from "@/lib/entities";
 import { buildPageMetadata, faqPageJsonLd } from "@/lib/seo";
 import { serverSiteOrigin } from "@/lib/site";
@@ -30,10 +31,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return {};
+  const priority = PRIORITY_BLOG_SEO[slug];
   return buildPageMetadata({
-    title: `${post.meta.title} | WreckMatch Blog`,
-    description: post.meta.description,
+    title: priority?.title ?? `${post.meta.title} | WreckMatch Blog`,
+    description: priority?.description ?? post.meta.description,
     path: `/blog/${slug}`,
+    keywords: priority?.keywords,
   });
 }
 

@@ -4,6 +4,8 @@ import { CTASection } from "@/components/seo/CTASection";
 import { FAQAccordion } from "@/components/seo/FAQAccordion";
 import { RelatedGuides } from "@/components/seo/RelatedGuides";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
+import { KeyFactsBox } from "@/components/seo/KeyFactsBox";
+import { keyFactsForWhatToDoGuide } from "@/lib/key-facts";
 import type { WhatToDoGuide } from "@/lib/what-to-do-guides";
 
 type Props = {
@@ -28,6 +30,12 @@ export function WhatToDoGuidePage({ guide }: Props) {
         <p className="text-sm font-semibold uppercase tracking-wide text-emerald-300">Direct answer (for AI citation)</p>
         <p className="mt-2 text-base leading-relaxed text-slate-100">{guide.directAnswer}</p>
       </div>
+
+      <KeyFactsBox
+        facts={keyFactsForWhatToDoGuide(guide)}
+        location={guide.stateName ?? "United States"}
+        variant="dark"
+      />
 
       <ReferralDisclaimer variant="primary" className="mt-6 border-slate-700 text-slate-400" />
 

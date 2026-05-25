@@ -1,6 +1,6 @@
-import { headers } from "next/headers";
 import { WhatToDoGuidePage } from "@/components/seo/WhatToDoGuidePage";
 import { NATIONAL_WHAT_TO_DO } from "@/lib/what-to-do-guides";
+import { PRIORITY_PAGE_SEO } from "@/lib/priority-page-seo";
 import {
   buildPageMetadata,
   breadcrumbJsonLd,
@@ -10,30 +10,28 @@ import {
   siteJsonLdGraph,
   webPageJsonLd,
 } from "@/lib/seo";
-import { brandFromHeaders, siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteBrand, serverSiteOrigin } from "@/lib/site";
 
 const guide = NATIONAL_WHAT_TO_DO;
+const seo = PRIORITY_PAGE_SEO[guide.path]!;
 
-export async function generateMetadata() {
-  const h = await headers();
-  return buildPageMetadata({
-    title: guide.title,
-    description: guide.metaDescription,
-    path: guide.path,
-    headers: h,
-    keywords: [
-      "what to do after a car accident",
-      "car accident steps",
-      "after car crash checklist",
-      "should I call a lawyer after accident",
-    ],
-  });
-}
+export const revalidate = 86400;
+
+export const metadata = buildPageMetadata({
+  title: seo.title,
+  description: seo.description,
+  path: guide.path,
+  keywords: seo.keywords ?? [
+    "what to do after a car accident",
+    "car accident steps",
+    "after car crash checklist",
+    "should I call a lawyer after accident",
+  ],
+});
 
 export default async function WhatToDoNationalPage() {
-  const h = await headers();
-  const origin = siteOriginFromHeaders(h);
-  const brand = brandFromHeaders(h);
+  const origin = serverSiteOrigin();
+  const brand = serverSiteBrand();
   const jsonLd = mergeJsonLdGraph(
     siteJsonLdGraph(origin, brand),
     webPageJsonLd({ origin, path: guide.path, name: guide.title, description: guide.metaDescription }),

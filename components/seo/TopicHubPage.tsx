@@ -10,6 +10,8 @@ import { CITATION_ASSETS } from "@/lib/citation-assets";
 import { priorityCitiesByState, stateHubPath, cityHubPath } from "@/lib/topic-hubs";
 import { PRIORITY_STATE_NAMES } from "@/lib/priority-places/types";
 import { ACCIDENT_VARIANT_CITIES } from "@/lib/priority-places/registry";
+import { KeyFactsBox } from "@/components/seo/KeyFactsBox";
+import { keyFactsForTruckHub } from "@/lib/key-facts";
 
 type Props = {
   hub: TopicHub;
@@ -47,6 +49,7 @@ export function TopicHubPage({ hub, faqs, extraLinks = [] }: Props) {
       <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">{hub.title}</h1>
       <p className="mt-4 text-lg leading-relaxed text-slate-400">{hub.description}</p>
       <p className="mt-2 text-xs text-slate-500">Last updated: May 2026 · Educational only — not legal advice</p>
+      {isTruck ? <KeyFactsBox facts={keyFactsForTruckHub()} location="Semi-truck crashes" variant="dark" /> : null}
       <ReferralDisclaimer variant="primary" className="mt-6 border-slate-700 bg-slate-900/60 text-slate-400" />
 
       <section className="mt-10">

@@ -13,6 +13,7 @@ import {
   siteJsonLdGraph,
 } from "@/lib/seo";
 import { enrichedPlaceSlugFromHubSlug } from "@/lib/priority-places/content-builder";
+import { prioritySeoForPublicGeoPath } from "@/lib/priority-page-seo";
 import { brandFromHeaders } from "@/lib/site";
 import { headers } from "next/headers";
 
@@ -37,23 +38,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const hub = resolveHub(place);
   if (!hub) return {};
   const h = await headers();
-  const name = hub.type === "state" ? hub.profile.state : `${hub.profile.city}, ${hub.profile.state}`;
   const enrichedSlug = hub.type === "city" ? enrichedPlaceSlugFromHubSlug(hub.slug) : null;
+  const priority = prioritySeoForPublicGeoPath(place);
+  const name = hub.type === "state" ? hub.profile.state : `${hub.profile.city}, ${hub.profile.state}`;
   const title =
-    hub.type === "state"
+    priority?.title ??
+    (hub.type === "state"
       ? `Car Accident Lawyer ${hub.profile.state} — Free Referral (2026) | WreckMatch`
       : enrichedSlug
         ? `What to Do After a Car Accident in ${hub.profile.city}, ${hub.profile.state} (2026) | WreckMatch`
-        : `Car Accident Help in ${hub.profile.city}, ${hub.profile.state} | WreckMatch`;
+        : `Car Accident Help in ${hub.profile.city}, ${hub.profile.state} | WreckMatch`);
   const description =
-    hub.type === "city" && enrichedSlug
+    priority?.description ??
+    (hub.type === "city" && enrichedSlug
       ? `Step-by-step ${hub.profile.city} car accident guide: ${hub.profile.state} deadlines, insurance tactics, common mistakes, and free attorney matching. Not legal advice.`
-      : `Free legal referral after a car accident in ${name}. WreckMatch is not a law firm — we connect you with licensed attorneys in 60 seconds. Call (855) 897-3256.`;
+      : `Free legal referral after a car accident in ${name}. WreckMatch is not a law firm — we connect you with licensed attorneys in 60 seconds. Call (855) 897-3256.`);
   return buildPageMetadata({
     title,
     description,
     path: `/car-accident-help-${place}`,
     headers: h,
+    keywords: priority?.keywords,
   });
 }
 

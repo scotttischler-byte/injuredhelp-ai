@@ -1,7 +1,7 @@
-import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { WhatToDoGuidePage } from "@/components/seo/WhatToDoGuidePage";
 import { ALL_WHAT_TO_DO_GUIDES, getWhatToDoGuideBySlug } from "@/lib/what-to-do-guides";
+import { prioritySeoForPath } from "@/lib/priority-page-seo";
 import {
   buildPageMetadata,
   breadcrumbJsonLd,
@@ -11,7 +11,9 @@ import {
   siteJsonLdGraph,
   webPageJsonLd,
 } from "@/lib/seo";
-import { brandFromHeaders, siteOriginFromHeaders } from "@/lib/site";
+import { serverSiteBrand, serverSiteOrigin } from "@/lib/site";
+
+export const revalidate = 86400;
 
 type Props = { params: Promise<{ state: string }> };
 
@@ -25,13 +27,12 @@ export async function generateMetadata({ params }: Props) {
   const { state } = await params;
   const guide = getWhatToDoGuideBySlug(state);
   if (!guide) return {};
-  const h = await headers();
+  const priority = prioritySeoForPath(guide.path);
   return buildPageMetadata({
-    title: guide.title,
-    description: guide.metaDescription,
+    title: priority?.title ?? guide.title,
+    description: priority?.description ?? guide.metaDescription,
     path: guide.path,
-    headers: h,
-    keywords: [
+    keywords: priority?.keywords ?? [
       `what to do after car accident ${guide.stateName}`,
       `${guide.stateAbbr} car accident steps`,
       `${guide.stateName} statute of limitations car accident`,
@@ -44,9 +45,8 @@ export default async function WhatToDoStatePage({ params }: Props) {
   const guide = getWhatToDoGuideBySlug(state);
   if (!guide || guide.slug === "national") notFound();
 
-  const h = await headers();
-  const origin = siteOriginFromHeaders(h);
-  const brand = brandFromHeaders(h);
+  const origin = serverSiteOrigin();
+  const brand = serverSiteBrand();
   const jsonLd = mergeJsonLdGraph(
     siteJsonLdGraph(origin, brand),
     webPageJsonLd({ origin, path: guide.path, name: guide.title, description: guide.metaDescription }),
