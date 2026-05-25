@@ -1,0 +1,99 @@
+---
+title: "Wrongful Death Car Accident — State Deadlines Overview (2026)"
+description: "Educational guide for National car accident victims in United States. Deadlines, insurance tactics, and free attorney matching — 800+ law firm network. Not legal advice."
+date: "2026-05-25"
+category: "Wrongful Death"
+state: ""
+excerpt: "Wrongful death after a crash in National, United States? United States's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
+autopilot: true
+vertical: "severe"
+qualityTier: "gold"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
+---
+
+# Wrongful Death Car Accident — State Deadlines Overview (2026)
+
+**Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
+
+**Last updated:** 2026-05-25
+
+WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide — free matching, typically under 60 seconds.
+
+**Quick answer:** After a crash in National, United States, call 911, get medical care, preserve evidence, avoid recorded insurer statements, and use **[free attorney matching](https://www.wreckmatch.com/#form)** before signing anything.
+
+
+## Why we published this guide for National
+
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in United States are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+
+When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
+
+## What families in National should do first
+
+1. **Safety and medical care** — ensure survivors receive emergency treatment; ask hospitals to document all injuries.
+2. **Preserve the scene** — photographs, witness names, and the police report number (do not discuss fault on scene).
+3. **Avoid quick settlements** — insurers may contact you within hours; you are not required to accept anything immediately.
+4. **Order death certificates and autopsy decisions** carefully — talk with counsel before signing releases related to the estate.
+5. **Do not give recorded statements** to any insurer until you understand who represents the estate.
+6. **[Free attorney matching →](https://www.wreckmatch.com/#form)** — WreckMatch can connect the family with licensed counsel in about 60 seconds.
+
+## Severe injury & wrongful death considerations
+
+- Document **lifetime care needs**, lost earnings, and future medical costs — not just today's ER bill.
+- Do not accept lump-sum settlements before **maximum medical improvement (MMI)** without counsel.
+- Life-care planners, economists, and medical illustrators may be appropriate in high-value cases.
+- **Wrongful death** claims involve different beneficiaries, estates, and deadlines than personal injury alone.
+
+## United States deadlines & why timing matters
+
+| Topic | Detail |
+|-------|--------|
+| Statute of limitations | **2 years** (most injury claims — confirm with licensed counsel) |
+| Government / special defendants | Often **much shorter** notice windows — ask counsel immediately |
+| WreckMatch matching fee | **$0** to consumers |
+
+Insurers track filing deadlines closely. Missing a notice period can end a claim even when injuries are catastrophic.
+
+## Insurance company tactics to expect
+
+- **Recorded statements** in the first 24–48 hours designed to lock in fault language
+- **Quick cash offers** before MRI results or specialist referrals return
+- Disputing **serious injury** thresholds or pre-existing conditions
+- Multiple policies pointing blame at each other (especially in **truck** and **multi-vehicle** crashes)
+
+## When to speak with a lawyer
+
+Consider a free consultation if: hospitalization occurred, fault is disputed, a commercial truck was involved, a death occurred, or an insurer already denied coverage. WreckMatch connects you with participating **licensed** attorneys — we do not provide legal advice ourselves.
+
+## FAQ
+
+### Is WreckMatch a law firm?
+
+No. WreckMatch LLC is a **legal referral service** — not a law firm. We connect injured people with participating attorneys who handle **car, truck, and catastrophic injury** cases in United States.
+
+### How fast is the callback?
+
+Typically **under 60 seconds** when you call 855 WRECKMATCH (855) 897-3256 or use the [matching form](https://www.wreckmatch.com/#form).
+
+### What if I cannot afford a lawyer?
+
+Participating attorneys usually work on **contingency** — no upfront fee for representation; fees are agreed in writing if they recover compensation for you.
+
+### Where is the local help hub?
+
+**[National car accident help](https://www.wreckmatch.com/car-accident-help-united-states)** · [National what-to-do guide](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+
+
+*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
+
+
+**[Free attorney matching →](https://www.wreckmatch.com/#form)** · 855 WRECKMATCH (855) 897-3256
+
+---
+
+## Related resources
+
+- [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+- [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
+- [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
