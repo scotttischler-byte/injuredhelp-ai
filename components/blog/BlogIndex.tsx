@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { blogCoverForSlug, shouldUseGeneratedCover } from "@/lib/blog-images";
+import { blogCoverForSlug, blogCoverIsUnoptimized, shouldUseGeneratedCover } from "@/lib/blog-images";
 import { authorshipForSlug } from "@/lib/blog-authors";
 import { blogPagePath, totalBlogPages } from "@/lib/blog-pagination";
 import { personDisplayName } from "@/lib/entities";
@@ -36,14 +36,13 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
           const cover = shouldUseGeneratedCover(post.slug, post.coverImage)
             ? blogCoverForSlug(post.slug)
             : { src: post.coverImage!, alt: post.coverAlt ?? post.title };
-          const coverIsSvg = cover.src.endsWith(".svg");
           const { author } = authorshipForSlug(post.slug);
           return (
             <li
               key={post.slug}
               className="flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:border-[#cc0000]/40 hover:shadow-md [content-visibility:auto] [contain-intrinsic-size:420px]"
             >
-              <Link href={`/blog/${post.slug}`} className="block">
+              <Link href={`/blog/${post.slug}`} prefetch={false} className="block">
                 <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-200">
                   <Image
                     src={cover.src}
@@ -53,14 +52,14 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
                     className="object-cover"
                     loading="lazy"
                     quality={50}
-                    unoptimized={coverIsSvg}
+                    unoptimized={blogCoverIsUnoptimized(cover.src)}
                   />
                 </div>
               </Link>
               <div className="flex flex-1 flex-col p-5">
                 <p className="text-xs font-semibold uppercase tracking-wide text-[#cc0000]">{post.category}</p>
                 <h2 className="mt-2 text-lg font-bold text-gray-900">
-                  <Link href={`/blog/${post.slug}`} className="hover:text-[#cc0000]">
+                  <Link href={`/blog/${post.slug}`} prefetch={false} className="hover:text-[#cc0000]">
                     {post.title}
                   </Link>
                 </h2>

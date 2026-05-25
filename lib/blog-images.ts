@@ -74,3 +74,8 @@ export function allBlogCoverSlugs(): string[] {
     return [];
   }
 }
+
+/** Static JPGs in /public — serve directly (avoids /_next/image cold-start timeouts). */
+export function blogCoverIsUnoptimized(src: string): boolean {
+  return src.startsWith(`${GENERATED_PREFIX}`) && /\.(jpe?g|png|webp)$/i.test(src);
+}

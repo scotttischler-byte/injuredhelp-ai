@@ -8,7 +8,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { AuthorByline } from "@/components/blog/AuthorByline";
 import { BLOG_FOOTER_DISCLAIMER } from "@/lib/compliance";
-import { blogCoverForSlug, shouldUseGeneratedCover } from "@/lib/blog-images";
+import { blogCoverForSlug, blogCoverIsUnoptimized, shouldUseGeneratedCover } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { authorshipForSlug } from "@/lib/blog-authors";
@@ -64,7 +64,7 @@ export default async function BlogPostPage({ params }: Props) {
     ? ALL_STATES.find((s) => s.state.toLowerCase() === meta.state?.toLowerCase())
     : undefined;
   const asgLinks = asgLinksForBlog(slug, postState);
-  const coverIsSvg = cover.src.endsWith(".svg");
+  const coverDirect = blogCoverIsUnoptimized(cover.src);
 
   // Merge default FAQs from the existing system with expanded FAQs, dedup by question.
   const baseFaqs = blogFaqsForSlug(slug);
@@ -149,6 +149,7 @@ export default async function BlogPostPage({ params }: Props) {
             sizes="(max-width: 768px) 100vw, 672px"
             priority
             quality={70}
+            unoptimized={coverDirect}
           />
         </div>
 

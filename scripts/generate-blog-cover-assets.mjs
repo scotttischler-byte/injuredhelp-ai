@@ -162,7 +162,7 @@ async function renderCover(slug) {
 
   return sharp(photo)
     .composite([{ input: overlaySvg(slug, buf), blend: "over" }])
-    .jpeg({ quality: 88, mozjpeg: true })
+    .jpeg({ quality: 78, mozjpeg: true })
     .toFile(path.join(OUT_DIR, `${slug}.jpg`));
 }
 
