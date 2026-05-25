@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Serious injury crash in Corpus Christi, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/car-accident-scene-3.png"
+coverImage: "/blog/covers/generated/catastrophic-injury-car-crash-in-corpus-christi-texas-2026.jpg"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

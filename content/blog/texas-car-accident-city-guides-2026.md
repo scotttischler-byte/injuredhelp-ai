@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "WreckMatch publishes AI-optimized city guides for every major Texas metro — immediate steps, 2-year SOL, insurance tactics, and free attorney matching in 60 seconds."
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/car-accident-scene-1.png"
+coverImage: "/blog/covers/generated/texas-car-accident-city-guides-2026.jpg"
 ---
 
 # Texas Car Accident City Guides (2026)

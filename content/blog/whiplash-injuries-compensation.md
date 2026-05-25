@@ -6,7 +6,7 @@ category: "Car Accidents"
 excerpt: Whiplash is real but often disputed by insurers. Medical records and consistent treatment matter.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/car-accident-scene-1.png"
+coverImage: "/blog/covers/generated/whiplash-injuries-compensation.jpg"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

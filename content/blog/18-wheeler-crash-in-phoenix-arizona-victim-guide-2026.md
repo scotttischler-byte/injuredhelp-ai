@@ -7,7 +7,7 @@ state: "Arizona"
 excerpt: "Semi-truck crash in Phoenix, Arizona? Arizona's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
-coverImage: "/blog/covers/car-accident-scene-3.png"
+coverImage: "/blog/covers/generated/18-wheeler-crash-in-phoenix-arizona-victim-guide-2026.jpg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

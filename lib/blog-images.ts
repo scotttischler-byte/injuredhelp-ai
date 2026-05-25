@@ -1,8 +1,7 @@
 /**
- * Cover images for blog posts — real photography rotated per slug (stable hash).
- * Fallback: per-slug SVG under /blog/covers/generated/ if PNGs unavailable.
+ * Cover images for blog posts — exactly one unique asset per slug (no repeats).
  *
- * Run `npm run generate:blog-covers` after adding new markdown posts (SVG fallback).
+ * Run `npm run generate:blog-covers` after adding new markdown posts.
  */
 
 import { getAllSlugs } from "@/lib/posts";
@@ -10,17 +9,6 @@ import { getAllSlugs } from "@/lib/posts";
 export type BlogCover = { src: string; alt: string };
 
 const GENERATED_PREFIX = "/blog/covers/generated/";
-
-const ACCIDENT_PHOTOS = [
-  "/blog/covers/car-accident-scene-1.png",
-  "/blog/covers/car-accident-scene-2.png",
-  "/blog/covers/car-accident-scene-3.png",
-] as const;
-
-const ATTORNEY_PHOTOS = [
-  "/blog/covers/attorney-consultation-1.png",
-  "/blog/covers/attorney-consultation-2.png",
-] as const;
 
 const TOPIC_RULES: Array<{ test: RegExp; alt: string }> = [
   { test: /(18-wheeler|semi-truck|tractor-trailer|fmcsa|jackknife|truck-accident)/i, alt: "Truck accident legal guide" },
@@ -38,15 +26,6 @@ const TOPIC_RULES: Array<{ test: RegExp; alt: string }> = [
   { test: /(recovery|medical|treatment|hospital|physical-therapy)/i, alt: "Medical recovery after crash guide" },
 ];
 
-function hashSlug(slug: string): number {
-  return [...slug.toLowerCase()].reduce((sum, ch) => sum + ch.charCodeAt(0), 0);
-}
-
-function isAttorneyThemed(slug: string): boolean {
-  const s = slug.toLowerCase();
-  return /(lawyer|attorney|legal|insurance|adjuster|claim|denied|statute|court|settlement|worth)/i.test(s);
-}
-
 function altForSlug(slug: string): string {
   const s = (slug || "").toLowerCase();
   for (const rule of TOPIC_RULES) {
@@ -55,21 +34,19 @@ function altForSlug(slug: string): string {
   return "Car accident victim guide — WreckMatch";
 }
 
-function pretty(slug: string): string {
-  return slug.replace(/-/g, " ");
+function safeSlug(slug: string): string {
+  return (slug || "wreckmatch-blog").replace(/[^a-z0-9-]/gi, "-").toLowerCase();
 }
 
+/** Unique cover path for this slug only. */
 export function blogCoverPathForSlug(slug: string): string {
-  const safe = (slug || "wreckmatch-blog").replace(/[^a-z0-9-]/gi, "-").toLowerCase();
-  return `${GENERATED_PREFIX}${safe}.svg`;
+  return `${GENERATED_PREFIX}${safeSlug(slug)}.jpg`;
 }
 
-/** Prefer real photography; stable per slug via hash. */
 export function blogCoverForSlug(slug: string, _vertical?: string): BlogCover {
-  const pool = isAttorneyThemed(slug) ? ATTORNEY_PHOTOS : ACCIDENT_PHOTOS;
   return {
-    src: pool[hashSlug(slug) % pool.length],
-    alt: altForSlug(slug) || `Editorial cover for ${pretty(slug)}`,
+    src: blogCoverPathForSlug(slug),
+    alt: altForSlug(slug),
   };
 }
 
@@ -82,14 +59,14 @@ export function blogCoverFromTopic(topic: {
   return blogCoverForSlug(slug, topic.vertical);
 }
 
-/** True when frontmatter points at old generic/topic SVGs — use blogCoverForSlug instead. */
-export function isLegacyOrGeneratedSvgCover(src: string | undefined): boolean {
+/** True unless frontmatter already points at this slug's unique generated JPG. */
+export function shouldUseGeneratedCover(slug: string, src: string | undefined): boolean {
   if (!src) return true;
-  if (/^\/blog\/covers\/generated\//i.test(src)) return true;
-  return /^\/blog\/covers\/[a-z0-9-]+\.svg$/i.test(src);
+  const expected = blogCoverPathForSlug(slug);
+  if (src === expected) return false;
+  return true;
 }
 
-/** Slugs that should have a generated SVG asset (OG fallback / optional). */
 export function allBlogCoverSlugs(): string[] {
   try {
     return getAllSlugs();

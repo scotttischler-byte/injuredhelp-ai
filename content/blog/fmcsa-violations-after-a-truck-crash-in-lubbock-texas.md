@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Semi-truck crash in Lubbock, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/car-accident-scene-3.png"
+coverImage: "/blog/covers/generated/fmcsa-violations-after-a-truck-crash-in-lubbock-texas.jpg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

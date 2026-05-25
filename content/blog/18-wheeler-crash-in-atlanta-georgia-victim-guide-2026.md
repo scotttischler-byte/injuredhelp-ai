@@ -7,7 +7,7 @@ state: "Georgia"
 excerpt: "Semi-truck crash in Atlanta, Georgia? Georgia's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
-coverImage: "/blog/covers/car-accident-scene-1.png"
+coverImage: "/blog/covers/generated/18-wheeler-crash-in-atlanta-georgia-victim-guide-2026.jpg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

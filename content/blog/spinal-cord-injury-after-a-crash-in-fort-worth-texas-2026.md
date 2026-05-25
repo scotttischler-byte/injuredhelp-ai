@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Serious injury crash in Fort Worth, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/attorney-consultation-2.png"
+coverImage: "/blog/covers/generated/spinal-cord-injury-after-a-crash-in-fort-worth-texas-2026.jpg"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

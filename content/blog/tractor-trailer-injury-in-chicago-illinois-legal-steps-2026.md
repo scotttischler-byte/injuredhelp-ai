@@ -7,7 +7,7 @@ state: "Illinois"
 excerpt: "Semi-truck crash in Chicago, Illinois? Illinois's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/attorney-consultation-2.png"
+coverImage: "/blog/covers/generated/tractor-trailer-injury-in-chicago-illinois-legal-steps-2026.jpg"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

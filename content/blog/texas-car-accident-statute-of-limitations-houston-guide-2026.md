@@ -9,7 +9,7 @@ autopilot: true
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/attorney-consultation-1.png"
+coverImage: "/blog/covers/generated/texas-car-accident-statute-of-limitations-houston-guide-2026.jpg"
 ---
 
 # Texas Car Accident Statute of Limitations — Houston Guide (2026)

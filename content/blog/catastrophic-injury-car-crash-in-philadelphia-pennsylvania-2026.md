@@ -7,7 +7,7 @@ state: "Pennsylvania"
 excerpt: "Serious injury crash in Philadelphia, Pennsylvania? Pennsylvania's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/car-accident-scene-3.png"
+coverImage: "/blog/covers/generated/catastrophic-injury-car-crash-in-philadelphia-pennsylvania-2026.jpg"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

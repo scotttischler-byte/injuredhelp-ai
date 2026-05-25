@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/car-accident-scene-3.png"
+coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-san-antonio-texas-2026.jpg"
 ---
 
 # 7 Costly Car Accident Mistakes in San Antonio, Texas (2026)

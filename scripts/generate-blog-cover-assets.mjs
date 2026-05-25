@@ -1,66 +1,127 @@
 #!/usr/bin/env node
 /**
- * Generate unique local SVG cover art for every blog slug (no remote images).
- * Output: public/blog/covers/generated/{slug}.svg
+ * One unique cover image per blog slug — no repeats across posts.
+ * Composites WreckMatch photography with per-slug crop, grade, and city/topic overlay.
+ * Output: public/blog/covers/generated/{slug}.jpg
  */
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import sharp from "sharp";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const BLOG_DIR = path.join(ROOT, "content/blog");
 const OUT_DIR = path.join(ROOT, "public/blog/covers/generated");
+const BASE_DIR = path.join(ROOT, "public/blog/covers");
+
+const BASE_PHOTOS = [
+  "car-accident-scene-1.png",
+  "car-accident-scene-2.png",
+  "car-accident-scene-3.png",
+  "attorney-consultation-1.png",
+  "attorney-consultation-2.png",
+];
+
+const STATE_SLUGS =
+  "texas|florida|california|ohio|georgia|illinois|pennsylvania|north-carolina|tennessee|arizona|nevada|colorado|michigan|new-york|new-jersey|massachusetts|virginia|washington|oregon|minnesota|wisconsin|indiana|missouri|alabama|louisiana|kentucky|oklahoma|connecticut|utah|iowa|arkansas|mississippi|kansas|nebraska|idaho|hawaii|maine|new-hampshire|rhode-island|montana|delaware|south-carolina|south-dakota|north-dakota|west-virginia|alaska|vermont|wyoming|district-of-columbia";
 
 const TOPIC_RULES = [
   { test: /(18-wheeler|semi-truck|tractor-trailer|fmcsa|jackknife|truck-accident)/i, label: "Truck accident guide" },
   { test: /(wrongful-death|fatal|family-guide)/i, label: "Wrongful death guide" },
-  { test: /(spinal|paralysis|paraplegic|quadriplegic|herniated)/i, label: "Spinal injury guide" },
+  { test: /(spinal|paralysis|herniated)/i, label: "Spinal injury guide" },
   { test: /(traumatic-brain|brain-injury|tbi|concussion|head-injury)/i, label: "Brain injury guide" },
-  { test: /(whiplash|neck-injury|back-injury|soft-tissue)/i, label: "Whiplash & soft tissue" },
+  { test: /(whiplash|neck-injury|back-injury|soft-tissue)/i, label: "Whiplash guide" },
   { test: /(catastrophic|severe-injury|critical-injury)/i, label: "Severe injury guide" },
   { test: /(rideshare|uber|lyft)/i, label: "Rideshare accident guide" },
   { test: /(motorcycle|motorbike|biker)/i, label: "Motorcycle crash guide" },
   { test: /(pedestrian|crosswalk|hit-by-car)/i, label: "Pedestrian accident guide" },
   { test: /(insurance|adjuster|claim|denied|recorded-statement)/i, label: "Insurance claim guide" },
-  { test: /(statute-of-limitations|deadline|time-limit|filing-window)/i, label: "Legal deadlines guide" },
-  { test: /(what-to-do|first-steps|after-a-crash|after-a-car|on-scene)/i, label: "After a crash — first steps" },
-  { test: /(recovery|medical|treatment|hospital|physical-therapy)/i, label: "Medical recovery guide" },
+  { test: /(statute-of-limitations|deadline|time-limit|filing-window)/i, label: "Legal deadlines" },
+  { test: /(what-to-do|first-steps|after-a-crash|after-a-car|on-scene)/i, label: "After a crash" },
 ];
+
+const POSITIONS = [
+  "north",
+  "south",
+  "east",
+  "west",
+  "center",
+  "northeast",
+  "northwest",
+  "southeast",
+  "southwest",
+  "entropy",
+  "attention",
+];
+
+function digest(slug) {
+  return crypto.createHash("sha256").update(slug).digest();
+}
+
+function pick(buf, offset, mod) {
+  return buf[offset % buf.length] % mod;
+}
 
 function topicLabel(slug) {
   for (const rule of TOPIC_RULES) {
     if (rule.test.test(slug)) return rule.label;
   }
-  return "Car accident victim guide";
+  return "Car accident guide";
 }
 
-function hue(slug) {
-  const n = parseInt(crypto.createHash("md5").update(slug).digest("hex").slice(0, 6), 16);
-  return n % 360;
+function slugCityState(slug) {
+  const re = new RegExp(`-in-([a-z0-9-]+)-(${STATE_SLUGS})(?:-|$)`, "i");
+  const m = slug.match(re);
+  if (!m) return { city: "", state: "" };
+  const city = m[1].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  const state = m[2]
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase())
+    .replace("North Carolina", "North Carolina")
+    .replace("New York", "New York")
+    .replace("New Jersey", "New Jersey")
+    .replace("South Carolina", "South Carolina");
+  return { city, state };
+}
+
+function headlineForSlug(slug) {
+  const { city, state } = slugCityState(slug);
+  if (city && state) return `${city}, ${state}`;
+  if (city) return city;
+  const label = topicLabel(slug);
+  return label.length > 42 ? `${label.slice(0, 39)}…` : label;
+}
+
+function sublineForSlug(slug) {
+  return topicLabel(slug);
 }
 
 function escapeXml(s) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
-function svgForSlug(slug, label) {
-  const h1 = hue(slug);
-  const h2 = (h1 + 42) % 360;
-  const title = escapeXml(label);
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="${title}">
+function overlaySvg(slug, buf) {
+  const headline = escapeXml(headlineForSlug(slug));
+  const sub = escapeXml(sublineForSlug(slug));
+  const accentHue = pick(buf, 4, 360);
+  const variant = pick(buf, 8, 4);
+  const barW = variant === 0 ? 720 : variant === 1 ? 900 : variant === 2 ? 640 : 800;
+  return Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="hsl(${h1},42%,32%)"/>
-      <stop offset="100%" stop-color="hsl(${h2},48%,16%)"/>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="55%" stop-color="rgba(0,0,0,0.15)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.82)"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <text x="56" y="88" fill="#fecaca" font-family="system-ui,sans-serif" font-size="22" font-weight="700" letter-spacing="0.08em">WRECKMATCH</text>
-  <text x="56" y="300" fill="#ffffff" font-family="system-ui,sans-serif" font-size="40" font-weight="800">${title}</text>
-  <text x="56" y="360" fill="#d1fae5" font-family="system-ui,sans-serif" font-size="20">Educational guide — not legal advice</text>
-</svg>
-`;
+  <rect width="1200" height="630" fill="url(#shade)"/>
+  <rect x="48" y="420" width="${barW}" height="6" fill="hsl(${accentHue},70%,52%)" rx="3"/>
+  <text x="56" y="88" fill="#fecaca" font-family="system-ui,sans-serif" font-size="20" font-weight="700" letter-spacing="0.12em">WRECKMATCH</text>
+  <text x="56" y="500" fill="#ffffff" font-family="system-ui,sans-serif" font-size="52" font-weight="800">${headline}</text>
+  <text x="56" y="552" fill="#d1fae5" font-family="system-ui,sans-serif" font-size="22" font-weight="600">${sub}</text>
+  <text x="56" y="590" fill="#9ca3af" font-family="system-ui,sans-serif" font-size="16">Educational guide — not legal advice</text>
+</svg>`);
 }
 
 function slugsFromBlogDir() {
@@ -72,12 +133,58 @@ function slugsFromBlogDir() {
     .sort();
 }
 
+async function renderCover(slug) {
+  const buf = digest(slug);
+  const baseFile = BASE_PHOTOS[pick(buf, 0, BASE_PHOTOS.length)];
+  const basePath = path.join(BASE_DIR, baseFile);
+  if (!fs.existsSync(basePath)) {
+    throw new Error(`Missing base photo: ${basePath}`);
+  }
+
+  const position = POSITIONS[pick(buf, 12, POSITIONS.length)];
+  const brightness = 0.82 + pick(buf, 16, 28) / 100;
+  const saturation = 0.9 + pick(buf, 20, 25) / 100;
+  const hue = pick(buf, 24, 41) - 20;
+
+  const meta = await sharp(basePath).metadata();
+  const w = meta.width ?? 1600;
+  const h = meta.height ?? 900;
+  const cropW = Math.max(900, Math.floor(w * (0.55 + pick(buf, 28, 35) / 100)));
+  const cropH = Math.max(500, Math.floor(h * (0.55 + pick(buf, 32, 35) / 100)));
+  const left = Math.min(w - cropW, Math.floor((pick(buf, 36, 100) / 100) * (w - cropW)));
+  const top = Math.min(h - cropH, Math.floor((pick(buf, 40, 100) / 100) * (h - cropH)));
+
+  const photo = await sharp(basePath)
+    .extract({ left, top, width: cropW, height: cropH })
+    .resize(1200, 630, { fit: "cover", position })
+    .modulate({ brightness, saturation, hue })
+    .toBuffer();
+
+  return sharp(photo)
+    .composite([{ input: overlaySvg(slug, buf), blend: "over" }])
+    .jpeg({ quality: 88, mozjpeg: true })
+    .toFile(path.join(OUT_DIR, `${slug}.jpg`));
+}
+
 fs.mkdirSync(OUT_DIR, { recursive: true });
 const slugs = slugsFromBlogDir();
+
+// Remove old shared SVG covers from generated dir (optional cleanup)
+for (const f of fs.readdirSync(OUT_DIR)) {
+  if (f.endsWith(".svg")) fs.unlinkSync(path.join(OUT_DIR, f));
+}
+
 let written = 0;
 for (const slug of slugs) {
-  const out = path.join(OUT_DIR, `${slug}.svg`);
-  fs.writeFileSync(out, svgForSlug(slug, topicLabel(slug)), "utf8");
+  await renderCover(slug);
   written++;
+  if (written % 25 === 0) console.log(`  ${written}/${slugs.length}…`);
 }
-console.log(`Wrote ${written} covers to ${OUT_DIR}`);
+console.log(`Wrote ${written} unique JPG covers to ${OUT_DIR}`);
+
+const paths = slugs.map((s) => `/blog/covers/generated/${s}.jpg`);
+const uniq = new Set(paths);
+if (uniq.size !== paths.length) {
+  console.error("ERROR: duplicate cover paths detected");
+  process.exit(1);
+}

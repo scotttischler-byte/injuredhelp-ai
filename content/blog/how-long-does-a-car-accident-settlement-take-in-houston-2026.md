@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/attorney-consultation-1.png"
+coverImage: "/blog/covers/generated/how-long-does-a-car-accident-settlement-take-in-houston-2026.jpg"
 ---
 
 # How Long Does a Car Accident Settlement Take in Houston? (2026)

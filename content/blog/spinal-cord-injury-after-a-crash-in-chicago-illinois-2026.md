@@ -7,7 +7,7 @@ state: "Illinois"
 excerpt: "Serious injury crash in Chicago, Illinois? Illinois's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/car-accident-scene-1.png"
+coverImage: "/blog/covers/generated/spinal-cord-injury-after-a-crash-in-chicago-illinois-2026.jpg"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

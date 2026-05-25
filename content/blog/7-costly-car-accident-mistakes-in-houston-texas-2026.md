@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/car-accident-scene-2.png"
+coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-houston-texas-2026.jpg"
 ---
 
 # 7 Costly Car Accident Mistakes in Houston, Texas (2026)

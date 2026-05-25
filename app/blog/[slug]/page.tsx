@@ -8,7 +8,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { AuthorByline } from "@/components/blog/AuthorByline";
 import { BLOG_FOOTER_DISCLAIMER } from "@/lib/compliance";
-import { blogCoverForSlug, isLegacyOrGeneratedSvgCover } from "@/lib/blog-images";
+import { blogCoverForSlug, shouldUseGeneratedCover } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { authorshipForSlug } from "@/lib/blog-authors";
@@ -51,10 +51,9 @@ export default async function BlogPostPage({ params }: Props) {
   const origin = serverSiteOrigin();
 
   const { meta, content } = post;
-  const cover =
-    meta.coverImage && !isLegacyOrGeneratedSvgCover(meta.coverImage)
-      ? { src: meta.coverImage, alt: meta.coverAlt ?? meta.title }
-      : blogCoverForSlug(slug, undefined);
+  const cover = shouldUseGeneratedCover(slug, meta.coverImage)
+    ? blogCoverForSlug(slug, undefined)
+    : { src: meta.coverImage!, alt: meta.coverAlt ?? meta.title };
 
   // Strip the leading raw markdown image (we render our own hero cover above the article).
   const cleanContent = content.replace(/^\s*!\[[^\]]*\]\([^)]+\)\s*\n+/, "");
