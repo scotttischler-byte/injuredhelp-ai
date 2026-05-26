@@ -36,7 +36,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from blog_quality import score_post  # noqa: E402
+from blog_quality import QualityReport, score_post  # noqa: E402
 
 BLOG_DIR = ROOT / "content/blog"
 SYNDICATION_DIR = ROOT / "content/syndication"
@@ -256,8 +256,10 @@ def build_topic_pool(limit: int = 0) -> list[dict[str, Any]]:
     for city, state, place in all_cities:
         for angle_slug, title_tpl in INJURY_ANGLES:
             add(city, state, place, angle_slug, title_tpl)
-        for angle_slug, title_tpl in STANDARD_ANGLES:
-            add(city, state, place, angle_slug, title_tpl)
+        # Standard city templates only in core firm states — quality over volume
+        if state in FIRM_STATES:
+            for angle_slug, title_tpl in STANDARD_ANGLES:
+                add(city, state, place, angle_slug, title_tpl)
 
     nationals = [
         "Semi Truck Accident Victim Guide — Nationwide (2026)",
@@ -840,19 +842,57 @@ def inject_cover_markdown(topic: dict[str, Any], body: str) -> str:
     return body
 
 
-def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
+def min_publish_score() -> int:
+    return int(os.getenv("TRAFFIC_MACHINE_MIN_SCORE", "95"))
+
+
+def min_publish_words() -> int:
+    return int(os.getenv("TRAFFIC_MACHINE_MIN_WORDS", "900"))
+
+
+def meets_publish_bar(report: QualityReport, min_score: int, min_words: int) -> bool:
+    if "broken_frontmatter" in report.issues:
+        return False
+    return report.score >= min_score and report.word_count >= min_words
+
+
+def publish_post(
+    topic: dict[str, Any],
+    body: str,
+    dry_run: bool,
+    *,
+    min_score: int,
+    min_words: int,
+    use_ai: bool,
+    claude_first: bool,
+) -> str | None:
     slug = topic.get("slug") or slugify(topic["title"])
     if not body.startswith("---"):
         body = template_post(topic)
     report = score_post(slug, body)
-    if report.score < 95:
-        log(f"Quality {report.score} ({report.issues}) — using premium template")
+
+    if not meets_publish_bar(report, min_score, min_words):
+        log(f"Quality {report.score} / {report.word_count}w ({report.issues}) — premium template")
         body = template_post(topic)
         report = score_post(slug, body)
-        if report.score < 85 and use_ai_retry():
-            body2 = generate_ai_post(topic, True)
-            if body2 and score_post(slug, body2).score >= report.score:
+
+    if not meets_publish_bar(report, min_score, min_words) and use_ai and use_ai_retry():
+        for attempt in range(2):
+            body2 = generate_ai_post(topic, claude_first)
+            if not body2:
+                continue
+            r2 = score_post(slug, body2)
+            log(f"AI attempt {attempt + 1}: {r2.score} / {r2.word_count}w ({r2.issues})")
+            if r2.score > report.score or (meets_publish_bar(r2, min_score, min_words) and not meets_publish_bar(report, min_score, min_words)):
                 body = body2
+                report = r2
+            if meets_publish_bar(report, min_score, min_words):
+                break
+
+    if not meets_publish_bar(report, min_score, min_words):
+        log(f"SKIP {slug}: below bar (need ≥{min_score} score, ≥{min_words} words) — {report.score}/{report.word_count}w")
+        return None
+
     body = append_seo_footer(topic, body)
 
     path = BLOG_DIR / f"{slug}.md"
@@ -870,12 +910,25 @@ def publish_post(topic: dict[str, Any], body: str, dry_run: bool) -> str | None:
     return slug
 
 
+def pop_next_topic(pending: list[dict[str, Any]]) -> dict[str, Any] | None:
+    """Prefer truck/severe angles (priority 0–1) over generic city templates."""
+    if not pending:
+        return None
+    for i, t in enumerate(pending):
+        if t.get("priority", 9) <= 1:
+            return pending.pop(i)
+    return pending.pop(0)
+
+
 def run_once(
     q: dict[str, Any],
     use_ai: bool,
     claude_first: bool,
     syndicate: bool,
     dry_run: bool,
+    *,
+    min_score: int,
+    min_words: int,
 ) -> str | None:
     pending = q.get("pending", [])
     if len(pending) < 5:
@@ -885,26 +938,43 @@ def run_once(
     if not pending:
         return None
 
-    topic = pending[0]
     if not use_ai and os.getenv("ANTHROPIC_API_KEY", "").strip():
         use_ai = True
         claude_first = True
-    body = generate_ai_post(topic, claude_first) if use_ai else template_post(topic)
-    slug = publish_post(topic, body, dry_run)
-    if not slug:
-        return None
 
-    if syndicate and not dry_run:
-        write_syndication(slug, topic, body, claude_first)
+    skipped = q.setdefault("skipped_slugs", [])
+    for _ in range(min(5, len(pending))):
+        topic = pop_next_topic(pending)
+        if not topic:
+            break
+        body = generate_ai_post(topic, claude_first) if use_ai else template_post(topic)
+        slug = publish_post(
+            topic,
+            body,
+            dry_run,
+            min_score=min_score,
+            min_words=min_words,
+            use_ai=use_ai,
+            claude_first=claude_first,
+        )
+        if not slug:
+            skipped.append(topic.get("slug") or slugify(topic["title"]))
+            q["pending"] = pending
+            save_queue(q)
+            continue
 
-    if not dry_run:
-        pending.pop(0)
-        q["pending"] = pending
-        q.setdefault("completed_slugs", []).append(slug)
-        q["stats"]["total_published"] = q["stats"].get("total_published", 0) + 1
-        save_queue(q)
+        if syndicate and not dry_run:
+            write_syndication(slug, topic, body, claude_first)
 
-    return slug
+        if not dry_run:
+            q["pending"] = pending
+            q.setdefault("completed_slugs", []).append(slug)
+            q["stats"]["total_published"] = q["stats"].get("total_published", 0) + 1
+            save_queue(q)
+
+        return slug
+
+    return None
 
 
 def main() -> int:
@@ -921,7 +991,9 @@ def main() -> int:
         help="Syndicate every post in the batch (slow). Default: last post only.",
     )
     p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--delay", type=float, default=1.0)
+    p.add_argument("--delay", type=float, default=4.0, help="Seconds between posts in a batch")
+    p.add_argument("--min-score", type=int, default=0, help="Min quality score to publish (default: env or 95)")
+    p.add_argument("--min-words", type=int, default=0, help="Min word count to publish (default: env or 900)")
     args = p.parse_args()
 
     q = load_queue()
@@ -943,17 +1015,29 @@ def main() -> int:
     claude_first = args.claude_first or bool(os.getenv("ANTHROPIC_API_KEY", "").strip())
     syndicate = args.syndicate or os.getenv("TRAFFIC_MACHINE_SYNDICATE", "1") == "1"
 
+    min_score = args.min_score or min_publish_score()
+    min_words = args.min_words or min_publish_words()
+    log(f"Quality bar: score ≥{min_score}, words ≥{min_words}")
+
     slugs: list[str] = []
     for i in range(args.batch):
         do_syndicate = syndicate and (args.syndicate_all or i == args.batch - 1)
-        slug = run_once(q, use_ai, claude_first, do_syndicate, args.dry_run)
+        slug = run_once(
+            q,
+            use_ai,
+            claude_first,
+            do_syndicate,
+            args.dry_run,
+            min_score=min_score,
+            min_words=min_words,
+        )
         if slug:
             slugs.append(slug)
         if i < args.batch - 1:
             time.sleep(args.delay)
         q = load_queue()
 
-    log(f"Done: {len(slugs)}/{args.batch} — {slugs}")
+    log(f"Done: {len(slugs)}/{args.batch} published (gold bar ≥{min_score}) — {slugs}")
     return 0 if slugs else 1
 
 
