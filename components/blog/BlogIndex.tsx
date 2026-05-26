@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BlogCardByline } from "@/components/blog/BlogCardByline";
 import { BlogCoverImage } from "@/components/blog/BlogCoverImage";
-import { blogCoverForSlug, shouldUseGeneratedCover } from "@/lib/blog-images";
+import { blogCoverForSlug } from "@/lib/blog-images";
 import { authorshipForSlug } from "@/lib/blog-authors";
 import { blogPagePath, totalBlogPages } from "@/lib/blog-pagination";
 import { WRECKMATCH_PHONE_DISPLAY } from "@/lib/phones";
@@ -63,17 +63,16 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
         </div>
 
         <ul className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post) => {
-            const cover = shouldUseGeneratedCover(post.slug, post.coverImage)
-              ? blogCoverForSlug(post.slug)
-              : { src: post.coverImage!, alt: post.coverAlt ?? post.title };
+          {posts.map((post, index) => {
+            const cover = blogCoverForSlug(post.slug);
             const { author } = authorshipForSlug(post.slug);
+            const eager = index < 6;
             return (
               <li key={post.slug}>
-                <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200/90 bg-white shadow-sm ring-1 ring-black/[0.03] transition duration-200 hover:-translate-y-0.5 hover:border-[#cc0000]/25 hover:shadow-lg [content-visibility:auto] [contain-intrinsic-size:440px]">
+                <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200/90 bg-white shadow-sm ring-1 ring-black/[0.03] transition duration-200 hover:-translate-y-0.5 hover:border-[#cc0000]/25 hover:shadow-lg">
                   <Link href={`/blog/${post.slug}`} prefetch={false} className="block">
-                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-200">
-                      <BlogCoverImage src={cover.src} alt={cover.alt} />
+                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-300">
+                      <BlogCoverImage src={cover.src} alt={cover.alt} priority={eager} />
                       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80" />
                       <span className="absolute bottom-3 left-3 rounded-full bg-white/95 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-[#cc0000] shadow-sm">
                         {post.category}
