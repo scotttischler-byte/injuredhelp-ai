@@ -43,7 +43,10 @@ function readAllPosts(): PostMeta[] {
     return {
       title: String(data.title ?? slug),
       description: String(data.description ?? excerpt),
-      date: String(data.date ?? new Date().toISOString().slice(0, 10)),
+      date:
+        data.date instanceof Date
+          ? data.date.toISOString().slice(0, 10)
+          : String(data.date ?? new Date().toISOString().slice(0, 10)),
       state: data.state ? String(data.state) : undefined,
       category: String(data.category ?? "Resources"),
       slug,
@@ -72,7 +75,10 @@ export function getPostBySlug(slug: string): { meta: PostMeta; content: string }
       const meta: PostMeta = {
         title: String(data.title ?? slug),
         description: String(data.description ?? excerpt),
-        date: String(data.date ?? new Date().toISOString().slice(0, 10)),
+        date:
+        data.date instanceof Date
+          ? data.date.toISOString().slice(0, 10)
+          : String(data.date ?? new Date().toISOString().slice(0, 10)),
         state: data.state ? String(data.state) : undefined,
         category: String(data.category ?? "Resources"),
         slug,
