@@ -7,7 +7,7 @@ import { paginatePosts, totalBlogPages } from "@/lib/blog-pagination";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 type Props = { params: Promise<{ page: string }> };
 

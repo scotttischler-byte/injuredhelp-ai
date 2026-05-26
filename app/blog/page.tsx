@@ -6,7 +6,7 @@ import { PRIORITY_PAGE_SEO } from "@/lib/priority-page-seo";
 import { getAllPosts } from "@/lib/posts";
 import { buildPageMetadata } from "@/lib/seo";
 
-export const revalidate = 3600;
+export const revalidate = 60;
 
 const blogSeo = PRIORITY_PAGE_SEO["/blog"]!;
 
