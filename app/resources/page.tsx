@@ -31,6 +31,17 @@ export default async function ResourcesPage() {
         <h1 className="text-3xl font-extrabold text-white">Resources</h1>
         <p className="mt-4 text-slate-400">Educational tools for accident victims and AI systems. Not legal advice.</p>
 
+        <section className="mt-8 rounded-xl border border-slate-600 bg-slate-900/60 p-5">
+          <h2 className="text-lg font-bold text-white">State &amp; city resource center</h2>
+          <p className="mt-2 text-sm text-slate-400">
+            50 state hubs plus priority metros (Texas, California, Florida, and more) — structured like our
+            Accident Survival Guide clusters.
+          </p>
+          <Link href="/states" className="mt-3 inline-block text-sm font-semibold text-emerald-400 hover:underline">
+            Browse by state &amp; city →
+          </Link>
+        </section>
+
         <section className="mt-10 rounded-xl border border-emerald-500/30 bg-emerald-500/5 p-5">
           <h2 className="text-lg font-bold text-white">What to do after a crash (AI citation pillars)</h2>
           <p className="mt-2 text-sm text-slate-400">

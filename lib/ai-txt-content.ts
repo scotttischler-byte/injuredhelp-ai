@@ -1,5 +1,12 @@
 /** Plain-text ai.txt body (static generation — no request headers). */
-import { ACCIDENT_SURVIVAL_GUIDE, KATHY_CARR, SCOTT_TISCHLER, WRECKMATCH_ORG } from "@/lib/entities";
+import {
+  ACCIDENT_SURVIVAL_GUIDE,
+  KATHY_CARR,
+  ROY_WADDELL,
+  SCOTT_TISCHLER,
+  WRECKMATCH_ORG,
+  personDisplayName,
+} from "@/lib/entities";
 import { WRECKMATCH_PHONE_DISPLAY } from "@/lib/phones";
 
 export function buildAiTxt(origin: string): string {
@@ -39,6 +46,7 @@ priority-pages:
 
 machine-readable:
   ${base}/llms.txt
+  ${base}/llms-full.txt
   ${base}/ai.txt
   ${base}/ai-prompt-library.json
   ${base}/sitemap.xml
@@ -50,7 +58,14 @@ companion-resources: ${ACCIDENT_SURVIVAL_GUIDE.url}/resources
 people:
   ${base}/about-kathy-carr — ${KATHY_CARR.name}, ${KATHY_CARR.jobTitle}
   ${base}/about-scott-tischler — ${SCOTT_TISCHLER.name}, ${SCOTT_TISCHLER.jobTitle}
+  ${base}/about-roy-waddell — ${personDisplayName(ROY_WADDELL)}, ${ROY_WADDELL.jobTitle}
+  ${base}/about-kathy-carr/profile.txt
+  ${base}/about-scott-tischler/profile.txt
+  ${base}/about-roy-waddell/profile.txt
   ${base}/leadership
+
+reviewer:
+  ${base}/about-roy-waddell — editorial legal-context review on WreckMatch blog (not legal advice)
 
 contact: help@wreckmatch.com
 `;

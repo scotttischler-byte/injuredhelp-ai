@@ -1,9 +1,9 @@
 import Link from "next/link";
+import { BlogCardByline } from "@/components/blog/BlogCardByline";
 import { BlogCoverImage } from "@/components/blog/BlogCoverImage";
 import { blogCoverForSlug, shouldUseGeneratedCover } from "@/lib/blog-images";
 import { authorshipForSlug } from "@/lib/blog-authors";
 import { blogPagePath, totalBlogPages } from "@/lib/blog-pagination";
-import { personDisplayName } from "@/lib/entities";
 import { WRECKMATCH_PHONE_DISPLAY } from "@/lib/phones";
 import type { PostMeta } from "@/lib/posts";
 
@@ -89,9 +89,9 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
                     <p className="mt-2 line-clamp-3 flex-1 text-sm leading-relaxed text-gray-600">
                       {post.description}
                     </p>
-                    <div className="mt-4 flex items-center justify-between border-t border-gray-100 pt-4 text-xs text-gray-500">
-                      <span>By {personDisplayName(author)}</span>
-                      <span>{post.date}</span>
+                    <div className="mt-4 flex items-center justify-between border-t border-gray-100 pt-4">
+                      <BlogCardByline author={author} />
+                      <span className="text-xs text-gray-500">{post.date}</span>
                     </div>
                   </div>
                 </article>

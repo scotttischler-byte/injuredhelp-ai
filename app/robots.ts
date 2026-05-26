@@ -34,7 +34,10 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
         allow: [
           "/",
           "/llms.txt",
+          "/llms-full.txt",
+          "/about-",
           "/ai.txt",
+          "/states",
           "/blog/",
           "/car-accident-help",
           "/car-accident-help-",

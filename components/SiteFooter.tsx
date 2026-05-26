@@ -38,6 +38,10 @@ export function SiteFooter() {
             Resources
           </Link>
           <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
+          <Link href="/states" className="underline-offset-4 hover:text-white hover:underline">
+            States &amp; cities
+          </Link>
+          <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
           <Link href="/ai-accident-help" className="underline-offset-4 hover:text-white hover:underline">
             AI help hub
           </Link>

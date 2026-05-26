@@ -24,6 +24,9 @@ const SEO_STATIC = [
   "/about-accident-survival-guide",
   "/about-scott-tischler",
   "/about-kathy-carr",
+  "/about-roy-waddell",
+  "/leadership",
+  "/states",
   ...CITATION_ASSETS.map((a) => a.path),
   ...WHAT_TO_DO_PATHS,
 ];
