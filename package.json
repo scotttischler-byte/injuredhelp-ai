@@ -12,6 +12,7 @@
     "gate:blog": "python3 scripts/blog_quality_gate.py --min-score 95",
     "upgrade:blog-claude": "python3 scripts/upgrade_blogs_claude.py --limit 15 --min-score 95",
     "upgrade:blog-all": "python3 scripts/upgrade_blogs_claude.py --all --min-score 95 --sleep 3",
+    "materialize:blog": "npx tsx scripts/materialize-blog-expansion.ts",
     "generate:blog-covers": "node scripts/generate-blog-cover-assets.mjs",
     "generate:blog-covers:all": "node scripts/generate-blog-cover-assets.mjs --force",
     "build:cover-photo-pool": "node scripts/build-cover-photo-pool.mjs",

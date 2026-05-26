@@ -1,0 +1,43 @@
+# One-shot: materialize 2,000+ word blog bodies + Scott/Kathy authors for all posts
+name: Bulk blog materialize
+
+on:
+  workflow_dispatch:
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: npm ci
+
+      - name: Materialize expansions into markdown
+        run: npm run materialize:blog
+
+      - name: Fix frontmatter, covers, compliance
+        run: python3 scripts/fix_blog_posts.py
+
+      - name: Quality audit
+        run: python3 scripts/blog_quality_gate.py --min-score 95
+
+      - name: Commit and push
+        run: |
+          git config user.name "wreckmatch-traffic-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/blog/*.md app/blog/
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "content(blog): materialize 2000+ word guides with Scott/Kathy authorship"
+          git push

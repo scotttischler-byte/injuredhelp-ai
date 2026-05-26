@@ -57,17 +57,31 @@ export default async function BlogPostPage({ params }: Props) {
   const cleanContent = content.replace(/^\s*!\[[^\]]*\]\([^)]+\)\s*\n+/, "");
 
   const { author, reviewer } = authorshipForSlug(slug);
-  const expanded = expandPostContent(slug, meta);
+  const sourceWordCount = cleanContent
+    .replace(/```[\s\S]*?```/g, "")
+    .replace(/\[([^\]]*)\]\([^)]+\)/g, "$1")
+    .replace(/[#*|_>`\-]/g, " ")
+    .split(/\s+/)
+    .filter(Boolean).length;
+  const materialized =
+    cleanContent.includes("<!-- wm-materialized-expansion -->") || sourceWordCount >= 2000;
+  const expanded = materialized
+    ? { sections: [], faqs: [], introCallout: undefined }
+    : expandPostContent(slug, meta);
   const postState = meta.state
     ? ALL_STATES.find((s) => s.state.toLowerCase() === meta.state?.toLowerCase())
     : undefined;
   const asgLinks = asgLinksForBlog(slug, postState);
   // Merge default FAQs from the existing system with expanded FAQs, dedup by question.
   const baseFaqs = blogFaqsForSlug(slug);
-  const allFaqs = [...expanded.faqs];
-  for (const f of baseFaqs) {
-    if (!allFaqs.some((x) => x.question.toLowerCase() === f.question.toLowerCase())) {
-      allFaqs.push({ question: f.question, answer: f.answer });
+  const allFaqs = materialized
+    ? baseFaqs.map((f) => ({ question: f.question, answer: f.answer }))
+    : [...expanded.faqs];
+  if (!materialized) {
+    for (const f of baseFaqs) {
+      if (!allFaqs.some((x) => x.question.toLowerCase() === f.question.toLowerCase())) {
+        allFaqs.push({ question: f.question, answer: f.answer });
+      }
     }
   }
 

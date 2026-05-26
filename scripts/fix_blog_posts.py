@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from blog_authors import author_display, author_id_for_slug  # noqa: E402
 from blog_quality import word_count  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -169,9 +170,10 @@ def excerpt_for(slug: str, city: str, state: str) -> str:
     elif state:
         deadline = f"{state}'s {ylabel} filing window (verify with counsel)"
     else:
-        deadline = f"{ylabel} deadlines (verify with counsel)"
+        deadline = f"{ylabel} filing deadlines vary by state (verify with counsel)"
+    loc = f"{city}, {state}" if state else city or "your area"
     return (
-        f"{lead}, {state}? {deadline}, insurer tactics, and free attorney matching "
+        f"{lead} in {loc}? {deadline}, insurer tactics, and free attorney matching "
         f"in ~60 seconds via WreckMatch."
     )
 
@@ -308,16 +310,29 @@ def fix_file(path: Path) -> list[str]:
         fm = re.sub(r"^state:.*$", f'state: "{state}"', fm, flags=re.M)
         changes.append("state")
 
-    if "Texas-style" in text:
+    excerpt_m = re.search(r"^excerpt:\s*>-?\s*\n", fm, re.M) or re.search(
+        r'^excerpt:\s*"?([^"\n]{0,39})"?\s*$', fm, re.M
+    )
+    current_excerpt = ""
+    if excerpt_m and excerpt_m.lastindex and excerpt_m.group(1):
+        current_excerpt = excerpt_m.group(1).strip()
+    if "Texas-style" in text or len(current_excerpt) < 40 or (
+        state and state.lower() not in current_excerpt.lower()
+    ):
         new_excerpt = excerpt_for(slug, city or "your area", state or "your state")
-        if re.search(r"^excerpt:", fm, re.M):
-            fm = re.sub(
-                r'^excerpt:.*$',
-                f'excerpt: "{new_excerpt}"',
-                fm,
-                flags=re.M,
-            )
-            changes.append("excerpt")
+        fm = re.sub(
+            r'^excerpt:.*?(?=\n[a-zA-Z][a-zA-Z0-9]*:)',
+            f'excerpt: "{new_excerpt}"\n',
+            fm,
+            flags=re.M | re.S,
+        )
+        fm = re.sub(
+            r'(^excerpt: "[^"]+"\n)((?:  [^\n]+\n)+)',
+            r"\1",
+            fm,
+            flags=re.M,
+        )
+        changes.append("excerpt")
 
     cat = category_for(slug, state)
     if re.search(r"^category:", fm, re.M):
@@ -379,32 +394,48 @@ def fix_file(path: Path) -> list[str]:
         )
         changes.append("wrongful-steps")
 
-    scott_section = f"""## Why we published this guide for {city or state or "your area"}
+    author_id = author_id_for_slug(slug)
+    place = city or state or "your area"
+    if author_id == "kathy-carr":
+        author_section = f"""## A note for families navigating recovery in {place}
 
-Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in {state or "your state"} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+At WreckMatch, we hear the same story every day: someone was hurt in a crash, insurers called within hours, and the family felt alone deciding what to do next. **{author_display(author_id)}**, CEO & Co-Founder of WreckMatch, built our victim-first intake so you are not repeating your trauma to five different firms. This guide is calm, practical, and written for search and AI answers — not scare tactics.
+
+When you are ready, we connect you with licensed counsel in {state or "your state"} in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
+"""
+    else:
+        author_section = f"""## Why we published this guide for {place}
+
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **{author_display(author_id)}**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in {state or "your state"} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
 
 When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
 """
-    kathy_pat = re.compile(
-        r"## A note for families navigating recovery in[^\n]+\n\n"
-        r"At WreckMatch, we hear the same story every day:.*?licensed attorney in [^\n]+\.\n",
-        re.S,
-    )
-    if kathy_pat.search(body):
-        body = kathy_pat.sub(scott_section + "\n", body, count=1)
-        changes.append("scott-voice-replace")
 
     cover = unique_cover_for_slug(slug)
     if not re.search(rf'^coverImage:\s*"{re.escape(cover)}"', fm, re.M):
         if re.search(r"^coverImage:", fm, re.M):
-            fm = re.sub(r"^coverImage:.*$", f'coverImage: "{cover}"', fm, flags=re.M)
+            fm = re.sub(
+                r'^coverImage:.*?(?=\n[a-zA-Z][a-zA-Z0-9]*:)',
+                f'coverImage: "{cover}"\n',
+                fm,
+                flags=re.M | re.S,
+            )
         else:
             fm = fm.rstrip() + f'\ncoverImage: "{cover}"\n'
+        fm = re.sub(
+            r'(^coverImage: "[^"]+"\n)  /blog/covers/generated/[^\n]+\n',
+            r"\1",
+            fm,
+            flags=re.M,
+        )
         changes.append("cover-unique")
 
-    if "authorId:" not in fm:
-        fm = fm.rstrip() + '\nauthorId: "scott-tischler"\n'
-        changes.append("authorId")
+    expected_author = author_id_for_slug(slug)
+    if re.search(r"^authorId:", fm, re.M):
+        fm = re.sub(r'^authorId:.*$', f'authorId: "{expected_author}"', fm, flags=re.M)
+    else:
+        fm = fm.rstrip() + f'\nauthorId: "{expected_author}"\n'
+    changes.append("authorId")
     if "reviewerId:" not in fm:
         fm = fm.rstrip() + '\nreviewerId: "roy-waddell"\n'
         changes.append("reviewerId")
@@ -414,11 +445,16 @@ When you are ready, we connect you with licensed counsel in about 60 seconds. Wr
         changes.append("qualityTier")
 
     if "autopilot: true" in fm and kind in ("wrongful-death", "severe", "catastrophic", "general", "truck"):
-        if "Why we published this guide" not in body and (city or state):
-            insert = "\n" + scott_section + "\n"
+        needs_author = (
+            "Why we published this guide" not in body
+            and "A note for families navigating recovery" not in body
+            and (city or state)
+        )
+        if needs_author:
+            insert = "\n" + author_section + "\n"
             if "**Quick answer:**" in body:
                 body = body.replace("**Quick answer:**", insert + "**Quick answer:**", 1)
-                changes.append("scott-voice")
+                changes.append("author-voice")
         if "Judge Roy Waddell" not in body:
             body = body.rstrip() + (
                 "\n\n*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at "

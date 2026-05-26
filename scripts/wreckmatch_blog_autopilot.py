@@ -631,16 +631,38 @@ direct, strategic, empathetic but not soft — levels the playing field vs insur
 "Insurance companies have billion-dollar systems… Most drivers are completely unprepared."
 """
 
+KATHY_VOICE = """Kathy Carr — CEO & Co-Founder at WreckMatch LLC. Healthcare-informed, victim-first voice.
+Empathetic and calm — families navigating recovery after crashes. Quote tone:
+"We built WreckMatch so you are not repeating your trauma to five different intake coordinators."
+"""
 
-def ai_system_prompt() -> str:
+
+def author_id_for_topic(topic: dict[str, Any]) -> str:
+    slug = (topic.get("slug") or "").lower()
+    if not slug:
+        slug = re.sub(r"[^a-z0-9]+", "-", (topic.get("title") or "").lower()).strip("-")
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from blog_authors import author_id_for_slug  # noqa: E402
+
+    return author_id_for_slug(slug)
+
+
+def ai_system_prompt(author_id: str = "scott-tischler") -> str:
+    is_kathy = author_id == "kathy-carr"
+    voice = KATHY_VOICE if is_kathy else SCOTT_VOICE
+    author_section = (
+        "## A note for families navigating recovery in [city]"
+        if is_kathy
+        else "## Why we published this guide for [city]"
+    )
     return f"""You write A+ publication-ready educational articles for WreckMatch.com.
 
 WreckMatch LLC is a legal REFERRAL SERVICE — NOT a law firm. Never guarantee outcomes.
 
-AUTHOR (write AS this person — first person "we" for WreckMatch is OK, attribute insights to Scott):
-{SCOTT_VOICE}
+AUTHOR (write AS this person — first person "we" for WreckMatch is OK):
+{voice}
 
-Include section "## Why we published this guide for [city]" in Scott's voice (2 short paragraphs).
+Include section "{author_section}" in the author's voice (2 short paragraphs).
 
 REVIEWER: Judge Roy Waddell reviewed for legal context — end with one italic line crediting Roy
 (Legal Advisor, educational only, not case-specific legal advice).
@@ -648,13 +670,14 @@ REVIEWER: Judge Roy Waddell reviewed for legal context — end with one italic l
 Compliance (mandatory): educational only; not legal advice; not a law firm; 800+ participating
 law firms; confirm deadlines with licensed counsel; 855 WRECKMATCH phone + form CTA.
 
-Quality bar (A+ / 100): 1,200–1,700 words markdown, 5+ H2 sections, table, numbered steps, 4+ FAQs,
+Quality bar (A+ / 100): 2,000–2,400 words markdown minimum, 5+ H2 sections, table, numbered steps, 4+ FAQs,
 quotable first sentence per section, correct STATE statute years only (never Texas-style outside TX).
-frontmatter qualityTier: gold and authorId: scott-tischler reviewerId: roy-waddell."""
+frontmatter qualityTier: gold and authorId: {author_id} reviewerId: roy-waddell."""
 
 
 def generate_ai_post(topic: dict[str, Any], claude_first: bool) -> str:
-    system = ai_system_prompt()
+    author_id = author_id_for_topic(topic)
+    system = ai_system_prompt(author_id)
     hub = hub_link(topic)
     truck = is_truck_topic(topic)
     severe = is_severe_topic(topic)
@@ -678,7 +701,7 @@ Requirements:
 - Start each major section with one quotable sentence (LLM citation 2026)
 - Include at least one markdown table and numbered action steps
 - FMCSA, black box, spoliation if truck; MMI and life-care if severe/wrongful death
-- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical, qualityTier: gold, authorId: scott-tischler, reviewerId: roy-waddell
+- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical, qualityTier: gold, authorId: {author_id}, reviewerId: roy-waddell
 - category must be one of: Truck Accidents, Severe Injury, Wrongful Death, Catastrophic Injury, or state name
 - excerpt must mention {topic['state']} and {y}-year deadline — NEVER "Texas-style" unless state is Texas
 - Wrongful death: family-focused steps, NOT generic truck DOT steps

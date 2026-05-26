@@ -27,18 +27,38 @@ class QualityReport:
         return self.score >= 85 and "broken_frontmatter" not in self.issues
 
 
+def _parse_folded_block(raw: str, key: str) -> str | None:
+    m = re.search(rf"^{key}:\s*>\-?\s*\n((?:  .+\n?)+)", raw, re.M)
+    if not m:
+        return None
+    return " ".join(line.strip() for line in m.group(1).splitlines() if line.strip())
+
+
 def parse_frontmatter(text: str) -> tuple[dict[str, str], str]:
     if not text.startswith("---"):
         return {}, text
     parts = text.split("---", 2)
     if len(parts) < 3:
         return {}, text
+    raw = parts[1]
+    body = parts[2]
     fm: dict[str, str] = {}
-    for line in parts[1].strip().splitlines():
-        if ":" in line:
-            k, v = line.split(":", 1)
-            fm[k.strip()] = v.strip().strip('"')
-    return fm, parts[2]
+    for key in ("excerpt", "description", "title"):
+        folded = _parse_folded_block(raw, key)
+        if folded:
+            fm[key] = folded
+    for line in raw.strip().splitlines():
+        if ":" not in line or line.startswith(" "):
+            continue
+        k, v = line.split(":", 1)
+        k = k.strip()
+        if k in fm:
+            continue
+        v = v.strip().strip('"').strip("'")
+        if v in (">-", ">", "|", "|-"):
+            continue
+        fm[k] = v
+    return fm, body
 
 
 def word_count(body: str) -> int:
@@ -106,10 +126,18 @@ def score_post(slug: str, text: str) -> QualityReport:
         issues.append("missing_cta")
         score -= 10
 
-    if fm.get("qualityTier", "").lower() == "gold" and fm.get("authorId") == "scott-tischler":
+    author_id = fm.get("authorId", "")
+    if fm.get("qualityTier", "").lower() == "gold" and author_id in ("scott-tischler", "kathy-carr"):
         if "judge roy waddell" not in text.lower():
             issues.append("missing_roy_review")
             score -= 3
+        if author_id not in text.lower().replace("_", "-") and author_id.split("-")[0] not in text.lower():
+            if author_id == "kathy-carr" and "kathy carr" not in text.lower():
+                issues.append("missing_author_attribution")
+                score -= 5
+            elif author_id == "scott-tischler" and "scott tischler" not in text.lower():
+                issues.append("missing_author_attribution")
+                score -= 5
 
     score = max(0, min(100, score))
     gold_prose = wc >= 2000 or (fm.get("qualityTier", "").lower() == "gold" and wc >= 1800)
