@@ -41,6 +41,9 @@ scripts/__pycache__/
 # vercel
 .vercel
 
+# blog cover download cache (regenerated locally / in CI)
+/public/blog/covers/source-cache/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
