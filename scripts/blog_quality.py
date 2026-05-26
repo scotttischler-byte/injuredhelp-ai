@@ -74,7 +74,10 @@ def score_post(slug: str, text: str) -> QualityReport:
         score -= 15
 
     is_autopilot = "autopilot: true" in text
-    if wc < 500:
+    if is_autopilot and wc < 2000:
+        issues.append("below_2000_words")
+        score -= min(60, max(10, (2000 - wc) // 25))
+    elif wc < 500:
         if is_autopilot and wc >= 380:
             issues.append("thin_source_expandable")
             score -= 5
@@ -109,7 +112,7 @@ def score_post(slug: str, text: str) -> QualityReport:
             score -= 3
 
     score = max(0, min(100, score))
-    gold_prose = wc >= 900 or fm.get("qualityTier", "").lower() == "gold"
+    gold_prose = wc >= 2000 or (fm.get("qualityTier", "").lower() == "gold" and wc >= 1800)
     tier = (
         "gold"
         if score >= 95 and gold_prose

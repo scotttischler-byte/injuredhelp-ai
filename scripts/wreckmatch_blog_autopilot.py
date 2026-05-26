@@ -602,7 +602,7 @@ Phone: {PHONE}
 Mention: network of 800+ participating law firms (referral service, not a law firm)
 
 Requirements:
-- 1100-1600 words, H2/H3 questions, tables, numbered lists
+- 2000-2400 words minimum, H2/H3 questions, tables, numbered lists
 - Quotable first sentence per section (LLM citation 2026)
 - FMCSA/black box if truck; MMI/life-care if severe
 - category: Truck Accidents, Severe Injury, Wrongful Death, or Catastrophic Injury — match the topic
@@ -674,7 +674,7 @@ CTA: {CTA}
 Phone: {PHONE}
 
 Requirements:
-- 1100-1600 words; H2/H3 headings as questions where possible
+- 2000-2400 words minimum; H2/H3 headings as questions where possible
 - Start each major section with one quotable sentence (LLM citation 2026)
 - Include at least one markdown table and numbered action steps
 - FMCSA, black box, spoliation if truck; MMI and life-care if severe/wrongful death
@@ -847,7 +847,7 @@ def min_publish_score() -> int:
 
 
 def min_publish_words() -> int:
-    return int(os.getenv("TRAFFIC_MACHINE_MIN_WORDS", "900"))
+    return int(os.getenv("TRAFFIC_MACHINE_MIN_WORDS", "2000"))
 
 
 def meets_publish_bar(report: QualityReport, min_score: int, min_words: int) -> bool:
@@ -993,7 +993,7 @@ def main() -> int:
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--delay", type=float, default=4.0, help="Seconds between posts in a batch")
     p.add_argument("--min-score", type=int, default=0, help="Min quality score to publish (default: env or 95)")
-    p.add_argument("--min-words", type=int, default=0, help="Min word count to publish (default: env or 900)")
+    p.add_argument("--min-words", type=int, default=0, help="Min word count to publish (default: env or 2000)")
     args = p.parse_args()
 
     q = load_queue()

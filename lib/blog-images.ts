@@ -9,7 +9,7 @@ export type BlogCover = { src: string; alt: string };
 
 const GENERATED_PREFIX = "/blog/covers/generated/";
 /** Bust browser/CDN cache after cover regen — bump when redeploying all covers */
-const COVER_CACHE_BUST = "v4";
+const COVER_CACHE_BUST = "v5";
 
 const TOPIC_RULES: Array<{ test: RegExp; alt: string }> = [
   { test: /(18-wheeler|semi-truck|tractor-trailer|fmcsa|jackknife|truck-accident)/i, alt: "Truck accident legal guide" },

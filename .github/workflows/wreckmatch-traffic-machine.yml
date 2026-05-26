@@ -1,5 +1,5 @@
 # WreckMatch Traffic Machine — quality-first organic growth
-# Every 30 min: up to 3 gold-tier posts (score ≥95, 900+ words)
+# Every 30 min: up to 3 gold-tier posts (score ≥95, 2000+ words)
 
 name: WreckMatch traffic machine
 
@@ -81,7 +81,7 @@ jobs:
           WRECKMATCH_SITE: https://www.wreckmatch.com
           TRAFFIC_MACHINE_SYNDICATE: "1"
           TRAFFIC_MACHINE_MIN_SCORE: "95"
-          TRAFFIC_MACHINE_MIN_WORDS: "900"
+          TRAFFIC_MACHINE_MIN_WORDS: "2000"
         run: |
           BATCH="${{ github.event.inputs.batch || '3' }}"
           python scripts/wreckmatch_blog_autopilot.py \
@@ -91,7 +91,7 @@ jobs:
             --syndicate \
             --delay 4 \
             --min-score 95 \
-            --min-words 900
+            --min-words 2000
           # Skips posts below gold bar instead of publishing thin content.
 
       - name: Generate unique blog covers for new posts

@@ -39,10 +39,10 @@ def needs_upgrade(text: str, min_score: int) -> bool:
     fm, _ = parse_frontmatter(text)
     if fm.get("qualityTier", "").lower() == "gold" and fm.get("authorId") == "scott-tischler":
         r = score_post("", text)
-        if r.score >= min_score and r.word_count >= 900:
+        if r.score >= min_score and r.word_count >= 2000:
             return False
     r = score_post("", text)
-    return r.score < min_score or r.word_count < 900 or fm.get("qualityTier", "").lower() != "gold"
+    return r.score < min_score or r.word_count < 2000 or fm.get("qualityTier", "").lower() != "gold"
 
 
 def main() -> int:

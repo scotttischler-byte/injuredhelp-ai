@@ -55,7 +55,7 @@ def main() -> int:
         avg = sum(r.score for r in reports) / max(len(reports), 1)
         print(f"Average score: {avg:.1f}")
         gold = sum(1 for r in reports if r.tier == "gold")
-        print(f"Gold tier (score ≥95, 900+ words): {gold}")
+        print(f"Gold tier (score ≥95, 2000+ words): {gold}")
 
     return 1 if failing else 0
 
