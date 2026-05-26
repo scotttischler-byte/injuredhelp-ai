@@ -292,6 +292,14 @@ def fix_file(path: Path) -> list[str]:
         return changes
     fm, body = parts[1], parts[2]
 
+    if "## Related resources" in body and "/states" not in body:
+        body = body.replace(
+            "## Related resources\n\n",
+            "## Related resources\n\n- [State & city resource center](https://www.wreckmatch.com/states)\n",
+            1,
+        )
+        changes.append("states-link")
+
     state_m = re.search(r'^state:\s*"?([^"\n]+)"?\s*$', fm, re.M)
     state = (state_m.group(1).strip() if state_m else "") or ""
     city, state_from_slug = slug_city_state(slug)

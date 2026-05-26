@@ -125,9 +125,29 @@ def urls_from_git_diff(ref: str) -> list[str]:
     return [f"{SITE}/blog/{Path(line.strip()).stem}" for line in out.splitlines() if line.strip().endswith(".md")]
 
 
-def build_url_list(new_slugs: list[str], from_git: str | None, recent_limit: int) -> list[str]:
+def urls_from_git_log_range(since_ref: str) -> list[str]:
+    """All blog URLs added/changed since a git ref (e.g. 35b12f3 or HEAD~70)."""
+    try:
+        out = subprocess.check_output(
+            ["git", "log", "--name-only", "--pretty=format:", f"{since_ref}..HEAD", "--", "content/blog"],
+            cwd=ROOT,
+            text=True,
+        )
+    except subprocess.CalledProcessError:
+        return []
+    slugs: set[str] = set()
+    for line in out.splitlines():
+        line = line.strip()
+        if line.endswith(".md"):
+            slugs.add(Path(line).stem)
+    return [f"{SITE}/blog/{s}" for s in sorted(slugs)]
+
+
+def build_url_list(new_slugs: list[str], from_git: str | None, recent_limit: int, since_commit: str | None = None) -> list[str]:
     urls = [f"{SITE}{p}" for p in PRIORITY_PATHS]
     urls.extend(f"{SITE}/blog/{s}" for s in new_slugs if s)
+    if since_commit:
+        urls.extend(urls_from_git_log_range(since_commit))
     if from_git:
         urls.extend(urls_from_git_diff(from_git))
     urls.extend(collect_recent_blog_urls(recent_limit))
@@ -216,6 +236,7 @@ def main() -> int:
     p = argparse.ArgumentParser(description="WreckMatch IndexNow (official protocol)")
     p.add_argument("--new-slugs", nargs="*", default=[])
     p.add_argument("--from-git", default="")
+    p.add_argument("--since-commit", default="", help="Index all blog posts changed since this git ref")
     p.add_argument("--recent", type=int, default=150)
     p.add_argument("--url", default="", help="Submit one URL via GET (test)")
     p.add_argument("--verify-key", action="store_true", help="Check key file on live site")
@@ -252,7 +273,7 @@ def main() -> int:
         log(json.dumps(results, indent=2))
         return 0 if any(r.get("ok") for r in results) else 1
 
-    urls = build_url_list(args.new_slugs, args.from_git or None, args.recent)
+    urls = build_url_list(args.new_slugs, args.from_git or None, args.recent, args.since_commit or None)
     log(f"Collected {len(urls)} HTML URLs for IndexNow")
     if args.dry_run:
         for u in urls[:25]:

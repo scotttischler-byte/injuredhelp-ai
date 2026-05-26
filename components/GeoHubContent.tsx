@@ -13,11 +13,12 @@ import {
 } from "@/lib/geo-content";
 import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import type { GeoHub } from "@/lib/geo-routes";
-import { cityHubSlug, stateHubSlug } from "@/lib/geo-routes";
+import { cityPlaceSlug, cityHubSlug, stateHubSlug } from "@/lib/geo-routes";
 import { enrichedPlaceSlugFromHubSlug } from "@/lib/priority-places/content-builder";
 import { isPriorityState, priorityPlacesForState } from "@/lib/priority-places/registry";
 import { priorityMetroHubPath } from "@/lib/priority-metro-links";
 import { AccidentSurvivalGuideCrossLink } from "@/components/seo/AccidentSurvivalGuideCrossLink";
+import { GeoLatestGuides } from "@/components/seo/GeoLatestGuides";
 import { KeyFactsBox } from "@/components/seo/KeyFactsBox";
 import { asgLinksForState } from "@/lib/asg-links";
 import { keyFactsForGeoHub } from "@/lib/key-facts";
@@ -67,6 +68,10 @@ export function GeoHubContent({ hub }: Props) {
       : "min-h-screen bg-gray-100 text-gray-900";
   const proseMuted = isEnrichedCity || isPriorityStateHub ? "text-slate-300" : "text-gray-700";
   const proseHeading = isEnrichedCity || isPriorityStateHub ? "text-white" : "text-gray-950";
+  const guideVariant = isEnrichedCity || isPriorityStateHub ? "dark" : "light";
+  const blogPlaceSlug = isState
+    ? stateHubSlug(name).replace(/^car-accident-help-/, "")
+    : (enrichedSlug ?? cityPlaceSlug(hub.profile));
 
   return (
     <div className={shellClass}>
@@ -229,8 +234,12 @@ export function GeoHubContent({ hub }: Props) {
           </p>
         )}
 
+        <GeoLatestGuides placeSlug={blogPlaceSlug} placeLabel={name} variant={guideVariant} />
+
         <section className="mt-12">
-          <h2 className="text-xl font-bold text-gray-900">Frequently asked questions — {place}</h2>
+          <h2 className={`text-xl font-bold ${isEnrichedCity || isPriorityStateHub ? "text-white" : "text-gray-900"}`}>
+            Frequently asked questions — {place}
+          </h2>
           <dl className="mt-4 space-y-4">
             {faqs.map((faq) => (
               <div key={faq.question} className="rounded-lg border border-gray-200 bg-white p-4">

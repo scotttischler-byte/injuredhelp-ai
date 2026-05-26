@@ -20,7 +20,9 @@
     "monitor:ai-citations": "node scripts/ai-citation-monitor.mjs --limit 25",
     "monitor:ai-citations:live": "node scripts/ai-citation-monitor.mjs --limit 15 --live",
     "indexing:notify": "python3 scripts/indexing_accelerator.py",
+    "indexing:batch-new": "python3 scripts/indexing_accelerator.py --since-commit 35b12f3",
     "indexing:dry-run": "python3 scripts/indexing_accelerator.py --dry-run",
+    "indexing:dry-run:batch": "python3 scripts/indexing_accelerator.py --dry-run --since-commit 35b12f3",
     "indexing:verify-key": "python3 scripts/indexing_accelerator.py --verify-key"
   },
   "dependencies": {

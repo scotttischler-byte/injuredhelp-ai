@@ -10,6 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/catastrophic-injury-car-crash-in-nashville-tennessee-2026.webp"
 ---
 
 # Catastrophic Injury Car Crash in Nashville, Tennessee (2026)
@@ -94,6 +95,7 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ## Related resources
 
+- [State & city resource center](https://www.wreckmatch.com/states)
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 - [Tennessee car accident help hub](https://www.wreckmatch.com/car-accident-help-tennessee)
 - [Nashville car accident help](https://www.wreckmatch.com/car-accident-help-nashville)

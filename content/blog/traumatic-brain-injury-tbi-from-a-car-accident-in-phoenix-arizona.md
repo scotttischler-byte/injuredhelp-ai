@@ -10,6 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/traumatic-brain-injury-tbi-from-a-car-accident-in-phoenix-arizona.webp"
 ---
 
 # Traumatic Brain Injury (TBI) From a Car Accident in Phoenix, Arizona
@@ -94,6 +95,7 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ## Related resources
 
+- [State & city resource center](https://www.wreckmatch.com/states)
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 - [Arizona car accident help hub](https://www.wreckmatch.com/car-accident-help-arizona)
 - [Phoenix car accident help](https://www.wreckmatch.com/car-accident-help-phoenix)

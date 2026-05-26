@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/texas-car-accident-statute-of-limitations-fort-worth-2026.webp"
 ---
 
 # Texas Car Accident Statute of Limitations — Fort Worth (2026)
@@ -87,6 +88,7 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ## Related resources
 
+- [State & city resource center](https://www.wreckmatch.com/states)
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 - [What to do after a crash in Texas](https://www.wreckmatch.com/what-to-do-after-a-car-accident-in-texas)
 - [Texas car accident help hub](https://www.wreckmatch.com/car-accident-help-texas)

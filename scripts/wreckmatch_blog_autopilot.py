@@ -813,6 +813,7 @@ def append_seo_footer(topic: dict[str, Any], body: str) -> str:
         lines.append(f"- [{city} car accident help]({SITE}/car-accident-help-{place})")
     lines.extend(
         [
+            f"- [State & city resource center]({SITE}/states)",
             f"- [Accident checklist]({SITE}/checklist-after-car-accident)",
             f"- [Free attorney matching]({SITE}/#form) · {PHONE}",
             "",

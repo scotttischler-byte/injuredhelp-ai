@@ -2,7 +2,7 @@
 title: "Traumatic Brain Injury From a Car Accident — What Families Should Know"
 description: "Educational guide for National car accident victims in United States. Deadlines, insurance tactics, and free attorney matching — 800+ law firm network. Not legal advice."
 date: "2026-05-25"
-category: "Car Accidents"
+category: "Severe Injury"
 state: ""
 excerpt: "Car accident in National, United States? United States's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
@@ -10,6 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/traumatic-brain-injury-from-a-car-accident-what-families-should-know.webp"
 ---
 
 # Traumatic Brain Injury From a Car Accident — What Families Should Know
@@ -87,6 +88,7 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ## Related resources
 
+- [State & city resource center](https://www.wreckmatch.com/states)
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256

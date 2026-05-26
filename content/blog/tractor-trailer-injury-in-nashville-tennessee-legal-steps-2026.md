@@ -10,6 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026.webp"
 ---
 
 # Tractor-Trailer Injury in Nashville, Tennessee: Legal Steps (2026)
@@ -98,6 +99,7 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ## Related resources
 
+- [State & city resource center](https://www.wreckmatch.com/states)
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 - [Tennessee car accident help hub](https://www.wreckmatch.com/car-accident-help-tennessee)
 - [Nashville car accident help](https://www.wreckmatch.com/car-accident-help-nashville)

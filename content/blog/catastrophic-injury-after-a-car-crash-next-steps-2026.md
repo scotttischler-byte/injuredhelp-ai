@@ -10,6 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/catastrophic-injury-after-a-car-crash-next-steps-2026.webp"
 ---
 
 # Catastrophic Injury After a Car Crash — Next Steps (2026)
@@ -87,6 +88,7 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ## Related resources
 
+- [State & city resource center](https://www.wreckmatch.com/states)
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
