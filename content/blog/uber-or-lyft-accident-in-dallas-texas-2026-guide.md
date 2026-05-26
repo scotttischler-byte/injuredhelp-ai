@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/uber-or-lyft-accident-in-dallas-texas-2026-guide.webp"
+coverImage: "/blog/covers/generated-v2/uber-or-lyft-accident-in-dallas-texas-2026-guide.webp"
 ---
 
 # Uber or Lyft Accident in Dallas, Texas (2026 Guide)

@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/uber-or-lyft-accident-in-houston-texas-2026-guide.webp"
+coverImage: "/blog/covers/generated-v2/uber-or-lyft-accident-in-houston-texas-2026-guide.webp"
 ---
 
 # Uber or Lyft Accident in Houston, Texas (2026 Guide)

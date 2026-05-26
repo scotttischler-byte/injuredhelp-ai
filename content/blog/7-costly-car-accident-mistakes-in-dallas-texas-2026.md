@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-dallas-texas-2026.webp"
+coverImage: "/blog/covers/generated-v2/7-costly-car-accident-mistakes-in-dallas-texas-2026.webp"
 ---
 
 # 7 Costly Car Accident Mistakes in Dallas, Texas (2026)

@@ -7,7 +7,7 @@ state: "North Carolina"
 excerpt: "Semi-truck crash in Charlotte, North Carolina? North Carolina's 3 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated/tractor-trailer-injury-in-charlotte-north-carolina-legal-steps-2026.webp"
+coverImage: "/blog/covers/generated-v2/tractor-trailer-injury-in-charlotte-north-carolina-legal-steps-2026.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

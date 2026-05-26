@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/insurance-denied-your-claim-in-houston-texas-2026.webp"
+coverImage: "/blog/covers/generated-v2/insurance-denied-your-claim-in-houston-texas-2026.webp"
 ---
 
 # Insurance Denied Your Claim in Houston? (Texas 2026)

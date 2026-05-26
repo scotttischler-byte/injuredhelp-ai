@@ -6,7 +6,7 @@ category: "Car Accidents"
 excerpt: Rideshare crashes involve layered insurance depending on whether the driver was waiting, en route, or off-app.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/rideshare-accident-claims-uber-lyft.webp"
+coverImage: "/blog/covers/generated-v2/rideshare-accident-claims-uber-lyft.webp"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

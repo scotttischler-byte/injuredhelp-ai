@@ -7,7 +7,9 @@ import { getAllSlugs } from "@/lib/posts";
 
 export type BlogCover = { src: string; alt: string };
 
-const GENERATED_PREFIX = "/blog/covers/generated/";
+const GENERATED_PREFIX = "/blog/covers/generated-v2/";
+/** Bust browser/CDN cache after cover regen — bump when redeploying all covers */
+const COVER_CACHE_BUST = "v3";
 
 const TOPIC_RULES: Array<{ test: RegExp; alt: string }> = [
   { test: /(18-wheeler|semi-truck|tractor-trailer|fmcsa|jackknife|truck-accident)/i, alt: "Truck accident legal guide" },
@@ -38,7 +40,7 @@ function safeSlug(slug: string): string {
 }
 
 export function blogCoverPathForSlug(slug: string): string {
-  return `${GENERATED_PREFIX}${safeSlug(slug)}.webp`;
+  return `${GENERATED_PREFIX}${safeSlug(slug)}.webp?${COVER_CACHE_BUST}`;
 }
 
 export function blogCoverForSlug(slug: string, _vertical?: string): BlogCover {
@@ -57,7 +59,11 @@ export function shouldUseGeneratedCover(slug: string, src: string | undefined): 
 
 /** Serve from /public CDN — never /_next/image (prevents timeout under traffic). */
 export function blogCoverIsUnoptimized(src: string): boolean {
-  return src.startsWith(GENERATED_PREFIX) && /\.(webp|jpe?g|png)$/i.test(src);
+  const pathOnly = src.split("?")[0];
+  return (
+    (pathOnly.startsWith(GENERATED_PREFIX) || pathOnly.startsWith("/blog/covers/generated/")) &&
+    /\.(webp|jpe?g|png)$/i.test(pathOnly)
+  );
 }
 
 export function allBlogCoverSlugs(): string[] {

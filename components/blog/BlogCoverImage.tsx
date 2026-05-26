@@ -9,10 +9,10 @@ type Props = {
 
 /** Static blog covers: native img (fast CDN). No /_next/image under traffic. */
 export function BlogCoverImage({ src, alt, priority = false, className = "object-cover" }: Props) {
-  const normalized = src.startsWith("http") ? new URL(src).pathname : src;
+  const imgSrc = src.startsWith("http") ? src : src;
 
   // Always render — never return null (broken cards looked like "no images").
-  if (!blogCoverIsUnoptimized(normalized) && !normalized.startsWith("/blog/covers/")) {
+  if (!blogCoverIsUnoptimized(imgSrc) && !imgSrc.split("?")[0].startsWith("/blog/covers/")) {
     return (
       <div
         className={`absolute inset-0 flex items-center justify-center bg-gradient-to-br from-slate-800 to-slate-950 ${className}`}
@@ -25,7 +25,7 @@ export function BlogCoverImage({ src, alt, priority = false, className = "object
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={normalized}
+      src={imgSrc}
       alt={alt}
       loading={priority ? "eager" : "lazy"}
       decoding="async"

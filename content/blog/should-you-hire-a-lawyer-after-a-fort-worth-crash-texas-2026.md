@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-fort-worth-crash-texas-2026.webp"
+coverImage: "/blog/covers/generated-v2/should-you-hire-a-lawyer-after-a-fort-worth-crash-texas-2026.webp"
 ---
 
 # Should You Hire a Lawyer After a Fort Worth Crash? (Texas 2026)

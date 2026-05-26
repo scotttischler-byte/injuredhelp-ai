@@ -73,7 +73,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
                   <Link href={`/blog/${post.slug}`} prefetch={false} className="block">
                     <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-300">
                       <BlogCoverImage src={cover.src} alt={cover.alt} priority={eager} />
-                      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80" />
+                      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
                       <span className="absolute bottom-3 left-3 rounded-full bg-white/95 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-[#cc0000] shadow-sm">
                         {post.category}
                       </span>

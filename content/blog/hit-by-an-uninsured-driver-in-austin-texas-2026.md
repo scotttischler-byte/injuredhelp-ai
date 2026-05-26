@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-austin-texas-2026.webp"
+coverImage: "/blog/covers/generated-v2/hit-by-an-uninsured-driver-in-austin-texas-2026.webp"
 ---
 
 # Hit by an Uninsured Driver in Austin, Texas (2026)

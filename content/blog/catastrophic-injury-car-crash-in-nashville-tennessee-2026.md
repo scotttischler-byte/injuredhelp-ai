@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/catastrophic-injury-car-crash-in-nashville-tennessee-2026.webp"
+coverImage: "/blog/covers/generated-v2/catastrophic-injury-car-crash-in-nashville-tennessee-2026.webp"
 ---
 
 # Catastrophic Injury Car Crash in Nashville, Tennessee (2026)

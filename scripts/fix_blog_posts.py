@@ -195,7 +195,7 @@ NETWORK_LINE = (
 def unique_cover_for_slug(slug: str) -> str:
     """One WebP per slug — must match lib/blog-images.ts and generate-blog-cover-assets.mjs."""
     safe = re.sub(r"[^a-z0-9-]", "-", slug.lower()).strip("-")
-    return f"/blog/covers/generated/{safe}.webp"
+    return f"/blog/covers/generated-v2/{safe}.webp"
 
 
 PILLAR_GOLD_EXPANSION = """

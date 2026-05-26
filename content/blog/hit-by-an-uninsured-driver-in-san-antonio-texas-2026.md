@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-san-antonio-texas-2026.webp"
+coverImage: "/blog/covers/generated-v2/hit-by-an-uninsured-driver-in-san-antonio-texas-2026.webp"
 ---
 
 # Hit by an Uninsured Driver in San Antonio, Texas (2026)

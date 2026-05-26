@@ -7,7 +7,7 @@ state: "Ohio"
 excerpt: "Semi-truck crash in Columbus, Ohio? Ohio's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
-coverImage: "/blog/covers/generated/semi-truck-accident-in-columbus-ohio-what-to-do-2026.webp"
+coverImage: "/blog/covers/generated-v2/semi-truck-accident-in-columbus-ohio-what-to-do-2026.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

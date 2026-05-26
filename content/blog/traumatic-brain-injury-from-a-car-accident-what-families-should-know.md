@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/traumatic-brain-injury-from-a-car-accident-what-families-should-know.webp"
+coverImage: "/blog/covers/generated-v2/traumatic-brain-injury-from-a-car-accident-what-families-should-know.webp"
 ---
 
 # Traumatic Brain Injury From a Car Accident — What Families Should Know

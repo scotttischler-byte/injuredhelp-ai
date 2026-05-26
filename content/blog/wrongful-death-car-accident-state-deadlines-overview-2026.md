@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/wrongful-death-car-accident-state-deadlines-overview-2026.webp"
+coverImage: "/blog/covers/generated-v2/wrongful-death-car-accident-state-deadlines-overview-2026.webp"
 ---
 
 # Wrongful Death Car Accident — State Deadlines Overview (2026)

@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/whiplash-after-a-car-accident-in-san-antonio-texas-what-to-know-2026.webp"
+coverImage: "/blog/covers/generated-v2/whiplash-after-a-car-accident-in-san-antonio-texas-what-to-know-2026.webp"
 ---
 
 # Whiplash After a Car Accident in San Antonio, Texas — What to Know (2026)

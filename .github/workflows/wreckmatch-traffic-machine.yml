@@ -98,7 +98,7 @@ jobs:
         run: |
           git config user.name "wreckmatch-traffic-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/blog/*.md content/syndication/ content/autopilot/ public/blog/covers/generated/*.webp data/blog-cover-assignments.json
+          git add content/blog/*.md content/syndication/ content/autopilot/ public/blog/covers/generated-v2/*.webp data/blog-cover-assignments.json
           git diff --staged --quiet && echo "changed=false" >> "$GITHUB_OUTPUT" && echo "No changes" && exit 0
           git commit -m "content(traffic-machine): truck/severe injury posts + social syndication"
           git push

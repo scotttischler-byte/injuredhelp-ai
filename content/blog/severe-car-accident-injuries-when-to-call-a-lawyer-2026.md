@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/severe-car-accident-injuries-when-to-call-a-lawyer-2026.webp"
+coverImage: "/blog/covers/generated-v2/severe-car-accident-injuries-when-to-call-a-lawyer-2026.webp"
 ---
 
 # Severe Car Accident Injuries: When to Call a Lawyer (2026)

@@ -772,7 +772,7 @@ Excerpt: {excerpt[:800]}
 def cover_for_topic(topic: dict[str, Any]) -> tuple[str, str]:
     slug = (topic.get("slug") or topic.get("angle") or slugify(topic.get("title", ""))).lower()
     safe = re.sub(r"[^a-z0-9-]", "-", slug).strip("-")
-    src = f"/blog/covers/generated/{safe}.webp"
+    src = f"/blog/covers/generated-v2/{safe}.webp"
     if is_truck_topic(topic) or "truck" in slug:
         alt = "Semi truck and commercial vehicle accident guide"
     elif is_severe_topic(topic) or any(x in slug for x in ("severe", "catastrophic", "tbi", "spinal", "wrongful")):

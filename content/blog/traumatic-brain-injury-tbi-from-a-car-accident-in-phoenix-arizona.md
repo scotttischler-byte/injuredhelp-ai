@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/traumatic-brain-injury-tbi-from-a-car-accident-in-phoenix-arizona.webp"
+coverImage: "/blog/covers/generated-v2/traumatic-brain-injury-tbi-from-a-car-accident-in-phoenix-arizona.webp"
 ---
 
 # Traumatic Brain Injury (TBI) From a Car Accident in Phoenix, Arizona

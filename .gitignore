@@ -43,6 +43,7 @@ scripts/__pycache__/
 
 # blog cover download cache (regenerated locally / in CI)
 /public/blog/covers/source-cache/
+/public/blog/covers/ai-cache/
 
 # typescript
 *.tsbuildinfo

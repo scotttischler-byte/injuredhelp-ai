@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated/texas-car-accident-statute-of-limitations-san-antonio-guide-2026.webp"
+coverImage: "/blog/covers/generated-v2/texas-car-accident-statute-of-limitations-san-antonio-guide-2026.webp"
 ---
 
 # Texas Car Accident Statute of Limitations — San Antonio Guide (2026)

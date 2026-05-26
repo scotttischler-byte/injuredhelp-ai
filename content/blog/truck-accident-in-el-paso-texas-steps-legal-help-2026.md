@@ -10,7 +10,7 @@ vertical: "truck"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/truck-accident-in-el-paso-texas-steps-legal-help-2026.webp"
+coverImage: "/blog/covers/generated-v2/truck-accident-in-el-paso-texas-steps-legal-help-2026.webp"
 ---
 
 # Truck Accident in El Paso, Texas: Steps & Legal Help (2026)

@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/how-long-does-a-car-accident-settlement-take-in-dallas-2026.webp"
+coverImage: "/blog/covers/generated-v2/how-long-does-a-car-accident-settlement-take-in-dallas-2026.webp"
 ---
 
 # How Long Does a Car Accident Settlement Take in Dallas? (2026)

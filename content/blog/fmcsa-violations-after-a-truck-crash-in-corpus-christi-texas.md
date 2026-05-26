@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Semi-truck crash in Corpus Christi, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated/fmcsa-violations-after-a-truck-crash-in-corpus-christi-texas.webp"
+coverImage: "/blog/covers/generated-v2/fmcsa-violations-after-a-truck-crash-in-corpus-christi-texas.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

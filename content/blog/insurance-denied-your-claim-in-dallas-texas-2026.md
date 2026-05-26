@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated/insurance-denied-your-claim-in-dallas-texas-2026.webp"
+coverImage: "/blog/covers/generated-v2/insurance-denied-your-claim-in-dallas-texas-2026.webp"
 ---
 
 # Insurance Denied Your Claim in Dallas? (Texas 2026)
