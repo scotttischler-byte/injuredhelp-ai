@@ -61,6 +61,7 @@ PRIORITY_PATHS = [
     "/ai-accident-help",
     "/about-accident-survival-guide",
     "/resources",
+    "/states",
     "/blog",
     "/press",
     "/press/kathy-carr-ceo-ai-legal-tech-platform-2026",
