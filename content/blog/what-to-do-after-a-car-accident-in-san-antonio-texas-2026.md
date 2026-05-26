@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated-v2/what-to-do-after-a-car-accident-in-san-antonio-texas-2026.webp"
+coverImage: "/blog/covers/generated/what-to-do-after-a-car-accident-in-san-antonio-texas-2026.webp"
 ---
 
 # What to Do After a Car Accident in San Antonio, Texas (2026)

@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/catastrophic-injury-after-a-car-crash-next-steps-2026.webp"
+coverImage: "/blog/covers/generated/catastrophic-injury-after-a-car-crash-next-steps-2026.webp"
 ---
 
 # Catastrophic Injury After a Car Crash — Next Steps (2026)

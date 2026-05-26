@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Semi-truck crash in San Antonio, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated-v2/underride-or-override-truck-crash-in-san-antonio-texas-2026.webp"
+coverImage: "/blog/covers/generated/underride-or-override-truck-crash-in-san-antonio-texas-2026.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

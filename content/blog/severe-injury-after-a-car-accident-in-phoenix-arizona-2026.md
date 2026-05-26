@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/severe-injury-after-a-car-accident-in-phoenix-arizona-2026.webp"
+coverImage: "/blog/covers/generated/severe-injury-after-a-car-accident-in-phoenix-arizona-2026.webp"
 ---
 
 # Severe Injury After a Car Accident in Phoenix, Arizona (2026)

@@ -6,7 +6,7 @@ category: "Truck Accidents"
 excerpt: Semi and delivery truck crashes raise different evidence and deadline issues than typical fender-benders.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/truck-accident-injuries.webp"
+coverImage: "/blog/covers/generated/truck-accident-injuries.webp"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

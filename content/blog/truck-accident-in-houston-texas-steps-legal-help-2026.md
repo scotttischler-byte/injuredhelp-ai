@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated-v2/truck-accident-in-houston-texas-steps-legal-help-2026.webp"
+coverImage: "/blog/covers/generated/truck-accident-in-houston-texas-steps-legal-help-2026.webp"
 ---
 
 # Truck Accident in Houston, Texas: Steps & Legal Help (2026)

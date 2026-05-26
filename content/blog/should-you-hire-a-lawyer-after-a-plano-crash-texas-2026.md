@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-plano-crash-texas-2026.webp"
 ---
 
 # Should You Hire a Lawyer After a Plano Crash? (Texas 2026)

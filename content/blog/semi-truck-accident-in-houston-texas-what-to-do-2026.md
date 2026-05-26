@@ -10,7 +10,7 @@ vertical: "truck"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated-v2/semi-truck-accident-in-houston-texas-what-to-do-2026.webp"
+coverImage: "/blog/covers/generated/semi-truck-accident-in-houston-texas-what-to-do-2026.webp"
 ---
 
 # Semi Truck Accident in Houston, Texas: What to Do (2026)

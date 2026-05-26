@@ -2,7 +2,7 @@
 /**
  * One UNIQUE photo per blog slug — distinct stock photo + light overlay.
  * Uses curated Wikimedia pool (618 images) + WreckMatch originals. No 5-photo rotation.
- * Output: public/blog/covers/generated-v2/{slug}.webp
+ * Output: public/blog/covers/generated/{slug}.webp
  */
 import crypto from "node:crypto";
 import fs from "node:fs";
@@ -12,7 +12,7 @@ import sharp from "sharp";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const BLOG_DIR = path.join(ROOT, "content/blog");
-const OUT_DIR = path.join(ROOT, "public/blog/covers/generated-v2");
+const OUT_DIR = path.join(ROOT, "public/blog/covers/generated");
 const CACHE_DIR = path.join(ROOT, "public/blog/covers/source-cache");
 const POOL_FILE = path.join(ROOT, "data/blog-cover-photo-pool.json");
 const MANIFEST_FILE = path.join(ROOT, "data/blog-cover-assignments.json");

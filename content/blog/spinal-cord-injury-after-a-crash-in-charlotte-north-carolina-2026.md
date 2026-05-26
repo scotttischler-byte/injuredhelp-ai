@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/spinal-cord-injury-after-a-crash-in-charlotte-north-carolina-2026.webp"
+coverImage: "/blog/covers/generated/spinal-cord-injury-after-a-crash-in-charlotte-north-carolina-2026.webp"
 ---
 
 # Spinal Cord Injury After a Crash in Charlotte, North Carolina (2026)

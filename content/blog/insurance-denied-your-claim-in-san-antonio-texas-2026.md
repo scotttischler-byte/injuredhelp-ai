@@ -10,7 +10,7 @@ vertical: "auto"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 qualityTier: "gold"
-coverImage: "/blog/covers/generated-v2/insurance-denied-your-claim-in-san-antonio-texas-2026.webp"
+coverImage: "/blog/covers/generated/insurance-denied-your-claim-in-san-antonio-texas-2026.webp"
 ---
 
 # Insurance Denied Your Claim in San Antonio? (Texas 2026)

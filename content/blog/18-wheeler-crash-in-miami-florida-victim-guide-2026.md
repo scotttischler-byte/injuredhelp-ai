@@ -7,7 +7,7 @@ state: "Florida"
 excerpt: "Semi-truck crash in Miami, Florida? Florida's 4 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "truck"
-coverImage: "/blog/covers/generated-v2/18-wheeler-crash-in-miami-florida-victim-guide-2026.webp"
+coverImage: "/blog/covers/generated/18-wheeler-crash-in-miami-florida-victim-guide-2026.webp"
 coverAlt: "Semi truck and commercial vehicle accident guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

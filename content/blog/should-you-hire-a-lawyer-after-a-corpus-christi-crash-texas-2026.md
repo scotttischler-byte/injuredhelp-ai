@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-corpus-christi-crash-texas-2026.webp"
 ---
 
 # Should You Hire a Lawyer After a Corpus Christi Crash? (Texas 2026)

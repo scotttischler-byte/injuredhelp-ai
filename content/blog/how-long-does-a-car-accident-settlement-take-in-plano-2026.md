@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/how-long-does-a-car-accident-settlement-take-in-plano-2026.webp"
 ---
 
 # How Long Does a Car Accident Settlement Take in Plano? (2026)

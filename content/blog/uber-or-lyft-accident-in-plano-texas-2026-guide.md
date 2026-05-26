@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/uber-or-lyft-accident-in-plano-texas-2026-guide.webp"
 ---
 
 # Uber or Lyft Accident in Plano, Texas (2026 Guide)

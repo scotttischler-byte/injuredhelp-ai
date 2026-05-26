@@ -6,7 +6,7 @@ category: "Car Accidents"
 excerpt: There is no single formula, but certain facts consistently move car accident claim values up or down in 2026.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/how-much-is-my-car-accident-case-worth-2026.webp"
+coverImage: "/blog/covers/generated/how-much-is-my-car-accident-case-worth-2026.webp"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

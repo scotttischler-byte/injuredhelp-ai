@@ -7,7 +7,7 @@ state: "Texas"
 excerpt: "Serious injury crash in Houston, Texas? Texas's 2 years deadline, insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated-v2/severe-injury-after-a-car-accident-in-houston-texas-2026.webp"
+coverImage: "/blog/covers/generated/severe-injury-after-a-car-accident-in-houston-texas-2026.webp"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

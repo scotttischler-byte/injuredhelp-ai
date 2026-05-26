@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/insurance-denied-your-claim-in-lubbock-texas-2026.webp"
 ---
 
 # Insurance Denied Your Claim in Lubbock? (Texas 2026)

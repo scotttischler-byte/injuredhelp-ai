@@ -7,7 +7,7 @@ state: "Pennsylvania"
 excerpt: "Serious injury crash in Philadelphia, Pennsylvania? Pennsylvania's 2 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated-v2/traumatic-brain-injury-tbi-from-a-car-accident-in-philadelphia-pennsylvania.webp"
+coverImage: "/blog/covers/generated/traumatic-brain-injury-tbi-from-a-car-accident-in-philadelphia-pennsylvania.webp"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

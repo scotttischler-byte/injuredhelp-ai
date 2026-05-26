@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/texas-car-accident-statute-of-limitations-el-paso-2026.webp"
+coverImage: "/blog/covers/generated/texas-car-accident-statute-of-limitations-el-paso-2026.webp"
 ---
 
 # Texas Car Accident Statute of Limitations — El Paso (2026)

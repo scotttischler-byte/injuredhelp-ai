@@ -7,7 +7,7 @@ state: "Florida"
 excerpt: "Serious injury crash in Miami, Florida? Florida's 4 years filing window (verify with counsel), insurer tactics, and free attorney matching in ~60 seconds via WreckMatch."
 autopilot: true
 vertical: "severe"
-coverImage: "/blog/covers/generated-v2/catastrophic-injury-car-crash-in-miami-florida-2026.webp"
+coverImage: "/blog/covers/generated/catastrophic-injury-car-crash-in-miami-florida-2026.webp"
 coverAlt: "Severe and catastrophic car accident injury guide"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"

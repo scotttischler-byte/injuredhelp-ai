@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/texas-car-accident-statute-of-limitations-plano-2026.webp"
 ---
 
 # Texas Car Accident Statute of Limitations — Plano (2026)

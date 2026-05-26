@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-plano-texas-2026.webp"
 ---
 
 # 7 Costly Car Accident Mistakes in Plano, Texas (2026)

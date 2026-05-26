@@ -6,7 +6,7 @@ category: "Car Accidents"
 excerpt: Missing your state's deadline can end your right to sue—even with a strong case.
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/statute-of-limitations-car-accidents-by-state.webp"
+coverImage: "/blog/covers/generated/statute-of-limitations-car-accidents-by-state.webp"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

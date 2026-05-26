@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/whiplash-after-a-car-accident-in-austin-texas-what-to-know-2026.webp"
+coverImage: "/blog/covers/generated/whiplash-after-a-car-accident-in-austin-texas-what-to-know-2026.webp"
 ---
 
 # Whiplash After a Car Accident in Austin, Texas — What to Know (2026)

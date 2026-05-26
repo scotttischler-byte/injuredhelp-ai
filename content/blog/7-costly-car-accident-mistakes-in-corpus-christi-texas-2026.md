@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-corpus-christi-texas-2026.webp"
 ---
 
 # 7 Costly Car Accident Mistakes in Corpus Christi, Texas (2026)

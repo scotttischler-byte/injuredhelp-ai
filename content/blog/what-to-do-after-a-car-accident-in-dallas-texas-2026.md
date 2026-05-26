@@ -10,7 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/what-to-do-after-a-car-accident-in-dallas-texas-2026.webp"
+coverImage: "/blog/covers/generated/what-to-do-after-a-car-accident-in-dallas-texas-2026.webp"
 ---
 
 # What to Do After a Car Accident in Dallas, Texas (2026)

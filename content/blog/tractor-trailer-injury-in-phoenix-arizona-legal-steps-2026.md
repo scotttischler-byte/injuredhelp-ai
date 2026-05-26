@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/tractor-trailer-injury-in-phoenix-arizona-legal-steps-2026.webp"
+coverImage: "/blog/covers/generated/tractor-trailer-injury-in-phoenix-arizona-legal-steps-2026.webp"
 ---
 
 # Tractor-Trailer Injury in Phoenix, Arizona: Legal Steps (2026)

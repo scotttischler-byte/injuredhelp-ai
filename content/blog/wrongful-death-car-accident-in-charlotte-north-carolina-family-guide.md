@@ -10,7 +10,7 @@ vertical: "severe"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
-coverImage: "/blog/covers/generated-v2/wrongful-death-car-accident-in-charlotte-north-carolina-family-guide.webp"
+coverImage: "/blog/covers/generated/wrongful-death-car-accident-in-charlotte-north-carolina-family-guide.webp"
 ---
 
 # Wrongful Death Car Accident in Charlotte, North Carolina — Family Guide

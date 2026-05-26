@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-plano-texas-2026.webp"
 ---
 
 # Hit by an Uninsured Driver in Plano, Texas (2026)

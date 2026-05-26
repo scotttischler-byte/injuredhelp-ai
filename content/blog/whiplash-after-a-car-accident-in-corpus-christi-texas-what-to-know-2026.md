@@ -10,6 +10,7 @@ vertical: "auto"
 qualityTier: "gold"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
+coverImage: "/blog/covers/generated/whiplash-after-a-car-accident-in-corpus-christi-texas-what-to-know-2026.webp"
 ---
 
 # Whiplash After a Car Accident in Corpus Christi, Texas — What to Know (2026)
