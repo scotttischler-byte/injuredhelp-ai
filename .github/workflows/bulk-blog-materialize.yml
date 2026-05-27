@@ -30,6 +30,12 @@ jobs:
       - name: Fix frontmatter, covers, compliance
         run: python3 scripts/fix_blog_posts.py
 
+      - name: Generate blog PowerPoint companions
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install -r scripts/autopilot_requirements.txt
+          npm run generate:blog-presentations
+
       - name: Quality audit
         run: python3 scripts/blog_quality_gate.py --min-score 95
 
@@ -37,7 +43,7 @@ jobs:
         run: |
           git config user.name "wreckmatch-traffic-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/blog/*.md app/blog/
+          git add content/blog/*.md app/blog/ public/blog/presentations/*.pptx components/blog/ lib/blog-presentations.ts scripts/
           git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "content(blog): materialize 2000+ word guides with Scott/Kathy authorship"
           git push

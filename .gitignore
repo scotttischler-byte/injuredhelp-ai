@@ -36,6 +36,7 @@ yarn-error.log*
 .secrets-setup
 scripts/.setup-secrets.env
 .venv-autopilot
+.venv/
 scripts/__pycache__/
 
 # vercel
