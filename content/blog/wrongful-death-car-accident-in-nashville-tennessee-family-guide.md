@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/wrongful-death-car-accident-in-nashville-tennessee-family-guide.webp"
 materializedExpansion: true
 readTime: 16 min read
+presentationUrl: "/blog/presentations/wrongful-death-car-accident-in-nashville-tennessee-family-guide.pptx"
 ---
 # Wrongful Death Car Accident in Nashville, Tennessee — Family Guide
 

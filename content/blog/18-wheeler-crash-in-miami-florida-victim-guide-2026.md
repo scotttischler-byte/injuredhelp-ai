@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/18-wheeler-crash-in-miami-florida-victim-guide-2026.pptx"
 ---
 # 18-Wheeler Crash in Miami, Florida — Victim Guide (2026)
 

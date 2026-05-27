@@ -14,6 +14,7 @@ coverImage: "/blog/covers/generated/how-long-to-file-car-accident-claim.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/how-long-to-file-car-accident-claim.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

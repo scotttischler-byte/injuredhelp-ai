@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-columbus-ohio-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in Columbus, Ohio: What to Do (2026)
 

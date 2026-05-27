@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/truck-accident-in-arlington-texas-steps-legal-help-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/truck-accident-in-arlington-texas-steps-legal-help-2026.pptx"
 ---
 # Truck Accident in Arlington, Texas: Steps & Legal Help (2026)
 

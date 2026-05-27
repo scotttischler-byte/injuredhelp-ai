@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/catastrophic-injury-car-crash-in-nashville-tennessee-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/catastrophic-injury-car-crash-in-nashville-tennessee-2026.pptx"
 ---
 # Catastrophic Injury Car Crash in Nashville, Tennessee (2026)
 

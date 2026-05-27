@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/traumatic-brain-injury-tbi-from-a-car-accident-in-charlotte-north-carolina.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/traumatic-brain-injury-tbi-from-a-car-accident-in-charlotte-north-carolina.pptx"
 ---
 # Traumatic Brain Injury (TBI) From a Car Accident in Charlotte, North Carolina
 

@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-lubbock-texas-2026.webp"
+presentationUrl: "/blog/presentations/7-costly-car-accident-mistakes-in-lubbock-texas-2026.pptx"
 ---
 # 7 Costly Car Accident Mistakes in Lubbock, Texas (2026)
 

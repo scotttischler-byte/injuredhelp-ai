@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/truck-accident-in-san-antonio-texas-steps-legal-help-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/truck-accident-in-san-antonio-texas-steps-legal-help-2026.pptx"
 ---
 # Truck Accident in San Antonio, Texas: Steps & Legal Help (2026)
 

@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/semi-truck-accident-in-houston-texas-what-to-do-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-houston-texas-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in Houston, Texas: What to Do (2026)
 

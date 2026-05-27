@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/tractor-trailer-injury-in-dallas-texas-legal-steps-2026.pptx"
 ---
 # Tractor-Trailer Injury in Dallas, Texas: Legal Steps (2026)
 

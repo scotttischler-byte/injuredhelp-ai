@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/wrongful-death-car-accident-in-plano-texas-family-guide.pptx"
 ---
 # Wrongful Death Car Accident in Plano, Texas — Family Guide
 

@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/wrongful-death-car-accident-in-phoenix-arizona-family-guide.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/wrongful-death-car-accident-in-phoenix-arizona-family-guide.pptx"
 ---
 # Wrongful Death Car Accident in Phoenix, Arizona — Family Guide
 

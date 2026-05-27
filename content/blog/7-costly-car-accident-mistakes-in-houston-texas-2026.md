@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-houston-texas-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/7-costly-car-accident-mistakes-in-houston-texas-2026.pptx"
 ---
 # 7 Costly Car Accident Mistakes in Houston, Texas (2026)
 

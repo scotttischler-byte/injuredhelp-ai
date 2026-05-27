@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-nashville-tennessee-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in Nashville, Tennessee: What to Do (2026)
 

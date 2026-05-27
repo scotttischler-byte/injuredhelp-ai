@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-el-paso-texas-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in El Paso, Texas: What to Do (2026)
 

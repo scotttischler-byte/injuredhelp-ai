@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/underride-or-override-truck-crash-in-san-antonio-texas-2026.pptx"
 ---
 # Underride or Override Truck Crash in San Antonio, Texas (2026)
 

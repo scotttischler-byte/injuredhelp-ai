@@ -14,6 +14,7 @@ coverImage: "/blog/covers/generated/houston-car-accident-what-to-do-2026.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 16 min read
+presentationUrl: "/blog/presentations/houston-car-accident-what-to-do-2026.pptx"
 ---
 # What to Do After a Car Accident in Houston (2026)
 

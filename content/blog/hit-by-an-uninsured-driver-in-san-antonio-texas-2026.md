@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-san-antonio-texas-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/hit-by-an-uninsured-driver-in-san-antonio-texas-2026.pptx"
 ---
 # Hit by an Uninsured Driver in San Antonio, Texas (2026)
 

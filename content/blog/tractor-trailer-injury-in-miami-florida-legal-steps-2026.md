@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/tractor-trailer-injury-in-miami-florida-legal-steps-2026.pptx"
 ---
 # Tractor-Trailer Injury in Miami, Florida: Legal Steps (2026)
 

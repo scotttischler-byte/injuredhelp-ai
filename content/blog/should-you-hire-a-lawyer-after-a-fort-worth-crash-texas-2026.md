@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-fort-worth-crash-texas-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/should-you-hire-a-lawyer-after-a-fort-worth-crash-texas-2026.pptx"
 ---
 # Should You Hire a Lawyer After a Fort Worth Crash? (Texas 2026)
 

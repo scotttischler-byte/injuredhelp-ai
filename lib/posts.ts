@@ -16,6 +16,7 @@ export interface PostMeta {
   readTime: string;
   coverImage?: string;
   coverAlt?: string;
+  presentationUrl?: string;
 }
 
 function ensureDir() {
@@ -54,6 +55,7 @@ function readAllPosts(): PostMeta[] {
       readTime: String(data.readTime ?? parseReadTime(content)),
       coverImage: data.coverImage ? String(data.coverImage) : undefined,
       coverAlt: data.coverAlt ? String(data.coverAlt) : undefined,
+      presentationUrl: data.presentationUrl ? String(data.presentationUrl) : undefined,
     } satisfies PostMeta;
   });
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -86,6 +88,7 @@ export function getPostBySlug(slug: string): { meta: PostMeta; content: string }
         readTime: String(data.readTime ?? parseReadTime(content)),
         coverImage: data.coverImage ? String(data.coverImage) : undefined,
         coverAlt: data.coverAlt ? String(data.coverAlt) : undefined,
+        presentationUrl: data.presentationUrl ? String(data.presentationUrl) : undefined,
       };
       return { meta, content };
     }

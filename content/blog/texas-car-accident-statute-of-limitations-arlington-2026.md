@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/texas-car-accident-statute-of-limitations-arlington-2026.webp"
+presentationUrl: "/blog/presentations/texas-car-accident-statute-of-limitations-arlington-2026.pptx"
 ---
 # Texas Car Accident Statute of Limitations — Arlington (2026)
 

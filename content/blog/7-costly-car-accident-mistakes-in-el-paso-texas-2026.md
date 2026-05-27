@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/7-costly-car-accident-mistakes-in-el-paso-texas-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/7-costly-car-accident-mistakes-in-el-paso-texas-2026.pptx"
 ---
 # 7 Costly Car Accident Mistakes in El Paso, Texas (2026)
 

@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/do-i-need-a-truck-accident-lawyer-in-lubbock-texas-2026.pptx"
 ---
 # Do I Need a Truck Accident Lawyer in Lubbock, Texas? (2026)
 

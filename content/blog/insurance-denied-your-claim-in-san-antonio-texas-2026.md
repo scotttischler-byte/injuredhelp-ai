@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/insurance-denied-your-claim-in-san-antonio-texas-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/insurance-denied-your-claim-in-san-antonio-texas-2026.pptx"
 ---
 # Insurance Denied Your Claim in San Antonio? (Texas 2026)
 

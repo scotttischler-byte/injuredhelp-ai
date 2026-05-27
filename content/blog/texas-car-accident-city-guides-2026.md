@@ -15,6 +15,7 @@ coverImage: "/blog/covers/generated/texas-car-accident-city-guides-2026.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 16 min read
+presentationUrl: "/blog/presentations/texas-car-accident-city-guides-2026.pptx"
 ---
 # Texas Car Accident City Guides (2026)
 

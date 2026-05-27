@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllGeoHubSlugs } from "@/lib/geo-routes";
 import { blogPagePath, totalBlogPages } from "@/lib/blog-pagination";
 import { getAllPosts } from "@/lib/posts";
+import { presentationPathForSlug } from "@/lib/blog-presentations";
 import { TEXAS_METRO_LINKS } from "@/lib/texas-metro-links";
 import { ACCIDENT_VARIANT_CITIES, PRIORITY_PLACE_BY_SLUG } from "@/lib/priority-places/registry";
 import { CITATION_ASSETS } from "@/lib/citation-assets";
@@ -86,12 +87,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.85,
   }));
 
-  const blogPosts = getAllPosts().map((p) => ({
-    url: `${origin}/blog/${p.slug}`,
-    lastModified: new Date(p.date),
-    changeFrequency: "monthly" as const,
-    priority: p.slug.includes("texas") ? 0.88 : 0.7,
-  }));
+  const blogPosts = getAllPosts().flatMap((p) => [
+    {
+      url: `${origin}/blog/${p.slug}`,
+      lastModified: new Date(p.date),
+      changeFrequency: "monthly" as const,
+      priority: p.slug.includes("texas") ? 0.88 : 0.7,
+    },
+    {
+      url: `${origin}${p.presentationUrl ?? presentationPathForSlug(p.slug)}`,
+      lastModified: new Date(p.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    },
+  ]);
 
   const blogIndexPages = Array.from({ length: totalBlogPages(getAllPosts().length) - 1 }, (_, i) => ({
     url: `${origin}${blogPagePath(i + 2)}`,

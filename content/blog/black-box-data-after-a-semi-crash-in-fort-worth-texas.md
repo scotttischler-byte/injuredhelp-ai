@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/black-box-data-after-a-semi-crash-in-fort-worth-texas.pptx"
 ---
 # Black Box Data After a Semi Crash in Fort Worth, Texas
 

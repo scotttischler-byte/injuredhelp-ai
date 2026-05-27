@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/whiplash-after-a-car-accident-in-lubbock-texas-what-to-know-2026.webp"
+presentationUrl: "/blog/presentations/whiplash-after-a-car-accident-in-lubbock-texas-what-to-know-2026.pptx"
 ---
 # Whiplash After a Car Accident in Lubbock, Texas — What to Know (2026)
 

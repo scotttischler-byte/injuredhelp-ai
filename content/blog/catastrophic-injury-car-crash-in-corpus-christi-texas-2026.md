@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/catastrophic-injury-car-crash-in-corpus-christi-texas-2026.pptx"
 ---
 # Catastrophic Injury Car Crash in Corpus Christi, Texas (2026)
 

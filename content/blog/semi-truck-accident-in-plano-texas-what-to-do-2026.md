@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-plano-texas-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in Plano, Texas: What to Do (2026)
 

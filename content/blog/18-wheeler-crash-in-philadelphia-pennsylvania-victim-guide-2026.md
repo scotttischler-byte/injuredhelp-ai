@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/18-wheeler-crash-in-philadelphia-pennsylvania-victim-guide-2026.pptx"
 ---
 # 18-Wheeler Crash in Philadelphia, Pennsylvania — Victim Guide (2026)
 

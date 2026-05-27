@@ -13,6 +13,7 @@ coverImage: "/blog/covers/generated/rideshare-accident-claims-uber-lyft.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/rideshare-accident-claims-uber-lyft.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

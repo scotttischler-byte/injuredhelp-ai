@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/how-long-does-a-car-accident-settlement-take-in-houston-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/how-long-does-a-car-accident-settlement-take-in-houston-2026.pptx"
 ---
 # How Long Does a Car Accident Settlement Take in Houston? (2026)
 

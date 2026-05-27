@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 14 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-victim-guide-nationwide-2026.pptx"
 ---
 ## Why we published this guide for your state
 

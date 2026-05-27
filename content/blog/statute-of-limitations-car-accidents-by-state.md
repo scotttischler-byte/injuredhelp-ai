@@ -13,6 +13,7 @@ coverImage: "/blog/covers/generated/statute-of-limitations-car-accidents-by-stat
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/statute-of-limitations-car-accidents-by-state.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

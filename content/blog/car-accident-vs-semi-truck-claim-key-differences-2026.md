@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 14 min read
+presentationUrl: "/blog/presentations/car-accident-vs-semi-truck-claim-key-differences-2026.pptx"
 ---
 ## Why we published this guide for your state
 

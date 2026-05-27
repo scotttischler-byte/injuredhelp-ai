@@ -8,6 +8,8 @@ import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { AuthorByline } from "@/components/blog/AuthorByline";
 import { BLOG_FOOTER_DISCLAIMER } from "@/lib/compliance";
 import { BlogCoverImage } from "@/components/blog/BlogCoverImage";
+import { BlogPresentationDeck } from "@/components/blog/BlogPresentationDeck";
+import { presentationPathForSlug } from "@/lib/blog-presentations";
 import { blogCoverForSlug } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
@@ -121,6 +123,12 @@ export default async function BlogPostPage({ params }: Props) {
     mainEntityOfPage: { "@type": "WebPage", "@id": `${origin}/blog/${slug}` },
     author: authorPerson,
     ...(reviewerPerson ? { reviewedBy: reviewerPerson } : {}),
+    associatedMedia: {
+      "@type": "MediaObject",
+      contentUrl: `${origin}${meta.presentationUrl ?? presentationPathForSlug(slug)}`,
+      encodingFormat: "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      name: `${meta.title} — presentation summary`,
+    },
     publisher: {
       "@type": "Organization",
       name: WRECKMATCH_ORG.legalName,
@@ -157,6 +165,12 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Author / reviewer + per-post disclaimer */}
         <AuthorByline author={author} reviewer={reviewer} publishedAt={meta.date} />
+
+        <BlogPresentationDeck
+          slug={slug}
+          title={meta.title}
+          presentationUrl={meta.presentationUrl}
+        />
 
         {expanded.introCallout ? (
           <div className="mt-6 rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">

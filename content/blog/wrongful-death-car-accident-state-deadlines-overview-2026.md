@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/wrongful-death-car-accident-state-deadlines-overview-2026.webp"
 materializedExpansion: true
 readTime: 14 min read
+presentationUrl: "/blog/presentations/wrongful-death-car-accident-state-deadlines-overview-2026.pptx"
 ---
 # Wrongful Death Car Accident — State Deadlines Overview (2026)
 

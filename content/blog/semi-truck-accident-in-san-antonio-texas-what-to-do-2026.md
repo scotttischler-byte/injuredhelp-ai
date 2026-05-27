@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-san-antonio-texas-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in San Antonio, Texas: What to Do (2026)
 

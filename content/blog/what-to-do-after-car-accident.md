@@ -13,6 +13,7 @@ coverImage: "/blog/covers/generated/what-to-do-after-car-accident.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/what-to-do-after-car-accident.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

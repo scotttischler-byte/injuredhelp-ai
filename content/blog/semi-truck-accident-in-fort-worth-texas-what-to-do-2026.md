@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-fort-worth-texas-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in Fort Worth, Texas: What to Do (2026)
 

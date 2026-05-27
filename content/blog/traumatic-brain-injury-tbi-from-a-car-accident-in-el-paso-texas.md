@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/traumatic-brain-injury-tbi-from-a-car-accident-in-el-paso-texas.pptx"
 ---
 # Traumatic Brain Injury (TBI) From a Car Accident in El Paso, Texas
 

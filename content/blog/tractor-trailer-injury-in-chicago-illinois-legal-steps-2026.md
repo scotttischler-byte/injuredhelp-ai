@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/tractor-trailer-injury-in-chicago-illinois-legal-steps-2026.pptx"
 ---
 # Tractor-Trailer Injury in Chicago, Illinois: Legal Steps (2026)
 

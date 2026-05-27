@@ -929,6 +929,22 @@ def publish_post(
 
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
     path.write_text(body, encoding="utf-8")
+    try:
+        from blog_presentation import (  # noqa: E402
+            generate_for_post,
+            upsert_frontmatter_presentation,
+        )
+
+        ppt_report = generate_for_post(path, force=True)
+        if ppt_report.score >= 100:
+            upsert_frontmatter_presentation(
+                path, f"/blog/presentations/{slug}.pptx"
+            )
+            log(f"Presentation {ppt_report.slide_count} slides (score {ppt_report.score})")
+        else:
+            log(f"WARN presentation below bar: {ppt_report.issues}")
+    except Exception as e:
+        log(f"WARN presentation generation failed: {e}")
     log(f"Published {path}")
     return slug
 

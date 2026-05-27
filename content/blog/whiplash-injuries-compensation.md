@@ -13,6 +13,7 @@ coverImage: "/blog/covers/generated/whiplash-injuries-compensation.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/whiplash-injuries-compensation.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

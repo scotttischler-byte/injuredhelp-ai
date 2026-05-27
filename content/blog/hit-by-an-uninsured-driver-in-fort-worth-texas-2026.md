@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-fort-worth-texas-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/hit-by-an-uninsured-driver-in-fort-worth-texas-2026.pptx"
 ---
 # Hit by an Uninsured Driver in Fort Worth, Texas (2026)
 

@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/18-wheeler-crash-in-arlington-texas-victim-guide-2026.pptx"
 ---
 # 18-Wheeler Crash in Arlington, Texas — Victim Guide (2026)
 

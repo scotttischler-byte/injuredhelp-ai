@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/underride-or-override-truck-crash-in-austin-texas-2026.pptx"
 ---
 # Underride or Override Truck Crash in Austin, Texas (2026)
 

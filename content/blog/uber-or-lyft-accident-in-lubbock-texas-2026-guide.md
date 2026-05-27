@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/uber-or-lyft-accident-in-lubbock-texas-2026-guide.webp"
+presentationUrl: "/blog/presentations/uber-or-lyft-accident-in-lubbock-texas-2026-guide.pptx"
 ---
 # Uber or Lyft Accident in Lubbock, Texas (2026 Guide)
 

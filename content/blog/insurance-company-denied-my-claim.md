@@ -13,6 +13,7 @@ coverImage: "/blog/covers/generated/insurance-company-denied-my-claim.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/insurance-company-denied-my-claim.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

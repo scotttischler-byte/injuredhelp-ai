@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-lubbock-crash-texas-2026.webp"
+presentationUrl: "/blog/presentations/should-you-hire-a-lawyer-after-a-lubbock-crash-texas-2026.pptx"
 ---
 # Should You Hire a Lawyer After a Lubbock Crash? (Texas 2026)
 

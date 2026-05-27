@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/uber-or-lyft-accident-in-houston-texas-2026-guide.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/uber-or-lyft-accident-in-houston-texas-2026-guide.pptx"
 ---
 # Uber or Lyft Accident in Houston, Texas (2026 Guide)
 

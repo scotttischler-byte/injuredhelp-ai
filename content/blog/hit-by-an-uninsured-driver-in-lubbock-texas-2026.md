@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/hit-by-an-uninsured-driver-in-lubbock-texas-2026.webp"
+presentationUrl: "/blog/presentations/hit-by-an-uninsured-driver-in-lubbock-texas-2026.pptx"
 ---
 # Hit by an Uninsured Driver in Lubbock, Texas (2026)
 

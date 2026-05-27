@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/catastrophic-injury-after-a-car-crash-next-steps-2026.webp"
 materializedExpansion: true
 readTime: 14 min read
+presentationUrl: "/blog/presentations/catastrophic-injury-after-a-car-crash-next-steps-2026.pptx"
 ---
 # Catastrophic Injury After a Car Crash — Next Steps (2026)
 

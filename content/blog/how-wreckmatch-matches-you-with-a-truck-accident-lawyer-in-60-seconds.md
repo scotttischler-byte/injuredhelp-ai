@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 14 min read
+presentationUrl: "/blog/presentations/how-wreckmatch-matches-you-with-a-truck-accident-lawyer-in-60-seconds.pptx"
 ---
 ## Why we published this guide for 60
 

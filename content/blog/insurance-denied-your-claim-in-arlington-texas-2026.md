@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/insurance-denied-your-claim-in-arlington-texas-2026.webp"
+presentationUrl: "/blog/presentations/insurance-denied-your-claim-in-arlington-texas-2026.pptx"
 ---
 # Insurance Denied Your Claim in Arlington? (Texas 2026)
 

@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/spinal-cord-injury-after-a-crash-in-san-antonio-texas-2026.pptx"
 ---
 # Spinal Cord Injury After a Crash in San Antonio, Texas (2026)
 

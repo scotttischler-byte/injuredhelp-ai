@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/should-you-hire-a-lawyer-after-a-el-paso-crash-texas-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/should-you-hire-a-lawyer-after-a-el-paso-crash-texas-2026.pptx"
 ---
 # Should You Hire a Lawyer After a El Paso Crash? (Texas 2026)
 

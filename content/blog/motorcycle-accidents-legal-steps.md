@@ -13,6 +13,7 @@ coverImage: "/blog/covers/generated/motorcycle-accidents-legal-steps.webp"
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/motorcycle-accidents-legal-steps.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

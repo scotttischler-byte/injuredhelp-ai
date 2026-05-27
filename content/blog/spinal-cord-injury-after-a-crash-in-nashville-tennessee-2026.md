@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/spinal-cord-injury-after-a-crash-in-nashville-tennessee-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/spinal-cord-injury-after-a-crash-in-nashville-tennessee-2026.pptx"
 ---
 # Spinal Cord Injury After a Crash in Nashville, Tennessee (2026)
 

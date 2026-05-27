@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/fmcsa-violations-after-a-truck-crash-in-arlington-texas.pptx"
 ---
 # FMCSA Violations After a Truck Crash in Arlington, Texas
 

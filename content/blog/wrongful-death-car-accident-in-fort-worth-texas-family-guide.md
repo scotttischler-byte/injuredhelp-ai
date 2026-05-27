@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/wrongful-death-car-accident-in-fort-worth-texas-family-guide.pptx"
 ---
 # Wrongful Death Car Accident in Fort Worth, Texas — Family Guide
 

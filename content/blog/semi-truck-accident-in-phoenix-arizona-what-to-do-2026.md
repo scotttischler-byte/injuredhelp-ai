@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/semi-truck-accident-in-phoenix-arizona-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in Phoenix, Arizona: What to Do (2026)
 

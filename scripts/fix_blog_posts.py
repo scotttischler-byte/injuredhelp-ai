@@ -436,6 +436,16 @@ When you are ready, we connect you with licensed counsel in about 60 seconds. Wr
     else:
         fm = fm.rstrip() + f'\nauthorId: "{expected_author}"\n'
     changes.append("authorId")
+
+    ppt_path = ROOT / "public/blog/presentations" / f"{slug}.pptx"
+    ppt_url = f"/blog/presentations/{slug}.pptx"
+    if ppt_path.exists():
+        if re.search(r"^presentationUrl:", fm, re.M):
+            fm = re.sub(r'^presentationUrl:.*$', f'presentationUrl: "{ppt_url}"', fm, flags=re.M)
+        else:
+            fm = fm.rstrip() + f'\npresentationUrl: "{ppt_url}"\n'
+        changes.append("presentationUrl")
+
     if "reviewerId:" not in fm:
         fm = fm.rstrip() + '\nreviewerId: "roy-waddell"\n'
         changes.append("reviewerId")

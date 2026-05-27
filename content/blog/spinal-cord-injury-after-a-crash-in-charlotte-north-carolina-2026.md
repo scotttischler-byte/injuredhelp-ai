@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/spinal-cord-injury-after-a-crash-in-charlotte-north-carolina-2026.webp"
 materializedExpansion: true
 readTime: 16 min read
+presentationUrl: "/blog/presentations/spinal-cord-injury-after-a-crash-in-charlotte-north-carolina-2026.pptx"
 ---
 # Spinal Cord Injury After a Crash in Charlotte, North Carolina (2026)
 

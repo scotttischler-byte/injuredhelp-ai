@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/truck-accident-in-plano-texas-steps-legal-help-2026.webp"
 materializedExpansion: true
 readTime: 16 min read
+presentationUrl: "/blog/presentations/truck-accident-in-plano-texas-steps-legal-help-2026.pptx"
 ---
 # Truck Accident in Plano, Texas: Steps & Legal Help (2026)
 

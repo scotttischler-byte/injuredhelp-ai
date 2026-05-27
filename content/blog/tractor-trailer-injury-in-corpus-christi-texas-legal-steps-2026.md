@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/tractor-trailer-injury-in-corpus-christi-texas-legal-steps-2026.pptx"
 ---
 # Tractor-Trailer Injury in Corpus Christi, Texas: Legal Steps (2026)
 

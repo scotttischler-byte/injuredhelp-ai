@@ -13,6 +13,7 @@ coverImage: "/blog/covers/generated/how-much-is-my-car-accident-case-worth-2026.
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/how-much-is-my-car-accident-case-worth-2026.pptx"
 ---
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 

@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/severe-car-accident-injuries-when-to-call-a-lawyer-2026.webp"
 materializedExpansion: true
 readTime: 14 min read
+presentationUrl: "/blog/presentations/severe-car-accident-injuries-when-to-call-a-lawyer-2026.pptx"
 ---
 # Severe Car Accident Injuries: When to Call a Lawyer (2026)
 

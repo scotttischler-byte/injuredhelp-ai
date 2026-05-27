@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/catastrophic-injury-car-crash-in-plano-texas-2026.pptx"
 ---
 # Catastrophic Injury Car Crash in Plano, Texas (2026)
 

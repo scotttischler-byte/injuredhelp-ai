@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 15 min read
 coverImage: "/blog/covers/generated/what-to-do-after-a-car-accident-in-arlington-texas-2026.webp"
+presentationUrl: "/blog/presentations/what-to-do-after-a-car-accident-in-arlington-texas-2026.pptx"
 ---
 # What to Do After a Car Accident in Arlington, Texas (2026)
 

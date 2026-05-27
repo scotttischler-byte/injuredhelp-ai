@@ -17,6 +17,7 @@ reviewerId: roy-waddell
 coverImage: "/blog/covers/generated/severe-injury-after-a-car-accident-in-nashville-tennessee-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/severe-injury-after-a-car-accident-in-nashville-tennessee-2026.pptx"
 ---
 # Severe Injury After a Car Accident in Nashville, Tennessee (2026)
 

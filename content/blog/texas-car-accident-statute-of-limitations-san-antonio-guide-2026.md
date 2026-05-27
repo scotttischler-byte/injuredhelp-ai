@@ -17,6 +17,7 @@ qualityTier: gold
 coverImage: "/blog/covers/generated/texas-car-accident-statute-of-limitations-san-antonio-guide-2026.webp"
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/texas-car-accident-statute-of-limitations-san-antonio-guide-2026.pptx"
 ---
 # Texas Car Accident Statute of Limitations — San Antonio Guide (2026)
 

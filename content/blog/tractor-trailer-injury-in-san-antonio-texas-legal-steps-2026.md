@@ -18,6 +18,7 @@ reviewerId: roy-waddell
 qualityTier: gold
 materializedExpansion: true
 readTime: 15 min read
+presentationUrl: "/blog/presentations/tractor-trailer-injury-in-san-antonio-texas-legal-steps-2026.pptx"
 ---
 # Tractor-Trailer Injury in San Antonio, Texas: Legal Steps (2026)
 
