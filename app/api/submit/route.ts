@@ -3,6 +3,7 @@ import { Resend } from "resend";
 import twilio from "twilio";
 import { insertLead } from "@/lib/db";
 import { isDuplicateLeadCall } from "@/lib/lead-dedup";
+import { createSarahOutboundCall } from "@/lib/retell-sarah";
 import { teamNotificationPhones, teamSmsPhones } from "@/lib/team-phones";
 import { teamIvrVoiceUrl } from "@/lib/twilio-voice";
 import { absoluteUrl, brandFromHost, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
@@ -168,12 +169,10 @@ export async function POST(req: NextRequest) {
       brand,
     };
 
-    const retellAgentId = cfg.retellAgentId?.trim() || process.env.RETELL_AGENT_ID?.trim() || "";
-
     const smsRecipients = teamSmsPhones();
     const taskLabels: string[] = [
       "twilio_lead_sms",
-      "retell",
+      "sarah_retell",
       "ghl",
       "tiktok_submit_form",
       "tiktok_lead",
@@ -186,37 +185,34 @@ export async function POST(req: NextRequest) {
 
     const parallelTasks: Promise<unknown>[] = [
       twilioClient.messages.create({
-        body: `Hi ${firstName}! We received your injury case request (${emailTrimmed}). An attorney's team is calling you right now. Questions? Reply anytime.`,
+        body: `Hi ${firstName}! This is WreckMatch — Sarah is calling you now from our team line to help match you with a free attorney. Please answer. Questions? Reply here anytime.`,
         from: twilioFrom,
         to: e164Phone,
       }),
 
-      skipOutboundCalls || !retellAgentId
-        ? Promise.reject(
-            new Error(
-              skipOutboundCalls ? "Skipped duplicate lead (retell)" : "RETELL_AGENT_ID not configured for brand",
-            ),
-          )
-        : fetch("https://api.retellai.com/v2/create-phone-call", {
-            method: "POST",
-            headers: {
-              Authorization: `Bearer ${process.env.RETELL_API_KEY!}`,
-              "Content-Type": "application/json",
+      skipOutboundCalls
+        ? Promise.reject(new Error("Skipped duplicate lead (Sarah outbound)"))
+        : createSarahOutboundCall(
+            {
+              toE164: e164Phone,
+              firstName,
+              lastName: lastName || undefined,
+              email: emailTrimmed,
+              state,
+              city: typeof city === "string" ? city : undefined,
+              zip: typeof zip === "string" ? zip : undefined,
+              timing,
+              injuries: injuryRows.join(", "),
+              source: source || cfg.ghlSource,
+              language: language || "English",
+              geoTag: geo.geoTag,
+              attorneyAssigned: geo.attorneyAssigned,
+              brand: cfg.name,
             },
-            body: JSON.stringify({
-              from_number: twilioFrom,
-              to_number: e164Phone,
-              agent_id: retellAgentId,
-              retell_llm_dynamic_variables: {
-                lead_name: firstName,
-                lead_email: emailTrimmed,
-                lead_state: state,
-                accident_timing: timing,
-                injury_types: injuries?.join(", ") || "Not specified",
-                geo_tag: geo.geoTag,
-                attorney_assigned: geo.attorneyAssigned,
-              },
-            }),
+            { brandAgentId: cfg.retellAgentId },
+          ).then((r) => {
+            if (!r.ok) throw new Error(`${r.reason}${r.detail ? `: ${r.detail}` : ""}`);
+            return r;
           }),
 
       skipOutboundCalls
@@ -241,6 +237,8 @@ export async function POST(req: NextRequest) {
                 timestamp: new Date().toISOString(),
                 team_call_handled_by: "twilio_press_1",
                 suppress_team_outbound_call: true,
+                sarah_retell_outbound: true,
+                sarah_call_purpose: "lead_conversion",
               }),
             })
           : Promise.reject(new Error("GHL_WEBHOOK_URL not configured")),

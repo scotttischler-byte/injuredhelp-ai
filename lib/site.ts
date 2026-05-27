@@ -59,7 +59,10 @@ export const BRAND_CONFIG = {
     ghlSource: "WreckMatch",
     tiktokContentName: "wreckmatch_home",
     tiktokPixelId: "D83MMQ3C77U9FQKB73JG",
-    retellAgentId: process.env.RETELL_AGENT_ID ?? "",
+    retellAgentId:
+      process.env.RETELL_VOICE_AGENT_ID?.trim() ||
+      process.env.RETELL_AGENT_ID?.trim() ||
+      "",
   },
   injuredhelp: {
     name: "InjuredHelp.ai",
@@ -69,6 +72,10 @@ export const BRAND_CONFIG = {
     ghlSource: "InjuredHelp.ai",
     tiktokContentName: "injuredhelp_home",
     tiktokPixelId: process.env.NEXT_PUBLIC_TIKTOK_PIXEL_ID_IH?.trim() ?? "",
-    retellAgentId: process.env.RETELL_AGENT_ID_IH ?? process.env.RETELL_AGENT_ID ?? "",
+    retellAgentId:
+      process.env.RETELL_VOICE_AGENT_ID?.trim() ||
+      process.env.RETELL_AGENT_ID_IH?.trim() ||
+      process.env.RETELL_AGENT_ID?.trim() ||
+      "",
   },
 } as const;

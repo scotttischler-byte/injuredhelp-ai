@@ -29,7 +29,7 @@ export const ADVERTISING_LEAD_PARAGRAPH =
   `${PRIMARY_DISCLAIMER} Submitting any form on this website does not create an attorney-client relationship with WreckMatch.`;
 
 export const FORM_SUCCESS_MESSAGE = (phone: string) =>
-  `We are calling you within 60 seconds at ${phone}. You will speak with a live team member or Ava.`;
+  `Sarah from WreckMatch is calling you now at ${phone} — please answer. She will confirm your details and connect you with a licensed attorney for free.`;
 
 export const BLOG_FOOTER_DISCLAIMER = `${PRIMARY_DISCLAIMER} This article is general information only, not legal advice. For personalized help call ${WRECKMATCH_PHONE_DISPLAY} or submit the form on our homepage.`;
 

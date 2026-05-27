@@ -60,8 +60,8 @@ function ThankYouCard({ displayName }: { displayName: string }) {
         {displayName ? `You're All Set, ${displayName}!` : "You're All Set!"}
       </h1>
       <p className="mt-4 text-center text-base leading-relaxed text-gray-300">
-        An attorney team member will call and text you within the next 60 seconds. Keep your phone
-        close.
+        Sarah from WreckMatch is calling you now to confirm your details and start free attorney
+        matching. Please answer — the call usually arrives within 60 seconds.
       </p>
       <div className="mt-4 flex justify-center">
         <WreckMatchPhone variant="dark" asLink />
@@ -89,7 +89,7 @@ function ThankYouCard({ displayName }: { displayName: string }) {
       <div className="mt-10 rounded-xl border border-gray-800 bg-gray-950/60 p-5">
         <h2 className="text-sm font-bold uppercase tracking-wide text-gray-400">What happens next?</h2>
         <ol className="mt-4 list-decimal space-y-3 pl-5 text-sm leading-relaxed text-gray-300">
-          <li>Our team calls you at the number you provided</li>
+          <li>Sarah calls you at the number you provided (AI intake — then human/attorney follow-up)</li>
           <li>We review your accident details together</li>
           <li>You get matched to the best attorney for your case</li>
         </ol>
