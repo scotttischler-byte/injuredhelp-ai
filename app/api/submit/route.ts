@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import twilio from "twilio";
 import { insertLead } from "@/lib/db";
+import { isDuplicateLeadCall } from "@/lib/lead-dedup";
+import { teamNotificationPhones, teamSmsPhones } from "@/lib/team-phones";
+import { teamIvrVoiceUrl } from "@/lib/twilio-voice";
 import { absoluteUrl, brandFromHost, BRAND_CONFIG, siteOriginFromHeaders } from "@/lib/site";
 import {
   trackTikTokCompleteRegistration,
@@ -131,9 +134,19 @@ export async function POST(req: NextRequest) {
     </div>
   `;
 
-    const teamSmsBody = `🚨 NEW ${cfg.name.toUpperCase()} LEAD\n👤 ${firstName} ${lastName}\n📞 ${phone}\n📍 ${state} (${geo.geoTag})\n⚖️ ${geo.attorneyAssigned}\n🤕 ${injuryRows.join(", ")}\n⏱ ${timing}\n🌐 Source: ${source || cfg.ghlSource}\n\nCall them now → tap: ${phone}`;
+    const teamSmsBody = `🚨 NEW ${cfg.name.toUpperCase()} LEAD\n👤 ${firstName} ${lastName}\n📞 ${phone}\n📍 ${state} (${geo.geoTag})\n⚖️ ${geo.attorneyAssigned}\n🤕 ${injuryRows.join(", ")}\n⏱ ${timing}\n🌐 Source: ${source || cfg.ghlSource}\n\nAnswer the next call and press 1 to connect → ${phone}`;
 
-    const twimlSay = `<Response><Say voice="alice">New ${cfg.name} lead. ${firstName} from ${state}. Geo ${geo.geoTag}. Injury type: ${injuryRows.join(" and ")}. Their number is ${phone.split("").join(" ")}. Calling them now.</Say></Response>`;
+    const skipOutboundCalls = await isDuplicateLeadCall(e164Phone);
+    const teamIvrUrl = teamIvrVoiceUrl(
+      {
+        lead: e164Phone,
+        name: firstName,
+        state: state ?? "",
+        geo: geo.geoTag,
+      },
+      siteOrigin,
+    );
+    const primaryTeamPhone = teamNotificationPhones()[0];
 
     const clientIp =
       req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
@@ -157,7 +170,8 @@ export async function POST(req: NextRequest) {
 
     const retellAgentId = cfg.retellAgentId?.trim() || process.env.RETELL_AGENT_ID?.trim() || "";
 
-    const settledLabels = [
+    const smsRecipients = teamSmsPhones();
+    const taskLabels: string[] = [
       "twilio_lead_sms",
       "retell",
       "ghl",
@@ -166,23 +180,24 @@ export async function POST(req: NextRequest) {
       "tiktok_complete_registration",
       "email_scott",
       "email_cathy",
-      "call_scott",
-      "call_kathy_1",
-      "call_kathy_2",
-      "sms_scott",
-      "sms_kathy_1",
-      "sms_kathy_2",
-    ] as const;
+      "team_ivr_call",
+      ...smsRecipients.map((_, i) => `sms_team_${i}`),
+    ];
 
-    const results = await Promise.allSettled([
+    const parallelTasks: Promise<unknown>[] = [
       twilioClient.messages.create({
         body: `Hi ${firstName}! We received your injury case request (${emailTrimmed}). An attorney's team is calling you right now. Questions? Reply anytime.`,
         from: twilioFrom,
         to: e164Phone,
       }),
 
-      retellAgentId
-        ? fetch("https://api.retellai.com/v2/create-phone-call", {
+      skipOutboundCalls || !retellAgentId
+        ? Promise.reject(
+            new Error(
+              skipOutboundCalls ? "Skipped duplicate lead (retell)" : "RETELL_AGENT_ID not configured for brand",
+            ),
+          )
+        : fetch("https://api.retellai.com/v2/create-phone-call", {
             method: "POST",
             headers: {
               Authorization: `Bearer ${process.env.RETELL_API_KEY!}`,
@@ -202,30 +217,33 @@ export async function POST(req: NextRequest) {
                 attorney_assigned: geo.attorneyAssigned,
               },
             }),
-          })
-        : Promise.reject(new Error("RETELL_AGENT_ID not configured for brand")),
+          }),
 
-      process.env.GHL_WEBHOOK_URL
-        ? fetch(process.env.GHL_WEBHOOK_URL, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              name: fullName,
-              email: emailTrimmed,
-              phone: e164Phone,
-              state,
-              city: city ?? "",
-              zip: zip ?? "",
-              accident_timing: timing,
-              injury_types: injuries?.join(", ") || "Not specified",
-              source: cfg.ghlSource,
-              tags: [geo.geoTag, cfg.ghlSource, "MVA"],
-              geo_tag: geo.geoTag,
-              attorney_assigned: geo.attorneyAssigned,
-              timestamp: new Date().toISOString(),
-            }),
-          })
-        : Promise.reject(new Error("GHL_WEBHOOK_URL not configured")),
+      skipOutboundCalls
+        ? Promise.reject(new Error("Skipped duplicate lead (ghl webhook)"))
+        : process.env.GHL_WEBHOOK_URL
+          ? fetch(process.env.GHL_WEBHOOK_URL, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                name: fullName,
+                email: emailTrimmed,
+                phone: e164Phone,
+                state,
+                city: city ?? "",
+                zip: zip ?? "",
+                accident_timing: timing,
+                injury_types: injuries?.join(", ") || "Not specified",
+                source: cfg.ghlSource,
+                tags: [geo.geoTag, cfg.ghlSource, "MVA"],
+                geo_tag: geo.geoTag,
+                attorney_assigned: geo.attorneyAssigned,
+                timestamp: new Date().toISOString(),
+                team_call_handled_by: "twilio_press_1",
+                suppress_team_outbound_call: true,
+              }),
+            })
+          : Promise.reject(new Error("GHL_WEBHOOK_URL not configured")),
 
       Promise.all([
         trackTikTokSubmitForm(tiktokBase),
@@ -251,45 +269,42 @@ export async function POST(req: NextRequest) {
           })
         : Promise.reject(new Error("RESEND_API_KEY not configured")),
 
-      twilioClient.calls.create({
-        to: "+18156080449",
-        from: twilioFrom,
-        twiml: twimlSay,
-      }),
+      skipOutboundCalls || !primaryTeamPhone
+        ? Promise.reject(
+            new Error(
+              skipOutboundCalls
+                ? "Skipped duplicate lead (team IVR)"
+                : "TEAM_NOTIFICATION_PHONES not configured",
+            ),
+          )
+        : twilioClient.calls.create({
+            to: primaryTeamPhone,
+            from: twilioFrom,
+            url: teamIvrUrl,
+            method: "POST",
+            timeout: 45,
+          }),
 
-      twilioClient.calls.create({
-        to: "+14142027718",
-        from: twilioFrom,
-        twiml: twimlSay,
-      }),
+      ...smsRecipients.map((to) =>
+        twilioClient.messages.create({
+          to,
+          from: twilioFrom,
+          body: teamSmsBody,
+        }),
+      ),
+    ];
 
-      twilioClient.calls.create({
-        to: "+14148655518",
-        from: twilioFrom,
-        twiml: twimlSay,
-      }),
+    const results = await Promise.allSettled(parallelTasks);
 
-      twilioClient.messages.create({
-        to: "+18156080449",
-        from: twilioFrom,
-        body: teamSmsBody,
-      }),
-
-      twilioClient.messages.create({
-        to: "+14142027718",
-        from: twilioFrom,
-        body: teamSmsBody,
-      }),
-
-      twilioClient.messages.create({
-        to: "+14148655518",
-        from: twilioFrom,
-        body: teamSmsBody,
-      }),
-    ]);
+    // Avoid double-firing GHL automations: webhook is primary; API upsert only when explicitly enabled.
+    const ghlApiUpsert =
+      process.env.GHL_ENABLE_API_UPSERT === "true" &&
+      process.env.GHL_API_KEY &&
+      process.env.GHL_LOCATION_ID &&
+      !skipOutboundCalls;
 
     try {
-      if (process.env.GHL_API_KEY && process.env.GHL_LOCATION_ID) {
+      if (ghlApiUpsert) {
         await fetch("https://services.leadconnectorhq.com/contacts/", {
           method: "POST",
           headers: {
@@ -341,7 +356,7 @@ export async function POST(req: NextRequest) {
     const errors: string[] = [];
 
     results.forEach((r, i) => {
-      const label = settledLabels[i] ?? `task_${i}`;
+      const label = taskLabels[i] ?? `task_${i}`;
       if (r.status === "rejected") {
         console.error(`${label} failed:`, r.reason);
         errors.push(label);
