@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SiteHeader } from "@/components/SiteHeader";
+import { BlogSiteHeader } from "@/components/blog/BlogSiteHeader";
 import { BlogIndex } from "@/components/blog/BlogIndex";
 import { paginatePosts } from "@/lib/blog-pagination";
 import { PRIORITY_PAGE_SEO } from "@/lib/priority-page-seo";
@@ -23,7 +23,7 @@ export default function BlogIndexPage() {
 
   return (
     <>
-      <SiteHeader />
+      <BlogSiteHeader blogLocale="en" />
       <BlogIndex posts={posts} page={1} totalPosts={allPosts.length} />
     </>
   );

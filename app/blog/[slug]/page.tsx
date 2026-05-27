@@ -3,7 +3,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { SiteHeader } from "@/components/SiteHeader";
+import { BlogSiteHeader } from "@/components/blog/BlogSiteHeader";
+import { BlogLanguageBar } from "@/components/blog/BlogLanguageBar";
+import { BLOG_UI, type BlogLocale } from "@/lib/blog-locale";
+import fs from "fs";
+import path from "path";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
 import { AuthorByline } from "@/components/blog/AuthorByline";
 import { BLOG_FOOTER_DISCLAIMER } from "@/lib/compliance";
@@ -46,11 +50,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function BlogPostPage({ params }: Props) {
+  const locale: BlogLocale = "en";
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = getPostBySlug(slug, locale);
   if (!post) notFound();
 
   const origin = serverSiteOrigin();
+  const hasSpanish = fs.existsSync(path.join(process.cwd(), "content/blog/es", `${slug}.md`));
+  const ui = BLOG_UI[locale];
 
   const { meta, content } = post;
   const cover = blogCoverForSlug(slug);
@@ -66,7 +73,9 @@ export default async function BlogPostPage({ params }: Props) {
     .split(/\s+/)
     .filter(Boolean).length;
   const materialized =
-    cleanContent.includes("<!-- wm-materialized-expansion -->") || sourceWordCount >= 2000;
+    cleanContent.includes("<!-- wm-materialized-expansion -->") ||
+    cleanContent.includes("<!-- wm-materialized-expansion-es -->") ||
+    sourceWordCount >= 2000;
   const expanded = materialized
     ? { sections: [], faqs: [], introCallout: undefined }
     : expandPostContent(slug, meta);
@@ -142,13 +151,14 @@ export default async function BlogPostPage({ params }: Props) {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-gray-100 pb-24 md:pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <SiteHeader />
+      <BlogSiteHeader blogLocale={locale} />
       <article className="mx-auto max-w-3xl px-4 py-8 sm:py-12">
-        <nav className="mb-6 text-sm text-gray-500">
-          <Link href="/blog" prefetch={false} className="font-medium hover:text-[#cc0000]">
-            ← All guides
+        <nav className="mb-6 text-sm font-medium text-gray-600">
+          <Link href="/blog" prefetch={false} className="hover:text-[#cc0000]">
+            {ui.allGuides}
           </Link>
         </nav>
+        <BlogLanguageBar slug={slug} locale={locale} hasEnglish hasSpanish={hasSpanish} />
         <p className="inline-flex rounded-full bg-red-50 px-3 py-1 text-xs font-bold uppercase tracking-wide text-[#cc0000]">
           {meta.category}
         </p>
@@ -166,19 +176,15 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Author / reviewer + per-post disclaimer */}
         <AuthorByline author={author} reviewer={reviewer} publishedAt={meta.date} />
 
-        <BlogPresentationDeck
-          slug={slug}
-          title={meta.title}
-          presentationUrl={meta.presentationUrl}
-        />
+        <BlogPresentationDeck slug={slug} title={meta.title} locale={locale} presentationUrl={meta.presentationUrl} />
 
         {expanded.introCallout ? (
           <div className="mt-6 rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
-            <strong className="font-bold">At a glance.</strong> {expanded.introCallout}
+            <strong className="font-bold">{ui.atAGlance}</strong> {expanded.introCallout}
           </div>
         ) : null}
 
-        <div className="prose prose-gray mt-6 max-w-none prose-headings:font-bold prose-a:text-emerald-600 prose-img:rounded-lg">
+        <div className="prose prose-lg prose-slate mt-6 max-w-none prose-headings:font-extrabold prose-headings:text-gray-950 prose-p:text-gray-900 prose-p:leading-relaxed prose-li:text-gray-900 prose-strong:text-gray-950 prose-a:font-semibold prose-a:text-[#b91c1c] prose-img:rounded-lg">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{cleanContent}</ReactMarkdown>
         </div>
 
@@ -234,7 +240,7 @@ export default async function BlogPostPage({ params }: Props) {
         {/* FAQ block */}
         <section className="mt-12">
           <h2 className="text-2xl font-extrabold tracking-tight text-gray-950 sm:text-[1.65rem]">
-            Frequently asked questions
+            {ui.faqHeading}
           </h2>
           <div className="mt-6 space-y-5">
             {allFaqs.map((f) => (

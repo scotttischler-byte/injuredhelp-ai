@@ -1,3 +1,4 @@
+import type { BlogLocale } from "@/lib/blog-locale";
 import type { PostMeta } from "@/lib/posts";
 
 export const BLOG_POSTS_PER_PAGE = 12;
@@ -12,6 +13,7 @@ export function paginatePosts(posts: PostMeta[], page: number): PostMeta[] {
   return posts.slice(start, start + BLOG_POSTS_PER_PAGE);
 }
 
-export function blogPagePath(page: number): string {
-  return page <= 1 ? "/blog" : `/blog/page/${page}`;
+export function blogPagePath(page: number, locale: BlogLocale = "en"): string {
+  const base = locale === "es" ? "/es/blog" : "/blog";
+  return page <= 1 ? base : `${base}/page/${page}`;
 }

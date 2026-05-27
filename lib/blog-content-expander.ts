@@ -65,7 +65,7 @@ const SLUG_TOPIC_RULES: Array<{ test: RegExp; topic: Topic }> = [
   { test: /(what-to-do|first-steps|after-a-crash|after-a-car|immediate|on-scene)/i, topic: "first-steps" },
 ];
 
-function topicForSlug(slug: string): Topic {
+export function topicForSlug(slug: string): Topic {
   const s = slug.toLowerCase();
   for (const rule of SLUG_TOPIC_RULES) {
     if (rule.test.test(s)) return rule.topic;
@@ -89,7 +89,7 @@ const TOPIC_LABEL: Record<Topic, string> = {
   general: "car accident case",
 };
 
-function findState(meta: PostMeta, slug: string): StateProfile | undefined {
+export function findState(meta: PostMeta, slug: string): StateProfile | undefined {
   const s = slug.toLowerCase();
   const fromMeta = meta.state?.trim().toLowerCase();
   if (fromMeta && fromMeta !== "general") {
@@ -104,7 +104,7 @@ function findState(meta: PostMeta, slug: string): StateProfile | undefined {
   return undefined;
 }
 
-function findCity(slug: string, state?: StateProfile): CityProfile | undefined {
+export function findCity(slug: string, state?: StateProfile): CityProfile | undefined {
   const s = slug.toLowerCase();
   // Prefer cities that match the resolved state to disambiguate Arlington TX vs VA, etc.
   const candidates = state ? ALL_CITIES.filter((c) => c.state === state.state) : ALL_CITIES;

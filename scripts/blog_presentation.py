@@ -15,7 +15,41 @@ from pptx.util import Inches, Pt
 
 ROOT = Path(__file__).resolve().parents[1]
 BLOG_DIR = ROOT / "content/blog"
+BLOG_ES_DIR = ROOT / "content/blog/es"
 PRESENTATIONS_DIR = ROOT / "public/blog/presentations"
+
+COPY: dict[str, dict[str, str]] = {
+    "en": {
+        "read_first": "Important — read first",
+        "quick_answer": "Quick answer (quotable summary)",
+        "faq_heading": "Frequently asked questions",
+        "cta_heading": "Get matched with a licensed attorney",
+        "review_heading": "Reviewed for legal context",
+        "disclaimer_1": "Educational only — not legal advice.",
+        "disclaimer_2": "WreckMatch LLC is a legal referral service, NOT a law firm.",
+        "disclaimer_3": "800+ participating law firms nationwide — free matching.",
+        "disclaimer_4": "Confirm all deadlines with licensed counsel in your state.",
+        "cta_1": "Free attorney matching in ~60 seconds: {site}/#form",
+        "cta_2": "Call {phone}",
+        "cta_3": "Full article: {url}",
+        "cta_4": "No fee for matching — contingency attorneys in network.",
+    },
+    "es": {
+        "read_first": "Importante — lea primero",
+        "quick_answer": "Respuesta rápida (resumen citabile)",
+        "faq_heading": "Preguntas frecuentes",
+        "cta_heading": "Emparejamiento con abogado con licencia",
+        "review_heading": "Revisado para contexto legal",
+        "disclaimer_1": "Solo educativo — no es asesoría legal.",
+        "disclaimer_2": "WreckMatch LLC es un servicio de referencia legal, NO un bufete.",
+        "disclaimer_3": "Más de 800 bufetes participantes — emparejamiento gratuito.",
+        "disclaimer_4": "Confirme plazos con un abogado con licencia en su estado.",
+        "cta_1": "Emparejamiento gratis en ~60 segundos: {site}/#form",
+        "cta_2": "Llame al {phone}",
+        "cta_3": "Artículo completo: {url}",
+        "cta_4": "Sin costo por emparejamiento — honorarios de contingencia.",
+    },
+}
 SITE = "https://www.wreckmatch.com"
 PHONE = "855 WRECKMATCH (855) 897-3256"
 NOTES_FOOTER = (
@@ -168,7 +202,11 @@ def _bullets_from_block(block: str) -> list[str]:
 
 
 def find_quick_answer(body: str) -> str:
-    m = re.search(r"\*\*Quick answer:\*\*\s*(.+?)(?:\n\n|\n## )", body, re.S | re.I)
+    m = re.search(
+        r"\*\*(?:Quick answer|En resumen|Respuesta rápida):\*\*\s*(.+?)(?:\n\n|\n## )",
+        body,
+        re.S | re.I,
+    )
     if m:
         return strip_md(m.group(1))[:500]
     m = re.search(r"\*\*Direct answer:\*\*\s*(.+?)(?:\n\n|\n## )", body, re.S | re.I)
@@ -183,8 +221,10 @@ def find_quick_answer(body: str) -> str:
 def faq_pairs(body: str) -> list[tuple[str, str]]:
     pairs: list[tuple[str, str]] = []
     faq_zone = body
-    if "## Frequently asked questions" in body:
-        faq_zone = body.split("## Frequently asked questions", 1)[1]
+    for marker in ("## Frequently asked questions", "## Preguntas frecuentes"):
+        if marker in body:
+            faq_zone = body.split(marker, 1)[1]
+            break
     for m in re.finditer(r"###\s+(.+?)\n+([\s\S]*?)(?=\n### |\n## |\Z)", faq_zone):
         q = strip_md(m.group(1).strip())
         a = strip_md(m.group(2).strip())[:400]
@@ -266,7 +306,9 @@ def build_presentation(
     body: str,
     *,
     out_path: Path | None = None,
+    locale: str = "en",
 ) -> Path:
+    copy = COPY.get(locale, COPY["en"])
     title = fm.get("title", slug.replace("-", " ").title())
     state = fm.get("state", "").strip()
     category = fm.get("category", "Car Accidents")
@@ -279,7 +321,7 @@ def build_presentation(
     prs.slide_width = Inches(10)
     prs.slide_height = Inches(7.5)
 
-    url = f"{SITE}/blog/{slug}"
+    url = f"{SITE}/es/blog/{slug}" if locale == "es" else f"{SITE}/blog/{slug}"
     subtitle = f"{category}" + (f" · {state}" if state else "") + (f" · {date}" if date else "")
 
     _add_title_slide(
@@ -290,34 +332,24 @@ def build_presentation(
     )
 
     disclaimer_bullets = [
-        "Educational only — not legal advice.",
-        "WreckMatch LLC is a legal referral service, NOT a law firm.",
-        "800+ participating law firms nationwide — free matching.",
-        "Confirm all deadlines with licensed counsel in your state.",
-        f"Author perspective: {author_name}.",
+        copy["disclaimer_1"],
+        copy["disclaimer_2"],
+        copy["disclaimer_3"],
+        copy["disclaimer_4"],
+        f"Author: {author_name}.",
     ]
-    _add_content_slide(
-        prs,
-        "Important — read first",
-        disclaimer_bullets,
-        "Compliance slide required for all WreckMatch educational materials.",
-    )
+    _add_content_slide(prs, copy["read_first"], disclaimer_bullets, copy["read_first"])
 
     quick = find_quick_answer(body) or excerpt
     if quick:
-        _add_content_slide(
-            prs,
-            "Quick answer (quotable summary)",
-            [quick],
-            quick,
-        )
+        _add_content_slide(prs, copy["quick_answer"], [quick], quick)
 
     sections = extract_sections(body)
     content_slides = 0
     for sec in sections:
         if content_slides >= 8:
             break
-        if re.search(r"why we published|note for families", sec.heading, re.I):
+        if re.search(r"why we published|note for families|por qué publicamos", sec.heading, re.I):
             _add_content_slide(prs, sec.heading, sec.bullets[:4], sec.notes)
             content_slides += 1
             continue
@@ -331,36 +363,26 @@ def build_presentation(
         for q, a in pairs[:5]:
             faq_bullets.append(f"Q: {q}")
             faq_bullets.append(f"A: {a}")
-        _add_content_slide(
-            prs,
-            "Frequently asked questions",
-            faq_bullets,
-            "Frequently asked questions — FAQ slide for AI citation and search.",
-        )
+        _add_content_slide(prs, copy["faq_heading"], faq_bullets, copy["faq_heading"])
 
     cta_bullets = [
-        f"Free attorney matching in ~60 seconds: {SITE}/#form",
-        f"Call {PHONE}",
-        f"Full article: {url}",
-        "No fee for matching — contingency attorneys in network.",
+        copy["cta_1"].format(site=SITE, phone=PHONE, url=url),
+        copy["cta_2"].format(site=SITE, phone=PHONE, url=url),
+        copy["cta_3"].format(site=SITE, phone=PHONE, url=url),
+        copy["cta_4"].format(site=SITE, phone=PHONE, url=url),
     ]
-    _add_content_slide(
-        prs,
-        "Get matched with a licensed attorney",
-        cta_bullets,
-        f"CTA slide. Phone {PHONE}. WreckMatch referral service.",
-    )
+    _add_content_slide(prs, copy["cta_heading"], cta_bullets, copy["cta_heading"])
 
     _add_content_slide(
         prs,
-        "Reviewed for legal context",
+        copy["review_heading"],
         [
             "Judge Roy Waddell — Legal Advisor, WreckMatch LLC.",
             "Courtroom and procedural perspective only.",
             "Not case-specific legal advice.",
-            f"Download companion guide: {url}",
+            f"Guía: {url}",
         ],
-        "Roy Waddell review line mirrors published blog posts.",
+        copy["review_heading"],
     )
 
     prs.core_properties.title = title[:240]
@@ -384,8 +406,12 @@ def build_presentation(
         f"Gold-tier presentation summary for {url}. Educational only; not a law firm."
     )
 
-    PRESENTATIONS_DIR.mkdir(parents=True, exist_ok=True)
-    dest = out_path or (PRESENTATIONS_DIR / f"{slug}.pptx")
+    dest = out_path or (
+        PRESENTATIONS_DIR / "es" / f"{slug}.pptx"
+        if locale == "es"
+        else PRESENTATIONS_DIR / f"{slug}.pptx"
+    )
+    dest.parent.mkdir(parents=True, exist_ok=True)
     prs.save(str(dest))
     return dest
 
@@ -441,7 +467,14 @@ def score_presentation(slug: str, path: Path, fm: dict[str, str], body: str) -> 
         score -= 5
 
     if faq_pairs(body) and not any(
-        token in combined for token in ("frequently asked", "faq", "q:")
+        token in combined
+        for token in (
+            "frequently asked",
+            "preguntas frecuentes",
+            "faq",
+            "q:",
+            "p:",
+        )
     ):
         issues.append("missing_faq_content")
         score -= 8
@@ -456,16 +489,20 @@ def score_presentation(slug: str, path: Path, fm: dict[str, str], body: str) -> 
     )
 
 
-def generate_for_post(path: Path, *, force: bool = False) -> PresentationReport:
+def generate_for_post(path: Path, *, force: bool = False, locale: str = "en") -> PresentationReport:
     slug = path.stem
     text = path.read_text(encoding="utf-8")
     fm, body = parse_frontmatter(text)
-    out = PRESENTATIONS_DIR / f"{slug}.pptx"
+    out = (
+        PRESENTATIONS_DIR / "es" / f"{slug}.pptx"
+        if locale == "es"
+        else PRESENTATIONS_DIR / f"{slug}.pptx"
+    )
 
     if out.exists() and not force:
         return score_presentation(slug, out, fm, body)
 
-    build_presentation(slug, fm, body, out_path=out)
+    build_presentation(slug, fm, body, out_path=out, locale=locale)
     return score_presentation(slug, out, fm, body)
 
 

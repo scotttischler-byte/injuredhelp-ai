@@ -15,6 +15,8 @@
     "materialize:blog": "npx tsx scripts/materialize-blog-expansion.ts",
     "generate:blog-presentations": ".venv/bin/python scripts/generate_blog_presentations.py --missing-only",
     "generate:blog-presentations:all": ".venv/bin/python scripts/generate_blog_presentations.py --all",
+    "generate:blog-presentations:es": ".venv/bin/python scripts/generate_blog_presentations.py --missing-only --locale es",
+    "materialize:blog-es": "npx tsx scripts/materialize-blog-spanish.ts",
     "gate:blog-presentations": ".venv/bin/python scripts/generate_blog_presentations.py --missing-only --min-score 100",
     "generate:blog-covers": "node scripts/generate-blog-cover-assets.mjs",
     "generate:blog-covers:all": "node scripts/generate-blog-cover-assets.mjs --force",

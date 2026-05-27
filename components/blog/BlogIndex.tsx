@@ -3,6 +3,7 @@ import { BlogCardByline } from "@/components/blog/BlogCardByline";
 import { BlogCoverImage } from "@/components/blog/BlogCoverImage";
 import { blogCoverForSlug } from "@/lib/blog-images";
 import { authorshipForSlug } from "@/lib/blog-authors";
+import { blogPath, type BlogLocale } from "@/lib/blog-locale";
 import { blogPagePath, totalBlogPages } from "@/lib/blog-pagination";
 import { WRECKMATCH_PHONE_DISPLAY } from "@/lib/phones";
 import type { PostMeta } from "@/lib/posts";
@@ -11,9 +12,11 @@ type Props = {
   posts: PostMeta[];
   page: number;
   totalPosts: number;
+  locale?: BlogLocale;
 };
 
-export function BlogIndex({ posts, page, totalPosts }: Props) {
+export function BlogIndex({ posts, page, totalPosts, locale = "en" }: Props) {
+  const isEs = locale === "es";
   const pages = totalBlogPages(totalPosts);
 
   return (
@@ -70,7 +73,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
             return (
               <li key={post.slug}>
                 <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200/90 bg-white shadow-sm ring-1 ring-black/[0.03] transition duration-200 hover:-translate-y-0.5 hover:border-[#cc0000]/25 hover:shadow-lg">
-                  <Link href={`/blog/${post.slug}`} prefetch={false} className="block">
+                  <Link href={blogPath(post.slug, locale)} prefetch={false} className="block">
                     <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-300">
                       <BlogCoverImage src={cover.src} alt={cover.alt} priority={eager} />
                       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
@@ -81,7 +84,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
                   </Link>
                   <div className="flex flex-1 flex-col p-5 sm:p-6">
                     <h2 className="text-lg font-bold leading-snug text-gray-900 group-hover:text-[#cc0000]">
-                      <Link href={`/blog/${post.slug}`} prefetch={false}>
+                      <Link href={blogPath(post.slug, locale)} prefetch={false}>
                         {post.title}
                       </Link>
                     </h2>
@@ -109,7 +112,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
           <nav className="mt-12 flex flex-wrap items-center justify-center gap-3" aria-label="Blog pagination">
             {page > 1 ? (
               <Link
-                href={blogPagePath(page - 1)}
+                href={blogPagePath(page - 1, locale)}
                 prefetch={false}
                 className="min-h-[44px] rounded-xl border border-gray-300 bg-white px-5 py-2.5 text-sm font-semibold text-gray-700 shadow-sm transition hover:border-[#cc0000]/40 hover:text-[#cc0000]"
               >
@@ -121,7 +124,7 @@ export function BlogIndex({ posts, page, totalPosts }: Props) {
             </span>
             {page < pages ? (
               <Link
-                href={blogPagePath(page + 1)}
+                href={blogPagePath(page + 1, locale)}
                 prefetch={false}
                 className="min-h-[44px] rounded-xl border border-gray-300 bg-white px-5 py-2.5 text-sm font-semibold text-gray-700 shadow-sm transition hover:border-[#cc0000]/40 hover:text-[#cc0000]"
               >

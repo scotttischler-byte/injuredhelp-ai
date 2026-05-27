@@ -935,7 +935,7 @@ def publish_post(
             upsert_frontmatter_presentation,
         )
 
-        ppt_report = generate_for_post(path, force=True)
+        ppt_report = generate_for_post(path, force=True, locale="en")
         if ppt_report.score >= 100:
             upsert_frontmatter_presentation(
                 path, f"/blog/presentations/{slug}.pptx"

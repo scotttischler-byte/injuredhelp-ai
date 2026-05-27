@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from blog_presentation import (  # noqa: E402
     BLOG_DIR,
+    BLOG_ES_DIR,
     generate_for_post,
     score_presentation,
     upsert_frontmatter_presentation,
@@ -24,25 +25,35 @@ def main() -> int:
     p.add_argument("--all", action="store_true", help="Regenerate every post")
     p.add_argument("--missing-only", action="store_true", help="Only posts without .pptx")
     p.add_argument("--slug", type=str, default="", help="Single slug")
+    p.add_argument("--locale", choices=("en", "es"), default="en")
     p.add_argument("--min-score", type=int, default=100)
     args = p.parse_args()
 
-    paths = sorted(BLOG_DIR.glob("*.md"))
+    blog_dir = BLOG_ES_DIR if args.locale == "es" else BLOG_DIR
+    paths = sorted(blog_dir.glob("*.md"))
     if args.slug:
-        paths = [BLOG_DIR / f"{args.slug}.md"]
+        paths = [blog_dir / f"{args.slug}.md"]
 
     ok = 0
     fail = 0
     for path in paths:
         slug = path.stem
-        out = ROOT / "public/blog/presentations" / f"{slug}.pptx"
+        out = (
+            ROOT / "public/blog/presentations/es" / f"{slug}.pptx"
+            if args.locale == "es"
+            else ROOT / "public/blog/presentations" / f"{slug}.pptx"
+        )
         if args.missing_only and out.exists():
             continue
         force = args.all or bool(args.slug)
-        report = generate_for_post(path, force=force)
-        url = PRESENTATION_URL.format(slug=slug)
+        report = generate_for_post(path, force=force, locale=args.locale)
+        ppt_url = (
+            f"/blog/presentations/es/{slug}.pptx"
+            if args.locale == "es"
+            else PRESENTATION_URL.format(slug=slug)
+        )
         if report.score >= args.min_score:
-            if upsert_frontmatter_presentation(path, url):
+            if upsert_frontmatter_presentation(path, ppt_url):
                 pass
             print(f"OK {slug}: {report.slide_count} slides, score {report.score}")
             ok += 1
