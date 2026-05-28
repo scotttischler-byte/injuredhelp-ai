@@ -19,7 +19,7 @@ import type { PostMeta } from "../lib/posts";
 
 const POSTS_DIR = path.join(process.cwd(), "content/blog");
 const MARKER = "<!-- wm-materialized-expansion -->";
-const MIN_WORDS = 2000;
+const MIN_WORDS = 2000; // gold base; run materialize:blog-platinum for 3000+
 
 function wordCount(body: string): number {
   const text = body
@@ -108,7 +108,7 @@ function upsertFrontmatter(fm: Record<string, unknown>, slug: string, body: stri
     ...fm,
     authorId: author.id,
     reviewerId: "roy-waddell",
-    qualityTier: "gold",
+    qualityTier: "gold", // run npm run materialize:blog-platinum to upgrade corpus
     materializedExpansion: true,
     readTime: `${mins} min read`,
   };

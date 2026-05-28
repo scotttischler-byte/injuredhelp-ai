@@ -78,6 +78,8 @@ def score_post(slug: str, text: str) -> QualityReport:
 
     fm, body = parse_frontmatter(text)
     wc = word_count(body)
+    tier_fm = fm.get("qualityTier", "").lower()
+    is_platinum = tier_fm == "platinum" or "<!-- wm-platinum-expansion" in text
 
     if re.search(r"texas-style", text, re.I):
         state = fm.get("state", "")
@@ -94,9 +96,10 @@ def score_post(slug: str, text: str) -> QualityReport:
         score -= 15
 
     is_autopilot = "autopilot: true" in text
-    if is_autopilot and wc < 2000:
-        issues.append("below_2000_words")
-        score -= min(60, max(10, (2000 - wc) // 25))
+    min_wc = 3000 if is_platinum else 2000
+    if (is_autopilot or is_platinum) and wc < min_wc:
+        issues.append(f"below_{min_wc}_words")
+        score -= min(60, max(10, (min_wc - wc) // 30))
     elif wc < 500:
         if is_autopilot and wc >= 380:
             issues.append("thin_source_expandable")
@@ -126,8 +129,19 @@ def score_post(slug: str, text: str) -> QualityReport:
         issues.append("missing_cta")
         score -= 10
 
+    if is_platinum:
+        if "|" not in body:
+            issues.append("missing_platinum_table")
+            score -= 5
+        if "frequently asked" not in body.lower() and "preguntas frecuentes" not in body.lower():
+            issues.append("missing_faq_block")
+            score -= 5
+        if "key facts for search" not in body.lower() and "datos clave para búsqueda" not in body.lower():
+            issues.append("missing_ai_citation_block")
+            score -= 5
+
     author_id = fm.get("authorId", "")
-    if fm.get("qualityTier", "").lower() == "gold" and author_id in ("scott-tischler", "kathy-carr"):
+    if tier_fm in ("gold", "platinum") and author_id in ("scott-tischler", "kathy-carr"):
         if "judge roy waddell" not in text.lower():
             issues.append("missing_roy_review")
             score -= 3
@@ -140,9 +154,12 @@ def score_post(slug: str, text: str) -> QualityReport:
                 score -= 5
 
     score = max(0, min(100, score))
-    gold_prose = wc >= 2000 or (fm.get("qualityTier", "").lower() == "gold" and wc >= 1800)
+    platinum_prose = wc >= 3000 or (tier_fm == "platinum" and wc >= 2800)
+    gold_prose = wc >= 2000 or (tier_fm == "gold" and wc >= 1800)
     tier = (
-        "gold"
+        "platinum"
+        if score >= 98 and platinum_prose
+        else "gold"
         if score >= 95 and gold_prose
         else "pass"
         if score >= 85

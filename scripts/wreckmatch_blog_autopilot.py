@@ -22,6 +22,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.request
@@ -701,7 +702,7 @@ Requirements:
 - Start each major section with one quotable sentence (LLM citation 2026)
 - Include at least one markdown table and numbered action steps
 - FMCSA, black box, spoliation if truck; MMI and life-care if severe/wrongful death
-- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical, qualityTier: gold, authorId: {author_id}, reviewerId: roy-waddell
+- frontmatter: title, description, date, category, state, excerpt, autopilot: true, vertical, qualityTier: platinum, authorId: {author_id}, reviewerId: roy-waddell
 - category must be one of: Truck Accidents, Severe Injury, Wrongful Death, Catastrophic Injury, or state name
 - excerpt must mention {topic['state']} and {y}-year deadline — NEVER "Texas-style" unless state is Texas
 - Wrongful death: family-focused steps, NOT generic truck DOT steps
@@ -866,17 +867,77 @@ def inject_cover_markdown(topic: dict[str, Any], body: str) -> str:
 
 
 def min_publish_score() -> int:
-    return int(os.getenv("TRAFFIC_MACHINE_MIN_SCORE", "95"))
+    return int(os.getenv("TRAFFIC_MACHINE_MIN_SCORE", "98"))
 
 
 def min_publish_words() -> int:
-    return int(os.getenv("TRAFFIC_MACHINE_MIN_WORDS", "2000"))
+    return int(os.getenv("TRAFFIC_MACHINE_MIN_WORDS", "3000"))
 
 
 def meets_publish_bar(report: QualityReport, min_score: int, min_words: int) -> bool:
     if "broken_frontmatter" in report.issues:
         return False
     return report.score >= min_score and report.word_count >= min_words
+
+
+MATERIALIZE_PIPELINE: list[tuple[str, list[str]]] = [
+    ("gold", ["npx", "tsx", "scripts/materialize-blog-expansion.ts"]),
+    ("platinum", ["npx", "tsx", "scripts/materialize-blog-platinum.ts"]),
+    ("spanish", ["npx", "tsx", "scripts/materialize-blog-spanish.ts"]),
+    ("platinum-es", ["npx", "tsx", "scripts/materialize-blog-platinum-es.ts"]),
+]
+
+
+def run_materialize_pipeline(slug: str) -> bool:
+    """Expand autopilot template to gold → platinum EN + ES without AI."""
+    ok = True
+    for step, cmd in MATERIALIZE_PIPELINE:
+        try:
+            r = subprocess.run(
+                [*cmd, f"--slug={slug}"],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+                timeout=180,
+                check=False,
+            )
+            if r.returncode != 0:
+                ok = False
+                err = (r.stderr or r.stdout or "").strip()[-400:]
+                log(f"WARN {step} materialize {slug}: {err or r.returncode}")
+        except Exception as e:
+            ok = False
+            log(f"WARN {step} materialize {slug}: {e}")
+    return ok
+
+
+def materialize_template_to_platinum(
+    topic: dict[str, Any],
+    slug: str,
+    *,
+    min_score: int,
+    min_words: int,
+) -> tuple[str | None, Path | None]:
+    """Write template, run expanders, return body if it meets the publish bar."""
+    path = BLOG_DIR / f"{slug}.md"
+    if path.exists():
+        slug = f"{slug}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M')}"
+        path = BLOG_DIR / f"{slug}.md"
+    BLOG_DIR.mkdir(parents=True, exist_ok=True)
+    path.write_text(template_post(topic), encoding="utf-8")
+    log(f"Materializing template → platinum for {slug}")
+    run_materialize_pipeline(slug)
+    body = path.read_text(encoding="utf-8")
+    body = append_seo_footer(topic, body)
+    path.write_text(body, encoding="utf-8")
+    report = score_post(slug, body)
+    log(f"After materialize: {report.score} / {report.word_count}w ({report.issues})")
+    if not meets_publish_bar(report, min_score, min_words):
+        path.unlink(missing_ok=True)
+        es_path = ROOT / "content/blog/es" / f"{slug}.md"
+        es_path.unlink(missing_ok=True)
+        return None, None
+    return body, path
 
 
 def publish_post(
@@ -912,40 +973,83 @@ def publish_post(
             if meets_publish_bar(report, min_score, min_words):
                 break
 
+    materialized_path: Path | None = None
     if not meets_publish_bar(report, min_score, min_words):
-        log(f"SKIP {slug}: below bar (need ≥{min_score} score, ≥{min_words} words) — {report.score}/{report.word_count}w")
-        return None
-
-    body = append_seo_footer(topic, body)
-
-    path = BLOG_DIR / f"{slug}.md"
-    if path.exists():
-        slug = f"{slug}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M')}"
+        if min_score >= 98 and min_words >= 3000:
+            body, materialized_path = materialize_template_to_platinum(
+                topic, slug, min_score=min_score, min_words=min_words
+            )
+            if not body:
+                log(
+                    f"SKIP {slug}: below bar after materialize "
+                    f"(need ≥{min_score} score, ≥{min_words} words)"
+                )
+                return None
+            slug = materialized_path.stem
+            report = score_post(slug, body)
+        else:
+            log(
+                f"SKIP {slug}: below bar (need ≥{min_score} score, ≥{min_words} words) "
+                f"— {report.score}/{report.word_count}w"
+            )
+            return None
+    else:
+        body = append_seo_footer(topic, body)
         path = BLOG_DIR / f"{slug}.md"
+        if path.exists():
+            slug = f"{slug}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M')}"
+            path = BLOG_DIR / f"{slug}.md"
+        materialized_path = path
 
     if dry_run:
-        log(f"[dry-run] Would write {path}")
+        log(f"[dry-run] Would write {materialized_path}")
         return slug
 
-    BLOG_DIR.mkdir(parents=True, exist_ok=True)
-    path.write_text(body, encoding="utf-8")
+    if materialized_path is None:
+        materialized_path = BLOG_DIR / f"{slug}.md"
+    if not materialized_path.exists():
+        BLOG_DIR.mkdir(parents=True, exist_ok=True)
+        materialized_path.write_text(body, encoding="utf-8")
+    elif "<!-- wm-platinum-expansion" not in body:
+        materialized_path.write_text(body, encoding="utf-8")
     try:
         from blog_presentation import (  # noqa: E402
             generate_for_post,
             upsert_frontmatter_presentation,
         )
 
-        ppt_report = generate_for_post(path, force=True, locale="en")
+        ppt_report = generate_for_post(materialized_path, force=True, locale="en")
         if ppt_report.score >= 100:
             upsert_frontmatter_presentation(
-                path, f"/blog/presentations/{slug}.pptx"
+                materialized_path, f"/blog/presentations/{slug}.pptx"
             )
             log(f"Presentation {ppt_report.slide_count} slides (score {ppt_report.score})")
         else:
             log(f"WARN presentation below bar: {ppt_report.issues}")
+        es_path = ROOT / "content/blog/es" / f"{slug}.md"
+        if es_path.exists():
+            ppt_es = generate_for_post(es_path, force=True, locale="es")
+            if ppt_es.score >= 100:
+                upsert_frontmatter_presentation(
+                    es_path, f"/blog/presentations/es/{slug}.pptx"
+                )
+                log(f"Presentation ES {ppt_es.slide_count} slides")
     except Exception as e:
         log(f"WARN presentation generation failed: {e}")
-    log(f"Published {path}")
+    if "<!-- wm-platinum-expansion" not in body:
+        try:
+            subprocess.run(
+                ["npx", "tsx", "scripts/materialize-blog-platinum.ts", f"--slug={slug}"],
+                cwd=str(ROOT),
+                capture_output=True,
+                timeout=120,
+                check=False,
+            )
+            log(f"Platinum upgrade queued for {slug}")
+        except Exception as e:
+            log(f"WARN platinum upgrade: {e}")
+
+    log(f"Published {materialized_path}")
     return slug
 
 
@@ -1076,7 +1180,7 @@ def main() -> int:
             time.sleep(args.delay)
         q = load_queue()
 
-    log(f"Done: {len(slugs)}/{args.batch} published (gold bar ≥{min_score}) — {slugs}")
+    log(f"Done: {len(slugs)}/{args.batch} published (platinum bar ≥{min_score}, ≥{min_words}w) — {slugs}")
     return 0 if slugs else 1
 
 

@@ -517,9 +517,10 @@ def upsert_frontmatter_presentation(path: Path, presentation_url: str) -> bool:
     line = f'presentationUrl: "{presentation_url}"\n'
     if re.search(r"^presentationUrl:", fm, re.M):
         new_fm = re.sub(
-            r'^presentationUrl:.*$',
+            r"^presentationUrl:\s*(?:>[-]?\s*\n(?:  .+\n)+|[^\n]+)",
             line.strip(),
             fm,
+            count=1,
             flags=re.M,
         )
     else:

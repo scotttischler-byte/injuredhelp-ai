@@ -5,12 +5,16 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { expandPostContentEs } from "../lib/blog-content-expander-es";
+import {
+  PLATINUM_MARKER_ES,
+  expandPostContentPlatinumEs,
+} from "../lib/blog-content-expander-platinum-es";
 import type { PostMeta } from "../lib/posts";
 
 const POSTS_EN = path.join(process.cwd(), "content/blog");
 const POSTS_ES = path.join(process.cwd(), "content/blog/es");
 const MARKER = "<!-- wm-materialized-expansion-es -->";
-const MIN_WORDS = 2000;
+const MIN_WORDS = 3000;
 
 function wordCount(body: string): number {
   const text = body
@@ -57,6 +61,38 @@ function authorSectionEs(slug: string, meta: PostMeta): string {
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 `;
+}
+
+function sectionToMdPlatinum(section: {
+  heading: string;
+  paragraphs?: string[];
+  list?: string[];
+  table?: string[][];
+}): string {
+  const lines: string[] = [`## ${section.heading}`, ""];
+  for (const p of section.paragraphs ?? []) lines.push(p, "");
+  if (section.list?.length) {
+    section.list.forEach((item, i) => lines.push(`${i + 1}. ${item}`));
+    lines.push("");
+  }
+  if (section.table?.length) {
+    const [head, ...rows] = section.table;
+    lines.push(`| ${head.join(" | ")} |`, `| ${head.map(() => "---").join(" | ")} |`);
+    for (const row of rows) lines.push(`| ${row.join(" | ")} |`);
+    lines.push("");
+  }
+  return lines.join("\n");
+}
+
+function platinumEsToMd(expanded: ReturnType<typeof expandPostContentPlatinumEs>): string {
+  const parts: string[] = [PLATINUM_MARKER_ES, ""];
+  for (const s of expanded.sections) parts.push(sectionToMdPlatinum(s));
+  parts.push("## Preguntas frecuentes (ampliadas)", "");
+  for (const f of expanded.faqs) {
+    parts.push(`### ${f.question}`, "", f.answer, "");
+  }
+  parts.push("");
+  return parts.join("\n");
 }
 
 function expansionToMd(expanded: ReturnType<typeof expandPostContentEs>): string {
@@ -136,7 +172,9 @@ Si tiene dudas sobre culpa comparativa, cobertura UM/UIM o plazos contra un veh√
       canonicalSlug: slug,
       presentationUrl: `/blog/presentations/es/${slug}.pptx`,
       presentationUrlEn: data.presentationUrl ?? `/blog/presentations/${slug}.pptx`,
-      readTime: `${Math.max(9, Math.round(wc / 200))} min de lectura`,
+      qualityTier: "platinum",
+      platinumExpansion: true,
+      readTime: `${Math.max(12, Math.round(wc / 220))} min de lectura`,
     };
 
     fs.writeFileSync(path.join(POSTS_ES, file), matter.stringify(body, fm), "utf8");
