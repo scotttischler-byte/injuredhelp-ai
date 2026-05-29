@@ -12,16 +12,14 @@ Fully automated stack for **Google/Bing indexing**, **AI citation** (`llms.txt`)
 | **Daily 7:00 UTC** (GitHub) | `exposure-crush.yml` — IndexNow + AI citation report |
 | **Every request** | `/llms.txt` — dynamic stats + 24 latest platinum URLs |
 
-## Required Vercel secrets
+## Secrets (already configured)
 
-- `INDEXNOW_KEY` — 8–128 chars; file at `https://www.wreckmatch.com/{key}.txt`
-- `CRON_SECRET` — Bearer token for cron routes
+Your stack uses **`.secrets-setup`** locally (same values as Vercel Production):
 
-Optional GitHub secrets:
+- `CRON_SECRET` — already on Vercel; health check returns `cronSecret: true`
+- `INDEXNOW_KEY` — live at `https://www.wreckmatch.com/065536e9ab94b89a3451fd0f5ea4a193.txt`
 
-- `INDEXNOW_KEY` — duplicate ping from Actions
-- `PERPLEXITY_API_KEY` — live AI citation checks
-- `CRON_SECRET` — prod cron + notify API
+GitHub Actions should use the **same** `CRON_SECRET` as Vercel (see `docs/GITHUB_SECRETS_ONE_TIME.md`). No need to regenerate.
 
 ## Manual commands
 

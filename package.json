@@ -17,7 +17,7 @@
     "materialize:blog-platinum:es": "npx tsx scripts/materialize-blog-platinum-es.ts",
     "gate:blog-platinum": "python3 scripts/blog_quality_gate.py --min-score 98",
     "blog:today": "python3 scripts/wreckmatch_blog_autopilot.py --batch 12 --syndicate --min-score 98 --min-words 3000",
-    "exposure:crush": "python3 scripts/exposure_crush.py",
+    "exposure:crush": "bash -c 'set -a && [ -f .secrets-setup ] && . ./.secrets-setup; set +a; python3 scripts/exposure_crush.py'",
     "exposure:crush:full": "python3 scripts/exposure_crush.py --live-ai --notify-prod",
     "exposure:index": "python3 scripts/indexing_accelerator.py --recent 320",
     "generate:blog-presentations": ".venv/bin/python scripts/generate_blog_presentations.py --missing-only",

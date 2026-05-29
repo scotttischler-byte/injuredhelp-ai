@@ -55,12 +55,19 @@ jobs:
           git diff --staged --quiet || git commit -m "chore(exposure): daily IndexNow + AI citation report"
           git push || true
 
-      - name: Ping production exposure cron
+      - name: Ping production IndexNow cron (uses CRON_SECRET from repo)
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
         run: |
           if [ -z "$CRON_SECRET" ]; then
-            echo "CRON_SECRET missing — skip prod /api/exposure/cron"
+            echo "CRON_SECRET missing on GitHub — Vercel crons still run if set there"
             exit 0
           fi
-          curl -sf -H "Authorization: Bearer $CRON_SECRET" "https://www.wreckmatch.com/api/exposure/cron" | head -c 600
+          for path in /api/exposure/cron /api/indexing/cron; do
+            code=$(curl -s -o /tmp/cron-out.json -w "%{http_code}" \
+              -H "Authorization: Bearer $CRON_SECRET" "https://www.wreckmatch.com$path")
+            echo "$path -> HTTP $code"
+            head -c 500 /tmp/cron-out.json
+            echo ""
+            [ "$code" = "200" ] && break
+          done
