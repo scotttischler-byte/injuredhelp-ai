@@ -22,7 +22,8 @@ platinumExpansion: true
 lang: es
 canonicalSlug: 18-wheeler-crash-in-denver-colorado-victim-guide-2026
 presentationUrlEn: /blog/presentations/18-wheeler-crash-in-denver-colorado-victim-guide-2026.pptx
-presentationUrl: "/blog/presentations/es/18-wheeler-crash-in-denver-colorado-victim-guide-2026.pptx"
+presentationUrl: >-
+  /blog/presentations/es/18-wheeler-crash-in-denver-colorado-victim-guide-2026.pptx
 ---
 ## Por qué publicamos esta guía para Denver Colorado Victim Guide
 

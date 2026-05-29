@@ -24,7 +24,8 @@ platinumExpansion: true
 lang: es
 canonicalSlug: 18-wheeler-crash-in-fort-collins-colorado-victim-guide-2026
 presentationUrlEn: ''
-presentationUrl: "/blog/presentations/es/18-wheeler-crash-in-fort-collins-colorado-victim-guide-2026.pptx"
+presentationUrl: >-
+  /blog/presentations/es/18-wheeler-crash-in-fort-collins-colorado-victim-guide-2026.pptx
 ---
 ## Por qué publicamos esta guía para Fort Collins Colorado Victim Guide
 

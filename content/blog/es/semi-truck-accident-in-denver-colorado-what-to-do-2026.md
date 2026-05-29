@@ -22,7 +22,8 @@ platinumExpansion: true
 lang: es
 canonicalSlug: semi-truck-accident-in-denver-colorado-what-to-do-2026
 presentationUrlEn: ''
-presentationUrl: "/blog/presentations/es/semi-truck-accident-in-denver-colorado-what-to-do-2026.pptx"
+presentationUrl: >-
+  /blog/presentations/es/semi-truck-accident-in-denver-colorado-what-to-do-2026.pptx
 ---
 ## Por qué publicamos esta guía para Denver Colorado What To Do
 
@@ -293,4 +294,3 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
 **[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
-

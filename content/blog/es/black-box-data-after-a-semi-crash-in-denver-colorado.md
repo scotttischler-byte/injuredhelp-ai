@@ -22,7 +22,8 @@ platinumExpansion: true
 lang: es
 canonicalSlug: black-box-data-after-a-semi-crash-in-denver-colorado
 presentationUrlEn: /blog/presentations/black-box-data-after-a-semi-crash-in-denver-colorado.pptx
-presentationUrl: "/blog/presentations/es/black-box-data-after-a-semi-crash-in-denver-colorado.pptx"
+presentationUrl: >-
+  /blog/presentations/es/black-box-data-after-a-semi-crash-in-denver-colorado.pptx
 ---
 ## Por qué publicamos esta guía para Denver
 
