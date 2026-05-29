@@ -17,6 +17,10 @@
       "schedule": "0 */4 * * *"
     },
     {
+      "path": "/api/exposure/cron",
+      "schedule": "0 6,18 * * *"
+    },
+    {
       "path": "/api/automation/health",
       "schedule": "30 13 * * *"
     }

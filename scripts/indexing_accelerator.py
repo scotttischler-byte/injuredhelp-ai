@@ -63,6 +63,10 @@ PRIORITY_PATHS = [
     "/resources",
     "/states",
     "/blog",
+    "/es/blog",
+    "/what-to-do-after-a-car-accident-in-colorado",
+    "/car-accident-help-denver",
+    "/car-accident-help-colorado",
     "/press",
     "/press/kathy-carr-ceo-ai-legal-tech-platform-2026",
     "/press/scott-tischler-ai-ecosystem-personal-injury-2026",
@@ -106,11 +110,19 @@ def filter_urls(urls: list[str]) -> list[str]:
     return out[:10_000]
 
 
+BLOG_ES_DIR = ROOT / "content/blog/es"
+
+
 def collect_recent_blog_urls(limit: int = 200) -> list[str]:
     if not BLOG_DIR.is_dir():
         return []
     posts = sorted(BLOG_DIR.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
-    return [f"{SITE}/blog/{p.stem}" for p in posts[:limit]]
+    urls = [f"{SITE}/blog/{p.stem}" for p in posts[:limit]]
+    if BLOG_ES_DIR.is_dir():
+        es_posts = sorted(BLOG_ES_DIR.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+        urls.extend(f"{SITE}/es/blog/{p.stem}" for p in es_posts[: min(limit, 150)])
+    urls.insert(0, f"{SITE}/es/blog")
+    return urls
 
 
 def urls_from_git_diff(ref: str) -> list[str]:

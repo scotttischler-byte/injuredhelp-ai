@@ -5,21 +5,10 @@ import {
   submitIndexNowBatch,
   submitIndexNowSingle,
 } from "@/lib/indexnow";
-import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
+import { buildIndexNowUrls } from "@/lib/exposure-index";
+import { WRECKMATCH_URL } from "@/lib/site";
 
-const SITE = (process.env.WRECKMATCH_SITE ?? "https://www.wreckmatch.com").replace(/\/$/, "");
-
-const PRIORITY_PATHS = [
-  "/",
-  "/blog",
-  "/car-accident-help",
-  "/truck-accident-help",
-  ...WHAT_TO_DO_PATHS,
-  "/car-accident-help-houston",
-  "/car-accident-help-dallas",
-  "/car-accident-help-miami",
-  "/car-accident-help-los-angeles",
-];
+const SITE = WRECKMATCH_URL.replace(/\/$/, "");
 
 function authorize(req: NextRequest): boolean {
   const secret = process.env.CRON_SECRET?.trim();

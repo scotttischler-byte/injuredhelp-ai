@@ -1,5 +1,5 @@
-# WreckMatch Traffic Machine — quality-first organic growth
-# Every 30 min: up to 3 gold-tier posts (score ≥95, 2000+ words)
+# WreckMatch Traffic Machine — 10x platinum publishing
+# Every 30 min: up to 3 platinum posts (≥98 score, ≥3000 words) + IndexNow + exposure
 
 name: WreckMatch traffic machine
 
@@ -80,8 +80,8 @@ jobs:
           OPENAI_MODEL: gpt-4o-mini
           WRECKMATCH_SITE: https://www.wreckmatch.com
           TRAFFIC_MACHINE_SYNDICATE: "1"
-          TRAFFIC_MACHINE_MIN_SCORE: "95"
-          TRAFFIC_MACHINE_MIN_WORDS: "2000"
+          TRAFFIC_MACHINE_MIN_SCORE: "98"
+          TRAFFIC_MACHINE_MIN_WORDS: "3000"
         run: |
           BATCH="${{ github.event.inputs.batch || '3' }}"
           python scripts/wreckmatch_blog_autopilot.py \
@@ -90,9 +90,8 @@ jobs:
             --claude-first \
             --syndicate \
             --delay 4 \
-            --min-score 95 \
-            --min-words 2000
-          # Skips posts below gold bar instead of publishing thin content.
+            --min-score 98 \
+            --min-words 3000
 
       - name: Generate unique blog covers for new posts
         run: npm run generate:blog-covers -- --missing-only
@@ -110,9 +109,9 @@ jobs:
         run: |
           git config user.name "wreckmatch-traffic-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/blog/*.md content/syndication/ content/autopilot/ public/blog/covers/generated/*.webp public/blog/presentations/*.pptx data/blog-cover-assignments.json
+          git add content/blog/*.md content/blog/es/*.md content/syndication/ content/autopilot/ public/blog/covers/generated/*.webp public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx data/blog-cover-assignments.json
           git diff --staged --quiet && echo "changed=false" >> "$GITHUB_OUTPUT" && echo "No changes" && exit 0
-          git commit -m "content(traffic-machine): gold-tier truck/severe injury guides"
+          git commit -m "content(traffic-machine): platinum truck/severe injury guides + exposure queue"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
@@ -127,10 +126,11 @@ jobs:
           export SLUGS
           # Optional duplicate ping from GitHub (INDEXNOW_KEY secret). Vercel already has the key.
           if [ -n "$INDEXNOW_KEY" ]; then
-            python3 scripts/indexing_accelerator.py --from-git HEAD~1 --new-slugs $SLUGS || true
+            python3 scripts/indexing_accelerator.py --from-git HEAD~1 --new-slugs $SLUGS --recent 320 || true
           else
             echo "INDEXNOW_KEY not on GitHub (OK) — production uses Vercel INDEXNOW_KEY"
           fi
+          python3 scripts/exposure_crush.py --slugs $SLUGS --recent 320 || true
           if [ -z "$CRON_SECRET" ]; then
             echo "Add CRON_SECRET to GitHub repo secrets (same value as Vercel production)"
             exit 0

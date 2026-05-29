@@ -1,45 +1,22 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getAllPosts } from "@/lib/posts";
+import { buildIndexNowUrls, getExposureStats } from "@/lib/exposure-index";
 import { submitIndexNowBatch } from "@/lib/indexnow";
-import { pressPathsForSitemap } from "@/lib/press-index";
-import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
 import { verifyCronSecret } from "@/lib/automation-auth";
+import { WRECKMATCH_URL } from "@/lib/site";
 
-const SITE = (process.env.WRECKMATCH_SITE ?? "https://www.wreckmatch.com").replace(/\/$/, "");
-
-const PRIORITY_PATHS = [
-  "/",
-  "/blog",
-  "/car-accident-help",
-  "/truck-accident-help",
-  "/car-accident-help-houston",
-  "/car-accident-help-dallas",
-  "/car-accident-help-miami",
-  "/car-accident-help-los-angeles",
-  "/checklist-after-car-accident",
-  "/ai-accident-help",
-  ...WHAT_TO_DO_PATHS,
-  "/press",
-  ...pressPathsForSitemap(),
-];
+const SITE = WRECKMATCH_URL.replace(/\/$/, "");
 
 /**
- * Vercel Cron: auto-submit latest blog URLs + priority pages to IndexNow.
- * Auth: Authorization: Bearer CRON_SECRET (set automatically on Vercel crons).
+ * Vercel Cron: IndexNow for priority pages + recent EN/ES blog (legacy path).
+ * Prefer /api/exposure/cron for full 10x batch; this stays for backward compatibility.
  */
 export async function GET(req: NextRequest) {
   if (!verifyCronSecret(req)) {
     return NextResponse.json({ ok: false, error: "unauthorized" }, { status: 401 });
   }
 
-  const recentSlugs = getAllPosts()
-    .slice(0, 120)
-    .map((p) => p.slug);
-
-  const urls = [
-    ...PRIORITY_PATHS.map((p) => `${SITE}${p}`),
-    ...recentSlugs.map((s) => `${SITE}/blog/${s}`),
-  ];
+  const stats = getExposureStats();
+  const urls = buildIndexNowUrls({ recentBlogLimit: 200, recentEsLimit: 100 });
 
   const key = process.env.INDEXNOW_KEY?.trim() ?? "";
   if (!key) {
@@ -57,7 +34,7 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({
     ok,
     mode: "vercel-cron",
-    recentPosts: recentSlugs.length,
+    stats,
     submitted: batch.urlCount,
     keyFile: batch.keyFile,
     indexnow: batch.results,

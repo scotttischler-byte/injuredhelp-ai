@@ -1050,6 +1050,17 @@ def publish_post(
             log(f"WARN platinum upgrade: {e}")
 
     log(f"Published {materialized_path}")
+    try:
+        subprocess.run(
+            [sys.executable, str(ROOT / "scripts/queue_indexnow_slug.py"), slug],
+            cwd=str(ROOT),
+            capture_output=True,
+            timeout=30,
+            check=False,
+        )
+        log(f"IndexNow queued for {slug}")
+    except Exception as e:
+        log(f"WARN indexnow queue: {e}")
     return slug
 
 
@@ -1181,6 +1192,31 @@ def main() -> int:
         q = load_queue()
 
     log(f"Done: {len(slugs)}/{args.batch} published (platinum bar ≥{min_score}, ≥{min_words}w) — {slugs}")
+
+    if slugs and not args.dry_run:
+        try:
+            crush = subprocess.run(
+                [
+                    sys.executable,
+                    str(ROOT / "scripts/exposure_crush.py"),
+                    "--slugs",
+                    *slugs,
+                    "--recent",
+                    "320",
+                ],
+                cwd=str(ROOT),
+                capture_output=True,
+                text=True,
+                timeout=600,
+                check=False,
+            )
+            if crush.stdout:
+                log(crush.stdout[-1500:])
+            if crush.returncode != 0:
+                log(f"WARN exposure_crush exit {crush.returncode}")
+        except Exception as e:
+            log(f"WARN exposure_crush: {e}")
+
     return 0 if slugs else 1
 
 
