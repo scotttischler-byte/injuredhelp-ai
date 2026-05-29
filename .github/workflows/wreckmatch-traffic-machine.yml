@@ -1,5 +1,5 @@
 # WreckMatch Traffic Machine — 10x platinum publishing
-# Every 30 min: up to 3 platinum posts (≥98 score, ≥3000 words) + IndexNow + exposure
+# Every 30 min: up to 6 platinum posts (≥98 score, ≥3000 words) + organic crush
 
 name: WreckMatch traffic machine
 
@@ -10,7 +10,7 @@ on:
     inputs:
       batch:
         description: "Posts per run"
-        default: "3"
+        default: "6"
       refill:
         description: "Refill queue (0=skip)"
         default: "0"
@@ -83,7 +83,7 @@ jobs:
           TRAFFIC_MACHINE_MIN_SCORE: "98"
           TRAFFIC_MACHINE_MIN_WORDS: "3000"
         run: |
-          BATCH="${{ github.event.inputs.batch || '3' }}"
+          BATCH="${{ github.event.inputs.batch || '6' }}"
           python scripts/wreckmatch_blog_autopilot.py \
             --batch "$BATCH" \
             --ai \
@@ -131,6 +131,7 @@ jobs:
             echo "INDEXNOW_KEY not on GitHub (OK) — production uses Vercel INDEXNOW_KEY"
           fi
           python3 scripts/exposure_crush.py --slugs $SLUGS --recent 320 || true
+          python3 scripts/organic_crush.py --mesh-limit 12 --viral-limit 3 --slugs $SLUGS || true
           if [ -z "$CRON_SECRET" ]; then
             echo "Add CRON_SECRET to GitHub repo secrets (same value as Vercel production)"
             exit 0

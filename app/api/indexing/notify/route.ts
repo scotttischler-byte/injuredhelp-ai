@@ -61,10 +61,11 @@ export async function POST(req: NextRequest) {
     });
   }
 
-  const urls = [
-    ...PRIORITY_PATHS.map((p) => `${SITE}${p}`),
-    ...slugs.map((s) => `${SITE}/blog/${s.replace(/^\//, "")}`),
-  ];
+  const urls = buildIndexNowUrls({
+    extraSlugs: slugs.map((s) => s.replace(/^\//, "")),
+    recentBlogLimit: 80,
+    recentEsLimit: 80,
+  });
 
   const batch = await submitIndexNowBatch(SITE, keyResult.key, urls);
   const ok = batch.results.some((r) => r.ok);
@@ -89,11 +90,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: keyResult.error }, { status: keyResult.status });
   }
 
-  const batch = await submitIndexNowBatch(
-    SITE,
-    keyResult.key,
-    PRIORITY_PATHS.map((p) => `${SITE}${p}`),
-  );
+  const batch = await submitIndexNowBatch(SITE, keyResult.key, buildIndexNowUrls({ recentBlogLimit: 120, recentEsLimit: 60 }));
 
   return NextResponse.json({
     ok: batch.results.some((r) => r.ok),

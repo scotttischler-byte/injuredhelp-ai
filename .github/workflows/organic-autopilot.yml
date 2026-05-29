@@ -1,0 +1,58 @@
+# Hands-off organic growth — internal links, viral packs, IndexNow (no human required)
+name: Organic autopilot
+
+on:
+  schedule:
+    - cron: "20 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: organic-autopilot
+  cancel-in-progress: false
+
+jobs:
+  grow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: pip install -r scripts/autopilot_requirements.txt
+
+      - name: Organic crush (mesh + viral + exposure)
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          WRECKMATCH_SITE: https://www.wreckmatch.com
+        run: python3 scripts/organic_crush.py --mesh-limit 80 --viral-limit 8
+
+      - name: Commit organic outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/blog/*.md content/autopilot/viral_queue/ content/autopilot/social_ready/ content/autopilot/organic_crush_report.json content/autopilot/exposure_report.json content/autopilot/indexing_log.jsonl lib/priority-places/registry.ts 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore(organic): internal links + viral packs + exposure ping"
+          git push || true
+
+      - name: Production exposure cron
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          if [ -z "$CRON_SECRET" ]; then exit 0; fi
+          for path in /api/exposure/cron /api/indexing/cron; do
+            code=$(curl -s -o /tmp/o.json -w "%{http_code}" -H "Authorization: Bearer $CRON_SECRET" "https://www.wreckmatch.com$path")
+            echo "$path HTTP $code"
+            head -c 400 /tmp/o.json
+            echo ""
+            [ "$code" = "200" ] && break
+          done
