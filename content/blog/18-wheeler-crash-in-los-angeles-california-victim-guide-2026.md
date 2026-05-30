@@ -300,3 +300,17 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 *Platinum-tier guide — expanded for AI citation and victim education. Reviewed for legal context by **Judge Roy Waddell**.*
 
 **[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+---
+
+## Related resources
+
+- [What to do after a car accident (national)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+- [What to do after a crash in California](https://www.wreckmatch.com/what-to-do-after-a-car-accident-in-california)
+- [California car accident help hub](https://www.wreckmatch.com/car-accident-help-california)
+- [Los Angeles California Victim Guide local help hub](https://www.wreckmatch.com/car-accident-help-los-angeles-california-victim-guide)
+- [Semi Truck Accident In Los Angeles California What To Do 2026](https://www.wreckmatch.com/blog/semi-truck-accident-in-los-angeles-california-what-to-do-2026)
+- [Catastrophic Injury Car Crash In Los Angeles California 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-los-angeles-california-2026)
+- [Severe Injury After A Car Accident In Los Angeles California 2026](https://www.wreckmatch.com/blog/severe-injury-after-a-car-accident-in-los-angeles-california-2026)
+- [Spinal Cord Injury After A Crash In Los Angeles California 2026](https://www.wreckmatch.com/blog/spinal-cord-injury-after-a-crash-in-los-angeles-california-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/18-wheeler-crash-in-los-angeles-california-victim-guide-2026)
+- [Free attorney matching →](https://www.wreckmatch.com/#form)

@@ -299,3 +299,17 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 *Platinum-tier guide — expanded for AI citation and victim education. Reviewed for legal context by **Judge Roy Waddell**.*
 
 **[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+---
+
+## Related resources
+
+- [What to do after a car accident (national)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+- [What to do after a crash in Florida](https://www.wreckmatch.com/what-to-do-after-a-car-accident-in-florida)
+- [Florida car accident help hub](https://www.wreckmatch.com/car-accident-help-florida)
+- [Miami Florida Victim Guide local help hub](https://www.wreckmatch.com/car-accident-help-miami-florida-victim-guide)
+- [18 Wheeler Crash In Fort Lauderdale Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-fort-lauderdale-florida-victim-guide-2026)
+- [18 Wheeler Crash In Jacksonville Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-jacksonville-florida-victim-guide-2026)
+- [18 Wheeler Crash In Orlando Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-orlando-florida-victim-guide-2026)
+- [18 Wheeler Crash In Tallahassee Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-tallahassee-florida-victim-guide-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/18-wheeler-crash-in-miami-florida-victim-guide-2026)
+- [Free attorney matching →](https://www.wreckmatch.com/#form)

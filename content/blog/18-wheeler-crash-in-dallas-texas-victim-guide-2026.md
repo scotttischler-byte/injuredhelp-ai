@@ -297,3 +297,17 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 *Platinum-tier guide — expanded for AI citation and victim education. Reviewed for legal context by **Judge Roy Waddell**.*
 
 **[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+---
+
+## Related resources
+
+- [What to do after a car accident (national)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+- [What to do after a crash in Texas](https://www.wreckmatch.com/what-to-do-after-a-car-accident-in-texas)
+- [Texas car accident help hub](https://www.wreckmatch.com/car-accident-help-texas)
+- [Dallas Texas Victim Guide local help hub](https://www.wreckmatch.com/car-accident-help-dallas-texas-victim-guide)
+- [18 Wheeler Crash In Arlington Texas Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-arlington-texas-victim-guide-2026)
+- [18 Wheeler Crash In Austin Texas Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-austin-texas-victim-guide-2026)
+- [18 Wheeler Crash In Corpus Christi Texas Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-corpus-christi-texas-victim-guide-2026)
+- [18 Wheeler Crash In El Paso Texas Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-el-paso-texas-victim-guide-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/18-wheeler-crash-in-dallas-texas-victim-guide-2026)
+- [Free attorney matching →](https://www.wreckmatch.com/#form)
