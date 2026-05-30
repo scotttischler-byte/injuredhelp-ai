@@ -1,5 +1,5 @@
 ---
-title: 'Black Box Data After a Semi Crash in Joliet, Illinois'
+title: 'Do I Need a Truck Accident Lawyer in Joliet, Illinois? (2026)'
 description: >-
   Guía en español: Educational guide for Joliet semi truck and car accident
   victims in Illinois. Deadlines, insurance tactics, and free attorney matching
@@ -20,19 +20,20 @@ materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: black-box-data-after-a-semi-crash-in-joliet-illinois
+canonicalSlug: do-i-need-a-truck-accident-lawyer-in-joliet-illinois-2026
 presentationUrl: >-
-  /blog/presentations/es/black-box-data-after-a-semi-crash-in-joliet-illinois.pptx
-presentationUrlEn: /blog/presentations/black-box-data-after-a-semi-crash-in-joliet-illinois.pptx
+  /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-joliet-illinois-2026.pptx
+presentationUrlEn: >-
+  /blog/presentations/do-i-need-a-truck-accident-lawyer-in-joliet-illinois-2026.pptx
 ---
-## Por qué publicamos esta guía para Joliet
+## Por qué publicamos esta guía para Joliet Illinois
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Joliet no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Joliet Illinois no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# Black Box Data After a Semi Crash in Joliet, Illinois
+# Do I Need a Truck Accident Lawyer in Joliet, Illinois? (2026)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 
