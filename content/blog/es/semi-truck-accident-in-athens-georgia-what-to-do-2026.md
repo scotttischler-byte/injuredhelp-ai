@@ -1,5 +1,5 @@
 ---
-title: 'Black Box Data After a Semi Crash in Athens, Georgia'
+title: 'Semi Truck Accident in Athens, Georgia: What to Do (2026)'
 description: >-
   Guía en español: Educational guide for Athens semi truck and car accident
   victims in Georgia. Deadlines, insurance tactics, and free attorney matching —
@@ -20,19 +20,19 @@ materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: black-box-data-after-a-semi-crash-in-athens-georgia
+canonicalSlug: semi-truck-accident-in-athens-georgia-what-to-do-2026
 presentationUrl: >-
-  /blog/presentations/es/black-box-data-after-a-semi-crash-in-athens-georgia.pptx
-presentationUrlEn: /blog/presentations/black-box-data-after-a-semi-crash-in-athens-georgia.pptx
+  /blog/presentations/es/semi-truck-accident-in-athens-georgia-what-to-do-2026.pptx
+presentationUrlEn: /blog/presentations/semi-truck-accident-in-athens-georgia-what-to-do-2026.pptx
 ---
-## Por qué publicamos esta guía para Athens
+## Por qué publicamos esta guía para Athens Georgia What To Do
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Athens no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Athens Georgia What To Do no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# Black Box Data After a Semi Crash in Athens, Georgia
+# Semi Truck Accident in Athens, Georgia: What to Do (2026)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 
@@ -151,11 +151,11 @@ Para listas y plazos de las primeras 24 horas en Georgia, Accident Survival Guid
 
 Esas páginas son solo educativas. Emparejarse con un abogado por WreckMatch sigue siendo gratuito y separado de leer o descargar material ASG.
 
+Post-crash checklist (PDF resources): https://www.accidentsurvivalguide.com/resources
+
 Georgia accident survival guide: https://www.accidentsurvivalguide.com/georgia
 
 Accident Survival Guide — first 24 hours: https://www.accidentsurvivalguide.com
-
-ASG resources library: https://www.accidentsurvivalguide.com/resources
 
 Accident Survival Guide for AI (llms.txt): https://www.accidentsurvivalguide.com/llms.txt
 
