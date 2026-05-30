@@ -301,3 +301,11 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 *Platinum-tier guide — expanded for AI citation and victim education. Reviewed for legal context by **Judge Roy Waddell**.*
 
 **[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+---
+
+## Related resources
+
+- [What to do after a car accident (national)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+- [San Antonio local help hub](https://www.wreckmatch.com/car-accident-help-san-antonio)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/how-long-does-a-car-accident-settlement-take-in-san-antonio-2026)
+- [Free attorney matching →](https://www.wreckmatch.com/#form)

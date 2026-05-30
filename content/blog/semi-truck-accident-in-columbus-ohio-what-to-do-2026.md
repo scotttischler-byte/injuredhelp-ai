@@ -299,3 +299,17 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 *Platinum-tier guide — expanded for AI citation and victim education. Reviewed for legal context by **Judge Roy Waddell**.*
 
 **[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+---
+
+## Related resources
+
+- [What to do after a car accident (national)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+- [What to do after a crash in Ohio](https://www.wreckmatch.com/what-to-do-after-a-car-accident-in-ohio)
+- [Ohio car accident help hub](https://www.wreckmatch.com/car-accident-help-ohio)
+- [Columbus Ohio What To Do local help hub](https://www.wreckmatch.com/car-accident-help-columbus-ohio-what-to-do)
+- [18 Wheeler Crash In Columbus Ohio Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-columbus-ohio-victim-guide-2026)
+- [Catastrophic Injury Car Crash In Columbus Ohio 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-columbus-ohio-2026)
+- [Severe Injury After A Car Accident In Columbus Ohio 2026](https://www.wreckmatch.com/blog/severe-injury-after-a-car-accident-in-columbus-ohio-2026)
+- [Spinal Cord Injury After A Crash In Columbus Ohio 2026](https://www.wreckmatch.com/blog/spinal-cord-injury-after-a-crash-in-columbus-ohio-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/semi-truck-accident-in-columbus-ohio-what-to-do-2026)
+- [Free attorney matching →](https://www.wreckmatch.com/#form)

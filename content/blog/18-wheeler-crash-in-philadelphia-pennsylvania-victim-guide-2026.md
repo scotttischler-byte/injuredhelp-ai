@@ -300,3 +300,17 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 *Platinum-tier guide — expanded for AI citation and victim education. Reviewed for legal context by **Judge Roy Waddell**.*
 
 **[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+---
+
+## Related resources
+
+- [What to do after a car accident (national)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+- [What to do after a crash in Pennsylvania](https://www.wreckmatch.com/what-to-do-after-a-car-accident-in-pennsylvania)
+- [Pennsylvania car accident help hub](https://www.wreckmatch.com/car-accident-help-pennsylvania)
+- [Philadelphia Pennsylvania Victim Guide local help hub](https://www.wreckmatch.com/car-accident-help-philadelphia-pennsylvania-victim-guide)
+- [Semi Truck Accident In Philadelphia Pennsylvania What To Do 2026](https://www.wreckmatch.com/blog/semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026)
+- [Catastrophic Injury Car Crash In Philadelphia Pennsylvania 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-philadelphia-pennsylvania-2026)
+- [Severe Injury After A Car Accident In Philadelphia Pennsylvania 2026](https://www.wreckmatch.com/blog/severe-injury-after-a-car-accident-in-philadelphia-pennsylvania-2026)
+- [Spinal Cord Injury After A Crash In Philadelphia Pennsylvania 2026](https://www.wreckmatch.com/blog/spinal-cord-injury-after-a-crash-in-philadelphia-pennsylvania-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/18-wheeler-crash-in-philadelphia-pennsylvania-victim-guide-2026)
+- [Free attorney matching →](https://www.wreckmatch.com/#form)
