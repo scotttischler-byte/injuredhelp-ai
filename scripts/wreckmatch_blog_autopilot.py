@@ -48,6 +48,45 @@ SITE = os.getenv("WRECKMATCH_SITE", "https://www.wreckmatch.com").rstrip("/")
 AUTOPILOT_SITE_ID = "wreckmatch"
 
 
+SITE_BRAND_COPY: dict[str, dict[str, str]] = {
+    "wreckmatch": {
+        "phone_display": "855 WRECKMATCH (855) 897-3256",
+        "network_line": (
+            "WreckMatch connects victims with attorneys from a **network of 800+ participating "
+            "law firms** nationwide — free matching, typically under 60 seconds."
+        ),
+        "disclaimer": (
+            "**Educational only — not legal advice.** WreckMatch LLC is a legal referral service, "
+            "**not a law firm**. Results not guaranteed. Consult a licensed attorney in your state."
+        ),
+    },
+    "semitruckmatch": {
+        "phone_display": os.getenv(
+            "SEMITRUCKMATCH_PHONE_DISPLAY",
+            os.getenv("WRECKMATCH_PHONE_DISPLAY", "855 WRECKMATCH (855) 897-3256"),
+        ),
+        "network_line": (
+            "SemiTruckMatch connects semi-truck crash victims with attorneys from a **network of "
+            "800+ participating law firms** nationwide — free matching, typically under 60 seconds."
+        ),
+        "disclaimer": (
+            "**Educational only — not legal advice.** SemiTruckMatch is operated by WreckMatch LLC, "
+            "a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed "
+            "truck accident attorney in your state."
+        ),
+    },
+}
+
+
+def apply_brand_copy(site_id: str) -> None:
+    global CTA, PHONE, NETWORK_LINE, DISCLAIMER
+    copy = SITE_BRAND_COPY.get(site_id, SITE_BRAND_COPY["wreckmatch"])
+    CTA = f"{SITE}/#form"
+    PHONE = copy["phone_display"]
+    NETWORK_LINE = copy["network_line"]
+    DISCLAIMER = copy["disclaimer"]
+
+
 def configure_site(site_id: str | None) -> None:
     """Apply multi-site paths from config/autopilot-sites.json."""
     global BLOG_DIR, ES_BLOG_DIR, SYNDICATION_DIR, QUEUE_PATH, LOG_PATH, SITE, AUTOPILOT_SITE_ID
@@ -64,6 +103,9 @@ def configure_site(site_id: str | None) -> None:
     QUEUE_PATH = Path(site["queuePath"])
     LOG_PATH = Path(site.get("logPath") or LOG_PATH)
     SITE = site.get("siteUrl", SITE).rstrip("/")
+    apply_brand_copy(AUTOPILOT_SITE_ID)
+
+
 CTA = f"{SITE}/#form"
 PHONE = os.getenv("WRECKMATCH_PHONE_DISPLAY", "855 WRECKMATCH (855) 897-3256")
 
@@ -87,15 +129,28 @@ STATE_SOL_YEARS: dict[str, int] = {
     "Alabama": 2,
 }
 
-NETWORK_LINE = (
-    "WreckMatch connects victims with attorneys from a **network of 800+ participating "
-    "law firms** nationwide — free matching, typically under 60 seconds."
-)
+NETWORK_LINE = SITE_BRAND_COPY["wreckmatch"]["network_line"]
+DISCLAIMER = SITE_BRAND_COPY["wreckmatch"]["disclaimer"]
 
-DISCLAIMER = (
-    "**Educational only — not legal advice.** WreckMatch LLC is a legal referral service, "
-    "**not a law firm**. Results not guaranteed. Consult a licensed attorney in your state."
-)
+TRUCK_DAILY_ROTATION_ANGLES = [
+    ("semi-truck-accident", "Semi Truck Accident in {city}, {state}: What to Do (2026)"),
+    ("18-wheeler-crash", "18-Wheeler Crash in {city}, {state} — Victim Guide (2026)"),
+    ("truck-accident", "Truck Accident in {city}, {state}: Steps & Legal Help (2026)"),
+    ("commercial-truck-lawyer", "Do I Need a Truck Accident Lawyer in {city}, {state}? (2026)"),
+    ("fmcsa-violation", "FMCSA Violations After a Truck Crash in {city}, {state}"),
+    ("black-box-truck", "Black Box Data After a Semi Crash in {city}, {state}"),
+    ("tractor-trailer-injury", "Tractor-Trailer Injury in {city}, {state}: Legal Steps (2026)"),
+    ("underride-override", "Underride or Override Truck Crash in {city}, {state} (2026)"),
+    ("severe-injury-car-accident", "Severe Injury After a Truck Crash in {city}, {state} (2026)"),
+    ("statute-of-limitations", "{state} Truck Accident Statute of Limitations — {city} (2026)"),
+]
+
+
+def daily_rotation_angle_pool() -> list[tuple[str, str]]:
+    if AUTOPILOT_SITE_ID == "semitruckmatch":
+        return TRUCK_DAILY_ROTATION_ANGLES
+    return DAILY_ROTATION_ANGLES
+
 
 TEXAS_METROS = [
     ("houston", "Houston"),
@@ -349,7 +404,9 @@ def build_daily_rotation_topics(
     """Top city in each of 50 states — first unpublished angle wins."""
     done = completed_slugs or set()
     tops = top_city_per_state()
-    angle_pool = DAILY_ROTATION_ANGLES + INJURY_ANGLES[:4]
+    angle_pool = daily_rotation_angle_pool() + (
+        [] if AUTOPILOT_SITE_ID == "semitruckmatch" else INJURY_ANGLES[:4]
+    )
 
     topics: list[dict[str, Any]] = []
     for i, (state, (city, st, place)) in enumerate(sorted(tops.items())[:50]):
@@ -384,11 +441,10 @@ def build_daily_rotation_topics(
                 break
 
         if not chosen:
-            angle_slug, title_tpl = DAILY_ROTATION_ANGLES[i % len(DAILY_ROTATION_ANGLES)]
-            title = (
-                f"What to Do After a Car Accident in {city}, {st} "
-                f"— Top City Guide ({day.isoformat()})"
-            )
+            pool = daily_rotation_angle_pool()
+            angle_slug, title_tpl = pool[i % len(pool)]
+            crash_label = "Semi Truck Accident in" if AUTOPILOT_SITE_ID == "semitruckmatch" else "What to Do After a Car Accident in"
+            title = f"{crash_label} {city}, {st} — Top City Guide ({day.isoformat()})"
             slug = slugify(title)
             if slug in done:
                 continue

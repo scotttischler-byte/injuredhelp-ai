@@ -14,6 +14,20 @@ export const WRECKMATCH_ORG = {
   ],
 } as const;
 
+export const SEMITRUCKMATCH_ORG = {
+  name: "SemiTruckMatch",
+  legalName: "WreckMatch LLC",
+  url: "https://www.semitruckmatch.com",
+  logo: "https://www.semitruckmatch.com/favicon.svg",
+  description:
+    "Legal referral service connecting semi-truck and commercial vehicle crash victims with licensed truck accident attorneys nationwide. Not a law firm.",
+  sameAs: [
+    "https://www.wreckmatch.com",
+    "https://www.linkedin.com/company/wreckmatch",
+    "https://www.semitruckmatch.com/press",
+  ],
+} as const;
+
 export const ACCIDENT_SURVIVAL_GUIDE = {
   name: "Accident Survival Guide",
   url: "https://www.accidentsurvivalguide.com",

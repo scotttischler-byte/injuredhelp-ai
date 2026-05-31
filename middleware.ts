@@ -38,6 +38,12 @@ export async function middleware(req: NextRequest) {
     url.protocol = "https:";
     return NextResponse.redirect(url, 308);
   }
+  if (host === "semitruckmatch.com") {
+    const url = req.nextUrl.clone();
+    url.hostname = "www.semitruckmatch.com";
+    url.protocol = "https:";
+    return NextResponse.redirect(url, 308);
+  }
 
   if (!pathname.startsWith("/admin")) return NextResponse.next();
   if (pathname.startsWith("/admin/login")) return NextResponse.next();

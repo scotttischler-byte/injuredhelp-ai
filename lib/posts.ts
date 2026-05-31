@@ -3,12 +3,19 @@ import path from "path";
 import { cache } from "react";
 import matter from "gray-matter";
 import type { BlogLocale } from "@/lib/blog-locale";
+import { contentRootForBrand, serverSiteBrand } from "@/lib/site";
 
-const POSTS_DIR = path.join(process.cwd(), "content/blog");
-const POSTS_ES_DIR = path.join(process.cwd(), "content/blog/es");
+function blogRoots() {
+  const root = path.join(process.cwd(), contentRootForBrand(serverSiteBrand()));
+  return {
+    en: path.join(root, "blog"),
+    es: path.join(root, "blog/es"),
+  };
+}
 
 function postsDir(locale: BlogLocale): string {
-  return locale === "es" ? POSTS_ES_DIR : POSTS_DIR;
+  const roots = blogRoots();
+  return locale === "es" ? roots.es : roots.en;
 }
 
 export interface PostMeta {
@@ -30,7 +37,7 @@ export interface PostMeta {
 }
 
 function ensureDir() {
-  if (!fs.existsSync(POSTS_DIR)) return false;
+  if (!fs.existsSync(blogRoots().en)) return false;
   return true;
 }
 
@@ -42,10 +49,11 @@ function parseReadTime(body: string): string {
 
 function readAllPosts(): PostMeta[] {
   if (!ensureDir()) return [];
-  const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md") || f.endsWith(".mdx"));
+  const dir = blogRoots().en;
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md") || f.endsWith(".mdx"));
   const posts = files.map((filename) => {
     const slug = filename.replace(/\.mdx?$/, "");
-    const raw = fs.readFileSync(path.join(POSTS_DIR, filename), "utf8");
+    const raw = fs.readFileSync(path.join(dir, filename), "utf8");
     const { data, content } = matter(raw);
     const excerpt =
       typeof data.excerpt === "string"
@@ -125,12 +133,13 @@ export function getPostBySlug(
 }
 
 export function getAllPostsEs(): PostMeta[] {
-  if (!fs.existsSync(POSTS_ES_DIR)) return [];
-  const files = fs.readdirSync(POSTS_ES_DIR).filter((f) => f.endsWith(".md"));
+  const esDir = blogRoots().es;
+  if (!fs.existsSync(esDir)) return [];
+  const files = fs.readdirSync(esDir).filter((f) => f.endsWith(".md"));
   return files
     .map((filename) => {
       const slug = filename.replace(/\.md$/, "");
-      const post = readPostFile(POSTS_ES_DIR, slug, "es");
+      const post = readPostFile(esDir, slug, "es");
       return post?.meta;
     })
     .filter((p): p is PostMeta => Boolean(p))
@@ -140,7 +149,7 @@ export function getAllPostsEs(): PostMeta[] {
 function readAllSlugs(): string[] {
   if (!ensureDir()) return [];
   return fs
-    .readdirSync(POSTS_DIR)
+    .readdirSync(blogRoots().en)
     .filter((f) => f.endsWith(".md") || f.endsWith(".mdx"))
     .map((f) => f.replace(/\.mdx?$/, ""));
 }

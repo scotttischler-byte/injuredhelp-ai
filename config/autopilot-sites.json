@@ -28,6 +28,42 @@
         "workflow": "fifty-states-daily.yml",
         "defaultBranch": "main"
       }
+    },
+    {
+      "id": "semitruckmatch",
+      "enabled": true,
+      "label": "SemiTruckMatch",
+      "siteUrl": "https://www.semitruckmatch.com",
+      "contentRoot": "sites/semitruckmatch/content",
+      "blogDir": "sites/semitruckmatch/content/blog",
+      "blogEsDir": "sites/semitruckmatch/content/blog/es",
+      "queuePath": "sites/semitruckmatch/content/autopilot/blog_queue.json",
+      "logPath": "sites/semitruckmatch/content/autopilot/blog_generation.log",
+      "heartbeatPath": "sites/semitruckmatch/content/autopilot/heartbeat.json",
+      "github": {
+        "owner": "scotttischler-byte",
+        "repo": "injuredhelp-ai",
+        "workflow": "fifty-states-daily.yml",
+        "defaultBranch": "main"
+      }
+    },
+    {
+      "id": "CLIENT_TEMPLATE",
+      "enabled": false,
+      "label": "New client (duplicate block, set enabled true)",
+      "siteUrl": "https://www.example.com",
+      "contentRoot": "sites/CLIENT_TEMPLATE/content",
+      "blogDir": "sites/CLIENT_TEMPLATE/content/blog",
+      "blogEsDir": "sites/CLIENT_TEMPLATE/content/blog/es",
+      "queuePath": "sites/CLIENT_TEMPLATE/content/autopilot/blog_queue.json",
+      "logPath": "sites/CLIENT_TEMPLATE/content/autopilot/blog_generation.log",
+      "heartbeatPath": "sites/CLIENT_TEMPLATE/content/autopilot/heartbeat.json",
+      "github": {
+        "owner": "YOUR_ORG",
+        "repo": "injuredhelp-ai",
+        "workflow": "fifty-states-daily.yml",
+        "defaultBranch": "main"
+      }
     }
   ]
 }
