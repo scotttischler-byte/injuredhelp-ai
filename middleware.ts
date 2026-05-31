@@ -4,10 +4,18 @@ import { ADMIN_COOKIE, expectedAdminCookieValue } from "@/lib/admin-session";
 import { brandFromHost } from "@/lib/site";
 import { BRAND_HEADER } from "@/lib/request-brand";
 
+/** Vercel/CDN often set x-forwarded-host; prefer it over host for multi-domain routing. */
+function requestHost(req: NextRequest): string | undefined {
+  const raw =
+    req.headers.get("x-forwarded-host")?.split(",")[0] ??
+    req.headers.get("host") ??
+    "";
+  return raw.split(":")[0]?.toLowerCase() || undefined;
+}
+
 function rewriteWithBrand(req: NextRequest, url: URL): NextResponse {
-  const host = req.headers.get("host")?.split(":")[0]?.toLowerCase();
   const requestHeaders = new Headers(req.headers);
-  requestHeaders.set(BRAND_HEADER, brandFromHost(host));
+  requestHeaders.set(BRAND_HEADER, brandFromHost(requestHost(req)));
   return NextResponse.rewrite(url, { request: { headers: requestHeaders } });
 }
 
@@ -37,7 +45,7 @@ export async function middleware(req: NextRequest) {
     return rewriteWithBrand(req, url);
   }
 
-  const host = req.headers.get("host")?.split(":")[0]?.toLowerCase();
+  const host = requestHost(req);
   if (host === "wreckmatch.com") {
     const url = req.nextUrl.clone();
     url.hostname = "www.wreckmatch.com";
@@ -52,7 +60,7 @@ export async function middleware(req: NextRequest) {
   }
 
   const requestHeaders = new Headers(req.headers);
-  requestHeaders.set(BRAND_HEADER, brandFromHost(host));
+  requestHeaders.set(BRAND_HEADER, brandFromHost(requestHost(req)));
   const passThrough = () =>
     NextResponse.next({
       request: { headers: requestHeaders },

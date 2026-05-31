@@ -1,10 +1,12 @@
+import { headers } from "next/headers";
 import { buildAiTxt } from "@/lib/ai-txt-content";
-import { serverSiteOrigin } from "@/lib/site";
+import { siteOriginFromHeaders } from "@/lib/site";
 
-export const revalidate = 86400;
+export const dynamic = "force-dynamic";
 
 export async function GET() {
-  const body = buildAiTxt(serverSiteOrigin());
+  const h = await headers();
+  const body = buildAiTxt(siteOriginFromHeaders(h));
 
   return new Response(body, {
     headers: {
