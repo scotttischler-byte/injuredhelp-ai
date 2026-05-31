@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/severe-injury-after-a-car-accident-in-birmingham-alabama-2026-202605311321.pptx"
 ---
 # Severe Injury After a Car Accident in Birmingham, Alabama (2026)
 

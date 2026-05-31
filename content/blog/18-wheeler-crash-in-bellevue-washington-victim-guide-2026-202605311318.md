@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/18-wheeler-crash-in-bellevue-washington-victim-guide-2026-202605311318.pptx"
 ---
 # 18-Wheeler Crash in Bellevue, Washington — Victim Guide (2026)
 

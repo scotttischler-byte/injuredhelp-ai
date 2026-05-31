@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/semi-truck-accident-in-seattle-washington-what-to-do-2026-202605311319.pptx"
 ---
 # Semi Truck Accident in Seattle, Washington: What to Do (2026)
 

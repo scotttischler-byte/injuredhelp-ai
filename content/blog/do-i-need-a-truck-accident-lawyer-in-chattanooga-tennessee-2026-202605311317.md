@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/do-i-need-a-truck-accident-lawyer-in-chattanooga-tennessee-2026-202605311317.pptx"
 ---
 # Do I Need a Truck Accident Lawyer in Chattanooga, Tennessee? (2026)
 

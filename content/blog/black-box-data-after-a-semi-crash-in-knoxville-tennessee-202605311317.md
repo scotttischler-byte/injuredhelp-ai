@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/black-box-data-after-a-semi-crash-in-knoxville-tennessee-202605311317.pptx"
 ---
 # Black Box Data After a Semi Crash in Knoxville, Tennessee
 

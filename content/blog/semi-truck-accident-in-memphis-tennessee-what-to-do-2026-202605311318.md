@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/semi-truck-accident-in-memphis-tennessee-what-to-do-2026-202605311318.pptx"
 ---
 # Semi Truck Accident in Memphis, Tennessee: What to Do (2026)
 

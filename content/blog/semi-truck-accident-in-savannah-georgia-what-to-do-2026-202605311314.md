@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/semi-truck-accident-in-savannah-georgia-what-to-do-2026-202605311314.pptx"
 ---
 # Semi Truck Accident in Savannah, Georgia: What to Do (2026)
 

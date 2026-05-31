@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/18-wheeler-crash-in-savannah-georgia-victim-guide-2026-202605311314.pptx"
 ---
 # 18-Wheeler Crash in Savannah, Georgia — Victim Guide (2026)
 

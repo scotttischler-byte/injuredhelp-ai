@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026-202605311321.pptx"
 ---
 # Tractor-Trailer Injury in Birmingham, Alabama: Legal Steps (2026)
 

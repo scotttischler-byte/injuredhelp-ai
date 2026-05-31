@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026-202605311318.pptx"
 ---
 # Do I Need a Truck Accident Lawyer in Nashville, Tennessee? (2026)
 

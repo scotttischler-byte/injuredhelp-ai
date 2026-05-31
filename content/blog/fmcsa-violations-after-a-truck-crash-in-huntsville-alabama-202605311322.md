@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/fmcsa-violations-after-a-truck-crash-in-huntsville-alabama-202605311322.pptx"
 ---
 # FMCSA Violations After a Truck Crash in Huntsville, Alabama
 

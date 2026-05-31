@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/underride-or-override-truck-crash-in-huntsville-alabama-2026-202605311323.pptx"
 ---
 # Underride or Override Truck Crash in Huntsville, Alabama (2026)
 

@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/black-box-data-after-a-semi-crash-in-savannah-georgia-202605311314.pptx"
 ---
 # Black Box Data After a Semi Crash in Savannah, Georgia
 

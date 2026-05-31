@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/tractor-trailer-injury-in-huntsville-alabama-legal-steps-2026-202605311322.pptx"
 ---
 # Tractor-Trailer Injury in Huntsville, Alabama: Legal Steps (2026)
 

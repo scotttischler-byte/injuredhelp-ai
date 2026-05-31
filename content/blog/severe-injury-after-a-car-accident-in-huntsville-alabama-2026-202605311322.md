@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/severe-injury-after-a-car-accident-in-huntsville-alabama-2026-202605311322.pptx"
 ---
 # Severe Injury After a Car Accident in Huntsville, Alabama (2026)
 

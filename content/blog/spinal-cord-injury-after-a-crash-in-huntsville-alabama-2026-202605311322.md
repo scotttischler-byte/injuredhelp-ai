@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/spinal-cord-injury-after-a-crash-in-huntsville-alabama-2026-202605311322.pptx"
 ---
 # Spinal Cord Injury After a Crash in Huntsville, Alabama (2026)
 

@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/do-i-need-a-truck-accident-lawyer-in-rockford-illinois-2026-202605311316.pptx"
 ---
 # Do I Need a Truck Accident Lawyer in Rockford, Illinois? (2026)
 

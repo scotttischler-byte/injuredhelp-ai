@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/semi-truck-accident-in-bellevue-washington-what-to-do-2026-202605311318.pptx"
 ---
 # Semi Truck Accident in Bellevue, Washington: What to Do (2026)
 

@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/wrongful-death-car-accident-in-birmingham-alabama-family-guide-202605311322.pptx"
 ---
 # Wrongful Death Car Accident in Birmingham, Alabama — Family Guide
 

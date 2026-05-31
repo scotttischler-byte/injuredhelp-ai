@@ -19,6 +19,7 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
+presentationUrl: "/blog/presentations/18-wheeler-crash-in-chattanooga-tennessee-victim-guide-2026-202605311316.pptx"
 ---
 # 18-Wheeler Crash in Chattanooga, Tennessee — Victim Guide (2026)
 
