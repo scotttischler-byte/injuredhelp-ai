@@ -42,11 +42,18 @@ jobs:
           python3 scripts/wreckmatch_blog_autopilot.py --inject-daily-states --site "$SITE"
           python3 scripts/autopilot_daily_guard.py --ensure-today --site "$SITE" --max-batch 3
 
+      - name: PowerPoint companions (EN + ES, missing only)
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install -q -r scripts/autopilot_requirements.txt
+          .venv/bin/python scripts/generate_blog_presentations.py --missing-only
+          .venv/bin/python scripts/generate_blog_presentations.py --missing-only --locale es
+
       - name: Commit new posts
         run: |
           git config user.name "autopilot-hourly-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/blog/*.md content/blog/es/*.md content/autopilot/ content/syndication/ 2>/dev/null || true
+          git add content/blog/*.md content/blog/es/*.md content/autopilot/ content/syndication/ public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx 2>/dev/null || true
           git diff --staged --quiet && exit 0
           git commit -m "content(hourly): EN+ES platinum posts $(date -u +%Y-%m-%dT%H)"
           git push

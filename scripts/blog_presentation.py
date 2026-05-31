@@ -55,7 +55,7 @@ PHONE = "855 WRECKMATCH (855) 897-3256"
 NOTES_FOOTER = (
     " WreckMatch LLC — legal referral service, not a law firm. Educational only. "
     "800+ participating law firms. Call 855 WRECKMATCH. "
-    "Reviewed for legal context by Judge Roy Waddell."
+    "Reviewed for legal context by Hon. Ret. Judge Roy Waddell."
 )
 
 
@@ -462,7 +462,7 @@ def score_presentation(slug: str, path: Path, fm: dict[str, str], body: str) -> 
             issues.append(f"missing_{label}")
             score -= 12
 
-    if "judge roy waddell" not in combined:
+    if "roy waddell" not in combined:
         issues.append("missing_roy")
         score -= 5
 

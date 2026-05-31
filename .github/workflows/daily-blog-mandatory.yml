@@ -59,13 +59,14 @@ jobs:
           SITE="${{ github.event.inputs.site || 'wreckmatch' }}"
           python3 scripts/autopilot_daily_guard.py --ensure-today --site "$SITE" --max-batch 10
 
-      - name: Platinum assets (covers + presentations)
+      - name: Platinum assets (covers + EN/ES PowerPoints)
         if: github.event.schedule != '50 23 * * *'
         run: |
           npm run generate:blog-covers -- --missing-only
           python3 -m venv .venv
           .venv/bin/pip install -q -r scripts/autopilot_requirements.txt
-          npm run generate:blog-presentations
+          .venv/bin/python scripts/generate_blog_presentations.py --missing-only
+          .venv/bin/python scripts/generate_blog_presentations.py --missing-only --locale es
 
       - name: End-of-day gate (fail if today under 50 EN)
         if: github.event.schedule == '50 23 * * *'

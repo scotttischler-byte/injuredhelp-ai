@@ -6,7 +6,7 @@
 |------|--------|
 | **Minimum** | **50 English** platinum posts **every calendar day (UTC)** |
 | **Geo** | **50 cities × 50 states** — one rotating city per state injected at queue front each day |
-| **Quality** | **Platinum 100/100**, **≥3,000 words**, **EN then ES**, PPT companions, IndexNow |
+| **Quality** | **Platinum 100/100**, **≥3,000 words**, **EN then ES**, **PowerPoint EN + ES** (required), IndexNow |
 | **Authors** | **Scott Tischler** or **Kathy Carr** (photo bylines) — topic-based rotation |
 | **Reviewer** | **Hon. Ret. Judge Roy Waddell** — legal-context review on every guide |
 | **Backlinks** | `organic_crush.py` internal mesh + viral packs after each publish batch |

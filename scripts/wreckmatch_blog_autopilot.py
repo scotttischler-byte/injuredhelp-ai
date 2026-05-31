@@ -557,6 +557,43 @@ def patch_frontmatter_authorship(path: Path, author_id: str) -> None:
     path.write_text(f"---{fm}---{parts[2]}", encoding="utf-8")
 
 
+def ensure_presentations(slug: str, *, min_score: int = 95) -> bool:
+    """Generate EN + ES PowerPoint decks and wire presentationUrl in frontmatter."""
+    from blog_presentation import (  # noqa: E402
+        generate_for_post,
+        upsert_frontmatter_presentation,
+    )
+
+    ok = True
+    for locale, path, url in (
+        ("en", BLOG_DIR / f"{slug}.md", f"/blog/presentations/{slug}.pptx"),
+        ("es", ES_BLOG_DIR / f"{slug}.md", f"/blog/presentations/es/{slug}.pptx"),
+    ):
+        if not path.exists():
+            log(f"FAIL PPT {locale.upper()} {slug}: post file missing")
+            ok = False
+            continue
+        report = None
+        for attempt in range(2):
+            report = generate_for_post(path, force=True, locale=locale)
+            if report.path.exists() and report.path.stat().st_size >= 8000:
+                if report.score >= min_score:
+                    break
+            log(f"PPT {locale.upper()} retry {attempt + 1} for {slug}: {report.issues if report else 'no report'}")
+        if report and report.path.exists() and report.path.stat().st_size >= 8000:
+            upsert_frontmatter_presentation(path, url)
+            log(
+                f"PPT {locale.upper()} {slug}: {report.slide_count} slides "
+                f"(score {report.score}) → {url}"
+            )
+            if report.score < min_score:
+                log(f"WARN PPT {locale.upper()} {slug} below target score {min_score}")
+        else:
+            log(f"FAIL PPT {locale.upper()} {slug}: deck not created")
+            ok = False
+    return ok
+
+
 def ensure_spanish_companion(slug: str, author_id: str) -> bool:
     """Every EN post must have a Spanish twin (materialized platinum ES)."""
     es_path = ES_BLOG_DIR / f"{slug}.md"
@@ -1178,30 +1215,29 @@ def publish_post(
         materialized_path.write_text(body, encoding="utf-8")
     elif "<!-- wm-platinum-expansion" not in body:
         materialized_path.write_text(body, encoding="utf-8")
-    try:
-        from blog_presentation import (  # noqa: E402
-            generate_for_post,
-            upsert_frontmatter_presentation,
-        )
 
-        ppt_report = generate_for_post(materialized_path, force=True, locale="en")
-        if ppt_report.score >= 100:
-            upsert_frontmatter_presentation(
-                materialized_path, f"/blog/presentations/{slug}.pptx"
-            )
-            log(f"Presentation {ppt_report.slide_count} slides (score {ppt_report.score})")
-        else:
-            log(f"WARN presentation below bar: {ppt_report.issues}")
-        es_path = ES_BLOG_DIR / f"{slug}.md"
-        if es_path.exists():
-            ppt_es = generate_for_post(es_path, force=True, locale="es")
-            if ppt_es.score >= 100:
-                upsert_frontmatter_presentation(
-                    es_path, f"/blog/presentations/es/{slug}.pptx"
-                )
-                log(f"Presentation ES {ppt_es.slide_count} slides")
+    patch_frontmatter_authorship(materialized_path, author_id)
+    if not ensure_spanish_companion(slug, author_id):
+        materialized_path.unlink(missing_ok=True)
+        (ES_BLOG_DIR / f"{slug}.md").unlink(missing_ok=True)
+        ppt_en = ROOT / "public/blog/presentations" / f"{slug}.pptx"
+        ppt_es = ROOT / "public/blog/presentations/es" / f"{slug}.pptx"
+        ppt_en.unlink(missing_ok=True)
+        ppt_es.unlink(missing_ok=True)
+        return None
+
+    try:
+        if not ensure_presentations(slug):
+            log(f"SKIP {slug}: EN+ES PowerPoint required — generation failed")
+            materialized_path.unlink(missing_ok=True)
+            (ES_BLOG_DIR / f"{slug}.md").unlink(missing_ok=True)
+            return None
     except Exception as e:
-        log(f"WARN presentation generation failed: {e}")
+        log(f"SKIP {slug}: PowerPoint generation error — {e}")
+        materialized_path.unlink(missing_ok=True)
+        (ES_BLOG_DIR / f"{slug}.md").unlink(missing_ok=True)
+        return None
+
     if "<!-- wm-platinum-expansion" not in body:
         try:
             subprocess.run(
