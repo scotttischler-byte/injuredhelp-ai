@@ -50,6 +50,6 @@ export async function GET(req: NextRequest) {
     dispatch,
     heartbeat,
     dailySla,
-    note: "Publishing runs on GitHub Actions. Daily SLA: 50 EN posts/calendar day UTC (50 states × rotating cities) via daily-blog-mandatory.yml.",
+    note: "Publishing runs on GitHub Actions. Permanent: fifty-states-daily.yml — top city in 50 states every UTC day.",
   });
 }

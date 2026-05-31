@@ -1,5 +1,7 @@
 # Autopilot operations (multi-site beta)
 
+> **50 states:** See [FIFTY_STATES_AUTOPILOT.md](./FIFTY_STATES_AUTOPILOT.md) — permanent schedule, no manual prompting.
+
 ## Daily SLA (non-negotiable)
 
 | Rule | Value |
@@ -11,9 +13,10 @@
 | **Reviewer** | **Hon. Ret. Judge Roy Waddell** — legal-context review on every guide |
 | **Backlinks** | `organic_crush.py` internal mesh + viral packs after each publish batch |
 | **24/7** | `autopilot-hourly.yml` every hour + traffic machine every 30 min (index/mesh) |
-| **Workflow** | `daily-blog-mandatory.yml` — **00:15, 05:15, 10:15, 15:15, 20:15** UTC (10 posts/run) + **23:50** gate |
-| **Indexing** | `wreckmatch-traffic-machine.yml` every 30 min — IndexNow + covers (no scheduled publishing) |
-| **Failure** | GitHub shows red ❌ if a day ends under 50 EN |
+| **Workflow** | **`fifty-states-daily.yml`** — full sprint **00:10 UTC**, pulse **every 3h**, gate **23:50** |
+| **Hourly** | `autopilot-hourly.yml` — 3 states/hour if behind |
+| **Indexing** | `wreckmatch-traffic-machine.yml` every 30 min |
+| **Failure** | GitHub shows red ❌ if a day ends under **50 states** |
 
 **Everyday means everyday.** Catch-up is capped at **10 posts/run** (no mega-batches).
 

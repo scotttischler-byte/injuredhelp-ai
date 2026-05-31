@@ -8,6 +8,7 @@ Publish top city × 50 states (EN+ES+PPT) until today's state SLA is met.
 from __future__ import annotations
 
 import argparse
+import json
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -96,7 +97,18 @@ def main() -> int:
         )
 
         have = states_published_on(today, log_path)
-        print(f"After round {round_n}: {len(have)} states — {sorted(have)}")
+        status = {
+            "at": datetime.now(timezone.utc).isoformat(),
+            "day": today,
+            "statesPublished": len(have),
+            "targetStates": target,
+            "stateList": sorted(have),
+            "round": round_n,
+            "ok": len(have) >= target,
+        }
+        status_path = ROOT / "content/autopilot/fifty_states_status.json"
+        status_path.write_text(json.dumps(status, indent=2) + "\n", encoding="utf-8")
+        print(f"After round {round_n}: {len(have)}/{target} states")
         if r.returncode != 0 and len(have) <= len(states_published_on(today, log_path)):
             print("WARN: batch returned non-zero; continuing if progress was made")
 

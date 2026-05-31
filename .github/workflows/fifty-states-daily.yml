@@ -1,0 +1,100 @@
+# PERMANENT: Top city in each of 50 US states — every UTC day, no manual trigger required.
+# Runs every 3 hours until 50 states are published; full sprint at day start; red gate at 23:50 UTC.
+
+name: Fifty states daily (permanent)
+
+on:
+  schedule:
+    - cron: "10 0 * * *"
+    - cron: "10 3,6,9,12,15,18,21 * * *"
+    - cron: "50 23 * * *"
+  workflow_dispatch:
+    inputs:
+      full_sprint:
+        description: "Run full sprint (15 rounds) instead of pulse (3)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: fifty-states-daily-wreckmatch
+  cancel-in-progress: false
+
+jobs:
+  fifty-states:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/autopilot_requirements.txt
+          npm ci
+          python3 -m venv .venv
+          .venv/bin/pip install -q -r scripts/autopilot_requirements.txt
+
+      - name: End-of-day gate (50 states required)
+        if: github.event.schedule == '50 23 * * *'
+        run: .venv/bin/python scripts/autopilot_daily_guard.py --verify-today --site wreckmatch
+
+      - name: Publish top 50 cities × 50 states
+        if: github.event.schedule != '50 23 * * *'
+        env:
+          AUTOPILOT_SOURCE: github-fifty-states-daily
+          FIFTY_STATES_ONLY: "1"
+        run: |
+          if [ "${{ github.event.schedule }}" = "10 0 * * *" ] || [ "${{ github.event.inputs.full_sprint }}" = "true" ]; then
+            ROUNDS=15
+            echo "Full sprint (up to 75 state posts capped by SLA)"
+          else
+            ROUNDS=3
+            echo "Pulse sprint (up to 15 states this run)"
+          fi
+          .venv/bin/python scripts/publish_fifty_states_now.py \
+            --site wreckmatch \
+            --batch-size 5 \
+            --max-rounds "$ROUNDS" \
+            2>&1 | tee content/autopilot/fifty_states_sprint.log
+          .venv/bin/python scripts/autopilot_daily_guard.py --record-only --site wreckmatch
+
+      - name: Platinum assets (covers + EN/ES PowerPoints)
+        if: github.event.schedule != '50 23 * * *'
+        run: |
+          npm run generate:blog-covers -- --missing-only
+          .venv/bin/python scripts/generate_blog_presentations.py --missing-only
+          .venv/bin/python scripts/generate_blog_presentations.py --missing-only --locale es
+
+      - name: Commit and push (Vercel deploy)
+        if: github.event.schedule != '50 23 * * *'
+        run: |
+          git config user.name "fifty-states-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/blog/*.md content/blog/es/*.md content/autopilot/ content/syndication/ \
+            public/blog/covers/generated/*.webp public/blog/presentations/*.pptx \
+            public/blog/presentations/es/*.pptx data/blog-cover-assignments.json 2>/dev/null || true
+          git diff --staged --quiet && echo "No changes" && exit 0
+          git commit -m "content(fifty-states): top city per state $(date -u +%Y-%m-%dT%H) UTC"
+          git push
+
+      - name: Backlinks + IndexNow
+        if: github.event.schedule != '50 23 * * *'
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SITE: https://www.wreckmatch.com
+        run: |
+          .venv/bin/python scripts/organic_crush.py --mesh-limit 50 --viral-limit 5 || true
+          .venv/bin/python scripts/indexing_accelerator.py --recent 320 || true
+          if [ -z "$CRON_SECRET" ]; then exit 0; fi
+          sleep 90
+          curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE/api/indexing/cron" || true

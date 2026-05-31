@@ -1,12 +1,8 @@
-# NON-NEGOTIABLE: ≥50 EN platinum posts every calendar day (UTC).
-# 50 cities × 50 states rotation — 5 runs × 10 posts + 23:50 UTC end-of-day gate.
+# Delegates to fifty-states-daily.yml — kept for Vercel failsafe dispatch compatibility.
 
 name: Daily blog SLA (mandatory)
 
 on:
-  schedule:
-    - cron: "15 0,5,10,15,20 * * *"
-    - cron: "50 23 * * *"
   workflow_dispatch:
     inputs:
       site:
@@ -18,85 +14,15 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  daily-publish:
+  trigger-fifty-states:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
     permissions:
-      contents: write
+      actions: write
+      contents: read
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: npm
-
-      - name: Install dependencies
-        run: |
-          pip install -r scripts/autopilot_requirements.txt
-          npm ci
-
-      - name: SLA check — yesterday must have published
-        if: github.event.schedule != '50 23 * * *'
-        run: python3 scripts/autopilot_daily_guard.py --verify-yesterday --site "${{ github.event.inputs.site || 'wreckmatch' }}" || true
-
-      - name: Inject 50-state city rotation
-        if: github.event.schedule != '50 23 * * *'
-        run: |
-          python3 scripts/wreckmatch_blog_autopilot.py \
-            --inject-daily-states \
-            --site "${{ github.event.inputs.site || 'wreckmatch' }}"
-
-      - name: Publish today's quota (50 EN/day — 10 per run)
-        if: github.event.schedule != '50 23 * * *'
+      - name: Dispatch permanent fifty-states workflow
         env:
-          AUTOPILOT_SOURCE: github-daily-sla
+          GH_TOKEN: ${{ github.token }}
         run: |
-          SITE="${{ github.event.inputs.site || 'wreckmatch' }}"
-          python3 scripts/autopilot_daily_guard.py --ensure-today --site "$SITE" --max-batch 10
-
-      - name: Platinum assets (covers + EN/ES PowerPoints)
-        if: github.event.schedule != '50 23 * * *'
-        run: |
-          npm run generate:blog-covers -- --missing-only
-          python3 -m venv .venv
-          .venv/bin/pip install -q -r scripts/autopilot_requirements.txt
-          .venv/bin/python scripts/generate_blog_presentations.py --missing-only
-          .venv/bin/python scripts/generate_blog_presentations.py --missing-only --locale es
-
-      - name: End-of-day gate (fail if today under 50 states)
-        if: github.event.schedule == '50 23 * * *'
-        run: python3 scripts/autopilot_daily_guard.py --verify-today --site "${{ github.event.inputs.site || 'wreckmatch' }}"
-
-      - name: Commit and push (required for deploy)
-        if: github.event.schedule != '50 23 * * *'
-        run: |
-          git config user.name "daily-blog-sla-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/blog/*.md content/blog/es/*.md content/autopilot/ content/syndication/ public/blog/covers/generated/*.webp public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx data/blog-cover-assignments.json 2>/dev/null || true
-          git diff --staged --quiet && echo "No new posts this run" && exit 0
-          git commit -m "content(daily-sla): 50-state platinum publish $(date -u +%Y-%m-%d)"
-          git push
-
-      - name: Backlinks + IndexNow after publish
-        if: github.event.schedule != '50 23 * * *'
-        env:
-          CRON_SECRET: ${{ secrets.CRON_SECRET }}
-          SITE: https://www.wreckmatch.com
-        run: |
-          python3 scripts/organic_crush.py --mesh-limit 50 --viral-limit 5 || true
-          python3 scripts/indexing_accelerator.py --recent 320 || true
-          if [ -z "$CRON_SECRET" ]; then
-            echo "::warning::CRON_SECRET missing — IndexNow skipped"
-            exit 0
-          fi
-          echo "Waiting 90s for Vercel deploy..."
-          sleep 90
-          curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE/api/indexing/cron" || true
-          curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE/api/indexing/notify" \
-            -H "Content-Type: application/json" \
-            -d '{"recent":320}' || true
+          gh workflow run "Fifty states daily (permanent)" --ref main -f full_sprint=true
+          echo "Dispatched fifty-states-daily.yml (full sprint)"
