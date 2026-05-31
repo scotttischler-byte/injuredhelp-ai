@@ -10,9 +10,9 @@ import {
   expandPostContentPlatinumEs,
 } from "../lib/blog-content-expander-platinum-es";
 import type { PostMeta } from "../lib/posts";
+import { autopilotBlogDirs } from "../lib/autopilot-blog-paths";
 
-const POSTS_EN = path.join(process.cwd(), "content/blog");
-const POSTS_ES = path.join(process.cwd(), "content/blog/es");
+const { en: POSTS_EN, es: POSTS_ES } = autopilotBlogDirs();
 const MARKER = "<!-- wm-materialized-expansion-es -->";
 const MIN_WORDS = 3000;
 

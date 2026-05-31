@@ -72,5 +72,6 @@ def apply_site_env(site: dict[str, Any]) -> None:
     os.environ["AUTOPILOT_SITE_ID"] = site["id"]
     os.environ["WRECKMATCH_SITE"] = site.get("siteUrl", "https://www.wreckmatch.com")
     os.environ["AUTOPILOT_BLOG_DIR"] = site["blogDir"]
+    os.environ["AUTOPILOT_BLOG_ES_DIR"] = site.get("blogEsDir", str(Path(site["blogDir"]) / "es"))
     os.environ["AUTOPILOT_QUEUE_PATH"] = site["queuePath"]
     os.environ["AUTOPILOT_LOG_PATH"] = site.get("logPath", "")

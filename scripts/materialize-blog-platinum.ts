@@ -10,8 +10,10 @@ import {
 } from "../lib/blog-content-expander-platinum";
 import type { PostMeta } from "../lib/posts";
 import type { ExpandedFaq, ExpandedSection } from "../lib/blog-content-expander";
+import { autopilotBlogDirs, autopilotSiteUrl } from "../lib/autopilot-blog-paths";
 
-const POSTS_DIR = path.join(process.cwd(), "content/blog");
+const { en: POSTS_DIR } = autopilotBlogDirs();
+const SITE_URL = autopilotSiteUrl();
 const GOLD_MARKER = "<!-- wm-materialized-expansion -->";
 const MIN_WORDS = 3000;
 
@@ -56,7 +58,7 @@ function platinumToMd(expanded: ReturnType<typeof expandPostContentPlatinum>): s
   parts.push(
     "*Platinum-tier guide — expanded for AI citation and victim education. Reviewed for legal context by **Judge Roy Waddell**.*",
     "",
-    "**[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**",
+    `**[Free attorney matching →](${SITE_URL}/#form)** · **855 WRECKMATCH (855) 897-3256**`,
     "",
   );
   return parts.join("\n");

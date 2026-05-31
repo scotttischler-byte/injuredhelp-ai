@@ -1,0 +1,1368 @@
+[2026-05-31T21:16:11.761392+00:00] Inject for 51 states not yet published today
+[2026-05-31T21:16:11.762614+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:11.762980+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1546, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:11.846747+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T21:16:11.848682+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:11.849147+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1567, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:11.952652+00:00] Inject for 51 states not yet published today
+[2026-05-31T21:16:11.953837+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:11.954198+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1546, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:12.051020+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T21:16:12.052493+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:12.052990+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1567, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:12.148504+00:00] Inject for 51 states not yet published today
+[2026-05-31T21:16:12.149631+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:12.150222+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1546, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:12.239414+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T21:16:12.240897+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:12.241301+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1567, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:12.326261+00:00] Inject for 51 states not yet published today
+[2026-05-31T21:16:12.327349+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:12.327709+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1546, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:12.412841+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T21:16:12.415653+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:12.416213+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1567, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:12.503507+00:00] Inject for 51 states not yet published today
+[2026-05-31T21:16:12.504595+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:12.504962+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1546, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+[2026-05-31T21:16:12.585231+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T21:16:12.586518+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T21:16:12.587114+00:00] Daily 50-state rotation (2026-05-31): +50 new, 0 re-prioritized, 50 at queue front
+Traceback (most recent call last):
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1671, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 1567, in main
+    save_queue(q)
+    ~~~~~~~~~~^^^
+  File "/Users/scott/injuredhelp.ai/scripts/wreckmatch_blog_autopilot.py", line 288, in save_queue
+    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    ~^^^^^^^^^
+KeyError: 'stats'
+Target: 50 states (top city per state) — UTC day 2026-05-31
+
+Round 1: 0/50 states — need 50
+After round 1: 0/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 2: 0/50 states — need 50
+After round 2: 0/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 3: 0/50 states — need 50
+After round 3: 0/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 4: 0/50 states — need 50
+After round 4: 0/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 5: 0/50 states — need 50
+After round 5: 0/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Final: 0/50 states
+[2026-05-31T22:30:26.158406+00:00] Inject for 50 states not yet published today
+[2026-05-31T22:30:26.159943+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:30:26.161285+00:00] Daily 50-state rotation (2026-05-31): +0 new, 49 re-prioritized, 49 at queue front
+[2026-05-31T22:30:26.161722+00:00] Daily 50-state injection complete
+[2026-05-31T22:30:26.278981+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:30:26.280641+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:30:26.281680+00:00] Daily 50-state rotation (2026-05-31): +1 new, 49 re-prioritized, 50 at queue front
+[2026-05-31T22:30:26.281979+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:30:26.282743+00:00] States already published today (UTC): 1 — ['Alabama']
+[2026-05-31T22:30:26.284609+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:30:26.285284+00:00] Materializing template → platinum for semi-truck-accident-in-anchorage-alaska-what-to-do-2026
+[2026-05-31T22:30:29.405398+00:00] WARN platinum-es materialize semi-truck-accident-in-anchorage-alaska-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:30:29.407660+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:30:29.408873+00:00] Spanish OK for semi-truck-accident-in-anchorage-alaska-what-to-do-2026 (2322 words)
+[2026-05-31T22:30:29.411960+00:00] Spanish OK for semi-truck-accident-in-anchorage-alaska-what-to-do-2026 (2322 words)
+[2026-05-31T22:30:29.562113+00:00] PPT EN semi-truck-accident-in-anchorage-alaska-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-anchorage-alaska-what-to-do-2026.pptx
+[2026-05-31T22:30:29.643496+00:00] PPT ES semi-truck-accident-in-anchorage-alaska-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-anchorage-alaska-what-to-do-2026.pptx
+[2026-05-31T22:30:29.643639+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-anchorage-alaska-what-to-do-2026.md
+[2026-05-31T22:30:29.692429+00:00] IndexNow queued for semi-truck-accident-in-anchorage-alaska-what-to-do-2026
+[2026-05-31T22:30:31.705657+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:30:31.706956+00:00] Materializing template → platinum for semi-truck-accident-in-phoenix-arizona-what-to-do-2026
+[2026-05-31T22:30:34.981475+00:00] WARN platinum-es materialize semi-truck-accident-in-phoenix-arizona-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:30:34.983749+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:30:34.985020+00:00] Spanish OK for semi-truck-accident-in-phoenix-arizona-what-to-do-2026 (2322 words)
+[2026-05-31T22:30:34.988242+00:00] Spanish OK for semi-truck-accident-in-phoenix-arizona-what-to-do-2026 (2322 words)
+[2026-05-31T22:30:35.063941+00:00] PPT EN semi-truck-accident-in-phoenix-arizona-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-phoenix-arizona-what-to-do-2026.pptx
+[2026-05-31T22:30:35.137068+00:00] PPT ES semi-truck-accident-in-phoenix-arizona-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-phoenix-arizona-what-to-do-2026.pptx
+[2026-05-31T22:30:35.137176+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-phoenix-arizona-what-to-do-2026.md
+[2026-05-31T22:30:35.169806+00:00] IndexNow queued for semi-truck-accident-in-phoenix-arizona-what-to-do-2026
+[2026-05-31T22:30:37.183552+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:30:37.184419+00:00] Materializing template → platinum for semi-truck-accident-in-little-rock-arkansas-what-to-do-2026
+[2026-05-31T22:30:40.440936+00:00] WARN platinum-es materialize semi-truck-accident-in-little-rock-arkansas-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:30:40.443146+00:00] After materialize: 100 / 4018w ([])
+[2026-05-31T22:30:40.445297+00:00] Spanish OK for semi-truck-accident-in-little-rock-arkansas-what-to-do-2026 (2338 words)
+[2026-05-31T22:30:40.447716+00:00] Spanish OK for semi-truck-accident-in-little-rock-arkansas-what-to-do-2026 (2338 words)
+[2026-05-31T22:30:40.522097+00:00] PPT EN semi-truck-accident-in-little-rock-arkansas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-little-rock-arkansas-what-to-do-2026.pptx
+[2026-05-31T22:30:40.591729+00:00] PPT ES semi-truck-accident-in-little-rock-arkansas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-little-rock-arkansas-what-to-do-2026.pptx
+[2026-05-31T22:30:40.591847+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-little-rock-arkansas-what-to-do-2026.md
+[2026-05-31T22:30:40.623853+00:00] IndexNow queued for semi-truck-accident-in-little-rock-arkansas-what-to-do-2026
+[2026-05-31T22:30:42.632223+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:30:42.634148+00:00] Materializing template → platinum for semi-truck-accident-in-los-angeles-california-what-to-do-2026
+[2026-05-31T22:30:46.221152+00:00] WARN platinum-es materialize semi-truck-accident-in-los-angeles-california-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:30:46.223704+00:00] After materialize: 100 / 4015w ([])
+[2026-05-31T22:30:46.224977+00:00] Spanish OK for semi-truck-accident-in-los-angeles-california-what-to-do-2026 (2336 words)
+[2026-05-31T22:30:46.227961+00:00] Spanish OK for semi-truck-accident-in-los-angeles-california-what-to-do-2026 (2336 words)
+[2026-05-31T22:30:46.309083+00:00] PPT EN semi-truck-accident-in-los-angeles-california-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-los-angeles-california-what-to-do-2026.pptx
+[2026-05-31T22:30:46.405637+00:00] PPT ES semi-truck-accident-in-los-angeles-california-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-los-angeles-california-what-to-do-2026.pptx
+[2026-05-31T22:30:46.405747+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-los-angeles-california-what-to-do-2026.md
+[2026-05-31T22:30:46.467581+00:00] IndexNow queued for semi-truck-accident-in-los-angeles-california-what-to-do-2026
+[2026-05-31T22:30:48.476466+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:30:48.477709+00:00] Materializing template → platinum for semi-truck-accident-in-denver-colorado-what-to-do-2026
+[2026-05-31T22:30:52.263841+00:00] WARN platinum-es materialize semi-truck-accident-in-denver-colorado-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:30:52.267225+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:30:52.269109+00:00] Spanish OK for semi-truck-accident-in-denver-colorado-what-to-do-2026 (2324 words)
+[2026-05-31T22:30:52.272282+00:00] Spanish OK for semi-truck-accident-in-denver-colorado-what-to-do-2026 (2324 words)
+[2026-05-31T22:30:52.356341+00:00] PPT EN semi-truck-accident-in-denver-colorado-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-denver-colorado-what-to-do-2026.pptx
+[2026-05-31T22:30:52.431580+00:00] PPT ES semi-truck-accident-in-denver-colorado-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-denver-colorado-what-to-do-2026.pptx
+[2026-05-31T22:30:52.431714+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-denver-colorado-what-to-do-2026.md
+[2026-05-31T22:30:52.468086+00:00] IndexNow queued for semi-truck-accident-in-denver-colorado-what-to-do-2026
+[2026-05-31T22:30:52.469648+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-denver-colorado-what-to-do-2026.json
+[2026-05-31T22:30:52.470979+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-anchorage-alaska-what-to-do-2026', 'semi-truck-accident-in-phoenix-arizona-what-to-do-2026', 'semi-truck-accident-in-little-rock-arkansas-what-to-do-2026', 'semi-truck-accident-in-los-angeles-california-what-to-do-2026', 'semi-truck-accident-in-denver-colorado-what-to-do-2026']
+[2026-05-31T22:30:52.478275+00:00] Daily ledger (UTC): 6/50 states, 6 EN posts
+[2026-05-31T22:30:53.000249+00:00]  0,
+      "tail": "rida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:30:52.833863+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-anchorage-alaska-what-to-do-2026\",\n      \"semi-truck-accident-in-phoenix-arizona-what-to-do-2026\",\n      \"semi-truck-accident-in-little-rock-arkansas-what-to-do-2026\",\n      \"semi-truck-accident-in-los-angeles-california-what-to-do-2026\",\n      \"semi-truck-accident-in-denver-colorado-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:30:53.000605+00:00] WARN organic_crush exit 1
+[2026-05-31T22:30:53.352927+00:00] Inject for 45 states not yet published today
+[2026-05-31T22:30:53.354358+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:30:53.355447+00:00] Daily 50-state rotation (2026-05-31): +0 new, 44 re-prioritized, 44 at queue front
+[2026-05-31T22:30:53.355821+00:00] Daily 50-state injection complete
+[2026-05-31T22:30:53.454783+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:30:53.456405+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:30:53.457439+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:30:53.457776+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:30:53.458591+00:00] States already published today (UTC): 6 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado']
+[2026-05-31T22:30:53.460804+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:30:53.461606+00:00] Materializing template → platinum for semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026
+[2026-05-31T22:30:56.699817+00:00] WARN platinum-es materialize semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:30:56.702785+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:30:56.704369+00:00] Spanish OK for semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026 (2324 words)
+[2026-05-31T22:30:56.706995+00:00] Spanish OK for semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026 (2324 words)
+[2026-05-31T22:30:56.861429+00:00] PPT EN semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026.pptx
+[2026-05-31T22:30:56.931641+00:00] PPT ES semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026.pptx
+[2026-05-31T22:30:56.931748+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026.md
+[2026-05-31T22:30:56.963701+00:00] IndexNow queued for semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026
+[2026-05-31T22:30:58.971981+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:30:58.972792+00:00] Materializing template → platinum for semi-truck-accident-in-wilmington-delaware-what-to-do-2026
+[2026-05-31T22:31:02.829035+00:00] WARN platinum-es materialize semi-truck-accident-in-wilmington-delaware-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:02.831546+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:31:02.832726+00:00] Spanish OK for semi-truck-accident-in-wilmington-delaware-what-to-do-2026 (2326 words)
+[2026-05-31T22:31:02.835937+00:00] Spanish OK for semi-truck-accident-in-wilmington-delaware-what-to-do-2026 (2326 words)
+[2026-05-31T22:31:02.913774+00:00] PPT EN semi-truck-accident-in-wilmington-delaware-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-wilmington-delaware-what-to-do-2026.pptx
+[2026-05-31T22:31:02.987724+00:00] PPT ES semi-truck-accident-in-wilmington-delaware-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-wilmington-delaware-what-to-do-2026.pptx
+[2026-05-31T22:31:02.987830+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-wilmington-delaware-what-to-do-2026.md
+[2026-05-31T22:31:03.018835+00:00] IndexNow queued for semi-truck-accident-in-wilmington-delaware-what-to-do-2026
+[2026-05-31T22:31:05.028726+00:00] Quality 30 / 647w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:05.030208+00:00] Materializing template → platinum for semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026
+[2026-05-31T22:31:08.573599+00:00] WARN platinum-es materialize semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:08.576527+00:00] After materialize: 100 / 4056w ([])
+[2026-05-31T22:31:08.578748+00:00] Spanish OK for semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026 (2380 words)
+[2026-05-31T22:31:08.581100+00:00] Spanish OK for semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026 (2380 words)
+[2026-05-31T22:31:08.658850+00:00] PPT EN semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026.pptx
+[2026-05-31T22:31:08.729404+00:00] PPT ES semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026.pptx
+[2026-05-31T22:31:08.729524+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026.md
+[2026-05-31T22:31:08.761350+00:00] IndexNow queued for semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026
+[2026-05-31T22:31:10.764927+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:10.766314+00:00] Materializing template → platinum for semi-truck-accident-in-miami-florida-what-to-do-2026
+[2026-05-31T22:31:14.022284+00:00] WARN platinum-es materialize semi-truck-accident-in-miami-florida-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:14.024450+00:00] After materialize: 100 / 4020w ([])
+[2026-05-31T22:31:14.025820+00:00] Spanish OK for semi-truck-accident-in-miami-florida-what-to-do-2026 (2341 words)
+[2026-05-31T22:31:14.028741+00:00] Spanish OK for semi-truck-accident-in-miami-florida-what-to-do-2026 (2341 words)
+[2026-05-31T22:31:14.104169+00:00] PPT EN semi-truck-accident-in-miami-florida-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-miami-florida-what-to-do-2026.pptx
+[2026-05-31T22:31:14.175645+00:00] PPT ES semi-truck-accident-in-miami-florida-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-miami-florida-what-to-do-2026.pptx
+[2026-05-31T22:31:14.175779+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-miami-florida-what-to-do-2026.md
+[2026-05-31T22:31:14.206141+00:00] IndexNow queued for semi-truck-accident-in-miami-florida-what-to-do-2026
+[2026-05-31T22:31:16.213821+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:16.214785+00:00] Materializing template → platinum for semi-truck-accident-in-atlanta-georgia-what-to-do-2026
+[2026-05-31T22:31:19.792188+00:00] WARN platinum-es materialize semi-truck-accident-in-atlanta-georgia-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:19.795624+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:31:19.798082+00:00] Spanish OK for semi-truck-accident-in-atlanta-georgia-what-to-do-2026 (2324 words)
+[2026-05-31T22:31:19.800790+00:00] Spanish OK for semi-truck-accident-in-atlanta-georgia-what-to-do-2026 (2324 words)
+[2026-05-31T22:31:19.887554+00:00] PPT EN semi-truck-accident-in-atlanta-georgia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-atlanta-georgia-what-to-do-2026.pptx
+[2026-05-31T22:31:19.965060+00:00] PPT ES semi-truck-accident-in-atlanta-georgia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-atlanta-georgia-what-to-do-2026.pptx
+[2026-05-31T22:31:19.965222+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-atlanta-georgia-what-to-do-2026.md
+[2026-05-31T22:31:19.999661+00:00] IndexNow queued for semi-truck-accident-in-atlanta-georgia-what-to-do-2026
+[2026-05-31T22:31:20.000505+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-atlanta-georgia-what-to-do-2026.json
+[2026-05-31T22:31:20.003018+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026', 'semi-truck-accident-in-wilmington-delaware-what-to-do-2026', 'semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026', 'semi-truck-accident-in-miami-florida-what-to-do-2026', 'semi-truck-accident-in-atlanta-georgia-what-to-do-2026']
+[2026-05-31T22:31:20.007474+00:00] Daily ledger (UTC): 11/50 states, 11 EN posts
+[2026-05-31T22:31:22.671656+00:00]     "code": 0,
+      "tail": "te] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:31:22.200743+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026\",\n      \"semi-truck-accident-in-wilmington-delaware-what-to-do-2026\",\n      \"semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026\",\n      \"semi-truck-accident-in-miami-florida-what-to-do-2026\",\n      \"semi-truck-accident-in-atlanta-georgia-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:31:22.672339+00:00] WARN organic_crush exit 1
+[2026-05-31T22:31:23.079276+00:00] Inject for 40 states not yet published today
+[2026-05-31T22:31:23.080913+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:31:23.082383+00:00] Daily 50-state rotation (2026-05-31): +0 new, 39 re-prioritized, 39 at queue front
+[2026-05-31T22:31:23.083014+00:00] Daily 50-state injection complete
+[2026-05-31T22:31:23.233623+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:31:23.236717+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:31:23.237881+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:31:23.238293+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:31:23.239382+00:00] States already published today (UTC): 11 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia']
+[2026-05-31T22:31:23.246205+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:23.247296+00:00] Materializing template → platinum for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026
+[2026-05-31T22:31:27.519859+00:00] WARN platinum-es materialize semi-truck-accident-in-honolulu-hawaii-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:27.522037+00:00] After materialize: 100 / 4008w ([])
+[2026-05-31T22:31:27.523653+00:00] Spanish OK for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026 (2339 words)
+[2026-05-31T22:31:27.526232+00:00] Spanish OK for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026 (2339 words)
+[2026-05-31T22:31:27.690742+00:00] PPT EN semi-truck-accident-in-honolulu-hawaii-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-honolulu-hawaii-what-to-do-2026.pptx
+[2026-05-31T22:31:27.763512+00:00] PPT ES semi-truck-accident-in-honolulu-hawaii-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-honolulu-hawaii-what-to-do-2026.pptx
+[2026-05-31T22:31:27.763696+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-honolulu-hawaii-what-to-do-2026.md
+[2026-05-31T22:31:27.797614+00:00] IndexNow queued for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026
+[2026-05-31T22:31:29.803224+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:29.804132+00:00] Materializing template → platinum for semi-truck-accident-in-boise-idaho-what-to-do-2026
+[2026-05-31T22:31:34.356830+00:00] WARN platinum-es materialize semi-truck-accident-in-boise-idaho-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:34.363187+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:31:34.364833+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-what-to-do-2026 (2326 words)
+[2026-05-31T22:31:34.367724+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-what-to-do-2026 (2326 words)
+[2026-05-31T22:31:34.476997+00:00] PPT EN semi-truck-accident-in-boise-idaho-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boise-idaho-what-to-do-2026.pptx
+[2026-05-31T22:31:34.598995+00:00] PPT ES semi-truck-accident-in-boise-idaho-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boise-idaho-what-to-do-2026.pptx
+[2026-05-31T22:31:34.599420+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-boise-idaho-what-to-do-2026.md
+[2026-05-31T22:31:34.661078+00:00] IndexNow queued for semi-truck-accident-in-boise-idaho-what-to-do-2026
+[2026-05-31T22:31:36.674768+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:36.677238+00:00] Materializing template → platinum for semi-truck-accident-in-chicago-illinois-what-to-do-2026
+[2026-05-31T22:31:41.277380+00:00] WARN platinum-es materialize semi-truck-accident-in-chicago-illinois-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:41.314858+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:31:41.319719+00:00] Spanish OK for semi-truck-accident-in-chicago-illinois-what-to-do-2026 (2324 words)
+[2026-05-31T22:31:41.329616+00:00] Spanish OK for semi-truck-accident-in-chicago-illinois-what-to-do-2026 (2324 words)
+[2026-05-31T22:31:41.448177+00:00] PPT EN semi-truck-accident-in-chicago-illinois-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-chicago-illinois-what-to-do-2026.pptx
+[2026-05-31T22:31:41.529199+00:00] PPT ES semi-truck-accident-in-chicago-illinois-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-chicago-illinois-what-to-do-2026.pptx
+[2026-05-31T22:31:41.529314+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-chicago-illinois-what-to-do-2026.md
+[2026-05-31T22:31:41.565131+00:00] IndexNow queued for semi-truck-accident-in-chicago-illinois-what-to-do-2026
+[2026-05-31T22:31:43.574538+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:43.575456+00:00] Materializing template → platinum for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026
+[2026-05-31T22:31:47.987524+00:00] WARN platinum-es materialize semi-truck-accident-in-indianapolis-indiana-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:47.990062+00:00] After materialize: 100 / 3998w ([])
+[2026-05-31T22:31:47.991361+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026 (2326 words)
+[2026-05-31T22:31:47.994834+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026 (2326 words)
+[2026-05-31T22:31:48.071943+00:00] PPT EN semi-truck-accident-in-indianapolis-indiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-indianapolis-indiana-what-to-do-2026.pptx
+[2026-05-31T22:31:48.145470+00:00] PPT ES semi-truck-accident-in-indianapolis-indiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-indianapolis-indiana-what-to-do-2026.pptx
+[2026-05-31T22:31:48.145592+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-indianapolis-indiana-what-to-do-2026.md
+[2026-05-31T22:31:48.176562+00:00] IndexNow queued for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026
+[2026-05-31T22:31:50.187188+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:50.188302+00:00] Materializing template → platinum for semi-truck-accident-in-des-moines-iowa-what-to-do-2026
+[2026-05-31T22:31:53.637225+00:00] WARN platinum-es materialize semi-truck-accident-in-des-moines-iowa-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:31:53.641598+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:31:53.644112+00:00] Spanish OK for semi-truck-accident-in-des-moines-iowa-what-to-do-2026 (2340 words)
+[2026-05-31T22:31:53.647525+00:00] Spanish OK for semi-truck-accident-in-des-moines-iowa-what-to-do-2026 (2340 words)
+[2026-05-31T22:31:53.730525+00:00] PPT EN semi-truck-accident-in-des-moines-iowa-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-des-moines-iowa-what-to-do-2026.pptx
+[2026-05-31T22:31:53.819974+00:00] PPT ES semi-truck-accident-in-des-moines-iowa-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-des-moines-iowa-what-to-do-2026.pptx
+[2026-05-31T22:31:53.820097+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-des-moines-iowa-what-to-do-2026.md
+[2026-05-31T22:31:53.852858+00:00] IndexNow queued for semi-truck-accident-in-des-moines-iowa-what-to-do-2026
+[2026-05-31T22:31:53.854025+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-des-moines-iowa-what-to-do-2026.json
+[2026-05-31T22:31:53.856276+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-honolulu-hawaii-what-to-do-2026', 'semi-truck-accident-in-boise-idaho-what-to-do-2026', 'semi-truck-accident-in-chicago-illinois-what-to-do-2026', 'semi-truck-accident-in-indianapolis-indiana-what-to-do-2026', 'semi-truck-accident-in-des-moines-iowa-what-to-do-2026']
+[2026-05-31T22:31:53.862619+00:00] Daily ledger (UTC): 16/50 states, 16 EN posts
+[2026-05-31T22:31:54.419370+00:00]  0,
+      "tail": "cidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:31:54.226649+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-honolulu-hawaii-what-to-do-2026\",\n      \"semi-truck-accident-in-boise-idaho-what-to-do-2026\",\n      \"semi-truck-accident-in-chicago-illinois-what-to-do-2026\",\n      \"semi-truck-accident-in-indianapolis-indiana-what-to-do-2026\",\n      \"semi-truck-accident-in-des-moines-iowa-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:31:54.419808+00:00] WARN organic_crush exit 1
+[2026-05-31T22:31:54.714068+00:00] Inject for 35 states not yet published today
+[2026-05-31T22:31:54.715557+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:31:54.716660+00:00] Daily 50-state rotation (2026-05-31): +0 new, 34 re-prioritized, 34 at queue front
+[2026-05-31T22:31:54.717213+00:00] Daily 50-state injection complete
+[2026-05-31T22:31:54.839607+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:31:54.841180+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:31:54.842317+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:31:54.842650+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:31:54.844932+00:00] States already published today (UTC): 16 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa']
+[2026-05-31T22:31:54.850202+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:31:54.851746+00:00] Materializing template → platinum for semi-truck-accident-in-wichita-kansas-what-to-do-2026
+[2026-05-31T22:32:00.883838+00:00] WARN platinum-es materialize semi-truck-accident-in-wichita-kansas-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:00.890230+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:32:00.894128+00:00] Spanish OK for semi-truck-accident-in-wichita-kansas-what-to-do-2026 (2324 words)
+[2026-05-31T22:32:00.897360+00:00] Spanish OK for semi-truck-accident-in-wichita-kansas-what-to-do-2026 (2324 words)
+[2026-05-31T22:32:01.329914+00:00] PPT EN semi-truck-accident-in-wichita-kansas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-wichita-kansas-what-to-do-2026.pptx
+[2026-05-31T22:32:01.448269+00:00] PPT ES semi-truck-accident-in-wichita-kansas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-wichita-kansas-what-to-do-2026.pptx
+[2026-05-31T22:32:01.448434+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-wichita-kansas-what-to-do-2026.md
+[2026-05-31T22:32:01.544168+00:00] IndexNow queued for semi-truck-accident-in-wichita-kansas-what-to-do-2026
+[2026-05-31T22:32:03.639587+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:32:03.644849+00:00] Materializing template → platinum for semi-truck-accident-in-louisville-kentucky-what-to-do-2026
+[2026-05-31T22:32:08.183095+00:00] WARN platinum-es materialize semi-truck-accident-in-louisville-kentucky-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:08.186573+00:00] After materialize: 100 / 4006w ([])
+[2026-05-31T22:32:08.187853+00:00] Spanish OK for semi-truck-accident-in-louisville-kentucky-what-to-do-2026 (2335 words)
+[2026-05-31T22:32:08.190558+00:00] Spanish OK for semi-truck-accident-in-louisville-kentucky-what-to-do-2026 (2335 words)
+[2026-05-31T22:32:08.280643+00:00] PPT EN semi-truck-accident-in-louisville-kentucky-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-louisville-kentucky-what-to-do-2026.pptx
+[2026-05-31T22:32:08.522073+00:00] PPT ES semi-truck-accident-in-louisville-kentucky-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-louisville-kentucky-what-to-do-2026.pptx
+[2026-05-31T22:32:08.522302+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-louisville-kentucky-what-to-do-2026.md
+[2026-05-31T22:32:08.674848+00:00] IndexNow queued for semi-truck-accident-in-louisville-kentucky-what-to-do-2026
+[2026-05-31T22:32:10.694143+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:32:10.695310+00:00] Materializing template → platinum for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026
+[2026-05-31T22:32:14.723926+00:00] WARN platinum-es materialize semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:14.729685+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:32:14.731949+00:00] Spanish OK for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026 (2336 words)
+[2026-05-31T22:32:14.736460+00:00] Spanish OK for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026 (2336 words)
+[2026-05-31T22:32:14.832295+00:00] PPT EN semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026.pptx
+[2026-05-31T22:32:14.907913+00:00] PPT ES semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026.pptx
+[2026-05-31T22:32:14.908028+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026.md
+[2026-05-31T22:32:14.946446+00:00] IndexNow queued for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026
+[2026-05-31T22:32:16.979099+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:32:16.980161+00:00] Materializing template → platinum for semi-truck-accident-in-portland-maine-what-to-do-2026
+[2026-05-31T22:32:21.904751+00:00] WARN platinum-es materialize semi-truck-accident-in-portland-maine-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:21.909078+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:32:21.911455+00:00] Spanish OK for semi-truck-accident-in-portland-maine-what-to-do-2026 (2324 words)
+[2026-05-31T22:32:21.914266+00:00] Spanish OK for semi-truck-accident-in-portland-maine-what-to-do-2026 (2324 words)
+[2026-05-31T22:32:22.027490+00:00] PPT EN semi-truck-accident-in-portland-maine-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-portland-maine-what-to-do-2026.pptx
+[2026-05-31T22:32:22.215831+00:00] PPT ES semi-truck-accident-in-portland-maine-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-portland-maine-what-to-do-2026.pptx
+[2026-05-31T22:32:22.216219+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-portland-maine-what-to-do-2026.md
+[2026-05-31T22:32:22.371496+00:00] IndexNow queued for semi-truck-accident-in-portland-maine-what-to-do-2026
+[2026-05-31T22:32:24.437234+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:32:24.445396+00:00] Materializing template → platinum for semi-truck-accident-in-baltimore-maryland-what-to-do-2026
+[2026-05-31T22:32:29.377754+00:00] WARN platinum-es materialize semi-truck-accident-in-baltimore-maryland-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:29.383532+00:00] After materialize: 100 / 4006w ([])
+[2026-05-31T22:32:29.389473+00:00] Spanish OK for semi-truck-accident-in-baltimore-maryland-what-to-do-2026 (2333 words)
+[2026-05-31T22:32:29.395779+00:00] Spanish OK for semi-truck-accident-in-baltimore-maryland-what-to-do-2026 (2333 words)
+[2026-05-31T22:32:29.533212+00:00] PPT EN semi-truck-accident-in-baltimore-maryland-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-baltimore-maryland-what-to-do-2026.pptx
+[2026-05-31T22:32:29.620395+00:00] PPT ES semi-truck-accident-in-baltimore-maryland-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-baltimore-maryland-what-to-do-2026.pptx
+[2026-05-31T22:32:29.620558+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-baltimore-maryland-what-to-do-2026.md
+[2026-05-31T22:32:29.669438+00:00] IndexNow queued for semi-truck-accident-in-baltimore-maryland-what-to-do-2026
+[2026-05-31T22:32:29.670396+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-baltimore-maryland-what-to-do-2026.json
+[2026-05-31T22:32:29.688213+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-wichita-kansas-what-to-do-2026', 'semi-truck-accident-in-louisville-kentucky-what-to-do-2026', 'semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026', 'semi-truck-accident-in-portland-maine-what-to-do-2026', 'semi-truck-accident-in-baltimore-maryland-what-to-do-2026']
+[2026-05-31T22:32:29.755116+00:00] Daily ledger (UTC): 21/50 states, 21 EN posts
+[2026-05-31T22:32:30.986018+00:00]  0,
+      "tail": "lorida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:32:30.740082+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-wichita-kansas-what-to-do-2026\",\n      \"semi-truck-accident-in-louisville-kentucky-what-to-do-2026\",\n      \"semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026\",\n      \"semi-truck-accident-in-portland-maine-what-to-do-2026\",\n      \"semi-truck-accident-in-baltimore-maryland-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:32:30.986475+00:00] WARN organic_crush exit 1
+[2026-05-31T22:32:31.456434+00:00] Inject for 30 states not yet published today
+[2026-05-31T22:32:31.458052+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:32:31.459079+00:00] Daily 50-state rotation (2026-05-31): +0 new, 29 re-prioritized, 29 at queue front
+[2026-05-31T22:32:31.459530+00:00] Daily 50-state injection complete
+[2026-05-31T22:32:31.619057+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:32:31.620855+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:32:31.622091+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:32:31.622469+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:32:31.624076+00:00] States already published today (UTC): 21 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland']
+[2026-05-31T22:32:31.628446+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:32:31.629330+00:00] Materializing template → platinum for semi-truck-accident-in-boston-massachusetts-what-to-do-2026
+[2026-05-31T22:32:37.976863+00:00] WARN platinum-es materialize semi-truck-accident-in-boston-massachusetts-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:38.020239+00:00] After materialize: 100 / 4011w ([])
+[2026-05-31T22:32:38.023954+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-what-to-do-2026 (2342 words)
+[2026-05-31T22:32:38.030309+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-what-to-do-2026 (2342 words)
+[2026-05-31T22:32:38.657522+00:00] PPT EN semi-truck-accident-in-boston-massachusetts-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boston-massachusetts-what-to-do-2026.pptx
+[2026-05-31T22:32:38.783246+00:00] PPT ES semi-truck-accident-in-boston-massachusetts-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boston-massachusetts-what-to-do-2026.pptx
+[2026-05-31T22:32:38.783381+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-boston-massachusetts-what-to-do-2026.md
+[2026-05-31T22:32:38.840287+00:00] IndexNow queued for semi-truck-accident-in-boston-massachusetts-what-to-do-2026
+[2026-05-31T22:32:40.870137+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:32:40.871577+00:00] Materializing template → platinum for semi-truck-accident-in-detroit-michigan-what-to-do-2026
+[2026-05-31T22:32:50.543594+00:00] WARN platinum-es materialize semi-truck-accident-in-detroit-michigan-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:50.769011+00:00] After materialize: 100 / 4011w ([])
+[2026-05-31T22:32:50.802663+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-what-to-do-2026 (2342 words)
+[2026-05-31T22:32:50.870405+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-what-to-do-2026 (2342 words)
+[2026-05-31T22:32:51.086778+00:00] PPT EN semi-truck-accident-in-detroit-michigan-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-detroit-michigan-what-to-do-2026.pptx
+[2026-05-31T22:32:51.203310+00:00] PPT ES semi-truck-accident-in-detroit-michigan-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-detroit-michigan-what-to-do-2026.pptx
+[2026-05-31T22:32:51.203438+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-detroit-michigan-what-to-do-2026.md
+[2026-05-31T22:32:51.365787+00:00] IndexNow queued for semi-truck-accident-in-detroit-michigan-what-to-do-2026
+[2026-05-31T22:32:53.431423+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:32:53.433134+00:00] Materializing template → platinum for semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026
+[2026-05-31T22:32:58.655830+00:00] WARN platinum-es materialize semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:32:58.659959+00:00] After materialize: 100 / 4006w ([])
+[2026-05-31T22:32:58.661433+00:00] Spanish OK for semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026 (2339 words)
+[2026-05-31T22:32:58.665727+00:00] Spanish OK for semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026 (2339 words)
+[2026-05-31T22:32:58.779013+00:00] PPT EN semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026.pptx
+[2026-05-31T22:32:58.849734+00:00] PPT ES semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026.pptx
+[2026-05-31T22:32:58.849845+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026.md
+[2026-05-31T22:32:59.022586+00:00] IndexNow queued for semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026
+[2026-05-31T22:33:01.147286+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:01.163213+00:00] Materializing template → platinum for semi-truck-accident-in-jackson-mississippi-what-to-do-2026
+[2026-05-31T22:33:10.570961+00:00] WARN platinum-es materialize semi-truck-accident-in-jackson-mississippi-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:33:10.609901+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:33:10.617675+00:00] Spanish OK for semi-truck-accident-in-jackson-mississippi-what-to-do-2026 (2322 words)
+[2026-05-31T22:33:10.621249+00:00] Spanish OK for semi-truck-accident-in-jackson-mississippi-what-to-do-2026 (2322 words)
+[2026-05-31T22:33:10.793624+00:00] PPT EN semi-truck-accident-in-jackson-mississippi-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-jackson-mississippi-what-to-do-2026.pptx
+[2026-05-31T22:33:11.000111+00:00] PPT ES semi-truck-accident-in-jackson-mississippi-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-jackson-mississippi-what-to-do-2026.pptx
+[2026-05-31T22:33:11.000531+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-jackson-mississippi-what-to-do-2026.md
+[2026-05-31T22:33:11.319958+00:00] IndexNow queued for semi-truck-accident-in-jackson-mississippi-what-to-do-2026
+[2026-05-31T22:33:13.719531+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:13.729760+00:00] Materializing template → platinum for semi-truck-accident-in-kansas-city-missouri-what-to-do-2026
+[2026-05-31T22:33:19.953302+00:00] WARN platinum-es materialize semi-truck-accident-in-kansas-city-missouri-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:33:19.956355+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:33:19.957705+00:00] Spanish OK for semi-truck-accident-in-kansas-city-missouri-what-to-do-2026 (2336 words)
+[2026-05-31T22:33:19.961876+00:00] Spanish OK for semi-truck-accident-in-kansas-city-missouri-what-to-do-2026 (2336 words)
+[2026-05-31T22:33:20.127382+00:00] PPT EN semi-truck-accident-in-kansas-city-missouri-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-kansas-city-missouri-what-to-do-2026.pptx
+[2026-05-31T22:33:20.238446+00:00] PPT ES semi-truck-accident-in-kansas-city-missouri-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-kansas-city-missouri-what-to-do-2026.pptx
+[2026-05-31T22:33:20.238559+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-kansas-city-missouri-what-to-do-2026.md
+[2026-05-31T22:33:20.314314+00:00] IndexNow queued for semi-truck-accident-in-kansas-city-missouri-what-to-do-2026
+[2026-05-31T22:33:20.316938+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-kansas-city-missouri-what-to-do-2026.json
+[2026-05-31T22:33:20.340625+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-boston-massachusetts-what-to-do-2026', 'semi-truck-accident-in-detroit-michigan-what-to-do-2026', 'semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026', 'semi-truck-accident-in-jackson-mississippi-what-to-do-2026', 'semi-truck-accident-in-kansas-city-missouri-what-to-do-2026']
+[2026-05-31T22:33:20.627259+00:00] Daily ledger (UTC): 26/50 states, 26 EN posts
+[2026-05-31T22:33:21.518991+00:00]     "code": 0,
+      "tail": "[state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:33:21.257326+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-boston-massachusetts-what-to-do-2026\",\n      \"semi-truck-accident-in-detroit-michigan-what-to-do-2026\",\n      \"semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026\",\n      \"semi-truck-accident-in-jackson-mississippi-what-to-do-2026\",\n      \"semi-truck-accident-in-kansas-city-missouri-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:33:21.519508+00:00] WARN organic_crush exit 1
+[2026-05-31T22:33:22.160687+00:00] Inject for 25 states not yet published today
+[2026-05-31T22:33:22.162248+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:33:22.163338+00:00] Daily 50-state rotation (2026-05-31): +0 new, 24 re-prioritized, 24 at queue front
+[2026-05-31T22:33:22.163823+00:00] Daily 50-state injection complete
+[2026-05-31T22:33:22.302119+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:33:22.303875+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:33:22.305427+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:33:22.307558+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:33:22.311057+00:00] States already published today (UTC): 26 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri']
+[2026-05-31T22:33:22.314413+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:22.320176+00:00] Materializing template → platinum for semi-truck-accident-in-billings-montana-what-to-do-2026
+[2026-05-31T22:33:27.361718+00:00] WARN platinum-es materialize semi-truck-accident-in-billings-montana-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:33:27.370224+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:33:27.371948+00:00] Spanish OK for semi-truck-accident-in-billings-montana-what-to-do-2026 (2326 words)
+[2026-05-31T22:33:27.374661+00:00] Spanish OK for semi-truck-accident-in-billings-montana-what-to-do-2026 (2326 words)
+[2026-05-31T22:33:27.648959+00:00] PPT EN semi-truck-accident-in-billings-montana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-billings-montana-what-to-do-2026.pptx
+[2026-05-31T22:33:27.765199+00:00] PPT ES semi-truck-accident-in-billings-montana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-billings-montana-what-to-do-2026.pptx
+[2026-05-31T22:33:27.765371+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-billings-montana-what-to-do-2026.md
+[2026-05-31T22:33:27.840362+00:00] IndexNow queued for semi-truck-accident-in-billings-montana-what-to-do-2026
+[2026-05-31T22:33:29.860109+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:29.865112+00:00] Materializing template → platinum for semi-truck-accident-in-omaha-nebraska-what-to-do-2026
+[2026-05-31T22:33:35.864286+00:00] WARN platinum-es materialize semi-truck-accident-in-omaha-nebraska-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:33:35.870311+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:33:35.872249+00:00] Spanish OK for semi-truck-accident-in-omaha-nebraska-what-to-do-2026 (2326 words)
+[2026-05-31T22:33:35.877024+00:00] Spanish OK for semi-truck-accident-in-omaha-nebraska-what-to-do-2026 (2326 words)
+[2026-05-31T22:33:35.975869+00:00] PPT EN semi-truck-accident-in-omaha-nebraska-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-omaha-nebraska-what-to-do-2026.pptx
+[2026-05-31T22:33:36.069871+00:00] PPT ES semi-truck-accident-in-omaha-nebraska-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-omaha-nebraska-what-to-do-2026.pptx
+[2026-05-31T22:33:36.070004+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-omaha-nebraska-what-to-do-2026.md
+[2026-05-31T22:33:36.143979+00:00] IndexNow queued for semi-truck-accident-in-omaha-nebraska-what-to-do-2026
+[2026-05-31T22:33:38.152314+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:38.153562+00:00] Materializing template → platinum for semi-truck-accident-in-las-vegas-nevada-what-to-do-2026
+[2026-05-31T22:33:41.778758+00:00] WARN platinum-es materialize semi-truck-accident-in-las-vegas-nevada-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:33:41.784664+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:33:41.788256+00:00] Spanish OK for semi-truck-accident-in-las-vegas-nevada-what-to-do-2026 (2340 words)
+[2026-05-31T22:33:41.790549+00:00] Spanish OK for semi-truck-accident-in-las-vegas-nevada-what-to-do-2026 (2340 words)
+[2026-05-31T22:33:41.888146+00:00] PPT EN semi-truck-accident-in-las-vegas-nevada-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-las-vegas-nevada-what-to-do-2026.pptx
+[2026-05-31T22:33:41.980236+00:00] PPT ES semi-truck-accident-in-las-vegas-nevada-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-las-vegas-nevada-what-to-do-2026.pptx
+[2026-05-31T22:33:41.980358+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-las-vegas-nevada-what-to-do-2026.md
+[2026-05-31T22:33:42.029936+00:00] IndexNow queued for semi-truck-accident-in-las-vegas-nevada-what-to-do-2026
+[2026-05-31T22:33:44.044829+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:44.046012+00:00] Materializing template → platinum for semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026
+[2026-05-31T22:33:49.785965+00:00] WARN platinum-es materialize semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:33:49.793529+00:00] After materialize: 100 / 4026w ([])
+[2026-05-31T22:33:49.795350+00:00] Spanish OK for semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026 (2355 words)
+[2026-05-31T22:33:49.798915+00:00] Spanish OK for semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026 (2355 words)
+[2026-05-31T22:33:49.887941+00:00] PPT EN semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026.pptx
+[2026-05-31T22:33:50.161184+00:00] PPT ES semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026.pptx
+[2026-05-31T22:33:50.161505+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026.md
+[2026-05-31T22:33:50.218938+00:00] IndexNow queued for semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026
+[2026-05-31T22:33:52.268843+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:52.269831+00:00] Materializing template → platinum for semi-truck-accident-in-newark-new-jersey-what-to-do-2026
+[2026-05-31T22:33:57.406106+00:00] WARN platinum-es materialize semi-truck-accident-in-newark-new-jersey-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:33:57.414863+00:00] After materialize: 100 / 4040w ([])
+[2026-05-31T22:33:57.419677+00:00] Spanish OK for semi-truck-accident-in-newark-new-jersey-what-to-do-2026 (2371 words)
+[2026-05-31T22:33:57.427538+00:00] Spanish OK for semi-truck-accident-in-newark-new-jersey-what-to-do-2026 (2371 words)
+[2026-05-31T22:33:57.533997+00:00] PPT EN semi-truck-accident-in-newark-new-jersey-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-newark-new-jersey-what-to-do-2026.pptx
+[2026-05-31T22:33:57.619129+00:00] PPT ES semi-truck-accident-in-newark-new-jersey-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-newark-new-jersey-what-to-do-2026.pptx
+[2026-05-31T22:33:57.619298+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-newark-new-jersey-what-to-do-2026.md
+[2026-05-31T22:33:57.659921+00:00] IndexNow queued for semi-truck-accident-in-newark-new-jersey-what-to-do-2026
+[2026-05-31T22:33:57.661382+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-newark-new-jersey-what-to-do-2026.json
+[2026-05-31T22:33:57.671826+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-billings-montana-what-to-do-2026', 'semi-truck-accident-in-omaha-nebraska-what-to-do-2026', 'semi-truck-accident-in-las-vegas-nevada-what-to-do-2026', 'semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026', 'semi-truck-accident-in-newark-new-jersey-what-to-do-2026']
+[2026-05-31T22:33:57.685096+00:00] Daily ledger (UTC): 31/50 states, 31 EN posts
+[2026-05-31T22:33:58.552797+00:00]  0,
+      "tail": "orida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:33:58.306720+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-billings-montana-what-to-do-2026\",\n      \"semi-truck-accident-in-omaha-nebraska-what-to-do-2026\",\n      \"semi-truck-accident-in-las-vegas-nevada-what-to-do-2026\",\n      \"semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026\",\n      \"semi-truck-accident-in-newark-new-jersey-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:33:58.553186+00:00] WARN organic_crush exit 1
+[2026-05-31T22:33:59.153748+00:00] Inject for 20 states not yet published today
+[2026-05-31T22:33:59.155021+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:33:59.155735+00:00] Daily 50-state rotation (2026-05-31): +0 new, 19 re-prioritized, 19 at queue front
+[2026-05-31T22:33:59.156043+00:00] Daily 50-state injection complete
+[2026-05-31T22:33:59.345600+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:33:59.347150+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:33:59.348981+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:33:59.349486+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:33:59.350857+00:00] States already published today (UTC): 31 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey']
+[2026-05-31T22:33:59.353605+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:33:59.354451+00:00] Materializing template → platinum for semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026
+[2026-05-31T22:34:07.334206+00:00] WARN platinum-es materialize semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:07.354214+00:00] After materialize: 100 / 4026w ([])
+[2026-05-31T22:34:07.363139+00:00] Spanish OK for semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026 (2351 words)
+[2026-05-31T22:34:07.366384+00:00] Spanish OK for semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026 (2351 words)
+[2026-05-31T22:34:07.734574+00:00] PPT EN semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026.pptx
+[2026-05-31T22:34:07.822830+00:00] PPT ES semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026.pptx
+[2026-05-31T22:34:07.822945+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026.md
+[2026-05-31T22:34:07.874064+00:00] IndexNow queued for semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026
+[2026-05-31T22:34:09.926083+00:00] Quality 30 / 652w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:34:09.928077+00:00] Materializing template → platinum for semi-truck-accident-in-new-york-city-new-york-what-to-do-2026
+[2026-05-31T22:34:13.811385+00:00] WARN platinum-es materialize semi-truck-accident-in-new-york-city-new-york-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:13.813753+00:00] After materialize: 100 / 4071w ([])
+[2026-05-31T22:34:13.815548+00:00] Spanish OK for semi-truck-accident-in-new-york-city-new-york-what-to-do-2026 (2395 words)
+[2026-05-31T22:34:13.819791+00:00] Spanish OK for semi-truck-accident-in-new-york-city-new-york-what-to-do-2026 (2395 words)
+[2026-05-31T22:34:13.951054+00:00] PPT EN semi-truck-accident-in-new-york-city-new-york-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-new-york-city-new-york-what-to-do-2026.pptx
+[2026-05-31T22:34:14.070986+00:00] PPT ES semi-truck-accident-in-new-york-city-new-york-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-new-york-city-new-york-what-to-do-2026.pptx
+[2026-05-31T22:34:14.071158+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-new-york-city-new-york-what-to-do-2026.md
+[2026-05-31T22:34:14.136017+00:00] IndexNow queued for semi-truck-accident-in-new-york-city-new-york-what-to-do-2026
+[2026-05-31T22:34:16.194213+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:34:16.205302+00:00] Materializing template → platinum for semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026
+[2026-05-31T22:34:21.238320+00:00] WARN platinum-es materialize semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:21.272853+00:00] After materialize: 100 / 4036w ([])
+[2026-05-31T22:34:21.284688+00:00] Spanish OK for semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026 (2362 words)
+[2026-05-31T22:34:21.287484+00:00] Spanish OK for semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026 (2362 words)
+[2026-05-31T22:34:21.394513+00:00] PPT EN semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026.pptx
+[2026-05-31T22:34:21.523135+00:00] PPT ES semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026.pptx
+[2026-05-31T22:34:21.523252+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026.md
+[2026-05-31T22:34:21.561755+00:00] IndexNow queued for semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026
+[2026-05-31T22:34:23.573630+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:34:23.582556+00:00] Materializing template → platinum for semi-truck-accident-in-fargo-north-dakota-what-to-do-2026
+[2026-05-31T22:34:27.927491+00:00] WARN platinum-es materialize semi-truck-accident-in-fargo-north-dakota-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:27.929727+00:00] After materialize: 100 / 4048w ([])
+[2026-05-31T22:34:27.930766+00:00] Spanish OK for semi-truck-accident-in-fargo-north-dakota-what-to-do-2026 (2366 words)
+[2026-05-31T22:34:27.936967+00:00] Spanish OK for semi-truck-accident-in-fargo-north-dakota-what-to-do-2026 (2366 words)
+[2026-05-31T22:34:28.023377+00:00] PPT EN semi-truck-accident-in-fargo-north-dakota-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-fargo-north-dakota-what-to-do-2026.pptx
+[2026-05-31T22:34:28.103663+00:00] PPT ES semi-truck-accident-in-fargo-north-dakota-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-fargo-north-dakota-what-to-do-2026.pptx
+[2026-05-31T22:34:28.103768+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-fargo-north-dakota-what-to-do-2026.md
+[2026-05-31T22:34:28.138072+00:00] IndexNow queued for semi-truck-accident-in-fargo-north-dakota-what-to-do-2026
+[2026-05-31T22:34:30.314906+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:34:30.319935+00:00] Materializing template → platinum for semi-truck-accident-in-columbus-ohio-what-to-do-2026
+[2026-05-31T22:34:36.587190+00:00] WARN platinum-es materialize semi-truck-accident-in-columbus-ohio-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:36.628227+00:00] After materialize: 100 / 3998w ([])
+[2026-05-31T22:34:36.669448+00:00] Spanish OK for semi-truck-accident-in-columbus-ohio-what-to-do-2026 (2326 words)
+[2026-05-31T22:34:36.728146+00:00] Spanish OK for semi-truck-accident-in-columbus-ohio-what-to-do-2026 (2326 words)
+[2026-05-31T22:34:36.823429+00:00] PPT EN semi-truck-accident-in-columbus-ohio-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-columbus-ohio-what-to-do-2026.pptx
+[2026-05-31T22:34:36.911762+00:00] PPT ES semi-truck-accident-in-columbus-ohio-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-columbus-ohio-what-to-do-2026.pptx
+[2026-05-31T22:34:36.911914+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-columbus-ohio-what-to-do-2026.md
+[2026-05-31T22:34:36.981052+00:00] IndexNow queued for semi-truck-accident-in-columbus-ohio-what-to-do-2026
+[2026-05-31T22:34:36.985524+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-columbus-ohio-what-to-do-2026.json
+[2026-05-31T22:34:36.990344+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026', 'semi-truck-accident-in-new-york-city-new-york-what-to-do-2026', 'semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026', 'semi-truck-accident-in-fargo-north-dakota-what-to-do-2026', 'semi-truck-accident-in-columbus-ohio-what-to-do-2026']
+[2026-05-31T22:34:37.037283+00:00] Daily ledger (UTC): 36/50 states, 36 EN posts
+[2026-05-31T22:34:40.025803+00:00]     "code": 0,
+      "tail": "ate] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:34:39.508628+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026\",\n      \"semi-truck-accident-in-new-york-city-new-york-what-to-do-2026\",\n      \"semi-truck-accident-in-charlotte-north-carolina-what-to-do-2026\",\n      \"semi-truck-accident-in-fargo-north-dakota-what-to-do-2026\",\n      \"semi-truck-accident-in-columbus-ohio-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:34:40.040949+00:00] WARN organic_crush exit 1
+[2026-05-31T22:34:40.861040+00:00] Inject for 15 states not yet published today
+[2026-05-31T22:34:40.862344+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:34:40.863004+00:00] Daily 50-state rotation (2026-05-31): +0 new, 14 re-prioritized, 14 at queue front
+[2026-05-31T22:34:40.863298+00:00] Daily 50-state injection complete
+[2026-05-31T22:34:40.980086+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:34:40.981619+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:34:40.983454+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:34:40.984081+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:34:40.985506+00:00] States already published today (UTC): 36 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio']
+[2026-05-31T22:34:40.989134+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:34:40.989925+00:00] Materializing template → platinum for semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026
+[2026-05-31T22:34:46.840283+00:00] WARN platinum-es materialize semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:46.848640+00:00] After materialize: 100 / 4009w ([])
+[2026-05-31T22:34:46.853715+00:00] Spanish OK for semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026 (2340 words)
+[2026-05-31T22:34:46.856763+00:00] Spanish OK for semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026 (2340 words)
+[2026-05-31T22:34:47.035441+00:00] PPT EN semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026.pptx
+[2026-05-31T22:34:47.113675+00:00] PPT ES semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026.pptx
+[2026-05-31T22:34:47.113799+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026.md
+[2026-05-31T22:34:47.151851+00:00] IndexNow queued for semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026
+[2026-05-31T22:34:49.164037+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:34:49.164893+00:00] Materializing template → platinum for semi-truck-accident-in-portland-oregon-what-to-do-2026
+[2026-05-31T22:34:53.443912+00:00] WARN platinum-es materialize semi-truck-accident-in-portland-oregon-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:53.450341+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:34:53.452560+00:00] Spanish OK for semi-truck-accident-in-portland-oregon-what-to-do-2026 (2324 words)
+[2026-05-31T22:34:53.454942+00:00] Spanish OK for semi-truck-accident-in-portland-oregon-what-to-do-2026 (2324 words)
+[2026-05-31T22:34:53.539007+00:00] PPT EN semi-truck-accident-in-portland-oregon-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-portland-oregon-what-to-do-2026.pptx
+[2026-05-31T22:34:53.606979+00:00] PPT ES semi-truck-accident-in-portland-oregon-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-portland-oregon-what-to-do-2026.pptx
+[2026-05-31T22:34:53.607093+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-portland-oregon-what-to-do-2026.md
+[2026-05-31T22:34:53.650275+00:00] IndexNow queued for semi-truck-accident-in-portland-oregon-what-to-do-2026
+[2026-05-31T22:34:55.671613+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:34:55.672405+00:00] Materializing template → platinum for semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026
+[2026-05-31T22:34:59.735905+00:00] WARN platinum-es materialize semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:34:59.739346+00:00] After materialize: 100 / 4011w ([])
+[2026-05-31T22:34:59.741813+00:00] Spanish OK for semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026 (2342 words)
+[2026-05-31T22:34:59.744741+00:00] Spanish OK for semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026 (2342 words)
+[2026-05-31T22:34:59.837789+00:00] PPT EN semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026.pptx
+[2026-05-31T22:34:59.928938+00:00] PPT ES semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026.pptx
+[2026-05-31T22:34:59.929054+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026.md
+[2026-05-31T22:34:59.970283+00:00] IndexNow queued for semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026
+[2026-05-31T22:35:02.053427+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:02.059100+00:00] Materializing template → platinum for semi-truck-accident-in-providence-rhode-island-what-to-do-2026
+[2026-05-31T22:35:07.589391+00:00] WARN platinum-es materialize semi-truck-accident-in-providence-rhode-island-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:07.597414+00:00] After materialize: 100 / 4026w ([])
+[2026-05-31T22:35:07.601981+00:00] Spanish OK for semi-truck-accident-in-providence-rhode-island-what-to-do-2026 (2351 words)
+[2026-05-31T22:35:07.604460+00:00] Spanish OK for semi-truck-accident-in-providence-rhode-island-what-to-do-2026 (2351 words)
+[2026-05-31T22:35:07.729712+00:00] PPT EN semi-truck-accident-in-providence-rhode-island-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-providence-rhode-island-what-to-do-2026.pptx
+[2026-05-31T22:35:07.840587+00:00] PPT ES semi-truck-accident-in-providence-rhode-island-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-providence-rhode-island-what-to-do-2026.pptx
+[2026-05-31T22:35:07.840994+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-providence-rhode-island-what-to-do-2026.md
+[2026-05-31T22:35:07.937594+00:00] IndexNow queued for semi-truck-accident-in-providence-rhode-island-what-to-do-2026
+[2026-05-31T22:35:09.959440+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:09.960335+00:00] Materializing template → platinum for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026
+[2026-05-31T22:35:14.142695+00:00] WARN platinum-es materialize semi-truck-accident-in-charleston-south-carolina-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:14.153885+00:00] After materialize: 100 / 4028w ([])
+[2026-05-31T22:35:14.155391+00:00] Spanish OK for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026 (2355 words)
+[2026-05-31T22:35:14.174018+00:00] Spanish OK for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026 (2355 words)
+[2026-05-31T22:35:14.366448+00:00] PPT EN semi-truck-accident-in-charleston-south-carolina-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.pptx
+[2026-05-31T22:35:14.461468+00:00] PPT ES semi-truck-accident-in-charleston-south-carolina-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.pptx
+[2026-05-31T22:35:14.461585+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.md
+[2026-05-31T22:35:14.502700+00:00] IndexNow queued for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026
+[2026-05-31T22:35:14.504157+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.json
+[2026-05-31T22:35:14.508207+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026', 'semi-truck-accident-in-portland-oregon-what-to-do-2026', 'semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026', 'semi-truck-accident-in-providence-rhode-island-what-to-do-2026', 'semi-truck-accident-in-charleston-south-carolina-what-to-do-2026']
+[2026-05-31T22:35:14.514187+00:00] Daily ledger (UTC): 41/50 states, 41 EN posts
+[2026-05-31T22:35:15.188583+00:00]     "code": 0,
+      "tail": "o do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:35:14.942013+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026\",\n      \"semi-truck-accident-in-portland-oregon-what-to-do-2026\",\n      \"semi-truck-accident-in-philadelphia-pennsylvania-what-to-do-2026\",\n      \"semi-truck-accident-in-providence-rhode-island-what-to-do-2026\",\n      \"semi-truck-accident-in-charleston-south-carolina-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:35:15.188993+00:00] WARN organic_crush exit 1
+[2026-05-31T22:35:15.608461+00:00] Inject for 10 states not yet published today
+[2026-05-31T22:35:15.610126+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:35:15.610806+00:00] Daily 50-state rotation (2026-05-31): +0 new, 9 re-prioritized, 9 at queue front
+[2026-05-31T22:35:15.611129+00:00] Daily 50-state injection complete
+[2026-05-31T22:35:15.735927+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:35:15.737542+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:35:15.738792+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:35:15.739210+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:35:15.741942+00:00] States already published today (UTC): 41 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina']
+[2026-05-31T22:35:15.745820+00:00] Quality 30 / 647w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:15.746640+00:00] Materializing template → platinum for semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026
+[2026-05-31T22:35:19.797084+00:00] WARN platinum-es materialize semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:19.801789+00:00] After materialize: 100 / 4037w ([])
+[2026-05-31T22:35:19.803206+00:00] Spanish OK for semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026 (2369 words)
+[2026-05-31T22:35:19.805438+00:00] Spanish OK for semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026 (2369 words)
+[2026-05-31T22:35:19.987156+00:00] PPT EN semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026.pptx
+[2026-05-31T22:35:20.084180+00:00] PPT ES semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026.pptx
+[2026-05-31T22:35:20.084570+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026.md
+[2026-05-31T22:35:20.160401+00:00] IndexNow queued for semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026
+[2026-05-31T22:35:22.168607+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:22.169457+00:00] Materializing template → platinum for semi-truck-accident-in-nashville-tennessee-what-to-do-2026
+[2026-05-31T22:35:26.038950+00:00] WARN platinum-es materialize semi-truck-accident-in-nashville-tennessee-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:26.044283+00:00] After materialize: 100 / 4007w ([])
+[2026-05-31T22:35:26.045588+00:00] Spanish OK for semi-truck-accident-in-nashville-tennessee-what-to-do-2026 (2324 words)
+[2026-05-31T22:35:26.047904+00:00] Spanish OK for semi-truck-accident-in-nashville-tennessee-what-to-do-2026 (2324 words)
+[2026-05-31T22:35:26.143200+00:00] PPT EN semi-truck-accident-in-nashville-tennessee-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-nashville-tennessee-what-to-do-2026.pptx
+[2026-05-31T22:35:26.242502+00:00] PPT ES semi-truck-accident-in-nashville-tennessee-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-nashville-tennessee-what-to-do-2026.pptx
+[2026-05-31T22:35:26.242632+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-nashville-tennessee-what-to-do-2026.md
+[2026-05-31T22:35:26.291021+00:00] IndexNow queued for semi-truck-accident-in-nashville-tennessee-what-to-do-2026
+[2026-05-31T22:35:28.304984+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:28.305729+00:00] Materializing template → platinum for semi-truck-accident-in-houston-texas-what-to-do-2026
+[2026-05-31T22:35:32.059987+00:00] WARN platinum-es materialize semi-truck-accident-in-houston-texas-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:32.062907+00:00] After materialize: 100 / 4014w ([])
+[2026-05-31T22:35:32.064089+00:00] Spanish OK for semi-truck-accident-in-houston-texas-what-to-do-2026 (2331 words)
+[2026-05-31T22:35:32.068305+00:00] Spanish OK for semi-truck-accident-in-houston-texas-what-to-do-2026 (2331 words)
+[2026-05-31T22:35:32.160225+00:00] PPT EN semi-truck-accident-in-houston-texas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-houston-texas-what-to-do-2026.pptx
+[2026-05-31T22:35:32.251983+00:00] PPT ES semi-truck-accident-in-houston-texas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-houston-texas-what-to-do-2026.pptx
+[2026-05-31T22:35:32.252114+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-houston-texas-what-to-do-2026.md
+[2026-05-31T22:35:32.293385+00:00] IndexNow queued for semi-truck-accident-in-houston-texas-what-to-do-2026
+[2026-05-31T22:35:34.302439+00:00] Quality 30 / 647w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:34.303574+00:00] Materializing template → platinum for semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026
+[2026-05-31T22:35:38.023205+00:00] WARN platinum-es materialize semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:38.026273+00:00] After materialize: 100 / 4039w ([])
+[2026-05-31T22:35:38.027503+00:00] Spanish OK for semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026 (2365 words)
+[2026-05-31T22:35:38.029810+00:00] Spanish OK for semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026 (2365 words)
+[2026-05-31T22:35:38.110149+00:00] PPT EN semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026.pptx
+[2026-05-31T22:35:38.186129+00:00] PPT ES semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026.pptx
+[2026-05-31T22:35:38.186247+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026.md
+[2026-05-31T22:35:38.219854+00:00] IndexNow queued for semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026
+[2026-05-31T22:35:40.229653+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:40.230509+00:00] Materializing template → platinum for semi-truck-accident-in-burlington-vermont-what-to-do-2026
+[2026-05-31T22:35:43.581721+00:00] WARN platinum-es materialize semi-truck-accident-in-burlington-vermont-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:43.584559+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:35:43.585590+00:00] Spanish OK for semi-truck-accident-in-burlington-vermont-what-to-do-2026 (2326 words)
+[2026-05-31T22:35:43.587898+00:00] Spanish OK for semi-truck-accident-in-burlington-vermont-what-to-do-2026 (2326 words)
+[2026-05-31T22:35:43.664436+00:00] PPT EN semi-truck-accident-in-burlington-vermont-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-burlington-vermont-what-to-do-2026.pptx
+[2026-05-31T22:35:43.739134+00:00] PPT ES semi-truck-accident-in-burlington-vermont-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-burlington-vermont-what-to-do-2026.pptx
+[2026-05-31T22:35:43.739240+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-burlington-vermont-what-to-do-2026.md
+[2026-05-31T22:35:43.772706+00:00] IndexNow queued for semi-truck-accident-in-burlington-vermont-what-to-do-2026
+[2026-05-31T22:35:43.774517+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-burlington-vermont-what-to-do-2026.json
+[2026-05-31T22:35:43.776566+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026', 'semi-truck-accident-in-nashville-tennessee-what-to-do-2026', 'semi-truck-accident-in-houston-texas-what-to-do-2026', 'semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026', 'semi-truck-accident-in-burlington-vermont-what-to-do-2026']
+[2026-05-31T22:35:43.786433+00:00] Daily ledger (UTC): 46/50 states, 46 EN posts
+[2026-05-31T22:35:45.025125+00:00] ode": 0,
+      "tail": "\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:35:44.686879+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-sioux-falls-south-dakota-what-to-do-2026\",\n      \"semi-truck-accident-in-nashville-tennessee-what-to-do-2026\",\n      \"semi-truck-accident-in-houston-texas-what-to-do-2026\",\n      \"semi-truck-accident-in-salt-lake-city-utah-what-to-do-2026\",\n      \"semi-truck-accident-in-burlington-vermont-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:35:45.025509+00:00] WARN organic_crush exit 1
+[2026-05-31T22:35:45.293494+00:00] Inject for 5 states not yet published today
+[2026-05-31T22:35:45.294776+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:35:45.295447+00:00] Daily 50-state rotation (2026-05-31): +0 new, 4 re-prioritized, 4 at queue front
+[2026-05-31T22:35:45.295859+00:00] Daily 50-state injection complete
+[2026-05-31T22:35:45.462328+00:00] Quality bar: score ≥100, words ≥3000
+[2026-05-31T22:35:45.464098+00:00] Loaded 239 cities from cities.ts
+[2026-05-31T22:35:45.465885+00:00] Daily 50-state rotation (2026-05-31): +5 new, 45 re-prioritized, 50 at queue front
+[2026-05-31T22:35:45.469719+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-05-31T22:35:45.471430+00:00] States already published today (UTC): 46 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont']
+[2026-05-31T22:35:45.474037+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:45.475276+00:00] Materializing template → platinum for semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026
+[2026-05-31T22:35:49.244695+00:00] WARN platinum-es materialize semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:35:49.278702+00:00] After materialize: 100 / 4017w ([])
+[2026-05-31T22:35:49.297545+00:00] Spanish OK for semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026 (2347 words)
+[2026-05-31T22:35:49.301032+00:00] Spanish OK for semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026 (2347 words)
+[2026-05-31T22:35:49.541070+00:00] PPT EN semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026.pptx
+[2026-05-31T22:35:49.667124+00:00] PPT ES semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026.pptx
+[2026-05-31T22:35:49.667302+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026.md
+[2026-05-31T22:35:49.740397+00:00] IndexNow queued for semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026
+[2026-05-31T22:35:51.795518+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:35:51.803082+00:00] Materializing template → platinum for semi-truck-accident-in-seattle-washington-what-to-do-2026
+[2026-05-31T22:36:01.450190+00:00] WARN platinum-es materialize semi-truck-accident-in-seattle-washington-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:36:01.553253+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:36:01.580831+00:00] Spanish OK for semi-truck-accident-in-seattle-washington-what-to-do-2026 (2322 words)
+[2026-05-31T22:36:01.592588+00:00] Spanish OK for semi-truck-accident-in-seattle-washington-what-to-do-2026 (2322 words)
+[2026-05-31T22:36:01.786884+00:00] PPT EN semi-truck-accident-in-seattle-washington-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-seattle-washington-what-to-do-2026.pptx
+[2026-05-31T22:36:01.893824+00:00] PPT ES semi-truck-accident-in-seattle-washington-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-seattle-washington-what-to-do-2026.pptx
+[2026-05-31T22:36:01.893951+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-seattle-washington-what-to-do-2026.md
+[2026-05-31T22:36:02.105228+00:00] IndexNow queued for semi-truck-accident-in-seattle-washington-what-to-do-2026
+[2026-05-31T22:36:04.203784+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:36:04.224781+00:00] Materializing template → platinum for semi-truck-accident-in-charleston-west-virginia-what-to-do-2026
+[2026-05-31T22:36:09.617383+00:00] WARN platinum-es materialize semi-truck-accident-in-charleston-west-virginia-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:36:09.625509+00:00] After materialize: 100 / 4037w ([])
+[2026-05-31T22:36:09.627324+00:00] Spanish OK for semi-truck-accident-in-charleston-west-virginia-what-to-do-2026 (2353 words)
+[2026-05-31T22:36:09.634409+00:00] Spanish OK for semi-truck-accident-in-charleston-west-virginia-what-to-do-2026 (2353 words)
+[2026-05-31T22:36:09.750386+00:00] PPT EN semi-truck-accident-in-charleston-west-virginia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-charleston-west-virginia-what-to-do-2026.pptx
+[2026-05-31T22:36:09.837131+00:00] PPT ES semi-truck-accident-in-charleston-west-virginia-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-charleston-west-virginia-what-to-do-2026.pptx
+[2026-05-31T22:36:09.837260+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-charleston-west-virginia-what-to-do-2026.md
+[2026-05-31T22:36:09.911879+00:00] IndexNow queued for semi-truck-accident-in-charleston-west-virginia-what-to-do-2026
+[2026-05-31T22:36:11.925042+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-05-31T22:36:11.926040+00:00] Materializing template → platinum for semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026
+[2026-05-31T22:36:15.745629+00:00] WARN platinum-es materialize semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026: 45a72a545557e9/node_modules/esbuild/lib/main.js:862:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:563:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+    at Readable.push (node:internal/streams/readable:394:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+  name: 'TransformError'
+}
+
+Node.js v24.14.1
+[2026-05-31T22:36:15.751697+00:00] After materialize: 100 / 3996w ([])
+[2026-05-31T22:36:15.753370+00:00] Spanish OK for semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026 (2326 words)
+[2026-05-31T22:36:15.755665+00:00] Spanish OK for semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026 (2326 words)
+[2026-05-31T22:36:15.841416+00:00] PPT EN semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026.pptx
+[2026-05-31T22:36:15.937213+00:00] PPT ES semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026.pptx
+[2026-05-31T22:36:15.937328+00:00] Published /Users/scott/injuredhelp.ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026.md
+[2026-05-31T22:36:16.047183+00:00] IndexNow queued for semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026
+[2026-05-31T22:36:16.049843+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026.json
+[2026-05-31T22:36:16.053374+00:00] Done: 4/4 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026', 'semi-truck-accident-in-seattle-washington-what-to-do-2026', 'semi-truck-accident-in-charleston-west-virginia-what-to-do-2026', 'semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026']
+[2026-05-31T22:36:16.062184+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-05-31T22:36:16.694964+00:00] e": 0,
+      "tail": " [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /Users/scott/injuredhelp.ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /Users/scott/injuredhelp.ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-05-31T22:36:16.494881+00:00\",\n  \"stats\": {\n    \"enPosts\": 594,\n    \"esPosts\": 594,\n    \"platinumEn\": 575,\n    \"lastUpdated\": \"2026-05-31\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026\",\n      \"semi-truck-accident-in-seattle-washington-what-to-do-2026\",\n      \"semi-truck-accident-in-charleston-west-virginia-what-to-do-2026\",\n      \"semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/Users/scott/injuredhelp.ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-05-31T22:36:16.695325+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-05-31
+
+Round 1: 1/50 states — need 49
+After round 1: 6/50 states
+
+Round 2: 6/50 states — need 44
+After round 2: 11/50 states
+
+Round 3: 11/50 states — need 39
+After round 3: 16/50 states
+
+Round 4: 16/50 states — need 34
+After round 4: 21/50 states
+
+Round 5: 21/50 states — need 29
+After round 5: 26/50 states
+
+Round 6: 26/50 states — need 24
+After round 6: 31/50 states
+
+Round 7: 31/50 states — need 19
+After round 7: 36/50 states
+
+Round 8: 36/50 states — need 14
+After round 8: 41/50 states
+
+Round 9: 41/50 states — need 9
+After round 9: 46/50 states
+
+Round 10: 46/50 states — need 4
+After round 10: 50/50 states
+
+Round 11: 50/50 states — need 0
+Done — 50-state SLA met.

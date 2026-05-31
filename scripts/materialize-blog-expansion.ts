@@ -16,8 +16,9 @@ import {
 } from "../lib/blog-content-expander";
 import { authorshipForSlug } from "../lib/blog-authors";
 import type { PostMeta } from "../lib/posts";
+import { autopilotBlogDirs } from "../lib/autopilot-blog-paths";
 
-const POSTS_DIR = path.join(process.cwd(), "content/blog");
+const { en: POSTS_DIR } = autopilotBlogDirs();
 const MARKER = "<!-- wm-materialized-expansion -->";
 const MIN_WORDS = 2000; // gold base; run materialize:blog-platinum for 3000+
 

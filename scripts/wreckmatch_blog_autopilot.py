@@ -1224,6 +1224,7 @@ def run_materialize_pipeline(slug: str) -> bool:
             r = subprocess.run(
                 [*cmd, f"--slug={slug}"],
                 cwd=str(ROOT),
+                env={**os.environ},
                 capture_output=True,
                 text=True,
                 timeout=180,

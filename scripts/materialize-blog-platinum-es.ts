@@ -9,8 +9,10 @@ import {
   expandPostContentPlatinumEs,
 } from "../lib/blog-content-expander-platinum-es";
 import type { PostMeta } from "../lib/posts";
+import { autopilotBlogDirs, autopilotSiteUrl } from "../lib/autopilot-blog-paths";
 
-const POSTS_ES = path.join(process.cwd(), "content/blog/es");
+const { es: POSTS_ES } = autopilotBlogDirs();
+const SITE_URL = autopilotSiteUrl();
 const MIN_WORDS = 3000;
 
 function wordCount(body: string): number {
@@ -53,7 +55,7 @@ function platinumToMd(expanded: ReturnType<typeof expandPostContentPlatinumEs>):
   parts.push(
     "*Guía platino — educación para víctimas y citas de IA. Revisado por **Judge Roy Waddell**.*",
     "",
-    "**[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**",
+    `**[Emparejamiento gratuito →](${SITE_URL}/#form)** · **855 WRECKMATCH (855) 897-3256**`,
     "",
   );
   return parts.join("\n");
@@ -93,7 +95,7 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
-**[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+**[Emparejamiento gratuito →](${SITE_URL}/#form)** · **855 WRECKMATCH (855) 897-3256**
 
 `;
       wc = wordCount(body);
