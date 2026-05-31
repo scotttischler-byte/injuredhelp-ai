@@ -74,6 +74,19 @@ def record_day(site_id: str, day: str | None = None) -> dict:
     return ledger["days"][day]
 
 
+def venv_python() -> str:
+    """Use project venv so python-pptx is available for platinum + PowerPoint."""
+    py = ROOT / ".venv/bin/python"
+    if py.exists():
+        return str(py)
+    subprocess.run([sys.executable, "-m", "venv", str(ROOT / ".venv")], cwd=str(ROOT), check=False)
+    pip = ROOT / ".venv/bin/pip"
+    req = ROOT / "scripts/autopilot_requirements.txt"
+    if pip.exists() and req.exists():
+        subprocess.run([str(pip), "install", "-q", "-r", str(req)], cwd=str(ROOT), check=False)
+    return str(py) if py.exists() else sys.executable
+
+
 def state_deficit(site: dict, day: str) -> int:
     log_path = Path(site["logPath"])
     target = int(site.get("dailyTargetStates", 50))
@@ -95,20 +108,21 @@ def ensure_today(site_id: str, *, max_batch: int = 0) -> dict:
     if deficit > 0:
         batch = min(deficit, cap)
         script = ROOT / "scripts/wreckmatch_blog_autopilot.py"
+        py = venv_python()
         env = {
             **__import__("os").environ,
             "AUTOPILOT_SOURCE": "daily-guard",
             "FIFTY_STATES_ONLY": "1",
         }
         subprocess.run(
-            [sys.executable, str(script), "--inject-daily-states", "--site", site_id],
+            [py, str(script), "--inject-daily-states", "--site", site_id],
             cwd=str(ROOT),
             env=env,
             check=False,
         )
         r = subprocess.run(
             [
-                sys.executable,
+                py,
                 str(script),
                 "--batch",
                 str(batch),

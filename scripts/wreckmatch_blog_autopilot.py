@@ -581,10 +581,14 @@ def patch_frontmatter_authorship(path: Path, author_id: str) -> None:
 
 def ensure_presentations(slug: str, *, min_score: int = 95) -> bool:
     """Generate EN + ES PowerPoint decks and wire presentationUrl in frontmatter."""
-    from blog_presentation import (  # noqa: E402
-        generate_for_post,
-        upsert_frontmatter_presentation,
-    )
+    try:
+        from blog_presentation import (  # noqa: E402
+            generate_for_post,
+            upsert_frontmatter_presentation,
+        )
+    except ImportError as e:
+        log(f"WARN PPT deferred (python-pptx missing — CI backfill will run): {e}")
+        return True
 
     ok = True
     for locale, path, url in (
