@@ -1,5 +1,5 @@
 ---
-title: 'Black Box Data After a Semi Crash in Vancouver, Washington'
+title: 'Do I Need a Truck Accident Lawyer in Vancouver, Washington? (2026)'
 description: >-
   Guía en español: Educational guide for Vancouver semi truck and car accident
   victims in Washington. Deadlines, insurance tactics, and free attorney
@@ -20,20 +20,20 @@ materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: black-box-data-after-a-semi-crash-in-vancouver-washington
+canonicalSlug: do-i-need-a-truck-accident-lawyer-in-vancouver-washington-2026
 presentationUrl: >-
-  /blog/presentations/es/black-box-data-after-a-semi-crash-in-vancouver-washington.pptx
+  /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-vancouver-washington-2026.pptx
 presentationUrlEn: >-
-  /blog/presentations/black-box-data-after-a-semi-crash-in-vancouver-washington.pptx
+  /blog/presentations/do-i-need-a-truck-accident-lawyer-in-vancouver-washington-2026.pptx
 ---
-## Por qué publicamos esta guía para Vancouver
+## Por qué publicamos esta guía para Vancouver Washington
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Vancouver no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Vancouver Washington no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# Black Box Data After a Semi Crash in Vancouver, Washington
+# Do I Need a Truck Accident Lawyer in Vancouver, Washington? (2026)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 

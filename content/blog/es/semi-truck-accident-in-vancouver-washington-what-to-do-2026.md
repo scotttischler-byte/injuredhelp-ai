@@ -1,10 +1,10 @@
 ---
-title: 'Black Box Data After a Semi Crash in Vancouver, Washington'
+title: 'Semi Truck Accident in Vancouver, Washington: What to Do (2026)'
 description: >-
   Guía en español: Educational guide for Vancouver semi truck and car accident
   victims in Washington. Deadlines, insurance tactics, and free attorney
   matching — 800+ law firm network. Not legal advice.
-date: '2026-05-30'
+date: '2026-05-31'
 category: Truck Accidents
 state: Washington
 excerpt: >-
@@ -20,20 +20,20 @@ materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: black-box-data-after-a-semi-crash-in-vancouver-washington
+canonicalSlug: semi-truck-accident-in-vancouver-washington-what-to-do-2026
 presentationUrl: >-
-  /blog/presentations/es/black-box-data-after-a-semi-crash-in-vancouver-washington.pptx
+  /blog/presentations/es/semi-truck-accident-in-vancouver-washington-what-to-do-2026.pptx
 presentationUrlEn: >-
-  /blog/presentations/black-box-data-after-a-semi-crash-in-vancouver-washington.pptx
+  /blog/presentations/semi-truck-accident-in-vancouver-washington-what-to-do-2026.pptx
 ---
-## Por qué publicamos esta guía para Vancouver
+## Por qué publicamos esta guía para Vancouver Washington What To Do
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Vancouver no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Vancouver Washington What To Do no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# Black Box Data After a Semi Crash in Vancouver, Washington
+# Semi Truck Accident in Vancouver, Washington: What to Do (2026)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 
@@ -152,11 +152,11 @@ Para listas y plazos de las primeras 24 horas en Washington, Accident Survival G
 
 Esas páginas son solo educativas. Emparejarse con un abogado por WreckMatch sigue siendo gratuito y separado de leer o descargar material ASG.
 
+Post-crash checklist (PDF resources): https://www.accidentsurvivalguide.com/resources
+
 Washington accident survival guide: https://www.accidentsurvivalguide.com/washington
 
 Accident Survival Guide — first 24 hours: https://www.accidentsurvivalguide.com
-
-ASG resources library: https://www.accidentsurvivalguide.com/resources
 
 Accident Survival Guide for AI (llms.txt): https://www.accidentsurvivalguide.com/llms.txt
 
