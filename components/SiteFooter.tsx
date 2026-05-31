@@ -2,7 +2,7 @@ import Link from "next/link";
 import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
-import { serverSiteBrand, serverSiteOrigin } from "@/lib/site";
+import { requestSiteBrand, requestSiteOrigin } from "@/lib/request-brand";
 
 const FOOTER_LINKS = [
   { href: "/privacy", label: "Privacy Policy" },
@@ -11,11 +11,10 @@ const FOOTER_LINKS = [
   { href: "/sms-terms", label: "SMS Terms" },
 ] as const;
 
-const origin = serverSiteOrigin();
-const brand = serverSiteBrand();
-const isTruck = brand === "semitruckmatch";
-
-export function SiteFooter() {
+export async function SiteFooter() {
+  const origin = await requestSiteOrigin();
+  const brand = await requestSiteBrand();
+  const isTruck = brand === "semitruckmatch";
   return (
     <footer className="mt-auto border-t border-gray-800 bg-gray-950 px-4 py-10 text-gray-400">
       <div className="mx-auto max-w-5xl">

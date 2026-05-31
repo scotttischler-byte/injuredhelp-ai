@@ -6,7 +6,7 @@ import { siteOriginFromHeaders } from "@/lib/site";
 export async function GET() {
   const h = await headers();
   const origin = siteOriginFromHeaders(h);
-  const posts = getAllPosts().slice(0, 100);
+  const posts = (await getAllPosts()).slice(0, 100);
 
   const items = posts
     .map(

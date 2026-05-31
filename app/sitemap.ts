@@ -87,7 +87,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.85,
   }));
 
-  const blogPosts = getAllPosts().flatMap((p) => [
+  const allPosts = await getAllPosts();
+  const blogPosts = allPosts.flatMap((p) => [
     {
       url: `${origin}/blog/${p.slug}`,
       lastModified: new Date(p.date),
@@ -102,7 +103,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ]);
 
-  const blogIndexPages = Array.from({ length: totalBlogPages(getAllPosts().length) - 1 }, (_, i) => ({
+  const blogIndexPages = Array.from({ length: totalBlogPages(allPosts.length) - 1 }, (_, i) => ({
     url: `${origin}${blogPagePath(i + 2)}`,
     lastModified: now,
     changeFrequency: "weekly" as const,

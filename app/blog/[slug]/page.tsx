@@ -15,7 +15,7 @@ import { BlogCoverImage } from "@/components/blog/BlogCoverImage";
 import { BlogPresentationDeck } from "@/components/blog/BlogPresentationDeck";
 import { presentationPathForSlug } from "@/lib/blog-presentations";
 import { blogCoverForSlug } from "@/lib/blog-images";
-import { getAllSlugs, getPostBySlug } from "@/lib/posts";
+import { allBlogSlugsUnion, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
 import { authorshipForSlugWithOverride } from "@/lib/blog-authors";
 import { asgLinksForBlog } from "@/lib/asg-links";
@@ -33,12 +33,12 @@ export const revalidate = 86400;
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  return allBlogSlugsUnion().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = await getPostBySlug(slug);
   if (!post) return {};
   const priority = PRIORITY_BLOG_SEO[slug];
   return buildPageMetadata({
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BlogPostPage({ params }: Props) {
   const locale: BlogLocale = "en";
   const { slug } = await params;
-  const post = getPostBySlug(slug, locale);
+  const post = await getPostBySlug(slug, locale);
   if (!post) notFound();
 
   const origin = serverSiteOrigin();

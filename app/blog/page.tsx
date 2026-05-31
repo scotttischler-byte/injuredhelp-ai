@@ -17,8 +17,8 @@ export const metadata: Metadata = buildPageMetadata({
   keywords: blogSeo.keywords,
 });
 
-export default function BlogIndexPage() {
-  const allPosts = getAllPosts();
+export default async function BlogIndexPage() {
+  const allPosts = await getAllPosts();
   const posts = paginatePosts(allPosts, 1);
 
   return (

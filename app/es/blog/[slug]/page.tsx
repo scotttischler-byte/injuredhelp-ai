@@ -40,7 +40,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPostBySlug(slug, "es");
+  const post = await getPostBySlug(slug, "es");
   if (!post) return {};
   return buildPageMetadata({
     title: `${post.meta.title} | WreckMatch Blog`,
@@ -53,11 +53,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BlogPostPageEs({ params }: Props) {
   const locale: BlogLocale = "es";
   const { slug } = await params;
-  const post = getPostBySlug(slug, "es");
+  const post = await getPostBySlug(slug, "es");
   if (!post) notFound();
 
   const origin = serverSiteOrigin();
-  const hasEnglish = Boolean(getPostBySlug(slug, "en"));
+  const hasEnglish = Boolean(await getPostBySlug(slug, "en"));
   const ui = BLOG_UI[locale];
   const { meta, content } = post;
   const cover = blogCoverForSlug(slug);

@@ -1,34 +1,40 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { ADMIN_COOKIE, expectedAdminCookieValue } from "@/lib/admin-session";
+import { brandFromHost } from "@/lib/site";
+import { BRAND_HEADER } from "@/lib/request-brand";
+
+function rewriteWithBrand(req: NextRequest, url: URL): NextResponse {
+  const host = req.headers.get("host")?.split(":")[0]?.toLowerCase();
+  const requestHeaders = new Headers(req.headers);
+  requestHeaders.set(BRAND_HEADER, brandFromHost(host));
+  return NextResponse.rewrite(url, { request: { headers: requestHeaders } });
+}
 
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Public SEO URLs: /what-to-do-after-a-car-accident-in-texas → internal /what-to-do-after-a-car-accident-in/texas
   const whatToDoMatch = pathname.match(/^\/what-to-do-after-a-car-accident-in-([a-z0-9-]+)\/?$/i);
   if (whatToDoMatch) {
     const url = req.nextUrl.clone();
     url.pathname = `/what-to-do-after-a-car-accident-in/${whatToDoMatch[1]}`;
-    return NextResponse.rewrite(url);
+    return rewriteWithBrand(req, url);
   }
 
-  // Public SEO URLs: /car-accident-help-houston/truck → /car-accident-help/houston/truck
   const geoVariantMatch = pathname.match(
     /^\/car-accident-help-([a-z0-9-]+)\/(truck|rideshare|motorcycle)\/?$/i,
   );
   if (geoVariantMatch) {
     const url = req.nextUrl.clone();
     url.pathname = `/car-accident-help/${geoVariantMatch[1]}/${geoVariantMatch[2]}`;
-    return NextResponse.rewrite(url);
+    return rewriteWithBrand(req, url);
   }
 
-  // Public SEO URLs: /car-accident-help-wisconsin → internal /car-accident-help/wisconsin
   const geoMatch = pathname.match(/^\/car-accident-help-([a-z0-9-]+)\/?$/i);
   if (geoMatch) {
     const url = req.nextUrl.clone();
     url.pathname = `/car-accident-help/${geoMatch[1]}`;
-    return NextResponse.rewrite(url);
+    return rewriteWithBrand(req, url);
   }
 
   const host = req.headers.get("host")?.split(":")[0]?.toLowerCase();
@@ -45,8 +51,15 @@ export async function middleware(req: NextRequest) {
     return NextResponse.redirect(url, 308);
   }
 
-  if (!pathname.startsWith("/admin")) return NextResponse.next();
-  if (pathname.startsWith("/admin/login")) return NextResponse.next();
+  const requestHeaders = new Headers(req.headers);
+  requestHeaders.set(BRAND_HEADER, brandFromHost(host));
+  const passThrough = () =>
+    NextResponse.next({
+      request: { headers: requestHeaders },
+    });
+
+  if (!pathname.startsWith("/admin")) return passThrough();
+  if (pathname.startsWith("/admin/login")) return passThrough();
 
   const expected = await expectedAdminCookieValue();
   if (!expected) {
@@ -64,7 +77,7 @@ export async function middleware(req: NextRequest) {
     return NextResponse.redirect(url);
   }
 
-  return NextResponse.next();
+  return passThrough();
 }
 
 export const config = {

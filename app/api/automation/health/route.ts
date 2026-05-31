@@ -12,7 +12,7 @@ export async function GET(req: NextRequest) {
   }
 
   const indexNowKey = process.env.INDEXNOW_KEY?.trim() ?? "";
-  const posts = getAllPosts();
+  const posts = await getAllPosts();
 
   const heartbeatPath = path.join(process.cwd(), "content/autopilot/heartbeat.json");
   let heartbeat: Record<string, unknown> | null = null;

@@ -5,11 +5,11 @@ function slugToken(s: string): string {
 }
 
 /** Match blog posts to a geo hub place slug (e.g. houston, dallas, texas). */
-export function latestBlogPostsForPlace(placeSlug: string, limit = 3): PostMeta[] {
+export async function latestBlogPostsForPlace(placeSlug: string, limit = 3): Promise<PostMeta[]> {
   const place = slugToken(placeSlug);
   if (!place) return [];
 
-  const posts = getAllPosts();
+  const posts = await getAllPosts();
   const scored: { post: PostMeta; score: number }[] = [];
 
   for (const post of posts) {

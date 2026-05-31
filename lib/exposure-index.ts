@@ -3,7 +3,7 @@
  */
 import fs from "fs";
 import path from "path";
-import { getAllPosts, getAllPostsEs } from "@/lib/posts";
+import { getAllPostsMerged } from "@/lib/posts";
 import { pressPathsForSitemap } from "@/lib/press-index";
 import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
 import { WRECKMATCH_URL } from "@/lib/site";
@@ -51,24 +51,39 @@ export type ExposureStats = {
   lastUpdated: string;
 };
 
+function countEsPosts(): number {
+  let n = 0;
+  for (const root of ["content/blog/es", "sites/semitruckmatch/content/blog/es"]) {
+    const dir = path.join(process.cwd(), root);
+    if (fs.existsSync(dir)) n += fs.readdirSync(dir).filter((f) => f.endsWith(".md")).length;
+  }
+  return n;
+}
+
 export function getExposureStats(): ExposureStats {
-  const en = getAllPosts();
-  const es = getAllPostsEs();
+  const en = getAllPostsMerged();
+  const esCount = countEsPosts();
   let platinumEn = 0;
-  const blogDir = path.join(process.cwd(), "content/blog");
-  for (const p of en) {
-    try {
-      const raw = fs.readFileSync(path.join(blogDir, `${p.slug}.md`), "utf8");
-      if (raw.includes("qualityTier: platinum") || raw.includes('qualityTier: "platinum"')) {
-        platinumEn += 1;
+  const counted = new Set<string>();
+  for (const root of ["content/blog", "sites/semitruckmatch/content/blog"]) {
+    const blogDir = path.join(process.cwd(), root);
+    if (!fs.existsSync(blogDir)) continue;
+    for (const p of en) {
+      if (counted.has(p.slug)) continue;
+      try {
+        const raw = fs.readFileSync(path.join(blogDir, `${p.slug}.md`), "utf8");
+        if (raw.includes("qualityTier: platinum") || raw.includes('qualityTier: "platinum"')) {
+          platinumEn += 1;
+          counted.add(p.slug);
+        }
+      } catch {
+        /* skip */
       }
-    } catch {
-      /* skip */
     }
   }
   return {
     enPosts: en.length,
-    esPosts: es.length,
+    esPosts: esCount,
     platinumEn,
     lastUpdated: new Date().toISOString().slice(0, 10),
   };
@@ -76,7 +91,7 @@ export function getExposureStats(): ExposureStats {
 
 /** Recent posts for llms.txt citation lines (truck/severe first). */
 export function getRecentCitationPosts(limit = 28) {
-  const posts = getAllPosts();
+  const posts = getAllPostsMerged();
   const score = (slug: string, category: string) => {
     let s = 0;
     if (/truck|semi|18-wheeler|fmcsa|tractor/i.test(slug)) s += 3;
@@ -152,14 +167,21 @@ export function buildIndexNowUrls(options?: {
     add(`${SITE}/es/blog/${slug}`);
   }
 
-  const en = getAllPosts().slice(0, recentBlogLimit);
+  const en = getAllPostsMerged().slice(0, recentBlogLimit);
   for (const p of en) {
     add(`${SITE}/blog/${p.slug}`);
   }
 
-  const es = getAllPostsEs().slice(0, recentEsLimit);
-  for (const p of es) {
-    add(`${SITE}/es/blog/${p.slug}`);
+  const esSlugs: string[] = [];
+  for (const root of ["content/blog/es", "sites/semitruckmatch/content/blog/es"]) {
+    const dir = path.join(process.cwd(), root);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".md"))) {
+      esSlugs.push(f.replace(/\.md$/, ""));
+    }
+  }
+  for (const slug of esSlugs.slice(0, recentEsLimit)) {
+    add(`${SITE}/es/blog/${slug}`);
   }
 
   return out.slice(0, 10_000);

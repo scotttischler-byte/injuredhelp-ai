@@ -16,7 +16,7 @@ export async function GET(req: NextRequest) {
   const catchup = url.searchParams.get("catchup") ?? "0";
   const site = url.searchParams.get("site") ?? "wreckmatch";
 
-  const posts = getAllPosts();
+  const posts = await getAllPosts();
   const heartbeatPath = path.join(process.cwd(), "content/autopilot/heartbeat.json");
   let heartbeat: Record<string, unknown> = {};
   if (fs.existsSync(heartbeatPath)) {

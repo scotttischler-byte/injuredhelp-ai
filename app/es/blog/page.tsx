@@ -15,8 +15,8 @@ export const metadata: Metadata = buildPageMetadata({
   keywords: ["accidente de auto", "abogado accidente", "guía legal español"],
 });
 
-export default function BlogIndexPageEs() {
-  const allPosts = getAllPostsEs();
+export default async function BlogIndexPageEs() {
+  const allPosts = await getAllPostsEs();
   const posts = paginatePosts(allPosts, 1);
 
   return (

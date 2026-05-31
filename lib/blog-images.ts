@@ -3,7 +3,7 @@
  * Run `npm run generate:blog-covers` after adding posts.
  */
 
-import { getAllSlugs } from "@/lib/posts";
+import { allBlogSlugsUnion } from "@/lib/posts";
 
 export type BlogCover = { src: string; alt: string };
 
@@ -68,7 +68,7 @@ export function blogCoverIsUnoptimized(src: string): boolean {
 
 export function allBlogCoverSlugs(): string[] {
   try {
-    return getAllSlugs();
+    return allBlogSlugsUnion();
   } catch {
     return [];
   }

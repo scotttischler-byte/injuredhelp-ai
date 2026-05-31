@@ -3,18 +3,24 @@ import path from "path";
 import { cache } from "react";
 import matter from "gray-matter";
 import type { BlogLocale } from "@/lib/blog-locale";
-import { contentRootForBrand, serverSiteBrand } from "@/lib/site";
+import { contentRootForBrand } from "@/lib/site";
+import { requestSiteBrand } from "@/lib/request-brand";
 
-function blogRoots() {
-  const root = path.join(process.cwd(), contentRootForBrand(serverSiteBrand()));
+function blogRootsForBrand(brand: Awaited<ReturnType<typeof requestSiteBrand>>) {
+  const root = path.join(process.cwd(), contentRootForBrand(brand));
   return {
     en: path.join(root, "blog"),
     es: path.join(root, "blog/es"),
   };
 }
 
-function postsDir(locale: BlogLocale): string {
-  const roots = blogRoots();
+async function blogRoots() {
+  const brand = await requestSiteBrand();
+  return blogRootsForBrand(brand);
+}
+
+async function postsDir(locale: BlogLocale): Promise<string> {
+  const roots = await blogRoots();
   return locale === "es" ? roots.es : roots.en;
 }
 
@@ -36,8 +42,9 @@ export interface PostMeta {
   reviewerId?: string;
 }
 
-function ensureDir() {
-  if (!fs.existsSync(blogRoots().en)) return false;
+async function ensureDir() {
+  const roots = await blogRoots();
+  if (!fs.existsSync(roots.en)) return false;
   return true;
 }
 
@@ -47,9 +54,9 @@ function parseReadTime(body: string): string {
   return `${mins} min read`;
 }
 
-function readAllPosts(): PostMeta[] {
-  if (!ensureDir()) return [];
-  const dir = blogRoots().en;
+async function readAllPosts(): Promise<PostMeta[]> {
+  if (!(await ensureDir())) return [];
+  const dir = (await blogRoots()).en;
   const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md") || f.endsWith(".mdx"));
   const posts = files.map((filename) => {
     const slug = filename.replace(/\.mdx?$/, "");
@@ -81,7 +88,7 @@ function readAllPosts(): PostMeta[] {
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export const getAllPosts = cache(readAllPosts);
+export const getAllPosts = cache(async () => readAllPosts());
 
 function readPostFile(
   dir: string,
@@ -124,16 +131,16 @@ function readPostFile(
   return null;
 }
 
-export function getPostBySlug(
+export async function getPostBySlug(
   slug: string,
   locale: BlogLocale = "en",
-): { meta: PostMeta; content: string } | null {
-  if (locale === "en" && !ensureDir()) return null;
-  return readPostFile(postsDir(locale), slug, locale);
+): Promise<{ meta: PostMeta; content: string } | null> {
+  if (locale === "en" && !(await ensureDir())) return null;
+  return readPostFile(await postsDir(locale), slug, locale);
 }
 
-export function getAllPostsEs(): PostMeta[] {
-  const esDir = blogRoots().es;
+export async function getAllPostsEs(): Promise<PostMeta[]> {
+  const esDir = (await blogRoots()).es;
   if (!fs.existsSync(esDir)) return [];
   const files = fs.readdirSync(esDir).filter((f) => f.endsWith(".md"));
   return files
@@ -146,12 +153,74 @@ export function getAllPostsEs(): PostMeta[] {
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-function readAllSlugs(): string[] {
-  if (!ensureDir()) return [];
+async function readAllSlugs(): Promise<string[]> {
+  if (!(await ensureDir())) return [];
   return fs
-    .readdirSync(blogRoots().en)
+    .readdirSync((await blogRoots()).en)
     .filter((f) => f.endsWith(".md") || f.endsWith(".mdx"))
     .map((f) => f.replace(/\.mdx?$/, ""));
 }
 
-export const getAllSlugs = cache(readAllSlugs);
+export const getAllSlugs = cache(async () => readAllSlugs());
+
+function readAllPostsSync(brand: ReturnType<typeof import("@/lib/site").serverSiteBrand>): PostMeta[] {
+  const dir = blogRootsForBrand(brand).en;
+  if (!fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md") || f.endsWith(".mdx"));
+  const posts = files.map((filename) => {
+    const slug = filename.replace(/\.mdx?$/, "");
+    const raw = fs.readFileSync(path.join(dir, filename), "utf8");
+    const { data, content } = matter(raw);
+    const excerpt =
+      typeof data.excerpt === "string"
+        ? data.excerpt
+        : content.replace(/^---[\s\S]*?---/, "").slice(0, 200).trim() + "…";
+    return {
+      title: String(data.title ?? slug),
+      description: String(data.description ?? excerpt),
+      date:
+        data.date instanceof Date
+          ? data.date.toISOString().slice(0, 10)
+          : String(data.date ?? new Date().toISOString().slice(0, 10)),
+      state: data.state ? String(data.state) : undefined,
+      category: String(data.category ?? "Resources"),
+      slug,
+      excerpt,
+      readTime: String(data.readTime ?? parseReadTime(content)),
+      coverImage: data.coverImage ? String(data.coverImage) : undefined,
+      coverAlt: data.coverAlt ? String(data.coverAlt) : undefined,
+      presentationUrl: data.presentationUrl ? String(data.presentationUrl) : undefined,
+      authorId: data.authorId ? String(data.authorId) : undefined,
+      reviewerId: data.reviewerId ? String(data.reviewerId) : undefined,
+    } satisfies PostMeta;
+  });
+  return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+/** Cron/scripts: merge EN posts from wreckmatch + semitruckmatch corpora. */
+export function getAllPostsMerged(): PostMeta[] {
+  const seen = new Set<string>();
+  const out: PostMeta[] = [];
+  for (const brand of ["wreckmatch", "semitruckmatch"] as const) {
+    for (const p of readAllPostsSync(brand)) {
+      if (!seen.has(p.slug)) {
+        seen.add(p.slug);
+        out.push(p);
+      }
+    }
+  }
+  return out.sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+/** All EN slugs across wreckmatch + semitruckmatch (static generation). */
+export function allBlogSlugsUnion(): string[] {
+  const slugs = new Set<string>();
+  for (const brand of ["wreckmatch", "semitruckmatch"] as const) {
+    const en = blogRootsForBrand(brand).en;
+    if (!fs.existsSync(en)) continue;
+    for (const f of fs.readdirSync(en)) {
+      if (f.endsWith(".md") || f.endsWith(".mdx")) slugs.add(f.replace(/\.mdx?$/, ""));
+    }
+  }
+  return [...slugs];
+}

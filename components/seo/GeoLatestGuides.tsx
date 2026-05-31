@@ -7,8 +7,8 @@ type Props = {
   variant?: "light" | "dark";
 };
 
-export function GeoLatestGuides({ placeSlug, placeLabel, variant = "dark" }: Props) {
-  const posts = latestBlogPostsForPlace(placeSlug, 3);
+export async function GeoLatestGuides({ placeSlug, placeLabel, variant = "dark" }: Props) {
+  const posts = await latestBlogPostsForPlace(placeSlug, 3);
   if (posts.length === 0) return null;
 
   const shell =
