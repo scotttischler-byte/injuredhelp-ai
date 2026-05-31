@@ -305,3 +305,8 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 - [State & city resource center](https://www.wreckmatch.com/states)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
+- [Fmcsa Violations After A Truck Crash In Birmingham Alabama](https://www.wreckmatch.com/blog/fmcsa-violations-after-a-truck-crash-in-birmingham-alabama)
+- [Underride Or Override Truck Crash In Birmingham Alabama 2026](https://www.wreckmatch.com/blog/underride-or-override-truck-crash-in-birmingham-alabama-2026)
+- [Catastrophic Injury Car Crash In Birmingham Alabama 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-birmingham-alabama-2026)
+- [Catastrophic Injury Car Crash In Huntsville Alabama 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-huntsville-alabama-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/fmcsa-violations-after-a-truck-crash-in-huntsville-alabama)

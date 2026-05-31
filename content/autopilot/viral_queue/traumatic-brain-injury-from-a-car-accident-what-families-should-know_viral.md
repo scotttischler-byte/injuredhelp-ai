@@ -1,7 +1,7 @@
 # Viral content pack — Traumatic Brain Injury From a Car Accident — What Families Should Know
 
 **URL:** https://www.wreckmatch.com/blog/traumatic-brain-injury-from-a-car-accident-what-families-should-know  
-**Generated:** 2026-05-30T19:41:50.025413+00:00  
+**Generated:** 2026-05-31T04:53:07.130271+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
