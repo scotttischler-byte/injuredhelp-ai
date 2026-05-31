@@ -1296,12 +1296,14 @@ def pop_next_topic(
     pending: list[dict[str, Any]],
     *,
     fifty_states_only: bool = False,
+    states_done_today: set[str] | None = None,
 ) -> dict[str, Any] | None:
     """Prefer today's 50-state rotation, then truck/severe (priority ≤1)."""
     if not pending:
         return None
+    done_states = states_done_today or set()
     for i, t in enumerate(pending):
-        if t.get("daily_state_rotation"):
+        if t.get("daily_state_rotation") and t.get("state") not in done_states:
             return pending.pop(i)
     if fifty_states_only:
         return None
@@ -1321,8 +1323,10 @@ def run_once(
     min_score: int,
     min_words: int,
     fifty_states_only: bool = False,
+    states_done_today: set[str] | None = None,
 ) -> str | None:
     pending = q.get("pending", [])
+    done_states: set[str] = set(states_done_today or [])
     if not fifty_states_only and len(pending) < 5:
         refill_queue(q, 300)
         pending = q.get("pending", [])
