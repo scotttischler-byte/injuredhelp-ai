@@ -1,4 +1,4 @@
-# Hourly backup for fifty-states SLA (GitHub runs this — not your Mac, not Cursor chat).
+# Hourly backup for fifty-states SLA — all enabled sites.
 
 name: Autopilot hourly pulse
 
@@ -6,15 +6,44 @@ on:
   schedule:
     - cron: "5 * * * *"
   workflow_dispatch:
+    inputs:
+      site:
+        description: "Single site id (empty = all enabled)"
+        default: ""
 
 concurrency:
-  group: autopilot-hourly-wreckmatch
+  group: autopilot-hourly-${{ github.event.inputs.site || 'all' }}
   cancel-in-progress: false
 
 jobs:
+  resolve-sites:
+    runs-on: ubuntu-latest
+    outputs:
+      sites: ${{ steps.out.outputs.sites }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: out
+        run: |
+          SITES=$(python3 -c "
+          import json
+          c=json.load(open('config/autopilot-sites.json'))
+          req='${{ github.event.inputs.site }}'.strip()
+          ids=[s['id'] for s in c['sites'] if s.get('enabled')]
+          if req:
+            ids=[req] if req in ids else []
+          print(json.dumps(ids))
+          ")
+          echo "sites=$SITES" >> "$GITHUB_OUTPUT"
+
   hourly:
+    needs: resolve-sites
+    if: needs.resolve-sites.outputs.sites != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    strategy:
+      matrix:
+        site: ${{ fromJson(needs.resolve-sites.outputs.sites) }}
+      max-parallel: 2
     permissions:
       contents: write
     steps:
@@ -36,34 +65,40 @@ jobs:
           python3 -m venv .venv
           .venv/bin/pip install -q -r scripts/autopilot_requirements.txt
 
+      - name: Resolve content root
+        id: meta
+        run: |
+          python3 -c "
+          import json
+          for s in json.load(open('config/autopilot-sites.json'))['sites']:
+            if s['id']=='${{ matrix.site }}':
+              print('url='+s['siteUrl'])
+              print('root='+s.get('contentRoot','content'))
+          " >> "$GITHUB_OUTPUT"
+
       - name: Top-up missing states (max 3 this hour)
         env:
           AUTOPILOT_SOURCE: github-hourly-pulse
           FIFTY_STATES_ONLY: "1"
         run: |
           .venv/bin/python scripts/publish_fifty_states_now.py \
-            --site wreckmatch \
+            --site "${{ matrix.site }}" \
             --batch-size 3 \
             --max-rounds 1
-          .venv/bin/python scripts/autopilot_daily_guard.py --record-only --site wreckmatch
+          .venv/bin/python scripts/autopilot_daily_guard.py --record-only --site "${{ matrix.site }}"
 
       - name: Commit and push
         run: |
+          ROOT="${{ steps.meta.outputs.root }}"
           git config user.name "autopilot-hourly-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/blog/*.md content/blog/es/*.md content/autopilot/ content/syndication/ \
+          git add "${ROOT}/blog/"*.md "${ROOT}/blog/es/"*.md "${ROOT}/autopilot/" "${ROOT}/syndication/" \
             public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx 2>/dev/null || true
           git diff --staged --quiet && exit 0
-          git commit -m "content(hourly): fifty-state top-up $(date -u +%Y-%m-%dT%H)"
+          git commit -m "content(hourly): ${{ matrix.site }} $(date -u +%Y-%m-%dT%H)"
           git push
 
       - name: IndexNow + backlinks
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
-          SITE: https://www.wreckmatch.com
-        run: |
-          .venv/bin/python scripts/organic_crush.py --mesh-limit 30 --viral-limit 2 || true
-          .venv/bin/python scripts/indexing_accelerator.py --recent 320 || true
-          if [ -n "$CRON_SECRET" ]; then
-            curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE/api/indexing/cron" || true
-          fi
+        run: bash scripts/ci/index_site.sh "${{ steps.meta.outputs.url }}"

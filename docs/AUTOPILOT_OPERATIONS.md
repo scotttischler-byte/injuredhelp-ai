@@ -1,6 +1,7 @@
 # Autopilot operations (multi-site beta)
 
-> **50 states:** See [FIFTY_STATES_AUTOPILOT.md](./FIFTY_STATES_AUTOPILOT.md) — permanent schedule, no manual prompting.
+> **50 states:** See [FIFTY_STATES_AUTOPILOT.md](./FIFTY_STATES_AUTOPILOT.md) — permanent schedule, no manual prompting.  
+> **New client / new tab:** See [MULTI_SITE_PLAYBOOK.md](./MULTI_SITE_PLAYBOOK.md) — copy the full model without starting over.
 
 ## Daily SLA (non-negotiable)
 

@@ -285,7 +285,9 @@ def load_queue() -> dict[str, Any]:
 
 
 def save_queue(q: dict[str, Any]) -> None:
-    q["stats"]["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    stats = q.setdefault("stats", {"total_published": 0})
+    stats["last_run_at"] = datetime.now(timezone.utc).isoformat()
+    QUEUE_PATH.parent.mkdir(parents=True, exist_ok=True)
     QUEUE_PATH.write_text(json.dumps(q, indent=2) + "\n", encoding="utf-8")
 
 

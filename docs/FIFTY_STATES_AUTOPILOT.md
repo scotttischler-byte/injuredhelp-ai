@@ -43,3 +43,7 @@ npm run publish:fifty-states
 ## Enable once on GitHub
 
 Repo → **Actions** → enable workflows if disabled. Scheduled runs need an active default branch (`main`).
+
+## Copy to another website
+
+See **[MULTI_SITE_PLAYBOOK.md](./MULTI_SITE_PLAYBOOK.md)** — full handoff for a new project tab (Option A monorepo vs Option B new repo, files, commands, Cursor prompt).

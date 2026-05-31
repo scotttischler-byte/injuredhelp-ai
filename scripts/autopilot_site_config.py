@@ -35,6 +35,39 @@ def resolve_site(site_id: str | None = None) -> dict[str, Any]:
     raise KeyError(f"Unknown autopilot site: {sid}")
 
 
+def list_enabled_sites(site_filter: str | None = None) -> list[dict[str, Any]]:
+    """All enabled sites with paths resolved (for CI matrix and agents)."""
+    cfg = load_config()
+    defaults = cfg.get("defaults", {})
+    out: list[dict[str, Any]] = []
+    filt = (site_filter or "").strip()
+    for site in cfg.get("sites", []):
+        if not site.get("enabled", True):
+            continue
+        sid = site.get("id", "")
+        if filt and sid != filt:
+            continue
+        merged = {**defaults, **site}
+        merged["id"] = sid
+        merged["root"] = str(ROOT)
+        for key in ("blogDir", "blogEsDir", "queuePath", "logPath", "heartbeatPath"):
+            if key in merged and merged[key]:
+                merged[key] = str((ROOT / merged[key]).resolve())
+        out.append(merged)
+    return out
+
+
+def site_content_globs(site: dict[str, Any]) -> dict[str, str]:
+    """Relative paths for git add in workflows."""
+    root = site.get("contentRoot", "content")
+    return {
+        "blog_en": f"{root}/blog/*.md",
+        "blog_es": f"{root}/blog/es/*.md",
+        "autopilot": f"{root}/autopilot/",
+        "syndication": f"{root}/syndication/",
+    }
+
+
 def apply_site_env(site: dict[str, Any]) -> None:
     os.environ["AUTOPILOT_SITE_ID"] = site["id"]
     os.environ["WRECKMATCH_SITE"] = site.get("siteUrl", "https://www.wreckmatch.com")

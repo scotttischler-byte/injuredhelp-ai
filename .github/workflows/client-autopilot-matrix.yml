@@ -1,4 +1,5 @@
-# Multi-site autopilot (beta): enable sites in config/autopilot-sites.json
+# Multi-site autopilot: same 50-state SLA as fifty-states-daily (pulse every 6h).
+
 name: Client autopilot matrix
 
 on:
@@ -9,6 +10,10 @@ on:
       site:
         description: "Single site id (empty = all enabled)"
         default: ""
+      full_sprint:
+        description: "Full sprint (15 rounds) vs pulse (3)"
+        type: boolean
+        default: false
 
 jobs:
   resolve-sites:
@@ -34,7 +39,7 @@ jobs:
     needs: resolve-sites
     if: needs.resolve-sites.outputs.sites != '[]'
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 120
     strategy:
       matrix:
         site: ${{ fromJson(needs.resolve-sites.outputs.sites) }}
@@ -49,16 +54,41 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: pip install -r scripts/autopilot_requirements.txt && npm ci
-      - name: Publish batch for ${{ matrix.site }}
+          cache: npm
+      - run: |
+          pip install -r scripts/autopilot_requirements.txt
+          npm ci
+          python3 -m venv .venv
+          .venv/bin/pip install -q -r scripts/autopilot_requirements.txt
+          chmod +x scripts/ci/*.sh
+      - name: Resolve paths
+        id: meta
+        run: |
+          python3 -c "
+          import json
+          for s in json.load(open('config/autopilot-sites.json'))['sites']:
+            if s['id']=='${{ matrix.site }}':
+              print('url='+s['siteUrl'])
+              print('root='+s.get('contentRoot','content'))
+          " >> "$GITHUB_OUTPUT"
+      - name: Fifty-state publish (${{ matrix.site }})
         env:
           AUTOPILOT_SOURCE: github-matrix
         run: |
-          python scripts/wreckmatch_blog_autopilot.py --batch 6 --site "${{ matrix.site }}" --syndicate --min-score 98 --min-words 3000
+          if [ "${{ github.event.inputs.full_sprint }}" = "true" ]; then
+            bash scripts/ci/fifty_states_publish.sh "${{ matrix.site }}" full
+          else
+            bash scripts/ci/fifty_states_publish.sh "${{ matrix.site }}" pulse
+          fi
       - name: Commit site content
         run: |
+          ROOT="${{ steps.meta.outputs.root }}"
           git config user.name "client-autopilot-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/ config/autopilot/ public/blog/ data/ 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "content(autopilot): ${{ matrix.site }} batch"
+          git add "${ROOT}/" content/ config/autopilot/ public/blog/ data/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "content(autopilot): ${{ matrix.site }} fifty-state batch"
           git push || true
+      - name: Index site
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: bash scripts/ci/index_site.sh "${{ steps.meta.outputs.url }}"
