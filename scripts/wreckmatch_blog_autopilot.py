@@ -40,10 +40,30 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from blog_quality import QualityReport, score_post  # noqa: E402
 
 BLOG_DIR = ROOT / "content/blog"
+ES_BLOG_DIR = BLOG_DIR / "es"
 SYNDICATION_DIR = ROOT / "content/syndication"
 QUEUE_PATH = ROOT / "content/autopilot/blog_queue.json"
 LOG_PATH = ROOT / "content/autopilot/blog_generation.log"
 SITE = os.getenv("WRECKMATCH_SITE", "https://www.wreckmatch.com").rstrip("/")
+AUTOPILOT_SITE_ID = "wreckmatch"
+
+
+def configure_site(site_id: str | None) -> None:
+    """Apply multi-site paths from config/autopilot-sites.json."""
+    global BLOG_DIR, ES_BLOG_DIR, SYNDICATION_DIR, QUEUE_PATH, LOG_PATH, SITE, AUTOPILOT_SITE_ID
+    if not site_id:
+        return
+    from autopilot_site_config import apply_site_env, resolve_site  # noqa: E402
+
+    site = resolve_site(site_id)
+    apply_site_env(site)
+    AUTOPILOT_SITE_ID = site["id"]
+    BLOG_DIR = Path(site["blogDir"])
+    ES_BLOG_DIR = Path(site.get("blogEsDir", str(BLOG_DIR / "es")))
+    SYNDICATION_DIR = Path(site.get("contentRoot", "content")) / "syndication"
+    QUEUE_PATH = Path(site["queuePath"])
+    LOG_PATH = Path(site.get("logPath") or LOG_PATH)
+    SITE = site.get("siteUrl", SITE).rstrip("/")
 CTA = f"{SITE}/#form"
 PHONE = os.getenv("WRECKMATCH_PHONE_DISPLAY", "855 WRECKMATCH (855) 897-3256")
 
@@ -934,7 +954,7 @@ def materialize_template_to_platinum(
     log(f"After materialize: {report.score} / {report.word_count}w ({report.issues})")
     if not meets_publish_bar(report, min_score, min_words):
         path.unlink(missing_ok=True)
-        es_path = ROOT / "content/blog/es" / f"{slug}.md"
+        es_path = ES_BLOG_DIR / f"{slug}.md"
         es_path.unlink(missing_ok=True)
         return None, None
     return body, path
@@ -1026,7 +1046,7 @@ def publish_post(
             log(f"Presentation {ppt_report.slide_count} slides (score {ppt_report.score})")
         else:
             log(f"WARN presentation below bar: {ppt_report.issues}")
-        es_path = ROOT / "content/blog/es" / f"{slug}.md"
+        es_path = ES_BLOG_DIR / f"{slug}.md"
         if es_path.exists():
             ppt_es = generate_for_post(es_path, force=True, locale="es")
             if ppt_es.score >= 100:
@@ -1148,7 +1168,10 @@ def main() -> int:
     p.add_argument("--delay", type=float, default=4.0, help="Seconds between posts in a batch")
     p.add_argument("--min-score", type=int, default=0, help="Min quality score to publish (default: env or 95)")
     p.add_argument("--min-words", type=int, default=0, help="Min word count to publish (default: env or 2000)")
+    p.add_argument("--site", default="", help="Site id from config/autopilot-sites.json (default: wreckmatch)")
     args = p.parse_args()
+
+    configure_site(args.site.strip() or os.getenv("AUTOPILOT_SITE_ID", "wreckmatch"))
 
     q = load_queue()
     if args.refill:
@@ -1192,6 +1215,20 @@ def main() -> int:
         q = load_queue()
 
     log(f"Done: {len(slugs)}/{args.batch} published (platinum bar ≥{min_score}, ≥{min_words}w) — {slugs}")
+
+    if not args.dry_run:
+        try:
+            from autopilot_heartbeat import write_heartbeat  # noqa: E402
+
+            write_heartbeat(
+                AUTOPILOT_SITE_ID,
+                published=len(slugs),
+                batch_requested=args.batch,
+                slugs=slugs,
+                source=os.getenv("AUTOPILOT_SOURCE", "blog_autopilot"),
+            )
+        except Exception as e:
+            log(f"WARN heartbeat: {e}")
 
     if slugs and not args.dry_run:
         try:

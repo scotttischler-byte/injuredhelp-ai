@@ -1,16 +1,23 @@
-# WreckMatch Traffic Machine — 10x platinum publishing
-# Every 30 min: up to 6 platinum posts (≥98 score, ≥3000 words) + organic crush
+# WreckMatch Traffic Machine — hands-off platinum publishing (template-first; no API key required)
+# Every 30 min: up to 6 posts | Daily 08:00 UTC: catch-up + daily improvements
 
 name: WreckMatch traffic machine
 
 on:
   schedule:
     - cron: "*/30 * * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       batch:
         description: "Posts per run"
         default: "6"
+      catchup:
+        description: "Run catch-up for missed days (1=yes)"
+        default: "0"
+      site:
+        description: "Site id (config/autopilot-sites.json)"
+        default: "wreckmatch"
       refill:
         description: "Refill queue (0=skip)"
         default: "0"
@@ -20,13 +27,13 @@ on:
         default: false
 
 concurrency:
-  group: wreckmatch-traffic-machine
+  group: wreckmatch-traffic-machine-${{ github.event.inputs.site || 'wreckmatch' }}
   cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -51,47 +58,72 @@ jobs:
           HAS_ANTHROPIC: ${{ secrets.ANTHROPIC_API_KEY != '' }}
           HAS_OPENAI: ${{ secrets.OPENAI_API_KEY != '' }}
           HAS_CRON: ${{ secrets.CRON_SECRET != '' }}
-          HAS_INDEXNOW: ${{ secrets.INDEXNOW_KEY != '' }}
+          HAS_GH_DISPATCH: ${{ secrets.CRON_SECRET != '' }}
         run: |
-          echo "ANTHROPIC_API_KEY: $([ \"$HAS_ANTHROPIC\" = true ] && echo set || echo missing - template posts)"
-          echo "OPENAI_API_KEY: $([ \"$HAS_OPENAI\" = true ] && echo set || echo missing)"
-          echo "CRON_SECRET: $([ \"$HAS_CRON\" = true ] && echo set || echo missing - skip prod IndexNow + cron)"
-          echo "INDEXNOW_KEY (GitHub): $([ \"$HAS_INDEXNOW\" = true ] && echo set || echo optional - IndexNow uses Vercel via CRON_SECRET)"
+          echo "ANTHROPIC_API_KEY: $([ \"$HAS_ANTHROPIC\" = true ] && echo set || echo optional)"
+          echo "CRON_SECRET: $([ \"$HAS_CRON\" = true ] && echo set || echo MISSING — add same value as Vercel)"
+          echo "Template-first publishing works without LLM keys."
 
       - name: Refill topic queue
-        if: github.event_name == 'workflow_dispatch' && github.event.inputs.refill != '' && github.event.inputs.refill != '0'
-        run: python scripts/wreckmatch_blog_autopilot.py --refill "${{ github.event.inputs.refill }}"
+        if: github.event.inputs.refill != '' && github.event.inputs.refill != '0'
+        run: |
+          python scripts/wreckmatch_blog_autopilot.py --refill "${{ github.event.inputs.refill }}" --site "${{ github.event.inputs.site || 'wreckmatch' }}"
 
       - name: Ensure queue depth
         run: |
           python -c "
           import json, pathlib, subprocess
+          site = '${{ github.event.inputs.site || 'wreckmatch' }}'
           p = pathlib.Path('content/autopilot/blog_queue.json')
           q = json.loads(p.read_text())
           if len(q.get('pending', [])) < 400:
-            subprocess.run(['python', 'scripts/wreckmatch_blog_autopilot.py', '--refill', '8000'], check=True)
+            subprocess.run(['python', 'scripts/wreckmatch_blog_autopilot.py', '--refill', '8000', '--site', site], check=True)
           "
 
-      - name: Generate posts + syndication (Claude-first)
+      - name: Catch up missed daily targets
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 8 * * *') || github.event.inputs.catchup == '1'
+        env:
+          AUTOPILOT_SOURCE: github-catchup
+        run: |
+          python scripts/autopilot_catchup.py --site "${{ github.event.inputs.site || 'wreckmatch' }}" --days-back 14 || true
+
+      - name: Set batch size
+        id: batch
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "0 8 * * *" ]; then
+            echo "size=12" >> "$GITHUB_OUTPUT"
+          else
+            echo "size=${{ github.event.inputs.batch || '6' }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate posts + syndication (template-first; AI optional)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_MODEL: claude-sonnet-4-6
-          OPENAI_MODEL: gpt-4o-mini
           WRECKMATCH_SITE: https://www.wreckmatch.com
           TRAFFIC_MACHINE_SYNDICATE: "1"
           TRAFFIC_MACHINE_MIN_SCORE: "98"
           TRAFFIC_MACHINE_MIN_WORDS: "3000"
+          AUTOPILOT_SOURCE: github-traffic-machine
         run: |
-          BATCH="${{ github.event.inputs.batch || '6' }}"
+          SITE="${{ github.event.inputs.site || 'wreckmatch' }}"
+          BATCH="${{ steps.batch.outputs.size }}"
+          EXTRA=""
+          if [ -n "${{ secrets.ANTHROPIC_API_KEY }}" ] || [ -n "${{ secrets.OPENAI_API_KEY }}" ]; then
+            EXTRA="--ai --claude-first"
+          fi
           python scripts/wreckmatch_blog_autopilot.py \
             --batch "$BATCH" \
-            --ai \
-            --claude-first \
+            --site "$SITE" \
+            $EXTRA \
             --syndicate \
             --delay 4 \
             --min-score 98 \
             --min-words 3000
+
+      - name: Daily corpus improvements
+        if: github.event_name == 'schedule' && github.event.schedule == '0 8 * * *'
+        run: python scripts/autopilot_daily_improvements.py
 
       - name: Generate unique blog covers for new posts
         run: npm run generate:blog-covers -- --missing-only
@@ -101,7 +133,7 @@ jobs:
           python3 -m venv .venv
           .venv/bin/pip install -r scripts/autopilot_requirements.txt
 
-      - name: Generate blog PowerPoint companions (gold 100/100)
+      - name: Generate blog PowerPoint companions
         run: npm run generate:blog-presentations
 
       - name: Commit and push (Vercel deploy)
@@ -111,29 +143,22 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog/*.md content/blog/es/*.md content/syndication/ content/autopilot/ public/blog/covers/generated/*.webp public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx data/blog-cover-assignments.json
           git diff --staged --quiet && echo "changed=false" >> "$GITHUB_OUTPUT" && echo "No changes" && exit 0
-          git commit -m "content(traffic-machine): platinum truck/severe injury guides + exposure queue"
+          git commit -m "content(traffic-machine): autopilot platinum posts + daily improvements"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Notify search engines (IndexNow via production)
         if: steps.commit.outputs.changed == 'true'
         env:
-          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
           SITE: https://www.wreckmatch.com
         run: |
           SLUGS=$(git diff-tree --no-commit-id --name-only -r HEAD | grep '^content/blog/.*\.md$' | sed 's|.*/||;s|\.md||' | tr '\n' ' ')
           export SLUGS
-          # Optional duplicate ping from GitHub (INDEXNOW_KEY secret). Vercel already has the key.
-          if [ -n "$INDEXNOW_KEY" ]; then
-            python3 scripts/indexing_accelerator.py --from-git HEAD~1 --new-slugs $SLUGS --recent 320 || true
-          else
-            echo "INDEXNOW_KEY not on GitHub (OK) — production uses Vercel INDEXNOW_KEY"
-          fi
           python3 scripts/exposure_crush.py --slugs $SLUGS --recent 320 || true
           python3 scripts/organic_crush.py --mesh-limit 12 --viral-limit 3 --slugs $SLUGS || true
           if [ -z "$CRON_SECRET" ]; then
-            echo "Add CRON_SECRET to GitHub repo secrets (same value as Vercel production)"
+            echo "::warning::CRON_SECRET missing on GitHub — IndexNow prod ping skipped"
             exit 0
           fi
           echo "Waiting 90s for Vercel production deploy..."
@@ -162,7 +187,7 @@ jobs:
           SITE: https://www.wreckmatch.com
         run: |
           if [ -z "$CRON_SECRET" ]; then
-            echo "CRON_SECRET not set - skip remote cron (add secret in GitHub)"
+            echo "::warning::CRON_SECRET not set on GitHub repo secrets"
             exit 0
           fi
           for path in /api/automation/social /api/automation/reddit; do

@@ -13,17 +13,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from blog_quality import score_post  # noqa: E402
 
 BLOG_DIR = ROOT / "content/blog"
+BLOG_ES_DIR = ROOT / "content/blog/es"
 
 
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--min-score", type=int, default=95)
+    p.add_argument("--es", action="store_true", help="Audit Spanish posts in content/blog/es")
     p.add_argument("--json", action="store_true")
     p.add_argument("--limit", type=int, default=0)
     args = p.parse_args()
 
+    blog_dir = BLOG_ES_DIR if args.es else BLOG_DIR
     reports = []
-    for path in sorted(BLOG_DIR.glob("*.md")):
+    for path in sorted(blog_dir.glob("*.md")):
         text = path.read_text(encoding="utf-8")
         reports.append(score_post(path.stem, text))
 
@@ -54,8 +57,11 @@ def main() -> int:
             print(f"  {r.score:3d}  {r.slug}  {', '.join(r.issues)}")
         avg = sum(r.score for r in reports) / max(len(reports), 1)
         print(f"Average score: {avg:.1f}")
-        gold = sum(1 for r in reports if r.tier == "gold")
-        print(f"Gold tier (score ≥95, 2000+ words): {gold}")
+        plat = sum(1 for r in reports if r.tier == "platinum")
+        perfect = sum(1 for r in reports if r.score == 100 and not r.issues)
+        label = "ES" if args.es else "EN"
+        print(f"Platinum tier: {plat}")
+        print(f"Perfect 100/100 ({label}): {perfect}")
 
     return 1 if failing else 0
 

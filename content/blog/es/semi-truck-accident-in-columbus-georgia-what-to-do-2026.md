@@ -4,7 +4,7 @@ description: >-
   Guía en español: Educational guide for Columbus semi truck and car accident
   victims in Georgia. Deadlines, insurance tactics, and free attorney matching —
   800+ law firm network. Not legal advice.
-date: '2026-05-30'
+date: '2026-05-31'
 category: Truck Accidents
 state: Georgia
 excerpt: >-
@@ -295,3 +295,4 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
 **[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+

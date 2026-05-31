@@ -6,7 +6,7 @@ description: >-
   Guía en español: Educational guide for Fort Lauderdale semi truck and car
   accident victims in Florida. Deadlines, insurance tactics, and free attorney
   matching — 800+ law firm network. Not legal advice.
-date: '2026-05-29'
+date: '2026-05-31'
 category: Truck Accidents
 state: Florida
 excerpt: >-

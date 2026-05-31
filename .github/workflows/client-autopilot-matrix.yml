@@ -1,0 +1,64 @@
+# Multi-site autopilot (beta): enable sites in config/autopilot-sites.json
+name: Client autopilot matrix
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      site:
+        description: "Single site id (empty = all enabled)"
+        default: ""
+
+jobs:
+  resolve-sites:
+    runs-on: ubuntu-latest
+    outputs:
+      sites: ${{ steps.out.outputs.sites }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: out
+        run: |
+          SITES=$(python3 -c "
+          import json
+          c=json.load(open('config/autopilot-sites.json'))
+          req='${{ github.event.inputs.site }}'.strip()
+          ids=[s['id'] for s in c['sites'] if s.get('enabled')]
+          if req:
+            ids=[req] if req in ids else []
+          print(json.dumps(ids))
+          ")
+          echo "sites=$SITES" >> "$GITHUB_OUTPUT"
+
+  run-site:
+    needs: resolve-sites
+    if: needs.resolve-sites.outputs.sites != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      matrix:
+        site: ${{ fromJson(needs.resolve-sites.outputs.sites) }}
+      max-parallel: 2
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: pip install -r scripts/autopilot_requirements.txt && npm ci
+      - name: Publish batch for ${{ matrix.site }}
+        env:
+          AUTOPILOT_SOURCE: github-matrix
+        run: |
+          python scripts/wreckmatch_blog_autopilot.py --batch 6 --site "${{ matrix.site }}" --syndicate --min-score 98 --min-words 3000
+      - name: Commit site content
+        run: |
+          git config user.name "client-autopilot-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/ config/autopilot/ public/blog/ data/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "content(autopilot): ${{ matrix.site }} batch"
+          git push || true

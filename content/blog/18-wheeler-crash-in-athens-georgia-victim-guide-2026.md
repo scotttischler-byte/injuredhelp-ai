@@ -4,7 +4,7 @@ description: >-
   Educational guide for Athens semi truck and car accident victims in Georgia.
   Deadlines, insurance tactics, and free attorney matching — 800+ law firm
   network. Not legal advice.
-date: '2026-05-30'
+date: '2026-05-31'
 category: Truck Accidents
 state: Georgia
 excerpt: >-
@@ -19,13 +19,12 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
-presentationUrl: "/blog/presentations/18-wheeler-crash-in-athens-georgia-victim-guide-2026.pptx"
 ---
 # 18-Wheeler Crash in Athens, Georgia — Victim Guide (2026)
 
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 
-**Last updated:** 2026-05-30
+**Last updated:** 2026-05-31
 
 WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide — free matching, typically under 60 seconds.
 
@@ -305,8 +304,3 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 - [State & city resource center](https://www.wreckmatch.com/states)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
-- [18 Wheeler Crash In Atlanta Georgia Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-atlanta-georgia-victim-guide-2026)
-- [18 Wheeler Crash In Augusta Georgia Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-augusta-georgia-victim-guide-2026)
-- [Black Box Data After A Semi Crash In Athens Georgia](https://www.wreckmatch.com/blog/black-box-data-after-a-semi-crash-in-athens-georgia)
-- [Black Box Data After A Semi Crash In Atlanta Georgia](https://www.wreckmatch.com/blog/black-box-data-after-a-semi-crash-in-atlanta-georgia)
-- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/18-wheeler-crash-in-athens-georgia-victim-guide-2026)

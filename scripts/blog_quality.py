@@ -6,12 +6,34 @@ import re
 from dataclasses import dataclass, field
 
 
-DISCLAIMER_MARKERS = (
+DISCLAIMER_MARKERS_EN = (
     "not legal advice",
     "not a law firm",
     "referral service",
 )
-NETWORK_MARKERS = ("800+", "800 ", "participating law firms", "participating attorneys")
+DISCLAIMER_LEGAL_ADVICE_ES = (
+    "no es asesoría legal",
+    "no es asesoria legal",
+    "not legal advice",
+)
+DISCLAIMER_MARKERS_ES = (
+    "no un bufete",
+    "servicio de referencia",
+)
+NETWORK_MARKERS_EN = ("800+", "800 ", "participating law firms", "participating attorneys")
+NETWORK_MARKERS_ES = (
+    "800+",
+    "más de 800",
+    "mas de 800",
+    "bufetes participantes",
+    "participating law firms",
+    "800 ",
+)
+PLATINUM_MARKERS = (
+    "<!-- wm-platinum-expansion",
+    "<!-- wm-platinum-expansion-es",
+    "platinumExpansion: true",
+)
 
 
 @dataclass
@@ -79,7 +101,10 @@ def score_post(slug: str, text: str) -> QualityReport:
     fm, body = parse_frontmatter(text)
     wc = word_count(body)
     tier_fm = fm.get("qualityTier", "").lower()
-    is_platinum = tier_fm == "platinum" or "<!-- wm-platinum-expansion" in text
+    is_es = fm.get("lang", "").lower() == "es" or "/blog/es/" in text
+    is_platinum = tier_fm == "platinum" or any(m in text for m in PLATINUM_MARKERS)
+    disclaimer_markers = DISCLAIMER_MARKERS_ES if is_es else DISCLAIMER_MARKERS_EN
+    network_markers = NETWORK_MARKERS_ES if is_es else NETWORK_MARKERS_EN
 
     if re.search(r"texas-style", text, re.I):
         state = fm.get("state", "")
@@ -87,11 +112,18 @@ def score_post(slug: str, text: str) -> QualityReport:
             issues.append("texas_style_excerpt")
             score -= 40
 
-    if not all(m in text.lower() for m in DISCLAIMER_MARKERS):
+    low = text.lower()
+    if is_es:
+        has_disclaimer = any(m in low for m in DISCLAIMER_LEGAL_ADVICE_ES) and all(
+            m in low for m in DISCLAIMER_MARKERS_ES
+        )
+    else:
+        has_disclaimer = all(m in low for m in disclaimer_markers)
+    if not has_disclaimer:
         issues.append("missing_disclaimer")
         score -= 25
 
-    if not any(m in text.lower() for m in NETWORK_MARKERS):
+    if not any(m in low for m in network_markers):
         issues.append("missing_network_line")
         score -= 15
 

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "defaults": {
+    "dailyTargetEn": 12,
+    "batchSize": 6,
+    "catchupMaxPerRun": 72,
+    "minScore": 98,
+    "minWords": 3000,
+    "syndicate": true,
+    "templateFirst": true
+  },
+  "sites": [
+    {
+      "id": "wreckmatch",
+      "enabled": true,
+      "label": "WreckMatch (beta)",
+      "siteUrl": "https://www.wreckmatch.com",
+      "contentRoot": "content",
+      "blogDir": "content/blog",
+      "blogEsDir": "content/blog/es",
+      "queuePath": "content/autopilot/blog_queue.json",
+      "logPath": "content/autopilot/blog_generation.log",
+      "heartbeatPath": "content/autopilot/heartbeat.json",
+      "github": {
+        "owner": "scotttischler-byte",
+        "repo": "injuredhelp-ai",
+        "workflow": "wreckmatch-traffic-machine.yml",
+        "defaultBranch": "main"
+      }
+    }
+  ]
+}

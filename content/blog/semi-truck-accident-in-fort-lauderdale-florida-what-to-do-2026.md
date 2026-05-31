@@ -4,7 +4,7 @@ description: >-
   Educational guide for Fort Lauderdale semi truck and car accident victims in
   Florida. Deadlines, insurance tactics, and free attorney matching — 800+ law
   firm network. Not legal advice.
-date: '2026-05-29'
+date: '2026-05-31'
 category: Truck Accidents
 state: Florida
 excerpt: >-
@@ -19,13 +19,12 @@ reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
-presentationUrl: "/blog/presentations/semi-truck-accident-in-fort-lauderdale-florida-what-to-do-2026.pptx"
 ---
 # Semi Truck Accident in Fort Lauderdale, Florida: What to Do (2026)
 
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 
-**Last updated:** 2026-05-29
+**Last updated:** 2026-05-31
 
 WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide — free matching, typically under 60 seconds.
 
@@ -306,8 +305,3 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 - [State & city resource center](https://www.wreckmatch.com/states)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
-- [18 Wheeler Crash In Fort Lauderdale Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-fort-lauderdale-florida-victim-guide-2026)
-- [18 Wheeler Crash In Jacksonville Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-jacksonville-florida-victim-guide-2026)
-- [18 Wheeler Crash In Miami Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-miami-florida-victim-guide-2026)
-- [18 Wheeler Crash In Orlando Florida Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-orlando-florida-victim-guide-2026)
-- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/semi-truck-accident-in-fort-lauderdale-florida-what-to-do-2026)
