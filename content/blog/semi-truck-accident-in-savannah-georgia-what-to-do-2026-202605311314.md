@@ -304,3 +304,8 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 - [State & city resource center](https://www.wreckmatch.com/states)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
+- [18 Wheeler Crash In Athens Georgia Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-athens-georgia-victim-guide-2026)
+- [18 Wheeler Crash In Atlanta Georgia Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-atlanta-georgia-victim-guide-2026)
+- [18 Wheeler Crash In Augusta Georgia Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-augusta-georgia-victim-guide-2026)
+- [18 Wheeler Crash In Columbus Georgia Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-columbus-georgia-victim-guide-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/semi-truck-accident-in-savannah-georgia-what-to-do-2026-202605311314)
