@@ -27,11 +27,13 @@ const nextConfig: NextConfig = {
     "/sitemap.xml": ["./content/blog/**/*", "./sites/semitruckmatch/content/blog/**/*"],
   },
   outputFileTracingExcludes: {
-    "/api/automation/blog": ["./content/**", "./sites/**", "./public/blog/**"],
-    "/api/automation/health": ["./content/**", "./sites/**", "./public/blog/**"],
-    "/api/exposure/cron": ["./content/**", "./sites/**", "./public/blog/**"],
-    "/api/indexing/cron": ["./content/**", "./sites/**", "./public/blog/**"],
-    "/api/indexnow-key": ["./content/**", "./sites/**", "./public/blog/**"],
+    "*": [
+      "./content/blog/**",
+      "./content/blog/es/**",
+      "./sites/**",
+      "./public/blog/presentations/**",
+      "./public/blog/covers/**",
+    ],
   },
   async headers() {
     return [
