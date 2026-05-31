@@ -329,23 +329,70 @@ def build_topic_pool(limit: int = 0) -> list[dict[str, Any]]:
     return topics[:limit] if limit > 0 else topics
 
 
-def build_daily_rotation_topics(day: date) -> list[dict[str, Any]]:
-    """One rotating city topic per state (max 50) for the given UTC day."""
-    by_state: dict[str, list[tuple[str, str, str | None]]] = {}
+def top_city_per_state() -> dict[str, tuple[str, str, str | None]]:
+    """First city per state in cities.ts = primary / top market for that state."""
+    by_state: dict[str, tuple[str, str, str | None]] = {}
     for city, state, place in load_all_cities():
         if state in ("United States", ""):
             continue
-        by_state.setdefault(state, []).append((city, state, place))
+        if state not in by_state:
+            by_state[state] = (city, state, place)
+    return by_state
+
+
+def build_daily_rotation_topics(
+    day: date,
+    *,
+    completed_slugs: set[str] | None = None,
+    states_needed: set[str] | None = None,
+) -> list[dict[str, Any]]:
+    """Top city in each of 50 states — first unpublished angle wins."""
+    done = completed_slugs or set()
+    tops = top_city_per_state()
+    angle_pool = DAILY_ROTATION_ANGLES + INJURY_ANGLES[:4]
 
     topics: list[dict[str, Any]] = []
-    for i, (state, cities) in enumerate(sorted(by_state.items())[:50]):
-        cities_sorted = sorted(cities, key=lambda x: x[0])
-        city, st, place = cities_sorted[(day.toordinal() + i) % len(cities_sorted)]
-        angle_slug, title_tpl = DAILY_ROTATION_ANGLES[(day.toordinal() + i) % len(DAILY_ROTATION_ANGLES)]
-        title = title_tpl.format(city=city, state=st)
-        slug = slugify(title)
-        topics.append(
-            {
+    for i, (state, (city, st, place)) in enumerate(sorted(tops.items())[:50]):
+        if states_needed is not None and st not in states_needed:
+            continue
+
+        chosen: dict[str, Any] | None = None
+        for j, (angle_slug, title_tpl) in enumerate(angle_pool):
+            title = title_tpl.format(city=city, state=st)
+            slug = slugify(title)
+            if slug not in done:
+                chosen = {
+                    "angle": angle_slug,
+                    "title": title,
+                    "city": city,
+                    "state": st,
+                    "place_slug": place,
+                    "priority": -2,
+                    "daily_state_rotation": True,
+                    "top_city": True,
+                    "firm_state": st in FIRM_STATES,
+                    "vertical": (
+                        "truck"
+                        if any(
+                            x in angle_slug
+                            for x in ("truck", "semi", "wheeler", "tractor", "fmcsa")
+                        )
+                        else "auto"
+                    ),
+                    "slug": slug,
+                }
+                break
+
+        if not chosen:
+            angle_slug, title_tpl = DAILY_ROTATION_ANGLES[i % len(DAILY_ROTATION_ANGLES)]
+            title = (
+                f"What to Do After a Car Accident in {city}, {st} "
+                f"— Top City Guide ({day.isoformat()})"
+            )
+            slug = slugify(title)
+            if slug in done:
+                continue
+            chosen = {
                 "angle": angle_slug,
                 "title": title,
                 "city": city,
@@ -353,26 +400,30 @@ def build_daily_rotation_topics(day: date) -> list[dict[str, Any]]:
                 "place_slug": place,
                 "priority": -2,
                 "daily_state_rotation": True,
+                "top_city": True,
                 "firm_state": st in FIRM_STATES,
-                "vertical": (
-                    "truck"
-                    if any(x in angle_slug for x in ("truck", "semi", "wheeler", "tractor", "fmcsa"))
-                    else "auto"
-                ),
+                "vertical": "auto",
                 "slug": slug,
             }
-        )
+
+        topics.append(chosen)
     return topics
 
 
-def inject_daily_fifty_states(q: dict[str, Any], day: date | None = None) -> int:
-    """Pin today's 50-state topics to the front of the queue (add or re-prioritize)."""
+def inject_daily_fifty_states(
+    q: dict[str, Any],
+    day: date | None = None,
+    *,
+    states_needed: set[str] | None = None,
+) -> int:
+    """Pin top-city 50-state topics to the front (add, re-prioritize, or new angle if slug taken)."""
     day = day or datetime.now(timezone.utc).date()
-    rotation = build_daily_rotation_topics(day)
+    done = set(q.get("completed_slugs", []))
+    rotation = build_daily_rotation_topics(
+        day, completed_slugs=done, states_needed=states_needed
+    )
     if not rotation:
         return 0
-
-    done = set(q.get("completed_slugs", []))
     pending = q.setdefault("pending", [])
     by_slug: dict[str, dict[str, Any]] = {slugify(t["title"]): t for t in pending}
     ordered: list[dict[str, Any]] = []
@@ -381,8 +432,6 @@ def inject_daily_fifty_states(q: dict[str, Any], day: date | None = None) -> int
 
     for topic in rotation:
         slug = topic["slug"]
-        if slug in done:
-            continue
         if slug in by_slug:
             existing = by_slug.pop(slug)
             existing.update(topic)
@@ -1340,7 +1389,11 @@ def run_once(
 
     skipped = q.setdefault("skipped_slugs", [])
     for _ in range(min(5, len(pending))):
-        topic = pop_next_topic(pending, fifty_states_only=fifty_states_only)
+        topic = pop_next_topic(
+            pending,
+            fifty_states_only=fifty_states_only,
+            states_done_today=done_states,
+        )
         if not topic:
             break
         body = generate_ai_post(topic, claude_first) if use_ai else template_post(topic)
@@ -1358,6 +1411,9 @@ def run_once(
             q["pending"] = pending
             save_queue(q)
             continue
+
+        if topic.get("state"):
+            done_states.add(topic["state"])
 
         if syndicate and not dry_run:
             write_syndication(slug, topic, body, claude_first)
@@ -1414,7 +1470,23 @@ def main() -> int:
             return 0
 
     if args.inject_daily_states:
-        inject_daily_fifty_states(q)
+        states_needed = None
+        if os.getenv("FIFTY_STATES_ONLY", "") == "1":
+            try:
+                from autopilot_state_utils import (  # noqa: E402
+                    load_state_names,
+                    states_published_on,
+                )
+
+                log_path = Path(
+                    os.getenv("AUTOPILOT_LOG_PATH", str(ROOT / "content/autopilot/blog_generation.log"))
+                )
+                today = datetime.now(timezone.utc).date().isoformat()
+                states_needed = set(load_state_names()) - states_published_on(today, log_path)
+                log(f"Inject for {len(states_needed)} states not yet published today")
+            except Exception as e:
+                log(f"WARN states_needed: {e}")
+        inject_daily_fifty_states(q, states_needed=states_needed)
         save_queue(q)
         if args.batch < 1:
             log("Daily 50-state injection complete")
@@ -1442,6 +1514,18 @@ def main() -> int:
     if fifty_only:
         log("Mode: fifty-states-only (one city per state rotation)")
 
+    states_done: set[str] = set()
+    if fifty_only:
+        try:
+            from autopilot_state_utils import states_published_on  # noqa: E402
+
+            log_path = Path(os.getenv("AUTOPILOT_LOG_PATH", str(ROOT / "content/autopilot/blog_generation.log")))
+            today = datetime.now(timezone.utc).date().isoformat()
+            states_done = states_published_on(today, log_path)
+            log(f"States already published today (UTC): {len(states_done)} — {sorted(states_done)}")
+        except Exception as e:
+            log(f"WARN states_today lookup: {e}")
+
     slugs: list[str] = []
     for i in range(args.batch):
         do_syndicate = syndicate and (args.syndicate_all or i == args.batch - 1)
@@ -1454,7 +1538,18 @@ def main() -> int:
             min_score=min_score,
             min_words=min_words,
             fifty_states_only=fifty_only,
+            states_done_today=states_done,
         )
+        if slug and fifty_only:
+            # refresh after each success
+            try:
+                from autopilot_state_utils import states_published_on  # noqa: E402
+
+                log_path = Path(os.getenv("AUTOPILOT_LOG_PATH", str(ROOT / "content/autopilot/blog_generation.log")))
+                today = datetime.now(timezone.utc).date().isoformat()
+                states_done = states_published_on(today, log_path)
+            except Exception:
+                pass
         if slug:
             slugs.append(slug)
         if i < args.batch - 1:

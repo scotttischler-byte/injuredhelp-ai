@@ -21,6 +21,7 @@
     "platinum:certify": "python3 scripts/platinum_certify.py",
     "blog:today": "python3 scripts/wreckmatch_blog_autopilot.py --batch 10 --site wreckmatch --syndicate --min-score 100 --min-words 3000",
     "autopilot:daily": "python3 scripts/autopilot_daily_guard.py --ensure-today --site wreckmatch --max-batch 10",
+    "publish:fifty-states": ".venv/bin/python scripts/publish_fifty_states_now.py --batch-size 5",
     "autopilot:catchup": "python3 scripts/autopilot_catchup.py --site wreckmatch --days-back 14 --max-posts 10",
     "autopilot:improve": "python3 scripts/autopilot_daily_improvements.py",
     "autopilot:heartbeat": "python3 scripts/autopilot_heartbeat.py --site wreckmatch",
