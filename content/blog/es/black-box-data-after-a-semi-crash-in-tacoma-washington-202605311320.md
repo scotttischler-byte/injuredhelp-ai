@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: black-box-data-after-a-semi-crash-in-tacoma-washington-202605311320
-presentationUrl: >-
-  /blog/presentations/es/black-box-data-after-a-semi-crash-in-tacoma-washington-202605311320.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/black-box-data-after-a-semi-crash-in-tacoma-washington-202605311320.pptx"presentationUrlEn: >-
   /blog/presentations/black-box-data-after-a-semi-crash-in-tacoma-washington-202605311320.pptx
 ---
 ## Por qué publicamos esta guía para Tacoma Washington

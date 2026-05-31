@@ -22,9 +22,7 @@ platinumExpansion: true
 lang: es
 canonicalSlug: >-
   traumatic-brain-injury-tbi-from-a-car-accident-in-huntsville-alabama-202605311322
-presentationUrl: >-
-  /blog/presentations/es/traumatic-brain-injury-tbi-from-a-car-accident-in-huntsville-alabama-202605311322.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/traumatic-brain-injury-tbi-from-a-car-accident-in-huntsville-alabama-202605311322.pptx"presentationUrlEn: >-
   /blog/presentations/traumatic-brain-injury-tbi-from-a-car-accident-in-huntsville-alabama-202605311322.pptx
 ---
 ## Por qué publicamos esta guía para Huntsville Alabama

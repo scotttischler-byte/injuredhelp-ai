@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: semi-truck-accident-in-aurora-illinois-what-to-do-2026-202605311314
-presentationUrl: >-
-  /blog/presentations/es/semi-truck-accident-in-aurora-illinois-what-to-do-2026-202605311314.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/semi-truck-accident-in-aurora-illinois-what-to-do-2026-202605311314.pptx"presentationUrlEn: >-
   /blog/presentations/semi-truck-accident-in-aurora-illinois-what-to-do-2026-202605311314.pptx
 ---
 ## Por qué publicamos esta guía para Aurora Illinois What To Do 2026

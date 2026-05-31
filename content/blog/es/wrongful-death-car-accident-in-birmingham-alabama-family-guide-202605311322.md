@@ -23,9 +23,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: wrongful-death-car-accident-in-birmingham-alabama-family-guide-202605311322
-presentationUrl: >-
-  /blog/presentations/es/wrongful-death-car-accident-in-birmingham-alabama-family-guide-202605311322.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/wrongful-death-car-accident-in-birmingham-alabama-family-guide-202605311322.pptx"presentationUrlEn: >-
   /blog/presentations/wrongful-death-car-accident-in-birmingham-alabama-family-guide-202605311322.pptx
 ---
 ## Por qué publicamos esta guía para Birmingham Alabama Family Guide

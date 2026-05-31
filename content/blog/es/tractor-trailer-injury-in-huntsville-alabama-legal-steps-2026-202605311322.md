@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: tractor-trailer-injury-in-huntsville-alabama-legal-steps-2026-202605311322
-presentationUrl: >-
-  /blog/presentations/es/tractor-trailer-injury-in-huntsville-alabama-legal-steps-2026-202605311322.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/tractor-trailer-injury-in-huntsville-alabama-legal-steps-2026-202605311322.pptx"presentationUrlEn: >-
   /blog/presentations/tractor-trailer-injury-in-huntsville-alabama-legal-steps-2026-202605311322.pptx
 ---
 ## Por qué publicamos esta guía para Huntsville Alabama Legal Steps 2026

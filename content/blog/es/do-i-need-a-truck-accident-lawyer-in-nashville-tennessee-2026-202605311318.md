@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026-202605311318
-presentationUrl: >-
-  /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026-202605311318.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026-202605311318.pptx"presentationUrlEn: >-
   /blog/presentations/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026-202605311318.pptx
 ---
 ## Por qué publicamos esta guía para Nashville Tennessee 2026

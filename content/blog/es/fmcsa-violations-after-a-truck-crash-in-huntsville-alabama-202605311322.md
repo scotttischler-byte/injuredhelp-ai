@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: fmcsa-violations-after-a-truck-crash-in-huntsville-alabama-202605311322
-presentationUrl: >-
-  /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-huntsville-alabama-202605311322.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-huntsville-alabama-202605311322.pptx"presentationUrlEn: >-
   /blog/presentations/fmcsa-violations-after-a-truck-crash-in-huntsville-alabama-202605311322.pptx
 ---
 ## Por qué publicamos esta guía para Huntsville Alabama

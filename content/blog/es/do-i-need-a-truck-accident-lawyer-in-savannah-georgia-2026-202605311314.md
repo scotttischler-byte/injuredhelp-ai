@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: do-i-need-a-truck-accident-lawyer-in-savannah-georgia-2026-202605311314
-presentationUrl: >-
-  /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-savannah-georgia-2026-202605311314.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-savannah-georgia-2026-202605311314.pptx"presentationUrlEn: >-
   /blog/presentations/do-i-need-a-truck-accident-lawyer-in-savannah-georgia-2026-202605311314.pptx
 ---
 ## Por qué publicamos esta guía para Savannah Georgia 2026

@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: fmcsa-violations-after-a-truck-crash-in-birmingham-alabama-202605311321
-presentationUrl: >-
-  /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-birmingham-alabama-202605311321.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-birmingham-alabama-202605311321.pptx"presentationUrlEn: >-
   /blog/presentations/fmcsa-violations-after-a-truck-crash-in-birmingham-alabama-202605311321.pptx
 ---
 ## Por qué publicamos esta guía para Birmingham Alabama

@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026-202605311321
-presentationUrl: >-
-  /blog/presentations/es/tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026-202605311321.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026-202605311321.pptx"presentationUrlEn: >-
   /blog/presentations/tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026-202605311321.pptx
 ---
 ## Por qué publicamos esta guía para Birmingham Alabama Legal Steps 2026

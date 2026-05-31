@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: do-i-need-a-truck-accident-lawyer-in-rockford-illinois-2026-202605311316
-presentationUrl: >-
-  /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-rockford-illinois-2026-202605311316.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-rockford-illinois-2026-202605311316.pptx"presentationUrlEn: >-
   /blog/presentations/do-i-need-a-truck-accident-lawyer-in-rockford-illinois-2026-202605311316.pptx
 ---
 ## Por qué publicamos esta guía para Rockford Illinois 2026

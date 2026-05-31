@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: black-box-data-after-a-semi-crash-in-bellevue-washington-202605311318
-presentationUrl: >-
-  /blog/presentations/es/black-box-data-after-a-semi-crash-in-bellevue-washington-202605311318.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/black-box-data-after-a-semi-crash-in-bellevue-washington-202605311318.pptx"presentationUrlEn: >-
   /blog/presentations/black-box-data-after-a-semi-crash-in-bellevue-washington-202605311318.pptx
 ---
 ## Por qué publicamos esta guía para Bellevue Washington

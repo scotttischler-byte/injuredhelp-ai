@@ -21,9 +21,7 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: semi-truck-accident-in-rockford-illinois-what-to-do-2026-202605311316
-presentationUrl: >-
-  /blog/presentations/es/semi-truck-accident-in-rockford-illinois-what-to-do-2026-202605311316.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/semi-truck-accident-in-rockford-illinois-what-to-do-2026-202605311316.pptx"presentationUrlEn: >-
   /blog/presentations/semi-truck-accident-in-rockford-illinois-what-to-do-2026-202605311316.pptx
 ---
 ## Por qué publicamos esta guía para Rockford Illinois What To Do 2026
