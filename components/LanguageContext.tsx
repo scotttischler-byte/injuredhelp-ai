@@ -2,7 +2,8 @@
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import type { HomeCopy, Lang } from "@/lib/homeTranslations";
-import { HOME_TRANSLATIONS } from "@/lib/homeTranslations";
+import { getHomeTranslations } from "@/lib/get-home-copy";
+import type { SiteBrand } from "@/lib/site";
 
 const STORAGE_KEY = "wm_language";
 
@@ -14,8 +15,15 @@ type LanguageContextValue = {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
+export function LanguageProvider({
+  children,
+  brand = "wreckmatch",
+}: {
+  children: React.ReactNode;
+  brand?: SiteBrand;
+}) {
   const [lang, setLangState] = useState<Lang>("en");
+  const translations = getHomeTranslations(brand);
 
   useEffect(() => {
     queueMicrotask(() => {
@@ -54,9 +62,9 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     () => ({
       lang,
       setLang,
-      t: HOME_TRANSLATIONS[lang],
+      t: translations[lang],
     }),
-    [lang, setLang],
+    [lang, setLang, translations],
   );
 
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;

@@ -44,6 +44,8 @@ export interface LeadFormProps {
     email?: string;
   }) => Promise<void>;
   thankYouPath?: (ctx: { firstName: string; source?: string }) => string;
+  /** Pre-select accident type (e.g. Truck Accident on SemiTruckMatch). */
+  defaultAccidentType?: string;
 }
 
 type FormState = {
@@ -99,6 +101,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     formCopy,
     afterSubmit,
     thankYouPath,
+    defaultAccidentType,
   },
   ref,
 ) {
@@ -115,7 +118,7 @@ export const LeadForm = forwardRef<HTMLDivElement, LeadFormProps>(function LeadF
     email: "",
     state: resolvePreselectedState(preselectedState),
     accidentDescription: "",
-    accidentType: "",
+    accidentType: defaultAccidentType ?? "",
     smsOptIn: false,
   }));
 

@@ -1,6 +1,8 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { SemiTruckHomePage } from "@/components/semitruck/SemiTruckHomePage";
+import { useBrand } from "@/lib/brand-context";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/LanguageContext";
 import { ReferralDisclaimer } from "@/components/ReferralDisclaimer";
@@ -28,6 +30,14 @@ const HomePageBelowFold = dynamic(() => import("@/components/HomePageBelowFold")
 });
 
 export function HomePageClient() {
+  const { brand } = useBrand();
+  if (brand === "semitruckmatch") {
+    return <SemiTruckHomePage />;
+  }
+  return <WreckMatchHomeContent />;
+}
+
+function WreckMatchHomeContent() {
   const { lang, t } = useLanguage();
   const [formInView, setFormInView] = useState(false);
   const formCardRef = useRef<HTMLDivElement>(null);

@@ -24,10 +24,14 @@ export const metadata: Metadata = {
     template: `%s | ${cfg.name}`,
   },
   description:
-    brand === "wreckmatch"
-      ? "Free legal referral for car accident victims. Matched with licensed attorneys in your state. No upfront fees."
-      : `${cfg.name} uses AI to instantly connect accident victims with top personal injury attorneys. Free consultation, no fees unless you win.`,
-  icons: { icon: "/favicon.svg" },
+    brand === "semitruckmatch"
+      ? "Free truck accident attorney matching after a semi, 18-wheeler, or commercial truck crash. Licensed counsel in all 50 states. No fees unless you win."
+      : brand === "wreckmatch"
+        ? "Free legal referral for car accident victims. Matched with licensed attorneys in your state. No upfront fees."
+        : `${cfg.name} uses AI to instantly connect accident victims with top personal injury attorneys. Free consultation, no fees unless you win.`,
+  icons: {
+    icon: brand === "semitruckmatch" ? "/semitruck-favicon.svg" : "/favicon.svg",
+  },
   manifest: "/manifest.json",
   robots: { index: true, follow: true },
   openGraph: {
@@ -59,7 +63,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: "#0f172a",
+  themeColor: brand === "semitruckmatch" ? "#070b14" : "#0f172a",
   viewportFit: "cover",
 };
 
@@ -107,7 +111,7 @@ export default function RootLayout({
           tiktokInline={tiktokPixelInline}
           loadTikTok={loadTikTokPixel}
         />
-        <Providers>
+        <Providers brand={brand}>
           {children}
           <SiteFooter />
           <CookieConsent />

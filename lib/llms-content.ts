@@ -17,6 +17,10 @@ export function buildLlmsTxt(origin: string): string {
       `- [${m.label} car accident guide (2026)](${base}${texasMetroHubPath(m.placeSlug)}) — Texas SOL, insurance tactics, free attorney matching`,
   ).join("\n");
 
+  const recentBlogLines = getRecentCitationPosts(28)
+    .map((p) => `- [${p.title}](${base}/blog/${p.slug})`)
+    .join("\n");
+
   return `# WreckMatch – Free Legal Help After Your Car Accident
 
 > This site provides structured, authoritative information on how injured car accident victims can quickly connect with licensed personal injury attorneys across all states for free legal assistance.

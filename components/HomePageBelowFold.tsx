@@ -1,5 +1,6 @@
 "use client";
 
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { HomeCopy, Lang } from "@/lib/homeTranslations";
@@ -10,13 +11,23 @@ import { stateHubSlug } from "@/lib/geo-routes";
 import { ALL_STATES } from "@/lib/states";
 import { trackTikTokClickButton } from "@/lib/tiktok-attribution";
 
+type ActivityMsg = { line: string; ago: string };
+
 type Props = {
   lang: Lang;
   t: HomeCopy;
   formInView: boolean;
+  activityMessages?: Record<Lang, readonly ActivityMsg[]>;
+  beforeStates?: ReactNode;
 };
 
-export default function HomePageBelowFold({ lang, t, formInView }: Props) {
+export default function HomePageBelowFold({
+  lang,
+  t,
+  formInView,
+  activityMessages: activityOverride,
+  beforeStates,
+}: Props) {
   const [toastVisible, setToastVisible] = useState(false);
   const [toastIndex, setToastIndex] = useState(0);
   const [toastDismissed, setToastDismissed] = useState(false);
@@ -54,7 +65,7 @@ export default function HomePageBelowFold({ lang, t, formInView }: Props) {
     return () => io.disconnect();
   }, []);
 
-  const activityMessages = ACTIVITY_MESSAGES[lang];
+  const activityMessages = (activityOverride ?? ACTIVITY_MESSAGES)[lang];
   const trustMarquee = [
     `🔒 ${t.trustStripEnc}`,
     `⚖️ ${t.trustStripLicensed}`,
@@ -276,6 +287,8 @@ export default function HomePageBelowFold({ lang, t, formInView }: Props) {
       </section>
 
       <TexasMetroLinks variant="homepage" />
+
+      {beforeStates}
 
       <section id="states" className="scroll-mt-20 border-t border-gray-800 bg-gray-950 px-4 py-12">
         <h2 className="mb-6 text-center text-xl font-bold text-white sm:text-2xl">{t.coverageHeading}</h2>

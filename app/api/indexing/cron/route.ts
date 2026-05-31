@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({
       ok: false,
       error: "INDEXNOW_KEY missing on Vercel",
-      recentPosts: recentSlugs.length,
+      recentPosts: stats.enPosts,
     });
   }
 

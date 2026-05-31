@@ -2,7 +2,7 @@ import Link from "next/link";
 import { TexasMetroLinks } from "@/components/TexasMetroLinks";
 import { FOOTER_DISCLAIMER, OPERATOR_LEGAL_NAME } from "@/lib/compliance";
 import { WreckMatchPhone } from "@/components/WreckMatchPhone";
-import { serverSiteOrigin } from "@/lib/site";
+import { serverSiteBrand, serverSiteOrigin } from "@/lib/site";
 
 const FOOTER_LINKS = [
   { href: "/privacy", label: "Privacy Policy" },
@@ -12,6 +12,8 @@ const FOOTER_LINKS = [
 ] as const;
 
 const origin = serverSiteOrigin();
+const brand = serverSiteBrand();
+const isTruck = brand === "semitruckmatch";
 
 export function SiteFooter() {
   return (
@@ -30,9 +32,20 @@ export function SiteFooter() {
             </span>
           ))}
           <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
-          <Link href="/what-to-do-after-a-car-accident" className="underline-offset-4 hover:text-white hover:underline">
-            After a crash
+          <Link
+            href={isTruck ? "/truck-accident-help" : "/what-to-do-after-a-car-accident"}
+            className="underline-offset-4 hover:text-white hover:underline"
+          >
+            {isTruck ? "Truck crash help" : "After a crash"}
           </Link>
+          {isTruck ? (
+            <>
+              <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
+              <Link href="/for-attorneys" className="underline-offset-4 hover:text-white hover:underline">
+                For attorneys
+              </Link>
+            </>
+          ) : null}
           <span className="hidden text-gray-600 sm:inline" aria-hidden>|</span>
           <Link href="/resources" className="underline-offset-4 hover:text-white hover:underline">
             Resources

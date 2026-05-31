@@ -3,11 +3,12 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/LanguageContext";
-import { LogoLight } from "@/components/Logo";
-import { WreckMatchPhone } from "@/components/WreckMatchPhone";
-import { WRECKMATCH_PHONE_TEL } from "@/lib/phones";
+import { BrandLogo } from "@/components/BrandLogo";
+import { BrandPhone } from "@/components/BrandPhone";
+import { useBrand } from "@/lib/brand-context";
+import { BRAND_CONFIG } from "@/lib/site";
 
-const RESOURCE_LINKS = [
+const WRECKMATCH_RESOURCE_LINKS = [
   { href: "/what-to-do-after-a-car-accident", key: "linkWhatToDo" as const },
   { href: "/resources", key: "linkResources" as const },
   { href: "/blog", key: "linkBlog" as const },
@@ -17,8 +18,24 @@ const RESOURCE_LINKS = [
   { href: "/webinars", key: "navWebinars" as const },
 ] as const;
 
+const SEMITRUCK_RESOURCE_LINKS = [
+  { href: "/truck-accident-help", key: "linkWhatToDo" as const },
+  { href: "/blog", key: "linkBlog" as const },
+  { href: "/states", key: "linkStates" as const },
+  { href: "/for-attorneys", label: "For attorneys" },
+  { href: "/leadership", label: "Leadership team" },
+  { href: "/press", key: "navPress" as const },
+] as const;
+
 export function SiteHeader() {
+  const { brand } = useBrand();
   const { lang, setLang, t } = useLanguage();
+  const RESOURCE_LINKS = brand === "semitruckmatch" ? SEMITRUCK_RESOURCE_LINKS : WRECKMATCH_RESOURCE_LINKS;
+  const tel = `tel:${BRAND_CONFIG[brand].phone.replace(/[^\d+]/g, "")}`;
+  const headerAccent =
+    brand === "semitruckmatch"
+      ? "border-amber-500/20 bg-[#070b14]/95"
+      : "border-gray-800/90 bg-gray-950";
   const [resourcesOpen, setResourcesOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -43,9 +60,11 @@ export function SiteHeader() {
   const closeMobile = () => setMobileOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-800/90 bg-gray-950 shadow-sm shadow-black/20">
+    <header
+      className={`sticky top-0 z-50 w-full border-b shadow-sm shadow-black/20 ${headerAccent}`}
+    >
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-2 px-3 sm:gap-3 sm:px-4">
-        <LogoLight href="/" />
+        <BrandLogo href="/" variant="dark" brand={brand} />
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-5 text-sm font-medium text-gray-200 md:flex">
@@ -116,11 +135,8 @@ export function SiteHeader() {
               🇲🇽 ES
             </button>
           </div>
-          <a
-            href={WRECKMATCH_PHONE_TEL}
-            className="hidden sm:inline"
-          >
-            <WreckMatchPhone variant="dark" vanityClassName="!text-sm" digitsClassName="!text-xs" />
+          <a href={tel} className="hidden sm:inline">
+            <BrandPhone variant="dark" vanityClassName="!text-sm" digitsClassName="!text-xs" />
           </a>
           <button
             type="button"
@@ -184,11 +200,13 @@ export function SiteHeader() {
             </button>
           </div>
           <a
-            href={WRECKMATCH_PHONE_TEL}
-            className="mt-4 flex w-full items-center justify-center rounded-xl border border-emerald-500/40 bg-slate-900 py-3"
+            href={tel}
+            className={`mt-4 flex w-full items-center justify-center rounded-xl border bg-slate-900 py-3 ${
+              brand === "semitruckmatch" ? "border-amber-500/40" : "border-emerald-500/40"
+            }`}
             onClick={closeMobile}
           >
-            <WreckMatchPhone variant="dark" />
+            <BrandPhone variant="dark" />
           </a>
         </nav>
       ) : null}
