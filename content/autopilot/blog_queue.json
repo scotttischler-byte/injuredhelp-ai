@@ -437,11 +437,17 @@
     "severe-injury-after-a-car-accident-in-mobile-alabama-2026",
     "spinal-cord-injury-after-a-crash-in-mobile-alabama-2026",
     "traumatic-brain-injury-tbi-from-a-car-accident-in-mobile-alabama",
-    "tractor-trailer-injury-in-mobile-alabama-legal-steps-2026"
+    "tractor-trailer-injury-in-mobile-alabama-legal-steps-2026",
+    "underride-or-override-truck-crash-in-mobile-alabama-2026",
+    "wrongful-death-car-accident-in-mobile-alabama-family-guide",
+    "catastrophic-injury-car-crash-in-montgomery-alabama-2026",
+    "fmcsa-violations-after-a-truck-crash-in-montgomery-alabama",
+    "severe-injury-after-a-car-accident-in-montgomery-alabama-2026",
+    "spinal-cord-injury-after-a-crash-in-montgomery-alabama-2026"
   ],
   "stats": {
-    "total_published": 436,
-    "last_run_at": "2026-05-31T10:27:14.543762+00:00"
+    "total_published": 442,
+    "last_run_at": "2026-05-31T12:12:45.305437+00:00"
   },
   "pending": [
     {
@@ -893,72 +899,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026"
-    },
-    {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Mobile, Alabama (2026)",
-      "city": "Mobile",
-      "state": "Alabama",
-      "place_slug": "mobile",
-      "priority": 0,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-mobile-alabama-2026"
-    },
-    {
-      "angle": "wrongful-death-car",
-      "title": "Wrongful Death Car Accident in Mobile, Alabama \u2014 Family Guide",
-      "city": "Mobile",
-      "state": "Alabama",
-      "place_slug": "mobile",
-      "priority": 0,
-      "firm_state": true,
-      "vertical": "severe",
-      "slug": "wrongful-death-car-accident-in-mobile-alabama-family-guide"
-    },
-    {
-      "angle": "catastrophic-injury",
-      "title": "Catastrophic Injury Car Crash in Montgomery, Alabama (2026)",
-      "city": "Montgomery",
-      "state": "Alabama",
-      "place_slug": "montgomery",
-      "priority": 0,
-      "firm_state": true,
-      "vertical": "severe",
-      "slug": "catastrophic-injury-car-crash-in-montgomery-alabama-2026"
-    },
-    {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Montgomery, Alabama",
-      "city": "Montgomery",
-      "state": "Alabama",
-      "place_slug": "montgomery",
-      "priority": 0,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-montgomery-alabama"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Montgomery, Alabama (2026)",
-      "city": "Montgomery",
-      "state": "Alabama",
-      "place_slug": "montgomery",
-      "priority": 0,
-      "firm_state": true,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-montgomery-alabama-2026"
-    },
-    {
-      "angle": "spinal-cord-injury",
-      "title": "Spinal Cord Injury After a Crash in Montgomery, Alabama (2026)",
-      "city": "Montgomery",
-      "state": "Alabama",
-      "place_slug": "montgomery",
-      "priority": 0,
-      "firm_state": true,
-      "vertical": "severe",
-      "slug": "spinal-cord-injury-after-a-crash-in-montgomery-alabama-2026"
     },
     {
       "angle": "tbi-car-accident",
