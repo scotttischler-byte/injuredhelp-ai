@@ -1,9 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { verifyCronSecret } from "@/lib/automation-auth";
 import { dispatchBlogAutopilotWorkflow } from "@/lib/github-autopilot";
-import { getAllPosts } from "@/lib/posts";
 import fs from "fs";
 import path from "path";
+
+function countEnBlogPosts(): number {
+  let n = 0;
+  for (const root of ["content/blog", "sites/semitruckmatch/content/blog"]) {
+    const dir = path.join(process.cwd(), root);
+    if (!fs.existsSync(dir)) continue;
+    n += fs.readdirSync(dir).filter((f) => f.endsWith(".md") || f.endsWith(".mdx")).length;
+  }
+  return n;
+}
 
 /** Vercel cron failsafe: dispatch GitHub blog autopilot + record intent (does not run Python on Vercel). */
 export async function GET(req: NextRequest) {
@@ -16,7 +25,7 @@ export async function GET(req: NextRequest) {
   const catchup = url.searchParams.get("catchup") ?? "0";
   const site = url.searchParams.get("site") ?? "wreckmatch";
 
-  const posts = await getAllPosts();
+  const blogPostCount = countEnBlogPosts();
   const heartbeatPath = path.join(process.cwd(), "content/autopilot/heartbeat.json");
   let heartbeat: Record<string, unknown> = {};
   if (fs.existsSync(heartbeatPath)) {
@@ -45,8 +54,8 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({
     ok: dispatch.ok,
     at: new Date().toISOString(),
-    blogPostCount: posts.length,
-    latestPostDate: posts[0]?.date ?? null,
+    blogPostCount,
+    latestPostDate: null,
     dispatch,
     heartbeat,
     dailySla,

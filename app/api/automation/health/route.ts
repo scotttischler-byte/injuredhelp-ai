@@ -1,9 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { verifyCronSecret } from "@/lib/automation-auth";
-import { getAllPosts } from "@/lib/posts";
 import { isValidIndexNowKey } from "@/lib/indexnow";
 import fs from "fs";
 import path from "path";
+
+function countEnBlogPosts(): number {
+  let n = 0;
+  for (const root of ["content/blog", "sites/semitruckmatch/content/blog"]) {
+    const dir = path.join(process.cwd(), root);
+    if (!fs.existsSync(dir)) continue;
+    n += fs.readdirSync(dir).filter((f) => f.endsWith(".md") || f.endsWith(".mdx")).length;
+  }
+  return n;
+}
 
 /** Daily automation health snapshot (Vercel cron or manual with CRON_SECRET). */
 export async function GET(req: NextRequest) {
@@ -12,7 +21,7 @@ export async function GET(req: NextRequest) {
   }
 
   const indexNowKey = process.env.INDEXNOW_KEY?.trim() ?? "";
-  const posts = await getAllPosts();
+  const blogPostCount = countEnBlogPosts();
 
   const heartbeatPath = path.join(process.cwd(), "content/autopilot/heartbeat.json");
   let heartbeat: Record<string, unknown> | null = null;
@@ -32,8 +41,8 @@ export async function GET(req: NextRequest) {
     ),
     anthropic: Boolean(process.env.ANTHROPIC_API_KEY?.trim()),
     database: Boolean(process.env.DATABASE_URL?.trim()),
-    blogPostCount: posts.length,
-    latestPostDate: posts[0]?.date ?? null,
+    blogPostCount,
+    latestPostDate: null,
     site: process.env.WRECKMATCH_SITE ?? "https://www.wreckmatch.com",
     heartbeat,
   };

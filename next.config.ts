@@ -20,9 +20,15 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ["react", "react-dom", "react-markdown", "remark-gfm"],
   },
   outputFileTracingIncludes: {
-    "/blog": ["./content/blog/**/*"],
-    "/blog/[slug]": ["./content/blog/**/*"],
-    "/sitemap.xml": ["./content/blog/**/*"],
+    "/blog": ["./content/blog/**/*", "./sites/semitruckmatch/content/blog/**/*"],
+    "/blog/[slug]": ["./content/blog/**/*", "./sites/semitruckmatch/content/blog/**/*"],
+    "/es/blog": ["./content/blog/es/**/*", "./sites/semitruckmatch/content/blog/es/**/*"],
+    "/es/blog/[slug]": ["./content/blog/es/**/*", "./sites/semitruckmatch/content/blog/es/**/*"],
+    "/sitemap.xml": ["./content/blog/**/*", "./sites/semitruckmatch/content/blog/**/*"],
+  },
+  outputFileTracingExcludes: {
+    "/api/automation/blog": ["./content/**", "./sites/**", "./public/blog/**"],
+    "/api/automation/health": ["./content/**", "./sites/**", "./public/blog/**"],
   },
   async headers() {
     return [
