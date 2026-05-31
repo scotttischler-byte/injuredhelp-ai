@@ -147,11 +147,12 @@ jobs:
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
-      - name: Accelerate indexing (every run)
+      - name: Backlinks + indexing (every 30 min)
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
           SITE: https://www.wreckmatch.com
         run: |
+          python3 scripts/organic_crush.py --mesh-limit 25 --viral-limit 2 --skip-exposure || true
           python3 scripts/indexing_accelerator.py --recent 320 || true
           if [ -z "$CRON_SECRET" ]; then
             echo "::warning::CRON_SECRET missing on GitHub — IndexNow prod ping skipped"

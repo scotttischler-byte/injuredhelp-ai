@@ -25,6 +25,8 @@ export interface PostMeta {
   presentationUrl?: string;
   lang?: BlogLocale;
   canonicalSlug?: string;
+  authorId?: string;
+  reviewerId?: string;
 }
 
 function ensureDir() {
@@ -64,6 +66,8 @@ function readAllPosts(): PostMeta[] {
       coverImage: data.coverImage ? String(data.coverImage) : undefined,
       coverAlt: data.coverAlt ? String(data.coverAlt) : undefined,
       presentationUrl: data.presentationUrl ? String(data.presentationUrl) : undefined,
+      authorId: data.authorId ? String(data.authorId) : undefined,
+      reviewerId: data.reviewerId ? String(data.reviewerId) : undefined,
     } satisfies PostMeta;
   });
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -101,6 +105,8 @@ function readPostFile(
         coverImage: data.coverImage ? String(data.coverImage) : undefined,
         coverAlt: data.coverAlt ? String(data.coverAlt) : undefined,
         presentationUrl: data.presentationUrl ? String(data.presentationUrl) : undefined,
+        authorId: data.authorId ? String(data.authorId) : undefined,
+        reviewerId: data.reviewerId ? String(data.reviewerId) : undefined,
         lang: locale,
         canonicalSlug: data.canonicalSlug ? String(data.canonicalSlug) : slug,
       };

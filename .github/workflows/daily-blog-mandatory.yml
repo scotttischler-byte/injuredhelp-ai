@@ -81,12 +81,13 @@ jobs:
           git commit -m "content(daily-sla): 50-state platinum publish $(date -u +%Y-%m-%d)"
           git push
 
-      - name: IndexNow + exposure after publish
+      - name: Backlinks + IndexNow after publish
         if: github.event.schedule != '50 23 * * *'
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
           SITE: https://www.wreckmatch.com
         run: |
+          python3 scripts/organic_crush.py --mesh-limit 50 --viral-limit 5 || true
           python3 scripts/indexing_accelerator.py --recent 320 || true
           if [ -z "$CRON_SECRET" ]; then
             echo "::warning::CRON_SECRET missing — IndexNow skipped"

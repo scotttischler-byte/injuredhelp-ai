@@ -17,7 +17,7 @@ import { presentationPathForSlug } from "@/lib/blog-presentations";
 import { blogCoverForSlug } from "@/lib/blog-images";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import { blogFaqsForSlug } from "@/lib/blog-faqs";
-import { authorshipForSlug } from "@/lib/blog-authors";
+import { authorshipForSlugWithOverride } from "@/lib/blog-authors";
 import { asgLinksForBlog } from "@/lib/asg-links";
 import { expandPostContent } from "@/lib/blog-content-expander";
 import { AccidentSurvivalGuideCrossLink } from "@/components/seo/AccidentSurvivalGuideCrossLink";
@@ -65,7 +65,10 @@ export default async function BlogPostPage({ params }: Props) {
   // Strip the leading raw markdown image (we render our own hero cover above the article).
   const cleanContent = content.replace(/^\s*!\[[^\]]*\]\([^)]+\)\s*\n+/, "");
 
-  const { author, reviewer } = authorshipForSlug(slug);
+  const { author, reviewer } = authorshipForSlugWithOverride(slug, {
+    authorId: meta.authorId,
+    reviewerId: meta.reviewerId ?? "roy-waddell",
+  });
   const sourceWordCount = cleanContent
     .replace(/```[\s\S]*?```/g, "")
     .replace(/\[([^\]]*)\]\([^)]+\)/g, "$1")

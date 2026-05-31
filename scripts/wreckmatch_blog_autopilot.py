@@ -112,6 +112,20 @@ TEXAS_METROS = [
 ]
 
 # Priority 0 — high-intent organic traffic (truck + severe injury)
+# Practical victim-useful angles for daily 50-state rotation (mix truck + everyday crash help)
+DAILY_ROTATION_ANGLES = [
+    ("what-to-do-after", "What to Do After a Car Accident in {city}, {state} (2026)"),
+    ("semi-truck-accident", "Semi Truck Accident in {city}, {state}: What to Do (2026)"),
+    ("statute-of-limitations", "{state} Car Accident Statute of Limitations — {city} (2026)"),
+    ("insurance-denied", "Insurance Denied Your Claim in {city}? ({state} 2026)"),
+    ("common-mistakes", "7 Costly Car Accident Mistakes in {city}, {state} (2026)"),
+    ("severe-injury-car-accident", "Severe Injury After a Car Accident in {city}, {state} (2026)"),
+    ("lawyer-vs-diy", "Should You Hire a Lawyer After a {city} Crash? ({state} 2026)"),
+    ("whiplash", "Whiplash After a Car Accident in {city}, {state} — What to Know (2026)"),
+    ("truck-accident", "Truck Accident in {city}, {state}: Steps & Legal Help (2026)"),
+    ("uninsured-driver", "Hit by an Uninsured Driver in {city}, {state} (2026)"),
+]
+
 INJURY_ANGLES = [
     ("semi-truck-accident", "Semi Truck Accident in {city}, {state}: What to Do (2026)"),
     ("18-wheeler-crash", "18-Wheeler Crash in {city}, {state} — Victim Guide (2026)"),
@@ -334,7 +348,7 @@ def inject_daily_fifty_states(q: dict[str, Any], day: date | None = None) -> int
     for i, (state, cities) in enumerate(sorted(by_state.items())[:50]):
         cities_sorted = sorted(cities, key=lambda x: x[0])
         city, st, place = cities_sorted[(day.toordinal() + i) % len(cities_sorted)]
-        angle_slug, title_tpl = INJURY_ANGLES[(day.toordinal() + i) % len(INJURY_ANGLES)]
+        angle_slug, title_tpl = DAILY_ROTATION_ANGLES[(day.toordinal() + i) % len(DAILY_ROTATION_ANGLES)]
         title = title_tpl.format(city=city, state=st)
         slug = slugify(title)
         if slug in done or slug in existing:
@@ -494,10 +508,83 @@ When you are ready, we connect you with licensed counsel in about 60 seconds. Wr
 """
 
 
+def kathy_voice_block(kind: str, city: str, state: str) -> str:
+    place = city or state or "your area"
+    st = state or "your state"
+    return f"""
+## A note for families navigating recovery in {place}
+
+A crash in {st} is more than paperwork — it is disrupted work, medical bills, and fear about what comes next. **Kathy Carr**, CEO & Co-Founder of WreckMatch, shaped our intake and education around what injured people actually need: clear steps, calm language, and one place to get matched with counsel without repeating your story five times.
+
+This guide is here so you can protect your health and your claim. WreckMatch is a **referral service, not a law firm** — we connect you with participating licensed attorneys; we do not provide legal advice.
+"""
+
+
+def author_voice_block(kind: str, city: str, state: str, author_id: str) -> str:
+    if author_id == "kathy-carr":
+        return kathy_voice_block(kind, city, state)
+    return scott_voice_block(kind, city, state)
+
+
 def roy_review_block(_kind: str) -> str:
     return """
-*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
+*Reviewed for legal context by **Hon. Ret. Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
 """
+
+
+def patch_frontmatter_authorship(path: Path, author_id: str) -> None:
+    """Ensure EN/ES frontmatter shows Scott or Kathy + Judge Waddell reviewer."""
+    if not path.exists():
+        return
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        return
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return
+    fm = parts[1]
+    for key, val in (
+        ("authorId", author_id),
+        ("reviewerId", "roy-waddell"),
+        ("qualityTier", "platinum"),
+    ):
+        pat = rf"^{key}:\s*.*$"
+        repl = f'{key}: "{val}"' if key != "qualityTier" else f'{key}: "{val}"'
+        if re.search(pat, fm, re.M):
+            fm = re.sub(pat, repl, fm, count=1, flags=re.M)
+        else:
+            fm = fm.rstrip() + f"\n{repl}\n"
+    path.write_text(f"---{fm}---{parts[2]}", encoding="utf-8")
+
+
+def ensure_spanish_companion(slug: str, author_id: str) -> bool:
+    """Every EN post must have a Spanish twin (materialized platinum ES)."""
+    es_path = ES_BLOG_DIR / f"{slug}.md"
+    if not es_path.exists():
+        log(f"ES missing for {slug} — running full materialize pipeline")
+        run_materialize_pipeline(slug)
+    if not es_path.exists():
+        log(f"SKIP {slug}: no Spanish companion after materialize")
+        return False
+    patch_frontmatter_authorship(es_path, author_id)
+    body = es_path.read_text(encoding="utf-8")
+    wc = len(re.findall(r"\b\w+\b", body))
+    if wc < 2000:
+        log(f"WARN {slug}: ES only {wc} words — re-running platinum-es")
+        subprocess.run(
+            ["npx", "tsx", "scripts/materialize-blog-platinum-es.ts", f"--slug={slug}"],
+            cwd=str(ROOT),
+            capture_output=True,
+            timeout=180,
+            check=False,
+        )
+        body = es_path.read_text(encoding="utf-8")
+        wc = len(re.findall(r"\b\w+\b", body))
+    if wc < 1500:
+        log(f"SKIP {slug}: Spanish below minimum ({wc} words)")
+        return False
+    log(f"Spanish OK for {slug} ({wc} words)")
+    return True
 
 
 def use_ai_retry() -> bool:
@@ -541,7 +628,8 @@ def template_post(topic: dict[str, Any]) -> str:
     category = category_for_topic(topic)
     excerpt = excerpt_line(topic)
     steps = first_steps_block(kind, city, truck)
-    scott_note = scott_voice_block(kind, city, state)
+    author_id = author_id_for_topic(topic)
+    author_note = author_voice_block(kind, city, state, author_id)
     roy = roy_review_block(kind)
     crash_label = "semi truck or " if truck else ""
     quick_extra = " including ECM/black box and carrier IDs" if truck else ""
@@ -555,8 +643,8 @@ state: "{state if state not in ('United States', 'National') else ''}"
 excerpt: "{excerpt}"
 autopilot: true
 vertical: "{topic.get('vertical', 'auto')}"
-qualityTier: "gold"
-authorId: "scott-tischler"
+qualityTier: "platinum"
+authorId: "{author_id}"
 reviewerId: "roy-waddell"
 ---
 
@@ -570,7 +658,7 @@ reviewerId: "roy-waddell"
 
 **Quick answer:** After a {crash_label}crash in {city}, {state}, call 911, get medical care, preserve evidence{quick_extra}, avoid recorded insurer statements, and use **[free attorney matching]({CTA})** before signing anything.
 
-{scott_note}
+{author_note}
 {steps}
 {extra}
 ## {state} deadlines & why timing matters
@@ -991,8 +1079,8 @@ def materialize_template_to_platinum(
     """Write template, run expanders, return body if it meets the publish bar."""
     path = BLOG_DIR / f"{slug}.md"
     if path.exists():
-        slug = f"{slug}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M')}"
-        path = BLOG_DIR / f"{slug}.md"
+        log(f"SKIP materialize {slug}: already exists")
+        return None, None
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
     path.write_text(template_post(topic), encoding="utf-8")
     log(f"Materializing template → platinum for {slug}")
@@ -1006,6 +1094,12 @@ def materialize_template_to_platinum(
         path.unlink(missing_ok=True)
         es_path = ES_BLOG_DIR / f"{slug}.md"
         es_path.unlink(missing_ok=True)
+        return None, None
+    aid = author_id_for_topic(topic)
+    patch_frontmatter_authorship(path, aid)
+    if not ensure_spanish_companion(slug, aid):
+        path.unlink(missing_ok=True)
+        (ES_BLOG_DIR / f"{slug}.md").unlink(missing_ok=True)
         return None, None
     return body, path
 
@@ -1070,6 +1164,8 @@ def publish_post(
             log(f"SKIP {slug}: already published (no duplicate slug)")
             return None
         materialized_path = path
+
+    author_id = author_id_for_topic(topic)
 
     if dry_run:
         log(f"[dry-run] Would write {materialized_path}")
@@ -1303,27 +1399,29 @@ def main() -> int:
 
     if slugs and not args.dry_run:
         try:
-            crush = subprocess.run(
+            organic = subprocess.run(
                 [
                     sys.executable,
-                    str(ROOT / "scripts/exposure_crush.py"),
+                    str(ROOT / "scripts/organic_crush.py"),
+                    "--mesh-limit",
+                    "40",
+                    "--viral-limit",
+                    "4",
                     "--slugs",
                     *slugs,
-                    "--recent",
-                    "320",
                 ],
                 cwd=str(ROOT),
                 capture_output=True,
                 text=True,
-                timeout=600,
+                timeout=900,
                 check=False,
             )
-            if crush.stdout:
-                log(crush.stdout[-1500:])
-            if crush.returncode != 0:
-                log(f"WARN exposure_crush exit {crush.returncode}")
+            if organic.stdout:
+                log(organic.stdout[-1500:])
+            if organic.returncode != 0:
+                log(f"WARN organic_crush exit {organic.returncode}")
         except Exception as e:
-            log(f"WARN exposure_crush: {e}")
+            log(f"WARN organic_crush: {e}")
 
     return 0 if slugs else 1
 

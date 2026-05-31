@@ -6,7 +6,11 @@
 |------|--------|
 | **Minimum** | **50 English** platinum posts **every calendar day (UTC)** |
 | **Geo** | **50 cities × 50 states** — one rotating city per state injected at queue front each day |
-| **Quality** | **Platinum 100/100**, **≥3,000 words**, EN+ES, PPT companions, IndexNow |
+| **Quality** | **Platinum 100/100**, **≥3,000 words**, **EN then ES**, PPT companions, IndexNow |
+| **Authors** | **Scott Tischler** or **Kathy Carr** (photo bylines) — topic-based rotation |
+| **Reviewer** | **Hon. Ret. Judge Roy Waddell** — legal-context review on every guide |
+| **Backlinks** | `organic_crush.py` internal mesh + viral packs after each publish batch |
+| **24/7** | `autopilot-hourly.yml` every hour + traffic machine every 30 min (index/mesh) |
 | **Workflow** | `daily-blog-mandatory.yml` — **00:15, 05:15, 10:15, 15:15, 20:15** UTC (10 posts/run) + **23:50** gate |
 | **Indexing** | `wreckmatch-traffic-machine.yml` every 30 min — IndexNow + covers (no scheduled publishing) |
 | **Failure** | GitHub shows red ❌ if a day ends under 50 EN |

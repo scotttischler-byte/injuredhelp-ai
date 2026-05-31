@@ -15,7 +15,7 @@ import { BlogPresentationDeck } from "@/components/blog/BlogPresentationDeck";
 import { presentationPathForSlug } from "@/lib/blog-presentations";
 import { blogCoverForSlug } from "@/lib/blog-images";
 import { getPostBySlug } from "@/lib/posts";
-import { authorshipForSlug } from "@/lib/blog-authors";
+import { authorshipForSlugWithOverride } from "@/lib/blog-authors";
 import { asgLinksForBlog } from "@/lib/asg-links";
 import { expandPostContentEs } from "@/lib/blog-content-expander-es";
 import { AccidentSurvivalGuideCrossLink } from "@/components/seo/AccidentSurvivalGuideCrossLink";
@@ -62,7 +62,10 @@ export default async function BlogPostPageEs({ params }: Props) {
   const { meta, content } = post;
   const cover = blogCoverForSlug(slug);
   const cleanContent = content.replace(/^\s*!\[[^\]]*\]\([^)]+\)\s*\n+/, "");
-  const { author, reviewer } = authorshipForSlug(slug);
+  const { author, reviewer } = authorshipForSlugWithOverride(slug, {
+    authorId: meta.authorId,
+    reviewerId: meta.reviewerId ?? "roy-waddell",
+  });
   const sourceWordCount = cleanContent.split(/\s+/).filter(Boolean).length;
   const materialized =
     cleanContent.includes("<!-- wm-materialized-expansion-es -->") || sourceWordCount >= 1800;

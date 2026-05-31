@@ -133,8 +133,8 @@ export const KATHY_CARR: PersonEntity = {
 export const ROY_WADDELL: PersonEntity = {
   id: "roy-waddell",
   name: "Roy Waddell",
-  honorific: "Judge",
-  jobTitle: "Legal Advisor",
+  honorific: "Hon. Ret. Judge",
+  jobTitle: "Legal Advisor (retired judge)",
   worksFor: "WreckMatch LLC",
   location: "Greater Phoenix, Arizona area",
   image: "/team/roy-waddell.jpg",
