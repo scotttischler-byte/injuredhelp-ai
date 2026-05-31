@@ -1,7 +1,7 @@
 # Viral content pack — Tractor-Trailer Injury in Fort Worth, Texas: Legal Steps (2026)
 
 **URL:** https://www.wreckmatch.com/blog/tractor-trailer-injury-in-fort-worth-texas-legal-steps-2026  
-**Generated:** 2026-05-30T14:05:42.214079+00:00  
+**Generated:** 2026-05-31T09:24:59.455571+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
