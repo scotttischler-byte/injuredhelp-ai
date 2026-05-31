@@ -1,10 +1,10 @@
 {
   "version": 1,
   "defaults": {
-    "dailyTargetEn": 12,
-    "batchSize": 6,
-    "catchupMaxPerRun": 72,
-    "minScore": 98,
+    "dailyTargetEn": 50,
+    "batchSize": 10,
+    "catchupMaxPerRun": 10,
+    "minScore": 100,
     "minWords": 3000,
     "syndicate": true,
     "templateFirst": true
@@ -24,7 +24,7 @@
       "github": {
         "owner": "scotttischler-byte",
         "repo": "injuredhelp-ai",
-        "workflow": "wreckmatch-traffic-machine.yml",
+        "workflow": "daily-blog-mandatory.yml",
         "defaultBranch": "main"
       }
     }

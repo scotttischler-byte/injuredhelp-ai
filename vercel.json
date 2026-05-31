@@ -25,7 +25,7 @@
       "schedule": "30 13 * * *"
     },
     {
-      "path": "/api/automation/blog?batch=6",
+      "path": "/api/automation/blog?batch=10",
       "schedule": "10 */2 * * *"
     }
   ]

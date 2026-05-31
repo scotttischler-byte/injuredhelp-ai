@@ -26,7 +26,7 @@ import subprocess
 import sys
 import time
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -313,6 +313,56 @@ def build_topic_pool(limit: int = 0) -> list[dict[str, Any]]:
         )
     )
     return topics[:limit] if limit > 0 else topics
+
+
+def inject_daily_fifty_states(q: dict[str, Any], day: date | None = None) -> int:
+    """Prepend up to 50 topics — one rotating city per US state for today's UTC calendar day."""
+    day = day or datetime.now(timezone.utc).date()
+    by_state: dict[str, list[tuple[str, str, str | None]]] = {}
+    for city, state, place in load_all_cities():
+        if state in ("United States", ""):
+            continue
+        by_state.setdefault(state, []).append((city, state, place))
+
+    if not by_state:
+        return 0
+
+    done = set(q.get("completed_slugs", []))
+    existing = {slugify(t["title"]) for t in q.get("pending", [])}
+    pending = q.setdefault("pending", [])
+    added = 0
+    for i, (state, cities) in enumerate(sorted(by_state.items())[:50]):
+        cities_sorted = sorted(cities, key=lambda x: x[0])
+        city, st, place = cities_sorted[(day.toordinal() + i) % len(cities_sorted)]
+        angle_slug, title_tpl = INJURY_ANGLES[(day.toordinal() + i) % len(INJURY_ANGLES)]
+        title = title_tpl.format(city=city, state=st)
+        slug = slugify(title)
+        if slug in done or slug in existing:
+            continue
+        pending.insert(
+            0,
+            {
+                "angle": angle_slug,
+                "title": title,
+                "city": city,
+                "state": st,
+                "place_slug": place,
+                "priority": -2,
+                "daily_state_rotation": True,
+                "firm_state": st in FIRM_STATES,
+                "vertical": (
+                    "truck"
+                    if any(x in angle_slug for x in ("truck", "semi", "wheeler", "tractor", "fmcsa"))
+                    else "auto"
+                ),
+                "slug": slug,
+            },
+        )
+        existing.add(slug)
+        added += 1
+    if added:
+        log(f"Daily 50-state rotation ({day.isoformat()}): +{added} topics at front of queue")
+    return added
 
 
 def refill_queue(q: dict[str, Any], target: int) -> None:
@@ -1017,8 +1067,8 @@ def publish_post(
         body = append_seo_footer(topic, body)
         path = BLOG_DIR / f"{slug}.md"
         if path.exists():
-            slug = f"{slug}-{datetime.now(timezone.utc).strftime('%Y%m%d%H%M')}"
-            path = BLOG_DIR / f"{slug}.md"
+            log(f"SKIP {slug}: already published (no duplicate slug)")
+            return None
         materialized_path = path
 
     if dry_run:
@@ -1085,9 +1135,12 @@ def publish_post(
 
 
 def pop_next_topic(pending: list[dict[str, Any]]) -> dict[str, Any] | None:
-    """Prefer truck/severe angles (priority 0–1) over generic city templates."""
+    """Prefer today's 50-state rotation, then truck/severe (priority ≤1)."""
     if not pending:
         return None
+    for i, t in enumerate(pending):
+        if t.get("daily_state_rotation"):
+            return pending.pop(i)
     for i, t in enumerate(pending):
         if t.get("priority", 9) <= 1:
             return pending.pop(i)
@@ -1156,6 +1209,11 @@ def main() -> int:
     p = argparse.ArgumentParser(description="WreckMatch traffic machine")
     p.add_argument("--batch", type=int, default=0, help="Posts to publish (0 = refill-only)")
     p.add_argument("--refill", type=int, default=0)
+    p.add_argument(
+        "--inject-daily-states",
+        action="store_true",
+        help="Prepend today's 50-state city rotation topics (one per state)",
+    )
     p.add_argument("--ai", action="store_true")
     p.add_argument("--claude-first", action="store_true")
     p.add_argument("--syndicate", action="store_true")
@@ -1177,8 +1235,15 @@ def main() -> int:
     if args.refill:
         refill_queue(q, args.refill)
         save_queue(q)
-        if args.batch < 1:
+        if args.batch < 1 and not args.inject_daily_states:
             log("Refill-only complete")
+            return 0
+
+    if args.inject_daily_states:
+        inject_daily_fifty_states(q)
+        save_queue(q)
+        if args.batch < 1:
+            log("Daily 50-state injection complete")
             return 0
 
     if args.batch < 1:
@@ -1195,6 +1260,9 @@ def main() -> int:
     min_score = args.min_score or min_publish_score()
     min_words = args.min_words or min_publish_words()
     log(f"Quality bar: score ≥{min_score}, words ≥{min_words}")
+
+    inject_daily_fifty_states(q)
+    save_queue(q)
 
     slugs: list[str] = []
     for i in range(args.batch):
@@ -1219,6 +1287,7 @@ def main() -> int:
     if not args.dry_run:
         try:
             from autopilot_heartbeat import write_heartbeat  # noqa: E402
+            from autopilot_daily_guard import record_day  # noqa: E402
 
             write_heartbeat(
                 AUTOPILOT_SITE_ID,
@@ -1227,6 +1296,8 @@ def main() -> int:
                 slugs=slugs,
                 source=os.getenv("AUTOPILOT_SOURCE", "blog_autopilot"),
             )
+            recorded = record_day(AUTOPILOT_SITE_ID)
+            log(f"Daily ledger (UTC): {recorded} EN posts today")
         except Exception as e:
             log(f"WARN heartbeat: {e}")
 

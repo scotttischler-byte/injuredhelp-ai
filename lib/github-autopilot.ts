@@ -13,7 +13,7 @@ export async function dispatchBlogAutopilotWorkflow(
   const owner = process.env.GITHUB_AUTOPILOT_OWNER?.trim() || "scotttischler-byte";
   const repo = process.env.GITHUB_AUTOPILOT_REPO?.trim() || "injuredhelp-ai";
   const workflow =
-    process.env.GITHUB_AUTOPILOT_WORKFLOW?.trim() || "wreckmatch-traffic-machine.yml";
+    process.env.GITHUB_AUTOPILOT_WORKFLOW?.trim() || "daily-blog-mandatory.yml";
   const ref = process.env.GITHUB_AUTOPILOT_REF?.trim() || "main";
 
   if (!token) {

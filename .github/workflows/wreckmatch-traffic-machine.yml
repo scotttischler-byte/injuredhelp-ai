@@ -1,5 +1,5 @@
-# WreckMatch Traffic Machine — hands-off platinum publishing (template-first; no API key required)
-# Every 30 min: up to 6 posts | Daily 08:00 UTC: catch-up + daily improvements
+# WreckMatch Traffic Machine — indexing, assets, organic (publishing: daily-blog-mandatory.yml)
+# Every 30 min: IndexNow + covers | Daily 08:00 UTC: corpus improvements + SLA catch-up
 
 name: WreckMatch traffic machine
 
@@ -10,8 +10,8 @@ on:
   workflow_dispatch:
     inputs:
       batch:
-        description: "Posts per run"
-        default: "6"
+        description: "Posts per run (manual only; schedule uses SLA workflow)"
+        default: "10"
       catchup:
         description: "Run catch-up for missed days (1=yes)"
         default: "0"
@@ -58,11 +58,10 @@ jobs:
           HAS_ANTHROPIC: ${{ secrets.ANTHROPIC_API_KEY != '' }}
           HAS_OPENAI: ${{ secrets.OPENAI_API_KEY != '' }}
           HAS_CRON: ${{ secrets.CRON_SECRET != '' }}
-          HAS_GH_DISPATCH: ${{ secrets.CRON_SECRET != '' }}
         run: |
           echo "ANTHROPIC_API_KEY: $([ \"$HAS_ANTHROPIC\" = true ] && echo set || echo optional)"
           echo "CRON_SECRET: $([ \"$HAS_CRON\" = true ] && echo set || echo MISSING — add same value as Vercel)"
-          echo "Template-first publishing works without LLM keys."
+          echo "Publishing SLA: daily-blog-mandatory.yml (50 EN/day). This workflow: index + assets."
 
       - name: Refill topic queue
         if: github.event.inputs.refill != '' && github.event.inputs.refill != '0'
@@ -80,29 +79,30 @@ jobs:
             subprocess.run(['python', 'scripts/wreckmatch_blog_autopilot.py', '--refill', '8000', '--site', site], check=True)
           "
 
-      - name: Catch up missed daily targets
-        if: (github.event_name == 'schedule' && github.event.schedule == '0 8 * * *') || github.event.inputs.catchup == '1'
+      - name: Morning SLA catch-up (max 10 if under 50 today)
+        if: github.event_name == 'schedule' && github.event.schedule == '0 8 * * *'
         env:
-          AUTOPILOT_SOURCE: github-catchup
+          AUTOPILOT_SOURCE: github-traffic-machine
         run: |
-          python scripts/autopilot_catchup.py --site "${{ github.event.inputs.site || 'wreckmatch' }}" --days-back 14 || true
+          python3 scripts/autopilot_daily_guard.py --ensure-today --site "${{ github.event.inputs.site || 'wreckmatch' }}" --max-batch 10 || true
 
       - name: Set batch size
         id: batch
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "0 8 * * *" ]; then
-            echo "size=12" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "size=${{ github.event.inputs.batch || '10' }}" >> "$GITHUB_OUTPUT"
           else
-            echo "size=${{ github.event.inputs.batch || '6' }}" >> "$GITHUB_OUTPUT"
+            echo "size=0" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Generate posts + syndication (template-first; AI optional)
+      - name: Generate posts (manual dispatch only)
+        if: steps.batch.outputs.size != '0'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           WRECKMATCH_SITE: https://www.wreckmatch.com
           TRAFFIC_MACHINE_SYNDICATE: "1"
-          TRAFFIC_MACHINE_MIN_SCORE: "98"
+          TRAFFIC_MACHINE_MIN_SCORE: "100"
           TRAFFIC_MACHINE_MIN_WORDS: "3000"
           AUTOPILOT_SOURCE: github-traffic-machine
         run: |
@@ -118,7 +118,7 @@ jobs:
             $EXTRA \
             --syndicate \
             --delay 4 \
-            --min-score 98 \
+            --min-score 100 \
             --min-words 3000
 
       - name: Daily corpus improvements
@@ -143,9 +143,25 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog/*.md content/blog/es/*.md content/syndication/ content/autopilot/ public/blog/covers/generated/*.webp public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx data/blog-cover-assignments.json
           git diff --staged --quiet && echo "changed=false" >> "$GITHUB_OUTPUT" && echo "No changes" && exit 0
-          git commit -m "content(traffic-machine): autopilot platinum posts + daily improvements"
+          git commit -m "content(traffic-machine): indexing assets + daily improvements"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Accelerate indexing (every run)
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SITE: https://www.wreckmatch.com
+        run: |
+          python3 scripts/indexing_accelerator.py --recent 320 || true
+          if [ -z "$CRON_SECRET" ]; then
+            echo "::warning::CRON_SECRET missing on GitHub — IndexNow prod ping skipped"
+            exit 0
+          fi
+          if [ "${{ steps.commit.outputs.changed }}" = "true" ]; then
+            echo "Waiting 90s for Vercel production deploy..."
+            sleep 90
+          fi
+          curl -sf -H "Authorization: Bearer $CRON_SECRET" "$SITE/api/indexing/cron" || true
 
       - name: Notify search engines (IndexNow via production)
         if: steps.commit.outputs.changed == 'true'
@@ -157,12 +173,7 @@ jobs:
           export SLUGS
           python3 scripts/exposure_crush.py --slugs $SLUGS --recent 320 || true
           python3 scripts/organic_crush.py --mesh-limit 12 --viral-limit 3 --slugs $SLUGS || true
-          if [ -z "$CRON_SECRET" ]; then
-            echo "::warning::CRON_SECRET missing on GitHub — IndexNow prod ping skipped"
-            exit 0
-          fi
-          echo "Waiting 90s for Vercel production deploy..."
-          sleep 90
+          if [ -z "$CRON_SECRET" ]; then exit 0; fi
           python3 -c "
           import json, os, urllib.request
           slugs = [s for s in os.environ.get('SLUGS', '').split() if s]

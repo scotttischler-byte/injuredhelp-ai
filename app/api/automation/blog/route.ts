@@ -12,7 +12,7 @@ export async function GET(req: NextRequest) {
   }
 
   const url = new URL(req.url);
-  const batch = url.searchParams.get("batch") ?? "6";
+  const batch = url.searchParams.get("batch") ?? "10";
   const catchup = url.searchParams.get("catchup") ?? "0";
   const site = url.searchParams.get("site") ?? "wreckmatch";
 
@@ -29,6 +29,19 @@ export async function GET(req: NextRequest) {
 
   const dispatch = await dispatchBlogAutopilotWorkflow({ batch, catchup, site });
 
+  let dailySla: Record<string, unknown> = { note: "Run daily-blog-mandatory.yml on GitHub for SLA" };
+  try {
+    const { spawnSync } = await import("node:child_process");
+    const r = spawnSync(
+      "python3",
+      ["scripts/autopilot_daily_guard.py", "--record-only", "--site", site],
+      { cwd: process.cwd(), encoding: "utf-8", timeout: 120_000 },
+    );
+    if (r.stdout) dailySla = JSON.parse(r.stdout.trim() || "{}");
+  } catch {
+    /* python guard optional on Vercel */
+  }
+
   return NextResponse.json({
     ok: dispatch.ok,
     at: new Date().toISOString(),
@@ -36,6 +49,7 @@ export async function GET(req: NextRequest) {
     latestPostDate: posts[0]?.date ?? null,
     dispatch,
     heartbeat,
-    note: "Publishing runs on GitHub Actions (Python). This route only triggers the workflow.",
+    dailySla,
+    note: "Publishing runs on GitHub Actions. Daily SLA: 50 EN posts/calendar day UTC (50 states × rotating cities) via daily-blog-mandatory.yml.",
   });
 }
