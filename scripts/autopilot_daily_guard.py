@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """
-Daily publishing SLA — every calendar day (UTC) must hit dailyTargetEn posts.
+Daily publishing SLA — 50 cities × 50 states (UTC calendar day).
 
-Used by GitHub Actions and Vercel failsafe. Fails loudly if yesterday missed (end-of-day gate).
+Counts unique US states published today, not total post volume.
 """
 from __future__ import annotations
 
 import argparse
 import json
-import re
 import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from autopilot_site_config import apply_site_env, resolve_site
+from autopilot_state_utils import states_published_on
 
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER_NAME = "daily_publish_ledger.json"
@@ -54,36 +54,52 @@ def count_en_published_on(day: str, log_path: Path) -> int:
     return n
 
 
-def record_day(site_id: str, day: str | None = None) -> int:
+def record_day(site_id: str, day: str | None = None) -> dict:
     site = resolve_site(site_id)
     day = day or datetime.now(timezone.utc).date().isoformat()
     log_path = Path(site["logPath"])
-    count = count_en_published_on(day, log_path)
+    states = sorted(states_published_on(day, log_path))
+    en = count_en_published_on(day, log_path)
+    target_states = int(site.get("dailyTargetStates", 50))
     ledger = load_ledger(ledger_path(site))
     ledger.setdefault("days", {})[day] = {
-        "en": count,
-        "target": int(site.get("dailyTargetEn", 12)),
+        "en": en,
+        "states": len(states),
+        "stateList": states,
+        "targetStates": target_states,
+        "target": target_states,
         "recordedAt": datetime.now(timezone.utc).isoformat(),
     }
     save_ledger(ledger_path(site), ledger)
-    return count
+    return ledger["days"][day]
+
+
+def state_deficit(site: dict, day: str) -> int:
+    log_path = Path(site["logPath"])
+    target = int(site.get("dailyTargetStates", 50))
+    have = len(states_published_on(day, log_path))
+    return max(0, target - have)
 
 
 def ensure_today(site_id: str, *, max_batch: int = 0) -> dict:
     site = resolve_site(site_id)
     apply_site_env(site)
     today = datetime.now(timezone.utc).date().isoformat()
-    target = int(site.get("dailyTargetEn", 12))
-    cap = max_batch or int(site.get("catchupMaxPerRun", 12))
+    target = int(site.get("dailyTargetStates", 50))
+    cap = max_batch or int(site.get("catchupMaxPerRun", 10))
 
-    current = record_day(site_id, today)
-    deficit = max(0, target - current)
+    stats = record_day(site_id, today)
+    deficit = state_deficit(site, today)
     published_now = 0
 
     if deficit > 0:
         batch = min(deficit, cap)
         script = ROOT / "scripts/wreckmatch_blog_autopilot.py"
-        env = {**__import__("os").environ, "AUTOPILOT_SOURCE": "daily-guard"}
+        env = {
+            **__import__("os").environ,
+            "AUTOPILOT_SOURCE": "daily-guard",
+            "FIFTY_STATES_ONLY": "1",
+        }
         subprocess.run(
             [sys.executable, str(script), "--inject-daily-states", "--site", site_id],
             cwd=str(ROOT),
@@ -98,11 +114,12 @@ def ensure_today(site_id: str, *, max_batch: int = 0) -> dict:
                 str(batch),
                 "--site",
                 site_id,
+                "--fifty-states-only",
                 "--syndicate",
                 "--delay",
                 "3",
                 "--min-score",
-                str(site.get("minScore", 98)),
+                str(site.get("minScore", 100)),
                 "--min-words",
                 str(site.get("minWords", 3000)),
             ],
@@ -110,43 +127,49 @@ def ensure_today(site_id: str, *, max_batch: int = 0) -> dict:
             env=env,
         )
         published_now = batch if r.returncode == 0 else 0
-        current = record_day(site_id, today)
+        stats = record_day(site_id, today)
+        deficit = state_deficit(site, today)
 
+    states_count = stats.get("states", len(stats.get("stateList", [])))
     return {
         "day": today,
-        "target": target,
-        "count": current,
-        "deficit": max(0, target - current),
+        "targetStates": target,
+        "statesPublished": states_count,
+        "stateList": stats.get("stateList", []),
+        "enPostsToday": stats.get("en", 0),
+        "deficit": deficit,
         "publishedThisRun": published_now,
-        "ok": current >= target,
+        "ok": states_count >= target,
     }
 
 
 def verify_day(site_id: str, day: str) -> dict:
     site = resolve_site(site_id)
-    target = int(site.get("dailyTargetEn", 12))
-    count = record_day(site_id, day)
+    target = int(site.get("dailyTargetStates", 50))
+    stats = record_day(site_id, day)
+    states_count = stats.get("states", 0)
     return {
         "day": day,
-        "target": target,
-        "count": count,
-        "ok": count >= target,
+        "targetStates": target,
+        "statesPublished": states_count,
+        "stateList": stats.get("stateList", []),
+        "ok": states_count >= target,
     }
 
 
 def main() -> int:
-    p = argparse.ArgumentParser(description="Daily blog publishing SLA guard")
+    p = argparse.ArgumentParser(description="Daily 50-state blog publishing SLA guard")
     p.add_argument("--site", default="wreckmatch")
-    p.add_argument("--ensure-today", action="store_true", help="Publish until today's target met (capped)")
-    p.add_argument("--verify-yesterday", action="store_true", help="Fail if yesterday below target")
-    p.add_argument("--verify-today", action="store_true", help="Fail if today below target (end-of-day)")
+    p.add_argument("--ensure-today", action="store_true", help="Publish until 50 states met (capped)")
+    p.add_argument("--verify-yesterday", action="store_true", help="Fail if yesterday below 50 states")
+    p.add_argument("--verify-today", action="store_true", help="Fail if today below 50 states (end-of-day)")
     p.add_argument("--record-only", action="store_true", help="Refresh ledger from log only")
     p.add_argument("--max-batch", type=int, default=0)
     args = p.parse_args()
 
     if args.record_only:
-        n = record_day(args.site)
-        print(json.dumps({"recorded": n}))
+        stats = record_day(args.site)
+        print(json.dumps(stats))
         return 0
 
     if args.ensure_today:
@@ -160,7 +183,7 @@ def main() -> int:
         print(json.dumps(result, indent=2))
         if not result["ok"]:
             print(
-                f"::error::SLA MISS: {yesterday} published {result['count']}/{result['target']} EN posts",
+                f"::error::SLA MISS: {yesterday} only {result['statesPublished']}/{result['targetStates']} states",
                 file=sys.stderr,
             )
             return 1
@@ -171,7 +194,7 @@ def main() -> int:
         print(json.dumps(result, indent=2))
         if not result["ok"]:
             print(
-                f"::error::SLA MISS TODAY: {result['count']}/{result['target']} EN posts — autopilot must run before midnight UTC",
+                f"::error::SLA MISS TODAY: {result['statesPublished']}/{result['targetStates']} states",
                 file=sys.stderr,
             )
             return 1

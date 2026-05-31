@@ -68,7 +68,7 @@ jobs:
           .venv/bin/python scripts/generate_blog_presentations.py --missing-only
           .venv/bin/python scripts/generate_blog_presentations.py --missing-only --locale es
 
-      - name: End-of-day gate (fail if today under 50 EN)
+      - name: End-of-day gate (fail if today under 50 states)
         if: github.event.schedule == '50 23 * * *'
         run: python3 scripts/autopilot_daily_guard.py --verify-today --site "${{ github.event.inputs.site || 'wreckmatch' }}"
 

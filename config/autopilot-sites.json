@@ -2,6 +2,7 @@
   "version": 1,
   "defaults": {
     "dailyTargetEn": 50,
+    "dailyTargetStates": 50,
     "batchSize": 10,
     "catchupMaxPerRun": 10,
     "minScore": 100,

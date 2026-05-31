@@ -329,32 +329,22 @@ def build_topic_pool(limit: int = 0) -> list[dict[str, Any]]:
     return topics[:limit] if limit > 0 else topics
 
 
-def inject_daily_fifty_states(q: dict[str, Any], day: date | None = None) -> int:
-    """Prepend up to 50 topics — one rotating city per US state for today's UTC calendar day."""
-    day = day or datetime.now(timezone.utc).date()
+def build_daily_rotation_topics(day: date) -> list[dict[str, Any]]:
+    """One rotating city topic per state (max 50) for the given UTC day."""
     by_state: dict[str, list[tuple[str, str, str | None]]] = {}
     for city, state, place in load_all_cities():
         if state in ("United States", ""):
             continue
         by_state.setdefault(state, []).append((city, state, place))
 
-    if not by_state:
-        return 0
-
-    done = set(q.get("completed_slugs", []))
-    existing = {slugify(t["title"]) for t in q.get("pending", [])}
-    pending = q.setdefault("pending", [])
-    added = 0
+    topics: list[dict[str, Any]] = []
     for i, (state, cities) in enumerate(sorted(by_state.items())[:50]):
         cities_sorted = sorted(cities, key=lambda x: x[0])
         city, st, place = cities_sorted[(day.toordinal() + i) % len(cities_sorted)]
         angle_slug, title_tpl = DAILY_ROTATION_ANGLES[(day.toordinal() + i) % len(DAILY_ROTATION_ANGLES)]
         title = title_tpl.format(city=city, state=st)
         slug = slugify(title)
-        if slug in done or slug in existing:
-            continue
-        pending.insert(
-            0,
+        topics.append(
             {
                 "angle": angle_slug,
                 "title": title,
@@ -370,13 +360,45 @@ def inject_daily_fifty_states(q: dict[str, Any], day: date | None = None) -> int
                     else "auto"
                 ),
                 "slug": slug,
-            },
+            }
         )
-        existing.add(slug)
-        added += 1
-    if added:
-        log(f"Daily 50-state rotation ({day.isoformat()}): +{added} topics at front of queue")
-    return added
+    return topics
+
+
+def inject_daily_fifty_states(q: dict[str, Any], day: date | None = None) -> int:
+    """Pin today's 50-state topics to the front of the queue (add or re-prioritize)."""
+    day = day or datetime.now(timezone.utc).date()
+    rotation = build_daily_rotation_topics(day)
+    if not rotation:
+        return 0
+
+    done = set(q.get("completed_slugs", []))
+    pending = q.setdefault("pending", [])
+    by_slug: dict[str, dict[str, Any]] = {slugify(t["title"]): t for t in pending}
+    ordered: list[dict[str, Any]] = []
+    added = 0
+    flagged = 0
+
+    for topic in rotation:
+        slug = topic["slug"]
+        if slug in done:
+            continue
+        if slug in by_slug:
+            existing = by_slug.pop(slug)
+            existing.update(topic)
+            ordered.append(existing)
+            flagged += 1
+        else:
+            ordered.append(topic)
+            added += 1
+
+    rest = [t for t in pending if slugify(t["title"]) not in {x["slug"] for x in rotation}]
+    q["pending"] = ordered + rest
+    log(
+        f"Daily 50-state rotation ({day.isoformat()}): "
+        f"+{added} new, {flagged} re-prioritized, {len(ordered)} at queue front"
+    )
+    return len(ordered)
 
 
 def refill_queue(q: dict[str, Any], target: int) -> None:
@@ -1266,13 +1288,19 @@ def publish_post(
     return slug
 
 
-def pop_next_topic(pending: list[dict[str, Any]]) -> dict[str, Any] | None:
+def pop_next_topic(
+    pending: list[dict[str, Any]],
+    *,
+    fifty_states_only: bool = False,
+) -> dict[str, Any] | None:
     """Prefer today's 50-state rotation, then truck/severe (priority ≤1)."""
     if not pending:
         return None
     for i, t in enumerate(pending):
         if t.get("daily_state_rotation"):
             return pending.pop(i)
+    if fifty_states_only:
+        return None
     for i, t in enumerate(pending):
         if t.get("priority", 9) <= 1:
             return pending.pop(i)
@@ -1288,9 +1316,10 @@ def run_once(
     *,
     min_score: int,
     min_words: int,
+    fifty_states_only: bool = False,
 ) -> str | None:
     pending = q.get("pending", [])
-    if len(pending) < 5:
+    if not fifty_states_only and len(pending) < 5:
         refill_queue(q, 300)
         pending = q.get("pending", [])
 
@@ -1303,7 +1332,7 @@ def run_once(
 
     skipped = q.setdefault("skipped_slugs", [])
     for _ in range(min(5, len(pending))):
-        topic = pop_next_topic(pending)
+        topic = pop_next_topic(pending, fifty_states_only=fifty_states_only)
         if not topic:
             break
         body = generate_ai_post(topic, claude_first) if use_ai else template_post(topic)
@@ -1345,6 +1374,11 @@ def main() -> int:
         "--inject-daily-states",
         action="store_true",
         help="Prepend today's 50-state city rotation topics (one per state)",
+    )
+    p.add_argument(
+        "--fifty-states-only",
+        action="store_true",
+        help="Only publish daily_state_rotation topics (50 cities × 50 states SLA)",
     )
     p.add_argument("--ai", action="store_true")
     p.add_argument("--claude-first", action="store_true")
@@ -1396,6 +1430,10 @@ def main() -> int:
     inject_daily_fifty_states(q)
     save_queue(q)
 
+    fifty_only = args.fifty_states_only or os.getenv("FIFTY_STATES_ONLY", "") == "1"
+    if fifty_only:
+        log("Mode: fifty-states-only (one city per state rotation)")
+
     slugs: list[str] = []
     for i in range(args.batch):
         do_syndicate = syndicate and (args.syndicate_all or i == args.batch - 1)
@@ -1407,6 +1445,7 @@ def main() -> int:
             args.dry_run,
             min_score=min_score,
             min_words=min_words,
+            fifty_states_only=fifty_only,
         )
         if slug:
             slugs.append(slug)
@@ -1429,7 +1468,14 @@ def main() -> int:
                 source=os.getenv("AUTOPILOT_SOURCE", "blog_autopilot"),
             )
             recorded = record_day(AUTOPILOT_SITE_ID)
-            log(f"Daily ledger (UTC): {recorded} EN posts today")
+            if isinstance(recorded, dict):
+                log(
+                    f"Daily ledger (UTC): {recorded.get('states', 0)}/"
+                    f"{recorded.get('targetStates', 50)} states, "
+                    f"{recorded.get('en', 0)} EN posts"
+                )
+            else:
+                log(f"Daily ledger (UTC): {recorded}")
         except Exception as e:
             log(f"WARN heartbeat: {e}")
 
