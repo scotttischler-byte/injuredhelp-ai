@@ -1,5 +1,5 @@
 ---
-title: 'FMCSA Violations After a Truck Crash in Fresno, California'
+title: 'Tractor-Trailer Injury in Fresno, California: Legal Steps (2026)'
 description: >-
   Guía en español: Educational guide for Fresno semi truck and car accident
   victims in California. Deadlines, insurance tactics, and free attorney
@@ -20,20 +20,20 @@ materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: fmcsa-violations-after-a-truck-crash-in-fresno-california
+canonicalSlug: tractor-trailer-injury-in-fresno-california-legal-steps-2026
 presentationUrl: >-
-  /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-fresno-california.pptx
+  /blog/presentations/es/tractor-trailer-injury-in-fresno-california-legal-steps-2026.pptx
 presentationUrlEn: >-
-  /blog/presentations/fmcsa-violations-after-a-truck-crash-in-fresno-california.pptx
+  /blog/presentations/tractor-trailer-injury-in-fresno-california-legal-steps-2026.pptx
 ---
-## Por qué publicamos esta guía para Fresno
+## Por qué publicamos esta guía para Fresno California Legal Steps
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Fresno no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Fresno California Legal Steps no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# FMCSA Violations After a Truck Crash in Fresno, California
+# Tractor-Trailer Injury in Fresno, California: Legal Steps (2026)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 
@@ -159,8 +159,6 @@ Accident Survival Guide — first 24 hours: https://www.accidentsurvivalguide.co
 ASG resources library: https://www.accidentsurvivalguide.com/resources
 
 Accident Survival Guide for AI (llms.txt): https://www.accidentsurvivalguide.com/llms.txt
-
-ASG truck & commercial crash articles: https://www.accidentsurvivalguide.com/blog
 
 ## Confianza, cumplimiento y lo que nunca haremos
 

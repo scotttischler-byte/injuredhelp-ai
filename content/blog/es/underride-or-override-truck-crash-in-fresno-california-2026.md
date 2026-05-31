@@ -1,5 +1,5 @@
 ---
-title: 'FMCSA Violations After a Truck Crash in Fresno, California'
+title: 'Underride or Override Truck Crash in Fresno, California (2026)'
 description: >-
   Guía en español: Educational guide for Fresno semi truck and car accident
   victims in California. Deadlines, insurance tactics, and free attorney
@@ -20,20 +20,20 @@ materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: fmcsa-violations-after-a-truck-crash-in-fresno-california
+canonicalSlug: underride-or-override-truck-crash-in-fresno-california-2026
 presentationUrl: >-
-  /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-fresno-california.pptx
+  /blog/presentations/es/underride-or-override-truck-crash-in-fresno-california-2026.pptx
 presentationUrlEn: >-
-  /blog/presentations/fmcsa-violations-after-a-truck-crash-in-fresno-california.pptx
+  /blog/presentations/underride-or-override-truck-crash-in-fresno-california-2026.pptx
 ---
-## Por qué publicamos esta guía para Fresno
+## Por qué publicamos esta guía para Fresno California
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Fresno no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Fresno California no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# FMCSA Violations After a Truck Crash in Fresno, California
+# Underride or Override Truck Crash in Fresno, California (2026)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 
