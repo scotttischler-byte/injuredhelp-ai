@@ -29,6 +29,9 @@ const nextConfig: NextConfig = {
   outputFileTracingExcludes: {
     "/api/automation/blog": ["./content/**", "./sites/**", "./public/blog/**"],
     "/api/automation/health": ["./content/**", "./sites/**", "./public/blog/**"],
+    "/api/exposure/cron": ["./content/**", "./sites/**", "./public/blog/**"],
+    "/api/indexing/cron": ["./content/**", "./sites/**", "./public/blog/**"],
+    "/api/indexnow-key": ["./content/**", "./sites/**", "./public/blog/**"],
   },
   async headers() {
     return [

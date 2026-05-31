@@ -3,7 +3,7 @@
  */
 import fs from "fs";
 import path from "path";
-import { getAllPostsMerged } from "@/lib/posts";
+import { countEnBlogMd, countEsBlogMd, listEnSlugsMerged, listEsSlugsMerged } from "@/lib/blog-count";
 import { pressPathsForSitemap } from "@/lib/press-index";
 import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
 import { WRECKMATCH_URL } from "@/lib/site";
@@ -51,30 +51,21 @@ export type ExposureStats = {
   lastUpdated: string;
 };
 
-function countEsPosts(): number {
-  let n = 0;
-  for (const root of ["content/blog/es", "sites/semitruckmatch/content/blog/es"]) {
-    const dir = path.join(process.cwd(), root);
-    if (fs.existsSync(dir)) n += fs.readdirSync(dir).filter((f) => f.endsWith(".md")).length;
-  }
-  return n;
-}
-
 export function getExposureStats(): ExposureStats {
-  const en = getAllPostsMerged();
-  const esCount = countEsPosts();
+  const enCount = countEnBlogMd();
+  const esCount = countEsBlogMd();
   let platinumEn = 0;
   const counted = new Set<string>();
   for (const root of ["content/blog", "sites/semitruckmatch/content/blog"]) {
     const blogDir = path.join(process.cwd(), root);
     if (!fs.existsSync(blogDir)) continue;
-    for (const p of en) {
-      if (counted.has(p.slug)) continue;
+    for (const slug of listEnSlugsMerged()) {
+      if (counted.has(slug)) continue;
       try {
-        const raw = fs.readFileSync(path.join(blogDir, `${p.slug}.md`), "utf8");
+        const raw = fs.readFileSync(path.join(blogDir, `${slug}.md`), "utf8");
         if (raw.includes("qualityTier: platinum") || raw.includes('qualityTier: "platinum"')) {
           platinumEn += 1;
-          counted.add(p.slug);
+          counted.add(slug);
         }
       } catch {
         /* skip */
@@ -82,7 +73,7 @@ export function getExposureStats(): ExposureStats {
     }
   }
   return {
-    enPosts: en.length,
+    enPosts: enCount,
     esPosts: esCount,
     platinumEn,
     lastUpdated: new Date().toISOString().slice(0, 10),
@@ -91,22 +82,17 @@ export function getExposureStats(): ExposureStats {
 
 /** Recent posts for llms.txt citation lines (truck/severe first). */
 export function getRecentCitationPosts(limit = 28) {
-  const posts = getAllPostsMerged();
-  const score = (slug: string, category: string) => {
+  const score = (slug: string) => {
     let s = 0;
     if (/truck|semi|18-wheeler|fmcsa|tractor/i.test(slug)) s += 3;
     if (/wrongful-death|catastrophic|severe|brain|spinal/i.test(slug)) s += 2;
-    if (category === "Truck Accidents") s += 2;
     if (/2026/.test(slug)) s += 1;
     return s;
   };
-  return [...posts]
-    .sort((a, b) => {
-      const d = score(b.slug, b.category) - score(a.slug, a.category);
-      if (d !== 0) return d;
-      return a.date < b.date ? -1 : 1;
-    })
-    .slice(0, limit);
+  return [...listEnSlugsMerged()]
+    .sort((a, b) => score(b) - score(a))
+    .slice(0, limit)
+    .map((slug) => ({ slug, title: slug.replace(/-/g, " "), date: "" }));
 }
 
 export function loadPendingIndexSlugs(): string[] {
@@ -167,20 +153,11 @@ export function buildIndexNowUrls(options?: {
     add(`${SITE}/es/blog/${slug}`);
   }
 
-  const en = getAllPostsMerged().slice(0, recentBlogLimit);
-  for (const p of en) {
-    add(`${SITE}/blog/${p.slug}`);
+  for (const slug of listEnSlugsMerged(recentBlogLimit)) {
+    add(`${SITE}/blog/${slug}`);
   }
 
-  const esSlugs: string[] = [];
-  for (const root of ["content/blog/es", "sites/semitruckmatch/content/blog/es"]) {
-    const dir = path.join(process.cwd(), root);
-    if (!fs.existsSync(dir)) continue;
-    for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".md"))) {
-      esSlugs.push(f.replace(/\.md$/, ""));
-    }
-  }
-  for (const slug of esSlugs.slice(0, recentEsLimit)) {
+  for (const slug of listEsSlugsMerged(recentEsLimit)) {
     add(`${SITE}/es/blog/${slug}`);
   }
 
