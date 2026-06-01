@@ -12,6 +12,7 @@
  */
 
 import { asgLinksForBlog } from "@/lib/asg-links";
+import { autopilotBrand, type AutopilotBrand } from "@/lib/autopilot-brand";
 import { ALL_STATES, type StateProfile } from "@/lib/states";
 import { ALL_CITIES, type CityProfile } from "@/lib/cities";
 import type { PostMeta } from "@/lib/posts";
@@ -89,6 +90,11 @@ const TOPIC_LABEL: Record<Topic, string> = {
   general: "car accident case",
 };
 
+function topicLabel(topic: Topic, brand: AutopilotBrand): string {
+  if (topic === "general" && brand.id === "semitruckmatch") return brand.defaultTopicLabel;
+  return TOPIC_LABEL[topic];
+}
+
 export function findState(meta: PostMeta, slug: string): StateProfile | undefined {
   const s = slug.toLowerCase();
   const fromMeta = meta.state?.trim().toLowerCase();
@@ -119,7 +125,8 @@ export function findCity(slug: string, state?: StateProfile): CityProfile | unde
   return undefined;
 }
 
-function stateLegalSection(state: StateProfile | undefined, topic: Topic): ExpandedSection {
+function stateLegalSection(state: StateProfile | undefined, topic: Topic, brand: AutopilotBrand): ExpandedSection {
+  const label = topicLabel(topic, brand);
   if (!state) {
     return {
       heading: "Deadlines and fault rules vary by state",
@@ -134,7 +141,7 @@ function stateLegalSection(state: StateProfile | undefined, topic: Topic): Expan
     ? `${state.state} is a no-fault state, meaning your own Personal Injury Protection (PIP) coverage typically pays your initial medical bills regardless of fault. You can usually pursue the at-fault driver only after crossing a "serious injury" threshold defined by ${state.state} statute.`
     : `${state.state} is an at-fault state. The at-fault driver's liability insurance is the primary source of recovery, and you can pursue compensation for medical bills, lost wages, and pain and suffering once liability is established.`;
   return {
-    heading: `${state.state} legal context for ${TOPIC_LABEL[topic]}s`,
+    heading: `${state.state} legal context for ${label}s`,
     paragraphs: [
       `In ${state.state}, the statute of limitations on most personal-injury claims is ${state.statuteOfLimitationsYears} year${state.statuteOfLimitationsYears === 1 ? "" : "s"} from the date of the crash. Missing that window almost always ends the case — courts dismiss late-filed lawsuits with rare exceptions for minors, mental incapacity, or delayed discovery of injuries. Notice deadlines for claims against government vehicles can be far shorter, sometimes 60 to 180 days.`,
       `${state.state} follows the ${state.comparativeFault} rule for fault allocation. ${comparativeExplanation(state.comparativeFault)} The minimum liability insurance every driver must carry in ${state.state} is ${state.insuranceMinimums} (bodily injury per person / per accident / property damage). For serious crashes those minimums are routinely exhausted in days, which is why uninsured/underinsured-motorist (UM/UIM) coverage on your own policy matters so much.`,
@@ -157,12 +164,13 @@ function comparativeExplanation(rule: string): string {
   return "Comparative-fault rules can shrink or eliminate recovery once your assigned share of fault reaches a threshold, so locking in the at-fault driver's responsibility early is critical.";
 }
 
-function firstStepsSection(topic: Topic, city?: CityProfile): ExpandedSection {
+function firstStepsSection(topic: Topic, city: CityProfile | undefined, brand: AutopilotBrand): ExpandedSection {
+  const label = topicLabel(topic, brand);
   const localLine = city
-    ? `In ${city.city}, ${TOPIC_LABEL[topic]}s often happen on or near ${city.majorHighways.slice(0, 2).join(" and ")}, and the nearest trauma-capable centers include ${city.localHospitals.slice(0, 2).join(" and ")}. Going to one of those facilities, even if you "feel fine," is the single most important step in the first 24 hours.`
+    ? `In ${city.city}, ${label}s often happen on or near ${city.majorHighways.slice(0, 2).join(" and ")}, and the nearest trauma-capable centers include ${city.localHospitals.slice(0, 2).join(" and ")}. Going to one of those facilities, even if you "feel fine," is the single most important step in the first 24 hours.`
     : `Going to a trauma-capable hospital or urgent-care center within 24 hours, even if you "feel fine," is the single most important step you can take. Adrenaline can mask serious injuries — including internal bleeding, concussions, and herniated discs — for hours.`;
   return {
-    heading: `What to do in the first 48 hours after a ${TOPIC_LABEL[topic]}`,
+    heading: `What to do in the first 48 hours after a ${label}`,
     paragraphs: [
       `The first two days after a crash quietly decide most cases. Insurers train adjusters to call within 24 hours, ask leading questions, and lock in statements that compress case value before victims have seen a doctor or talked to a lawyer. Following a disciplined sequence in the first 48 hours protects you from the most common traps.`,
       `${localLine}`,
@@ -292,19 +300,21 @@ function evidencePitfallsSection(topic: Topic): ExpandedSection {
   return TOPIC_SPECIFIC[topic] ?? TOPIC_SPECIFIC.general;
 }
 
-function caseValueSection(state: StateProfile | undefined, topic: Topic): ExpandedSection {
+function caseValueSection(state: StateProfile | undefined, topic: Topic, brand: AutopilotBrand): ExpandedSection {
+  const label = topicLabel(topic, brand);
   const range = state?.avgSettlementRange ?? "$15,000 – $250,000+";
   return {
     heading: "What might your case be worth?",
     paragraphs: [
-      `Honest answer: nobody can tell you a precise number without reviewing your medical records, the police report, available insurance policies, the at-fault driver's conduct, and the comparative-fault posture of your state. Published "average" settlement numbers (commonly ${range} for ${state?.state ?? "U.S."} ${TOPIC_LABEL[topic]}s based on aggregated firm-reported data) describe historical mixes — not your case.`,
+      `Honest answer: nobody can tell you a precise number without reviewing your medical records, the police report, available insurance policies, the at-fault driver's conduct, and the comparative-fault posture of your state. Published "average" settlement numbers (commonly ${range} for ${state?.state ?? "U.S."} ${label}s based on aggregated firm-reported data) describe historical mixes — not your case.`,
       `Case value is driven primarily by: (1) medical-bill totals and the share that will be reasonably necessary in the future; (2) lost wages and impaired earning capacity, including any permanent restrictions; (3) the severity, permanency, and visibility of the injuries; (4) liability clarity — is fault uncontested or shared; (5) policy limits — a $25,000 policy caps recovery at $25,000 regardless of damages unless additional coverage is identified; (6) jurisdiction — some venues are systematically more plaintiff-favorable.`,
       `Anyone offering a guaranteed range without seeing your file is selling something. The most credible early estimates come from a licensed personal-injury attorney who reviews medical records and insurance declarations before quoting a number, and who explains clearly which factors could move that number up or down as the case develops.`,
     ],
   };
 }
 
-function attorneyDecisionSection(topic: Topic): ExpandedSection {
+function attorneyDecisionSection(topic: Topic, brand: AutopilotBrand): ExpandedSection {
+  const label = topicLabel(topic, brand);
   return {
     heading: "When you should call an attorney",
     paragraphs: [
@@ -322,9 +332,9 @@ function attorneyDecisionSection(topic: Topic): ExpandedSection {
     ],
     table: [
       ["Situation", "Risk of going alone"],
-      [`${TOPIC_LABEL[topic]} with hospitalization or surgery`, "High — policy limits often exhausted; UM/UIM analysis required."],
-      [`${TOPIC_LABEL[topic]} with shared or disputed fault`, "High — comparative-fault math can wipe out recovery quickly."],
-      [`${TOPIC_LABEL[topic]} involving government, commercial, or fleet vehicle`, "High — short notice deadlines and multiple policies."],
+      [`${label} with hospitalization or surgery`, "High — policy limits often exhausted; UM/UIM analysis required."],
+      [`${label} with shared or disputed fault`, "High — comparative-fault math can wipe out recovery quickly."],
+      [`${label} involving government, commercial, or fleet vehicle`, "High — short notice deadlines and multiple policies."],
       [`Soft-tissue injury, 1–2 weeks PT, cooperative insurer`, "Moderate — manageable, but a free consult costs nothing."],
     ],
   };
@@ -349,17 +359,23 @@ function localResourcesSection(city: CityProfile | undefined, state: StateProfil
   };
 }
 
-function baseFaqs(state: StateProfile | undefined, city: CityProfile | undefined, topic: Topic): ExpandedFaq[] {
+function baseFaqs(
+  state: StateProfile | undefined,
+  city: CityProfile | undefined,
+  topic: Topic,
+  brand: AutopilotBrand,
+): ExpandedFaq[] {
   const stateLabel = state?.state ?? "your state";
-  const cityLabel = city?.city ? `${city.city}` : "your city";
+  const label = topicLabel(topic, brand);
+  const host = brand.siteUrl.replace(/^https?:\/\//, "");
   return [
     {
-      question: `How long do I have to file a ${TOPIC_LABEL[topic]} claim in ${stateLabel}?`,
-      answer: `${stateLabel} sets a ${state?.statuteOfLimitationsYears ?? 2}-year statute of limitations for most personal-injury lawsuits arising from a ${TOPIC_LABEL[topic]}, running from the date of the crash. Notice-of-claim deadlines against government vehicles are usually much shorter — sometimes 60 to 180 days — and minors and incapacitated plaintiffs may have tolled deadlines. Treat the headline number as a ceiling, not a target: file or consult an attorney well before it expires so that evidence preservation, medical documentation, and policy investigation are not rushed at the end.`,
+      question: `How long do I have to file a ${label} claim in ${stateLabel}?`,
+      answer: `${stateLabel} sets a ${state?.statuteOfLimitationsYears ?? 2}-year statute of limitations for most personal-injury lawsuits arising from a ${label}, running from the date of the crash. Notice-of-claim deadlines against government vehicles are usually much shorter — sometimes 60 to 180 days — and minors and incapacitated plaintiffs may have tolled deadlines. Treat the headline number as a ceiling, not a target: file or consult an attorney well before it expires so that evidence preservation, medical documentation, and policy investigation are not rushed at the end.`,
     },
     {
-      question: `How much does it cost to talk to a WreckMatch-network attorney?`,
-      answer: `Nothing up front. The attorneys in the WreckMatch network handle ${TOPIC_LABEL[topic]}s on a contingency-fee basis — they only get paid if they recover compensation for you, and the fee is a percentage of that recovery agreed in writing before representation begins. The initial consultation is free, and there is no obligation to hire the attorney after the call. WreckMatch LLC itself is a legal referral service, not a law firm; we do not charge consumers.`,
+      question: `How much does it cost to talk to a ${brand.name}-network attorney?`,
+      answer: `Nothing up front. The attorneys in the ${brand.name} network handle ${label}s on a contingency-fee basis — they only get paid if they recover compensation for you, and the fee is a percentage of that recovery agreed in writing before representation begins. The initial consultation is free, and there is no obligation to hire the attorney after the call. ${brand.operator} is a legal referral service, not a law firm; we do not charge consumers.`,
     },
     {
       question: `What if the other driver was uninsured or fled the scene?`,
@@ -370,78 +386,88 @@ function baseFaqs(state: StateProfile | undefined, city: CityProfile | undefined
       answer: `Almost never — at least not before talking with a lawyer. Adjusters call within hours, sound friendly, and frame the recorded statement as a routine formality. In reality, it is a tool to lock in admissions about fault, the timeline of symptoms, and any pre-existing conditions that can later be used to reduce or deny the claim. You are not required to give one to the other driver's insurer at all. You are required to "cooperate" with your own insurer under most policies — but cooperation does not require an unrepresented recorded statement either.`,
     },
     {
-      question: `How fast can I get matched with an attorney through WreckMatch?`,
-      answer: `Submitting the form on WreckMatch.com or calling 855-WRECKMATCH (855-897-3256) typically returns a callback within about 60 seconds. We use a brief intake to understand the basics — where the crash happened, the injuries, who was involved — and then route to licensed personal-injury attorneys in your state who handle ${TOPIC_LABEL[topic]}s. You are never obligated to hire the attorney we connect you with, and the matching service costs you nothing.`,
+      question: `How fast can I get matched with an attorney through ${brand.name}?`,
+      answer: `Submitting the form on ${host} or calling ${brand.phoneDisplay} typically returns a callback within about 60 seconds. We use a brief intake to understand the basics — where the crash happened, the injuries, who was involved — and then route to licensed personal-injury attorneys in your state who handle ${label}s. You are never obligated to hire the attorney we connect you with, and the matching service costs you nothing.`,
     },
     {
-      question: `Is WreckMatch a law firm? Can you give me legal advice?`,
-      answer: `No. WreckMatch LLC is a legal referral service — not a law firm — and we cannot give legal advice or represent you in a case. The blog articles, FAQs, and resources on this site are educational only and reflect general information about ${TOPIC_LABEL[topic]}s and personal-injury claims. Specific legal questions about your situation should go to a licensed attorney in ${stateLabel}, who can review your facts, the police report, and your medical records before advising you.`,
+      question: `Is ${brand.name} a law firm? Can you give me legal advice?`,
+      answer: `No. ${brand.operator} is a legal referral service — not a law firm — and we cannot give legal advice or represent you in a case. The blog articles, FAQs, and resources on this site are educational only and reflect general information about ${label}s and personal-injury claims. Specific legal questions about your situation should go to a licensed attorney in ${stateLabel}, who can review your facts, the police report, and your medical records before advising you.`,
     },
   ];
 }
 
-function howWreckmatchWorksSection(topic: Topic): ExpandedSection {
+function howMatchingWorksSection(topic: Topic, brand: AutopilotBrand): ExpandedSection {
+  const label = topicLabel(topic, brand);
+  const heading =
+    brand.id === "semitruckmatch"
+      ? "How SemiTruckMatch matches you with a truck accident attorney"
+      : "How WreckMatch matches you with a personal-injury attorney";
   return {
-    heading: "How WreckMatch matches you with a personal-injury attorney",
+    heading,
     paragraphs: [
-      `WreckMatch was built to remove the part of a ${TOPIC_LABEL[topic]} that most victims hate: spending hours calling firms during recovery, repeating the same painful facts to multiple intake coordinators, and never knowing if they reached an attorney who actually handles this kind of case. Our process replaces all of that with a single intake call that takes about 60 seconds and routes you to a licensed personal-injury attorney in your state who has agreed in advance to handle ${TOPIC_LABEL[topic]}s on contingency.`,
+      `${brand.name} was built to remove the part of a ${label} that most ${brand.audiencePhrase} hate: spending hours calling firms during recovery, repeating the same painful facts to multiple intake coordinators, and never knowing if they reached an attorney who actually handles this kind of case. Our process replaces all of that with a single intake call that takes about 60 seconds and routes you to a licensed attorney in your state who has agreed in advance to handle ${label}s on contingency.`,
       `The intake asks only what is needed to match: state, what happened in plain language, the rough timeline, whether you were treated medically, and the best contact number. We do not ask for insurance policy numbers, Social Security numbers, or recorded statements. You can stop the call at any time. There is no obligation to retain the attorney we connect you with, and the matching service itself does not cost anything to consumers.`,
-      `After the call, the attorney's office typically reaches out within hours — sometimes minutes — to schedule a free consultation. That consultation is a two-way evaluation: the attorney is deciding whether the case is one they can move forward on, and you are deciding whether their experience, communication style, and fee structure feel right for your situation. If the fit is wrong, you owe nothing and can return to WreckMatch to be re-routed.`,
-      `WreckMatch LLC operates as a legal referral service. We are not a law firm, we do not give legal advice, and we never collect fees from consumers. Our role ends once you are connected with a licensed attorney who can advise you on your specific case under your state's rules of professional responsibility. The educational content on this site — including this article — is general information drawn from publicly available state law, regulatory data, and the experience of practitioners in the WreckMatch network. It is not a substitute for advice from a lawyer who has reviewed your file.`,
+      `After the call, the attorney's office typically reaches out within hours — sometimes minutes — to schedule a free consultation. That consultation is a two-way evaluation: the attorney is deciding whether the case is one they can move forward on, and you are deciding whether their experience, communication style, and fee structure feel right for your situation. If the fit is wrong, you owe nothing and can return to ${brand.name} to be re-routed.`,
+      `${brand.operator} operates as a legal referral service. We are not a law firm, we do not give legal advice, and we never collect fees from consumers. Our role ends once you are connected with a licensed attorney who can advise you on your specific case under your state's rules of professional responsibility. The educational content on this site — including this article — is general information drawn from publicly available state law, regulatory data, and the experience of practitioners in the ${brand.name} network. It is not a substitute for advice from a lawyer who has reviewed your file.`,
     ],
   };
 }
 
-function accidentSurvivalGuideSection(state: StateProfile | undefined, slug: string): ExpandedSection {
+function accidentSurvivalGuideSection(
+  state: StateProfile | undefined,
+  slug: string,
+  brand: AutopilotBrand,
+): ExpandedSection {
   const links = asgLinksForBlog(slug, state);
   const stateLine = state
-    ? `For ${state.state}-specific checklists and first-24-hour timelines, Accident Survival Guide publishes companion material alongside WreckMatch's attorney-matching service.`
-    : `Accident Survival Guide is WreckMatch's sister educational brand — focused on checklists, evidence preservation, and what to do in the first hours after a crash.`;
+    ? `For ${state.state}-specific checklists and first-24-hour timelines, Accident Survival Guide publishes companion material alongside ${brand.name}'s attorney-matching service.`
+    : `Accident Survival Guide is a sister educational brand — focused on checklists, evidence preservation, and what to do in the first hours after a crash.`;
   const linkLines = links.map((l) => `${l.label}: ${l.href}`);
   return {
     heading: "Accident Survival Guide — related checklists & resources",
     paragraphs: [
       stateLine,
-      `These pages are educational only (not legal advice) and are designed for victims who want step-by-step guidance before speaking with counsel. WreckMatch LLC operates both brands; connecting with a lawyer through WreckMatch remains free and separate from downloading or reading ASG materials.`,
+      `These pages are educational only (not legal advice) and are designed for victims who want step-by-step guidance before speaking with counsel. WreckMatch LLC operates both ${brand.name} and Accident Survival Guide; connecting with a lawyer through ${brand.name} remains free and separate from downloading or reading ASG materials.`,
       ...linkLines,
     ],
   };
 }
 
-function trustAndComplianceSection(): ExpandedSection {
+function trustAndComplianceSection(brand: AutopilotBrand): ExpandedSection {
   return {
     heading: "Trust, compliance, and what we will never do",
     paragraphs: [
-      `WreckMatch is built on a short list of things we will not do — even when it would be commercially convenient. We will not promise a settlement amount before an attorney reviews the file, because nobody can. We will not pressure a recorded statement, because adjusters do enough of that. We will not share your story or contact information with anyone outside the licensed attorney you are matched with and the WreckMatch operations team that maintains your file. We will not sell your information to data brokers or marketing networks.`,
+      `${brand.name} is built on a short list of things we will not do — even when it would be commercially convenient. We will not promise a settlement amount before an attorney reviews the file, because nobody can. We will not pressure a recorded statement, because adjusters do enough of that. We will not share your story or contact information with anyone outside the licensed attorney you are matched with and the ${brand.name} operations team that maintains your file. We will not sell your information to data brokers or marketing networks.`,
       `Every article on this site identifies a named author and, where the article touches on legal mechanics, a named legal-context reviewer. Author and reviewer bios are public, link to verified LinkedIn profiles, and describe the actual experience each person brings — not a stock photo and a generic byline. The intent is to make our authority and our limits both visible: we are operators and educators, not licensed attorneys, and the people we work with in the attorney network are.`,
-      `If something on this page is incorrect, out of date, or unclear, the fastest way to flag it is to call 855-WRECKMATCH or email through the contact form. Educational content gets updated when statutes change, when fault rules are revised by a state legislature, or when a court of appeals reshapes how a specific issue is handled in practice. Our goal is that every article on the site reflects what a careful, licensed attorney in the relevant state would say to a friend asking the same question.`,
+      `If something on this page is incorrect, out of date, or unclear, the fastest way to flag it is to call ${brand.phoneDisplay} or use the contact form on ${brand.siteUrl}. Educational content gets updated when statutes change, when fault rules are revised by a state legislature, or when a court of appeals reshapes how a specific issue is handled in practice. Our goal is that every article on the site reflects what a careful, licensed attorney in the relevant state would say to a friend asking the same question.`,
     ],
   };
 }
 
 export function expandPostContent(slug: string, meta: PostMeta): ExpandedContent {
+  const brand = autopilotBrand();
   const topic = topicForSlug(slug);
   const state = findState(meta, slug);
   const city = findCity(slug, state);
 
   const sections: ExpandedSection[] = [
-    stateLegalSection(state, topic),
-    firstStepsSection(topic, city),
+    stateLegalSection(state, topic, brand),
+    firstStepsSection(topic, city, brand),
     evidencePitfallsSection(topic),
-    caseValueSection(state, topic),
-    attorneyDecisionSection(topic),
+    caseValueSection(state, topic, brand),
+    attorneyDecisionSection(topic, brand),
   ];
   const local = localResourcesSection(city, state);
   if (local) sections.push(local);
-  sections.push(howWreckmatchWorksSection(topic));
-  sections.push(accidentSurvivalGuideSection(state, slug));
-  sections.push(trustAndComplianceSection());
+  sections.push(howMatchingWorksSection(topic, brand));
+  sections.push(accidentSurvivalGuideSection(state, slug, brand));
+  sections.push(trustAndComplianceSection(brand));
 
   return {
     introCallout: state
       ? `${state.state} fast facts: ${state.statuteOfLimitationsYears}-year statute of limitations · ${state.comparativeFault} fault rule · ${state.insuranceMinimums} minimum auto liability insurance${state.noFault ? " · no-fault state" : ""}.`
       : undefined,
     sections,
-    faqs: baseFaqs(state, city, topic),
+    faqs: baseFaqs(state, city, topic, brand),
   };
 }

@@ -1,27 +1,29 @@
 ---
 title: 'Semi Truck Accident in Birmingham, Alabama: What to Do (2026)'
 description: >-
-  Guía en español: Educational guide for Birmingham semi truck and car accident
-  victims in Alabama. Deadlines, insurance tactics, and free attorney matching —
-  800+ law firm network. Not legal advice.
+  Guía en español: FMCSA-aware educational guide for Birmingham semi truck and
+  car accident victims in Alabama. Deadlines, insurance tactics, and free
+  attorney matching — 800+ law firm network. Not legal advice.
 date: '2026-05-31'
 category: Truck Accidents
 state: Alabama
 excerpt: >-
   Guía en español — Semi-truck crash in Birmingham, Alabama? Alabama's 2 years
   filing window (verify with counsel), insurer tactics, and free attorney
-  matching in ~60 seconds via WreckMatch.
+  matching in ~60 seconds via SemiTruckMatch.
 autopilot: true
 vertical: truck
-qualityTier: "platinum"
-authorId: "scott-tischler"
-reviewerId: "roy-waddell"
+qualityTier: platinum
+authorId: scott-tischler
+reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
+presentationUrl: >-
+  /blog/presentations/es/semi-truck-accident-in-birmingham-alabama-what-to-do-2026.pptx
 lang: es
 canonicalSlug: semi-truck-accident-in-birmingham-alabama-what-to-do-2026
-presentationUrl: "/blog/presentations/es/semi-truck-accident-in-birmingham-alabama-what-to-do-2026.pptx"presentationUrlEn: >-
+presentationUrlEn: >-
   /blog/presentations/semi-truck-accident-in-birmingham-alabama-what-to-do-2026.pptx
 ---
 ## Por qué publicamos esta guía para Birmingham Alabama What To Do
@@ -266,7 +268,7 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
-**[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+**[Emparejamiento gratuito →](https://www.semitruckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
 
 
 ## Más recursos y próximos pasos (2)
@@ -279,7 +281,7 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
-**[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+**[Emparejamiento gratuito →](https://www.semitruckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
 
 
 ## Más recursos y próximos pasos (3)
@@ -292,5 +294,4 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
-**[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
-
+**[Emparejamiento gratuito →](https://www.semitruckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**

@@ -78,6 +78,16 @@ SITE_BRAND_COPY: dict[str, dict[str, str]] = {
 }
 
 
+def brand_name() -> str:
+    return "SemiTruckMatch" if AUTOPILOT_SITE_ID == "semitruckmatch" else "WreckMatch"
+
+
+def operator_legal() -> str:
+    if AUTOPILOT_SITE_ID == "semitruckmatch":
+        return "SemiTruckMatch (operated by WreckMatch LLC)"
+    return "WreckMatch LLC"
+
+
 def apply_brand_copy(site_id: str) -> None:
     global CTA, PHONE, NETWORK_LINE, DISCLAIMER
     copy = SITE_BRAND_COPY.get(site_id, SITE_BRAND_COPY["wreckmatch"])
@@ -558,7 +568,7 @@ def excerpt_line(topic: dict[str, Any]) -> str:
         deadline = f"{state}'s {year_label} filing window (verify with counsel)"
     return (
         f"{lead}, {state}? {deadline}, insurer tactics, and free attorney matching "
-        f"in ~60 seconds via WreckMatch."
+        f"in ~60 seconds via {brand_name()}."
     )
 
 
@@ -578,6 +588,10 @@ def category_for_topic(topic: dict[str, Any]) -> str:
 
 def hub_link(topic: dict[str, Any]) -> str:
     place = topic.get("place_slug")
+    if AUTOPILOT_SITE_ID == "semitruckmatch":
+        if place:
+            return f"{SITE}/car-accident-help/{place}/truck"
+        return f"{SITE}/truck-accident-help"
     if place:
         return f"{SITE}/car-accident-help-{place}"
     return f"{SITE}/car-accident-help-{slugify(topic['state'])}"
@@ -605,7 +619,7 @@ def first_steps_block(kind: str, city: str, truck: bool) -> str:
 3. **Avoid quick settlements** — insurers may contact you within hours; you are not required to accept anything immediately.
 4. **Order death certificates and autopsy decisions** carefully — talk with counsel before signing releases related to the estate.
 5. **Do not give recorded statements** to any insurer until you understand who represents the estate.
-6. **[Free attorney matching →]({CTA})** — WreckMatch can connect the family with licensed counsel in about 60 seconds."""
+6. **[Free attorney matching →]({CTA})** — {brand_name()} can connect the family with licensed counsel in about 60 seconds."""
     if truck:
         return f"""## What should you do first after a truck crash in {city}?
 
@@ -628,12 +642,17 @@ def first_steps_block(kind: str, city: str, truck: bool) -> str:
 def scott_voice_block(kind: str, city: str, state: str) -> str:
     place = city or state or "your area"
     st = state or "your state"
+    audience = (
+        "semi-truck crash victims"
+        if AUTOPILOT_SITE_ID == "semitruckmatch"
+        else "everyday drivers"
+    )
     return f"""
 ## Why we published this guide for {place}
 
-Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in {st} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so {audience} in {st} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
 
-When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
+When you are ready, we connect you with licensed counsel in about 60 seconds. {brand_name()} is a **referral service, not a law firm**.
 """
 
 
@@ -645,7 +664,7 @@ def kathy_voice_block(kind: str, city: str, state: str) -> str:
 
 A crash in {st} is more than paperwork — it is disrupted work, medical bills, and fear about what comes next. **Kathy Carr**, CEO & Co-Founder of WreckMatch, shaped our intake and education around what injured people actually need: clear steps, calm language, and one place to get matched with counsel without repeating your story five times.
 
-This guide is here so you can protect your health and your claim. WreckMatch is a **referral service, not a law firm** — we connect you with participating licensed attorneys; we do not provide legal advice.
+This guide is here so you can protect your health and your claim. {brand_name()} is a **referral service, not a law firm** — we connect you with participating licensed attorneys; we do not provide legal advice.
 """
 
 
@@ -803,10 +822,26 @@ def template_post(topic: dict[str, Any]) -> str:
     roy = roy_review_block(kind)
     crash_label = "semi truck or " if truck else ""
     quick_extra = " including ECM/black box and carrier IDs" if truck else ""
+    bn = brand_name()
+    victim_label = (
+        "semi-truck crash victims"
+        if AUTOPILOT_SITE_ID == "semitruckmatch"
+        else (f"{('semi truck and ' if truck else '')}car accident victims")
+    )
+    hub_label = (
+        f"{city} truck accident help"
+        if AUTOPILOT_SITE_ID == "semitruckmatch"
+        else f"{city} car accident help"
+    )
+    national_guide = (
+        f"{SITE}/truck-accident-help"
+        if AUTOPILOT_SITE_ID == "semitruckmatch"
+        else f"{SITE}/what-to-do-after-a-car-accident"
+    )
 
     return f"""---
 title: "{title.replace('"', "'")}"
-description: "Educational guide for {city} {('semi truck and ' if truck else '')}car accident victims in {state}. Deadlines, insurance tactics, and free attorney matching — 800+ law firm network. Not legal advice."
+description: "Educational guide for {city} {victim_label} in {state}. FMCSA-aware deadlines, insurer tactics, and free truck attorney matching — 800+ law firm network. Not legal advice."
 date: "{today}"
 category: "{category}"
 state: "{state if state not in ('United States', 'National') else ''}"
@@ -837,7 +872,7 @@ reviewerId: "roy-waddell"
 |-------|--------|
 | Statute of limitations | {sol} |
 | Government / special defendants | Often **much shorter** notice windows — ask counsel immediately |
-| WreckMatch matching fee | **$0** to consumers |
+| {bn} matching fee | **$0** to consumers |
 
 Insurers track filing deadlines closely. Missing a notice period can end a claim even when injuries are catastrophic.
 
@@ -850,13 +885,13 @@ Insurers track filing deadlines closely. Missing a notice period can end a claim
 
 ## When to speak with a lawyer
 
-Consider a free consultation if: hospitalization occurred, fault is disputed, a commercial truck was involved, a death occurred, or an insurer already denied coverage. WreckMatch connects you with participating **licensed** attorneys — we do not provide legal advice ourselves.
+Consider a free consultation if: hospitalization occurred, fault is disputed, a commercial truck was involved, a death occurred, or an insurer already denied coverage. {bn} connects you with participating **licensed** attorneys — we do not provide legal advice ourselves.
 
 ## FAQ
 
-### Is WreckMatch a law firm?
+### Is {bn} a law firm?
 
-No. WreckMatch LLC is a **legal referral service** — not a law firm. We connect injured people with participating attorneys who handle **car, truck, and catastrophic injury** cases in {state}.
+No. {operator_legal()} is a **legal referral service** — not a law firm. We connect injured people with participating attorneys who handle **truck and catastrophic injury** cases in {state}.
 
 ### How fast is the callback?
 
@@ -868,7 +903,7 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ### Where is the local help hub?
 
-**[{city} car accident help]({hub})** · [National what-to-do guide]({SITE}/what-to-do-after-a-car-accident)
+**[{hub_label}]({hub})** · [National truck crash guide]({national_guide})
 
 {roy}
 

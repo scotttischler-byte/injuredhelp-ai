@@ -15,6 +15,7 @@ import {
   type ExpandedSection,
 } from "../lib/blog-content-expander";
 import { authorshipForSlug } from "../lib/blog-authors";
+import { autopilotBrand } from "../lib/autopilot-brand";
 import type { PostMeta } from "../lib/posts";
 import { autopilotBlogDirs } from "../lib/autopilot-blog-paths";
 
@@ -60,31 +61,35 @@ function faqsToMd(faqs: ExpandedFaq[]): string {
 }
 
 function authorSection(slug: string, meta: PostMeta): string {
+  const brand = autopilotBrand();
   const { author } = authorshipForSlug(slug);
   const place = meta.state?.trim() || "your state";
   const cityMatch = slug.match(/-in-([a-z0-9-]+)-/i);
   const city = cityMatch ? cityMatch[1].replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()) : "";
+  const audience =
+    brand.id === "semitruckmatch" ? "semi-truck crash victims" : "people hurt in crashes";
 
   if (author.id === "kathy-carr") {
     return `## A note for families navigating recovery in ${city || place}
 
-At WreckMatch, we hear the same story every day: someone was hurt in a crash, insurers called within hours, and the family felt alone deciding what to do next. **Kathy Carr**, CEO & Co-Founder of WreckMatch, built our victim-first intake so you are not repeating your trauma to five different firms. This guide is calm, practical, and written for search and AI answers — not scare tactics.
+At ${brand.name}, we hear the same story every day: ${audience} hurt in a crash, insurers called within hours, and the family felt alone deciding what to do next. **Kathy Carr**, CEO & Co-Founder of WreckMatch, built our victim-first intake so you are not repeating your trauma to five different firms. This guide is calm, practical, and written for search and AI answers — not scare tactics.
 
-WreckMatch LLC is a **legal referral service, not a law firm**. When you are ready, we connect you with licensed counsel in ${place} in about 60 seconds.
+${brand.operator} is a **legal referral service, not a law firm**. When you are ready, we connect you with licensed counsel in ${place} in about 60 seconds.
 
 `;
   }
 
   return `## Why we published this guide for ${city || place}
 
-Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in ${place} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so ${audience} in ${place} are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
 
-WreckMatch is a **referral service, not a law firm**.
+${brand.name} is a **referral service, not a law firm**.
 
 `;
 }
 
 function expansionToMd(expanded: ExpandedContent): string {
+  const brand = autopilotBrand();
   const parts: string[] = [MARKER, ""];
   if (expanded.introCallout) {
     parts.push(`**At a glance:** ${expanded.introCallout}`, "");
@@ -94,12 +99,18 @@ function expansionToMd(expanded: ExpandedContent): string {
   }
   parts.push(faqsToMd(expanded.faqs));
   parts.push(
-    "*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*",
+    `*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*`,
     "",
-    "**[Free attorney matching →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**",
+    `**[Free attorney matching →](${brand.ctaUrl})** · **${brand.phoneDisplay}**`,
     "",
   );
   return parts.join("\n");
+}
+
+function stripMaterializedBlock(content: string): string {
+  const idx = content.indexOf(MARKER);
+  if (idx < 0) return content.trim();
+  return content.slice(0, idx).trim();
 }
 
 function upsertFrontmatter(fm: Record<string, unknown>, slug: string, body: string): Record<string, unknown> {
@@ -117,6 +128,7 @@ function upsertFrontmatter(fm: Record<string, unknown>, slug: string, body: stri
 
 function main() {
   const dryRun = process.argv.includes("--dry-run");
+  const rebrand = process.argv.includes("--rebrand");
   const onlySlug = process.argv.find((a) => a.startsWith("--slug="))?.split("=")[1];
   const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith(".md"));
   let touched = 0;
@@ -129,7 +141,7 @@ function main() {
     const filePath = path.join(POSTS_DIR, file);
     const raw = fs.readFileSync(filePath, "utf8");
     const { data, content } = matter(raw);
-    if (content.includes(MARKER) && wordCount(content) >= MIN_WORDS) {
+    if (content.includes(MARKER) && wordCount(content) >= MIN_WORDS && !rebrand) {
       skipped++;
       continue;
     }
@@ -145,15 +157,13 @@ function main() {
       readTime: String(data.readTime ?? "10 min read"),
     };
 
-    let body = content.trim();
+    let body = rebrand ? stripMaterializedBlock(content) : content.trim();
     if (!body.includes("## Why we published") && !body.includes("## A note for families")) {
       body = authorSection(slug, meta) + body;
     }
 
     const expanded = expandPostContent(slug, meta);
-    if (!body.includes(MARKER)) {
-      body = `${body}\n\n${expansionToMd(expanded)}`;
-    }
+    body = `${body}\n\n${expansionToMd(expanded)}`;
 
     const wc = wordCount(body);
     const newFm = upsertFrontmatter(data as Record<string, unknown>, slug, body);
