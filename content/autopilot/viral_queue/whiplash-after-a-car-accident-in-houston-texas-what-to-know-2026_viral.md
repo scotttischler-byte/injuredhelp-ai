@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Houston, Texas — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-houston-texas-what-to-know-2026  
-**Generated:** 2026-05-30T14:05:42.213874+00:00  
+**Generated:** 2026-06-01T12:11:08.408105+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
