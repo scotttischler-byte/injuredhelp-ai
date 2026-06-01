@@ -51,52 +51,16 @@
     "semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026",
     "semi-truck-accident-in-seattle-washington-what-to-do-2026",
     "semi-truck-accident-in-charleston-west-virginia-what-to-do-2026",
-    "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026"
+    "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026",
+    "18-wheeler-crash-in-birmingham-alabama-victim-guide-2026",
+    "18-wheeler-crash-in-anchorage-alaska-victim-guide-2026",
+    "18-wheeler-crash-in-phoenix-arizona-victim-guide-2026"
   ],
   "stats": {
-    "total_published": 50,
-    "last_run_at": "2026-05-31T22:36:16.050043+00:00"
+    "total_published": 53,
+    "last_run_at": "2026-06-01T17:43:09.051811+00:00"
   },
   "pending": [
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Birmingham, Alabama \u2014 Victim Guide (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-birmingham-alabama-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Anchorage, Alaska \u2014 Victim Guide (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-anchorage-alaska-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Phoenix, Arizona \u2014 Victim Guide (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-phoenix-arizona-victim-guide-2026"
-    },
     {
       "angle": "18-wheeler-crash",
       "title": "18-Wheeler Crash in Little Rock, Arkansas \u2014 Victim Guide (2026)",
@@ -655,6 +619,58 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "18-wheeler-crash-in-burlington-vermont-victim-guide-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Virginia Beach, Virginia \u2014 Victim Guide (2026)",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "place_slug": "virginia-beach",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-virginia-beach-virginia-victim-guide-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Seattle, Washington \u2014 Victim Guide (2026)",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-seattle-washington-victim-guide-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Charleston, West Virginia \u2014 Victim Guide (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026"
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Milwaukee, Wisconsin \u2014 Victim Guide (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026"
     }
   ],
   "skipped_slugs": [
