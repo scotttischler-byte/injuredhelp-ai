@@ -1416,3 +1416,47 @@ Node.js v24.14.1
 }
 
 [2026-06-01T21:35:58.546751+00:00] WARN organic_crush exit 1
+[2026-06-01T23:28:38.938769+00:00] Inject for 45 states not yet published today
+[2026-06-01T23:28:38.940503+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T23:28:38.941926+00:00] Daily 50-state rotation (2026-06-01): +0 new, 44 re-prioritized, 44 at queue front
+[2026-06-01T23:28:38.942601+00:00] Daily 50-state injection complete
+[2026-06-01T23:28:39.040578+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-01T23:28:39.042613+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T23:28:39.044273+00:00] Daily 50-state rotation (2026-06-01): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-01T23:28:39.044952+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-01T23:28:39.046632+00:00] States already published today (UTC): 6 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado']
+[2026-06-01T23:28:39.050045+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T23:28:39.052884+00:00] SKIP materialize 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026: already meets bar (100/4025w)
+[2026-06-01T23:28:39.056511+00:00] Spanish OK for 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026 (3209 words)
+[2026-06-01T23:28:39.267532+00:00] PPT EN 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026.pptx
+[2026-06-01T23:28:39.364331+00:00] PPT ES 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026.pptx
+[2026-06-01T23:28:39.364422+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026.md
+[2026-06-01T23:28:39.395694+00:00] IndexNow queued for 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026
+[2026-06-01T23:28:41.399315+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T23:28:41.402112+00:00] SKIP materialize 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026: already meets bar (100/4014w)
+[2026-06-01T23:28:41.405547+00:00] Spanish OK for 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026 (3211 words)
+[2026-06-01T23:28:41.504564+00:00] PPT EN 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-wilmington-delaware-victim-guide-2026.pptx
+[2026-06-01T23:28:41.604595+00:00] PPT ES 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-wilmington-delaware-victim-guide-2026.pptx
+[2026-06-01T23:28:41.604686+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-wilmington-delaware-victim-guide-2026.md
+[2026-06-01T23:28:41.636366+00:00] IndexNow queued for 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026
+[2026-06-01T23:28:43.639619+00:00] Quality 30 / 650w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T23:28:43.642594+00:00] SKIP materialize 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026: already meets bar (100/4074w)
+[2026-06-01T23:28:43.646078+00:00] Spanish OK for 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026 (3271 words)
+[2026-06-01T23:28:43.742457+00:00] PPT EN 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.pptx
+[2026-06-01T23:28:43.836106+00:00] PPT ES 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.pptx
+[2026-06-01T23:28:43.836218+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.md
+[2026-06-01T23:28:43.867353+00:00] IndexNow queued for 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026
+[2026-06-01T23:28:43.867788+00:00] Syndication → sites/semitruckmatch/content/syndication/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.json
+[2026-06-01T23:28:43.869871+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026', '18-wheeler-crash-in-wilmington-delaware-victim-guide-2026', '18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026']
+[2026-06-01T23:28:43.875386+00:00] Daily ledger (UTC): 9/50 states, 9 EN posts
+[2026-06-01T23:28:44.149420+00:00] rida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-01T23:28:44.029322+00:00\",\n  \"stats\": {\n    \"enPosts\": 607,\n    \"esPosts\": 607,\n    \"platinumEn\": 588,\n    \"lastUpdated\": \"2026-06-01\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026\",\n      \"18-wheeler-crash-in-wilmington-delaware-victim-guide-2026\",\n      \"18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-01T23:28:44.149534+00:00] WARN organic_crush exit 1

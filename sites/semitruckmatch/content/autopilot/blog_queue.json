@@ -57,11 +57,14 @@
     "18-wheeler-crash-in-phoenix-arizona-victim-guide-2026",
     "18-wheeler-crash-in-little-rock-arkansas-victim-guide-2026",
     "18-wheeler-crash-in-los-angeles-california-victim-guide-2026",
-    "18-wheeler-crash-in-denver-colorado-victim-guide-2026"
+    "18-wheeler-crash-in-denver-colorado-victim-guide-2026",
+    "18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026",
+    "18-wheeler-crash-in-wilmington-delaware-victim-guide-2026",
+    "18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026"
   ],
   "stats": {
-    "total_published": 56,
-    "last_run_at": "2026-06-01T21:35:58.242511+00:00"
+    "total_published": 59,
+    "last_run_at": "2026-06-01T23:28:43.867863+00:00"
   },
   "pending": [
     {
@@ -104,43 +107,43 @@
       "slug": "truck-accident-in-phoenix-arizona-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Bridgeport, Connecticut \u2014 Victim Guide (2026)",
-      "city": "Bridgeport",
-      "state": "Connecticut",
-      "place_slug": "bridgeport",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Little Rock, Arkansas: Steps & Legal Help (2026)",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "place_slug": "little-rock",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026"
+      "slug": "truck-accident-in-little-rock-arkansas-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Wilmington, Delaware \u2014 Victim Guide (2026)",
-      "city": "Wilmington",
-      "state": "Delaware",
-      "place_slug": "wilmington",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Los Angeles, California: Steps & Legal Help (2026)",
+      "city": "Los Angeles",
+      "state": "California",
+      "place_slug": "los-angeles",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
-      "firm_state": false,
+      "firm_state": true,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-wilmington-delaware-victim-guide-2026"
+      "slug": "truck-accident-in-los-angeles-california-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Washington, District of Columbia \u2014 Victim Guide (2026)",
-      "city": "Washington",
-      "state": "District of Columbia",
-      "place_slug": "washington",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Denver, Colorado: Steps & Legal Help (2026)",
+      "city": "Denver",
+      "state": "Colorado",
+      "place_slug": "denver",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
-      "firm_state": false,
+      "firm_state": true,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026"
+      "slug": "truck-accident-in-denver-colorado-steps-legal-help-2026"
     },
     {
       "angle": "18-wheeler-crash",
