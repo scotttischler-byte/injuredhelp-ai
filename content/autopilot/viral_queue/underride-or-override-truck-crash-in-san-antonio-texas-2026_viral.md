@@ -1,7 +1,7 @@
 # Viral content pack — Underride or Override Truck Crash in San Antonio, Texas (2026)
 
 **URL:** https://www.wreckmatch.com/blog/underride-or-override-truck-crash-in-san-antonio-texas-2026  
-**Generated:** 2026-06-01T18:59:08.496456+00:00  
+**Generated:** 2026-06-01T21:44:37.115949+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
