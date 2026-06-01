@@ -25,3 +25,4 @@
 {"at": "2026-06-01T13:32:58.724035+00:00", "urlCount": 502, "note": "INDEXNOW_KEY not set - see docs/INDEXING_AUTOMATION.md"}
 {"at": "2026-06-01T13:33:00.482011+00:00", "urlCount": 502, "note": "INDEXNOW_KEY not set - see docs/INDEXING_AUTOMATION.md"}
 {"at": "2026-06-01T18:17:56.615058+00:00", "urlCount": 502, "note": "INDEXNOW_KEY not set - see docs/INDEXING_AUTOMATION.md"}
+{"at": "2026-06-01T18:59:08.628421+00:00", "urlCount": 502, "keyVerification": {"url": "https://www.wreckmatch.com/065536e9ab94b89a3451fd0f5ea4a193.txt", "ok": true, "status": 200, "bodyMatchesKey": true, "hint": null}, "indexnow": {"keyFile": "https://www.wreckmatch.com/065536e9ab94b89a3451fd0f5ea4a193.txt", "urlCount": 502, "results": [{"endpoint": "https://api.indexnow.org/indexnow", "status": 200, "ok": true}, {"endpoint": "https://www.bing.com/indexnow", "status": 200, "ok": true}, {"endpoint": "https://yandex.com/indexnow", "status": 200, "ok": true}]}}
