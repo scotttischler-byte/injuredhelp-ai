@@ -35,13 +35,15 @@ jobs:
       - name: Install Python deps
         run: pip install -r scripts/autopilot_requirements.txt
 
-      - name: Run exposure crush
+      - name: Run GEO + exposure crush
         env:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
           WRECKMATCH_SITE: https://www.wreckmatch.com
         run: |
-          ARGS="--recent 320"
+          python3 scripts/geo_automation.py --repair-blogs --recent 320
+          ARGS="--recent 320 --skip-index"
           if [ "${{ github.event.inputs.live_ai }}" = "true" ] && [ -n "$PERPLEXITY_API_KEY" ]; then
             ARGS="$ARGS --live-ai"
           fi
@@ -51,7 +53,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/autopilot/exposure_report.json content/autopilot/ai_citation_report.json content/autopilot/indexing_log.jsonl content/autopilot/indexnow_pending.json 2>/dev/null || true
+          git add content/autopilot/exposure_report.json content/autopilot/ai_citation_report.json content/autopilot/geo_automation_report.json content/autopilot/indexing_log.jsonl content/autopilot/indexnow_pending.json sites/semitruckmatch/content/autopilot/indexnow_pending.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "chore(exposure): daily IndexNow + AI citation report"
           git push || true
 
@@ -63,7 +65,15 @@ jobs:
             echo "CRON_SECRET missing on GitHub — Vercel crons still run if set there"
             exit 0
           fi
-          for path in /api/exposure/cron /api/indexing/cron; do
+          for origin in https://www.wreckmatch.com https://www.semitruckmatch.com https://injuredhelp.ai; do
+            for path in /api/geo/cron /api/exposure/cron; do
+              code=$(curl -s -o /tmp/cron-out.json -w "%{http_code}" \
+                -H "Authorization: Bearer $CRON_SECRET" "$origin$path")
+              echo "$origin$path -> HTTP $code"
+              [ "$code" = "200" ] && break 2
+            done
+          done
+          for path in /api/indexing/cron; do
             code=$(curl -s -o /tmp/cron-out.json -w "%{http_code}" \
               -H "Authorization: Bearer $CRON_SECRET" "https://www.wreckmatch.com$path")
             echo "$path -> HTTP $code"

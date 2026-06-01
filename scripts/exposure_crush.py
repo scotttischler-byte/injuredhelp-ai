@@ -24,6 +24,21 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_PATH = ROOT / "content/autopilot/exposure_report.json"
+SECRETS_FILE = ROOT / ".secrets-setup"
+
+
+def load_local_secrets() -> None:
+    if not SECRETS_FILE.exists():
+        return
+    for line in SECRETS_FILE.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key, val = key.strip(), val.strip().strip('"').strip("'")
+        if key and val and not os.getenv(key):
+            os.environ[key] = val
+    os.environ.setdefault("INDEXNOW_KEY", "065536e9ab94b89a3451fd0f5ea4a193")
 PENDING_PATH = ROOT / "content/autopilot/indexnow_pending.json"
 BLOG_EN = ROOT / "content/blog"
 BLOG_ES = ROOT / "content/blog/es"
@@ -147,6 +162,7 @@ def notify_production(slugs: list[str]) -> dict:
 
 
 def main() -> int:
+    load_local_secrets()
     p = argparse.ArgumentParser(description="WreckMatch 10x exposure crush")
     p.add_argument("--index-only", action="store_true")
     p.add_argument("--skip-index", action="store_true")

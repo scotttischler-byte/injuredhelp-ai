@@ -1,0 +1,196 @@
+{
+  "at": "2026-06-01T00:33:12.970150+00:00",
+  "mode": "geo-automation",
+  "opsChecklist": [
+    "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
+    "Wikidata: create brand entity (P856 website, P1448 label)",
+    "Competitor audit: screenshot ChatGPT + Perplexity for 10 target keywords before new articles",
+    "Perplexity-Bing bridge: publish + IndexNow \u2192 expect Bing in 2-6h"
+  ],
+  "blogRepair": {
+    "repaired": [],
+    "skipped": [
+      "what-to-do-after-a-car-accident-in-houston",
+      "what-to-do-after-a-car-accident-in-dallas",
+      "what-to-do-after-a-car-accident-in-los-angeles",
+      "what-to-do-after-a-car-accident-in-miami",
+      "what-to-do-after-a-car-accident-in-chicago",
+      "what-to-do-after-a-car-accident-in-phoenix",
+      "what-to-do-after-a-car-accident-in-atlanta",
+      "what-to-do-after-a-car-accident-in-denver",
+      "what-to-do-after-a-car-accident-in-seattle",
+      "what-to-do-after-a-car-accident-in-boston",
+      "semi-truck-accident-help-houston",
+      "18-wheeler-crash-help-dallas",
+      "truck-accident-help-texas",
+      "fmcsa-truck-crash-evidence-guide",
+      "what-to-do-after-semi-truck-accident-in-texas",
+      "what-to-do-after-a-car-accident-in-houston",
+      "what-to-do-after-a-car-accident-in-dallas",
+      "what-to-do-after-a-car-accident-in-los-angeles",
+      "what-to-do-after-a-car-accident-in-miami",
+      "what-to-do-after-a-car-accident-in-chicago",
+      "what-to-do-after-a-car-accident-in-phoenix",
+      "what-to-do-after-a-car-accident-in-atlanta",
+      "what-to-do-after-a-car-accident-in-denver",
+      "what-to-do-after-a-car-accident-in-seattle",
+      "what-to-do-after-a-car-accident-in-boston"
+    ]
+  },
+  "indexnow": [
+    {
+      "origin": "https://www.wreckmatch.com",
+      "urlCount": 539,
+      "ok": false,
+      "results": [
+        {
+          "endpoint": "https://api.indexnow.org/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        },
+        {
+          "endpoint": "https://www.bing.com/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        },
+        {
+          "endpoint": "https://yandex.com/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        }
+      ],
+      "siteId": "wreckmatch"
+    },
+    {
+      "origin": "https://www.semitruckmatch.com",
+      "urlCount": 134,
+      "ok": false,
+      "results": [
+        {
+          "endpoint": "https://api.indexnow.org/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        },
+        {
+          "endpoint": "https://www.bing.com/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        },
+        {
+          "endpoint": "https://yandex.com/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        }
+      ],
+      "siteId": "semitruckmatch"
+    },
+    {
+      "origin": "https://injuredhelp.ai",
+      "urlCount": 539,
+      "ok": false,
+      "results": [
+        {
+          "endpoint": "https://api.indexnow.org/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        },
+        {
+          "endpoint": "https://www.bing.com/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        },
+        {
+          "endpoint": "https://yandex.com/indexnow",
+          "ok": false,
+          "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+        }
+      ],
+      "siteId": "injuredhelp"
+    }
+  ],
+  "audits": [
+    {
+      "origin": "https://www.wreckmatch.com",
+      "robotsStatus": null,
+      "allowsAiCrawlers": false,
+      "llmsTxt": false,
+      "aiTxt": false,
+      "blogIndexStatus": null,
+      "blogSignals": {
+        "tableOnIndex": false,
+        "faqOnIndex": false
+      }
+    },
+    {
+      "origin": "https://www.semitruckmatch.com",
+      "robotsStatus": null,
+      "allowsAiCrawlers": false,
+      "llmsTxt": false,
+      "aiTxt": false,
+      "blogIndexStatus": null,
+      "blogSignals": {
+        "tableOnIndex": false,
+        "faqOnIndex": false
+      }
+    },
+    {
+      "origin": "https://injuredhelp.ai",
+      "robotsStatus": null,
+      "allowsAiCrawlers": false,
+      "llmsTxt": false,
+      "aiTxt": false,
+      "blogIndexStatus": null,
+      "blogSignals": {
+        "tableOnIndex": false,
+        "faqOnIndex": false
+      }
+    }
+  ],
+  "productionCrons": [
+    {
+      "url": "https://www.wreckmatch.com/api/geo/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://www.wreckmatch.com/api/exposure/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://www.wreckmatch.com/api/indexing/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://www.semitruckmatch.com/api/geo/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://www.semitruckmatch.com/api/exposure/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://www.semitruckmatch.com/api/indexing/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://injuredhelp.ai/api/geo/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://injuredhelp.ai/api/exposure/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "url": "https://injuredhelp.ai/api/indexing/cron",
+      "ok": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    }
+  ]
+}

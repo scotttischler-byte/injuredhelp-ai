@@ -16,6 +16,7 @@ function requestHost(req: NextRequest): string | undefined {
 function rewriteWithBrand(req: NextRequest, url: URL): NextResponse {
   const requestHeaders = new Headers(req.headers);
   requestHeaders.set(BRAND_HEADER, brandFromHost(requestHost(req)));
+  requestHeaders.set("x-pathname", req.nextUrl.pathname);
   return NextResponse.rewrite(url, { request: { headers: requestHeaders } });
 }
 
@@ -61,6 +62,7 @@ export async function middleware(req: NextRequest) {
 
   const requestHeaders = new Headers(req.headers);
   requestHeaders.set(BRAND_HEADER, brandFromHost(requestHost(req)));
+  requestHeaders.set("x-pathname", pathname);
   const passThrough = () =>
     NextResponse.next({
       request: { headers: requestHeaders },

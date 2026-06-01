@@ -3,6 +3,7 @@ import { CookieConsent } from "@/components/CookieConsent";
 import { DeferredAnalytics } from "@/components/DeferredAnalytics";
 import { MobileGlobalCTA } from "@/components/MobileGlobalCTA";
 import { Providers } from "@/components/Providers";
+import { GeoAutoFaqInjector } from "@/components/seo/GeoAutoFaqInjector";
 import { SiteFooter } from "@/components/SiteFooter";
 import { siteJsonLdGraph } from "@/lib/seo";
 import { requestSiteBrand, requestSiteOrigin } from "@/lib/request-brand";
@@ -128,6 +129,7 @@ export default async function RootLayout({
         />
         <Providers brand={brand}>
           {children}
+          <GeoAutoFaqInjector />
           <SiteFooter />
           <CookieConsent />
         </Providers>

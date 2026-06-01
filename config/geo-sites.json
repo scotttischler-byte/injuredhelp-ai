@@ -1,0 +1,32 @@
+{
+  "sites": [
+    {
+      "id": "wreckmatch",
+      "origin": "https://www.wreckmatch.com",
+      "brand": "wreckmatch",
+      "indexNow": true,
+      "pendingPath": "content/autopilot/indexnow_pending.json"
+    },
+    {
+      "id": "semitruckmatch",
+      "origin": "https://www.semitruckmatch.com",
+      "brand": "semitruckmatch",
+      "indexNow": true,
+      "pendingPath": "sites/semitruckmatch/content/autopilot/indexnow_pending.json"
+    },
+    {
+      "id": "injuredhelp",
+      "origin": "https://injuredhelp.ai",
+      "brand": "injuredhelp",
+      "indexNow": true,
+      "pendingPath": "content/autopilot/indexnow_pending.json"
+    },
+    {
+      "id": "accidentsurvivalguide",
+      "origin": "https://www.accidentsurvivalguide.com",
+      "brand": "wreckmatch",
+      "indexNow": false,
+      "note": "ASG is a separate property; mirror playbook via CURSOR_SECRET_SAUCE.md on that repo."
+    }
+  ]
+}

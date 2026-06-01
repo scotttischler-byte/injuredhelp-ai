@@ -21,6 +21,10 @@
       "schedule": "0 6,18 * * *"
     },
     {
+      "path": "/api/geo/cron",
+      "schedule": "0 2,8,14,20 * * *"
+    },
+    {
       "path": "/api/automation/health",
       "schedule": "30 13 * * *"
     },

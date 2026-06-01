@@ -1,14 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buildIndexNowUrls, getExposureStats } from "@/lib/exposure-index";
+import { buildIndexNowUrlsForSite, getExposureStats } from "@/lib/exposure-index";
 import { submitIndexNowBatch } from "@/lib/indexnow";
 import { verifyCronSecret } from "@/lib/automation-auth";
-import { WRECKMATCH_URL } from "@/lib/site";
-
-const SITE = WRECKMATCH_URL.replace(/\/$/, "");
+import { geoSitesForIndexNow } from "@/lib/geo-sites";
 
 /**
- * Vercel Cron: IndexNow for priority pages + recent EN/ES blog (legacy path).
- * Prefer /api/exposure/cron for full 10x batch; this stays for backward compatibility.
+ * Vercel Cron (every 4h): IndexNow for all enabled domains.
  */
 export async function GET(req: NextRequest) {
   if (!verifyCronSecret(req)) {
@@ -16,8 +13,6 @@ export async function GET(req: NextRequest) {
   }
 
   const stats = getExposureStats();
-  const urls = buildIndexNowUrls({ recentBlogLimit: 200, recentEsLimit: 100 });
-
   const key = process.env.INDEXNOW_KEY?.trim() ?? "";
   if (!key) {
     return NextResponse.json({
@@ -27,16 +22,30 @@ export async function GET(req: NextRequest) {
     });
   }
 
-  const batch = await submitIndexNowBatch(SITE, key, urls);
+  const sites = [];
+  let anyOk = false;
 
-  const ok = batch.results.some((r) => r.ok);
+  for (const entry of geoSitesForIndexNow()) {
+    const urls = buildIndexNowUrlsForSite(entry.origin, entry.brand, {
+      recentBlogLimit: 200,
+      recentEsLimit: 100,
+    });
+    const batch = await submitIndexNowBatch(entry.origin, key, urls);
+    const ok = batch.results.some((r) => r.ok);
+    if (ok) anyOk = true;
+    sites.push({
+      siteId: entry.id,
+      origin: entry.origin,
+      ok,
+      submitted: batch.urlCount,
+      indexnow: batch.results,
+    });
+  }
 
   return NextResponse.json({
-    ok,
-    mode: "vercel-cron",
+    ok: anyOk,
+    mode: "vercel-cron-multi-site",
     stats,
-    submitted: batch.urlCount,
-    keyFile: batch.keyFile,
-    indexnow: batch.results,
+    sites,
   });
 }

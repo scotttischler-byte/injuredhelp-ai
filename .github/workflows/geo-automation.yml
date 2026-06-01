@@ -1,0 +1,77 @@
+# GEO Secret Sauce — multi-site IndexNow, audits, top-blog repair, prod crons
+name: GEO automation
+
+on:
+  schedule:
+    - cron: "20 3,15 * * *"
+  workflow_dispatch:
+    inputs:
+      repair_blogs:
+        description: "Materialize top 10 posts missing FAQ/expansion"
+        type: boolean
+        default: true
+      live_ai:
+        description: "Run AI citation monitor"
+        type: boolean
+        default: false
+      notify_prod:
+        description: "Ping production /api/geo/cron on all domains"
+        type: boolean
+        default: true
+
+concurrency:
+  group: geo-automation
+  cancel-in-progress: false
+
+jobs:
+  geo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/autopilot_requirements.txt
+          npm ci
+
+      - name: Run GEO automation
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.repair_blogs }}" != "false" ]; then
+            ARGS="$ARGS --repair-blogs"
+          fi
+          if [ "${{ github.event.inputs.live_ai }}" = "true" ]; then
+            ARGS="$ARGS --live-ai"
+          fi
+          if [ "${{ github.event.inputs.notify_prod }}" != "false" ]; then
+            ARGS="$ARGS --notify-all-prod"
+          fi
+          python3 scripts/geo_automation.py $ARGS
+
+      - name: Commit GEO reports and repaired posts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/autopilot/geo_automation_report.json \
+            content/autopilot/indexnow_pending.json \
+            sites/semitruckmatch/content/autopilot/indexnow_pending.json \
+            content/blog/*.md content/blog/es/*.md \
+            sites/semitruckmatch/content/blog/*.md sites/semitruckmatch/content/blog/es/*.md 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore(geo): automated IndexNow audit + blog repair $(date -u +%Y-%m-%dT%H)"
+          git push || true

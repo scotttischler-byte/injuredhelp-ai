@@ -3,46 +3,20 @@
  */
 import fs from "fs";
 import path from "path";
-import { countEnBlogMd, countEsBlogMd, listEnSlugsMerged, listEsSlugsMerged } from "@/lib/blog-count";
+import {
+  countEnBlogMd,
+  countEsBlogMd,
+  listEnSlugsForBrand,
+  listEsSlugsForBrand,
+  listEnSlugsMerged,
+} from "@/lib/blog-count";
 import { pressPathsForSitemap } from "@/lib/press-index";
 import { WHAT_TO_DO_PATHS } from "@/lib/what-to-do-guides";
+import { exposurePriorityPaths } from "@/lib/geo-sites";
+import type { SiteBrand } from "@/lib/site";
 import { WRECKMATCH_URL } from "@/lib/site";
 
-const SITE = WRECKMATCH_URL.replace(/\/$/, "");
-const PENDING_PATH = path.join(process.cwd(), "content/autopilot/indexnow_pending.json");
-
-export const EXPOSURE_PRIORITY_PATHS = [
-  "/",
-  "/blog",
-  "/es/blog",
-  "/what-to-do-after-a-car-accident",
-  "/what-to-do-after-a-car-accident-in-texas",
-  "/what-to-do-after-a-car-accident-in-california",
-  "/what-to-do-after-a-car-accident-in-florida",
-  "/what-to-do-after-a-car-accident-in-new-york",
-  "/what-to-do-after-a-car-accident-in-colorado",
-  "/car-accident-help",
-  "/truck-accident-help",
-  "/car-accident-help-texas",
-  "/car-accident-help-colorado",
-  "/car-accident-help-houston",
-  "/car-accident-help-dallas",
-  "/car-accident-help-denver",
-  "/car-accident-help-miami",
-  "/car-accident-help-los-angeles",
-  "/checklist-after-car-accident",
-  "/ai-accident-help",
-  "/about-accident-survival-guide",
-  "/resources",
-  "/states",
-  "/media-kit",
-  "/llms.txt",
-  "/llms-full.txt",
-  "/ai.txt",
-  "/press",
-  ...WHAT_TO_DO_PATHS,
-  ...pressPathsForSitemap(),
-];
+const DEFAULT_PENDING = path.join(process.cwd(), "content/autopilot/indexnow_pending.json");
 
 export type ExposureStats = {
   enPosts: number;
@@ -50,6 +24,42 @@ export type ExposureStats = {
   platinumEn: number;
   lastUpdated: string;
 };
+
+export function pendingPathForBrand(brand: SiteBrand): string {
+  if (brand === "semitruckmatch") {
+    return path.join(process.cwd(), "sites/semitruckmatch/content/autopilot/indexnow_pending.json");
+  }
+  return DEFAULT_PENDING;
+}
+
+export function loadPendingIndexSlugs(brand: SiteBrand = "wreckmatch"): string[] {
+  const pendingPath = pendingPathForBrand(brand);
+  try {
+    const raw = fs.readFileSync(pendingPath, "utf8");
+    const data = JSON.parse(raw) as { slugs?: string[] };
+    return Array.isArray(data.slugs) ? data.slugs : [];
+  } catch {
+    return [];
+  }
+}
+
+export function appendPendingIndexSlug(slug: string, brand: SiteBrand = "wreckmatch"): void {
+  const pendingPath = pendingPathForBrand(brand);
+  const slugs = new Set(loadPendingIndexSlugs(brand));
+  slugs.add(slug);
+  fs.mkdirSync(path.dirname(pendingPath), { recursive: true });
+  fs.writeFileSync(
+    pendingPath,
+    JSON.stringify({ slugs: [...slugs], updatedAt: new Date().toISOString() }, null, 2),
+    "utf8",
+  );
+}
+
+export function clearPendingIndexSlugs(brand: SiteBrand = "wreckmatch"): void {
+  const pendingPath = pendingPathForBrand(brand);
+  fs.mkdirSync(path.dirname(pendingPath), { recursive: true });
+  fs.writeFileSync(pendingPath, JSON.stringify({ slugs: [], updatedAt: new Date().toISOString() }), "utf8");
+}
 
 export function getExposureStats(): ExposureStats {
   const enCount = countEnBlogMd();
@@ -95,38 +105,17 @@ export function getRecentCitationPosts(limit = 28) {
     .map((slug) => ({ slug, title: slug.replace(/-/g, " "), date: "" }));
 }
 
-export function loadPendingIndexSlugs(): string[] {
-  try {
-    const raw = fs.readFileSync(PENDING_PATH, "utf8");
-    const data = JSON.parse(raw) as { slugs?: string[] };
-    return Array.isArray(data.slugs) ? data.slugs : [];
-  } catch {
-    return [];
-  }
-}
-
-export function appendPendingIndexSlug(slug: string): void {
-  const slugs = new Set(loadPendingIndexSlugs());
-  slugs.add(slug);
-  fs.mkdirSync(path.dirname(PENDING_PATH), { recursive: true });
-  fs.writeFileSync(
-    PENDING_PATH,
-    JSON.stringify({ slugs: [...slugs], updatedAt: new Date().toISOString() }, null, 2),
-    "utf8",
-  );
-}
-
-export function clearPendingIndexSlugs(): void {
-  fs.mkdirSync(path.dirname(PENDING_PATH), { recursive: true });
-  fs.writeFileSync(PENDING_PATH, JSON.stringify({ slugs: [], updatedAt: new Date().toISOString() }), "utf8");
-}
-
-/** All URLs to ping IndexNow (cap 10k). */
-export function buildIndexNowUrls(options?: {
-  recentBlogLimit?: number;
-  recentEsLimit?: number;
-  extraSlugs?: string[];
-}): string[] {
+/** All URLs to ping IndexNow for a specific production host (cap 10k). */
+export function buildIndexNowUrlsForSite(
+  siteOrigin: string,
+  brand: SiteBrand,
+  options?: {
+    recentBlogLimit?: number;
+    recentEsLimit?: number;
+    extraSlugs?: string[];
+  },
+): string[] {
+  const site = siteOrigin.replace(/\/$/, "");
   const recentBlogLimit = options?.recentBlogLimit ?? 280;
   const recentEsLimit = options?.recentEsLimit ?? 120;
   const seen = new Set<string>();
@@ -139,27 +128,72 @@ export function buildIndexNowUrls(options?: {
     }
   };
 
-  for (const p of EXPOSURE_PRIORITY_PATHS) {
-    add(`${SITE}${p}`);
+  const priority = exposurePriorityPaths(brand);
+  for (const p of priority) {
+    add(`${site}${p}`);
   }
 
-  for (const slug of options?.extraSlugs ?? []) {
-    add(`${SITE}/blog/${slug}`);
-    add(`${SITE}/es/blog/${slug}`);
+  if (brand === "wreckmatch") {
+    for (const p of WHAT_TO_DO_PATHS) add(`${site}${p}`);
+    for (const p of pressPathsForSitemap()) add(`${site}${p}`);
   }
 
-  for (const slug of loadPendingIndexSlugs()) {
-    add(`${SITE}/blog/${slug}`);
-    add(`${SITE}/es/blog/${slug}`);
+  const pending = loadPendingIndexSlugs(brand);
+  for (const slug of [...(options?.extraSlugs ?? []), ...pending]) {
+    add(`${site}/blog/${slug}`);
+    add(`${site}/es/blog/${slug}`);
   }
 
-  for (const slug of listEnSlugsMerged(recentBlogLimit)) {
-    add(`${SITE}/blog/${slug}`);
+  for (const slug of listEnSlugsForBrand(brand, recentBlogLimit)) {
+    add(`${site}/blog/${slug}`);
   }
 
-  for (const slug of listEsSlugsMerged(recentEsLimit)) {
-    add(`${SITE}/es/blog/${slug}`);
+  for (const slug of listEsSlugsForBrand(brand, recentEsLimit)) {
+    add(`${site}/es/blog/${slug}`);
   }
 
   return out.slice(0, 10_000);
+}
+
+/** @deprecated Use buildIndexNowUrlsForSite — defaults to WreckMatch for backward compatibility. */
+export function buildIndexNowUrls(options?: {
+  recentBlogLimit?: number;
+  recentEsLimit?: number;
+  extraSlugs?: string[];
+}): string[] {
+  return buildIndexNowUrlsForSite(WRECKMATCH_URL, "wreckmatch", options);
+}
+
+/** Submit IndexNow for every enabled property in config/geo-sites.json. */
+export async function submitIndexNowAllSites(
+  submit: (siteOrigin: string, urls: string[]) => Promise<{ ok: boolean; urlCount: number; results: unknown[] }>,
+): Promise<
+  {
+    siteId: string;
+    origin: string;
+    ok: boolean;
+    submitted: number;
+    results: unknown[];
+  }[]
+> {
+  const { geoSitesForIndexNow } = await import("@/lib/geo-sites");
+  const out: Awaited<ReturnType<typeof submitIndexNowAllSites>> = [];
+
+  for (const entry of geoSitesForIndexNow()) {
+    const urls = buildIndexNowUrlsForSite(entry.origin, entry.brand, {
+      recentBlogLimit: 320,
+      recentEsLimit: 320,
+      extraSlugs: loadPendingIndexSlugs(entry.brand),
+    });
+    const batch = await submit(entry.origin, urls);
+    if (batch.ok) clearPendingIndexSlugs(entry.brand);
+    out.push({
+      siteId: entry.id,
+      origin: entry.origin,
+      ok: batch.ok,
+      submitted: batch.urlCount,
+      results: batch.results,
+    });
+  }
+  return out;
 }

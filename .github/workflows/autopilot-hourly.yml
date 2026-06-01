@@ -98,7 +98,11 @@ jobs:
           git commit -m "content(hourly): ${{ matrix.site }} $(date -u +%Y-%m-%dT%H)"
           git push
 
-      - name: IndexNow + backlinks
+      - name: GEO repair + IndexNow + backlinks
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
-        run: bash scripts/ci/index_site.sh "${{ steps.meta.outputs.url }}"
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: |
+          SITE_ID="${{ matrix.site }}"
+          python3 scripts/geo_automation.py --site "$SITE_ID" --repair-blogs --index-only --recent 80 || true
+          bash scripts/ci/index_site.sh "${{ steps.meta.outputs.url }}"

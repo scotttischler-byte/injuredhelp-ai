@@ -24,8 +24,9 @@ import { AccidentSurvivalGuideCrossLink } from "@/components/seo/AccidentSurviva
 import { ALL_STATES } from "@/lib/states";
 import { PRIORITY_BLOG_SEO } from "@/lib/priority-page-seo";
 import { personPath, personSameAs, personDisplayName } from "@/lib/entities";
+import { headers } from "next/headers";
 import { buildPageMetadata, faqPageJsonLd } from "@/lib/seo";
-import { serverSiteOrigin } from "@/lib/site";
+import { BRAND_CONFIG, brandFromHeaders, siteOriginFromHeaders } from "@/lib/site";
 import { WRECKMATCH_ORG } from "@/lib/entities";
 
 export const revalidate = 86400;
@@ -40,9 +41,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = await getPostBySlug(slug);
   if (!post) return {};
+  const h = await headers();
+  const brand = brandFromHeaders(h);
+  const cfg = BRAND_CONFIG[brand];
   const priority = PRIORITY_BLOG_SEO[slug];
   return buildPageMetadata({
-    title: priority?.title ?? `${post.meta.title} | WreckMatch Blog`,
+    title: priority?.title ?? `${post.meta.title} | ${cfg.name} Blog`,
     description: priority?.description ?? post.meta.description,
     path: `/blog/${slug}`,
     keywords: priority?.keywords,
@@ -55,7 +59,10 @@ export default async function BlogPostPage({ params }: Props) {
   const post = await getPostBySlug(slug, locale);
   if (!post) notFound();
 
-  const origin = serverSiteOrigin();
+  const h = await headers();
+  const origin = siteOriginFromHeaders(h);
+  const brand = brandFromHeaders(h);
+  const brandCfg = BRAND_CONFIG[brand];
   const hasSpanish = fs.existsSync(path.join(process.cwd(), "content/blog/es", `${slug}.md`));
   const ui = BLOG_UI[locale];
 
@@ -143,19 +150,26 @@ export default async function BlogPostPage({ params }: Props) {
     },
     publisher: {
       "@type": "Organization",
-      name: WRECKMATCH_ORG.legalName,
-      url: WRECKMATCH_ORG.url,
+      name: brandCfg.name,
+      url: origin,
       logo: { "@type": "ImageObject", url: WRECKMATCH_ORG.logo },
     },
   };
-  const faqLd = faqPageJsonLd(allFaqs);
+  const faqLd = { "@context": "https://schema.org", ...faqPageJsonLd(allFaqs) };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-gray-100 pb-24 md:pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
       <BlogSiteHeader blogLocale={locale} />
-      <article className="mx-auto max-w-3xl px-4 py-8 sm:py-12">
+      <article
+        className="mx-auto max-w-3xl px-4 py-8 sm:py-12"
+        itemScope
+        itemType="https://schema.org/Article"
+      >
+        <meta itemProp="headline" content={meta.title} />
+        <meta itemProp="datePublished" content={meta.date} />
+        <meta itemProp="author" content={personDisplayName(author)} />
         <nav className="mb-6 text-sm font-medium text-gray-600">
           <Link href="/blog" prefetch={false} className="hover:text-[#cc0000]">
             {ui.allGuides}

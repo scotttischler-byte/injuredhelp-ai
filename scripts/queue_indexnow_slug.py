@@ -1,31 +1,53 @@
 #!/usr/bin/env python3
-"""Append blog slug(s) to IndexNow pending queue (picked up by exposure_crush / Vercel cron)."""
+"""Append blog slug(s) to IndexNow pending queue (per-site path in config/geo-sites.json)."""
+import argparse
 import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PENDING = ROOT / "content/autopilot/indexnow_pending.json"
+GEO_SITES = ROOT / "config/geo-sites.json"
+DEFAULT_PENDING = ROOT / "content/autopilot/indexnow_pending.json"
+
+
+def pending_for_site(site_id: str) -> Path:
+    if GEO_SITES.exists():
+        try:
+            data = json.loads(GEO_SITES.read_text(encoding="utf-8"))
+            for s in data.get("sites", []):
+                if s.get("id") == site_id and s.get("pendingPath"):
+                    return ROOT / s["pendingPath"]
+        except json.JSONDecodeError:
+            pass
+    if site_id == "semitruckmatch":
+        return ROOT / "sites/semitruckmatch/content/autopilot/indexnow_pending.json"
+    return DEFAULT_PENDING
 
 
 def main() -> int:
-    slugs = [s.strip() for s in sys.argv[1:] if s.strip()]
+    p = argparse.ArgumentParser(description="Queue slugs for IndexNow pickup")
+    p.add_argument("--site", default="wreckmatch", help="Site id: wreckmatch | semitruckmatch | injuredhelp")
+    p.add_argument("slugs", nargs="*", help="Blog slugs to queue")
+    args = p.parse_args()
+    slugs = [s.strip() for s in args.slugs if s.strip()]
     if not slugs:
-        print("Usage: queue_indexnow_slug.py slug1 slug2 ...")
+        print("Usage: queue_indexnow_slug.py [--site SITE] slug1 slug2 ...")
         return 1
+
+    pending_path = pending_for_site(args.site)
     data = {"slugs": [], "updatedAt": ""}
-    if PENDING.exists():
+    if pending_path.exists():
         try:
-            data = json.loads(PENDING.read_text(encoding="utf-8"))
+            data = json.loads(pending_path.read_text(encoding="utf-8"))
         except json.JSONDecodeError:
             pass
     merged = list(dict.fromkeys([*(data.get("slugs") or []), *slugs]))
     data["slugs"] = merged
     data["updatedAt"] = datetime.now(timezone.utc).isoformat()
-    PENDING.parent.mkdir(parents=True, exist_ok=True)
-    PENDING.write_text(json.dumps(data, indent=2), encoding="utf-8")
-    print(f"Queued {len(slugs)} slug(s); total pending: {len(merged)}")
+    pending_path.parent.mkdir(parents=True, exist_ok=True)
+    pending_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    print(f"[{args.site}] Queued {len(slugs)} slug(s) → {pending_path.relative_to(ROOT)} (total {len(merged)})")
     return 0
 
 

@@ -35,13 +35,14 @@ export function organizationJsonLd(origin: string, brand: SiteBrand = "wreckmatc
   };
 }
 
-export function webSiteJsonLd(origin: string) {
+export function webSiteJsonLd(origin: string, brand: SiteBrand = "wreckmatch") {
+  const cfg = BRAND_CONFIG[brand];
   return {
     "@type": "WebSite",
     "@id": WEBSITE_ID,
     url: origin,
-    name: "WreckMatch",
-    description: WRECKMATCH_ORG.description,
+    name: cfg.name,
+    description: cfg.tagline,
     publisher: { "@id": ORG_ID },
     potentialAction: {
       "@type": "SearchAction",
@@ -76,9 +77,15 @@ export function personJsonLd(
 
 export function serviceJsonLd(origin: string, brand: SiteBrand = "wreckmatch") {
   const cfg = BRAND_CONFIG[brand];
+  const serviceName =
+    brand === "semitruckmatch"
+      ? "Free Semi Truck Accident Attorney Matching"
+      : brand === "injuredhelp"
+        ? "AI-Powered Accident Victim Help"
+        : "Free Car Accident Attorney Matching";
   return {
     "@type": "Service",
-    name: "Free Car Accident Attorney Matching",
+    name: serviceName,
     serviceType: "Legal Referral Service",
     provider: { "@id": ORG_ID },
     areaServed: { "@type": "Country", name: "United States" },
@@ -187,18 +194,18 @@ export function localBusinessJsonLd(origin: string, city: string, brand: SiteBra
 export function siteJsonLdGraph(origin: string, brand: SiteBrand = "wreckmatch") {
   return mergeJsonLdGraph(
     organizationJsonLd(origin, brand),
-    webSiteJsonLd(origin),
+    webSiteJsonLd(origin, brand),
     serviceJsonLd(origin, brand),
   );
 }
 
-export function entityHubGraph(origin: string) {
+export function entityHubGraph(origin: string, brand: SiteBrand = "wreckmatch") {
   return mergeJsonLdGraph(
-    organizationJsonLd(origin),
-    webSiteJsonLd(origin),
+    organizationJsonLd(origin, brand),
+    webSiteJsonLd(origin, brand),
     personJsonLd(origin, SCOTT_TISCHLER, "/about-scott-tischler"),
     personJsonLd(origin, KATHY_CARR, "/about-kathy-carr"),
-    serviceJsonLd(origin),
+    serviceJsonLd(origin, brand),
   );
 }
 

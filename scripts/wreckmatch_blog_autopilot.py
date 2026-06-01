@@ -1423,7 +1423,13 @@ def publish_post(
     log(f"Published {materialized_path}")
     try:
         subprocess.run(
-            [sys.executable, str(ROOT / "scripts/queue_indexnow_slug.py"), slug],
+            [
+                sys.executable,
+                str(ROOT / "scripts/queue_indexnow_slug.py"),
+                "--site",
+                AUTOPILOT_SITE_ID,
+                slug,
+            ],
             cwd=str(ROOT),
             capture_output=True,
             timeout=30,

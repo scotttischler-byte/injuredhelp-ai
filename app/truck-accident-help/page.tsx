@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 import { LeadForm } from "@/components/LeadForm";
+import { PageFaqBlock } from "@/components/seo/PageFaqBlock";
 import { serverSiteBrand, serverSiteOrigin } from "@/lib/site";
 
 const origin = serverSiteOrigin();
@@ -73,6 +74,33 @@ export default function TruckAccidentHelpPage() {
             Find your state
           </Link>
         </div>
+
+        <PageFaqBlock
+          dark={isTruck}
+          className="mt-14"
+          faqs={[
+            {
+              question: "How fast can I get matched with a truck accident attorney?",
+              answer:
+                "Most victims complete our form in under two minutes. We route truck and 18-wheeler cases to counsel experienced with FMCSA rules, black-box data, and commercial carrier insurers.",
+            },
+            {
+              question: "What evidence matters most after a semi-truck crash?",
+              answer:
+                "ELD logs, dash cam footage, maintenance records, driver qualification files, and police reconstruction reports. Carriers often move to limit access within days — early preservation is critical.",
+            },
+            {
+              question: "Is SemiTruckMatch a law firm?",
+              answer:
+                "No. We are a free matching service operated by WreckMatch LLC. Licensed attorneys in our network handle your case; you pay nothing upfront for the referral.",
+            },
+            {
+              question: "Does SemiTruckMatch cover all 50 states?",
+              answer:
+                "Yes. We publish state-specific truck accident guides and connect victims with counsel licensed in the state where the crash occurred.",
+            },
+          ]}
+        />
 
         <div id="form" className="mt-14 scroll-mt-24">
           <LeadForm

@@ -43,6 +43,40 @@ export function listEnSlugsMerged(limit?: number): string[] {
   return limit ? slugs.slice(0, limit) : slugs;
 }
 
+export function listEnSlugsForBrand(brand: "wreckmatch" | "injuredhelp" | "semitruckmatch", limit?: number): string[] {
+  const roots =
+    brand === "semitruckmatch"
+      ? ["sites/semitruckmatch/content/blog"]
+      : ["content/blog"];
+  const slugs: string[] = [];
+  for (const root of roots) {
+    const dir = path.join(process.cwd(), root);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir)) {
+      if (!f.endsWith(".md") && !f.endsWith(".mdx")) continue;
+      slugs.push(f.replace(/\.mdx?$/, ""));
+    }
+  }
+  return limit ? slugs.slice(0, limit) : slugs;
+}
+
+export function listEsSlugsForBrand(brand: "wreckmatch" | "injuredhelp" | "semitruckmatch", limit?: number): string[] {
+  const roots =
+    brand === "semitruckmatch"
+      ? ["sites/semitruckmatch/content/blog/es"]
+      : ["content/blog/es"];
+  const slugs: string[] = [];
+  for (const root of roots) {
+    const dir = path.join(process.cwd(), root);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir)) {
+      if (!f.endsWith(".md")) continue;
+      slugs.push(f.replace(/\.md$/, ""));
+    }
+  }
+  return limit ? slugs.slice(0, limit) : slugs;
+}
+
 export function listEsSlugsMerged(limit?: number): string[] {
   const seen = new Set<string>();
   const slugs: string[] = [];
