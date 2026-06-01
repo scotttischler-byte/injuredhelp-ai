@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-01T21:36:11.582463+00:00",
+  "updatedAt": "2026-06-01T23:28:57.767703+00:00",
   "days": {
     "2026-05-31": {
       "en": 176,
@@ -62,8 +62,8 @@
       "recordedAt": "2026-05-31T22:11:35.641722+00:00"
     },
     "2026-06-01": {
-      "en": 13,
-      "states": 11,
+      "en": 16,
+      "states": 14,
       "stateList": [
         "Alabama",
         "Alaska",
@@ -75,11 +75,14 @@
         "Delaware",
         "District of Columbia",
         "Florida",
-        "Georgia"
+        "Georgia",
+        "Hawaii",
+        "Idaho",
+        "Illinois"
       ],
       "targetStates": 50,
       "target": 50,
-      "recordedAt": "2026-06-01T21:36:11.582370+00:00"
+      "recordedAt": "2026-06-01T23:28:57.767576+00:00"
     }
   }
 }

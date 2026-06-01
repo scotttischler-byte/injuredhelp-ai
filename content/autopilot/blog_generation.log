@@ -2790,3 +2790,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-01T21:36:11.502730+00:00] WARN organic_crush exit 1
+[2026-06-01T23:28:37.238117+00:00] Inject for 40 states not yet published today
+[2026-06-01T23:28:37.239898+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T23:28:37.295602+00:00] Daily 50-state rotation (2026-06-01): +0 new, 39 re-prioritized, 39 at queue front
+[2026-06-01T23:28:37.328013+00:00] Daily 50-state injection complete
+[2026-06-01T23:28:37.455550+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-01T23:28:37.457610+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T23:28:37.517180+00:00] Daily 50-state rotation (2026-06-01): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-01T23:28:37.550012+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-01T23:28:37.552398+00:00] States already published today (UTC): 11 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia']
+[2026-06-01T23:28:37.556058+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T23:28:37.557013+00:00] Materializing template → platinum for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026
+[2026-06-01T23:28:43.426223+00:00] After materialize: 100 / 4005w ([])
+[2026-06-01T23:28:43.428013+00:00] Spanish OK for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026 (3229 words)
+[2026-06-01T23:28:43.431448+00:00] Spanish OK for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026 (3229 words)
+[2026-06-01T23:28:43.605931+00:00] PPT EN semi-truck-accident-in-honolulu-hawaii-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-honolulu-hawaii-what-to-do-2026.pptx
+[2026-06-01T23:28:43.701029+00:00] PPT ES semi-truck-accident-in-honolulu-hawaii-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-honolulu-hawaii-what-to-do-2026.pptx
+[2026-06-01T23:28:43.701106+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-honolulu-hawaii-what-to-do-2026.md
+[2026-06-01T23:28:43.731752+00:00] IndexNow queued for semi-truck-accident-in-honolulu-hawaii-what-to-do-2026
+[2026-06-01T23:28:45.778260+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T23:28:45.779157+00:00] Materializing template → platinum for semi-truck-accident-in-boise-idaho-what-to-do-2026
+[2026-06-01T23:28:50.247513+00:00] After materialize: 100 / 3993w ([])
+[2026-06-01T23:28:50.248998+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-what-to-do-2026 (3216 words)
+[2026-06-01T23:28:50.252359+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-what-to-do-2026 (3216 words)
+[2026-06-01T23:28:50.349863+00:00] PPT EN semi-truck-accident-in-boise-idaho-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boise-idaho-what-to-do-2026.pptx
+[2026-06-01T23:28:50.445243+00:00] PPT ES semi-truck-accident-in-boise-idaho-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boise-idaho-what-to-do-2026.pptx
+[2026-06-01T23:28:50.445328+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-boise-idaho-what-to-do-2026.md
+[2026-06-01T23:28:50.476455+00:00] IndexNow queued for semi-truck-accident-in-boise-idaho-what-to-do-2026
+[2026-06-01T23:28:52.520414+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T23:28:52.521352+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-chicago-illinois-2026
+[2026-06-01T23:28:57.142508+00:00] After materialize: 100 / 3907w ([])
+[2026-06-01T23:28:57.144068+00:00] Spanish OK for what-to-do-after-a-car-accident-in-chicago-illinois-2026 (3197 words)
+[2026-06-01T23:28:57.147439+00:00] Spanish OK for what-to-do-after-a-car-accident-in-chicago-illinois-2026 (3197 words)
+[2026-06-01T23:28:57.244598+00:00] PPT EN what-to-do-after-a-car-accident-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-chicago-illinois-2026.pptx
+[2026-06-01T23:28:57.339609+00:00] PPT ES what-to-do-after-a-car-accident-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-chicago-illinois-2026.pptx
+[2026-06-01T23:28:57.339686+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-chicago-illinois-2026.md
+[2026-06-01T23:28:57.370754+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-chicago-illinois-2026
+[2026-06-01T23:28:57.371136+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-chicago-illinois-2026.json
+[2026-06-01T23:28:57.414023+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-honolulu-hawaii-what-to-do-2026', 'semi-truck-accident-in-boise-idaho-what-to-do-2026', 'what-to-do-after-a-car-accident-in-chicago-illinois-2026']
+[2026-06-01T23:28:57.421461+00:00] Daily ledger (UTC): 14/50 states, 16 EN posts
+[2026-06-01T23:28:57.689540+00:00]  Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-01T23:28:57.574032+00:00\",\n  \"stats\": {\n    \"enPosts\": 610,\n    \"esPosts\": 610,\n    \"platinumEn\": 591,\n    \"lastUpdated\": \"2026-06-01\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-honolulu-hawaii-what-to-do-2026\",\n      \"semi-truck-accident-in-boise-idaho-what-to-do-2026\",\n      \"what-to-do-after-a-car-accident-in-chicago-illinois-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-01T23:28:57.689646+00:00] WARN organic_crush exit 1

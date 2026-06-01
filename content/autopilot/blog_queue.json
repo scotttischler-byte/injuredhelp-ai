@@ -512,11 +512,14 @@
     "what-to-do-after-a-car-accident-in-miami-florida-2026",
     "insurance-denied-your-claim-in-phoenix-arizona-2026",
     "insurance-denied-your-claim-in-denver-colorado-2026",
-    "what-to-do-after-a-car-accident-in-atlanta-georgia-2026"
+    "what-to-do-after-a-car-accident-in-atlanta-georgia-2026",
+    "semi-truck-accident-in-honolulu-hawaii-what-to-do-2026",
+    "semi-truck-accident-in-boise-idaho-what-to-do-2026",
+    "what-to-do-after-a-car-accident-in-chicago-illinois-2026"
   ],
   "stats": {
-    "total_published": 511,
-    "last_run_at": "2026-06-01T21:36:11.180867+00:00"
+    "total_published": 514,
+    "last_run_at": "2026-06-01T23:28:57.371240+00:00"
   },
   "pending": [
     {
@@ -546,6 +549,19 @@
       "top_city": true
     },
     {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Phoenix, Arizona (2026)",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
+      "priority": -2,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-phoenix-arizona-2026",
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false
+    },
+    {
       "angle": "statute-of-limitations",
       "title": "Arkansas Car Accident Statute of Limitations \u2014 Little Rock (2026)",
       "city": "Little Rock",
@@ -570,6 +586,19 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Denver, Colorado (2026)",
+      "city": "Denver",
+      "state": "Colorado",
+      "place_slug": "denver",
+      "priority": -2,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-denver-colorado-2026",
+      "daily_state_rotation": true,
+      "top_city": true
     },
     {
       "angle": "statute-of-limitations",
@@ -624,40 +653,14 @@
       "firm_state": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Honolulu, Hawaii: What to Do (2026)",
-      "city": "Honolulu",
-      "state": "Hawaii",
-      "place_slug": "honolulu",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-honolulu-hawaii-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Boise, Idaho: What to Do (2026)",
-      "city": "Boise",
-      "state": "Idaho",
-      "place_slug": "boise",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-boise-idaho-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "what-to-do-after",
-      "title": "What to Do After a Car Accident in Chicago, Illinois (2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": "chicago",
+      "angle": "statute-of-limitations",
+      "title": "Georgia Car Accident Statute of Limitations \u2014 Atlanta (2026)",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "place_slug": "atlanta",
       "priority": -2,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-chicago-illinois-2026",
+      "slug": "georgia-car-accident-statute-of-limitations-atlanta-2026",
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true
@@ -1719,16 +1722,6 @@
       "slug": "should-you-hire-a-lawyer-after-a-miami-crash-florida-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Georgia Car Accident Statute of Limitations \u2014 Atlanta (2026)",
-      "city": "Atlanta",
-      "state": "Georgia",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "georgia-car-accident-statute-of-limitations-atlanta-2026"
-    },
-    {
       "angle": "insurance-denied",
       "title": "Insurance Denied Your Claim in Atlanta? (Georgia 2026)",
       "city": "Atlanta",
@@ -1927,16 +1920,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Phoenix, Arizona (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-phoenix-arizona-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -6248,17 +6231,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-colorado-springs-colorado-what-to-know-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Denver, Colorado (2026)",
-      "city": "Denver",
-      "state": "Colorado",
-      "place_slug": "denver",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-denver-colorado-2026"
     },
     {
       "angle": "lawyer-vs-diy",
