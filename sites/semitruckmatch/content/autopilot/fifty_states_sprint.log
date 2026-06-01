@@ -1370,3 +1370,212 @@ Target: 50 states (top city per state) — UTC day 2026-05-31
 
 Round 1: 50/50 states — need 0
 Done — 50-state SLA met.
+[2026-06-01T21:43:40.233633+00:00] Inject for 45 states not yet published today
+[2026-06-01T21:43:40.235608+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:43:40.237273+00:00] Daily 50-state rotation (2026-06-01): +0 new, 44 re-prioritized, 44 at queue front
+[2026-06-01T21:43:40.238066+00:00] Daily 50-state injection complete
+[2026-06-01T21:43:40.347315+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-01T21:43:40.349674+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:43:40.351541+00:00] Daily 50-state rotation (2026-06-01): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-01T21:43:40.352345+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-01T21:43:40.354338+00:00] States already published today (UTC): 6 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado']
+[2026-06-01T21:43:40.358020+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:43:40.361951+00:00] SKIP materialize 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026: already meets bar (100/4025w)
+[2026-06-01T21:43:40.366277+00:00] Spanish OK for 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026 (3209 words)
+[2026-06-01T21:43:40.583495+00:00] PPT EN 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026.pptx
+[2026-06-01T21:43:40.685307+00:00] PPT ES 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026.pptx
+[2026-06-01T21:43:40.685423+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026.md
+[2026-06-01T21:43:40.727495+00:00] IndexNow queued for 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026
+[2026-06-01T21:43:42.732590+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:43:42.735990+00:00] SKIP materialize 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026: already meets bar (100/4014w)
+[2026-06-01T21:43:42.740072+00:00] Spanish OK for 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026 (3211 words)
+[2026-06-01T21:43:42.840619+00:00] PPT EN 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-wilmington-delaware-victim-guide-2026.pptx
+[2026-06-01T21:43:42.942817+00:00] PPT ES 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-wilmington-delaware-victim-guide-2026.pptx
+[2026-06-01T21:43:42.942921+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-wilmington-delaware-victim-guide-2026.md
+[2026-06-01T21:43:42.980950+00:00] IndexNow queued for 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026
+[2026-06-01T21:43:44.984485+00:00] Quality 30 / 650w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:43:44.987892+00:00] SKIP materialize 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026: already meets bar (100/4074w)
+[2026-06-01T21:43:44.991992+00:00] Spanish OK for 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026 (3271 words)
+[2026-06-01T21:43:45.091339+00:00] PPT EN 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.pptx
+[2026-06-01T21:43:45.187393+00:00] PPT ES 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.pptx
+[2026-06-01T21:43:45.187501+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.md
+[2026-06-01T21:43:45.225406+00:00] IndexNow queued for 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026
+[2026-06-01T21:43:47.228857+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:43:47.232245+00:00] SKIP materialize 18-wheeler-crash-in-miami-florida-victim-guide-2026: already meets bar (100/4038w)
+[2026-06-01T21:43:47.236290+00:00] Spanish OK for 18-wheeler-crash-in-miami-florida-victim-guide-2026 (3226 words)
+[2026-06-01T21:43:47.337004+00:00] PPT EN 18-wheeler-crash-in-miami-florida-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-miami-florida-victim-guide-2026.pptx
+[2026-06-01T21:43:47.439349+00:00] PPT ES 18-wheeler-crash-in-miami-florida-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-miami-florida-victim-guide-2026.pptx
+[2026-06-01T21:43:47.439463+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-miami-florida-victim-guide-2026.md
+[2026-06-01T21:43:47.477506+00:00] IndexNow queued for 18-wheeler-crash-in-miami-florida-victim-guide-2026
+[2026-06-01T21:43:49.480977+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:43:49.482090+00:00] Materializing template → platinum for 18-wheeler-crash-in-atlanta-georgia-victim-guide-2026
+[2026-06-01T21:43:55.434380+00:00] After materialize: 100 / 4025w ([])
+[2026-06-01T21:43:55.436139+00:00] Spanish OK for 18-wheeler-crash-in-atlanta-georgia-victim-guide-2026 (3209 words)
+[2026-06-01T21:43:55.440150+00:00] Spanish OK for 18-wheeler-crash-in-atlanta-georgia-victim-guide-2026 (3209 words)
+[2026-06-01T21:43:55.538950+00:00] PPT EN 18-wheeler-crash-in-atlanta-georgia-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-atlanta-georgia-victim-guide-2026.pptx
+[2026-06-01T21:43:55.635045+00:00] PPT ES 18-wheeler-crash-in-atlanta-georgia-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-atlanta-georgia-victim-guide-2026.pptx
+[2026-06-01T21:43:55.635154+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-atlanta-georgia-victim-guide-2026.md
+[2026-06-01T21:43:55.672983+00:00] IndexNow queued for 18-wheeler-crash-in-atlanta-georgia-victim-guide-2026
+[2026-06-01T21:43:55.673429+00:00] Syndication → sites/semitruckmatch/content/syndication/18-wheeler-crash-in-atlanta-georgia-victim-guide-2026.json
+[2026-06-01T21:43:55.675552+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026', '18-wheeler-crash-in-wilmington-delaware-victim-guide-2026', '18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026', '18-wheeler-crash-in-miami-florida-victim-guide-2026', '18-wheeler-crash-in-atlanta-georgia-victim-guide-2026']
+[2026-06-01T21:43:55.681945+00:00] Daily ledger (UTC): 11/50 states, 11 EN posts
+[2026-06-01T21:43:56.010961+00:00]  "tail": "n Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-01T21:43:55.868729+00:00\",\n  \"stats\": {\n    \"enPosts\": 607,\n    \"esPosts\": 607,\n    \"platinumEn\": 588,\n    \"lastUpdated\": \"2026-06-01\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026\",\n      \"18-wheeler-crash-in-wilmington-delaware-victim-guide-2026\",\n      \"18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026\",\n      \"18-wheeler-crash-in-miami-florida-victim-guide-2026\",\n      \"18-wheeler-crash-in-atlanta-georgia-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-01T21:43:56.011134+00:00] WARN organic_crush exit 1
+[2026-06-01T21:43:56.142984+00:00] Inject for 40 states not yet published today
+[2026-06-01T21:43:56.145124+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:43:56.146623+00:00] Daily 50-state rotation (2026-06-01): +0 new, 39 re-prioritized, 39 at queue front
+[2026-06-01T21:43:56.147381+00:00] Daily 50-state injection complete
+[2026-06-01T21:43:56.252596+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-01T21:43:56.254957+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:43:56.256846+00:00] Daily 50-state rotation (2026-06-01): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-01T21:43:56.257671+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-01T21:43:56.259748+00:00] States already published today (UTC): 11 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia']
+[2026-06-01T21:43:56.262846+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:43:56.263955+00:00] Materializing template → platinum for 18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026
+[2026-06-01T21:44:00.849242+00:00] After materialize: 100 / 4026w ([])
+[2026-06-01T21:44:00.851359+00:00] Spanish OK for 18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026 (3224 words)
+[2026-06-01T21:44:00.855447+00:00] Spanish OK for 18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026 (3224 words)
+[2026-06-01T21:44:01.031594+00:00] PPT EN 18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026.pptx
+[2026-06-01T21:44:01.131780+00:00] PPT ES 18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026.pptx
+[2026-06-01T21:44:01.131890+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026.md
+[2026-06-01T21:44:01.170406+00:00] IndexNow queued for 18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026
+[2026-06-01T21:44:03.174532+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:03.175783+00:00] Materializing template → platinum for 18-wheeler-crash-in-boise-idaho-victim-guide-2026
+[2026-06-01T21:44:07.722071+00:00] After materialize: 100 / 4014w ([])
+[2026-06-01T21:44:07.723979+00:00] Spanish OK for 18-wheeler-crash-in-boise-idaho-victim-guide-2026 (3211 words)
+[2026-06-01T21:44:07.728065+00:00] Spanish OK for 18-wheeler-crash-in-boise-idaho-victim-guide-2026 (3211 words)
+[2026-06-01T21:44:07.829802+00:00] PPT EN 18-wheeler-crash-in-boise-idaho-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-boise-idaho-victim-guide-2026.pptx
+[2026-06-01T21:44:07.931646+00:00] PPT ES 18-wheeler-crash-in-boise-idaho-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-boise-idaho-victim-guide-2026.pptx
+[2026-06-01T21:44:07.931751+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-boise-idaho-victim-guide-2026.md
+[2026-06-01T21:44:07.969915+00:00] IndexNow queued for 18-wheeler-crash-in-boise-idaho-victim-guide-2026
+[2026-06-01T21:44:09.973623+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:09.976342+00:00] Materializing template → platinum for 18-wheeler-crash-in-chicago-illinois-victim-guide-2026
+[2026-06-01T21:44:14.571949+00:00] After materialize: 100 / 4025w ([])
+[2026-06-01T21:44:14.573864+00:00] Spanish OK for 18-wheeler-crash-in-chicago-illinois-victim-guide-2026 (3209 words)
+[2026-06-01T21:44:14.578117+00:00] Spanish OK for 18-wheeler-crash-in-chicago-illinois-victim-guide-2026 (3209 words)
+[2026-06-01T21:44:14.677455+00:00] PPT EN 18-wheeler-crash-in-chicago-illinois-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-chicago-illinois-victim-guide-2026.pptx
+[2026-06-01T21:44:14.774435+00:00] PPT ES 18-wheeler-crash-in-chicago-illinois-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-chicago-illinois-victim-guide-2026.pptx
+[2026-06-01T21:44:14.774545+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-chicago-illinois-victim-guide-2026.md
+[2026-06-01T21:44:14.812424+00:00] IndexNow queued for 18-wheeler-crash-in-chicago-illinois-victim-guide-2026
+[2026-06-01T21:44:16.816057+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:16.817175+00:00] Materializing template → platinum for 18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026
+[2026-06-01T21:44:21.358565+00:00] After materialize: 100 / 4016w ([])
+[2026-06-01T21:44:21.360290+00:00] Spanish OK for 18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026 (3211 words)
+[2026-06-01T21:44:21.364246+00:00] Spanish OK for 18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026 (3211 words)
+[2026-06-01T21:44:21.465238+00:00] PPT EN 18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026.pptx
+[2026-06-01T21:44:21.567952+00:00] PPT ES 18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026.pptx
+[2026-06-01T21:44:21.568061+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026.md
+[2026-06-01T21:44:21.605991+00:00] IndexNow queued for 18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026
+[2026-06-01T21:44:23.609613+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:23.610725+00:00] Materializing template → platinum for 18-wheeler-crash-in-des-moines-iowa-victim-guide-2026
+[2026-06-01T21:44:28.113211+00:00] After materialize: 100 / 4025w ([])
+[2026-06-01T21:44:28.115064+00:00] Spanish OK for 18-wheeler-crash-in-des-moines-iowa-victim-guide-2026 (3227 words)
+[2026-06-01T21:44:28.119224+00:00] Spanish OK for 18-wheeler-crash-in-des-moines-iowa-victim-guide-2026 (3227 words)
+[2026-06-01T21:44:28.218861+00:00] PPT EN 18-wheeler-crash-in-des-moines-iowa-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-des-moines-iowa-victim-guide-2026.pptx
+[2026-06-01T21:44:28.315334+00:00] PPT ES 18-wheeler-crash-in-des-moines-iowa-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-des-moines-iowa-victim-guide-2026.pptx
+[2026-06-01T21:44:28.315451+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-des-moines-iowa-victim-guide-2026.md
+[2026-06-01T21:44:28.353742+00:00] IndexNow queued for 18-wheeler-crash-in-des-moines-iowa-victim-guide-2026
+[2026-06-01T21:44:28.354144+00:00] Syndication → sites/semitruckmatch/content/syndication/18-wheeler-crash-in-des-moines-iowa-victim-guide-2026.json
+[2026-06-01T21:44:28.356515+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026', '18-wheeler-crash-in-boise-idaho-victim-guide-2026', '18-wheeler-crash-in-chicago-illinois-victim-guide-2026', '18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026', '18-wheeler-crash-in-des-moines-iowa-victim-guide-2026']
+[2026-06-01T21:44:28.360432+00:00] Daily ledger (UTC): 16/50 states, 16 EN posts
+[2026-06-01T21:44:28.689175+00:00]  "tail": "do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-01T21:44:28.546890+00:00\",\n  \"stats\": {\n    \"enPosts\": 607,\n    \"esPosts\": 607,\n    \"platinumEn\": 588,\n    \"lastUpdated\": \"2026-06-01\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026\",\n      \"18-wheeler-crash-in-boise-idaho-victim-guide-2026\",\n      \"18-wheeler-crash-in-chicago-illinois-victim-guide-2026\",\n      \"18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026\",\n      \"18-wheeler-crash-in-des-moines-iowa-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-01T21:44:28.689378+00:00] WARN organic_crush exit 1
+[2026-06-01T21:44:28.824899+00:00] Inject for 35 states not yet published today
+[2026-06-01T21:44:28.827047+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:44:28.828513+00:00] Daily 50-state rotation (2026-06-01): +0 new, 34 re-prioritized, 34 at queue front
+[2026-06-01T21:44:28.829281+00:00] Daily 50-state injection complete
+[2026-06-01T21:44:28.935970+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-01T21:44:28.938343+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:44:28.940285+00:00] Daily 50-state rotation (2026-06-01): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-01T21:44:28.941116+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-01T21:44:28.943364+00:00] States already published today (UTC): 16 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa']
+[2026-06-01T21:44:28.946515+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:28.947635+00:00] Materializing template → platinum for 18-wheeler-crash-in-wichita-kansas-victim-guide-2026
+[2026-06-01T21:44:33.494874+00:00] After materialize: 100 / 4025w ([])
+[2026-06-01T21:44:33.496914+00:00] Spanish OK for 18-wheeler-crash-in-wichita-kansas-victim-guide-2026 (3209 words)
+[2026-06-01T21:44:33.500988+00:00] Spanish OK for 18-wheeler-crash-in-wichita-kansas-victim-guide-2026 (3209 words)
+[2026-06-01T21:44:33.676446+00:00] PPT EN 18-wheeler-crash-in-wichita-kansas-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-wichita-kansas-victim-guide-2026.pptx
+[2026-06-01T21:44:33.775877+00:00] PPT ES 18-wheeler-crash-in-wichita-kansas-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-wichita-kansas-victim-guide-2026.pptx
+[2026-06-01T21:44:33.775983+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-wichita-kansas-victim-guide-2026.md
+[2026-06-01T21:44:33.813788+00:00] IndexNow queued for 18-wheeler-crash-in-wichita-kansas-victim-guide-2026
+[2026-06-01T21:44:35.818032+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:35.819155+00:00] Materializing template → platinum for 18-wheeler-crash-in-louisville-kentucky-victim-guide-2026
+[2026-06-01T21:44:40.378922+00:00] After materialize: 100 / 4024w ([])
+[2026-06-01T21:44:40.380829+00:00] Spanish OK for 18-wheeler-crash-in-louisville-kentucky-victim-guide-2026 (3220 words)
+[2026-06-01T21:44:40.384963+00:00] Spanish OK for 18-wheeler-crash-in-louisville-kentucky-victim-guide-2026 (3220 words)
+[2026-06-01T21:44:40.489604+00:00] PPT EN 18-wheeler-crash-in-louisville-kentucky-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-louisville-kentucky-victim-guide-2026.pptx
+[2026-06-01T21:44:40.591987+00:00] PPT ES 18-wheeler-crash-in-louisville-kentucky-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-louisville-kentucky-victim-guide-2026.pptx
+[2026-06-01T21:44:40.592089+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-louisville-kentucky-victim-guide-2026.md
+[2026-06-01T21:44:40.630330+00:00] IndexNow queued for 18-wheeler-crash-in-louisville-kentucky-victim-guide-2026
+[2026-06-01T21:44:42.634063+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:42.635198+00:00] Materializing template → platinum for 18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026
+[2026-06-01T21:44:47.258711+00:00] After materialize: 100 / 4025w ([])
+[2026-06-01T21:44:47.260623+00:00] Spanish OK for 18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026 (3223 words)
+[2026-06-01T21:44:47.264713+00:00] Spanish OK for 18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026 (3223 words)
+[2026-06-01T21:44:47.366297+00:00] PPT EN 18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026.pptx
+[2026-06-01T21:44:47.464439+00:00] PPT ES 18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026.pptx
+[2026-06-01T21:44:47.464548+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026.md
+[2026-06-01T21:44:47.502571+00:00] IndexNow queued for 18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026
+[2026-06-01T21:44:49.506356+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:49.507474+00:00] Materializing template → platinum for 18-wheeler-crash-in-portland-maine-victim-guide-2026
+[2026-06-01T21:44:54.122647+00:00] After materialize: 100 / 4025w ([])
+[2026-06-01T21:44:54.124472+00:00] Spanish OK for 18-wheeler-crash-in-portland-maine-victim-guide-2026 (3209 words)
+[2026-06-01T21:44:54.128576+00:00] Spanish OK for 18-wheeler-crash-in-portland-maine-victim-guide-2026 (3209 words)
+[2026-06-01T21:44:54.232612+00:00] PPT EN 18-wheeler-crash-in-portland-maine-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-portland-maine-victim-guide-2026.pptx
+[2026-06-01T21:44:54.335311+00:00] PPT ES 18-wheeler-crash-in-portland-maine-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-portland-maine-victim-guide-2026.pptx
+[2026-06-01T21:44:54.335429+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-portland-maine-victim-guide-2026.md
+[2026-06-01T21:44:54.372904+00:00] IndexNow queued for 18-wheeler-crash-in-portland-maine-victim-guide-2026
+[2026-06-01T21:44:56.376708+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:44:56.377818+00:00] Materializing template → platinum for 18-wheeler-crash-in-baltimore-maryland-victim-guide-2026
+[2026-06-01T21:45:00.947613+00:00] After materialize: 100 / 4024w ([])
+[2026-06-01T21:45:00.949435+00:00] Spanish OK for 18-wheeler-crash-in-baltimore-maryland-victim-guide-2026 (3217 words)
+[2026-06-01T21:45:00.953506+00:00] Spanish OK for 18-wheeler-crash-in-baltimore-maryland-victim-guide-2026 (3217 words)
+[2026-06-01T21:45:01.051566+00:00] PPT EN 18-wheeler-crash-in-baltimore-maryland-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-baltimore-maryland-victim-guide-2026.pptx
+[2026-06-01T21:45:01.147436+00:00] PPT ES 18-wheeler-crash-in-baltimore-maryland-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-baltimore-maryland-victim-guide-2026.pptx
+[2026-06-01T21:45:01.147546+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-baltimore-maryland-victim-guide-2026.md
+[2026-06-01T21:45:01.185796+00:00] IndexNow queued for 18-wheeler-crash-in-baltimore-maryland-victim-guide-2026
+[2026-06-01T21:45:01.186212+00:00] Syndication → sites/semitruckmatch/content/syndication/18-wheeler-crash-in-baltimore-maryland-victim-guide-2026.json
+[2026-06-01T21:45:01.188660+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['18-wheeler-crash-in-wichita-kansas-victim-guide-2026', '18-wheeler-crash-in-louisville-kentucky-victim-guide-2026', '18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026', '18-wheeler-crash-in-portland-maine-victim-guide-2026', '18-wheeler-crash-in-baltimore-maryland-victim-guide-2026']
+[2026-06-01T21:45:01.192677+00:00] Daily ledger (UTC): 21/50 states, 21 EN posts
+[2026-06-01T21:45:01.519206+00:00]  "tail": "car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-01T21:45:01.377593+00:00\",\n  \"stats\": {\n    \"enPosts\": 607,\n    \"esPosts\": 607,\n    \"platinumEn\": 588,\n    \"lastUpdated\": \"2026-06-01\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-wichita-kansas-victim-guide-2026\",\n      \"18-wheeler-crash-in-louisville-kentucky-victim-guide-2026\",\n      \"18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026\",\n      \"18-wheeler-crash-in-portland-maine-victim-guide-2026\",\n      \"18-wheeler-crash-in-baltimore-maryland-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-01T21:45:01.519392+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-06-01
+
+Round 1: 6/50 states — need 44
+After round 1: 11/50 states
+
+Round 2: 11/50 states — need 39
+After round 2: 16/50 states
+
+Round 3: 16/50 states — need 34
+After round 3: 21/50 states
+
+Final: 21/50 states
+Partial progress OK (21/50) — next scheduled run will continue.
