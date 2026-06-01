@@ -292,3 +292,8 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 - [State & city resource center](https://www.wreckmatch.com/states)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
+- [18 Wheeler Crash In Denver Colorado Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-denver-colorado-victim-guide-2026)
+- [18 Wheeler Crash In Fort Collins Colorado Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-fort-collins-colorado-victim-guide-2026)
+- [18 Wheeler Crash In Lakewood Colorado Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-lakewood-colorado-victim-guide-2026)
+- [Black Box Data After A Semi Crash In Denver Colorado](https://www.wreckmatch.com/blog/black-box-data-after-a-semi-crash-in-denver-colorado)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/what-to-do-after-a-car-accident-in-denver-colorado-2026)
