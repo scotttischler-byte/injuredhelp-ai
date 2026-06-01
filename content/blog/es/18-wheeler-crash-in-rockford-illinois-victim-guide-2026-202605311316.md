@@ -21,7 +21,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: 18-wheeler-crash-in-rockford-illinois-victim-guide-2026-202605311316
-presentationUrl: "/blog/presentations/es/18-wheeler-crash-in-rockford-illinois-victim-guide-2026-202605311316.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/18-wheeler-crash-in-rockford-illinois-victim-guide-2026-202605311316.pptx
+presentationUrlEn: >-
   /blog/presentations/18-wheeler-crash-in-rockford-illinois-victim-guide-2026-202605311316.pptx
 ---
 ## Por qué publicamos esta guía para Rockford Illinois Victim Guide 2026

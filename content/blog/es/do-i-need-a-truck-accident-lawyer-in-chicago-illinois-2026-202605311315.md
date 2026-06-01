@@ -21,7 +21,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026-202605311315
-presentationUrl: "/blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026-202605311315.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026-202605311315.pptx
+presentationUrlEn: >-
   /blog/presentations/do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026-202605311315.pptx
 ---
 ## Por qué publicamos esta guía para Chicago Illinois 2026

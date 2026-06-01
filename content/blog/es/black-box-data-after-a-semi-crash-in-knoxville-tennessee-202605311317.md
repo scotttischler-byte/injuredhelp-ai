@@ -21,7 +21,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: black-box-data-after-a-semi-crash-in-knoxville-tennessee-202605311317
-presentationUrl: "/blog/presentations/es/black-box-data-after-a-semi-crash-in-knoxville-tennessee-202605311317.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/black-box-data-after-a-semi-crash-in-knoxville-tennessee-202605311317.pptx
+presentationUrlEn: >-
   /blog/presentations/black-box-data-after-a-semi-crash-in-knoxville-tennessee-202605311317.pptx
 ---
 ## Por qué publicamos esta guía para Knoxville Tennessee

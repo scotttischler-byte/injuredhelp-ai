@@ -499,143 +499,23 @@
     "what-to-do-after-a-car-accident-in-burlington-vermont-2026",
     "what-to-do-after-a-car-accident-in-virginia-beach-virginia-2026",
     "what-to-do-after-a-car-accident-in-charleston-west-virginia-2026",
-    "what-to-do-after-a-car-accident-in-milwaukee-wisconsin-2026"
+    "what-to-do-after-a-car-accident-in-milwaukee-wisconsin-2026",
+    "what-to-do-after-a-car-accident-in-birmingham-alabama-2026",
+    "semi-truck-accident-in-anchorage-alaska-what-to-do-2026",
+    "arizona-car-accident-statute-of-limitations-phoenix-2026",
+    "semi-truck-accident-in-little-rock-arkansas-what-to-do-2026",
+    "what-to-do-after-a-car-accident-in-los-angeles-california-2026",
+    "colorado-car-accident-statute-of-limitations-denver-2026",
+    "semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026",
+    "semi-truck-accident-in-wilmington-delaware-what-to-do-2026",
+    "semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026",
+    "what-to-do-after-a-car-accident-in-miami-florida-2026"
   ],
   "stats": {
-    "total_published": 498,
-    "last_run_at": "2026-05-31T20:53:24.083391+00:00"
+    "total_published": 508,
+    "last_run_at": "2026-06-01T13:32:58.475134+00:00"
   },
   "pending": [
-    {
-      "angle": "what-to-do-after",
-      "title": "What to Do After a Car Accident in Birmingham, Alabama (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-birmingham-alabama-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Anchorage, Alaska: What to Do (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-anchorage-alaska-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Arizona Car Accident Statute of Limitations \u2014 Phoenix (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "arizona-car-accident-statute-of-limitations-phoenix-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Little Rock, Arkansas: What to Do (2026)",
-      "city": "Little Rock",
-      "state": "Arkansas",
-      "place_slug": "little-rock",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-little-rock-arkansas-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "what-to-do-after",
-      "title": "What to Do After a Car Accident in Los Angeles, California (2026)",
-      "city": "Los Angeles",
-      "state": "California",
-      "place_slug": "los-angeles",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-los-angeles-california-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Colorado Car Accident Statute of Limitations \u2014 Denver (2026)",
-      "city": "Denver",
-      "state": "Colorado",
-      "place_slug": "denver",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "colorado-car-accident-statute-of-limitations-denver-2026",
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Bridgeport, Connecticut: What to Do (2026)",
-      "city": "Bridgeport",
-      "state": "Connecticut",
-      "place_slug": "bridgeport",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-bridgeport-connecticut-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Wilmington, Delaware: What to Do (2026)",
-      "city": "Wilmington",
-      "state": "Delaware",
-      "place_slug": "wilmington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-wilmington-delaware-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Washington, District of Columbia: What to Do (2026)",
-      "city": "Washington",
-      "state": "District of Columbia",
-      "place_slug": "washington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-washington-district-of-columbia-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "what-to-do-after",
-      "title": "What to Do After a Car Accident in Miami, Florida (2026)",
-      "city": "Miami",
-      "state": "Florida",
-      "place_slug": "miami",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-miami-florida-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
-    },
     {
       "angle": "what-to-do-after",
       "title": "What to Do After a Car Accident in Atlanta, Georgia (2026)",
@@ -1066,6 +946,19 @@
       "firm_state": true
     },
     {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-01)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-01"
+    },
+    {
       "angle": "semi-truck-accident",
       "title": "Semi Truck Accident in Salt Lake City, Utah: What to Do (2026)",
       "city": "Salt Lake City",
@@ -1092,6 +985,19 @@
       "top_city": true
     },
     {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Virginia Beach, Virginia: What to Do (2026)",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "place_slug": "virginia-beach",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
       "angle": "what-to-do-after",
       "title": "What to Do After a Car Accident in Seattle, Washington (2026)",
       "city": "Seattle",
@@ -1101,6 +1007,32 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "what-to-do-after-a-car-accident-in-seattle-washington-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Charleston, West Virginia: What to Do (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-charleston-west-virginia-what-to-do-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Milwaukee, Wisconsin: What to Do (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -15373,17 +15305,6 @@
       "slug": "do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026"
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Virginia Beach, Virginia: What to Do (2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026"
-    },
-    {
       "angle": "18-wheeler-crash",
       "title": "18-Wheeler Crash in Charleston, West Virginia \u2014 Victim Guide (2026)",
       "city": "Charleston",
@@ -15415,17 +15336,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026"
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Charleston, West Virginia: What to Do (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-charleston-west-virginia-what-to-do-2026"
     },
     {
       "angle": "18-wheeler-crash",
@@ -15723,17 +15633,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026"
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Milwaukee, Wisconsin: What to Do (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026"
     },
     {
       "angle": "18-wheeler-crash",

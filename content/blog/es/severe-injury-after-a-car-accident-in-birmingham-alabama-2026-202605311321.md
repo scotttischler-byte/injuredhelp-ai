@@ -21,7 +21,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: severe-injury-after-a-car-accident-in-birmingham-alabama-2026-202605311321
-presentationUrl: "/blog/presentations/es/severe-injury-after-a-car-accident-in-birmingham-alabama-2026-202605311321.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/severe-injury-after-a-car-accident-in-birmingham-alabama-2026-202605311321.pptx
+presentationUrlEn: >-
   /blog/presentations/severe-injury-after-a-car-accident-in-birmingham-alabama-2026-202605311321.pptx
 ---
 ## Por qué publicamos esta guía para Birmingham Alabama 2026

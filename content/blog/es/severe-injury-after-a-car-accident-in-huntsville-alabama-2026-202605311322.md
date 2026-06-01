@@ -21,7 +21,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: severe-injury-after-a-car-accident-in-huntsville-alabama-2026-202605311322
-presentationUrl: "/blog/presentations/es/severe-injury-after-a-car-accident-in-huntsville-alabama-2026-202605311322.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/severe-injury-after-a-car-accident-in-huntsville-alabama-2026-202605311322.pptx
+presentationUrlEn: >-
   /blog/presentations/severe-injury-after-a-car-accident-in-huntsville-alabama-2026-202605311322.pptx
 ---
 ## Por qué publicamos esta guía para Huntsville Alabama 2026

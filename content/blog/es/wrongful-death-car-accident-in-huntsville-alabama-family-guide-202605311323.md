@@ -23,7 +23,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: wrongful-death-car-accident-in-huntsville-alabama-family-guide-202605311323
-presentationUrl: "/blog/presentations/es/wrongful-death-car-accident-in-huntsville-alabama-family-guide-202605311323.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/wrongful-death-car-accident-in-huntsville-alabama-family-guide-202605311323.pptx
+presentationUrlEn: >-
   /blog/presentations/wrongful-death-car-accident-in-huntsville-alabama-family-guide-202605311323.pptx
 ---
 ## Por qué publicamos esta guía para Huntsville Alabama Family Guide

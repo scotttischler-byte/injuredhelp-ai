@@ -21,7 +21,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: do-i-need-a-truck-accident-lawyer-in-chattanooga-tennessee-2026-202605311317
-presentationUrl: "/blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-chattanooga-tennessee-2026-202605311317.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-chattanooga-tennessee-2026-202605311317.pptx
+presentationUrlEn: >-
   /blog/presentations/do-i-need-a-truck-accident-lawyer-in-chattanooga-tennessee-2026-202605311317.pptx
 ---
 ## Por qué publicamos esta guía para Chattanooga Tennessee 2026

@@ -23,7 +23,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: 18-wheeler-crash-in-spokane-washington-victim-guide-2026-202605311319
-presentationUrl: "/blog/presentations/es/18-wheeler-crash-in-spokane-washington-victim-guide-2026-202605311319.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/18-wheeler-crash-in-spokane-washington-victim-guide-2026-202605311319.pptx
+presentationUrlEn: >-
   /blog/presentations/18-wheeler-crash-in-spokane-washington-victim-guide-2026-202605311319.pptx
 ---
 ## Por qué publicamos esta guía para Spokane Washington Victim Guide 2026

@@ -22,7 +22,9 @@ platinumExpansion: true
 lang: es
 canonicalSlug: >-
   traumatic-brain-injury-tbi-from-a-car-accident-in-birmingham-alabama-202605311321
-presentationUrl: "/blog/presentations/es/traumatic-brain-injury-tbi-from-a-car-accident-in-birmingham-alabama-202605311321.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/traumatic-brain-injury-tbi-from-a-car-accident-in-birmingham-alabama-202605311321.pptx
+presentationUrlEn: >-
   /blog/presentations/traumatic-brain-injury-tbi-from-a-car-accident-in-birmingham-alabama-202605311321.pptx
 ---
 ## Por qué publicamos esta guía para Birmingham Alabama

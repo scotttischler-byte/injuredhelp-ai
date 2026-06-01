@@ -21,7 +21,9 @@ readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: semi-truck-accident-in-spokane-washington-what-to-do-2026-202605311319
-presentationUrl: "/blog/presentations/es/semi-truck-accident-in-spokane-washington-what-to-do-2026-202605311319.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/semi-truck-accident-in-spokane-washington-what-to-do-2026-202605311319.pptx
+presentationUrlEn: >-
   /blog/presentations/semi-truck-accident-in-spokane-washington-what-to-do-2026-202605311319.pptx
 ---
 ## Por qué publicamos esta guía para Spokane Washington What To Do 2026
