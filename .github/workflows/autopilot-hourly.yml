@@ -96,8 +96,8 @@ jobs:
           git add "${ROOT}/blog/"*.md "${ROOT}/blog/es/"*.md "${ROOT}/autopilot/" "${ROOT}/syndication/" \
             public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx 2>/dev/null || true
           git diff --staged --quiet && exit 0
-          git commit -m "content(hourly): ${{ matrix.site }} $(date -u +%Y-%m-%dT%H)"
-          git push
+          chmod +x scripts/ci/git_push_safe.sh
+          bash scripts/ci/git_push_safe.sh "content(hourly): ${{ matrix.site }} $(date -u +%Y-%m-%dT%H)"
 
       - name: GEO repair + IndexNow + backlinks
         env:

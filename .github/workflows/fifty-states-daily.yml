@@ -111,8 +111,8 @@ jobs:
             public/blog/covers/generated/*.webp public/blog/presentations/*.pptx \
             public/blog/presentations/es/*.pptx data/blog-cover-assignments.json 2>/dev/null || true
           git diff --staged --quiet && echo "No changes" && exit 0
-          git commit -m "content(fifty-states): ${{ matrix.site }} $(date -u +%Y-%m-%dT%H) UTC"
-          git push
+          chmod +x scripts/ci/git_push_safe.sh
+          bash scripts/ci/git_push_safe.sh "content(fifty-states): ${{ matrix.site }} $(date -u +%Y-%m-%dT%H) UTC"
 
       - name: Backlinks + IndexNow
         if: github.event.schedule != '50 23 * * *'

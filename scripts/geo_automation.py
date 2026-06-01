@@ -37,18 +37,22 @@ SECRETS_FILE = ROOT / ".secrets-setup"
 
 def load_local_secrets() -> None:
     """Load .secrets-setup (CRON_SECRET, INDEXNOW_KEY) — same file as setup-traffic-machine.sh."""
-    if not SECRETS_FILE.exists():
-        return
-    for line in SECRETS_FILE.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, _, val = line.partition("=")
-        key, val = key.strip(), val.strip().strip('"').strip("'")
-        if key and val and not os.getenv(key):
-            os.environ[key] = val
-    if not os.getenv("INDEXNOW_KEY"):
-        os.environ.setdefault("INDEXNOW_KEY", "065536e9ab94b89a3451fd0f5ea4a193")
+    if SECRETS_FILE.exists():
+        for line in SECRETS_FILE.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, val = line.partition("=")
+            key, val = key.strip(), val.strip().strip('"').strip("'")
+            if key and val and not os.getenv(key):
+                os.environ[key] = val
+    ensure_indexnow_key()
+
+
+def ensure_indexnow_key() -> None:
+    """GitHub often omits INDEXNOW_KEY secret — use public key file value (same as Vercel)."""
+    if not os.getenv("INDEXNOW_KEY", "").strip():
+        os.environ["INDEXNOW_KEY"] = "065536e9ab94b89a3451fd0f5ea4a193"
 
 AI_AGENTS = ("GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended")
 
@@ -384,11 +388,11 @@ def main() -> int:
     REPORT_PATH.write_text(json.dumps(report, indent=2), encoding="utf-8")
     log(f"Report → {REPORT_PATH}")
 
-    ok = True
+    # IndexNow failures are warnings in CI — do not fail the whole GEO job (cron/indexing are separate).
     for batch in report.get("indexnow") or []:
         if batch.get("ok") is False:
-            ok = False
-    return 0 if ok else 1
+            log(f"WARN IndexNow batch failed: {batch}")
+    return 0
 
 
 if __name__ == "__main__":

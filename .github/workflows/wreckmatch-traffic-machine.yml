@@ -143,8 +143,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog/*.md content/blog/es/*.md content/syndication/ content/autopilot/ public/blog/covers/generated/*.webp public/blog/presentations/*.pptx public/blog/presentations/es/*.pptx data/blog-cover-assignments.json
           git diff --staged --quiet && echo "changed=false" >> "$GITHUB_OUTPUT" && echo "No changes" && exit 0
-          git commit -m "content(traffic-machine): indexing assets + daily improvements"
-          git push
+          chmod +x scripts/ci/git_push_safe.sh
+          bash scripts/ci/git_push_safe.sh "content(traffic-machine): indexing assets + daily improvements"
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Backlinks + indexing (every 30 min)

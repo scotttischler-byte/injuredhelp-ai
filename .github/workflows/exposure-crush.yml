@@ -73,11 +73,16 @@ jobs:
               [ "$code" = "200" ] && break 2
             done
           done
+          ok=0
           for path in /api/indexing/cron; do
             code=$(curl -s -o /tmp/cron-out.json -w "%{http_code}" \
               -H "Authorization: Bearer $CRON_SECRET" "https://www.wreckmatch.com$path")
             echo "$path -> HTTP $code"
             head -c 500 /tmp/cron-out.json
             echo ""
-            [ "$code" = "200" ] && break
+            if [ "$code" = "200" ]; then ok=1; break; fi
           done
+          if [ "$ok" != "1" ]; then
+            echo "::warning::CRON_SECRET on GitHub does not match Vercel — sync secrets (see docs/GITHUB_SECRETS_ONE_TIME.md)"
+          fi
+          exit 0

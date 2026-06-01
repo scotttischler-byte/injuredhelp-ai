@@ -14,7 +14,11 @@ IndexNow key is already on **Vercel**. GitHub only needs **`CRON_SECRET`** so Ac
 3. Optional (not required — Vercel has it): **`INDEXNOW_KEY`**  
    - Value: `065536e9ab94b89a3451fd0f5ea4a193`
 
-4. Done. Traffic machine will call `https://www.wreckmatch.com/api/indexing/notify` after each publish.
+4. **Critical:** `CRON_SECRET` on GitHub must be **byte-for-byte identical** to Vercel Production. If workflows show `HTTP 401 unauthorized`, the secret was copied wrong or only set on one side.
+
+5. Done. Traffic machine will call `https://www.wreckmatch.com/api/indexing/notify` after each publish.
+
+See also: [GITHUB_ACTIONS_FAILURES.md](./GITHUB_ACTIONS_FAILURES.md)
 
 ## Terminal alternative
 

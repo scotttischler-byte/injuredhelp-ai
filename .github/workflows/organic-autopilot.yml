@@ -48,11 +48,21 @@ jobs:
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
         run: |
-          if [ -z "$CRON_SECRET" ]; then exit 0; fi
-          for path in /api/exposure/cron /api/indexing/cron; do
-            code=$(curl -s -o /tmp/o.json -w "%{http_code}" -H "Authorization: Bearer $CRON_SECRET" "https://www.wreckmatch.com$path")
-            echo "$path HTTP $code"
-            head -c 400 /tmp/o.json
-            echo ""
-            [ "$code" = "200" ] && break
+          if [ -z "$CRON_SECRET" ]; then
+            echo "::warning::CRON_SECRET missing on GitHub — set same value as Vercel Production"
+            exit 0
+          fi
+          ok=0
+          for origin in https://www.wreckmatch.com https://injuredhelp.ai; do
+            for path in /api/exposure/cron /api/indexing/cron; do
+              code=$(curl -s -o /tmp/o.json -w "%{http_code}" -H "Authorization: Bearer $CRON_SECRET" "$origin$path")
+              echo "$origin$path HTTP $code"
+              head -c 400 /tmp/o.json
+              echo ""
+              if [ "$code" = "200" ]; then ok=1; break 2; fi
+            done
           done
+          if [ "$ok" != "1" ]; then
+            echo "::warning::Production cron returned non-200 — update GitHub CRON_SECRET to match Vercel exactly"
+          fi
+          exit 0
