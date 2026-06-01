@@ -2740,3 +2740,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-01T13:32:58.779910+00:00] WARN organic_crush exit 1
+[2026-06-01T21:35:51.511286+00:00] Inject for 43 states not yet published today
+[2026-06-01T21:35:51.513089+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:35:51.570574+00:00] Daily 50-state rotation (2026-06-01): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-01T21:35:51.603345+00:00] Daily 50-state injection complete
+[2026-06-01T21:35:51.703398+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-01T21:35:51.705431+00:00] Loaded 239 cities from cities.ts
+[2026-06-01T21:35:51.763291+00:00] Daily 50-state rotation (2026-06-01): +1 new, 49 re-prioritized, 50 at queue front
+[2026-06-01T21:35:51.797248+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-01T21:35:51.799574+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arkansas', 'California', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida']
+[2026-06-01T21:35:51.803058+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:35:51.803927+00:00] Materializing template → platinum for insurance-denied-your-claim-in-phoenix-arizona-2026
+[2026-06-01T21:35:57.336766+00:00] After materialize: 100 / 3877w ([])
+[2026-06-01T21:35:57.338619+00:00] Spanish OK for insurance-denied-your-claim-in-phoenix-arizona-2026 (3175 words)
+[2026-06-01T21:35:57.341919+00:00] Spanish OK for insurance-denied-your-claim-in-phoenix-arizona-2026 (3175 words)
+[2026-06-01T21:35:57.563234+00:00] PPT EN insurance-denied-your-claim-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-phoenix-arizona-2026.pptx
+[2026-06-01T21:35:57.661502+00:00] PPT ES insurance-denied-your-claim-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-phoenix-arizona-2026.pptx
+[2026-06-01T21:35:57.661583+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-phoenix-arizona-2026.md
+[2026-06-01T21:35:57.692813+00:00] IndexNow queued for insurance-denied-your-claim-in-phoenix-arizona-2026
+[2026-06-01T21:35:59.738606+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:35:59.739469+00:00] Materializing template → platinum for insurance-denied-your-claim-in-denver-colorado-2026
+[2026-06-01T21:36:04.158505+00:00] After materialize: 100 / 3888w ([])
+[2026-06-01T21:36:04.160149+00:00] Spanish OK for insurance-denied-your-claim-in-denver-colorado-2026 (3177 words)
+[2026-06-01T21:36:04.163436+00:00] Spanish OK for insurance-denied-your-claim-in-denver-colorado-2026 (3177 words)
+[2026-06-01T21:36:04.264317+00:00] PPT EN insurance-denied-your-claim-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-denver-colorado-2026.pptx
+[2026-06-01T21:36:04.363467+00:00] PPT ES insurance-denied-your-claim-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-denver-colorado-2026.pptx
+[2026-06-01T21:36:04.363547+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-denver-colorado-2026.md
+[2026-06-01T21:36:04.394591+00:00] IndexNow queued for insurance-denied-your-claim-in-denver-colorado-2026
+[2026-06-01T21:36:06.437997+00:00] Quality 30 / 566w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-01T21:36:06.438939+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-atlanta-georgia-2026
+[2026-06-01T21:36:10.943405+00:00] After materialize: 100 / 3916w ([])
+[2026-06-01T21:36:10.945050+00:00] Spanish OK for what-to-do-after-a-car-accident-in-atlanta-georgia-2026 (3197 words)
+[2026-06-01T21:36:10.948533+00:00] Spanish OK for what-to-do-after-a-car-accident-in-atlanta-georgia-2026 (3197 words)
+[2026-06-01T21:36:11.049082+00:00] PPT EN what-to-do-after-a-car-accident-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-atlanta-georgia-2026.pptx
+[2026-06-01T21:36:11.148422+00:00] PPT ES what-to-do-after-a-car-accident-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-atlanta-georgia-2026.pptx
+[2026-06-01T21:36:11.148501+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-atlanta-georgia-2026.md
+[2026-06-01T21:36:11.180462+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-atlanta-georgia-2026
+[2026-06-01T21:36:11.180803+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-atlanta-georgia-2026.json
+[2026-06-01T21:36:11.222969+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-phoenix-arizona-2026', 'insurance-denied-your-claim-in-denver-colorado-2026', 'what-to-do-after-a-car-accident-in-atlanta-georgia-2026']
+[2026-06-01T21:36:11.229536+00:00] Daily ledger (UTC): 11/50 states, 13 EN posts
+[2026-06-01T21:36:11.502625+00:00] te] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-01T21:36:11.385341+00:00\",\n  \"stats\": {\n    \"enPosts\": 607,\n    \"esPosts\": 607,\n    \"platinumEn\": 588,\n    \"lastUpdated\": \"2026-06-01\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-phoenix-arizona-2026\",\n      \"insurance-denied-your-claim-in-denver-colorado-2026\",\n      \"what-to-do-after-a-car-accident-in-atlanta-georgia-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-01T21:36:11.502730+00:00] WARN organic_crush exit 1
