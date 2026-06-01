@@ -27,4 +27,4 @@ Do not run GEO manually unless debugging — rely on crons and Actions.
 
 **Read first:** [`docs/AGENT_BLOG_AUTOPILOT.md`](docs/AGENT_BLOG_AUTOPILOT.md) and [`.cursor/rules/multi-site-blog-autopilot.mdc`](.cursor/rules/multi-site-blog-autopilot.mdc).
 
-Every enabled site in `config/autopilot-sites.json` must publish **50 US states/day** (EN+ES platinum, PowerPoints) and run **indexing** after push. Operate via GitHub Actions + `scripts/publish_fifty_states_now.py` — do not wait for the user to ask. Onboard new sites with [`docs/MULTI_SITE_PLAYBOOK.md`](docs/MULTI_SITE_PLAYBOOK.md).
+Every enabled site in `config/autopilot-sites.json` must publish **50 US states/day** (EN+ES platinum, PowerPoints) and run **indexing** after push. Operate via GitHub Actions + `scripts/publish_fifty_states_now.py` — **24/7/365, no manual daily trigger** — see [`docs/PERMANENT_24_7_AUTOPILOT.md`](docs/PERMANENT_24_7_AUTOPILOT.md). Onboard new sites with [`docs/MULTI_SITE_PLAYBOOK.md`](docs/MULTI_SITE_PLAYBOOK.md).

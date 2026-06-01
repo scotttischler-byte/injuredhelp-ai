@@ -1284,12 +1284,19 @@ def materialize_template_to_platinum(
 ) -> tuple[str | None, Path | None]:
     """Write template, run expanders, return body if it meets the publish bar."""
     path = BLOG_DIR / f"{slug}.md"
-    if path.exists():
-        log(f"SKIP materialize {slug}: already exists")
-        return None, None
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
-    path.write_text(template_post(topic), encoding="utf-8")
-    log(f"Materializing template → platinum for {slug}")
+    if path.exists():
+        existing = path.read_text(encoding="utf-8")
+        report = score_post(slug, existing)
+        if meets_publish_bar(report, min_score, min_words):
+            log(f"SKIP materialize {slug}: already meets bar ({report.score}/{report.word_count}w)")
+            return existing, path
+        log(
+            f"Re-materializing stub {slug} ({report.score}/{report.word_count}w, {report.issues})"
+        )
+    else:
+        path.write_text(template_post(topic), encoding="utf-8")
+        log(f"Materializing template → platinum for {slug}")
     run_materialize_pipeline(slug)
     body = path.read_text(encoding="utf-8")
     body = append_seo_footer(topic, body)

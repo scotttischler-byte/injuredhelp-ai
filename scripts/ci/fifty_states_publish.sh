@@ -46,7 +46,7 @@ mkdir -p "$LOG_ROOT/autopilot"
   --site "$SITE_ID" \
   --batch-size 5 \
   --max-rounds "$ROUNDS" \
-  2>&1 | tee -a "$LOG_ROOT/autopilot/fifty_states_sprint.log"
+  2>&1 | tee -a "$LOG_ROOT/autopilot/fifty_states_sprint.log" || true
 
 "$PY" scripts/autopilot_daily_guard.py --record-only --site "$SITE_ID"
 

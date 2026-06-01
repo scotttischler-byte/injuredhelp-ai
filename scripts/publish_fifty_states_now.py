@@ -38,6 +38,11 @@ def main() -> int:
     p.add_argument("--site", default="wreckmatch")
     p.add_argument("--batch-size", type=int, default=5)
     p.add_argument("--max-rounds", type=int, default=12, help="Max publish rounds (batch-size each)")
+    p.add_argument(
+        "--strict",
+        action="store_true",
+        help="Exit 1 if SLA not met (end-of-day verify only). Default: exit 0 so 24/7 pulses keep running.",
+    )
     args = p.parse_args()
 
     site = resolve_site(args.site)
@@ -114,7 +119,13 @@ def main() -> int:
 
     have = states_published_on(today, log_path)
     print(f"\nFinal: {len(have)}/{target} states")
-    return 0 if len(have) >= target else 1
+    if len(have) >= target:
+        return 0
+    if args.strict:
+        print(f"STRICT: need {target} states, have {len(have)}", file=sys.stderr)
+        return 1
+    print(f"Partial progress OK ({len(have)}/{target}) — next scheduled run will continue.")
+    return 0
 
 
 if __name__ == "__main__":

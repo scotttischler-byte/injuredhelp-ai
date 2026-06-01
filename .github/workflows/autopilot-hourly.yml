@@ -84,7 +84,8 @@ jobs:
           .venv/bin/python scripts/publish_fifty_states_now.py \
             --site "${{ matrix.site }}" \
             --batch-size 3 \
-            --max-rounds 1
+            --max-rounds 1 \
+            || true
           .venv/bin/python scripts/autopilot_daily_guard.py --record-only --site "${{ matrix.site }}"
 
       - name: Commit and push
