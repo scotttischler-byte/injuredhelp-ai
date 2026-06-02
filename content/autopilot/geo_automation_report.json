@@ -1,5 +1,5 @@
 {
-  "at": "2026-06-01T19:59:50.772618+00:00",
+  "at": "2026-06-02T08:10:52.689566+00:00",
   "mode": "geo-automation",
   "opsChecklist": [
     "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
@@ -55,7 +55,7 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 200,
+          "status": 202,
           "ok": true
         }
       ],
@@ -63,7 +63,7 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "urlCount": 134,
+      "urlCount": 168,
       "ok": true,
       "results": [
         {
@@ -78,7 +78,7 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 200,
+          "status": 202,
           "ok": true
         }
       ],
