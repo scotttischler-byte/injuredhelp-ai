@@ -2016,3 +2016,53 @@ Node.js v24.14.1
 }
 
 [2026-06-02T12:52:43.718844+00:00] WARN organic_crush exit 1
+[2026-06-02T17:25:25.773583+00:00] Inject for 12 states not yet published today
+[2026-06-02T17:25:25.775296+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T17:25:25.776082+00:00] Daily 50-state rotation (2026-06-02): +0 new, 11 re-prioritized, 11 at queue front
+[2026-06-02T17:25:25.776761+00:00] Daily 50-state injection complete
+[2026-06-02T17:25:25.874135+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-02T17:25:25.876310+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T17:25:25.878112+00:00] Daily 50-state rotation (2026-06-02): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-02T17:25:25.878860+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-02T17:25:25.881425+00:00] States already published today (UTC): 39 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania']
+[2026-06-02T17:25:25.885029+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T17:25:25.886017+00:00] Materializing template → platinum for 18-wheeler-crash-in-providence-rhode-island-victim-guide-2026
+[2026-06-02T17:25:31.258717+00:00] After materialize: 100 / 4044w ([])
+[2026-06-02T17:25:31.260544+00:00] Spanish OK for 18-wheeler-crash-in-providence-rhode-island-victim-guide-2026 (3239 words)
+[2026-06-02T17:25:31.264053+00:00] Spanish OK for 18-wheeler-crash-in-providence-rhode-island-victim-guide-2026 (3239 words)
+[2026-06-02T17:25:31.458141+00:00] PPT EN 18-wheeler-crash-in-providence-rhode-island-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-providence-rhode-island-victim-guide-2026.pptx
+[2026-06-02T17:25:31.544388+00:00] PPT ES 18-wheeler-crash-in-providence-rhode-island-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-providence-rhode-island-victim-guide-2026.pptx
+[2026-06-02T17:25:31.544509+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-providence-rhode-island-victim-guide-2026.md
+[2026-06-02T17:25:31.578024+00:00] IndexNow queued for 18-wheeler-crash-in-providence-rhode-island-victim-guide-2026
+[2026-06-02T17:25:33.582561+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T17:25:33.583578+00:00] Materializing template → platinum for 18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026
+[2026-06-02T17:25:37.575273+00:00] After materialize: 100 / 4046w ([])
+[2026-06-02T17:25:37.576953+00:00] Spanish OK for 18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026 (3243 words)
+[2026-06-02T17:25:37.580509+00:00] Spanish OK for 18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026 (3243 words)
+[2026-06-02T17:25:37.668934+00:00] PPT EN 18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026.pptx
+[2026-06-02T17:25:37.757893+00:00] PPT ES 18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026.pptx
+[2026-06-02T17:25:37.757996+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026.md
+[2026-06-02T17:25:37.791470+00:00] IndexNow queued for 18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026
+[2026-06-02T17:25:39.795420+00:00] Quality 30 / 650w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T17:25:39.796454+00:00] Materializing template → platinum for 18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026
+[2026-06-02T17:25:43.813718+00:00] After materialize: 100 / 4055w ([])
+[2026-06-02T17:25:43.815444+00:00] Spanish OK for 18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026 (3259 words)
+[2026-06-02T17:25:43.818971+00:00] Spanish OK for 18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026 (3259 words)
+[2026-06-02T17:25:43.904708+00:00] PPT EN 18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026.pptx
+[2026-06-02T17:25:43.988328+00:00] PPT ES 18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026.pptx
+[2026-06-02T17:25:43.988445+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026.md
+[2026-06-02T17:25:44.022042+00:00] IndexNow queued for 18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026
+[2026-06-02T17:25:44.022436+00:00] Syndication → sites/semitruckmatch/content/syndication/18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026.json
+[2026-06-02T17:25:44.025332+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['18-wheeler-crash-in-providence-rhode-island-victim-guide-2026', '18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026', '18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026']
+[2026-06-02T17:25:44.032243+00:00] Daily ledger (UTC): 42/50 states, 42 EN posts
+[2026-06-02T17:25:44.324059+00:00] rida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T17:25:44.197048+00:00\",\n  \"stats\": {\n    \"enPosts\": 641,\n    \"esPosts\": 641,\n    \"platinumEn\": 622,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-providence-rhode-island-victim-guide-2026\",\n      \"18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026\",\n      \"18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-02T17:25:44.324184+00:00] WARN organic_crush exit 1

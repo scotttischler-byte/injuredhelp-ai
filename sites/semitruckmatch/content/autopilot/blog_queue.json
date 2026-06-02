@@ -99,11 +99,14 @@
     "18-wheeler-crash-in-columbus-ohio-victim-guide-2026",
     "18-wheeler-crash-in-oklahoma-city-oklahoma-victim-guide-2026",
     "18-wheeler-crash-in-portland-oregon-victim-guide-2026",
-    "18-wheeler-crash-in-philadelphia-pennsylvania-victim-guide-2026"
+    "18-wheeler-crash-in-philadelphia-pennsylvania-victim-guide-2026",
+    "18-wheeler-crash-in-providence-rhode-island-victim-guide-2026",
+    "18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026",
+    "18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026"
   ],
   "stats": {
-    "total_published": 98,
-    "last_run_at": "2026-06-02T12:52:43.428724+00:00"
+    "total_published": 101,
+    "last_run_at": "2026-06-02T17:25:44.022496+00:00"
   },
   "pending": [
     {
@@ -549,43 +552,69 @@
       "slug": "truck-accident-in-charlotte-north-carolina-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Providence, Rhode Island \u2014 Victim Guide (2026)",
-      "city": "Providence",
-      "state": "Rhode Island",
-      "place_slug": "providence",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Fargo, North Dakota: Steps & Legal Help (2026)",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "place_slug": "fargo",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-providence-rhode-island-victim-guide-2026"
+      "slug": "truck-accident-in-fargo-north-dakota-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Charleston, South Carolina \u2014 Victim Guide (2026)",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "place_slug": "charleston",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Columbus, Ohio: Steps & Legal Help (2026)",
+      "city": "Columbus",
+      "state": "Ohio",
+      "place_slug": "columbus",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026"
+      "slug": "truck-accident-in-columbus-ohio-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Sioux Falls, South Dakota \u2014 Victim Guide (2026)",
-      "city": "Sioux Falls",
-      "state": "South Dakota",
-      "place_slug": "sioux-falls",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Oklahoma City, Oklahoma: Steps & Legal Help (2026)",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "place_slug": "oklahoma-city",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026"
+      "slug": "truck-accident-in-oklahoma-city-oklahoma-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Portland, Oregon: Steps & Legal Help (2026)",
+      "city": "Portland",
+      "state": "Oregon",
+      "place_slug": "portland",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-portland-oregon-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Philadelphia, Pennsylvania: Steps & Legal Help (2026)",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "place_slug": "philadelphia",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026"
     },
     {
       "angle": "18-wheeler-crash",
