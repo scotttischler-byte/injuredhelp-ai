@@ -15,15 +15,17 @@ excerpt: >-
   tactics, and free attorney matching in ~60 seconds via SemiTruckMatch.
 autopilot: true
 vertical: truck
-qualityTier: "platinum"
-authorId: "scott-tischler"
-reviewerId: "roy-waddell"
+qualityTier: platinum
+authorId: scott-tischler
+reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026
-presentationUrl: "/blog/presentations/es/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.pptx
+presentationUrlEn: >-
   /blog/presentations/18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026.pptx
 ---
 ## Por qué publicamos esta guía para Washington District Of Columbia Victim Guide
