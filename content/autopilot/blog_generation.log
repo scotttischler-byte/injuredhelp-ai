@@ -2840,3 +2840,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-01T23:28:57.689646+00:00] WARN organic_crush exit 1
+[2026-06-02T04:05:52.849892+00:00] Inject for 51 states not yet published today
+[2026-06-02T04:05:52.851686+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T04:05:52.910555+00:00] Daily 50-state rotation (2026-06-02): +1 new, 49 re-prioritized, 50 at queue front
+[2026-06-02T04:05:52.945271+00:00] Daily 50-state injection complete
+[2026-06-02T04:05:53.053604+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-02T04:05:53.056043+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T04:05:53.113391+00:00] Daily 50-state rotation (2026-06-02): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-02T04:05:53.149444+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-02T04:05:53.151640+00:00] States already published today (UTC): 0 — []
+[2026-06-02T04:05:53.155054+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T04:05:53.156381+00:00] Materializing template → platinum for semi-truck-accident-in-birmingham-alabama-what-to-do-2026
+[2026-06-02T04:05:59.075830+00:00] After materialize: 100 / 4003w ([])
+[2026-06-02T04:05:59.077655+00:00] Spanish OK for semi-truck-accident-in-birmingham-alabama-what-to-do-2026 (3222 words)
+[2026-06-02T04:05:59.081180+00:00] Spanish OK for semi-truck-accident-in-birmingham-alabama-what-to-do-2026 (3222 words)
+[2026-06-02T04:05:59.311871+00:00] PPT EN semi-truck-accident-in-birmingham-alabama-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-birmingham-alabama-what-to-do-2026.pptx
+[2026-06-02T04:05:59.398392+00:00] PPT ES semi-truck-accident-in-birmingham-alabama-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-birmingham-alabama-what-to-do-2026.pptx
+[2026-06-02T04:05:59.398490+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-birmingham-alabama-what-to-do-2026.md
+[2026-06-02T04:05:59.431791+00:00] IndexNow queued for semi-truck-accident-in-birmingham-alabama-what-to-do-2026
+[2026-06-02T04:06:01.480757+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T04:06:01.481654+00:00] Materializing template → platinum for alaska-car-accident-statute-of-limitations-anchorage-2026
+[2026-06-02T04:06:06.083947+00:00] After materialize: 100 / 3882w ([])
+[2026-06-02T04:06:06.085570+00:00] Spanish OK for alaska-car-accident-statute-of-limitations-anchorage-2026 (3181 words)
+[2026-06-02T04:06:06.089028+00:00] Spanish OK for alaska-car-accident-statute-of-limitations-anchorage-2026 (3181 words)
+[2026-06-02T04:06:06.177253+00:00] PPT EN alaska-car-accident-statute-of-limitations-anchorage-2026: 14 slides (score 100) → /blog/presentations/alaska-car-accident-statute-of-limitations-anchorage-2026.pptx
+[2026-06-02T04:06:06.263433+00:00] PPT ES alaska-car-accident-statute-of-limitations-anchorage-2026: 14 slides (score 100) → /blog/presentations/es/alaska-car-accident-statute-of-limitations-anchorage-2026.pptx
+[2026-06-02T04:06:06.263533+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/alaska-car-accident-statute-of-limitations-anchorage-2026.md
+[2026-06-02T04:06:06.296670+00:00] IndexNow queued for alaska-car-accident-statute-of-limitations-anchorage-2026
+[2026-06-02T04:06:08.342015+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T04:06:08.342950+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-phoenix-arizona-2026
+[2026-06-02T04:06:12.947041+00:00] After materialize: 100 / 3872w ([])
+[2026-06-02T04:06:12.948611+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-phoenix-arizona-2026 (3185 words)
+[2026-06-02T04:06:12.952087+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-phoenix-arizona-2026 (3185 words)
+[2026-06-02T04:06:13.038855+00:00] PPT EN 7-costly-car-accident-mistakes-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-phoenix-arizona-2026.pptx
+[2026-06-02T04:06:13.125838+00:00] PPT ES 7-costly-car-accident-mistakes-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-phoenix-arizona-2026.pptx
+[2026-06-02T04:06:13.125994+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-phoenix-arizona-2026.md
+[2026-06-02T04:06:13.159475+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-phoenix-arizona-2026
+[2026-06-02T04:06:13.159855+00:00] Syndication → content/syndication/7-costly-car-accident-mistakes-in-phoenix-arizona-2026.json
+[2026-06-02T04:06:13.205013+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-birmingham-alabama-what-to-do-2026', 'alaska-car-accident-statute-of-limitations-anchorage-2026', '7-costly-car-accident-mistakes-in-phoenix-arizona-2026']
+[2026-06-02T04:06:13.211742+00:00] Daily ledger (UTC): 2/50 states, 3 EN posts
+[2026-06-02T04:06:13.502747+00:00] ccident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T04:06:13.375616+00:00\",\n  \"stats\": {\n    \"enPosts\": 613,\n    \"esPosts\": 613,\n    \"platinumEn\": 594,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-birmingham-alabama-what-to-do-2026\",\n      \"alaska-car-accident-statute-of-limitations-anchorage-2026\",\n      \"7-costly-car-accident-mistakes-in-phoenix-arizona-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-02T04:06:13.502862+00:00] WARN organic_crush exit 1

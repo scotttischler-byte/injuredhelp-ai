@@ -515,52 +515,16 @@
     "what-to-do-after-a-car-accident-in-atlanta-georgia-2026",
     "semi-truck-accident-in-honolulu-hawaii-what-to-do-2026",
     "semi-truck-accident-in-boise-idaho-what-to-do-2026",
-    "what-to-do-after-a-car-accident-in-chicago-illinois-2026"
+    "what-to-do-after-a-car-accident-in-chicago-illinois-2026",
+    "semi-truck-accident-in-birmingham-alabama-what-to-do-2026",
+    "alaska-car-accident-statute-of-limitations-anchorage-2026",
+    "7-costly-car-accident-mistakes-in-phoenix-arizona-2026"
   ],
   "stats": {
-    "total_published": 514,
-    "last_run_at": "2026-06-01T23:28:57.371240+00:00"
+    "total_published": 517,
+    "last_run_at": "2026-06-02T04:06:13.159952+00:00"
   },
   "pending": [
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Birmingham, Alabama: What to Do (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-birmingham-alabama-what-to-do-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Alaska Car Accident Statute of Limitations \u2014 Anchorage (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "alaska-car-accident-statute-of-limitations-anchorage-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Phoenix, Arizona (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-phoenix-arizona-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
-    },
     {
       "angle": "statute-of-limitations",
       "title": "Arkansas Car Accident Statute of Limitations \u2014 Little Rock (2026)",
@@ -661,6 +625,45 @@
       "priority": -2,
       "vertical": "auto",
       "slug": "georgia-car-accident-statute-of-limitations-atlanta-2026",
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Hawaii Car Accident Statute of Limitations \u2014 Honolulu (2026)",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "place_slug": "honolulu",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hawaii-car-accident-statute-of-limitations-honolulu-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Idaho Car Accident Statute of Limitations \u2014 Boise (2026)",
+      "city": "Boise",
+      "state": "Idaho",
+      "place_slug": "boise",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "idaho-car-accident-statute-of-limitations-boise-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Illinois Car Accident Statute of Limitations \u2014 Chicago (2026)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
+      "priority": -2,
+      "vertical": "auto",
+      "slug": "illinois-car-accident-statute-of-limitations-chicago-2026",
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true
@@ -1044,7 +1047,7 @@
     },
     {
       "angle": "insurance-denied",
-      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-01)",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-02)",
       "city": "Houston",
       "state": "Texas",
       "place_slug": "houston",
@@ -1053,7 +1056,7 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-01"
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-02"
     },
     {
       "angle": "semi-truck-accident",
@@ -1132,6 +1135,19 @@
       "slug": "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-01)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-01"
     },
     {
       "angle": "truck-accident",
@@ -1750,16 +1766,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-atlanta-crash-georgia-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Illinois Car Accident Statute of Limitations \u2014 Chicago (2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "illinois-car-accident-statute-of-limitations-chicago-2026"
     },
     {
       "angle": "insurance-denied",
@@ -35020,17 +35026,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-honolulu-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Hawaii Car Accident Statute of Limitations \u2014 Honolulu (2026)",
-      "city": "Honolulu",
-      "state": "Hawaii",
-      "place_slug": "honolulu",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hawaii-car-accident-statute-of-limitations-honolulu-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Honolulu, Hawaii (2026)",
       "city": "Honolulu",
@@ -35304,17 +35299,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-boise-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Idaho Car Accident Statute of Limitations \u2014 Boise (2026)",
-      "city": "Boise",
-      "state": "Idaho",
-      "place_slug": "boise",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "idaho-car-accident-statute-of-limitations-boise-2026"
     },
     {
       "angle": "uninsured-driver",
