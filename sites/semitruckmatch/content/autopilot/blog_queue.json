@@ -78,11 +78,14 @@
     "18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026",
     "18-wheeler-crash-in-des-moines-iowa-victim-guide-2026",
     "18-wheeler-crash-in-wichita-kansas-victim-guide-2026",
-    "18-wheeler-crash-in-louisville-kentucky-victim-guide-2026"
+    "18-wheeler-crash-in-louisville-kentucky-victim-guide-2026",
+    "18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026",
+    "18-wheeler-crash-in-portland-maine-victim-guide-2026",
+    "18-wheeler-crash-in-baltimore-maryland-victim-guide-2026"
   ],
   "stats": {
-    "total_published": 77,
-    "last_run_at": "2026-06-02T08:05:05.055455+00:00"
+    "total_published": 80,
+    "last_run_at": "2026-06-02T08:44:54.403315+00:00"
   },
   "pending": [
     {
@@ -255,43 +258,69 @@
       "slug": "truck-accident-in-boise-idaho-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in New Orleans, Louisiana \u2014 Victim Guide (2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Chicago, Illinois: Steps & Legal Help (2026)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
-      "firm_state": false,
+      "firm_state": true,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-new-orleans-louisiana-victim-guide-2026"
+      "slug": "truck-accident-in-chicago-illinois-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Portland, Maine \u2014 Victim Guide (2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Indianapolis, Indiana: Steps & Legal Help (2026)",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "place_slug": "indianapolis",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-portland-maine-victim-guide-2026"
+      "slug": "truck-accident-in-indianapolis-indiana-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Baltimore, Maryland \u2014 Victim Guide (2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Des Moines, Iowa: Steps & Legal Help (2026)",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "place_slug": "des-moines",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-baltimore-maryland-victim-guide-2026"
+      "slug": "truck-accident-in-des-moines-iowa-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Wichita, Kansas: Steps & Legal Help (2026)",
+      "city": "Wichita",
+      "state": "Kansas",
+      "place_slug": "wichita",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-wichita-kansas-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Louisville, Kentucky: Steps & Legal Help (2026)",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "place_slug": "louisville",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-louisville-kentucky-steps-legal-help-2026"
     },
     {
       "angle": "18-wheeler-crash",
