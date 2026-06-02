@@ -102,11 +102,19 @@
     "18-wheeler-crash-in-philadelphia-pennsylvania-victim-guide-2026",
     "18-wheeler-crash-in-providence-rhode-island-victim-guide-2026",
     "18-wheeler-crash-in-charleston-south-carolina-victim-guide-2026",
-    "18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026"
+    "18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026",
+    "18-wheeler-crash-in-nashville-tennessee-victim-guide-2026",
+    "18-wheeler-crash-in-houston-texas-victim-guide-2026",
+    "18-wheeler-crash-in-salt-lake-city-utah-victim-guide-2026",
+    "18-wheeler-crash-in-burlington-vermont-victim-guide-2026",
+    "18-wheeler-crash-in-virginia-beach-virginia-victim-guide-2026",
+    "18-wheeler-crash-in-seattle-washington-victim-guide-2026",
+    "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026",
+    "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026"
   ],
   "stats": {
-    "total_published": 101,
-    "last_run_at": "2026-06-02T17:25:44.022496+00:00"
+    "total_published": 109,
+    "last_run_at": "2026-06-02T18:53:19.398235+00:00"
   },
   "pending": [
     {
@@ -617,8 +625,47 @@
       "slug": "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Nashville, Tennessee \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Providence, Rhode Island: Steps & Legal Help (2026)",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "place_slug": "providence",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-providence-rhode-island-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Charleston, South Carolina: Steps & Legal Help (2026)",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "place_slug": "charleston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-charleston-south-carolina-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Sioux Falls, South Dakota: Steps & Legal Help (2026)",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "place_slug": "sioux-falls",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-sioux-falls-south-dakota-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Nashville, Tennessee: Steps & Legal Help (2026)",
       "city": "Nashville",
       "state": "Tennessee",
       "place_slug": "nashville",
@@ -627,11 +674,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-nashville-tennessee-victim-guide-2026"
+      "slug": "truck-accident-in-nashville-tennessee-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Houston, Texas \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Houston, Texas: Steps & Legal Help (2026)",
       "city": "Houston",
       "state": "Texas",
       "place_slug": "houston",
@@ -640,11 +687,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-houston-texas-victim-guide-2026"
+      "slug": "truck-accident-in-houston-texas-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Salt Lake City, Utah \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Salt Lake City, Utah: Steps & Legal Help (2026)",
       "city": "Salt Lake City",
       "state": "Utah",
       "place_slug": "salt-lake-city",
@@ -653,11 +700,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-salt-lake-city-utah-victim-guide-2026"
+      "slug": "truck-accident-in-salt-lake-city-utah-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Burlington, Vermont \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Burlington, Vermont: Steps & Legal Help (2026)",
       "city": "Burlington",
       "state": "Vermont",
       "place_slug": "burlington",
@@ -666,11 +713,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-burlington-vermont-victim-guide-2026"
+      "slug": "truck-accident-in-burlington-vermont-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Virginia Beach, Virginia \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Virginia Beach, Virginia: Steps & Legal Help (2026)",
       "city": "Virginia Beach",
       "state": "Virginia",
       "place_slug": "virginia-beach",
@@ -679,46 +726,7 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-virginia-beach-virginia-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Seattle, Washington \u2014 Victim Guide (2026)",
-      "city": "Seattle",
-      "state": "Washington",
-      "place_slug": "seattle",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-seattle-washington-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Charleston, West Virginia \u2014 Victim Guide (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Milwaukee, Wisconsin \u2014 Victim Guide (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026"
+      "slug": "truck-accident-in-virginia-beach-virginia-steps-legal-help-2026"
     }
   ],
   "skipped_slugs": [
