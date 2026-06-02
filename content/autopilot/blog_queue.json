@@ -546,11 +546,14 @@
     "semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026",
     "semi-truck-accident-in-portland-maine-what-to-do-2026",
     "semi-truck-accident-in-baltimore-maryland-what-to-do-2026",
-    "semi-truck-accident-in-boston-massachusetts-what-to-do-2026"
+    "semi-truck-accident-in-boston-massachusetts-what-to-do-2026",
+    "insurance-denied-your-claim-in-boise-idaho-2026",
+    "insurance-denied-your-claim-in-chicago-illinois-2026",
+    "semi-truck-accident-in-detroit-michigan-what-to-do-2026"
   ],
   "stats": {
-    "total_published": 545,
-    "last_run_at": "2026-06-02T12:01:25.445842+00:00"
+    "total_published": 548,
+    "last_run_at": "2026-06-02T17:25:46.181615+00:00"
   },
   "pending": [
     {
@@ -710,15 +713,106 @@
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Detroit, Michigan: What to Do (2026)",
-      "city": "Detroit",
-      "state": "Michigan",
-      "place_slug": "detroit",
+      "angle": "statute-of-limitations",
+      "title": "Indiana Car Accident Statute of Limitations \u2014 Indianapolis (2026)",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "place_slug": "indianapolis",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-detroit-michigan-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "indiana-car-accident-statute-of-limitations-indianapolis-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Iowa Car Accident Statute of Limitations \u2014 Des Moines (2026)",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "place_slug": "des-moines",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "iowa-car-accident-statute-of-limitations-des-moines-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Kansas Car Accident Statute of Limitations \u2014 Wichita (2026)",
+      "city": "Wichita",
+      "state": "Kansas",
+      "place_slug": "wichita",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "kansas-car-accident-statute-of-limitations-wichita-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Kentucky Car Accident Statute of Limitations \u2014 Louisville (2026)",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "place_slug": "louisville",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "kentucky-car-accident-statute-of-limitations-louisville-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Louisiana Car Accident Statute of Limitations \u2014 New Orleans (2026)",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "place_slug": "new-orleans",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "louisiana-car-accident-statute-of-limitations-new-orleans-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Maine Car Accident Statute of Limitations \u2014 Portland (2026)",
+      "city": "Portland",
+      "state": "Maine",
+      "place_slug": "portland",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "maine-car-accident-statute-of-limitations-portland-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Maryland Car Accident Statute of Limitations \u2014 Baltimore (2026)",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "place_slug": "baltimore",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "maryland-car-accident-statute-of-limitations-baltimore-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Massachusetts Car Accident Statute of Limitations \u2014 Boston (2026)",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "place_slug": "boston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "massachusetts-car-accident-statute-of-limitations-boston-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -1219,18 +1313,6 @@
       "daily_state_rotation": true
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Iowa Car Accident Statute of Limitations \u2014 Des Moines (2026)",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "place_slug": "des-moines",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "iowa-car-accident-statute-of-limitations-des-moines-2026",
-      "daily_state_rotation": true
-    },
-    {
       "angle": "insurance-denied",
       "title": "Insurance Denied Your Claim in Wichita? (Kansas 2026)",
       "city": "Wichita",
@@ -1643,16 +1725,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-atlanta-crash-georgia-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Chicago? (Illinois 2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-chicago-illinois-2026"
     },
     {
       "angle": "common-mistakes",
@@ -34970,17 +35042,6 @@
       "slug": "7-costly-car-accident-mistakes-in-boise-idaho-2026"
     },
     {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Boise? (Idaho 2026)",
-      "city": "Boise",
-      "state": "Idaho",
-      "place_slug": "boise",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-boise-idaho-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Boise Crash? (Idaho 2026)",
       "city": "Boise",
@@ -35573,17 +35634,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-indianapolis-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Indiana Car Accident Statute of Limitations \u2014 Indianapolis (2026)",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "place_slug": "indianapolis",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "indiana-car-accident-statute-of-limitations-indianapolis-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -36422,17 +36472,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-wichita-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Kansas Car Accident Statute of Limitations \u2014 Wichita (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "kansas-car-accident-statute-of-limitations-wichita-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Wichita, Kansas (2026)",
       "city": "Wichita",
@@ -36695,17 +36734,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-louisville-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Kentucky Car Accident Statute of Limitations \u2014 Louisville (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "kentucky-car-accident-statute-of-limitations-louisville-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -37082,17 +37110,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-new-orleans-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Louisiana Car Accident Statute of Limitations \u2014 New Orleans (2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "louisiana-car-accident-statute-of-limitations-new-orleans-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in New Orleans, Louisiana (2026)",
       "city": "New Orleans",
@@ -37456,17 +37473,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-portland-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Maine Car Accident Statute of Limitations \u2014 Portland (2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "maine-car-accident-statute-of-limitations-portland-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Portland, Maine (2026)",
       "city": "Portland",
@@ -37641,17 +37647,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-baltimore-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Maryland Car Accident Statute of Limitations \u2014 Baltimore (2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "maryland-car-accident-statute-of-limitations-baltimore-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -38015,17 +38010,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-boston-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Massachusetts Car Accident Statute of Limitations \u2014 Boston (2026)",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "place_slug": "boston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "massachusetts-car-accident-statute-of-limitations-boston-2026"
     },
     {
       "angle": "uninsured-driver",

@@ -3259,3 +3259,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-02T12:01:25.778459+00:00] WARN organic_crush exit 1
+[2026-06-02T17:25:24.803822+00:00] Inject for 30 states not yet published today
+[2026-06-02T17:25:24.805656+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T17:25:24.859357+00:00] Daily 50-state rotation (2026-06-02): +0 new, 29 re-prioritized, 29 at queue front
+[2026-06-02T17:25:24.893743+00:00] Daily 50-state injection complete
+[2026-06-02T17:25:24.996980+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-02T17:25:24.999085+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T17:25:25.070060+00:00] Daily 50-state rotation (2026-06-02): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-02T17:25:25.110245+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-02T17:25:25.113699+00:00] States already published today (UTC): 21 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Washington']
+[2026-06-02T17:25:25.117026+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T17:25:25.117912+00:00] Materializing template → platinum for insurance-denied-your-claim-in-boise-idaho-2026
+[2026-06-02T17:25:32.054729+00:00] After materialize: 100 / 3877w ([])
+[2026-06-02T17:25:32.056756+00:00] Spanish OK for insurance-denied-your-claim-in-boise-idaho-2026 (3179 words)
+[2026-06-02T17:25:32.060031+00:00] Spanish OK for insurance-denied-your-claim-in-boise-idaho-2026 (3179 words)
+[2026-06-02T17:25:32.536825+00:00] PPT EN insurance-denied-your-claim-in-boise-idaho-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-boise-idaho-2026.pptx
+[2026-06-02T17:25:32.622624+00:00] PPT ES insurance-denied-your-claim-in-boise-idaho-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-boise-idaho-2026.pptx
+[2026-06-02T17:25:32.622723+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-boise-idaho-2026.md
+[2026-06-02T17:25:32.656043+00:00] IndexNow queued for insurance-denied-your-claim-in-boise-idaho-2026
+[2026-06-02T17:25:34.704313+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T17:25:34.705207+00:00] Materializing template → platinum for insurance-denied-your-claim-in-chicago-illinois-2026
+[2026-06-02T17:25:39.366041+00:00] After materialize: 100 / 3888w ([])
+[2026-06-02T17:25:39.367559+00:00] Spanish OK for insurance-denied-your-claim-in-chicago-illinois-2026 (3177 words)
+[2026-06-02T17:25:39.370971+00:00] Spanish OK for insurance-denied-your-claim-in-chicago-illinois-2026 (3177 words)
+[2026-06-02T17:25:39.458819+00:00] PPT EN insurance-denied-your-claim-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-chicago-illinois-2026.pptx
+[2026-06-02T17:25:39.544308+00:00] PPT ES insurance-denied-your-claim-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-chicago-illinois-2026.pptx
+[2026-06-02T17:25:39.544402+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-chicago-illinois-2026.md
+[2026-06-02T17:25:39.577238+00:00] IndexNow queued for insurance-denied-your-claim-in-chicago-illinois-2026
+[2026-06-02T17:25:41.622205+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T17:25:41.623177+00:00] Materializing template → platinum for semi-truck-accident-in-detroit-michigan-what-to-do-2026
+[2026-06-02T17:25:45.970773+00:00] After materialize: 100 / 4008w ([])
+[2026-06-02T17:25:45.972324+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-what-to-do-2026 (3232 words)
+[2026-06-02T17:25:45.975818+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-what-to-do-2026 (3232 words)
+[2026-06-02T17:25:46.062131+00:00] PPT EN semi-truck-accident-in-detroit-michigan-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-detroit-michigan-what-to-do-2026.pptx
+[2026-06-02T17:25:46.147852+00:00] PPT ES semi-truck-accident-in-detroit-michigan-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-detroit-michigan-what-to-do-2026.pptx
+[2026-06-02T17:25:46.147945+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-detroit-michigan-what-to-do-2026.md
+[2026-06-02T17:25:46.181151+00:00] IndexNow queued for semi-truck-accident-in-detroit-michigan-what-to-do-2026
+[2026-06-02T17:25:46.181541+00:00] Syndication → content/syndication/semi-truck-accident-in-detroit-michigan-what-to-do-2026.json
+[2026-06-02T17:25:46.225909+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-boise-idaho-2026', 'insurance-denied-your-claim-in-chicago-illinois-2026', 'semi-truck-accident-in-detroit-michigan-what-to-do-2026']
+[2026-06-02T17:25:46.233401+00:00] Daily ledger (UTC): 24/50 states, 34 EN posts
+[2026-06-02T17:25:46.522229+00:00] state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T17:25:46.397888+00:00\",\n  \"stats\": {\n    \"enPosts\": 644,\n    \"esPosts\": 644,\n    \"platinumEn\": 625,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-boise-idaho-2026\",\n      \"insurance-denied-your-claim-in-chicago-illinois-2026\",\n      \"semi-truck-accident-in-detroit-michigan-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-02T17:25:46.522349+00:00] WARN organic_crush exit 1
