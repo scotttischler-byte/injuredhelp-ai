@@ -549,11 +549,26 @@
     "semi-truck-accident-in-boston-massachusetts-what-to-do-2026",
     "insurance-denied-your-claim-in-boise-idaho-2026",
     "insurance-denied-your-claim-in-chicago-illinois-2026",
-    "semi-truck-accident-in-detroit-michigan-what-to-do-2026"
+    "semi-truck-accident-in-detroit-michigan-what-to-do-2026",
+    "semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026",
+    "semi-truck-accident-in-jackson-mississippi-what-to-do-2026",
+    "semi-truck-accident-in-kansas-city-missouri-what-to-do-2026",
+    "semi-truck-accident-in-billings-montana-what-to-do-2026",
+    "semi-truck-accident-in-omaha-nebraska-what-to-do-2026",
+    "semi-truck-accident-in-las-vegas-nevada-what-to-do-2026",
+    "semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026",
+    "semi-truck-accident-in-newark-new-jersey-what-to-do-2026",
+    "semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026",
+    "semi-truck-accident-in-new-york-city-new-york-what-to-do-2026",
+    "north-carolina-car-accident-statute-of-limitations-charlotte-2026",
+    "semi-truck-accident-in-fargo-north-dakota-what-to-do-2026",
+    "ohio-car-accident-statute-of-limitations-columbus-2026",
+    "semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026",
+    "semi-truck-accident-in-portland-oregon-what-to-do-2026"
   ],
   "stats": {
-    "total_published": 548,
-    "last_run_at": "2026-06-02T17:25:46.181615+00:00"
+    "total_published": 563,
+    "last_run_at": "2026-06-02T18:54:15.138548+00:00"
   },
   "pending": [
     {
@@ -713,6 +728,32 @@
       "top_city": true
     },
     {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Boise, Idaho (2026)",
+      "city": "Boise",
+      "state": "Idaho",
+      "place_slug": "boise",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-boise-idaho-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Chicago, Illinois (2026)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
+      "priority": -2,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-chicago-illinois-2026",
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true
+    },
+    {
       "angle": "statute-of-limitations",
       "title": "Indiana Car Accident Statute of Limitations \u2014 Indianapolis (2026)",
       "city": "Indianapolis",
@@ -817,197 +858,145 @@
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Minneapolis, Minnesota: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Michigan Car Accident Statute of Limitations \u2014 Detroit (2026)",
+      "city": "Detroit",
+      "state": "Michigan",
+      "place_slug": "detroit",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "michigan-car-accident-statute-of-limitations-detroit-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Minnesota Car Accident Statute of Limitations \u2014 Minneapolis (2026)",
       "city": "Minneapolis",
       "state": "Minnesota",
       "place_slug": "minneapolis",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "minnesota-car-accident-statute-of-limitations-minneapolis-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Jackson, Mississippi: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Mississippi Car Accident Statute of Limitations \u2014 Jackson (2026)",
       "city": "Jackson",
       "state": "Mississippi",
       "place_slug": "jackson",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-jackson-mississippi-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "mississippi-car-accident-statute-of-limitations-jackson-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Kansas City, Missouri: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Missouri Car Accident Statute of Limitations \u2014 Kansas City (2026)",
       "city": "Kansas City",
       "state": "Missouri",
       "place_slug": "kansas-city",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-kansas-city-missouri-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "missouri-car-accident-statute-of-limitations-kansas-city-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Billings, Montana: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Montana Car Accident Statute of Limitations \u2014 Billings (2026)",
       "city": "Billings",
       "state": "Montana",
       "place_slug": "billings",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-billings-montana-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "montana-car-accident-statute-of-limitations-billings-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Omaha, Nebraska: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Nebraska Car Accident Statute of Limitations \u2014 Omaha (2026)",
       "city": "Omaha",
       "state": "Nebraska",
       "place_slug": "omaha",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-omaha-nebraska-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "nebraska-car-accident-statute-of-limitations-omaha-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Las Vegas, Nevada: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Nevada Car Accident Statute of Limitations \u2014 Las Vegas (2026)",
       "city": "Las Vegas",
       "state": "Nevada",
       "place_slug": "las-vegas",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-las-vegas-nevada-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "nevada-car-accident-statute-of-limitations-las-vegas-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Manchester, New Hampshire: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "New Hampshire Car Accident Statute of Limitations \u2014 Manchester (2026)",
       "city": "Manchester",
       "state": "New Hampshire",
       "place_slug": "manchester",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "new-hampshire-car-accident-statute-of-limitations-manchester-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Newark, New Jersey: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "New Jersey Car Accident Statute of Limitations \u2014 Newark (2026)",
       "city": "Newark",
       "state": "New Jersey",
       "place_slug": "newark",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-newark-new-jersey-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "new-jersey-car-accident-statute-of-limitations-newark-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Albuquerque, New Mexico: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "New Mexico Car Accident Statute of Limitations \u2014 Albuquerque (2026)",
       "city": "Albuquerque",
       "state": "New Mexico",
       "place_slug": "albuquerque",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "new-mexico-car-accident-statute-of-limitations-albuquerque-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in New York City, New York: What to Do (2026)",
+      "angle": "statute-of-limitations",
+      "title": "New York Car Accident Statute of Limitations \u2014 New York City (2026)",
       "city": "New York City",
       "state": "New York",
       "place_slug": "new-york-city",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-new-york-city-new-york-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "North Carolina Car Accident Statute of Limitations \u2014 Charlotte (2026)",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "place_slug": "charlotte",
-      "priority": -2,
       "vertical": "auto",
-      "slug": "north-carolina-car-accident-statute-of-limitations-charlotte-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Fargo, North Dakota: What to Do (2026)",
-      "city": "Fargo",
-      "state": "North Dakota",
-      "place_slug": "fargo",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-fargo-north-dakota-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Ohio Car Accident Statute of Limitations \u2014 Columbus (2026)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": "columbus",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "ohio-car-accident-statute-of-limitations-columbus-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Oklahoma City, Oklahoma: What to Do (2026)",
-      "city": "Oklahoma City",
-      "state": "Oklahoma",
-      "place_slug": "oklahoma-city",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Portland, Oregon: What to Do (2026)",
-      "city": "Portland",
-      "state": "Oregon",
-      "place_slug": "portland",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-portland-oregon-what-to-do-2026",
+      "slug": "new-york-car-accident-statute-of-limitations-new-york-city-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -1725,16 +1714,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-atlanta-crash-georgia-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Chicago, Illinois (2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-chicago-illinois-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -35031,17 +35010,6 @@
       "slug": "whiplash-after-a-car-accident-in-kapolei-hawaii-what-to-know-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Boise, Idaho (2026)",
-      "city": "Boise",
-      "state": "Idaho",
-      "place_slug": "boise",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-boise-idaho-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Boise Crash? (Idaho 2026)",
       "city": "Boise",
@@ -38584,17 +38552,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-detroit-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Michigan Car Accident Statute of Limitations \u2014 Detroit (2026)",
-      "city": "Detroit",
-      "state": "Michigan",
-      "place_slug": "detroit",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "michigan-car-accident-statute-of-limitations-detroit-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Detroit, Michigan (2026)",
       "city": "Detroit",
@@ -39055,17 +39012,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-minneapolis-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Minnesota Car Accident Statute of Limitations \u2014 Minneapolis (2026)",
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "place_slug": "minneapolis",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "minnesota-car-accident-statute-of-limitations-minneapolis-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -39530,17 +39476,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-jackson-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Mississippi Car Accident Statute of Limitations \u2014 Jackson (2026)",
-      "city": "Jackson",
-      "state": "Mississippi",
-      "place_slug": "jackson",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "mississippi-car-accident-statute-of-limitations-jackson-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Jackson, Mississippi (2026)",
       "city": "Jackson",
@@ -39781,17 +39716,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "uber-or-lyft-accident-in-kansas-city-missouri-2026-guide"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Missouri Car Accident Statute of Limitations \u2014 Kansas City (2026)",
-      "city": "Kansas City",
-      "state": "Missouri",
-      "place_slug": "kansas-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "missouri-car-accident-statute-of-limitations-kansas-city-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -40056,17 +39980,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-billings-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Montana Car Accident Statute of Limitations \u2014 Billings (2026)",
-      "city": "Billings",
-      "state": "Montana",
-      "place_slug": "billings",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "montana-car-accident-statute-of-limitations-billings-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -40707,17 +40620,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-omaha-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Nebraska Car Accident Statute of Limitations \u2014 Omaha (2026)",
-      "city": "Omaha",
-      "state": "Nebraska",
-      "place_slug": "omaha",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "nebraska-car-accident-statute-of-limitations-omaha-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Omaha, Nebraska (2026)",
       "city": "Omaha",
@@ -40892,17 +40794,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-las-vegas-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Nevada Car Accident Statute of Limitations \u2014 Las Vegas (2026)",
-      "city": "Las Vegas",
-      "state": "Nevada",
-      "place_slug": "las-vegas",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "nevada-car-accident-statute-of-limitations-las-vegas-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -41367,17 +41258,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-manchester-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "New Hampshire Car Accident Statute of Limitations \u2014 Manchester (2026)",
-      "city": "Manchester",
-      "state": "New Hampshire",
-      "place_slug": "manchester",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "new-hampshire-car-accident-statute-of-limitations-manchester-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Manchester, New Hampshire (2026)",
       "city": "Manchester",
@@ -41829,17 +41709,6 @@
       "slug": "uber-or-lyft-accident-in-newark-new-jersey-2026-guide"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "New Jersey Car Accident Statute of Limitations \u2014 Newark (2026)",
-      "city": "Newark",
-      "state": "New Jersey",
-      "place_slug": "newark",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "new-jersey-car-accident-statute-of-limitations-newark-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Newark, New Jersey (2026)",
       "city": "Newark",
@@ -42014,17 +41883,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-albuquerque-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "New Mexico Car Accident Statute of Limitations \u2014 Albuquerque (2026)",
-      "city": "Albuquerque",
-      "state": "New Mexico",
-      "place_slug": "albuquerque",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "new-mexico-car-accident-statute-of-limitations-albuquerque-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -42597,17 +42455,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-new-york-city-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "New York Car Accident Statute of Limitations \u2014 New York City (2026)",
-      "city": "New York City",
-      "state": "New York",
-      "place_slug": "new-york-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "new-york-car-accident-statute-of-limitations-new-york-city-2026"
     },
     {
       "angle": "uninsured-driver",
