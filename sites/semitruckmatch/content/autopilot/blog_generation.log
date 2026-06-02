@@ -1762,3 +1762,53 @@ Node.js v24.14.1
 }
 
 [2026-06-02T08:44:54.699977+00:00] WARN organic_crush exit 1
+[2026-06-02T12:44:03.610834+00:00] Inject for 30 states not yet published today
+[2026-06-02T12:44:03.612423+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T12:44:03.613533+00:00] Daily 50-state rotation (2026-06-02): +0 new, 29 re-prioritized, 29 at queue front
+[2026-06-02T12:44:03.614128+00:00] Daily 50-state injection complete
+[2026-06-02T12:44:03.700296+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-02T12:44:03.702192+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T12:44:03.703872+00:00] Daily 50-state rotation (2026-06-02): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-02T12:44:03.704491+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-02T12:44:03.706522+00:00] States already published today (UTC): 21 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland']
+[2026-06-02T12:44:03.709717+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:44:03.710599+00:00] Materializing template → platinum for 18-wheeler-crash-in-boston-massachusetts-victim-guide-2026
+[2026-06-02T12:44:08.844819+00:00] After materialize: 100 / 4029w ([])
+[2026-06-02T12:44:08.846441+00:00] Spanish OK for 18-wheeler-crash-in-boston-massachusetts-victim-guide-2026 (3227 words)
+[2026-06-02T12:44:08.849595+00:00] Spanish OK for 18-wheeler-crash-in-boston-massachusetts-victim-guide-2026 (3227 words)
+[2026-06-02T12:44:09.006258+00:00] PPT EN 18-wheeler-crash-in-boston-massachusetts-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-boston-massachusetts-victim-guide-2026.pptx
+[2026-06-02T12:44:09.089486+00:00] PPT ES 18-wheeler-crash-in-boston-massachusetts-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-boston-massachusetts-victim-guide-2026.pptx
+[2026-06-02T12:44:09.089577+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-boston-massachusetts-victim-guide-2026.md
+[2026-06-02T12:44:09.118786+00:00] IndexNow queued for 18-wheeler-crash-in-boston-massachusetts-victim-guide-2026
+[2026-06-02T12:44:11.122764+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:44:11.123791+00:00] Materializing template → platinum for 18-wheeler-crash-in-detroit-michigan-victim-guide-2026
+[2026-06-02T12:44:15.132947+00:00] After materialize: 100 / 4029w ([])
+[2026-06-02T12:44:15.134343+00:00] Spanish OK for 18-wheeler-crash-in-detroit-michigan-victim-guide-2026 (3227 words)
+[2026-06-02T12:44:15.137498+00:00] Spanish OK for 18-wheeler-crash-in-detroit-michigan-victim-guide-2026 (3227 words)
+[2026-06-02T12:44:15.222099+00:00] PPT EN 18-wheeler-crash-in-detroit-michigan-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-detroit-michigan-victim-guide-2026.pptx
+[2026-06-02T12:44:15.309270+00:00] PPT ES 18-wheeler-crash-in-detroit-michigan-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-detroit-michigan-victim-guide-2026.pptx
+[2026-06-02T12:44:15.309363+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-detroit-michigan-victim-guide-2026.md
+[2026-06-02T12:44:15.339830+00:00] IndexNow queued for 18-wheeler-crash-in-detroit-michigan-victim-guide-2026
+[2026-06-02T12:44:17.343198+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:44:17.344246+00:00] Materializing template → platinum for 18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026
+[2026-06-02T12:44:21.252794+00:00] After materialize: 100 / 4024w ([])
+[2026-06-02T12:44:21.254203+00:00] Spanish OK for 18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026 (3224 words)
+[2026-06-02T12:44:21.257396+00:00] Spanish OK for 18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026 (3224 words)
+[2026-06-02T12:44:21.341188+00:00] PPT EN 18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026.pptx
+[2026-06-02T12:44:21.423049+00:00] PPT ES 18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026.pptx
+[2026-06-02T12:44:21.423143+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026.md
+[2026-06-02T12:44:21.453821+00:00] IndexNow queued for 18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026
+[2026-06-02T12:44:21.454179+00:00] Syndication → sites/semitruckmatch/content/syndication/18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026.json
+[2026-06-02T12:44:21.456395+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['18-wheeler-crash-in-boston-massachusetts-victim-guide-2026', '18-wheeler-crash-in-detroit-michigan-victim-guide-2026', '18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026']
+[2026-06-02T12:44:21.462104+00:00] Daily ledger (UTC): 24/50 states, 24 EN posts
+[2026-06-02T12:44:21.721848+00:00] dent lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T12:44:21.603408+00:00\",\n  \"stats\": {\n    \"enPosts\": 641,\n    \"esPosts\": 641,\n    \"platinumEn\": 622,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-boston-massachusetts-victim-guide-2026\",\n      \"18-wheeler-crash-in-detroit-michigan-victim-guide-2026\",\n      \"18-wheeler-crash-in-minneapolis-minnesota-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-02T12:44:21.721967+00:00] WARN organic_crush exit 1
