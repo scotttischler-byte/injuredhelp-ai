@@ -533,11 +533,14 @@
     "insurance-denied-your-claim-in-washington-district-of-columbia-2026",
     "florida-car-accident-statute-of-limitations-miami-2026",
     "georgia-car-accident-statute-of-limitations-atlanta-2026",
-    "hawaii-car-accident-statute-of-limitations-honolulu-2026"
+    "hawaii-car-accident-statute-of-limitations-honolulu-2026",
+    "insurance-denied-your-claim-in-miami-florida-2026",
+    "insurance-denied-your-claim-in-atlanta-georgia-2026",
+    "insurance-denied-your-claim-in-honolulu-hawaii-2026"
   ],
   "stats": {
-    "total_published": 532,
-    "last_run_at": "2026-06-02T08:05:10.694347+00:00"
+    "total_published": 535,
+    "last_run_at": "2026-06-02T08:45:01.623368+00:00"
   },
   "pending": [
     {
@@ -628,6 +631,32 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "7-costly-car-accident-mistakes-in-bridgeport-connecticut-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Wilmington, Delaware (2026)",
+      "city": "Wilmington",
+      "state": "Delaware",
+      "place_slug": "wilmington",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-wilmington-delaware-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Washington, District of Columbia (2026)",
+      "city": "Washington",
+      "state": "District of Columbia",
+      "place_slug": "washington",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-washington-district-of-columbia-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -1677,16 +1706,6 @@
       "slug": "should-you-hire-a-lawyer-after-a-los-angeles-crash-california-2026"
     },
     {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Miami? (Florida 2026)",
-      "city": "Miami",
-      "state": "Florida",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-miami-florida-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Miami, Florida (2026)",
       "city": "Miami",
@@ -1705,16 +1724,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-miami-crash-florida-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Atlanta? (Georgia 2026)",
-      "city": "Atlanta",
-      "state": "Georgia",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-atlanta-georgia-2026"
     },
     {
       "angle": "common-mistakes",
@@ -34589,17 +34598,6 @@
       "slug": "whiplash-after-a-car-accident-in-newark-delaware-what-to-know-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Wilmington, Delaware (2026)",
-      "city": "Wilmington",
-      "state": "Delaware",
-      "place_slug": "wilmington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-wilmington-delaware-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Wilmington Crash? (Delaware 2026)",
       "city": "Wilmington",
@@ -34653,17 +34651,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Washington, District of Columbia (2026)",
-      "city": "Washington",
-      "state": "District of Columbia",
-      "place_slug": "washington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-washington-district-of-columbia-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -34829,17 +34816,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "7-costly-car-accident-mistakes-in-honolulu-hawaii-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Honolulu? (Hawaii 2026)",
-      "city": "Honolulu",
-      "state": "Hawaii",
-      "place_slug": "honolulu",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-honolulu-hawaii-2026"
     },
     {
       "angle": "lawyer-vs-diy",
