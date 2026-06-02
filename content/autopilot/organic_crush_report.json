@@ -1,28 +1,28 @@
 {
-  "at": "2026-06-02T05:01:07.816931+00:00",
+  "at": "2026-06-02T08:05:10.766466+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": true,
-      "code": 0,
-      "tail": "meshed what-to-do-after-a-car-accident-in-chicago-illinois-2026\nmeshed semi-truck-accident-in-birmingham-alabama-what-to-do-2026\nmeshed semi-truck-accident-in-boise-idaho-what-to-do-2026\nmeshed semi-truck-accident-in-honolulu-hawaii-what-to-do-2026\nmeshed alaska-car-accident-statute-of-limitations-anchorage-2026\nmeshed 7-costly-car-accident-mistakes-in-phoenix-arizona-2026\nDone. 6 posts.\n"
+      "ok": false,
+      "code": 2,
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: insurance-denied-your-claim-in-washington-district-of-columbia-2026 florida-car-accident-statute-of-limitations-miami-2026 georgia-car-accident-statute-of-limitations-atlanta-2026 hawaii-car-accident-statute-of-limitations-honolulu-2026\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "juredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-montgomery-alabama-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-san-antonio-texas-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fresno-california-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-milwaukee-wisconsin-2026_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/hawaii-car-accident-statute-of-limitations-honolulu-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/district-of-columbia-car-accident-statute-of-limitations-washington-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/connecticut-car-accident-statute-of-limitations-bridgeport-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "ed comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T05:01:09.373535+00:00\",\n  \"stats\": {\n    \"enPosts\": 613,\n    \"esPosts\": 613,\n    \"platinumEn\": 594,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": " in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T08:05:10.874350+00:00\",\n  \"stats\": {\n    \"enPosts\": 628,\n    \"esPosts\": 628,\n    \"platinumEn\": 609,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-wilmington-delaware-2026\",\n      \"insurance-denied-your-claim-in-washington-district-of-columbia-2026\",\n      \"florida-car-accident-statute-of-limitations-miami-2026\",\n      \"georgia-car-accident-statute-of-limitations-atlanta-2026\",\n      \"hawaii-car-accident-statute-of-limitations-honolulu-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": true
+  "ok": false
 }

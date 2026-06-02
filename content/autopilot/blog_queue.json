@@ -518,127 +518,116 @@
     "what-to-do-after-a-car-accident-in-chicago-illinois-2026",
     "semi-truck-accident-in-birmingham-alabama-what-to-do-2026",
     "alaska-car-accident-statute-of-limitations-anchorage-2026",
-    "7-costly-car-accident-mistakes-in-phoenix-arizona-2026"
+    "7-costly-car-accident-mistakes-in-phoenix-arizona-2026",
+    "insurance-denied-your-claim-in-anchorage-alaska-2026",
+    "arkansas-car-accident-statute-of-limitations-little-rock-2026",
+    "california-car-accident-statute-of-limitations-los-angeles-2026",
+    "7-costly-car-accident-mistakes-in-denver-colorado-2026",
+    "connecticut-car-accident-statute-of-limitations-bridgeport-2026",
+    "insurance-denied-your-claim-in-little-rock-arkansas-2026",
+    "insurance-denied-your-claim-in-los-angeles-california-2026",
+    "insurance-denied-your-claim-in-bridgeport-connecticut-2026",
+    "delaware-car-accident-statute-of-limitations-wilmington-2026",
+    "district-of-columbia-car-accident-statute-of-limitations-washington-2026",
+    "insurance-denied-your-claim-in-wilmington-delaware-2026",
+    "insurance-denied-your-claim-in-washington-district-of-columbia-2026",
+    "florida-car-accident-statute-of-limitations-miami-2026",
+    "georgia-car-accident-statute-of-limitations-atlanta-2026",
+    "hawaii-car-accident-statute-of-limitations-honolulu-2026"
   ],
   "stats": {
-    "total_published": 517,
-    "last_run_at": "2026-06-02T04:06:13.159952+00:00"
+    "total_published": 532,
+    "last_run_at": "2026-06-02T08:05:10.694347+00:00"
   },
   "pending": [
     {
       "angle": "statute-of-limitations",
-      "title": "Arkansas Car Accident Statute of Limitations \u2014 Little Rock (2026)",
+      "title": "Alabama Car Accident Statute of Limitations \u2014 Birmingham (2026)",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "place_slug": "birmingham",
+      "priority": -2,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "alabama-car-accident-statute-of-limitations-birmingham-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Anchorage, Alaska (2026)",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-anchorage-alaska-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Phoenix Crash? (Arizona 2026)",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
+      "priority": -2,
+      "vertical": "auto",
+      "slug": "should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026",
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Little Rock, Arkansas (2026)",
       "city": "Little Rock",
       "state": "Arkansas",
       "place_slug": "little-rock",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "arkansas-car-accident-statute-of-limitations-little-rock-2026",
+      "slug": "7-costly-car-accident-mistakes-in-little-rock-arkansas-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "California Car Accident Statute of Limitations \u2014 Los Angeles (2026)",
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Los Angeles, California (2026)",
       "city": "Los Angeles",
       "state": "California",
       "place_slug": "los-angeles",
       "priority": -2,
       "vertical": "auto",
-      "slug": "california-car-accident-statute-of-limitations-los-angeles-2026",
+      "slug": "7-costly-car-accident-mistakes-in-los-angeles-california-2026",
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Denver, Colorado (2026)",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Denver, Colorado (2026)",
       "city": "Denver",
       "state": "Colorado",
       "place_slug": "denver",
       "priority": -2,
       "firm_state": true,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-denver-colorado-2026",
+      "slug": "severe-injury-after-a-car-accident-in-denver-colorado-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Connecticut Car Accident Statute of Limitations \u2014 Bridgeport (2026)",
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Bridgeport, Connecticut (2026)",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "connecticut-car-accident-statute-of-limitations-bridgeport-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Delaware Car Accident Statute of Limitations \u2014 Wilmington (2026)",
-      "city": "Wilmington",
-      "state": "Delaware",
-      "place_slug": "wilmington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "delaware-car-accident-statute-of-limitations-wilmington-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "District of Columbia Car Accident Statute of Limitations \u2014 Washington (2026)",
-      "city": "Washington",
-      "state": "District of Columbia",
-      "place_slug": "washington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "district-of-columbia-car-accident-statute-of-limitations-washington-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Florida Car Accident Statute of Limitations \u2014 Miami (2026)",
-      "city": "Miami",
-      "state": "Florida",
-      "place_slug": "miami",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "florida-car-accident-statute-of-limitations-miami-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Georgia Car Accident Statute of Limitations \u2014 Atlanta (2026)",
-      "city": "Atlanta",
-      "state": "Georgia",
-      "place_slug": "atlanta",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "georgia-car-accident-statute-of-limitations-atlanta-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Hawaii Car Accident Statute of Limitations \u2014 Honolulu (2026)",
-      "city": "Honolulu",
-      "state": "Hawaii",
-      "place_slug": "honolulu",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hawaii-car-accident-statute-of-limitations-honolulu-2026",
+      "slug": "7-costly-car-accident-mistakes-in-bridgeport-connecticut-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -1678,26 +1667,6 @@
       "daily_state_rotation": true
     },
     {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Los Angeles? (California 2026)",
-      "city": "Los Angeles",
-      "state": "California",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-los-angeles-california-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Los Angeles, California (2026)",
-      "city": "Los Angeles",
-      "state": "California",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-los-angeles-california-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Los Angeles Crash? (California 2026)",
       "city": "Los Angeles",
@@ -1926,16 +1895,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Phoenix Crash? (Arizona 2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026"
     },
     {
       "angle": "fmcsa-violation",
@@ -2508,17 +2467,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "fmcsa-violations-after-a-truck-crash-in-denver-colorado"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Denver, Colorado (2026)",
-      "city": "Denver",
-      "state": "Colorado",
-      "place_slug": "denver",
-      "priority": 0,
-      "firm_state": true,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-denver-colorado-2026"
     },
     {
       "angle": "spinal-cord-injury",
@@ -5181,17 +5129,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-birmingham-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Alabama Car Accident Statute of Limitations \u2014 Birmingham (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "alabama-car-accident-statute-of-limitations-birmingham-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -32793,28 +32730,6 @@
       "slug": "truck-accident-in-laramie-wyoming-steps-legal-help-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Anchorage, Alaska (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-anchorage-alaska-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Anchorage? (Alaska 2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-anchorage-alaska-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Anchorage Crash? (Alaska 2026)",
       "city": "Anchorage",
@@ -33893,28 +33808,6 @@
       "slug": "whiplash-after-a-car-accident-in-fort-smith-arkansas-what-to-know-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Little Rock, Arkansas (2026)",
-      "city": "Little Rock",
-      "state": "Arkansas",
-      "place_slug": "little-rock",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-little-rock-arkansas-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Little Rock? (Arkansas 2026)",
-      "city": "Little Rock",
-      "state": "Arkansas",
-      "place_slug": "little-rock",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-little-rock-arkansas-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Little Rock Crash? (Arkansas 2026)",
       "city": "Little Rock",
@@ -34067,28 +33960,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-springdale-arkansas-what-to-know-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Bridgeport, Connecticut (2026)",
-      "city": "Bridgeport",
-      "state": "Connecticut",
-      "place_slug": "bridgeport",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-bridgeport-connecticut-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Bridgeport? (Connecticut 2026)",
-      "city": "Bridgeport",
-      "state": "Connecticut",
-      "place_slug": "bridgeport",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-bridgeport-connecticut-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -34729,17 +34600,6 @@
       "slug": "7-costly-car-accident-mistakes-in-wilmington-delaware-2026"
     },
     {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Wilmington? (Delaware 2026)",
-      "city": "Wilmington",
-      "state": "Delaware",
-      "place_slug": "wilmington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-wilmington-delaware-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Wilmington Crash? (Delaware 2026)",
       "city": "Wilmington",
@@ -34804,17 +34664,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "7-costly-car-accident-mistakes-in-washington-district-of-columbia-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Washington? (District of Columbia 2026)",
-      "city": "Washington",
-      "state": "District of Columbia",
-      "place_slug": "washington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-washington-district-of-columbia-2026"
     },
     {
       "angle": "lawyer-vs-diy",
