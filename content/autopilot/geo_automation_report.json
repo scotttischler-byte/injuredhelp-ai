@@ -1,5 +1,5 @@
 {
-  "at": "2026-06-02T11:23:49.882445+00:00",
+  "at": "2026-06-02T18:58:32.061774+00:00",
   "mode": "geo-automation",
   "opsChecklist": [
     "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
@@ -63,7 +63,7 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "urlCount": 174,
+      "urlCount": 232,
       "ok": true,
       "results": [
         {
@@ -144,6 +144,35 @@
         "tableOnIndex": false,
         "faqOnIndex": false
       }
+    }
+  ],
+  "productionCrons": [
+    {
+      "url": "https://www.wreckmatch.com/api/geo/cron",
+      "ok": true,
+      "status": 200,
+      "body": "<!DOCTYPE html><html data-dpl-id=\"dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\" lang=\"en\" class=\"h-full scroll-smooth antialiased\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/0lp0l.o._ak1a.css?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/0w_s5j_gjomj7.js?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\"/><script src=\"/_next/static/chunks/128aahewwf1we.js?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZN"
+    },
+    {
+      "url": "https://www.semitruckmatch.com/api/geo/cron",
+      "ok": true,
+      "status": 200,
+      "body": "<!DOCTYPE html><html data-dpl-id=\"dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\" lang=\"en\" class=\"h-full scroll-smooth antialiased\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/0lp0l.o._ak1a.css?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/0w_s5j_gjomj7.js?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\"/><script src=\"/_next/static/chunks/128aahewwf1we.js?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZN"
+    },
+    {
+      "url": "https://injuredhelp.ai/api/geo/cron",
+      "ok": false,
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "url": "https://injuredhelp.ai/api/exposure/cron",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://injuredhelp.ai/api/indexing/cron",
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
     }
   ]
 }
