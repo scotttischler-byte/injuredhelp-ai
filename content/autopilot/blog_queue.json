@@ -536,11 +536,21 @@
     "hawaii-car-accident-statute-of-limitations-honolulu-2026",
     "insurance-denied-your-claim-in-miami-florida-2026",
     "insurance-denied-your-claim-in-atlanta-georgia-2026",
-    "insurance-denied-your-claim-in-honolulu-hawaii-2026"
+    "insurance-denied-your-claim-in-honolulu-hawaii-2026",
+    "idaho-car-accident-statute-of-limitations-boise-2026",
+    "illinois-car-accident-statute-of-limitations-chicago-2026",
+    "semi-truck-accident-in-indianapolis-indiana-what-to-do-2026",
+    "semi-truck-accident-in-des-moines-iowa-what-to-do-2026",
+    "semi-truck-accident-in-wichita-kansas-what-to-do-2026",
+    "semi-truck-accident-in-louisville-kentucky-what-to-do-2026",
+    "semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026",
+    "semi-truck-accident-in-portland-maine-what-to-do-2026",
+    "semi-truck-accident-in-baltimore-maryland-what-to-do-2026",
+    "semi-truck-accident-in-boston-massachusetts-what-to-do-2026"
   ],
   "stats": {
-    "total_published": 535,
-    "last_run_at": "2026-06-02T08:45:01.623368+00:00"
+    "total_published": 545,
+    "last_run_at": "2026-06-02T12:01:25.445842+00:00"
   },
   "pending": [
     {
@@ -661,132 +671,41 @@
       "top_city": true
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Idaho Car Accident Statute of Limitations \u2014 Boise (2026)",
-      "city": "Boise",
-      "state": "Idaho",
-      "place_slug": "boise",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "idaho-car-accident-statute-of-limitations-boise-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Illinois Car Accident Statute of Limitations \u2014 Chicago (2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": "chicago",
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Miami, Florida (2026)",
+      "city": "Miami",
+      "state": "Florida",
+      "place_slug": "miami",
       "priority": -2,
       "vertical": "auto",
-      "slug": "illinois-car-accident-statute-of-limitations-chicago-2026",
+      "slug": "7-costly-car-accident-mistakes-in-miami-florida-2026",
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Indianapolis, Indiana: What to Do (2026)",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "place_slug": "indianapolis",
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Atlanta, Georgia (2026)",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "place_slug": "atlanta",
       "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-indianapolis-indiana-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-atlanta-georgia-2026",
       "daily_state_rotation": true,
-      "top_city": true
+      "top_city": true,
+      "firm_state": true
     },
     {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Des Moines, Iowa: What to Do (2026)",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "place_slug": "des-moines",
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Honolulu, Hawaii (2026)",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "place_slug": "honolulu",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-des-moines-iowa-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Wichita, Kansas: What to Do (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-wichita-kansas-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Louisville, Kentucky: What to Do (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-louisville-kentucky-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in New Orleans, Louisiana: What to Do (2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Portland, Maine: What to Do (2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-portland-maine-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Baltimore, Maryland: What to Do (2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-baltimore-maryland-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Boston, Massachusetts: What to Do (2026)",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "place_slug": "boston",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-boston-massachusetts-what-to-do-2026",
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-honolulu-hawaii-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -1706,16 +1625,6 @@
       "slug": "should-you-hire-a-lawyer-after-a-los-angeles-crash-california-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Miami, Florida (2026)",
-      "city": "Miami",
-      "state": "Florida",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-miami-florida-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Miami Crash? (Florida 2026)",
       "city": "Miami",
@@ -1724,16 +1633,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-miami-crash-florida-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Atlanta, Georgia (2026)",
-      "city": "Atlanta",
-      "state": "Georgia",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-atlanta-georgia-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -34805,17 +34704,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-hilo-hawaii-what-to-know-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Honolulu, Hawaii (2026)",
-      "city": "Honolulu",
-      "state": "Hawaii",
-      "place_slug": "honolulu",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-honolulu-hawaii-2026"
     },
     {
       "angle": "lawyer-vs-diy",

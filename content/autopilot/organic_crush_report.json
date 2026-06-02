@@ -1,28 +1,28 @@
 {
-  "at": "2026-06-02T10:55:41.559720+00:00",
+  "at": "2026-06-02T12:01:25.527882+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": true,
-      "code": 0,
-      "tail": "meshed insurance-denied-your-claim-in-wilmington-delaware-2026\nmeshed insurance-denied-your-claim-in-washington-district-of-columbia-2026\nmeshed insurance-denied-your-claim-in-los-angeles-california-2026\nmeshed insurance-denied-your-claim-in-little-rock-arkansas-2026\nmeshed insurance-denied-your-claim-in-honolulu-hawaii-2026\nmeshed insurance-denied-your-claim-in-atlanta-georgia-2026\nmeshed insurance-denied-your-claim-in-miami-florida-2026\nmeshed insurance-denied-your-claim-in-bridgeport-connecticut-2026\nmeshed insurance-denied-your-claim-in-anchorage-alaska-2026\nmeshed georgia-car-accident-statute-of-limitations-atlanta-2026\nmeshed hawaii-car-accident-statute-of-limitations-honolulu-2026\nmeshed florida-car-accident-statute-of-limitations-miami-2026\nmeshed delaware-car-accident-statute-of-limitations-wilmington-2026\nmeshed connecticut-car-accident-statute-of-limitations-bridgeport-2026\nmeshed district-of-columbia-car-accident-statute-of-limitations-washington-2026\nmeshed california-car-accident-statute-of-limitations-los-angeles-2026\nmeshed arkansas-car-accident-statute-of-limitations-little-rock-2026\nmeshed 7-costly-car-accident-mistakes-in-denver-colorado-2026\nDone. 18 posts.\n"
+      "ok": false,
+      "code": 2,
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: illinois-car-accident-statute-of-limitations-chicago-2026 semi-truck-accident-in-indianapolis-indiana-what-to-do-2026 semi-truck-accident-in-des-moines-iowa-what-to-do-2026 semi-truck-accident-in-wichita-kansas-what-to-do-2026 semi-truck-accident-in-louisville-kentucky-what-to-do-2026 semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026 semi-truck-accident-in-portland-maine-what-to-do-2026 semi-truck-accident-in-baltimore-maryland-what-to-do-2026 semi-truck-accident-in-boston-massachusetts-what-to-do-2026\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "help-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fresno-california-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide-202605311323_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-san-antonio-texas-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/semi-truck-accident-in-boston-massachusetts-what-to-do-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-montgomery-alabama-what-to-know-2026_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "ed comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T10:55:43.410419+00:00\",\n  \"stats\": {\n    \"enPosts\": 631,\n    \"esPosts\": 631,\n    \"platinumEn\": 612,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "rt PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T12:01:25.655335+00:00\",\n  \"stats\": {\n    \"enPosts\": 641,\n    \"esPosts\": 641,\n    \"platinumEn\": 622,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"idaho-car-accident-statute-of-limitations-boise-2026\",\n      \"illinois-car-accident-statute-of-limitations-chicago-2026\",\n      \"semi-truck-accident-in-indianapolis-indiana-what-to-do-2026\",\n      \"semi-truck-accident-in-des-moines-iowa-what-to-do-2026\",\n      \"semi-truck-accident-in-wichita-kansas-what-to-do-2026\",\n      \"semi-truck-accident-in-louisville-kentucky-what-to-do-2026\",\n      \"semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026\",\n      \"semi-truck-accident-in-portland-maine-what-to-do-2026\",\n      \"semi-truck-accident-in-baltimore-maryland-what-to-do-2026\",\n      \"semi-truck-accident-in-boston-massachusetts-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": true
+  "ok": false
 }

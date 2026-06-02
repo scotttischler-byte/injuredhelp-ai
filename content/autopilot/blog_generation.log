@@ -3144,3 +3144,118 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-02T08:45:01.962179+00:00] WARN organic_crush exit 1
+[2026-06-02T12:00:09.277655+00:00] Inject for 38 states not yet published today
+[2026-06-02T12:00:09.279484+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T12:00:09.335290+00:00] Daily 50-state rotation (2026-06-02): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-02T12:00:09.367528+00:00] Daily 50-state injection complete
+[2026-06-02T12:00:09.467445+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-02T12:00:09.469508+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T12:00:09.527038+00:00] Daily 50-state rotation (2026-06-02): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-02T12:00:09.560282+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-02T12:00:09.563053+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Washington']
+[2026-06-02T12:00:09.566511+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:00:09.567364+00:00] Materializing template → platinum for idaho-car-accident-statute-of-limitations-boise-2026
+[2026-06-02T12:00:15.398507+00:00] After materialize: 100 / 3882w ([])
+[2026-06-02T12:00:15.400352+00:00] Spanish OK for idaho-car-accident-statute-of-limitations-boise-2026 (3185 words)
+[2026-06-02T12:00:15.403710+00:00] Spanish OK for idaho-car-accident-statute-of-limitations-boise-2026 (3185 words)
+[2026-06-02T12:00:15.580983+00:00] PPT EN idaho-car-accident-statute-of-limitations-boise-2026: 14 slides (score 100) → /blog/presentations/idaho-car-accident-statute-of-limitations-boise-2026.pptx
+[2026-06-02T12:00:15.677170+00:00] PPT ES idaho-car-accident-statute-of-limitations-boise-2026: 14 slides (score 100) → /blog/presentations/es/idaho-car-accident-statute-of-limitations-boise-2026.pptx
+[2026-06-02T12:00:15.677259+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/idaho-car-accident-statute-of-limitations-boise-2026.md
+[2026-06-02T12:00:15.708626+00:00] IndexNow queued for idaho-car-accident-statute-of-limitations-boise-2026
+[2026-06-02T12:00:18.755223+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:00:18.756092+00:00] Materializing template → platinum for illinois-car-accident-statute-of-limitations-chicago-2026
+[2026-06-02T12:00:23.172059+00:00] After materialize: 100 / 3893w ([])
+[2026-06-02T12:00:23.173617+00:00] Spanish OK for illinois-car-accident-statute-of-limitations-chicago-2026 (3183 words)
+[2026-06-02T12:00:23.176924+00:00] Spanish OK for illinois-car-accident-statute-of-limitations-chicago-2026 (3183 words)
+[2026-06-02T12:00:23.277260+00:00] PPT EN illinois-car-accident-statute-of-limitations-chicago-2026: 14 slides (score 100) → /blog/presentations/illinois-car-accident-statute-of-limitations-chicago-2026.pptx
+[2026-06-02T12:00:23.374770+00:00] PPT ES illinois-car-accident-statute-of-limitations-chicago-2026: 14 slides (score 100) → /blog/presentations/es/illinois-car-accident-statute-of-limitations-chicago-2026.pptx
+[2026-06-02T12:00:23.374848+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/illinois-car-accident-statute-of-limitations-chicago-2026.md
+[2026-06-02T12:00:23.406003+00:00] IndexNow queued for illinois-car-accident-statute-of-limitations-chicago-2026
+[2026-06-02T12:00:26.449423+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:00:26.450372+00:00] Materializing template → platinum for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026
+[2026-06-02T12:00:30.856417+00:00] After materialize: 100 / 3995w ([])
+[2026-06-02T12:00:30.858035+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026 (3216 words)
+[2026-06-02T12:00:30.861492+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026 (3216 words)
+[2026-06-02T12:00:30.959837+00:00] PPT EN semi-truck-accident-in-indianapolis-indiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-indianapolis-indiana-what-to-do-2026.pptx
+[2026-06-02T12:00:31.057265+00:00] PPT ES semi-truck-accident-in-indianapolis-indiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-indianapolis-indiana-what-to-do-2026.pptx
+[2026-06-02T12:00:31.057345+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-indianapolis-indiana-what-to-do-2026.md
+[2026-06-02T12:00:31.089229+00:00] IndexNow queued for semi-truck-accident-in-indianapolis-indiana-what-to-do-2026
+[2026-06-02T12:00:34.133735+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:00:34.134698+00:00] Materializing template → platinum for semi-truck-accident-in-des-moines-iowa-what-to-do-2026
+[2026-06-02T12:00:38.584033+00:00] After materialize: 100 / 4004w ([])
+[2026-06-02T12:00:38.585646+00:00] Spanish OK for semi-truck-accident-in-des-moines-iowa-what-to-do-2026 (3232 words)
+[2026-06-02T12:00:38.589113+00:00] Spanish OK for semi-truck-accident-in-des-moines-iowa-what-to-do-2026 (3232 words)
+[2026-06-02T12:00:38.687621+00:00] PPT EN semi-truck-accident-in-des-moines-iowa-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-des-moines-iowa-what-to-do-2026.pptx
+[2026-06-02T12:00:38.794190+00:00] PPT ES semi-truck-accident-in-des-moines-iowa-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-des-moines-iowa-what-to-do-2026.pptx
+[2026-06-02T12:00:38.794277+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-des-moines-iowa-what-to-do-2026.md
+[2026-06-02T12:00:38.825838+00:00] IndexNow queued for semi-truck-accident-in-des-moines-iowa-what-to-do-2026
+[2026-06-02T12:00:41.870157+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:00:41.871072+00:00] Materializing template → platinum for semi-truck-accident-in-wichita-kansas-what-to-do-2026
+[2026-06-02T12:00:46.370810+00:00] After materialize: 100 / 4004w ([])
+[2026-06-02T12:00:46.372394+00:00] Spanish OK for semi-truck-accident-in-wichita-kansas-what-to-do-2026 (3214 words)
+[2026-06-02T12:00:46.375704+00:00] Spanish OK for semi-truck-accident-in-wichita-kansas-what-to-do-2026 (3214 words)
+[2026-06-02T12:00:46.474629+00:00] PPT EN semi-truck-accident-in-wichita-kansas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-wichita-kansas-what-to-do-2026.pptx
+[2026-06-02T12:00:46.573248+00:00] PPT ES semi-truck-accident-in-wichita-kansas-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-wichita-kansas-what-to-do-2026.pptx
+[2026-06-02T12:00:46.573330+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-wichita-kansas-what-to-do-2026.md
+[2026-06-02T12:00:46.604457+00:00] IndexNow queued for semi-truck-accident-in-wichita-kansas-what-to-do-2026
+[2026-06-02T12:00:49.647866+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:00:49.648801+00:00] Materializing template → platinum for semi-truck-accident-in-louisville-kentucky-what-to-do-2026
+[2026-06-02T12:00:54.152945+00:00] After materialize: 100 / 4003w ([])
+[2026-06-02T12:00:54.154509+00:00] Spanish OK for semi-truck-accident-in-louisville-kentucky-what-to-do-2026 (3225 words)
+[2026-06-02T12:00:54.157904+00:00] Spanish OK for semi-truck-accident-in-louisville-kentucky-what-to-do-2026 (3225 words)
+[2026-06-02T12:00:54.257423+00:00] PPT EN semi-truck-accident-in-louisville-kentucky-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-louisville-kentucky-what-to-do-2026.pptx
+[2026-06-02T12:00:54.356547+00:00] PPT ES semi-truck-accident-in-louisville-kentucky-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-louisville-kentucky-what-to-do-2026.pptx
+[2026-06-02T12:00:54.356646+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-louisville-kentucky-what-to-do-2026.md
+[2026-06-02T12:00:54.389287+00:00] IndexNow queued for semi-truck-accident-in-louisville-kentucky-what-to-do-2026
+[2026-06-02T12:00:57.434544+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:00:57.435509+00:00] Materializing template → platinum for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026
+[2026-06-02T12:01:01.939079+00:00] After materialize: 100 / 4004w ([])
+[2026-06-02T12:01:01.940707+00:00] Spanish OK for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026 (3228 words)
+[2026-06-02T12:01:01.944202+00:00] Spanish OK for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026 (3228 words)
+[2026-06-02T12:01:02.042712+00:00] PPT EN semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026.pptx
+[2026-06-02T12:01:02.140814+00:00] PPT ES semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026.pptx
+[2026-06-02T12:01:02.140901+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026.md
+[2026-06-02T12:01:02.172821+00:00] IndexNow queued for semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026
+[2026-06-02T12:01:05.216379+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:01:05.217347+00:00] Materializing template → platinum for semi-truck-accident-in-portland-maine-what-to-do-2026
+[2026-06-02T12:01:09.674998+00:00] After materialize: 100 / 4004w ([])
+[2026-06-02T12:01:09.676635+00:00] Spanish OK for semi-truck-accident-in-portland-maine-what-to-do-2026 (3214 words)
+[2026-06-02T12:01:09.680104+00:00] Spanish OK for semi-truck-accident-in-portland-maine-what-to-do-2026 (3214 words)
+[2026-06-02T12:01:09.779380+00:00] PPT EN semi-truck-accident-in-portland-maine-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-portland-maine-what-to-do-2026.pptx
+[2026-06-02T12:01:09.878179+00:00] PPT ES semi-truck-accident-in-portland-maine-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-portland-maine-what-to-do-2026.pptx
+[2026-06-02T12:01:09.878259+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-portland-maine-what-to-do-2026.md
+[2026-06-02T12:01:09.912515+00:00] IndexNow queued for semi-truck-accident-in-portland-maine-what-to-do-2026
+[2026-06-02T12:01:12.956950+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:01:12.957902+00:00] Materializing template → platinum for semi-truck-accident-in-baltimore-maryland-what-to-do-2026
+[2026-06-02T12:01:17.450247+00:00] After materialize: 100 / 4003w ([])
+[2026-06-02T12:01:17.451847+00:00] Spanish OK for semi-truck-accident-in-baltimore-maryland-what-to-do-2026 (3222 words)
+[2026-06-02T12:01:17.455308+00:00] Spanish OK for semi-truck-accident-in-baltimore-maryland-what-to-do-2026 (3222 words)
+[2026-06-02T12:01:17.553398+00:00] PPT EN semi-truck-accident-in-baltimore-maryland-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-baltimore-maryland-what-to-do-2026.pptx
+[2026-06-02T12:01:17.651630+00:00] PPT ES semi-truck-accident-in-baltimore-maryland-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-baltimore-maryland-what-to-do-2026.pptx
+[2026-06-02T12:01:17.651713+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-baltimore-maryland-what-to-do-2026.md
+[2026-06-02T12:01:17.683157+00:00] IndexNow queued for semi-truck-accident-in-baltimore-maryland-what-to-do-2026
+[2026-06-02T12:01:20.726657+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T12:01:20.727612+00:00] Materializing template → platinum for semi-truck-accident-in-boston-massachusetts-what-to-do-2026
+[2026-06-02T12:01:25.211885+00:00] After materialize: 100 / 4008w ([])
+[2026-06-02T12:01:25.213490+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-what-to-do-2026 (3232 words)
+[2026-06-02T12:01:25.216941+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-what-to-do-2026 (3232 words)
+[2026-06-02T12:01:25.315030+00:00] PPT EN semi-truck-accident-in-boston-massachusetts-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boston-massachusetts-what-to-do-2026.pptx
+[2026-06-02T12:01:25.413640+00:00] PPT ES semi-truck-accident-in-boston-massachusetts-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boston-massachusetts-what-to-do-2026.pptx
+[2026-06-02T12:01:25.413729+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-boston-massachusetts-what-to-do-2026.md
+[2026-06-02T12:01:25.445356+00:00] IndexNow queued for semi-truck-accident-in-boston-massachusetts-what-to-do-2026
+[2026-06-02T12:01:25.445770+00:00] Syndication → content/syndication/semi-truck-accident-in-boston-massachusetts-what-to-do-2026.json
+[2026-06-02T12:01:25.488599+00:00] Done: 10/10 published (platinum bar ≥100, ≥3000w) — ['idaho-car-accident-statute-of-limitations-boise-2026', 'illinois-car-accident-statute-of-limitations-chicago-2026', 'semi-truck-accident-in-indianapolis-indiana-what-to-do-2026', 'semi-truck-accident-in-des-moines-iowa-what-to-do-2026', 'semi-truck-accident-in-wichita-kansas-what-to-do-2026', 'semi-truck-accident-in-louisville-kentucky-what-to-do-2026', 'semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026', 'semi-truck-accident-in-portland-maine-what-to-do-2026', 'semi-truck-accident-in-baltimore-maryland-what-to-do-2026', 'semi-truck-accident-in-boston-massachusetts-what-to-do-2026']
+[2026-06-02T12:01:25.496319+00:00] Daily ledger (UTC): 21/50 states, 31 EN posts
+[2026-06-02T12:01:25.778354+00:00]    "ok": true,
+      "code": 0,
+      "tail": "rt PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T12:01:25.655335+00:00\",\n  \"stats\": {\n    \"enPosts\": 641,\n    \"esPosts\": 641,\n    \"platinumEn\": 622,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"idaho-car-accident-statute-of-limitations-boise-2026\",\n      \"illinois-car-accident-statute-of-limitations-chicago-2026\",\n      \"semi-truck-accident-in-indianapolis-indiana-what-to-do-2026\",\n      \"semi-truck-accident-in-des-moines-iowa-what-to-do-2026\",\n      \"semi-truck-accident-in-wichita-kansas-what-to-do-2026\",\n      \"semi-truck-accident-in-louisville-kentucky-what-to-do-2026\",\n      \"semi-truck-accident-in-new-orleans-louisiana-what-to-do-2026\",\n      \"semi-truck-accident-in-portland-maine-what-to-do-2026\",\n      \"semi-truck-accident-in-baltimore-maryland-what-to-do-2026\",\n      \"semi-truck-accident-in-boston-massachusetts-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-02T12:01:25.778459+00:00] WARN organic_crush exit 1
