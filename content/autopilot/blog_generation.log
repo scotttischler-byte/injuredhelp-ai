@@ -3513,3 +3513,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-02T18:54:15.473205+00:00] WARN organic_crush exit 1
+[2026-06-02T20:51:54.149051+00:00] Inject for 14 states not yet published today
+[2026-06-02T20:51:54.150970+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T20:51:54.212721+00:00] Daily 50-state rotation (2026-06-02): +0 new, 13 re-prioritized, 13 at queue front
+[2026-06-02T20:51:54.247192+00:00] Daily 50-state injection complete
+[2026-06-02T20:51:54.353406+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-02T20:51:54.355493+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T20:51:54.411019+00:00] Daily 50-state rotation (2026-06-02): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-02T20:51:54.445383+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-02T20:51:54.448913+00:00] States already published today (UTC): 37 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Dakota', 'Oklahoma', 'Oregon', 'Washington']
+[2026-06-02T20:51:54.452240+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T20:51:54.453110+00:00] Materializing template → platinum for insurance-denied-your-claim-in-charlotte-north-carolina-2026
+[2026-06-02T20:52:00.012372+00:00] After materialize: 100 / 3917w ([])
+[2026-06-02T20:52:00.014228+00:00] Spanish OK for insurance-denied-your-claim-in-charlotte-north-carolina-2026 (3218 words)
+[2026-06-02T20:52:00.017565+00:00] Spanish OK for insurance-denied-your-claim-in-charlotte-north-carolina-2026 (3218 words)
+[2026-06-02T20:52:00.216649+00:00] PPT EN insurance-denied-your-claim-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-charlotte-north-carolina-2026.pptx
+[2026-06-02T20:52:00.302448+00:00] PPT ES insurance-denied-your-claim-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-charlotte-north-carolina-2026.pptx
+[2026-06-02T20:52:00.302551+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-charlotte-north-carolina-2026.md
+[2026-06-02T20:52:00.336392+00:00] IndexNow queued for insurance-denied-your-claim-in-charlotte-north-carolina-2026
+[2026-06-02T20:52:02.385777+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T20:52:02.386662+00:00] Materializing template → platinum for insurance-denied-your-claim-in-columbus-ohio-2026
+[2026-06-02T20:52:06.907647+00:00] After materialize: 100 / 3879w ([])
+[2026-06-02T20:52:06.909275+00:00] Spanish OK for insurance-denied-your-claim-in-columbus-ohio-2026 (3179 words)
+[2026-06-02T20:52:06.912726+00:00] Spanish OK for insurance-denied-your-claim-in-columbus-ohio-2026 (3179 words)
+[2026-06-02T20:52:07.001387+00:00] PPT EN insurance-denied-your-claim-in-columbus-ohio-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-columbus-ohio-2026.pptx
+[2026-06-02T20:52:07.090738+00:00] PPT ES insurance-denied-your-claim-in-columbus-ohio-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-columbus-ohio-2026.pptx
+[2026-06-02T20:52:07.090846+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-columbus-ohio-2026.md
+[2026-06-02T20:52:07.124253+00:00] IndexNow queued for insurance-denied-your-claim-in-columbus-ohio-2026
+[2026-06-02T20:52:09.171035+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T20:52:09.171984+00:00] Materializing template → platinum for pennsylvania-car-accident-statute-of-limitations-philadelphia-2026
+[2026-06-02T20:52:13.774563+00:00] After materialize: 100 / 3897w ([])
+[2026-06-02T20:52:13.776152+00:00] Spanish OK for pennsylvania-car-accident-statute-of-limitations-philadelphia-2026 (3201 words)
+[2026-06-02T20:52:13.779520+00:00] Spanish OK for pennsylvania-car-accident-statute-of-limitations-philadelphia-2026 (3201 words)
+[2026-06-02T20:52:13.866507+00:00] PPT EN pennsylvania-car-accident-statute-of-limitations-philadelphia-2026: 14 slides (score 100) → /blog/presentations/pennsylvania-car-accident-statute-of-limitations-philadelphia-2026.pptx
+[2026-06-02T20:52:13.953162+00:00] PPT ES pennsylvania-car-accident-statute-of-limitations-philadelphia-2026: 14 slides (score 100) → /blog/presentations/es/pennsylvania-car-accident-statute-of-limitations-philadelphia-2026.pptx
+[2026-06-02T20:52:13.953267+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/pennsylvania-car-accident-statute-of-limitations-philadelphia-2026.md
+[2026-06-02T20:52:13.987044+00:00] IndexNow queued for pennsylvania-car-accident-statute-of-limitations-philadelphia-2026
+[2026-06-02T20:52:13.987455+00:00] Syndication → content/syndication/pennsylvania-car-accident-statute-of-limitations-philadelphia-2026.json
+[2026-06-02T20:52:14.033127+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-charlotte-north-carolina-2026', 'insurance-denied-your-claim-in-columbus-ohio-2026', 'pennsylvania-car-accident-statute-of-limitations-philadelphia-2026']
+[2026-06-02T20:52:14.041375+00:00] Daily ledger (UTC): 39/50 states, 52 EN posts
+[2026-06-02T20:52:14.338154+00:00]  lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T20:52:14.208429+00:00\",\n  \"stats\": {\n    \"enPosts\": 662,\n    \"esPosts\": 662,\n    \"platinumEn\": 643,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-charlotte-north-carolina-2026\",\n      \"insurance-denied-your-claim-in-columbus-ohio-2026\",\n      \"pennsylvania-car-accident-statute-of-limitations-philadelphia-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-02T20:52:14.338300+00:00] WARN organic_crush exit 1

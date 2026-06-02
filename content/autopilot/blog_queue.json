@@ -564,11 +564,14 @@
     "semi-truck-accident-in-fargo-north-dakota-what-to-do-2026",
     "ohio-car-accident-statute-of-limitations-columbus-2026",
     "semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026",
-    "semi-truck-accident-in-portland-oregon-what-to-do-2026"
+    "semi-truck-accident-in-portland-oregon-what-to-do-2026",
+    "insurance-denied-your-claim-in-charlotte-north-carolina-2026",
+    "insurance-denied-your-claim-in-columbus-ohio-2026",
+    "pennsylvania-car-accident-statute-of-limitations-philadelphia-2026"
   ],
   "stats": {
-    "total_published": 563,
-    "last_run_at": "2026-06-02T18:54:15.138548+00:00"
+    "total_published": 566,
+    "last_run_at": "2026-06-02T20:52:13.987515+00:00"
   },
   "pending": [
     {
@@ -1002,16 +1005,42 @@
     },
     {
       "angle": "statute-of-limitations",
-      "title": "Pennsylvania Car Accident Statute of Limitations \u2014 Philadelphia (2026)",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "place_slug": "philadelphia",
+      "title": "North Dakota Car Accident Statute of Limitations \u2014 Fargo (2026)",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "place_slug": "fargo",
       "priority": -2,
+      "firm_state": false,
       "vertical": "auto",
-      "slug": "pennsylvania-car-accident-statute-of-limitations-philadelphia-2026",
+      "slug": "north-dakota-car-accident-statute-of-limitations-fargo-2026",
       "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Oklahoma Car Accident Statute of Limitations \u2014 Oklahoma City (2026)",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "place_slug": "oklahoma-city",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "oklahoma-car-accident-statute-of-limitations-oklahoma-city-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Oregon Car Accident Statute of Limitations \u2014 Portland (2026)",
+      "city": "Portland",
+      "state": "Oregon",
+      "place_slug": "portland",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "oregon-car-accident-statute-of-limitations-portland-2026",
+      "daily_state_rotation": true,
+      "top_city": true
     },
     {
       "angle": "semi-truck-accident",
@@ -1756,16 +1785,6 @@
       "slug": "should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026"
     },
     {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Columbus? (Ohio 2026)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-columbus-ohio-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Columbus, Ohio (2026)",
       "city": "Columbus",
@@ -1784,16 +1803,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Charlotte? (North Carolina 2026)",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-charlotte-north-carolina-2026"
     },
     {
       "angle": "common-mistakes",
@@ -43249,17 +43258,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-fargo-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "North Dakota Car Accident Statute of Limitations \u2014 Fargo (2026)",
-      "city": "Fargo",
-      "state": "North Dakota",
-      "place_slug": "fargo",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "north-dakota-car-accident-statute-of-limitations-fargo-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Fargo, North Dakota (2026)",
       "city": "Fargo",
@@ -44151,17 +44149,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-oklahoma-city-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Oklahoma Car Accident Statute of Limitations \u2014 Oklahoma City (2026)",
-      "city": "Oklahoma City",
-      "state": "Oklahoma",
-      "place_slug": "oklahoma-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "oklahoma-car-accident-statute-of-limitations-oklahoma-city-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Oklahoma City, Oklahoma (2026)",
       "city": "Oklahoma City",
@@ -44501,17 +44488,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "uber-or-lyft-accident-in-portland-oregon-2026-guide"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Oregon Car Accident Statute of Limitations \u2014 Portland (2026)",
-      "city": "Portland",
-      "state": "Oregon",
-      "place_slug": "portland",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "oregon-car-accident-statute-of-limitations-portland-2026"
     },
     {
       "angle": "uninsured-driver",
