@@ -63,16 +63,70 @@
     "18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026",
     "truck-accident-in-birmingham-alabama-steps-legal-help-2026",
     "truck-accident-in-anchorage-alaska-steps-legal-help-2026",
-    "truck-accident-in-phoenix-arizona-steps-legal-help-2026"
+    "truck-accident-in-phoenix-arizona-steps-legal-help-2026",
+    "truck-accident-in-little-rock-arkansas-steps-legal-help-2026",
+    "truck-accident-in-los-angeles-california-steps-legal-help-2026",
+    "truck-accident-in-denver-colorado-steps-legal-help-2026",
+    "truck-accident-in-bridgeport-connecticut-steps-legal-help-2026",
+    "truck-accident-in-wilmington-delaware-steps-legal-help-2026",
+    "truck-accident-in-washington-district-of-columbia-steps-legal-help-2026",
+    "18-wheeler-crash-in-miami-florida-victim-guide-2026",
+    "18-wheeler-crash-in-atlanta-georgia-victim-guide-2026",
+    "18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026",
+    "18-wheeler-crash-in-boise-idaho-victim-guide-2026",
+    "18-wheeler-crash-in-chicago-illinois-victim-guide-2026",
+    "18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026",
+    "18-wheeler-crash-in-des-moines-iowa-victim-guide-2026",
+    "18-wheeler-crash-in-wichita-kansas-victim-guide-2026",
+    "18-wheeler-crash-in-louisville-kentucky-victim-guide-2026"
   ],
   "stats": {
-    "total_published": 62,
-    "last_run_at": "2026-06-02T04:06:05.417001+00:00"
+    "total_published": 77,
+    "last_run_at": "2026-06-02T08:05:05.055455+00:00"
   },
   "pending": [
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Little Rock, Arkansas: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Birmingham, Alabama? (2026)",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "place_slug": "birmingham",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Anchorage, Alaska? (2026)",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Phoenix, Arizona? (2026)",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Little Rock, Arkansas? (2026)",
       "city": "Little Rock",
       "state": "Arkansas",
       "place_slug": "little-rock",
@@ -81,11 +135,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-little-rock-arkansas-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-little-rock-arkansas-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Los Angeles, California: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Los Angeles, California? (2026)",
       "city": "Los Angeles",
       "state": "California",
       "place_slug": "los-angeles",
@@ -94,11 +148,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-los-angeles-california-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-los-angeles-california-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Denver, Colorado: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Denver, Colorado? (2026)",
       "city": "Denver",
       "state": "Colorado",
       "place_slug": "denver",
@@ -107,11 +161,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-denver-colorado-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-denver-colorado-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Bridgeport, Connecticut: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Bridgeport, Connecticut? (2026)",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
@@ -120,11 +174,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-bridgeport-connecticut-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-bridgeport-connecticut-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Wilmington, Delaware: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Wilmington, Delaware? (2026)",
       "city": "Wilmington",
       "state": "Delaware",
       "place_slug": "wilmington",
@@ -133,11 +187,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-wilmington-delaware-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-wilmington-delaware-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Washington, District of Columbia: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Washington, District of Columbia? (2026)",
       "city": "Washington",
       "state": "District of Columbia",
       "place_slug": "washington",
@@ -146,11 +200,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-washington-district-of-columbia-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-washington-district-of-columbia-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Miami, Florida \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Miami, Florida: Steps & Legal Help (2026)",
       "city": "Miami",
       "state": "Florida",
       "place_slug": "miami",
@@ -159,11 +213,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-miami-florida-victim-guide-2026"
+      "slug": "truck-accident-in-miami-florida-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Atlanta, Georgia \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Atlanta, Georgia: Steps & Legal Help (2026)",
       "city": "Atlanta",
       "state": "Georgia",
       "place_slug": "atlanta",
@@ -172,11 +226,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-atlanta-georgia-victim-guide-2026"
+      "slug": "truck-accident-in-atlanta-georgia-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Honolulu, Hawaii \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Honolulu, Hawaii: Steps & Legal Help (2026)",
       "city": "Honolulu",
       "state": "Hawaii",
       "place_slug": "honolulu",
@@ -185,11 +239,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026"
+      "slug": "truck-accident-in-honolulu-hawaii-steps-legal-help-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Boise, Idaho \u2014 Victim Guide (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Boise, Idaho: Steps & Legal Help (2026)",
       "city": "Boise",
       "state": "Idaho",
       "place_slug": "boise",
@@ -198,72 +252,7 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-boise-idaho-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Chicago, Illinois \u2014 Victim Guide (2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": "chicago",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-chicago-illinois-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Indianapolis, Indiana \u2014 Victim Guide (2026)",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "place_slug": "indianapolis",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-indianapolis-indiana-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Des Moines, Iowa \u2014 Victim Guide (2026)",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "place_slug": "des-moines",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-des-moines-iowa-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Wichita, Kansas \u2014 Victim Guide (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-wichita-kansas-victim-guide-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Louisville, Kentucky \u2014 Victim Guide (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-louisville-kentucky-victim-guide-2026"
+      "slug": "truck-accident-in-boise-idaho-steps-legal-help-2026"
     },
     {
       "angle": "18-wheeler-crash",
