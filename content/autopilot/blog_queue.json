@@ -567,11 +567,14 @@
     "semi-truck-accident-in-portland-oregon-what-to-do-2026",
     "insurance-denied-your-claim-in-charlotte-north-carolina-2026",
     "insurance-denied-your-claim-in-columbus-ohio-2026",
-    "pennsylvania-car-accident-statute-of-limitations-philadelphia-2026"
+    "pennsylvania-car-accident-statute-of-limitations-philadelphia-2026",
+    "insurance-denied-your-claim-in-philadelphia-pennsylvania-2026",
+    "semi-truck-accident-in-providence-rhode-island-what-to-do-2026",
+    "semi-truck-accident-in-charleston-south-carolina-what-to-do-2026"
   ],
   "stats": {
-    "total_published": 566,
-    "last_run_at": "2026-06-02T20:52:13.987515+00:00"
+    "total_published": 569,
+    "last_run_at": "2026-06-02T23:04:29.881998+00:00"
   },
   "pending": [
     {
@@ -1004,6 +1007,19 @@
       "top_city": true
     },
     {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Charlotte, North Carolina (2026)",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "place_slug": "charlotte",
+      "priority": -2,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-charlotte-north-carolina-2026",
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false
+    },
+    {
       "angle": "statute-of-limitations",
       "title": "North Dakota Car Accident Statute of Limitations \u2014 Fargo (2026)",
       "city": "Fargo",
@@ -1015,6 +1031,19 @@
       "slug": "north-dakota-car-accident-statute-of-limitations-fargo-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Columbus, Ohio (2026)",
+      "city": "Columbus",
+      "state": "Ohio",
+      "place_slug": "columbus",
+      "priority": -2,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-columbus-ohio-2026",
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false
     },
     {
       "angle": "statute-of-limitations",
@@ -1039,32 +1068,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "oregon-car-accident-statute-of-limitations-portland-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Providence, Rhode Island: What to Do (2026)",
-      "city": "Providence",
-      "state": "Rhode Island",
-      "place_slug": "providence",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-providence-rhode-island-what-to-do-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Charleston, South Carolina: What to Do (2026)",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "place_slug": "charleston",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-charleston-south-carolina-what-to-do-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -1755,16 +1758,6 @@
       "slug": "should-you-hire-a-lawyer-after-a-chicago-crash-illinois-2026"
     },
     {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Philadelphia? (Pennsylvania 2026)",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-philadelphia-pennsylvania-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Philadelphia, Pennsylvania (2026)",
       "city": "Philadelphia",
@@ -1785,16 +1778,6 @@
       "slug": "should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Columbus, Ohio (2026)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-columbus-ohio-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Columbus Crash? (Ohio 2026)",
       "city": "Columbus",
@@ -1803,16 +1786,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Charlotte, North Carolina (2026)",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-charlotte-north-carolina-2026"
     },
     {
       "angle": "lawyer-vs-diy",

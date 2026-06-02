@@ -1,28 +1,28 @@
 {
-  "at": "2026-06-02T21:25:04.421600+00:00",
+  "at": "2026-06-02T23:04:29.957437+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": true,
-      "code": 0,
-      "tail": "o-do-2026\nmeshed semi-truck-accident-in-oklahoma-city-oklahoma-what-to-do-2026\nmeshed semi-truck-accident-in-omaha-nebraska-what-to-do-2026\nmeshed semi-truck-accident-in-minneapolis-minnesota-what-to-do-2026\nmeshed semi-truck-accident-in-manchester-new-hampshire-what-to-do-2026\nmeshed semi-truck-accident-in-kansas-city-missouri-what-to-do-2026\nmeshed semi-truck-accident-in-las-vegas-nevada-what-to-do-2026\nmeshed semi-truck-accident-in-fargo-north-dakota-what-to-do-2026\nmeshed semi-truck-accident-in-detroit-michigan-what-to-do-2026\nmeshed semi-truck-accident-in-jackson-mississippi-what-to-do-2026\nmeshed semi-truck-accident-in-billings-montana-what-to-do-2026\nmeshed semi-truck-accident-in-albuquerque-new-mexico-what-to-do-2026\nmeshed ohio-car-accident-statute-of-limitations-columbus-2026\nmeshed pennsylvania-car-accident-statute-of-limitations-philadelphia-2026\nmeshed north-carolina-car-accident-statute-of-limitations-charlotte-2026\nmeshed insurance-denied-your-claim-in-chicago-illinois-2026\nmeshed insurance-denied-your-claim-in-charlotte-north-carolina-2026\nmeshed insurance-denied-your-claim-in-columbus-ohio-2026\nmeshed insurance-denied-your-claim-in-boise-idaho-2026\nDone. 21 posts.\n"
+      "ok": false,
+      "code": 2,
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: semi-truck-accident-in-providence-rhode-island-what-to-do-2026 semi-truck-accident-in-charleston-south-carolina-what-to-do-2026\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "juredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-montgomery-alabama-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-san-antonio-texas-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fresno-california-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-milwaukee-wisconsin-2026_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-montgomery-alabama-what-to-know-2026_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "ed comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T21:25:06.464882+00:00\",\n  \"stats\": {\n    \"enPosts\": 662,\n    \"esPosts\": 662,\n    \"platinumEn\": 643,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "r Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T23:04:30.069276+00:00\",\n  \"stats\": {\n    \"enPosts\": 665,\n    \"esPosts\": 665,\n    \"platinumEn\": 646,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-philadelphia-pennsylvania-2026\",\n      \"semi-truck-accident-in-providence-rhode-island-what-to-do-2026\",\n      \"semi-truck-accident-in-charleston-south-carolina-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": true
+  "ok": false
 }

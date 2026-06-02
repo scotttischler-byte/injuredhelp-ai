@@ -3563,3 +3563,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-02T20:52:14.338300+00:00] WARN organic_crush exit 1
+[2026-06-02T23:04:10.617878+00:00] Inject for 12 states not yet published today
+[2026-06-02T23:04:10.619605+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T23:04:10.672141+00:00] Daily 50-state rotation (2026-06-02): +0 new, 11 re-prioritized, 11 at queue front
+[2026-06-02T23:04:10.703699+00:00] Daily 50-state injection complete
+[2026-06-02T23:04:10.798169+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-02T23:04:10.800089+00:00] Loaded 239 cities from cities.ts
+[2026-06-02T23:04:10.854459+00:00] Daily 50-state rotation (2026-06-02): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-02T23:04:10.885489+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-02T23:04:10.889019+00:00] States already published today (UTC): 39 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Washington']
+[2026-06-02T23:04:10.892314+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T23:04:10.893131+00:00] Materializing template → platinum for insurance-denied-your-claim-in-philadelphia-pennsylvania-2026
+[2026-06-02T23:04:16.554789+00:00] After materialize: 100 / 3892w ([])
+[2026-06-02T23:04:16.556389+00:00] Spanish OK for insurance-denied-your-claim-in-philadelphia-pennsylvania-2026 (3195 words)
+[2026-06-02T23:04:16.559352+00:00] Spanish OK for insurance-denied-your-claim-in-philadelphia-pennsylvania-2026 (3195 words)
+[2026-06-02T23:04:16.714514+00:00] PPT EN insurance-denied-your-claim-in-philadelphia-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-philadelphia-pennsylvania-2026.pptx
+[2026-06-02T23:04:16.799129+00:00] PPT ES insurance-denied-your-claim-in-philadelphia-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-philadelphia-pennsylvania-2026.pptx
+[2026-06-02T23:04:16.799225+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-philadelphia-pennsylvania-2026.md
+[2026-06-02T23:04:16.828485+00:00] IndexNow queued for insurance-denied-your-claim-in-philadelphia-pennsylvania-2026
+[2026-06-02T23:04:18.871469+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T23:04:18.872344+00:00] Materializing template → platinum for semi-truck-accident-in-providence-rhode-island-what-to-do-2026
+[2026-06-02T23:04:23.190988+00:00] After materialize: 100 / 4023w ([])
+[2026-06-02T23:04:23.192415+00:00] Spanish OK for semi-truck-accident-in-providence-rhode-island-what-to-do-2026 (3244 words)
+[2026-06-02T23:04:23.195595+00:00] Spanish OK for semi-truck-accident-in-providence-rhode-island-what-to-do-2026 (3244 words)
+[2026-06-02T23:04:23.281882+00:00] PPT EN semi-truck-accident-in-providence-rhode-island-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-providence-rhode-island-what-to-do-2026.pptx
+[2026-06-02T23:04:23.369105+00:00] PPT ES semi-truck-accident-in-providence-rhode-island-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-providence-rhode-island-what-to-do-2026.pptx
+[2026-06-02T23:04:23.369199+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-providence-rhode-island-what-to-do-2026.md
+[2026-06-02T23:04:23.398535+00:00] IndexNow queued for semi-truck-accident-in-providence-rhode-island-what-to-do-2026
+[2026-06-02T23:04:25.441479+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-02T23:04:25.442376+00:00] Materializing template → platinum for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026
+[2026-06-02T23:04:29.679389+00:00] After materialize: 100 / 4025w ([])
+[2026-06-02T23:04:29.680886+00:00] Spanish OK for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026 (3248 words)
+[2026-06-02T23:04:29.684089+00:00] Spanish OK for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026 (3248 words)
+[2026-06-02T23:04:29.768562+00:00] PPT EN semi-truck-accident-in-charleston-south-carolina-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.pptx
+[2026-06-02T23:04:29.853173+00:00] PPT ES semi-truck-accident-in-charleston-south-carolina-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.pptx
+[2026-06-02T23:04:29.853265+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.md
+[2026-06-02T23:04:29.881593+00:00] IndexNow queued for semi-truck-accident-in-charleston-south-carolina-what-to-do-2026
+[2026-06-02T23:04:29.881943+00:00] Syndication → content/syndication/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.json
+[2026-06-02T23:04:29.922400+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-philadelphia-pennsylvania-2026', 'semi-truck-accident-in-providence-rhode-island-what-to-do-2026', 'semi-truck-accident-in-charleston-south-carolina-what-to-do-2026']
+[2026-06-02T23:04:29.929910+00:00] Daily ledger (UTC): 42/50 states, 55 EN posts
+[2026-06-02T23:04:30.183393+00:00] ida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-02T23:04:30.069276+00:00\",\n  \"stats\": {\n    \"enPosts\": 665,\n    \"esPosts\": 665,\n    \"platinumEn\": 646,\n    \"lastUpdated\": \"2026-06-02\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-philadelphia-pennsylvania-2026\",\n      \"semi-truck-accident-in-providence-rhode-island-what-to-do-2026\",\n      \"semi-truck-accident-in-charleston-south-carolina-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-02T23:04:30.183497+00:00] WARN organic_crush exit 1

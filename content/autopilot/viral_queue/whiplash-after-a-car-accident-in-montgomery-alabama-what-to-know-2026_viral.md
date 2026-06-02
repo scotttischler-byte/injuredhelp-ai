@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Montgomery, Alabama — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-montgomery-alabama-what-to-know-2026  
-**Generated:** 2026-06-02T21:25:06.394742+00:00  
+**Generated:** 2026-06-02T23:04:30.010588+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
