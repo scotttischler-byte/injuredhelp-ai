@@ -570,52 +570,16 @@
     "pennsylvania-car-accident-statute-of-limitations-philadelphia-2026",
     "insurance-denied-your-claim-in-philadelphia-pennsylvania-2026",
     "semi-truck-accident-in-providence-rhode-island-what-to-do-2026",
-    "semi-truck-accident-in-charleston-south-carolina-what-to-do-2026"
+    "semi-truck-accident-in-charleston-south-carolina-what-to-do-2026",
+    "alabama-car-accident-statute-of-limitations-birmingham-2026",
+    "7-costly-car-accident-mistakes-in-anchorage-alaska-2026",
+    "should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026"
   ],
   "stats": {
-    "total_published": 569,
-    "last_run_at": "2026-06-02T23:04:29.881998+00:00"
+    "total_published": 572,
+    "last_run_at": "2026-06-03T01:45:43.489305+00:00"
   },
   "pending": [
-    {
-      "angle": "statute-of-limitations",
-      "title": "Alabama Car Accident Statute of Limitations \u2014 Birmingham (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "alabama-car-accident-statute-of-limitations-birmingham-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Anchorage, Alaska (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-anchorage-alaska-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Phoenix Crash? (Arizona 2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
-    },
     {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Little Rock, Arkansas (2026)",
@@ -1072,6 +1036,45 @@
       "top_city": true
     },
     {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Philadelphia, Pennsylvania (2026)",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "place_slug": "philadelphia",
+      "priority": -2,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-philadelphia-pennsylvania-2026",
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Rhode Island Car Accident Statute of Limitations \u2014 Providence (2026)",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "place_slug": "providence",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "rhode-island-car-accident-statute-of-limitations-providence-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "South Carolina Car Accident Statute of Limitations \u2014 Charleston (2026)",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "south-carolina-car-accident-statute-of-limitations-charleston-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
       "angle": "semi-truck-accident",
       "title": "Semi Truck Accident in Sioux Falls, South Dakota: What to Do (2026)",
       "city": "Sioux Falls",
@@ -1099,7 +1102,7 @@
     },
     {
       "angle": "insurance-denied",
-      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-02)",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-03)",
       "city": "Houston",
       "state": "Texas",
       "place_slug": "houston",
@@ -1108,7 +1111,7 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-02"
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-03"
     },
     {
       "angle": "semi-truck-accident",
@@ -1187,6 +1190,19 @@
       "slug": "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-02)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-02"
     },
     {
       "angle": "insurance-denied",
@@ -1756,16 +1772,6 @@
       "priority": 2,
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-chicago-crash-illinois-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Philadelphia, Pennsylvania (2026)",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-philadelphia-pennsylvania-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -45266,17 +45272,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-providence-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Rhode Island Car Accident Statute of Limitations \u2014 Providence (2026)",
-      "city": "Providence",
-      "state": "Rhode Island",
-      "place_slug": "providence",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "rhode-island-car-accident-statute-of-limitations-providence-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Providence, Rhode Island (2026)",
       "city": "Providence",
@@ -45451,17 +45446,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-charleston-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "South Carolina Car Accident Statute of Limitations \u2014 Charleston (2026)",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "place_slug": "charleston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "south-carolina-car-accident-statute-of-limitations-charleston-2026"
     },
     {
       "angle": "uninsured-driver",

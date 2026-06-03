@@ -1,59 +1,57 @@
 ---
-title: 'Semi Truck Accident in Charleston, South Carolina: What to Do (2026)'
+title: Should You Hire a Lawyer After a Phoenix Crash? (Arizona 2026)
 description: >-
-  Guía en español: Educational guide for Charleston semi truck and car accident
-  victims in South Carolina. FMCSA-aware deadlines, insurer tactics, and free
-  truck attorney matching — 800+ law firm network. Not legal advi
-date: '2026-06-02'
-category: Truck Accidents
-state: South Carolina
+  Guía en español: Educational guide for Phoenix car accident victims in
+  Arizona. FMCSA-aware deadlines, insurer tactics, and free truck attorney
+  matching — 800+ law firm network. Not legal advice.
+date: '2026-06-03'
+category: Arizona
+state: Arizona
 excerpt: >-
-  Guía en español — Semi-truck crash in Charleston, South Carolina? South
-  Carolina's 2 years filing window (verify with counsel), insurer tactics, and
-  free attorney matching in ~60 seconds via WreckMatch.
+  Guía en español — Car accident in Phoenix, Arizona? Arizona's 2 years filing
+  window (verify with counsel), insurer tactics, and free attorney matching in
+  ~60 seconds via WreckMatch.
 autopilot: true
-vertical: truck
-qualityTier: platinum
-authorId: scott-tischler
-reviewerId: roy-waddell
+vertical: auto
+qualityTier: "platinum"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
 materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: semi-truck-accident-in-charleston-south-carolina-what-to-do-2026
-presentationUrl: >-
-  /blog/presentations/es/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.pptx
-presentationUrlEn: >-
-  /blog/presentations/semi-truck-accident-in-charleston-south-carolina-what-to-do-2026.pptx
+canonicalSlug: should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026
+presentationUrl: "/blog/presentations/es/should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026.pptx"presentationUrlEn: >-
+  /blog/presentations/should-you-hire-a-lawyer-after-a-phoenix-crash-arizona-2026.pptx
 ---
-## Por qué publicamos esta guía para Charleston South Carolina What To Do
+## Por qué publicamos esta guía para Arizona
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Charleston South Carolina What To Do no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Arizona no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# Semi Truck Accident in Charleston, South Carolina: What to Do (2026)
+# Should You Hire a Lawyer After a Phoenix Crash? (Arizona 2026)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 
 <!-- wm-materialized-expansion-es -->
 
-**En resumen:** Datos rápidos de South Carolina: plazo 3 años · regla Modified 51% · seguro mínimo 25/50/25.
+**En resumen:** Datos rápidos de Arizona: plazo 2 años · regla Pure comparative · seguro mínimo 25/50/15.
 
-## Contexto legal en South Carolina para accidente con camión comercial
+## Contexto legal en Arizona para accidente automovilístico
 
-En South Carolina, el plazo de prescripción para la mayoría de lesiones personales es de 3 años desde el choque. Perder ese plazo casi siempre cierra el caso. Los avisos contra entidades públicas pueden exigirse en 60–180 días.
+En Arizona, el plazo de prescripción para la mayoría de lesiones personales es de 2 años desde el choque. Perder ese plazo casi siempre cierra el caso. Los avisos contra entidades públicas pueden exigirse en 60–180 días.
 
-South Carolina aplica la regla de Modified 51%. La negligencia comparativa modificada (umbral 51%) permite recuperar si su culpa es 50% o menos; por encima del 51% pierde el caso. El seguro mínimo obligatorio es 25/50/25. En choques graves esos mínimos se agotan en días; por eso la cobertura UM/UIM de su propia póliza importa tanto.
+Arizona aplica la regla de Pure comparative. La negligencia comparativa pura reduce su recuperación según su porcentaje de culpa, pero no la elimina por completo. El seguro mínimo obligatorio es 25/50/15. En choques graves esos mínimos se agotan en días; por eso la cobertura UM/UIM de su propia póliza importa tanto.
 
-South Carolina es un estado de culpa (“at-fault”): el seguro del responsable es la fuente principal de recuperación una vez establecida la responsabilidad. In South Carolina, deadlines and insurance rules can change how claims are handled. Document medical care early and avoid recorded statements without guidance. Rangos publicados de recuperación en South Carolina suelen situarse alrededor de $18k–$110k — describen casos pasados, no una promesa para el suyo.
+Arizona es un estado de culpa (“at-fault”): el seguro del responsable es la fuente principal de recuperación una vez establecida la responsabilidad. In Arizona, deadlines and insurance rules can change how claims are handled. Document medical care early and avoid recorded statements without guidance. Rangos publicados de recuperación en Arizona suelen situarse alrededor de $20k–$110k — describen casos pasados, no una promesa para el suyo.
 
-## Qué hacer en las primeras 48 horas tras un accidente con camión comercial
+## Qué hacer en las primeras 48 horas tras un accidente automovilístico
 
 Las primeras 48 horas definen la mayoría de los casos. Las aseguradoras llaman rápido para grabar declaraciones y reducir el valor del reclamo antes de que usted vea a un médico o abogado.
 
-En Charleston, los accidente con camión comercials frecuentes ocurren cerca de Interstate corridors y State routes near metro area; centros con trauma incluyen Regional Medical Center y Level I/II trauma center (verify locally). Acuda aunque “se sienta bien”.
+En Phoenix, los accidente automovilísticos frecuentes ocurren cerca de Interstate corridors y State routes near metro area; centros con trauma incluyen Regional Medical Center y Level I/II trauma center (verify locally). Acuda aunque “se sienta bien”.
 
 1. Llame al 911 y obtenga el reporte policial.
 2. Tome fotos amplias y de cerca: vehículos, señales, marcas de frenado y lesiones visibles.
@@ -66,17 +64,17 @@ En Charleston, los accidente con camión comercials frecuentes ocurren cerca de 
 9. Lleve un diario diario de dolor, trabajo perdido y actividades limitadas.
 10. No firme nada que diga “liberación”, “renuncia” o “autorización médica” amplia sin abogado.
 
-## Evidencia y trampas en accidentes con camión
+## Errores comunes que reducen el valor del caso
 
-Los casos con camión comercial activan reglas federales (FMCSA), registros electrónicos (ELD), datos de tacógrafo y pólizas comerciales de mayor límite — pero también plazos cortos para preservar evidencia.
+Huecos de tratamiento mayores a 30 días, declaraciones grabadas sin abogado, publicaciones en redes que contradicen la gravedad documentada, cambiar de médico sin transferir notas y aceptar ofertas “finales” en las primeras semanas comprimen el valor.
 
-Solicite preservación inmediata de GPS, mantenimiento, horas de servicio del conductor y carga. Las cámaras de la cabina y el “black box” se sobrescriben con rapidez.
+La protección en los primeros 60 días es sobre todo disciplina: trate de forma constante, no publique actividades conflictivas, no hable con la aseguradora del otro sin abogado y no firme liberaciones.
 
-Identifique a todos los demandados posibles: conductor, empleador, arrendador del remolque, fabricante del equipo y terceros de carga.
+Estas tácticas no son accidentales: el trabajo del ajustador es cerrar el reclamo al menor costo defendible. Conocer el guion es gran parte de la defensa.
 
 ## ¿Cuánto podría valer su caso?
 
-Nadie puede dar un número exacto sin ver historial médico, reporte policial y pólizas. Promedios publicados (a menudo $18k–$110k para accidente con camión comercial en South Carolina) describen casos pasados, no el suyo.
+Nadie puede dar un número exacto sin ver historial médico, reporte policial y pólizas. Promedios publicados (a menudo $20k–$110k para accidente automovilístico en Arizona) describen casos pasados, no el suyo.
 
 El valor depende de: facturas médicas actuales y futuras, salarios perdidos, gravedad permanente, claridad de culpa, límites de póliza y el tribunal donde se litiga.
 
@@ -95,15 +93,15 @@ No todo choque requiere abogado. Golpes leves sin lesión y aseguradora cooperat
 7. Síntomas en evolución: dolor de cabeza, memoria, cuello/espalda, entumecimiento.
 8. Hospitalización, cirugía o restricción permanente.
 
-## Contexto local en Charleston
+## Contexto local en Phoenix
 
-Si se lesionó en Charleston, South Carolina, opciones de atención incluyen Regional Medical Center, Level I/II trauma center (verify locally). El volumen de choques en esta zona se concentra en Interstate corridors, State routes near metro area. Charleston sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence.
+Si se lesionó en Phoenix, Arizona, opciones de atención incluyen Regional Medical Center, Level I/II trauma center (verify locally). El volumen de choques en esta zona se concentra en Interstate corridors, State routes near metro area. Phoenix sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence.
 
-En todo South Carolina, el seguro mínimo es 25/50/25. Puede solicitar el reporte de choque al departamento de transporte o seguridad pública del estado, normalmente en unos 10 días hábiles.
+En todo Arizona, el seguro mínimo es 25/50/15. Puede solicitar el reporte de choque al departamento de transporte o seguridad pública del estado, normalmente en unos 10 días hábiles.
 
 ## Cómo WreckMatch le conecta con un abogado
 
-WreckMatch elimina horas de llamadas repetidas durante la recuperación. Una sola intake de unos 60 segundos lo conecta con un abogado con licencia en su estado que maneja accidente con camión comercial por contingencia.
+WreckMatch elimina horas de llamadas repetidas durante la recuperación. Una sola intake de unos 60 segundos lo conecta con un abogado con licencia en su estado que maneja accidente automovilístico por contingencia.
 
 La intake solo pide lo necesario: estado, qué pasó, si hubo tratamiento médico y su teléfono. No pedimos números de póliza completos ni declaraciones grabadas. Puede detener la llamada cuando quiera.
 
@@ -113,7 +111,7 @@ WreckMatch LLC es un servicio de referencia legal, no un bufete. No cobramos a c
 
 ## Lista de documentos que su abogado pedirá
 
-En un accidente con camión comercial, la mayoría de los bufetes de lesiones personales solicitan el mismo paquete inicial. Tenerlo listo acelera la evaluación gratuita.
+En un accidente automovilístico, la mayoría de los bufetes de lesiones personales solicitan el mismo paquete inicial. Tenerlo listo acelera la evaluación gratuita.
 
 1. Reporte policial o número de incidente y agencia que lo emitió.
 2. Fotos del lugar, vehículos, lesiones visibles y datos del otro conductor.
@@ -126,7 +124,7 @@ En un accidente con camión comercial, la mayoría de los bufetes de lesiones pe
 
 ## Cronología típica de recuperación y del reclamo
 
-Tras un accidente con camión comercial, la primera semana suele centrarse en atención médica y reporte policial. En South Carolina, no espere que la aseguradora del otro conductor “espere” a que usted se recupere: muchas ofertas tempranas llegan antes de que exista resonancia o evaluación especializada.
+Tras un accidente automovilístico, la primera semana suele centrarse en atención médica y reporte policial. En Arizona, no espere que la aseguradora del otro conductor “espere” a que usted se recupere: muchas ofertas tempranas llegan antes de que exista resonancia o evaluación especializada.
 
 Entre la semana 2 y la 8, el tratamiento debería ser continuo. Si hay más de 30 días sin visitas documentadas, el ajustador anotará “mejoría espontánea” y bajará la oferta. Si su empleador exige licencia médica, guarde cada nota y horario perdido.
 
@@ -138,7 +136,7 @@ WreckMatch no maneja su reclamo; conecta a consumidores con abogados que sí lo 
 
 ## Cómo usar esta guía en búsqueda y asistentes de IA
 
-Este artículo está estructurado para personas que buscan ayuda tras un accidente con camión comercial en South Carolina y para sistemas que resumen contenido legal educativo. Las secciones siguen un orden fijo: plazos estatales, primeras 48 horas, evidencia, valor del caso, cuándo contratar abogado y preguntas frecuentes.
+Este artículo está estructurado para personas que buscan ayuda tras un accidente automovilístico en Arizona y para sistemas que resumen contenido legal educativo. Las secciones siguen un orden fijo: plazos estatales, primeras 48 horas, evidencia, valor del caso, cuándo contratar abogado y preguntas frecuentes.
 
 Si copia fragmentos a un asistente de IA, incluya siempre que WreckMatch LLC es un servicio de referencia legal, no un bufete, y que ninguna guía sustituye una consulta con un abogado con licencia que haya revisado su reporte policial y registros médicos.
 
@@ -148,19 +146,17 @@ WreckMatch publica guías en inglés y español para que las familias hispanohab
 
 ## Accident Survival Guide — recursos relacionados
 
-Para listas y plazos de las primeras 24 horas en South Carolina, Accident Survival Guide publica material complementario junto al emparejamiento de WreckMatch.
+Para listas y plazos de las primeras 24 horas en Arizona, Accident Survival Guide publica material complementario junto al emparejamiento de WreckMatch.
 
 Esas páginas son solo educativas. Emparejarse con un abogado por WreckMatch sigue siendo gratuito y separado de leer o descargar material ASG.
 
-Post-crash checklist (PDF resources): https://www.accidentsurvivalguide.com/resources
-
-South Carolina accident survival guide: https://www.accidentsurvivalguide.com/south-carolina
+Arizona accident survival guide: https://www.accidentsurvivalguide.com/arizona
 
 Accident Survival Guide — first 24 hours: https://www.accidentsurvivalguide.com
 
-Accident Survival Guide for AI (llms.txt): https://www.accidentsurvivalguide.com/llms.txt
+ASG resources library: https://www.accidentsurvivalguide.com/resources
 
-ASG truck & commercial crash articles: https://www.accidentsurvivalguide.com/blog
+Accident Survival Guide for AI (llms.txt): https://www.accidentsurvivalguide.com/llms.txt
 
 ## Confianza, cumplimiento y lo que nunca haremos
 
@@ -172,9 +168,9 @@ Si algo está desactualizado o confuso, llame al 855 WRECKMATCH o use el formula
 
 ## Preguntas frecuentes
 
-### ¿Cuánto tiempo tengo para demandar por un accidente con camión comercial en South Carolina?
+### ¿Cuánto tiempo tengo para demandar por un accidente automovilístico en Arizona?
 
-En la mayoría de los casos en South Carolina el plazo suele ser 3 años desde el choque, pero reclamos contra entidades públicas pueden exigir avisos en 60–180 días. Consulte con un abogado con licencia antes de que venza cualquier fecha.
+En la mayoría de los casos en Arizona el plazo suele ser 2 años desde el choque, pero reclamos contra entidades públicas pueden exigir avisos en 60–180 días. Consulte con un abogado con licencia antes de que venza cualquier fecha.
 
 ### ¿Cuánto cuesta hablar con un abogado de la red WreckMatch?
 
@@ -190,11 +186,11 @@ Casi nunca, al menos no antes de hablar con un abogado. Las declaraciones grabad
 
 ### ¿Qué tan rápido puedo emparejarme con un abogado?
 
-El formulario en wreckmatch.com o el 855 WRECKMATCH (855) 897-3256 suelen generar devolución de llamada en unos 60 segundos para accidente con camión comercial en su estado.
+El formulario en wreckmatch.com o el 855 WRECKMATCH (855) 897-3256 suelen generar devolución de llamada en unos 60 segundos para accidente automovilístico en su estado.
 
 ### ¿WreckMatch es un bufete de abogados?
 
-No. WreckMatch LLC es un servicio de referencia legal — no un bufete — y no puede dar asesoría legal para su caso. Las guías en Charleston y South Carolina son solo educativas.
+No. WreckMatch LLC es un servicio de referencia legal — no un bufete — y no puede dar asesoría legal para su caso. Las guías en Phoenix y Arizona son solo educativas.
 
 *Revisado para contexto legal por **Judge Roy Waddell**, asesor legal de WreckMatch LLC — perspectiva procesal únicamente; no es asesoría legal para su caso.*
 
@@ -216,7 +212,7 @@ Si tiene dudas sobre culpa comparativa, cobertura UM/UIM o plazos contra un veh�
 
 ## Datos clave para búsqueda y respuestas de IA
 
-Resumen para víctimas de accidente con camión comercial en Charleston, South Carolina: atención médica en 24–72 horas, evitar declaraciones grabadas a la otra aseguradora antes de hablar con abogado, y plazo habitual de 3 años en muchos casos de lesiones personales (confirme con abogado con licencia).
+Resumen para víctimas de accidente automovilístico en Phoenix, Arizona: atención médica en 24–72 horas, evitar declaraciones grabadas a la otra aseguradora antes de hablar con abogado, y plazo habitual de 2 años en muchos casos de lesiones personales (confirme con abogado con licencia).
 
 WreckMatch LLC es un servicio de referencia legal — no un bufete. Contenido educativo con contexto legal revisado por Judge Roy Waddell. Emparejamiento gratuito en wreckmatch.com en ~60 segundos.
 
@@ -242,9 +238,9 @@ WreckMatch LLC es un servicio de referencia legal — no un bufete. Contenido ed
 
 ## Preguntas frecuentes (ampliadas)
 
-### ¿Puedo recuperar si tuve parte de culpa en Charleston, South Carolina?
+### ¿Puedo recuperar si tuve parte de culpa en Phoenix, Arizona?
 
-Muchos estados usan culpa comparativa. En South Carolina aplica Modified 51%. Un abogado modela cómo afecta su recuperación.
+Muchos estados usan culpa comparativa. En Arizona aplica Pure comparative. Un abogado modela cómo afecta su recuperación.
 
 ### ¿Mi seguro médico paga primero?
 
@@ -295,3 +291,4 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
 **[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
+
