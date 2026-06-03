@@ -113,16 +113,102 @@
     "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026",
     "do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026",
     "do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026",
-    "do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026"
+    "do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026",
+    "do-i-need-a-truck-accident-lawyer-in-little-rock-arkansas-2026",
+    "do-i-need-a-truck-accident-lawyer-in-los-angeles-california-2026",
+    "do-i-need-a-truck-accident-lawyer-in-denver-colorado-2026",
+    "do-i-need-a-truck-accident-lawyer-in-bridgeport-connecticut-2026",
+    "do-i-need-a-truck-accident-lawyer-in-wilmington-delaware-2026",
+    "do-i-need-a-truck-accident-lawyer-in-washington-district-of-columbia-2026",
+    "truck-accident-in-miami-florida-steps-legal-help-2026",
+    "truck-accident-in-atlanta-georgia-steps-legal-help-2026",
+    "truck-accident-in-honolulu-hawaii-steps-legal-help-2026",
+    "truck-accident-in-boise-idaho-steps-legal-help-2026",
+    "truck-accident-in-chicago-illinois-steps-legal-help-2026",
+    "truck-accident-in-indianapolis-indiana-steps-legal-help-2026",
+    "truck-accident-in-des-moines-iowa-steps-legal-help-2026",
+    "truck-accident-in-wichita-kansas-steps-legal-help-2026",
+    "truck-accident-in-louisville-kentucky-steps-legal-help-2026",
+    "truck-accident-in-new-orleans-louisiana-steps-legal-help-2026",
+    "truck-accident-in-portland-maine-steps-legal-help-2026",
+    "truck-accident-in-baltimore-maryland-steps-legal-help-2026",
+    "truck-accident-in-boston-massachusetts-steps-legal-help-2026",
+    "truck-accident-in-detroit-michigan-steps-legal-help-2026",
+    "truck-accident-in-minneapolis-minnesota-steps-legal-help-2026",
+    "truck-accident-in-jackson-mississippi-steps-legal-help-2026",
+    "truck-accident-in-kansas-city-missouri-steps-legal-help-2026",
+    "truck-accident-in-billings-montana-steps-legal-help-2026",
+    "truck-accident-in-omaha-nebraska-steps-legal-help-2026",
+    "truck-accident-in-las-vegas-nevada-steps-legal-help-2026",
+    "truck-accident-in-manchester-new-hampshire-steps-legal-help-2026",
+    "truck-accident-in-newark-new-jersey-steps-legal-help-2026",
+    "truck-accident-in-albuquerque-new-mexico-steps-legal-help-2026",
+    "truck-accident-in-new-york-city-new-york-steps-legal-help-2026",
+    "truck-accident-in-charlotte-north-carolina-steps-legal-help-2026",
+    "truck-accident-in-fargo-north-dakota-steps-legal-help-2026",
+    "truck-accident-in-columbus-ohio-steps-legal-help-2026",
+    "truck-accident-in-oklahoma-city-oklahoma-steps-legal-help-2026",
+    "truck-accident-in-portland-oregon-steps-legal-help-2026",
+    "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026",
+    "truck-accident-in-providence-rhode-island-steps-legal-help-2026",
+    "truck-accident-in-charleston-south-carolina-steps-legal-help-2026",
+    "truck-accident-in-sioux-falls-south-dakota-steps-legal-help-2026",
+    "truck-accident-in-nashville-tennessee-steps-legal-help-2026",
+    "truck-accident-in-houston-texas-steps-legal-help-2026",
+    "truck-accident-in-salt-lake-city-utah-steps-legal-help-2026",
+    "truck-accident-in-burlington-vermont-steps-legal-help-2026",
+    "truck-accident-in-virginia-beach-virginia-steps-legal-help-2026",
+    "truck-accident-in-seattle-washington-steps-legal-help-2026",
+    "truck-accident-in-charleston-west-virginia-steps-legal-help-2026",
+    "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026"
   ],
   "stats": {
-    "total_published": 112,
-    "last_run_at": "2026-06-03T01:45:36.177915+00:00"
+    "total_published": 159,
+    "last_run_at": "2026-06-03T05:13:39.093888+00:00"
   },
   "pending": [
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Little Rock, Arkansas? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Birmingham, Alabama",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "place_slug": "birmingham",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "fmcsa-violations-after-a-truck-crash-in-birmingham-alabama"
+    },
+    {
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Anchorage, Alaska",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "fmcsa-violations-after-a-truck-crash-in-anchorage-alaska"
+    },
+    {
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Phoenix, Arizona",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "fmcsa-violations-after-a-truck-crash-in-phoenix-arizona"
+    },
+    {
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Little Rock, Arkansas",
       "city": "Little Rock",
       "state": "Arkansas",
       "place_slug": "little-rock",
@@ -131,11 +217,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-little-rock-arkansas-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Los Angeles, California? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Los Angeles, California",
       "city": "Los Angeles",
       "state": "California",
       "place_slug": "los-angeles",
@@ -144,11 +230,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-los-angeles-california-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-los-angeles-california"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Denver, Colorado? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Denver, Colorado",
       "city": "Denver",
       "state": "Colorado",
       "place_slug": "denver",
@@ -157,11 +243,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-denver-colorado-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-denver-colorado"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Bridgeport, Connecticut? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Bridgeport, Connecticut",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
@@ -170,11 +256,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-bridgeport-connecticut-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Wilmington, Delaware? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Wilmington, Delaware",
       "city": "Wilmington",
       "state": "Delaware",
       "place_slug": "wilmington",
@@ -183,11 +269,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-wilmington-delaware-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-wilmington-delaware"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Washington, District of Columbia? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Washington, District of Columbia",
       "city": "Washington",
       "state": "District of Columbia",
       "place_slug": "washington",
@@ -196,11 +282,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-washington-district-of-columbia-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Miami, Florida: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Miami, Florida? (2026)",
       "city": "Miami",
       "state": "Florida",
       "place_slug": "miami",
@@ -209,11 +295,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-miami-florida-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-miami-florida-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Atlanta, Georgia: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Atlanta, Georgia? (2026)",
       "city": "Atlanta",
       "state": "Georgia",
       "place_slug": "atlanta",
@@ -222,11 +308,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-atlanta-georgia-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Honolulu, Hawaii: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Honolulu, Hawaii? (2026)",
       "city": "Honolulu",
       "state": "Hawaii",
       "place_slug": "honolulu",
@@ -235,11 +321,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-honolulu-hawaii-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Boise, Idaho: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Boise, Idaho? (2026)",
       "city": "Boise",
       "state": "Idaho",
       "place_slug": "boise",
@@ -248,11 +334,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-boise-idaho-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Chicago, Illinois: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Chicago, Illinois? (2026)",
       "city": "Chicago",
       "state": "Illinois",
       "place_slug": "chicago",
@@ -261,11 +347,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-chicago-illinois-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Indianapolis, Indiana: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Indianapolis, Indiana? (2026)",
       "city": "Indianapolis",
       "state": "Indiana",
       "place_slug": "indianapolis",
@@ -274,11 +360,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-indianapolis-indiana-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Des Moines, Iowa: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Des Moines, Iowa? (2026)",
       "city": "Des Moines",
       "state": "Iowa",
       "place_slug": "des-moines",
@@ -287,11 +373,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-des-moines-iowa-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Wichita, Kansas: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Wichita, Kansas? (2026)",
       "city": "Wichita",
       "state": "Kansas",
       "place_slug": "wichita",
@@ -300,11 +386,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-wichita-kansas-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Louisville, Kentucky: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Louisville, Kentucky? (2026)",
       "city": "Louisville",
       "state": "Kentucky",
       "place_slug": "louisville",
@@ -313,11 +399,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-louisville-kentucky-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in New Orleans, Louisiana: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in New Orleans, Louisiana? (2026)",
       "city": "New Orleans",
       "state": "Louisiana",
       "place_slug": "new-orleans",
@@ -326,11 +412,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-new-orleans-louisiana-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Portland, Maine: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Portland, Maine? (2026)",
       "city": "Portland",
       "state": "Maine",
       "place_slug": "portland",
@@ -339,11 +425,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-portland-maine-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-portland-maine-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Baltimore, Maryland: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Baltimore, Maryland? (2026)",
       "city": "Baltimore",
       "state": "Maryland",
       "place_slug": "baltimore",
@@ -352,11 +438,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-baltimore-maryland-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Boston, Massachusetts: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Boston, Massachusetts? (2026)",
       "city": "Boston",
       "state": "Massachusetts",
       "place_slug": "boston",
@@ -365,11 +451,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-boston-massachusetts-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Detroit, Michigan: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Detroit, Michigan? (2026)",
       "city": "Detroit",
       "state": "Michigan",
       "place_slug": "detroit",
@@ -378,11 +464,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-detroit-michigan-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Minneapolis, Minnesota: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Minneapolis, Minnesota? (2026)",
       "city": "Minneapolis",
       "state": "Minnesota",
       "place_slug": "minneapolis",
@@ -391,11 +477,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-minneapolis-minnesota-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Jackson, Mississippi: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Jackson, Mississippi? (2026)",
       "city": "Jackson",
       "state": "Mississippi",
       "place_slug": "jackson",
@@ -404,11 +490,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-jackson-mississippi-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Kansas City, Missouri: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Kansas City, Missouri? (2026)",
       "city": "Kansas City",
       "state": "Missouri",
       "place_slug": "kansas-city",
@@ -417,11 +503,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-kansas-city-missouri-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Billings, Montana: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Billings, Montana? (2026)",
       "city": "Billings",
       "state": "Montana",
       "place_slug": "billings",
@@ -430,11 +516,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-billings-montana-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-billings-montana-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Omaha, Nebraska: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Omaha, Nebraska? (2026)",
       "city": "Omaha",
       "state": "Nebraska",
       "place_slug": "omaha",
@@ -443,11 +529,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-omaha-nebraska-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Las Vegas, Nevada: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Las Vegas, Nevada? (2026)",
       "city": "Las Vegas",
       "state": "Nevada",
       "place_slug": "las-vegas",
@@ -456,11 +542,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-las-vegas-nevada-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Manchester, New Hampshire: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Manchester, New Hampshire? (2026)",
       "city": "Manchester",
       "state": "New Hampshire",
       "place_slug": "manchester",
@@ -469,11 +555,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-manchester-new-hampshire-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Newark, New Jersey: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Newark, New Jersey? (2026)",
       "city": "Newark",
       "state": "New Jersey",
       "place_slug": "newark",
@@ -482,11 +568,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-newark-new-jersey-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Albuquerque, New Mexico: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Albuquerque, New Mexico? (2026)",
       "city": "Albuquerque",
       "state": "New Mexico",
       "place_slug": "albuquerque",
@@ -495,11 +581,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-albuquerque-new-mexico-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in New York City, New York: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in New York City, New York? (2026)",
       "city": "New York City",
       "state": "New York",
       "place_slug": "new-york-city",
@@ -508,11 +594,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-new-york-city-new-york-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Charlotte, North Carolina: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Charlotte, North Carolina? (2026)",
       "city": "Charlotte",
       "state": "North Carolina",
       "place_slug": "charlotte",
@@ -521,11 +607,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-charlotte-north-carolina-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Fargo, North Dakota: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Fargo, North Dakota? (2026)",
       "city": "Fargo",
       "state": "North Dakota",
       "place_slug": "fargo",
@@ -534,11 +620,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-fargo-north-dakota-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Columbus, Ohio: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Columbus, Ohio? (2026)",
       "city": "Columbus",
       "state": "Ohio",
       "place_slug": "columbus",
@@ -547,11 +633,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-columbus-ohio-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Oklahoma City, Oklahoma: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Oklahoma City, Oklahoma? (2026)",
       "city": "Oklahoma City",
       "state": "Oklahoma",
       "place_slug": "oklahoma-city",
@@ -560,11 +646,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-oklahoma-city-oklahoma-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Portland, Oregon: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Portland, Oregon? (2026)",
       "city": "Portland",
       "state": "Oregon",
       "place_slug": "portland",
@@ -573,11 +659,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-portland-oregon-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Philadelphia, Pennsylvania: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Philadelphia, Pennsylvania? (2026)",
       "city": "Philadelphia",
       "state": "Pennsylvania",
       "place_slug": "philadelphia",
@@ -586,11 +672,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Providence, Rhode Island: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Providence, Rhode Island? (2026)",
       "city": "Providence",
       "state": "Rhode Island",
       "place_slug": "providence",
@@ -599,11 +685,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-providence-rhode-island-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Charleston, South Carolina: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Charleston, South Carolina? (2026)",
       "city": "Charleston",
       "state": "South Carolina",
       "place_slug": "charleston",
@@ -612,11 +698,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-charleston-south-carolina-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Sioux Falls, South Dakota: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Sioux Falls, South Dakota? (2026)",
       "city": "Sioux Falls",
       "state": "South Dakota",
       "place_slug": "sioux-falls",
@@ -625,11 +711,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-sioux-falls-south-dakota-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Nashville, Tennessee: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Nashville, Tennessee? (2026)",
       "city": "Nashville",
       "state": "Tennessee",
       "place_slug": "nashville",
@@ -638,11 +724,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-nashville-tennessee-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Houston, Texas: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Houston, Texas? (2026)",
       "city": "Houston",
       "state": "Texas",
       "place_slug": "houston",
@@ -651,11 +737,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-houston-texas-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-houston-texas-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Salt Lake City, Utah: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Salt Lake City, Utah? (2026)",
       "city": "Salt Lake City",
       "state": "Utah",
       "place_slug": "salt-lake-city",
@@ -664,11 +750,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-salt-lake-city-utah-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Burlington, Vermont: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Burlington, Vermont? (2026)",
       "city": "Burlington",
       "state": "Vermont",
       "place_slug": "burlington",
@@ -677,11 +763,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-burlington-vermont-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Virginia Beach, Virginia: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Virginia Beach, Virginia? (2026)",
       "city": "Virginia Beach",
       "state": "Virginia",
       "place_slug": "virginia-beach",
@@ -690,11 +776,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "truck-accident-in-virginia-beach-virginia-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026"
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Seattle, Washington: Steps & Legal Help (2026)",
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Seattle, Washington? (2026)",
       "city": "Seattle",
       "state": "Washington",
       "place_slug": "seattle",
@@ -703,33 +789,7 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "truck-accident-in-seattle-washington-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Charleston, West Virginia: Steps & Legal Help (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-charleston-west-virginia-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Milwaukee, Wisconsin: Steps & Legal Help (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026"
+      "slug": "do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026"
     }
   ],
   "skipped_slugs": [
