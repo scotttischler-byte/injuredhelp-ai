@@ -110,52 +110,16 @@
     "18-wheeler-crash-in-virginia-beach-virginia-victim-guide-2026",
     "18-wheeler-crash-in-seattle-washington-victim-guide-2026",
     "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026",
-    "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026"
+    "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026",
+    "do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026",
+    "do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026",
+    "do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026"
   ],
   "stats": {
-    "total_published": 109,
-    "last_run_at": "2026-06-02T18:53:19.398235+00:00"
+    "total_published": 112,
+    "last_run_at": "2026-06-03T01:45:36.177915+00:00"
   },
   "pending": [
-    {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Birmingham, Alabama? (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026"
-    },
-    {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Anchorage, Alaska? (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026"
-    },
-    {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Phoenix, Arizona? (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026"
-    },
     {
       "angle": "commercial-truck-lawyer",
       "title": "Do I Need a Truck Accident Lawyer in Little Rock, Arkansas? (2026)",
@@ -727,6 +691,45 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-virginia-beach-virginia-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Seattle, Washington: Steps & Legal Help (2026)",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "truck-accident-in-seattle-washington-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Charleston, West Virginia: Steps & Legal Help (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-charleston-west-virginia-steps-legal-help-2026"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Milwaukee, Wisconsin: Steps & Legal Help (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026"
     }
   ],
   "skipped_slugs": [

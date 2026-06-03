@@ -2184,3 +2184,53 @@ Node.js v24.14.1
 }
 
 [2026-06-02T18:53:19.679982+00:00] WARN organic_crush exit 1
+[2026-06-03T01:45:17.905413+00:00] Inject for 51 states not yet published today
+[2026-06-03T01:45:17.907093+00:00] Loaded 239 cities from cities.ts
+[2026-06-03T01:45:17.908798+00:00] Daily 50-state rotation (2026-06-03): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-03T01:45:17.909547+00:00] Daily 50-state injection complete
+[2026-06-03T01:45:18.001596+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-03T01:45:18.003645+00:00] Loaded 239 cities from cities.ts
+[2026-06-03T01:45:18.005595+00:00] Daily 50-state rotation (2026-06-03): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-03T01:45:18.006362+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-03T01:45:18.008349+00:00] States already published today (UTC): 0 — []
+[2026-06-03T01:45:18.011635+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-03T01:45:18.012601+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026
+[2026-06-03T01:45:23.417295+00:00] After materialize: 100 / 4025w ([])
+[2026-06-03T01:45:23.419082+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026 (3217 words)
+[2026-06-03T01:45:23.422525+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026 (3217 words)
+[2026-06-03T01:45:23.624592+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026.pptx
+[2026-06-03T01:45:23.710912+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026.pptx
+[2026-06-03T01:45:23.711012+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026.md
+[2026-06-03T01:45:23.744550+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026
+[2026-06-03T01:45:25.748637+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-03T01:45:25.749625+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026
+[2026-06-03T01:45:29.820321+00:00] After materialize: 100 / 4015w ([])
+[2026-06-03T01:45:29.822010+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026 (3207 words)
+[2026-06-03T01:45:29.825554+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026 (3207 words)
+[2026-06-03T01:45:29.914080+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026.pptx
+[2026-06-03T01:45:30.004107+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026.pptx
+[2026-06-03T01:45:30.004204+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026.md
+[2026-06-03T01:45:30.038081+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026
+[2026-06-03T01:45:32.041497+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-03T01:45:32.042489+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026
+[2026-06-03T01:45:35.969326+00:00] After materialize: 100 / 4015w ([])
+[2026-06-03T01:45:35.970957+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026 (3207 words)
+[2026-06-03T01:45:35.974526+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026 (3207 words)
+[2026-06-03T01:45:36.060657+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026.pptx
+[2026-06-03T01:45:36.144146+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026.pptx
+[2026-06-03T01:45:36.144240+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026.md
+[2026-06-03T01:45:36.177428+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026
+[2026-06-03T01:45:36.177851+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026.json
+[2026-06-03T01:45:36.180369+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026', 'do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026', 'do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026']
+[2026-06-03T01:45:36.186982+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-03T01:45:36.480291+00:00]  lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-03T01:45:36.353636+00:00\",\n  \"stats\": {\n    \"enPosts\": 665,\n    \"esPosts\": 665,\n    \"platinumEn\": 646,\n    \"lastUpdated\": \"2026-06-03\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-birmingham-alabama-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-anchorage-alaska-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-phoenix-arizona-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-03T01:45:36.480414+00:00] WARN organic_crush exit 1
