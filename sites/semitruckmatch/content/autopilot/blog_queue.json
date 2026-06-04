@@ -160,52 +160,16 @@
     "truck-accident-in-virginia-beach-virginia-steps-legal-help-2026",
     "truck-accident-in-seattle-washington-steps-legal-help-2026",
     "truck-accident-in-charleston-west-virginia-steps-legal-help-2026",
-    "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026"
+    "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026",
+    "fmcsa-violations-after-a-truck-crash-in-birmingham-alabama",
+    "fmcsa-violations-after-a-truck-crash-in-anchorage-alaska",
+    "fmcsa-violations-after-a-truck-crash-in-phoenix-arizona"
   ],
   "stats": {
-    "total_published": 159,
-    "last_run_at": "2026-06-03T05:13:39.093888+00:00"
+    "total_published": 162,
+    "last_run_at": "2026-06-04T04:09:14.557599+00:00"
   },
   "pending": [
-    {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Birmingham, Alabama",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-birmingham-alabama"
-    },
-    {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Anchorage, Alaska",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-anchorage-alaska"
-    },
-    {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Phoenix, Arizona",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-phoenix-arizona"
-    },
     {
       "angle": "fmcsa-violation",
       "title": "FMCSA Violations After a Truck Crash in Little Rock, Arkansas",
@@ -790,6 +754,32 @@
       "firm_state": true,
       "vertical": "truck",
       "slug": "do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Charleston, West Virginia? (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026"
+    },
+    {
+      "angle": "commercial-truck-lawyer",
+      "title": "Do I Need a Truck Accident Lawyer in Milwaukee, Wisconsin? (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026"
     }
   ],
   "skipped_slugs": [
