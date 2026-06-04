@@ -646,205 +646,194 @@
     "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026",
     "7-costly-car-accident-mistakes-in-birmingham-alabama-2026",
     "severe-injury-after-a-car-accident-in-anchorage-alaska-2026",
-    "whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026"
+    "whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026",
+    "severe-injury-after-a-car-accident-in-little-rock-arkansas-2026",
+    "should-you-hire-a-lawyer-after-a-los-angeles-crash-california-2026",
+    "should-you-hire-a-lawyer-after-a-denver-crash-colorado-2026",
+    "severe-injury-after-a-car-accident-in-bridgeport-connecticut-2026",
+    "severe-injury-after-a-car-accident-in-wilmington-delaware-2026",
+    "severe-injury-after-a-car-accident-in-washington-district-of-columbia-2026",
+    "should-you-hire-a-lawyer-after-a-miami-crash-florida-2026",
+    "should-you-hire-a-lawyer-after-a-atlanta-crash-georgia-2026",
+    "severe-injury-after-a-car-accident-in-honolulu-hawaii-2026",
+    "severe-injury-after-a-car-accident-in-boise-idaho-2026",
+    "should-you-hire-a-lawyer-after-a-chicago-crash-illinois-2026",
+    "7-costly-car-accident-mistakes-in-indianapolis-indiana-2026",
+    "7-costly-car-accident-mistakes-in-des-moines-iowa-2026",
+    "7-costly-car-accident-mistakes-in-wichita-kansas-2026",
+    "7-costly-car-accident-mistakes-in-louisville-kentucky-2026"
   ],
   "stats": {
-    "total_published": 645,
-    "last_run_at": "2026-06-04T04:09:17.705425+00:00"
+    "total_published": 660,
+    "last_run_at": "2026-06-04T08:00:56.491056+00:00"
   },
   "pending": [
     {
       "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Little Rock, Arkansas (2026)",
+      "title": "Severe Injury After a Car Accident in Birmingham, Alabama (2026)",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "place_slug": "birmingham",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-car-accident-in-birmingham-alabama-2026"
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Anchorage Crash? (Alaska 2026)",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Phoenix, Arizona: Steps & Legal Help (2026)",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-phoenix-arizona-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Little Rock Crash? (Arkansas 2026)",
       "city": "Little Rock",
       "state": "Arkansas",
       "place_slug": "little-rock",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-little-rock-arkansas-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Los Angeles Crash? (California 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Los Angeles, California \u2014 What to Know (2026)",
       "city": "Los Angeles",
       "state": "California",
       "place_slug": "los-angeles",
       "priority": -2,
+      "firm_state": true,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-los-angeles-crash-california-2026",
+      "slug": "whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026",
       "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
+      "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Denver Crash? (Colorado 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Denver, Colorado \u2014 What to Know (2026)",
       "city": "Denver",
       "state": "Colorado",
       "place_slug": "denver",
       "priority": -2,
       "firm_state": true,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-denver-crash-colorado-2026",
+      "slug": "whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Bridgeport, Connecticut (2026)",
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Bridgeport Crash? (Connecticut 2026)",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-bridgeport-connecticut-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Wilmington, Delaware (2026)",
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Wilmington Crash? (Delaware 2026)",
       "city": "Wilmington",
       "state": "Delaware",
       "place_slug": "wilmington",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-wilmington-delaware-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Washington, District of Columbia (2026)",
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Washington Crash? (District of Columbia 2026)",
       "city": "Washington",
       "state": "District of Columbia",
       "place_slug": "washington",
       "priority": -2,
-      "daily_state_rotation": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-washington-district-of-columbia-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026",
+      "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Miami Crash? (Florida 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Miami, Florida \u2014 What to Know (2026)",
       "city": "Miami",
       "state": "Florida",
       "place_slug": "miami",
       "priority": -2,
+      "firm_state": true,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-miami-crash-florida-2026",
+      "slug": "whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026",
       "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
+      "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Atlanta Crash? (Georgia 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Atlanta, Georgia \u2014 What to Know (2026)",
       "city": "Atlanta",
       "state": "Georgia",
       "place_slug": "atlanta",
       "priority": -2,
+      "firm_state": true,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-atlanta-crash-georgia-2026",
+      "slug": "whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026",
       "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
+      "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Honolulu, Hawaii (2026)",
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Honolulu Crash? (Hawaii 2026)",
       "city": "Honolulu",
       "state": "Hawaii",
       "place_slug": "honolulu",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-honolulu-hawaii-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Boise, Idaho (2026)",
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Boise Crash? (Idaho 2026)",
       "city": "Boise",
       "state": "Idaho",
       "place_slug": "boise",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-boise-idaho-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Chicago Crash? (Illinois 2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": "chicago",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-chicago-crash-illinois-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Indianapolis, Indiana (2026)",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "place_slug": "indianapolis",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-indianapolis-indiana-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Des Moines, Iowa (2026)",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "place_slug": "des-moines",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-des-moines-iowa-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Wichita, Kansas (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-wichita-kansas-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Louisville, Kentucky (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-louisville-kentucky-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -5453,17 +5442,6 @@
       "slug": "hit-by-an-uninsured-driver-in-los-angeles-california-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Los Angeles, California \u2014 What to Know (2026)",
-      "city": "Los Angeles",
-      "state": "California",
-      "place_slug": "los-angeles",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Sacramento, California (2026)",
       "city": "Sacramento",
@@ -6091,17 +6069,6 @@
       "slug": "hit-by-an-uninsured-driver-in-denver-colorado-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Denver, Colorado \u2014 What to Know (2026)",
-      "city": "Denver",
-      "state": "Colorado",
-      "place_slug": "denver",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Fort Collins, Colorado (2026)",
       "city": "Fort Collins",
@@ -6518,17 +6485,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-miami-florida-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Miami, Florida \u2014 What to Know (2026)",
-      "city": "Miami",
-      "state": "Florida",
-      "place_slug": "miami",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -6958,17 +6914,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-atlanta-georgia-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Atlanta, Georgia \u2014 What to Know (2026)",
-      "city": "Atlanta",
-      "state": "Georgia",
-      "place_slug": "atlanta",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -30732,17 +30677,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Phoenix, Arizona: Steps & Legal Help (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-phoenix-arizona-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Scottsdale, Arizona: Steps & Legal Help (2026)",
       "city": "Scottsdale",
       "state": "Arizona",
@@ -32535,17 +32469,6 @@
       "slug": "truck-accident-in-laramie-wyoming-steps-legal-help-2026"
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Anchorage Crash? (Alaska 2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026"
-    },
-    {
       "angle": "rideshare",
       "title": "Uber or Lyft Accident in Anchorage, Alaska (2026 Guide)",
       "city": "Anchorage",
@@ -33602,17 +33525,6 @@
       "slug": "whiplash-after-a-car-accident-in-fort-smith-arkansas-what-to-know-2026"
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Little Rock Crash? (Arkansas 2026)",
-      "city": "Little Rock",
-      "state": "Arkansas",
-      "place_slug": "little-rock",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026"
-    },
-    {
       "angle": "rideshare",
       "title": "Uber or Lyft Accident in Little Rock, Arkansas (2026 Guide)",
       "city": "Little Rock",
@@ -33754,17 +33666,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-springdale-arkansas-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Bridgeport Crash? (Connecticut 2026)",
-      "city": "Bridgeport",
-      "state": "Connecticut",
-      "place_slug": "bridgeport",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026"
     },
     {
       "angle": "rideshare",
@@ -34383,17 +34284,6 @@
       "slug": "whiplash-after-a-car-accident-in-newark-delaware-what-to-know-2026"
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Wilmington Crash? (Delaware 2026)",
-      "city": "Wilmington",
-      "state": "Delaware",
-      "place_slug": "wilmington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026"
-    },
-    {
       "angle": "rideshare",
       "title": "Uber or Lyft Accident in Wilmington, Delaware (2026 Guide)",
       "city": "Wilmington",
@@ -34436,17 +34326,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Washington Crash? (District of Columbia 2026)",
-      "city": "Washington",
-      "state": "District of Columbia",
-      "place_slug": "washington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026"
     },
     {
       "angle": "rideshare",
@@ -34590,17 +34469,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-hilo-hawaii-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Honolulu Crash? (Hawaii 2026)",
-      "city": "Honolulu",
-      "state": "Hawaii",
-      "place_slug": "honolulu",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026"
     },
     {
       "angle": "rideshare",
@@ -34843,17 +34711,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-kapolei-hawaii-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Boise Crash? (Idaho 2026)",
-      "city": "Boise",
-      "state": "Idaho",
-      "place_slug": "boise",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026"
     },
     {
       "angle": "rideshare",
