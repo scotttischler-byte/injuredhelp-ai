@@ -2630,3 +2630,691 @@ Target: 50 states (top city per state) — UTC day 2026-06-03
 
 Round 1: 50/50 states — need 0
 Done — 50-state SLA met.
+[2026-06-04T05:02:31.324721+00:00] Inject for 48 states not yet published today
+[2026-06-04T05:02:31.326200+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:02:31.327718+00:00] Daily 50-state rotation (2026-06-04): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-04T05:02:31.328300+00:00] Daily 50-state injection complete
+[2026-06-04T05:02:31.403173+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:02:31.404767+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:02:31.406477+00:00] Daily 50-state rotation (2026-06-04): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-04T05:02:31.407079+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:02:31.409226+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-04T05:02:31.411736+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:02:31.412487+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas
+[2026-06-04T05:02:36.871060+00:00] After materialize: 100 / 4035w ([])
+[2026-06-04T05:02:36.872468+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas (3213 words)
+[2026-06-04T05:02:36.880864+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas (3213 words)
+[2026-06-04T05:02:37.071576+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas.pptx
+[2026-06-04T05:02:37.140150+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas.pptx
+[2026-06-04T05:02:37.140239+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas.md
+[2026-06-04T05:02:37.174253+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas
+[2026-06-04T05:02:39.184060+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:02:39.184854+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-los-angeles-california
+[2026-06-04T05:02:42.306661+00:00] After materialize: 100 / 4032w ([])
+[2026-06-04T05:02:42.307938+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-los-angeles-california (3211 words)
+[2026-06-04T05:02:42.310818+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-los-angeles-california (3211 words)
+[2026-06-04T05:02:42.379196+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-los-angeles-california: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-los-angeles-california.pptx
+[2026-06-04T05:02:42.449241+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-los-angeles-california: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-los-angeles-california.pptx
+[2026-06-04T05:02:42.449317+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-los-angeles-california.md
+[2026-06-04T05:02:42.474923+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-los-angeles-california
+[2026-06-04T05:02:44.477981+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:02:44.478751+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-denver-colorado
+[2026-06-04T05:02:47.758951+00:00] After materialize: 100 / 4024w ([])
+[2026-06-04T05:02:47.760808+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-denver-colorado (3197 words)
+[2026-06-04T05:02:47.765286+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-denver-colorado (3197 words)
+[2026-06-04T05:02:47.834458+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-denver-colorado: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-denver-colorado.pptx
+[2026-06-04T05:02:47.899592+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-denver-colorado: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-denver-colorado.pptx
+[2026-06-04T05:02:47.899680+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-denver-colorado.md
+[2026-06-04T05:02:47.927538+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-denver-colorado
+[2026-06-04T05:02:49.931057+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:02:49.931820+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut
+[2026-06-04T05:02:53.115627+00:00] After materialize: 100 / 4024w ([])
+[2026-06-04T05:02:53.116870+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut (3197 words)
+[2026-06-04T05:02:53.119583+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut (3197 words)
+[2026-06-04T05:02:53.187596+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut.pptx
+[2026-06-04T05:02:53.265034+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut.pptx
+[2026-06-04T05:02:53.265123+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut.md
+[2026-06-04T05:02:53.291485+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut
+[2026-06-04T05:02:55.294673+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:02:55.295448+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-wilmington-delaware
+[2026-06-04T05:02:58.465456+00:00] After materialize: 100 / 4013w ([])
+[2026-06-04T05:02:58.466790+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-wilmington-delaware (3199 words)
+[2026-06-04T05:02:58.469499+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-wilmington-delaware (3199 words)
+[2026-06-04T05:02:58.536396+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-wilmington-delaware: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-wilmington-delaware.pptx
+[2026-06-04T05:02:58.601215+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-wilmington-delaware: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-wilmington-delaware.pptx
+[2026-06-04T05:02:58.601299+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-wilmington-delaware.md
+[2026-06-04T05:02:58.627584+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-wilmington-delaware
+[2026-06-04T05:02:58.627949+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-wilmington-delaware.json
+[2026-06-04T05:02:58.630111+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas', 'fmcsa-violations-after-a-truck-crash-in-los-angeles-california', 'fmcsa-violations-after-a-truck-crash-in-denver-colorado', 'fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut', 'fmcsa-violations-after-a-truck-crash-in-wilmington-delaware']
+[2026-06-04T05:02:58.635413+00:00] Daily ledger (UTC): 8/50 states, 8 EN posts
+[2026-06-04T05:02:58.872427+00:00]  "tail": "a step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:02:58.768584+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas\",\n      \"fmcsa-violations-after-a-truck-crash-in-los-angeles-california\",\n      \"fmcsa-violations-after-a-truck-crash-in-denver-colorado\",\n      \"fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut\",\n      \"fmcsa-violations-after-a-truck-crash-in-wilmington-delaware\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:02:58.872566+00:00] WARN organic_crush exit 1
+[2026-06-04T05:02:58.970495+00:00] Inject for 43 states not yet published today
+[2026-06-04T05:02:58.971932+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:02:58.973337+00:00] Daily 50-state rotation (2026-06-04): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-04T05:02:58.973905+00:00] Daily 50-state injection complete
+[2026-06-04T05:02:59.047693+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:02:59.049336+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:02:59.051129+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:02:59.051742+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:02:59.054062+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware']
+[2026-06-04T05:02:59.056156+00:00] Quality 30 / 649w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:02:59.056923+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia
+[2026-06-04T05:03:02.225960+00:00] After materialize: 100 / 4073w ([])
+[2026-06-04T05:03:02.227393+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia (3259 words)
+[2026-06-04T05:03:02.248632+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia (3259 words)
+[2026-06-04T05:03:02.367136+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia.pptx
+[2026-06-04T05:03:02.434031+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia.pptx
+[2026-06-04T05:03:02.434113+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia.md
+[2026-06-04T05:03:02.460066+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia
+[2026-06-04T05:03:04.463866+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:04.464639+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-miami-florida-2026
+[2026-06-04T05:03:07.633218+00:00] After materialize: 100 / 4039w ([])
+[2026-06-04T05:03:07.634497+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-miami-florida-2026 (3226 words)
+[2026-06-04T05:03:07.637317+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-miami-florida-2026 (3226 words)
+[2026-06-04T05:03:07.761149+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-miami-florida-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-miami-florida-2026.pptx
+[2026-06-04T05:03:07.833157+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-miami-florida-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-miami-florida-2026.pptx
+[2026-06-04T05:03:07.833237+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-miami-florida-2026.md
+[2026-06-04T05:03:07.859774+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-miami-florida-2026
+[2026-06-04T05:03:09.863084+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:09.863872+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026
+[2026-06-04T05:03:13.041188+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:03:13.042485+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026 (3209 words)
+[2026-06-04T05:03:13.045237+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026 (3209 words)
+[2026-06-04T05:03:13.111741+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026.pptx
+[2026-06-04T05:03:13.176014+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026.pptx
+[2026-06-04T05:03:13.176089+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026.md
+[2026-06-04T05:03:13.202229+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026
+[2026-06-04T05:03:15.205705+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:15.206477+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026
+[2026-06-04T05:03:18.350762+00:00] After materialize: 100 / 4027w ([])
+[2026-06-04T05:03:18.352039+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026 (3224 words)
+[2026-06-04T05:03:18.354708+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026 (3224 words)
+[2026-06-04T05:03:18.422408+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026.pptx
+[2026-06-04T05:03:18.492623+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026.pptx
+[2026-06-04T05:03:18.492696+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026.md
+[2026-06-04T05:03:18.518975+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026
+[2026-06-04T05:03:20.522212+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:20.522983+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026
+[2026-06-04T05:03:23.635635+00:00] After materialize: 100 / 4015w ([])
+[2026-06-04T05:03:23.636956+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026 (3211 words)
+[2026-06-04T05:03:23.645393+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026 (3211 words)
+[2026-06-04T05:03:23.713394+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026.pptx
+[2026-06-04T05:03:23.777601+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026.pptx
+[2026-06-04T05:03:23.777673+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026.md
+[2026-06-04T05:03:23.803891+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026
+[2026-06-04T05:03:23.804179+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026.json
+[2026-06-04T05:03:23.806347+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia', 'do-i-need-a-truck-accident-lawyer-in-miami-florida-2026', 'do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026', 'do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026', 'do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026']
+[2026-06-04T05:03:23.809944+00:00] Daily ledger (UTC): 13/50 states, 13 EN posts
+[2026-06-04T05:03:24.042341+00:00]  "tail": "lorida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:03:23.941796+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia\",\n      \"do-i-need-a-truck-accident-lawyer-in-miami-florida-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:03:24.042480+00:00] WARN organic_crush exit 1
+[2026-06-04T05:03:24.140787+00:00] Inject for 38 states not yet published today
+[2026-06-04T05:03:24.142238+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:03:24.143543+00:00] Daily 50-state rotation (2026-06-04): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-04T05:03:24.144091+00:00] Daily 50-state injection complete
+[2026-06-04T05:03:24.216484+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:03:24.218154+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:03:24.219947+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:03:24.220525+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:03:24.222887+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho']
+[2026-06-04T05:03:24.224967+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:24.225704+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026
+[2026-06-04T05:03:27.357573+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:03:27.359050+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026 (3209 words)
+[2026-06-04T05:03:27.364147+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026 (3209 words)
+[2026-06-04T05:03:27.482987+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026.pptx
+[2026-06-04T05:03:27.549362+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026.pptx
+[2026-06-04T05:03:27.549442+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026.md
+[2026-06-04T05:03:27.575871+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026
+[2026-06-04T05:03:29.579792+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:29.580577+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026
+[2026-06-04T05:03:32.708585+00:00] After materialize: 100 / 4017w ([])
+[2026-06-04T05:03:32.709989+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026 (3211 words)
+[2026-06-04T05:03:32.712733+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026 (3211 words)
+[2026-06-04T05:03:32.780982+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026.pptx
+[2026-06-04T05:03:32.850112+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026.pptx
+[2026-06-04T05:03:32.850187+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026.md
+[2026-06-04T05:03:32.876604+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026
+[2026-06-04T05:03:34.880871+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:34.881653+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026
+[2026-06-04T05:03:38.025850+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:03:38.027136+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026 (3227 words)
+[2026-06-04T05:03:38.034374+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026 (3227 words)
+[2026-06-04T05:03:38.101217+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026.pptx
+[2026-06-04T05:03:38.167604+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026.pptx
+[2026-06-04T05:03:38.167677+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026.md
+[2026-06-04T05:03:38.193628+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026
+[2026-06-04T05:03:40.197242+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:40.198030+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026
+[2026-06-04T05:03:43.338187+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:03:43.339451+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026 (3209 words)
+[2026-06-04T05:03:43.342219+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026 (3209 words)
+[2026-06-04T05:03:43.410009+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026.pptx
+[2026-06-04T05:03:43.479387+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026.pptx
+[2026-06-04T05:03:43.479460+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026.md
+[2026-06-04T05:03:43.505606+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026
+[2026-06-04T05:03:45.508858+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:45.509639+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026
+[2026-06-04T05:03:48.644335+00:00] After materialize: 100 / 4025w ([])
+[2026-06-04T05:03:48.645674+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026 (3220 words)
+[2026-06-04T05:03:48.648477+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026 (3220 words)
+[2026-06-04T05:03:48.714423+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026.pptx
+[2026-06-04T05:03:48.778267+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026.pptx
+[2026-06-04T05:03:48.778342+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026.md
+[2026-06-04T05:03:48.804632+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026
+[2026-06-04T05:03:48.804973+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026.json
+[2026-06-04T05:03:48.807194+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026', 'do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026', 'do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026', 'do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026', 'do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026']
+[2026-06-04T05:03:48.810789+00:00] Daily ledger (UTC): 18/50 states, 18 EN posts
+[2026-06-04T05:03:49.044304+00:00]  "tail": "orida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:03:48.941923+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:03:49.044437+00:00] WARN organic_crush exit 1
+[2026-06-04T05:03:49.140826+00:00] Inject for 33 states not yet published today
+[2026-06-04T05:03:49.142284+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:03:49.143470+00:00] Daily 50-state rotation (2026-06-04): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-04T05:03:49.144005+00:00] Daily 50-state injection complete
+[2026-06-04T05:03:49.216496+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:03:49.218122+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:03:49.219897+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:03:49.220476+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:03:49.222957+00:00] States already published today (UTC): 18 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky']
+[2026-06-04T05:03:49.225042+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:49.225796+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026
+[2026-06-04T05:03:52.405181+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:03:52.406614+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026 (3223 words)
+[2026-06-04T05:03:52.409371+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026 (3223 words)
+[2026-06-04T05:03:52.529475+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026.pptx
+[2026-06-04T05:03:52.596956+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026.pptx
+[2026-06-04T05:03:52.597053+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026.md
+[2026-06-04T05:03:52.623433+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026
+[2026-06-04T05:03:54.627593+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:54.628396+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-portland-maine-2026
+[2026-06-04T05:03:57.757540+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:03:57.758757+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-portland-maine-2026 (3209 words)
+[2026-06-04T05:03:57.761483+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-portland-maine-2026 (3209 words)
+[2026-06-04T05:03:57.829258+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-portland-maine-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-portland-maine-2026.pptx
+[2026-06-04T05:03:57.898262+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-portland-maine-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-portland-maine-2026.pptx
+[2026-06-04T05:03:57.898346+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-portland-maine-2026.md
+[2026-06-04T05:03:57.924563+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-portland-maine-2026
+[2026-06-04T05:03:59.927953+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:03:59.928725+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026
+[2026-06-04T05:04:03.092711+00:00] After materialize: 100 / 4025w ([])
+[2026-06-04T05:04:03.094117+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026 (3217 words)
+[2026-06-04T05:04:03.097026+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026 (3217 words)
+[2026-06-04T05:04:03.162503+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026.pptx
+[2026-06-04T05:04:03.225851+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026.pptx
+[2026-06-04T05:04:03.225960+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026.md
+[2026-06-04T05:04:03.252138+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026
+[2026-06-04T05:04:05.255742+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:05.256515+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026
+[2026-06-04T05:04:08.414629+00:00] After materialize: 100 / 4030w ([])
+[2026-06-04T05:04:08.416005+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026 (3227 words)
+[2026-06-04T05:04:08.418836+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026 (3227 words)
+[2026-06-04T05:04:08.486786+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026.pptx
+[2026-06-04T05:04:08.558462+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026.pptx
+[2026-06-04T05:04:08.558554+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026.md
+[2026-06-04T05:04:08.584750+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026
+[2026-06-04T05:04:10.588310+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:10.589081+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026
+[2026-06-04T05:04:13.741550+00:00] After materialize: 100 / 4030w ([])
+[2026-06-04T05:04:13.742909+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026 (3227 words)
+[2026-06-04T05:04:13.745710+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026 (3227 words)
+[2026-06-04T05:04:13.811043+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026.pptx
+[2026-06-04T05:04:13.874566+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026.pptx
+[2026-06-04T05:04:13.874638+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026.md
+[2026-06-04T05:04:13.901168+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026
+[2026-06-04T05:04:13.901489+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026.json
+[2026-06-04T05:04:13.903898+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026', 'do-i-need-a-truck-accident-lawyer-in-portland-maine-2026', 'do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026', 'do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026', 'do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026']
+[2026-06-04T05:04:13.907708+00:00] Daily ledger (UTC): 23/50 states, 23 EN posts
+[2026-06-04T05:04:14.146249+00:00]  "tail": " step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:04:14.040418+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-portland-maine-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:04:14.146395+00:00] WARN organic_crush exit 1
+[2026-06-04T05:04:14.244093+00:00] Inject for 28 states not yet published today
+[2026-06-04T05:04:14.245540+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:04:14.246667+00:00] Daily 50-state rotation (2026-06-04): +0 new, 27 re-prioritized, 27 at queue front
+[2026-06-04T05:04:14.247226+00:00] Daily 50-state injection complete
+[2026-06-04T05:04:14.320699+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:04:14.322359+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:04:14.324192+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:04:14.324782+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:04:14.327371+00:00] States already published today (UTC): 23 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan']
+[2026-06-04T05:04:14.329439+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:14.330236+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026
+[2026-06-04T05:04:17.590562+00:00] After materialize: 100 / 4025w ([])
+[2026-06-04T05:04:17.592032+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026 (3224 words)
+[2026-06-04T05:04:17.594796+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026 (3224 words)
+[2026-06-04T05:04:17.713508+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026.pptx
+[2026-06-04T05:04:17.779513+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026.pptx
+[2026-06-04T05:04:17.779590+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026.md
+[2026-06-04T05:04:17.806264+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026
+[2026-06-04T05:04:19.810413+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:19.811204+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026
+[2026-06-04T05:04:22.998139+00:00] After materialize: 100 / 4015w ([])
+[2026-06-04T05:04:22.999392+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026 (3207 words)
+[2026-06-04T05:04:23.002128+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026 (3207 words)
+[2026-06-04T05:04:23.070425+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026.pptx
+[2026-06-04T05:04:23.139720+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026.pptx
+[2026-06-04T05:04:23.139795+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026.md
+[2026-06-04T05:04:23.165832+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026
+[2026-06-04T05:04:25.169300+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:25.170133+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026
+[2026-06-04T05:04:28.329030+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:04:28.330283+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026 (3223 words)
+[2026-06-04T05:04:28.386898+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026 (3223 words)
+[2026-06-04T05:04:28.452730+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026.pptx
+[2026-06-04T05:04:28.516860+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026.pptx
+[2026-06-04T05:04:28.516964+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026.md
+[2026-06-04T05:04:28.543201+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026
+[2026-06-04T05:04:30.547054+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:30.547845+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-billings-montana-2026
+[2026-06-04T05:04:33.692494+00:00] After materialize: 100 / 4015w ([])
+[2026-06-04T05:04:33.693719+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-billings-montana-2026 (3211 words)
+[2026-06-04T05:04:33.696505+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-billings-montana-2026 (3211 words)
+[2026-06-04T05:04:33.764161+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-billings-montana-2026.pptx
+[2026-06-04T05:04:33.835323+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-billings-montana-2026.pptx
+[2026-06-04T05:04:33.835402+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-billings-montana-2026.md
+[2026-06-04T05:04:33.861584+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-billings-montana-2026
+[2026-06-04T05:04:35.865074+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:35.865838+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026
+[2026-06-04T05:04:39.042306+00:00] After materialize: 100 / 4015w ([])
+[2026-06-04T05:04:39.043680+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026 (3211 words)
+[2026-06-04T05:04:39.046471+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026 (3211 words)
+[2026-06-04T05:04:39.113240+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026.pptx
+[2026-06-04T05:04:39.177292+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026.pptx
+[2026-06-04T05:04:39.177373+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026.md
+[2026-06-04T05:04:39.203761+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026
+[2026-06-04T05:04:39.204096+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026.json
+[2026-06-04T05:04:39.206515+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026', 'do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026', 'do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026', 'do-i-need-a-truck-accident-lawyer-in-billings-montana-2026', 'do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026']
+[2026-06-04T05:04:39.210404+00:00] Daily ledger (UTC): 28/50 states, 28 EN posts
+[2026-06-04T05:04:39.445699+00:00]  "tail": "step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:04:39.343892+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-billings-montana-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:04:39.445839+00:00] WARN organic_crush exit 1
+[2026-06-04T05:04:39.544222+00:00] Inject for 23 states not yet published today
+[2026-06-04T05:04:39.545656+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:04:39.546641+00:00] Daily 50-state rotation (2026-06-04): +0 new, 22 re-prioritized, 22 at queue front
+[2026-06-04T05:04:39.547224+00:00] Daily 50-state injection complete
+[2026-06-04T05:04:39.619867+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:04:39.621512+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:04:39.623355+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:04:39.623963+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:04:39.626644+00:00] States already published today (UTC): 28 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska']
+[2026-06-04T05:04:39.628707+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:39.629472+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026
+[2026-06-04T05:04:42.805682+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:04:42.807194+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026 (3227 words)
+[2026-06-04T05:04:42.809950+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026 (3227 words)
+[2026-06-04T05:04:42.931946+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026.pptx
+[2026-06-04T05:04:42.999185+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026.pptx
+[2026-06-04T05:04:42.999278+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026.md
+[2026-06-04T05:04:43.025388+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026
+[2026-06-04T05:04:45.029684+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:45.030483+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026
+[2026-06-04T05:04:48.260816+00:00] After materialize: 100 / 4045w ([])
+[2026-06-04T05:04:48.262157+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026 (3243 words)
+[2026-06-04T05:04:48.265033+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026 (3243 words)
+[2026-06-04T05:04:48.334923+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026.pptx
+[2026-06-04T05:04:48.409314+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026.pptx
+[2026-06-04T05:04:48.409406+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026.md
+[2026-06-04T05:04:48.435705+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026
+[2026-06-04T05:04:50.439395+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:50.440210+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026
+[2026-06-04T05:04:53.616618+00:00] After materialize: 100 / 4059w ([])
+[2026-06-04T05:04:53.618019+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026 (3259 words)
+[2026-06-04T05:04:53.620788+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026 (3259 words)
+[2026-06-04T05:04:53.687243+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026.pptx
+[2026-06-04T05:04:53.751716+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026.pptx
+[2026-06-04T05:04:53.751797+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026.md
+[2026-06-04T05:04:53.777968+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026
+[2026-06-04T05:04:55.781950+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:04:55.782731+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026
+[2026-06-04T05:04:58.927445+00:00] After materialize: 100 / 4045w ([])
+[2026-06-04T05:04:58.928755+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026 (3239 words)
+[2026-06-04T05:04:58.931499+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026 (3239 words)
+[2026-06-04T05:04:59.000031+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026.pptx
+[2026-06-04T05:04:59.074524+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026.pptx
+[2026-06-04T05:04:59.074608+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026.md
+[2026-06-04T05:04:59.100843+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026
+[2026-06-04T05:05:01.104368+00:00] Quality 30 / 656w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:01.105158+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026
+[2026-06-04T05:05:04.299320+00:00] After materialize: 100 / 4090w ([])
+[2026-06-04T05:05:04.300537+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026 (3287 words)
+[2026-06-04T05:05:04.303293+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026 (3287 words)
+[2026-06-04T05:05:04.369767+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026.pptx
+[2026-06-04T05:05:04.434006+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026.pptx
+[2026-06-04T05:05:04.434084+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026.md
+[2026-06-04T05:05:04.460222+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026
+[2026-06-04T05:05:04.460527+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026.json
+[2026-06-04T05:05:04.462998+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026', 'do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026', 'do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026', 'do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026', 'do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026']
+[2026-06-04T05:05:04.466896+00:00] Daily ledger (UTC): 33/50 states, 33 EN posts
+[2026-06-04T05:05:04.701915+00:00]  "tail": "p\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:05:04.598420+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:05:04.702025+00:00] WARN organic_crush exit 1
+[2026-06-04T05:05:04.800648+00:00] Inject for 18 states not yet published today
+[2026-06-04T05:05:04.802111+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:05:04.803012+00:00] Daily 50-state rotation (2026-06-04): +0 new, 17 re-prioritized, 17 at queue front
+[2026-06-04T05:05:04.803580+00:00] Daily 50-state injection complete
+[2026-06-04T05:05:04.876753+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:05:04.878390+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:05:04.880208+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:05:04.880786+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:05:04.883493+00:00] States already published today (UTC): 33 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York']
+[2026-06-04T05:05:04.885573+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:04.886344+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026
+[2026-06-04T05:05:08.047808+00:00] After materialize: 100 / 4055w ([])
+[2026-06-04T05:05:08.049264+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026 (3249 words)
+[2026-06-04T05:05:08.051987+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026 (3249 words)
+[2026-06-04T05:05:08.170583+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026.pptx
+[2026-06-04T05:05:08.238682+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026.pptx
+[2026-06-04T05:05:08.238761+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026.md
+[2026-06-04T05:05:08.265215+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026
+[2026-06-04T05:05:10.269537+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:10.270337+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026
+[2026-06-04T05:05:13.436736+00:00] After materialize: 100 / 4067w ([])
+[2026-06-04T05:05:13.438109+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026 (3254 words)
+[2026-06-04T05:05:13.440918+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026 (3254 words)
+[2026-06-04T05:05:13.509937+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026.pptx
+[2026-06-04T05:05:13.583344+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026.pptx
+[2026-06-04T05:05:13.583459+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026.md
+[2026-06-04T05:05:13.609834+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026
+[2026-06-04T05:05:15.613470+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:15.614247+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026
+[2026-06-04T05:05:18.771617+00:00] After materialize: 100 / 4017w ([])
+[2026-06-04T05:05:18.772961+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026 (3211 words)
+[2026-06-04T05:05:19.016110+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026 (3211 words)
+[2026-06-04T05:05:19.082665+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026.pptx
+[2026-06-04T05:05:19.147003+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026.pptx
+[2026-06-04T05:05:19.147076+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026.md
+[2026-06-04T05:05:19.173422+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026
+[2026-06-04T05:05:21.177319+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:21.178118+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026
+[2026-06-04T05:05:24.301316+00:00] After materialize: 100 / 4028w ([])
+[2026-06-04T05:05:24.302604+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026 (3227 words)
+[2026-06-04T05:05:24.430552+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026 (3227 words)
+[2026-06-04T05:05:24.498558+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-04T05:05:24.570553+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-04T05:05:24.570627+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026.md
+[2026-06-04T05:05:24.596580+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026
+[2026-06-04T05:05:26.600267+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:26.601054+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026
+[2026-06-04T05:05:29.730077+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:05:29.731357+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026 (3209 words)
+[2026-06-04T05:05:29.734181+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026 (3209 words)
+[2026-06-04T05:05:29.801010+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026.pptx
+[2026-06-04T05:05:29.865761+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026.pptx
+[2026-06-04T05:05:29.865841+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026.md
+[2026-06-04T05:05:29.892010+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026
+[2026-06-04T05:05:29.892312+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026.json
+[2026-06-04T05:05:29.894981+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026', 'do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026', 'do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026', 'do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026', 'do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026']
+[2026-06-04T05:05:29.899159+00:00] Daily ledger (UTC): 38/50 states, 38 EN posts
+[2026-06-04T05:05:30.134181+00:00]  "tail": "ep by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:05:30.031579+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:05:30.134291+00:00] WARN organic_crush exit 1
+[2026-06-04T05:05:30.232994+00:00] Inject for 13 states not yet published today
+[2026-06-04T05:05:30.234415+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:05:30.235195+00:00] Daily 50-state rotation (2026-06-04): +0 new, 12 re-prioritized, 12 at queue front
+[2026-06-04T05:05:30.235732+00:00] Daily 50-state injection complete
+[2026-06-04T05:05:30.308179+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:05:30.309832+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:05:30.311673+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:05:30.312282+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:05:30.315127+00:00] States already published today (UTC): 38 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon']
+[2026-06-04T05:05:30.317250+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:30.318018+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026
+[2026-06-04T05:05:33.447583+00:00] After materialize: 100 / 4030w ([])
+[2026-06-04T05:05:33.449061+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026 (3227 words)
+[2026-06-04T05:05:33.451801+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026 (3227 words)
+[2026-06-04T05:05:33.572680+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026.pptx
+[2026-06-04T05:05:33.640293+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026.pptx
+[2026-06-04T05:05:33.640385+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026.md
+[2026-06-04T05:05:33.666802+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026
+[2026-06-04T05:05:35.671288+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:35.672072+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026
+[2026-06-04T05:05:38.836148+00:00] After materialize: 100 / 4045w ([])
+[2026-06-04T05:05:38.837398+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026 (3239 words)
+[2026-06-04T05:05:38.872628+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026 (3239 words)
+[2026-06-04T05:05:38.941187+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026.pptx
+[2026-06-04T05:05:39.013296+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026.pptx
+[2026-06-04T05:05:39.013377+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026.md
+[2026-06-04T05:05:39.039368+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026
+[2026-06-04T05:05:41.043007+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:41.043791+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026
+[2026-06-04T05:05:44.179568+00:00] After materialize: 100 / 4047w ([])
+[2026-06-04T05:05:44.180840+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026 (3243 words)
+[2026-06-04T05:05:44.183553+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026 (3243 words)
+[2026-06-04T05:05:44.251078+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026.pptx
+[2026-06-04T05:05:44.315644+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026.pptx
+[2026-06-04T05:05:44.315720+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026.md
+[2026-06-04T05:05:44.341932+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026
+[2026-06-04T05:05:46.345945+00:00] Quality 30 / 651w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:46.346722+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026
+[2026-06-04T05:05:49.525294+00:00] After materialize: 100 / 4056w ([])
+[2026-06-04T05:05:49.526562+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026 (3259 words)
+[2026-06-04T05:05:49.529362+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026 (3259 words)
+[2026-06-04T05:05:49.599004+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-04T05:05:49.672977+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-04T05:05:49.673060+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026.md
+[2026-06-04T05:05:49.699154+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026
+[2026-06-04T05:05:51.702903+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:51.703665+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026
+[2026-06-04T05:05:54.867585+00:00] After materialize: 100 / 4026w ([])
+[2026-06-04T05:05:54.868932+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026 (3209 words)
+[2026-06-04T05:05:54.871720+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026 (3209 words)
+[2026-06-04T05:05:54.938642+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026.pptx
+[2026-06-04T05:05:55.003661+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026.pptx
+[2026-06-04T05:05:55.003744+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026.md
+[2026-06-04T05:05:55.029971+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026
+[2026-06-04T05:05:55.030286+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026.json
+[2026-06-04T05:05:55.032915+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026', 'do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026', 'do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026', 'do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026', 'do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026']
+[2026-06-04T05:05:55.037645+00:00] Daily ledger (UTC): 43/50 states, 43 EN posts
+[2026-06-04T05:05:55.272805+00:00] ": 0,
+      "tail": "st car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:05:55.168495+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:05:55.272953+00:00] WARN organic_crush exit 1
+[2026-06-04T05:05:55.374396+00:00] Inject for 8 states not yet published today
+[2026-06-04T05:05:55.375835+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:05:55.376489+00:00] Daily 50-state rotation (2026-06-04): +0 new, 7 re-prioritized, 7 at queue front
+[2026-06-04T05:05:55.377041+00:00] Daily 50-state injection complete
+[2026-06-04T05:05:55.449755+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:05:55.451441+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:05:55.453414+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:05:55.454027+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:05:55.456887+00:00] States already published today (UTC): 43 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee']
+[2026-06-04T05:05:55.458976+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:05:55.459723+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-houston-texas-2026
+[2026-06-04T05:05:58.665238+00:00] After materialize: 100 / 4033w ([])
+[2026-06-04T05:05:58.666650+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-houston-texas-2026 (3216 words)
+[2026-06-04T05:05:58.669478+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-houston-texas-2026 (3216 words)
+[2026-06-04T05:05:58.788828+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-houston-texas-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-houston-texas-2026.pptx
+[2026-06-04T05:05:58.856198+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-houston-texas-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-houston-texas-2026.pptx
+[2026-06-04T05:05:58.856308+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-houston-texas-2026.md
+[2026-06-04T05:05:58.882868+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-houston-texas-2026
+[2026-06-04T05:06:00.887392+00:00] Quality 30 / 651w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:06:00.888194+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026
+[2026-06-04T05:06:04.042437+00:00] After materialize: 100 / 4058w ([])
+[2026-06-04T05:06:04.043784+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026 (3254 words)
+[2026-06-04T05:06:04.094150+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026 (3254 words)
+[2026-06-04T05:06:04.164074+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026.pptx
+[2026-06-04T05:06:04.235249+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026.pptx
+[2026-06-04T05:06:04.235332+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026.md
+[2026-06-04T05:06:04.261663+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026
+[2026-06-04T05:06:06.265507+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:06:06.266318+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026
+[2026-06-04T05:06:09.469589+00:00] After materialize: 100 / 4015w ([])
+[2026-06-04T05:06:09.471008+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026 (3211 words)
+[2026-06-04T05:06:09.616319+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026 (3211 words)
+[2026-06-04T05:06:09.681943+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026.pptx
+[2026-06-04T05:06:09.746955+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026.pptx
+[2026-06-04T05:06:09.747045+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026.md
+[2026-06-04T05:06:09.773314+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026
+[2026-06-04T05:06:11.777466+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:06:11.778265+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026
+[2026-06-04T05:06:14.948593+00:00] After materialize: 100 / 4036w ([])
+[2026-06-04T05:06:14.950020+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026 (3233 words)
+[2026-06-04T05:06:14.952860+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026 (3233 words)
+[2026-06-04T05:06:15.020512+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026.pptx
+[2026-06-04T05:06:15.095024+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026.pptx
+[2026-06-04T05:06:15.095107+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026.md
+[2026-06-04T05:06:15.121331+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026
+[2026-06-04T05:06:17.125127+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:06:17.125912+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026
+[2026-06-04T05:06:20.375625+00:00] After materialize: 100 / 4015w ([])
+[2026-06-04T05:06:20.376941+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026 (3207 words)
+[2026-06-04T05:06:20.379724+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026 (3207 words)
+[2026-06-04T05:06:20.445768+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026.pptx
+[2026-06-04T05:06:20.509364+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026.pptx
+[2026-06-04T05:06:20.509441+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026.md
+[2026-06-04T05:06:20.535682+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026
+[2026-06-04T05:06:20.535999+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026.json
+[2026-06-04T05:06:20.539152+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-houston-texas-2026', 'do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026', 'do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026', 'do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026', 'do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026']
+[2026-06-04T05:06:20.544357+00:00] Daily ledger (UTC): 48/50 states, 48 EN posts
+[2026-06-04T05:06:20.781629+00:00]  "tail": "tep by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:06:20.678237+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-houston-texas-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:06:20.781737+00:00] WARN organic_crush exit 1
+[2026-06-04T05:06:20.877942+00:00] Inject for 3 states not yet published today
+[2026-06-04T05:06:20.879366+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:06:20.879907+00:00] Daily 50-state rotation (2026-06-04): +0 new, 2 re-prioritized, 2 at queue front
+[2026-06-04T05:06:20.880436+00:00] Daily 50-state injection complete
+[2026-06-04T05:06:20.953092+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T05:06:20.954691+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T05:06:20.956555+00:00] Daily 50-state rotation (2026-06-04): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-04T05:06:20.957196+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T05:06:20.960188+00:00] States already published today (UTC): 48 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington']
+[2026-06-04T05:06:20.962315+00:00] Quality 30 / 646w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:06:20.963084+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026
+[2026-06-04T05:06:24.142014+00:00] After materialize: 100 / 4056w ([])
+[2026-06-04T05:06:24.143464+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026 (3241 words)
+[2026-06-04T05:06:24.146162+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026 (3241 words)
+[2026-06-04T05:06:24.264801+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026.pptx
+[2026-06-04T05:06:24.331283+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026.pptx
+[2026-06-04T05:06:24.331362+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026.md
+[2026-06-04T05:06:24.357914+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026
+[2026-06-04T05:06:26.362444+00:00] Quality 30 / 641w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T05:06:26.363237+00:00] Materializing template → platinum for do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026
+[2026-06-04T05:06:29.535096+00:00] After materialize: 100 / 4015w ([])
+[2026-06-04T05:06:29.536289+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026 (3211 words)
+[2026-06-04T05:06:29.540071+00:00] Spanish OK for do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026 (3211 words)
+[2026-06-04T05:06:29.608172+00:00] PPT EN do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026.pptx
+[2026-06-04T05:06:29.679048+00:00] PPT ES do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/es/do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026.pptx
+[2026-06-04T05:06:29.679125+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026.md
+[2026-06-04T05:06:29.705647+00:00] IndexNow queued for do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026
+[2026-06-04T05:06:29.705966+00:00] Syndication → sites/semitruckmatch/content/syndication/do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026.json
+[2026-06-04T05:06:29.709178+00:00] Done: 2/2 published (platinum bar ≥100, ≥3000w) — ['do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026', 'do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026']
+[2026-06-04T05:06:29.714174+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-06-04T05:06:29.947039+00:00] w referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T05:06:29.845932+00:00\",\n  \"stats\": {\n    \"enPosts\": 741,\n    \"esPosts\": 741,\n    \"platinumEn\": 722,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026\",\n      \"do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T05:06:29.947149+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-06-04
+
+Round 1: 3/50 states — need 47
+After round 1: 8/50 states
+
+Round 2: 8/50 states — need 42
+After round 2: 13/50 states
+
+Round 3: 13/50 states — need 37
+After round 3: 18/50 states
+
+Round 4: 18/50 states — need 32
+After round 4: 23/50 states
+
+Round 5: 23/50 states — need 27
+After round 5: 28/50 states
+
+Round 6: 28/50 states — need 22
+After round 6: 33/50 states
+
+Round 7: 33/50 states — need 17
+After round 7: 38/50 states
+
+Round 8: 38/50 states — need 12
+After round 8: 43/50 states
+
+Round 9: 43/50 states — need 7
+After round 9: 48/50 states
+
+Round 10: 48/50 states — need 2
+After round 10: 50/50 states
+
+Round 11: 50/50 states — need 0
+Done — 50-state SLA met.

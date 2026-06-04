@@ -163,16 +163,102 @@
     "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026",
     "fmcsa-violations-after-a-truck-crash-in-birmingham-alabama",
     "fmcsa-violations-after-a-truck-crash-in-anchorage-alaska",
-    "fmcsa-violations-after-a-truck-crash-in-phoenix-arizona"
+    "fmcsa-violations-after-a-truck-crash-in-phoenix-arizona",
+    "fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas",
+    "fmcsa-violations-after-a-truck-crash-in-los-angeles-california",
+    "fmcsa-violations-after-a-truck-crash-in-denver-colorado",
+    "fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut",
+    "fmcsa-violations-after-a-truck-crash-in-wilmington-delaware",
+    "fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia",
+    "do-i-need-a-truck-accident-lawyer-in-miami-florida-2026",
+    "do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026",
+    "do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026",
+    "do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026",
+    "do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026",
+    "do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026",
+    "do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026",
+    "do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026",
+    "do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026",
+    "do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026",
+    "do-i-need-a-truck-accident-lawyer-in-portland-maine-2026",
+    "do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026",
+    "do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026",
+    "do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026",
+    "do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026",
+    "do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026",
+    "do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026",
+    "do-i-need-a-truck-accident-lawyer-in-billings-montana-2026",
+    "do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026",
+    "do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026",
+    "do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026",
+    "do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026",
+    "do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026",
+    "do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026",
+    "do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026",
+    "do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026",
+    "do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026",
+    "do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026",
+    "do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026",
+    "do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026",
+    "do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026",
+    "do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026",
+    "do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026",
+    "do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026",
+    "do-i-need-a-truck-accident-lawyer-in-houston-texas-2026",
+    "do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026",
+    "do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026",
+    "do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026",
+    "do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026",
+    "do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026",
+    "do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026"
   ],
   "stats": {
-    "total_published": 162,
-    "last_run_at": "2026-06-04T04:09:14.557599+00:00"
+    "total_published": 209,
+    "last_run_at": "2026-06-04T05:06:29.706011+00:00"
   },
   "pending": [
     {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Little Rock, Arkansas",
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Birmingham, Alabama",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "place_slug": "birmingham",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-birmingham-alabama"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Anchorage, Alaska",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-anchorage-alaska"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Phoenix, Arizona",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-phoenix-arizona"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Little Rock, Arkansas",
       "city": "Little Rock",
       "state": "Arkansas",
       "place_slug": "little-rock",
@@ -181,11 +267,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-little-rock-arkansas"
+      "slug": "black-box-data-after-a-semi-crash-in-little-rock-arkansas"
     },
     {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Los Angeles, California",
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Los Angeles, California",
       "city": "Los Angeles",
       "state": "California",
       "place_slug": "los-angeles",
@@ -194,11 +280,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-los-angeles-california"
+      "slug": "black-box-data-after-a-semi-crash-in-los-angeles-california"
     },
     {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Denver, Colorado",
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Denver, Colorado",
       "city": "Denver",
       "state": "Colorado",
       "place_slug": "denver",
@@ -207,11 +293,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-denver-colorado"
+      "slug": "black-box-data-after-a-semi-crash-in-denver-colorado"
     },
     {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Bridgeport, Connecticut",
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Bridgeport, Connecticut",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
@@ -220,11 +306,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-bridgeport-connecticut"
+      "slug": "black-box-data-after-a-semi-crash-in-bridgeport-connecticut"
     },
     {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Wilmington, Delaware",
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Wilmington, Delaware",
       "city": "Wilmington",
       "state": "Delaware",
       "place_slug": "wilmington",
@@ -233,11 +319,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-wilmington-delaware"
+      "slug": "black-box-data-after-a-semi-crash-in-wilmington-delaware"
     },
     {
-      "angle": "fmcsa-violation",
-      "title": "FMCSA Violations After a Truck Crash in Washington, District of Columbia",
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Washington, District of Columbia",
       "city": "Washington",
       "state": "District of Columbia",
       "place_slug": "washington",
@@ -246,11 +332,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "fmcsa-violations-after-a-truck-crash-in-washington-district-of-columbia"
+      "slug": "black-box-data-after-a-semi-crash-in-washington-district-of-columbia"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Miami, Florida? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Miami, Florida",
       "city": "Miami",
       "state": "Florida",
       "place_slug": "miami",
@@ -259,11 +345,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-miami-florida-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-miami-florida"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Atlanta, Georgia? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Atlanta, Georgia",
       "city": "Atlanta",
       "state": "Georgia",
       "place_slug": "atlanta",
@@ -272,11 +358,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-atlanta-georgia-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-atlanta-georgia"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Honolulu, Hawaii? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Honolulu, Hawaii",
       "city": "Honolulu",
       "state": "Hawaii",
       "place_slug": "honolulu",
@@ -285,11 +371,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-honolulu-hawaii-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Boise, Idaho? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Boise, Idaho",
       "city": "Boise",
       "state": "Idaho",
       "place_slug": "boise",
@@ -298,11 +384,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-boise-idaho-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-boise-idaho"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Chicago, Illinois? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Chicago, Illinois",
       "city": "Chicago",
       "state": "Illinois",
       "place_slug": "chicago",
@@ -311,11 +397,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-chicago-illinois-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-chicago-illinois"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Indianapolis, Indiana? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Indianapolis, Indiana",
       "city": "Indianapolis",
       "state": "Indiana",
       "place_slug": "indianapolis",
@@ -324,11 +410,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-indianapolis-indiana-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Des Moines, Iowa? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Des Moines, Iowa",
       "city": "Des Moines",
       "state": "Iowa",
       "place_slug": "des-moines",
@@ -337,11 +423,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-des-moines-iowa-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-des-moines-iowa"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Wichita, Kansas? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Wichita, Kansas",
       "city": "Wichita",
       "state": "Kansas",
       "place_slug": "wichita",
@@ -350,11 +436,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-wichita-kansas-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-wichita-kansas"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Louisville, Kentucky? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Louisville, Kentucky",
       "city": "Louisville",
       "state": "Kentucky",
       "place_slug": "louisville",
@@ -363,11 +449,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-louisville-kentucky-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-louisville-kentucky"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in New Orleans, Louisiana? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in New Orleans, Louisiana",
       "city": "New Orleans",
       "state": "Louisiana",
       "place_slug": "new-orleans",
@@ -376,11 +462,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-new-orleans-louisiana-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Portland, Maine? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Portland, Maine",
       "city": "Portland",
       "state": "Maine",
       "place_slug": "portland",
@@ -389,11 +475,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-portland-maine-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-portland-maine"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Baltimore, Maryland? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Baltimore, Maryland",
       "city": "Baltimore",
       "state": "Maryland",
       "place_slug": "baltimore",
@@ -402,11 +488,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-baltimore-maryland-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-baltimore-maryland"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Boston, Massachusetts? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Boston, Massachusetts",
       "city": "Boston",
       "state": "Massachusetts",
       "place_slug": "boston",
@@ -415,11 +501,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-boston-massachusetts-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-boston-massachusetts"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Detroit, Michigan? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Detroit, Michigan",
       "city": "Detroit",
       "state": "Michigan",
       "place_slug": "detroit",
@@ -428,11 +514,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-detroit-michigan-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-detroit-michigan"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Minneapolis, Minnesota? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Minneapolis, Minnesota",
       "city": "Minneapolis",
       "state": "Minnesota",
       "place_slug": "minneapolis",
@@ -441,11 +527,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-minneapolis-minnesota-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Jackson, Mississippi? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Jackson, Mississippi",
       "city": "Jackson",
       "state": "Mississippi",
       "place_slug": "jackson",
@@ -454,11 +540,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-jackson-mississippi-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-jackson-mississippi"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Kansas City, Missouri? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Kansas City, Missouri",
       "city": "Kansas City",
       "state": "Missouri",
       "place_slug": "kansas-city",
@@ -467,11 +553,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-kansas-city-missouri-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Billings, Montana? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Billings, Montana",
       "city": "Billings",
       "state": "Montana",
       "place_slug": "billings",
@@ -480,11 +566,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-billings-montana-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-billings-montana"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Omaha, Nebraska? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Omaha, Nebraska",
       "city": "Omaha",
       "state": "Nebraska",
       "place_slug": "omaha",
@@ -493,11 +579,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-omaha-nebraska-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-omaha-nebraska"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Las Vegas, Nevada? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Las Vegas, Nevada",
       "city": "Las Vegas",
       "state": "Nevada",
       "place_slug": "las-vegas",
@@ -506,11 +592,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-las-vegas-nevada-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Manchester, New Hampshire? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Manchester, New Hampshire",
       "city": "Manchester",
       "state": "New Hampshire",
       "place_slug": "manchester",
@@ -519,11 +605,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-manchester-new-hampshire-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Newark, New Jersey? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Newark, New Jersey",
       "city": "Newark",
       "state": "New Jersey",
       "place_slug": "newark",
@@ -532,11 +618,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-newark-new-jersey-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-newark-new-jersey"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Albuquerque, New Mexico? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Albuquerque, New Mexico",
       "city": "Albuquerque",
       "state": "New Mexico",
       "place_slug": "albuquerque",
@@ -545,11 +631,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-albuquerque-new-mexico-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in New York City, New York? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in New York City, New York",
       "city": "New York City",
       "state": "New York",
       "place_slug": "new-york-city",
@@ -558,11 +644,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-new-york-city-new-york-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Charlotte, North Carolina? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Charlotte, North Carolina",
       "city": "Charlotte",
       "state": "North Carolina",
       "place_slug": "charlotte",
@@ -571,11 +657,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-charlotte-north-carolina-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Fargo, North Dakota? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Fargo, North Dakota",
       "city": "Fargo",
       "state": "North Dakota",
       "place_slug": "fargo",
@@ -584,11 +670,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-fargo-north-dakota-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Columbus, Ohio? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Columbus, Ohio",
       "city": "Columbus",
       "state": "Ohio",
       "place_slug": "columbus",
@@ -597,11 +683,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-columbus-ohio-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-columbus-ohio"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Oklahoma City, Oklahoma? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Oklahoma City, Oklahoma",
       "city": "Oklahoma City",
       "state": "Oklahoma",
       "place_slug": "oklahoma-city",
@@ -610,11 +696,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-oklahoma-city-oklahoma-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Portland, Oregon? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Portland, Oregon",
       "city": "Portland",
       "state": "Oregon",
       "place_slug": "portland",
@@ -623,11 +709,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-portland-oregon-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-portland-oregon"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Philadelphia, Pennsylvania? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Philadelphia, Pennsylvania",
       "city": "Philadelphia",
       "state": "Pennsylvania",
       "place_slug": "philadelphia",
@@ -636,11 +722,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-philadelphia-pennsylvania-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Providence, Rhode Island? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Providence, Rhode Island",
       "city": "Providence",
       "state": "Rhode Island",
       "place_slug": "providence",
@@ -649,11 +735,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-providence-rhode-island-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-providence-rhode-island"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Charleston, South Carolina? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Charleston, South Carolina",
       "city": "Charleston",
       "state": "South Carolina",
       "place_slug": "charleston",
@@ -662,11 +748,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-charleston-south-carolina-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Sioux Falls, South Dakota? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Sioux Falls, South Dakota",
       "city": "Sioux Falls",
       "state": "South Dakota",
       "place_slug": "sioux-falls",
@@ -675,11 +761,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-sioux-falls-south-dakota-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Nashville, Tennessee? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Nashville, Tennessee",
       "city": "Nashville",
       "state": "Tennessee",
       "place_slug": "nashville",
@@ -688,11 +774,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-nashville-tennessee-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-nashville-tennessee"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Houston, Texas? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Houston, Texas",
       "city": "Houston",
       "state": "Texas",
       "place_slug": "houston",
@@ -701,11 +787,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-houston-texas-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-houston-texas"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Salt Lake City, Utah? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Salt Lake City, Utah",
       "city": "Salt Lake City",
       "state": "Utah",
       "place_slug": "salt-lake-city",
@@ -714,11 +800,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-salt-lake-city-utah-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Burlington, Vermont? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Burlington, Vermont",
       "city": "Burlington",
       "state": "Vermont",
       "place_slug": "burlington",
@@ -727,11 +813,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-burlington-vermont-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-burlington-vermont"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Virginia Beach, Virginia? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Virginia Beach, Virginia",
       "city": "Virginia Beach",
       "state": "Virginia",
       "place_slug": "virginia-beach",
@@ -740,11 +826,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia"
     },
     {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Seattle, Washington? (2026)",
+      "angle": "fmcsa-violation",
+      "title": "FMCSA Violations After a Truck Crash in Seattle, Washington",
       "city": "Seattle",
       "state": "Washington",
       "place_slug": "seattle",
@@ -753,33 +839,7 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-seattle-washington-2026"
-    },
-    {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Charleston, West Virginia? (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-charleston-west-virginia-2026"
-    },
-    {
-      "angle": "commercial-truck-lawyer",
-      "title": "Do I Need a Truck Accident Lawyer in Milwaukee, Wisconsin? (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "do-i-need-a-truck-accident-lawyer-in-milwaukee-wisconsin-2026"
+      "slug": "fmcsa-violations-after-a-truck-crash-in-seattle-washington"
     }
   ],
   "skipped_slugs": [
