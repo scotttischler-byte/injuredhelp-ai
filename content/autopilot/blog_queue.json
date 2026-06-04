@@ -643,52 +643,16 @@
     "semi-truck-accident-in-virginia-beach-virginia-what-to-do-2026",
     "what-to-do-after-a-car-accident-in-seattle-washington-2026",
     "semi-truck-accident-in-charleston-west-virginia-what-to-do-2026",
-    "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026"
+    "semi-truck-accident-in-milwaukee-wisconsin-what-to-do-2026",
+    "7-costly-car-accident-mistakes-in-birmingham-alabama-2026",
+    "severe-injury-after-a-car-accident-in-anchorage-alaska-2026",
+    "whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026"
   ],
   "stats": {
-    "total_published": 642,
-    "last_run_at": "2026-06-03T05:16:42.680727+00:00"
+    "total_published": 645,
+    "last_run_at": "2026-06-04T04:09:17.705425+00:00"
   },
   "pending": [
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Birmingham, Alabama (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-birmingham-alabama-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Anchorage, Alaska (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-anchorage-alaska-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Phoenix, Arizona \u2014 What to Know (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
     {
       "angle": "severe-injury-car-accident",
       "title": "Severe Injury After a Car Accident in Little Rock, Arkansas (2026)",
@@ -1210,6 +1174,19 @@
       "firm_state": true
     },
     {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-04)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04"
+    },
+    {
       "angle": "statute-of-limitations",
       "title": "Utah Car Accident Statute of Limitations \u2014 Salt Lake City (2026)",
       "city": "Salt Lake City",
@@ -1219,6 +1196,71 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "utah-car-accident-statute-of-limitations-salt-lake-city-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Vermont Car Accident Statute of Limitations \u2014 Burlington (2026)",
+      "city": "Burlington",
+      "state": "Vermont",
+      "place_slug": "burlington",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "vermont-car-accident-statute-of-limitations-burlington-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Virginia Car Accident Statute of Limitations \u2014 Virginia Beach (2026)",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "place_slug": "virginia-beach",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "virginia-car-accident-statute-of-limitations-virginia-beach-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "Semi Truck Accident in Seattle, Washington: What to Do (2026)",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "semi-truck-accident-in-seattle-washington-what-to-do-2026"
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "West Virginia Car Accident Statute of Limitations \u2014 Charleston (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "west-virginia-car-accident-statute-of-limitations-charleston-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Wisconsin Car Accident Statute of Limitations \u2014 Milwaukee (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "wisconsin-car-accident-statute-of-limitations-milwaukee-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -1678,18 +1720,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "semi-truck-accident-in-west-valley-city-utah-what-to-do-2026",
-      "daily_state_rotation": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Vermont Car Accident Statute of Limitations \u2014 Burlington (2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "vermont-car-accident-statute-of-limitations-burlington-2026",
       "daily_state_rotation": true
     },
     {
@@ -46618,17 +46648,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-virginia-beach-2026"
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "Virginia Car Accident Statute of Limitations \u2014 Virginia Beach (2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "virginia-car-accident-statute-of-limitations-virginia-beach-2026"
-    },
-    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Virginia Beach, Virginia (2026)",
       "city": "Virginia Beach",
@@ -46693,17 +46712,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "uber-or-lyft-accident-in-charleston-west-virginia-2026-guide"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "West Virginia Car Accident Statute of Limitations \u2014 Charleston (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "west-virginia-car-accident-statute-of-limitations-charleston-2026"
     },
     {
       "angle": "uninsured-driver",
@@ -47364,17 +47372,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-milwaukee-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Wisconsin Car Accident Statute of Limitations \u2014 Milwaukee (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "wisconsin-car-accident-statute-of-limitations-milwaukee-2026"
     },
     {
       "angle": "uninsured-driver",
