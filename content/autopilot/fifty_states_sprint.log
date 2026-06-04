@@ -1888,3 +1888,51 @@ After round 3: 48/50 states
 
 Final: 48/50 states
 Partial progress OK (48/50) — next scheduled run will continue.
+[2026-06-04T20:20:06.505275+00:00] Inject for 3 states not yet published today
+[2026-06-04T20:20:06.506942+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T20:20:06.550134+00:00] Daily 50-state rotation (2026-06-04): +0 new, 2 re-prioritized, 2 at queue front
+[2026-06-04T20:20:06.588667+00:00] Daily 50-state injection complete
+[2026-06-04T20:20:06.699286+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T20:20:06.701525+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T20:20:06.756947+00:00] Daily 50-state rotation (2026-06-04): +0 new, 49 re-prioritized, 49 at queue front
+[2026-06-04T20:20:06.793253+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T20:20:06.798052+00:00] States already published today (UTC): 48 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington']
+[2026-06-04T20:20:06.801421+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T20:20:06.802311+00:00] Materializing template → platinum for insurance-denied-your-claim-in-charleston-west-virginia-2026
+[2026-06-04T20:20:12.703577+00:00] After materialize: 100 / 3918w ([])
+[2026-06-04T20:20:12.705384+00:00] Spanish OK for insurance-denied-your-claim-in-charleston-west-virginia-2026 (3210 words)
+[2026-06-04T20:20:12.708767+00:00] Spanish OK for insurance-denied-your-claim-in-charleston-west-virginia-2026 (3210 words)
+[2026-06-04T20:20:12.901717+00:00] PPT EN insurance-denied-your-claim-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-charleston-west-virginia-2026.pptx
+[2026-06-04T20:20:12.987973+00:00] PPT ES insurance-denied-your-claim-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-charleston-west-virginia-2026.pptx
+[2026-06-04T20:20:12.988072+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-charleston-west-virginia-2026.md
+[2026-06-04T20:20:13.021674+00:00] IndexNow queued for insurance-denied-your-claim-in-charleston-west-virginia-2026
+[2026-06-04T20:20:15.069831+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T20:20:15.070744+00:00] Materializing template → platinum for insurance-denied-your-claim-in-milwaukee-wisconsin-2026
+[2026-06-04T20:20:19.676452+00:00] After materialize: 100 / 3877w ([])
+[2026-06-04T20:20:19.677980+00:00] Spanish OK for insurance-denied-your-claim-in-milwaukee-wisconsin-2026 (3179 words)
+[2026-06-04T20:20:19.681445+00:00] Spanish OK for insurance-denied-your-claim-in-milwaukee-wisconsin-2026 (3179 words)
+[2026-06-04T20:20:19.768955+00:00] PPT EN insurance-denied-your-claim-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-milwaukee-wisconsin-2026.pptx
+[2026-06-04T20:20:19.855408+00:00] PPT ES insurance-denied-your-claim-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-milwaukee-wisconsin-2026.pptx
+[2026-06-04T20:20:19.855505+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-milwaukee-wisconsin-2026.md
+[2026-06-04T20:20:19.889278+00:00] IndexNow queued for insurance-denied-your-claim-in-milwaukee-wisconsin-2026
+[2026-06-04T20:20:19.889685+00:00] Syndication → content/syndication/insurance-denied-your-claim-in-milwaukee-wisconsin-2026.json
+[2026-06-04T20:20:19.934677+00:00] Done: 2/2 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-charleston-west-virginia-2026', 'insurance-denied-your-claim-in-milwaukee-wisconsin-2026']
+[2026-06-04T20:20:19.944595+00:00] Daily ledger (UTC): 50/50 states, 56 EN posts
+[2026-06-04T20:20:20.245923+00:00] da \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T20:20:20.117800+00:00\",\n  \"stats\": {\n    \"enPosts\": 793,\n    \"esPosts\": 793,\n    \"platinumEn\": 774,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-charleston-west-virginia-2026\",\n      \"insurance-denied-your-claim-in-milwaukee-wisconsin-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T20:20:20.246038+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-06-04
+
+Round 1: 48/50 states — need 2
+After round 1: 50/50 states
+
+Round 2: 50/50 states — need 0
+Done — 50-state SLA met.
