@@ -680,11 +680,26 @@
     "should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026",
     "7-costly-car-accident-mistakes-in-fargo-north-dakota-2026",
     "should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026",
-    "insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026"
+    "insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026",
+    "7-costly-car-accident-mistakes-in-portland-oregon-2026",
+    "should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026",
+    "7-costly-car-accident-mistakes-in-providence-rhode-island-2026",
+    "7-costly-car-accident-mistakes-in-charleston-south-carolina-2026",
+    "south-dakota-car-accident-statute-of-limitations-sioux-falls-2026",
+    "insurance-denied-your-claim-in-sioux-falls-south-dakota-2026",
+    "tennessee-car-accident-statute-of-limitations-nashville-2026",
+    "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04",
+    "utah-car-accident-statute-of-limitations-salt-lake-city-2026",
+    "vermont-car-accident-statute-of-limitations-burlington-2026",
+    "insurance-denied-your-claim-in-nashville-tennessee-2026",
+    "insurance-denied-your-claim-in-salt-lake-city-utah-2026",
+    "insurance-denied-your-claim-in-burlington-vermont-2026",
+    "virginia-car-accident-statute-of-limitations-virginia-beach-2026",
+    "semi-truck-accident-in-seattle-washington-what-to-do-2026"
   ],
   "stats": {
-    "total_published": 679,
-    "last_run_at": "2026-06-04T15:19:47.722633+00:00"
+    "total_published": 694,
+    "last_run_at": "2026-06-04T17:51:49.258476+00:00"
   },
   "pending": [
     {
@@ -1130,147 +1145,108 @@
       "top_city": true
     },
     {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Fargo, North Dakota (2026)",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "place_slug": "fargo",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-car-accident-in-fargo-north-dakota-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Columbus, Ohio \u2014 What to Know (2026)",
+      "city": "Columbus",
+      "state": "Ohio",
+      "place_slug": "columbus",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
       "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Portland, Oregon (2026)",
+      "title": "7 Costly Car Accident Mistakes in Oklahoma City, Oklahoma (2026)",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "place_slug": "oklahoma-city",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Portland, Oregon (2026)",
       "city": "Portland",
       "state": "Oregon",
       "place_slug": "portland",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-portland-oregon-2026",
+      "slug": "severe-injury-after-a-car-accident-in-portland-oregon-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Philadelphia Crash? (Pennsylvania 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Philadelphia, Pennsylvania \u2014 What to Know (2026)",
       "city": "Philadelphia",
       "state": "Pennsylvania",
       "place_slug": "philadelphia",
       "priority": -2,
+      "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026",
+      "slug": "whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026",
       "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
+      "top_city": true
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Providence, Rhode Island (2026)",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Providence, Rhode Island (2026)",
       "city": "Providence",
       "state": "Rhode Island",
       "place_slug": "providence",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-providence-rhode-island-2026",
+      "slug": "severe-injury-after-a-car-accident-in-providence-rhode-island-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Charleston, South Carolina (2026)",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Charleston, South Carolina (2026)",
       "city": "Charleston",
       "state": "South Carolina",
       "place_slug": "charleston",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-charleston-south-carolina-2026",
+      "slug": "severe-injury-after-a-car-accident-in-charleston-south-carolina-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "statute-of-limitations",
-      "title": "South Dakota Car Accident Statute of Limitations \u2014 Sioux Falls (2026)",
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Sioux Falls, South Dakota (2026)",
       "city": "Sioux Falls",
       "state": "South Dakota",
       "place_slug": "sioux-falls",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "south-dakota-car-accident-statute-of-limitations-sioux-falls-2026",
+      "slug": "7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026",
       "daily_state_rotation": true,
       "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Tennessee Car Accident Statute of Limitations \u2014 Nashville (2026)",
-      "city": "Nashville",
-      "state": "Tennessee",
-      "place_slug": "nashville",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "tennessee-car-accident-statute-of-limitations-nashville-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-04)",
-      "city": "Houston",
-      "state": "Texas",
-      "place_slug": "houston",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Utah Car Accident Statute of Limitations \u2014 Salt Lake City (2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "utah-car-accident-statute-of-limitations-salt-lake-city-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Vermont Car Accident Statute of Limitations \u2014 Burlington (2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "vermont-car-accident-statute-of-limitations-burlington-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Virginia Car Accident Statute of Limitations \u2014 Virginia Beach (2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "virginia-car-accident-statute-of-limitations-virginia-beach-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "Semi Truck Accident in Seattle, Washington: What to Do (2026)",
-      "city": "Seattle",
-      "state": "Washington",
-      "place_slug": "seattle",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "semi-truck-accident-in-seattle-washington-what-to-do-2026"
     },
     {
       "angle": "statute-of-limitations",
@@ -1803,16 +1779,6 @@
       "vertical": "auto",
       "slug": "should-you-hire-a-lawyer-after-a-green-bay-crash-wisconsin-2026",
       "daily_state_rotation": true
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Nashville? (Tennessee 2026)",
-      "city": "Nashville",
-      "state": "Tennessee",
-      "place_slug": null,
-      "priority": 2,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-nashville-tennessee-2026"
     },
     {
       "angle": "common-mistakes",
@@ -25518,17 +25484,6 @@
       "slug": "fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Fargo, North Dakota (2026)",
-      "city": "Fargo",
-      "state": "North Dakota",
-      "place_slug": "fargo",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-fargo-north-dakota-2026"
-    },
-    {
       "angle": "spinal-cord-injury",
       "title": "Spinal Cord Injury After a Crash in Fargo, North Dakota (2026)",
       "city": "Fargo",
@@ -26684,17 +26639,6 @@
       "slug": "fmcsa-violations-after-a-truck-crash-in-portland-oregon"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Portland, Oregon (2026)",
-      "city": "Portland",
-      "state": "Oregon",
-      "place_slug": "portland",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-portland-oregon-2026"
-    },
-    {
       "angle": "spinal-cord-injury",
       "title": "Spinal Cord Injury After a Crash in Portland, Oregon (2026)",
       "city": "Portland",
@@ -27399,17 +27343,6 @@
       "slug": "fmcsa-violations-after-a-truck-crash-in-providence-rhode-island"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Providence, Rhode Island (2026)",
-      "city": "Providence",
-      "state": "Rhode Island",
-      "place_slug": "providence",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-providence-rhode-island-2026"
-    },
-    {
       "angle": "spinal-cord-injury",
       "title": "Spinal Cord Injury After a Crash in Providence, Rhode Island (2026)",
       "city": "Providence",
@@ -27573,17 +27506,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Charleston, South Carolina (2026)",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "place_slug": "charleston",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-charleston-south-carolina-2026"
     },
     {
       "angle": "spinal-cord-injury",
@@ -42865,17 +42787,6 @@
       "slug": "hit-by-an-uninsured-driver-in-columbus-ohio-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Columbus, Ohio \u2014 What to Know (2026)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": "columbus",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Toledo, Ohio (2026)",
       "city": "Toledo",
@@ -43171,17 +43082,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-norman-oklahoma-what-to-know-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Oklahoma City, Oklahoma (2026)",
-      "city": "Oklahoma City",
-      "state": "Oklahoma",
-      "place_slug": "oklahoma-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -43886,17 +43786,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-philadelphia-pennsylvania-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Philadelphia, Pennsylvania \u2014 What to Know (2026)",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "place_slug": "philadelphia",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -45065,28 +44954,6 @@
       "slug": "whiplash-after-a-car-accident-in-rapid-city-south-dakota-what-to-know-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Sioux Falls, South Dakota (2026)",
-      "city": "Sioux Falls",
-      "state": "South Dakota",
-      "place_slug": "sioux-falls",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Sioux Falls? (South Dakota 2026)",
-      "city": "Sioux Falls",
-      "state": "South Dakota",
-      "place_slug": "sioux-falls",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-sioux-falls-south-dakota-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Sioux Falls Crash? (South Dakota 2026)",
       "city": "Sioux Falls",
@@ -45250,17 +45117,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Salt Lake City? (Utah 2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-salt-lake-city-utah-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -45525,17 +45381,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "7-costly-car-accident-mistakes-in-burlington-vermont-2026"
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Burlington? (Vermont 2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-burlington-vermont-2026"
     },
     {
       "angle": "lawyer-vs-diy",

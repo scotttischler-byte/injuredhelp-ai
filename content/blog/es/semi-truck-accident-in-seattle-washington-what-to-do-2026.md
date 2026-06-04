@@ -13,17 +13,15 @@ excerpt: >-
   matching in ~60 seconds via WreckMatch.
 autopilot: true
 vertical: truck
-qualityTier: platinum
-authorId: scott-tischler
-reviewerId: roy-waddell
+qualityTier: "platinum"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
 materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: semi-truck-accident-in-seattle-washington-what-to-do-2026
-presentationUrl: >-
-  /blog/presentations/es/semi-truck-accident-in-seattle-washington-what-to-do-2026.pptx
-presentationUrlEn: >-
+presentationUrl: "/blog/presentations/es/semi-truck-accident-in-seattle-washington-what-to-do-2026.pptx"presentationUrlEn: >-
   /blog/presentations/semi-truck-accident-in-seattle-washington-what-to-do-2026.pptx
 ---
 ## Por qué publicamos esta guía para Seattle Washington What To Do

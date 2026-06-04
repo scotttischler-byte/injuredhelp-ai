@@ -1672,3 +1672,219 @@ After round 3: 18/50 states
 
 Final: 18/50 states
 Partial progress OK (18/50) — next scheduled run will continue.
+[2026-06-04T17:50:18.730590+00:00] Inject for 14 states not yet published today
+[2026-06-04T17:50:18.732155+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T17:50:18.785923+00:00] Daily 50-state rotation (2026-06-04): +0 new, 13 re-prioritized, 13 at queue front
+[2026-06-04T17:50:18.828326+00:00] Daily 50-state injection complete
+[2026-06-04T17:50:18.921712+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T17:50:18.923559+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T17:50:18.978662+00:00] Daily 50-state rotation (2026-06-04): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-04T17:50:19.034174+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T17:50:19.039446+00:00] States already published today (UTC): 37 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma']
+[2026-06-04T17:50:19.043323+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:50:19.044522+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-portland-oregon-2026
+[2026-06-04T17:50:24.403143+00:00] After materialize: 100 / 3883w ([])
+[2026-06-04T17:50:24.404813+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-portland-oregon-2026 (3187 words)
+[2026-06-04T17:50:24.407821+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-portland-oregon-2026 (3187 words)
+[2026-06-04T17:50:24.587333+00:00] PPT EN 7-costly-car-accident-mistakes-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-portland-oregon-2026.pptx
+[2026-06-04T17:50:24.671031+00:00] PPT ES 7-costly-car-accident-mistakes-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-portland-oregon-2026.pptx
+[2026-06-04T17:50:24.671123+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-portland-oregon-2026.md
+[2026-06-04T17:50:24.700158+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-portland-oregon-2026
+[2026-06-04T17:50:26.743005+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:50:26.743923+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026
+[2026-06-04T17:50:30.985835+00:00] After materialize: 100 / 3889w ([])
+[2026-06-04T17:50:30.987348+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026 (3213 words)
+[2026-06-04T17:50:30.990442+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026 (3213 words)
+[2026-06-04T17:50:31.075505+00:00] PPT EN should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026.pptx
+[2026-06-04T17:50:31.159562+00:00] PPT ES should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026.pptx
+[2026-06-04T17:50:31.159652+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026.md
+[2026-06-04T17:50:31.188847+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026
+[2026-06-04T17:50:33.231317+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:50:33.232156+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-providence-rhode-island-2026
+[2026-06-04T17:50:37.461810+00:00] After materialize: 100 / 3902w ([])
+[2026-06-04T17:50:37.463198+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-providence-rhode-island-2026 (3218 words)
+[2026-06-04T17:50:37.466260+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-providence-rhode-island-2026 (3218 words)
+[2026-06-04T17:50:37.550464+00:00] PPT EN 7-costly-car-accident-mistakes-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-providence-rhode-island-2026.pptx
+[2026-06-04T17:50:37.634410+00:00] PPT ES 7-costly-car-accident-mistakes-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-providence-rhode-island-2026.pptx
+[2026-06-04T17:50:37.634501+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-providence-rhode-island-2026.md
+[2026-06-04T17:50:37.664548+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-providence-rhode-island-2026
+[2026-06-04T17:50:39.706697+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:50:39.707528+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-charleston-south-carolina-2026
+[2026-06-04T17:50:44.220163+00:00] After materialize: 100 / 3904w ([])
+[2026-06-04T17:50:44.221556+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-charleston-south-carolina-2026 (3222 words)
+[2026-06-04T17:50:44.224603+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-charleston-south-carolina-2026 (3222 words)
+[2026-06-04T17:50:44.307985+00:00] PPT EN 7-costly-car-accident-mistakes-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-charleston-south-carolina-2026.pptx
+[2026-06-04T17:50:44.401566+00:00] PPT ES 7-costly-car-accident-mistakes-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-charleston-south-carolina-2026.pptx
+[2026-06-04T17:50:44.401656+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-charleston-south-carolina-2026.md
+[2026-06-04T17:50:44.431045+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-charleston-south-carolina-2026
+[2026-06-04T17:50:46.473940+00:00] Quality 30 / 565w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:50:46.474756+00:00] Materializing template → platinum for south-dakota-car-accident-statute-of-limitations-sioux-falls-2026
+[2026-06-04T17:50:50.733542+00:00] After materialize: 100 / 3923w ([])
+[2026-06-04T17:50:50.734960+00:00] Spanish OK for south-dakota-car-accident-statute-of-limitations-sioux-falls-2026 (3232 words)
+[2026-06-04T17:50:50.738090+00:00] Spanish OK for south-dakota-car-accident-statute-of-limitations-sioux-falls-2026 (3232 words)
+[2026-06-04T17:50:50.825721+00:00] PPT EN south-dakota-car-accident-statute-of-limitations-sioux-falls-2026: 14 slides (score 100) → /blog/presentations/south-dakota-car-accident-statute-of-limitations-sioux-falls-2026.pptx
+[2026-06-04T17:50:50.934270+00:00] PPT ES south-dakota-car-accident-statute-of-limitations-sioux-falls-2026: 14 slides (score 100) → /blog/presentations/es/south-dakota-car-accident-statute-of-limitations-sioux-falls-2026.pptx
+[2026-06-04T17:50:50.934447+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/south-dakota-car-accident-statute-of-limitations-sioux-falls-2026.md
+[2026-06-04T17:50:50.963793+00:00] IndexNow queued for south-dakota-car-accident-statute-of-limitations-sioux-falls-2026
+[2026-06-04T17:50:50.964148+00:00] Syndication → content/syndication/south-dakota-car-accident-statute-of-limitations-sioux-falls-2026.json
+[2026-06-04T17:50:51.003664+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['7-costly-car-accident-mistakes-in-portland-oregon-2026', 'should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026', '7-costly-car-accident-mistakes-in-providence-rhode-island-2026', '7-costly-car-accident-mistakes-in-charleston-south-carolina-2026', 'south-dakota-car-accident-statute-of-limitations-sioux-falls-2026']
+[2026-06-04T17:50:51.012539+00:00] Daily ledger (UTC): 41/50 states, 42 EN posts
+[2026-06-04T17:50:51.280612+00:00] 
+      "tail": "\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T17:50:51.157283+00:00\",\n  \"stats\": {\n    \"enPosts\": 780,\n    \"esPosts\": 780,\n    \"platinumEn\": 761,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"7-costly-car-accident-mistakes-in-portland-oregon-2026\",\n      \"should-you-hire-a-lawyer-after-a-philadelphia-crash-pennsylvania-2026\",\n      \"7-costly-car-accident-mistakes-in-providence-rhode-island-2026\",\n      \"7-costly-car-accident-mistakes-in-charleston-south-carolina-2026\",\n      \"south-dakota-car-accident-statute-of-limitations-sioux-falls-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T17:50:51.280730+00:00] WARN organic_crush exit 1
+[2026-06-04T17:50:51.399472+00:00] Inject for 10 states not yet published today
+[2026-06-04T17:50:51.401036+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T17:50:51.446572+00:00] Daily 50-state rotation (2026-06-04): +0 new, 9 re-prioritized, 9 at queue front
+[2026-06-04T17:50:51.476598+00:00] Daily 50-state injection complete
+[2026-06-04T17:50:51.574416+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T17:50:51.576340+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T17:50:51.630554+00:00] Daily 50-state rotation (2026-06-04): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-04T17:50:51.660589+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T17:50:51.664586+00:00] States already published today (UTC): 41 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina']
+[2026-06-04T17:50:51.667214+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:50:51.667982+00:00] Materializing template → platinum for insurance-denied-your-claim-in-sioux-falls-south-dakota-2026
+[2026-06-04T17:50:55.906662+00:00] After materialize: 100 / 3918w ([])
+[2026-06-04T17:50:55.908316+00:00] Spanish OK for insurance-denied-your-claim-in-sioux-falls-south-dakota-2026 (3228 words)
+[2026-06-04T17:50:55.911300+00:00] Spanish OK for insurance-denied-your-claim-in-sioux-falls-south-dakota-2026 (3228 words)
+[2026-06-04T17:50:56.054403+00:00] PPT EN insurance-denied-your-claim-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-04T17:50:56.138617+00:00] PPT ES insurance-denied-your-claim-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-04T17:50:56.138709+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-sioux-falls-south-dakota-2026.md
+[2026-06-04T17:50:56.168136+00:00] IndexNow queued for insurance-denied-your-claim-in-sioux-falls-south-dakota-2026
+[2026-06-04T17:50:58.211895+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:50:58.212713+00:00] Materializing template → platinum for tennessee-car-accident-statute-of-limitations-nashville-2026
+[2026-06-04T17:51:02.514434+00:00] After materialize: 100 / 3893w ([])
+[2026-06-04T17:51:02.515798+00:00] Spanish OK for tennessee-car-accident-statute-of-limitations-nashville-2026 (3183 words)
+[2026-06-04T17:51:02.518948+00:00] Spanish OK for tennessee-car-accident-statute-of-limitations-nashville-2026 (3183 words)
+[2026-06-04T17:51:02.604412+00:00] PPT EN tennessee-car-accident-statute-of-limitations-nashville-2026: 14 slides (score 100) → /blog/presentations/tennessee-car-accident-statute-of-limitations-nashville-2026.pptx
+[2026-06-04T17:51:02.688304+00:00] PPT ES tennessee-car-accident-statute-of-limitations-nashville-2026: 14 slides (score 100) → /blog/presentations/es/tennessee-car-accident-statute-of-limitations-nashville-2026.pptx
+[2026-06-04T17:51:02.688395+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/tennessee-car-accident-statute-of-limitations-nashville-2026.md
+[2026-06-04T17:51:02.716981+00:00] IndexNow queued for tennessee-car-accident-statute-of-limitations-nashville-2026
+[2026-06-04T17:51:04.758136+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:04.759021+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04
+[2026-06-04T17:51:09.075700+00:00] After materialize: 100 / 3920w ([])
+[2026-06-04T17:51:09.077126+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04 (3245 words)
+[2026-06-04T17:51:09.080162+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04 (3245 words)
+[2026-06-04T17:51:09.164099+00:00] PPT EN what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04.pptx
+[2026-06-04T17:51:09.248437+00:00] PPT ES what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04.pptx
+[2026-06-04T17:51:09.248528+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04.md
+[2026-06-04T17:51:09.278113+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04
+[2026-06-04T17:51:11.320436+00:00] Quality 30 / 565w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:11.321213+00:00] Materializing template → platinum for utah-car-accident-statute-of-limitations-salt-lake-city-2026
+[2026-06-04T17:51:15.541580+00:00] After materialize: 100 / 3925w ([])
+[2026-06-04T17:51:15.543068+00:00] Spanish OK for utah-car-accident-statute-of-limitations-salt-lake-city-2026 (3224 words)
+[2026-06-04T17:51:15.546127+00:00] Spanish OK for utah-car-accident-statute-of-limitations-salt-lake-city-2026 (3224 words)
+[2026-06-04T17:51:15.630684+00:00] PPT EN utah-car-accident-statute-of-limitations-salt-lake-city-2026: 14 slides (score 100) → /blog/presentations/utah-car-accident-statute-of-limitations-salt-lake-city-2026.pptx
+[2026-06-04T17:51:15.726675+00:00] PPT ES utah-car-accident-statute-of-limitations-salt-lake-city-2026: 14 slides (score 100) → /blog/presentations/es/utah-car-accident-statute-of-limitations-salt-lake-city-2026.pptx
+[2026-06-04T17:51:15.726767+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/utah-car-accident-statute-of-limitations-salt-lake-city-2026.md
+[2026-06-04T17:51:15.756265+00:00] IndexNow queued for utah-car-accident-statute-of-limitations-salt-lake-city-2026
+[2026-06-04T17:51:17.799530+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:17.800333+00:00] Materializing template → platinum for vermont-car-accident-statute-of-limitations-burlington-2026
+[2026-06-04T17:51:22.021057+00:00] After materialize: 100 / 3882w ([])
+[2026-06-04T17:51:22.022538+00:00] Spanish OK for vermont-car-accident-statute-of-limitations-burlington-2026 (3185 words)
+[2026-06-04T17:51:22.025572+00:00] Spanish OK for vermont-car-accident-statute-of-limitations-burlington-2026 (3185 words)
+[2026-06-04T17:51:22.110238+00:00] PPT EN vermont-car-accident-statute-of-limitations-burlington-2026: 14 slides (score 100) → /blog/presentations/vermont-car-accident-statute-of-limitations-burlington-2026.pptx
+[2026-06-04T17:51:22.194303+00:00] PPT ES vermont-car-accident-statute-of-limitations-burlington-2026: 14 slides (score 100) → /blog/presentations/es/vermont-car-accident-statute-of-limitations-burlington-2026.pptx
+[2026-06-04T17:51:22.194394+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/vermont-car-accident-statute-of-limitations-burlington-2026.md
+[2026-06-04T17:51:22.222743+00:00] IndexNow queued for vermont-car-accident-statute-of-limitations-burlington-2026
+[2026-06-04T17:51:22.223111+00:00] Syndication → content/syndication/vermont-car-accident-statute-of-limitations-burlington-2026.json
+[2026-06-04T17:51:22.263936+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-sioux-falls-south-dakota-2026', 'tennessee-car-accident-statute-of-limitations-nashville-2026', 'what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04', 'utah-car-accident-statute-of-limitations-salt-lake-city-2026', 'vermont-car-accident-statute-of-limitations-burlington-2026']
+[2026-06-04T17:51:22.271128+00:00] Daily ledger (UTC): 43/50 states, 47 EN posts
+[2026-06-04T17:51:22.533566+00:00]       "tail": "\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T17:51:22.415557+00:00\",\n  \"stats\": {\n    \"enPosts\": 785,\n    \"esPosts\": 785,\n    \"platinumEn\": 766,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-sioux-falls-south-dakota-2026\",\n      \"tennessee-car-accident-statute-of-limitations-nashville-2026\",\n      \"what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-04\",\n      \"utah-car-accident-statute-of-limitations-salt-lake-city-2026\",\n      \"vermont-car-accident-statute-of-limitations-burlington-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T17:51:22.533685+00:00] WARN organic_crush exit 1
+[2026-06-04T17:51:22.655953+00:00] Inject for 8 states not yet published today
+[2026-06-04T17:51:22.657543+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T17:51:22.702871+00:00] Daily 50-state rotation (2026-06-04): +0 new, 7 re-prioritized, 7 at queue front
+[2026-06-04T17:51:22.732158+00:00] Daily 50-state injection complete
+[2026-06-04T17:51:22.826207+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T17:51:22.828104+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T17:51:22.882975+00:00] Daily 50-state rotation (2026-06-04): +0 new, 49 re-prioritized, 49 at queue front
+[2026-06-04T17:51:22.913298+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T17:51:22.917358+00:00] States already published today (UTC): 43 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Texas']
+[2026-06-04T17:51:22.919995+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:22.920766+00:00] Materializing template → platinum for insurance-denied-your-claim-in-nashville-tennessee-2026
+[2026-06-04T17:51:27.263072+00:00] After materialize: 100 / 3888w ([])
+[2026-06-04T17:51:27.264663+00:00] Spanish OK for insurance-denied-your-claim-in-nashville-tennessee-2026 (3177 words)
+[2026-06-04T17:51:27.267636+00:00] Spanish OK for insurance-denied-your-claim-in-nashville-tennessee-2026 (3177 words)
+[2026-06-04T17:51:27.408865+00:00] PPT EN insurance-denied-your-claim-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-nashville-tennessee-2026.pptx
+[2026-06-04T17:51:27.492392+00:00] PPT ES insurance-denied-your-claim-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-nashville-tennessee-2026.pptx
+[2026-06-04T17:51:27.492490+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-nashville-tennessee-2026.md
+[2026-06-04T17:51:27.521572+00:00] IndexNow queued for insurance-denied-your-claim-in-nashville-tennessee-2026
+[2026-06-04T17:51:29.564192+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:29.565017+00:00] Materializing template → platinum for insurance-denied-your-claim-in-salt-lake-city-utah-2026
+[2026-06-04T17:51:33.822559+00:00] After materialize: 100 / 3920w ([])
+[2026-06-04T17:51:33.824142+00:00] Spanish OK for insurance-denied-your-claim-in-salt-lake-city-utah-2026 (3222 words)
+[2026-06-04T17:51:33.827311+00:00] Spanish OK for insurance-denied-your-claim-in-salt-lake-city-utah-2026 (3222 words)
+[2026-06-04T17:51:33.912190+00:00] PPT EN insurance-denied-your-claim-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-salt-lake-city-utah-2026.pptx
+[2026-06-04T17:51:33.997116+00:00] PPT ES insurance-denied-your-claim-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-salt-lake-city-utah-2026.pptx
+[2026-06-04T17:51:33.997207+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-salt-lake-city-utah-2026.md
+[2026-06-04T17:51:34.026529+00:00] IndexNow queued for insurance-denied-your-claim-in-salt-lake-city-utah-2026
+[2026-06-04T17:51:36.067892+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:36.068703+00:00] Materializing template → platinum for insurance-denied-your-claim-in-burlington-vermont-2026
+[2026-06-04T17:51:40.306021+00:00] After materialize: 100 / 3877w ([])
+[2026-06-04T17:51:40.307531+00:00] Spanish OK for insurance-denied-your-claim-in-burlington-vermont-2026 (3179 words)
+[2026-06-04T17:51:40.310567+00:00] Spanish OK for insurance-denied-your-claim-in-burlington-vermont-2026 (3179 words)
+[2026-06-04T17:51:40.394540+00:00] PPT EN insurance-denied-your-claim-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-burlington-vermont-2026.pptx
+[2026-06-04T17:51:40.478559+00:00] PPT ES insurance-denied-your-claim-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-burlington-vermont-2026.pptx
+[2026-06-04T17:51:40.478648+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-burlington-vermont-2026.md
+[2026-06-04T17:51:40.508470+00:00] IndexNow queued for insurance-denied-your-claim-in-burlington-vermont-2026
+[2026-06-04T17:51:42.550946+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:42.551749+00:00] Materializing template → platinum for virginia-car-accident-statute-of-limitations-virginia-beach-2026
+[2026-06-04T17:51:46.805825+00:00] After materialize: 100 / 3903w ([])
+[2026-06-04T17:51:46.807233+00:00] Spanish OK for virginia-car-accident-statute-of-limitations-virginia-beach-2026 (3205 words)
+[2026-06-04T17:51:46.810435+00:00] Spanish OK for virginia-car-accident-statute-of-limitations-virginia-beach-2026 (3205 words)
+[2026-06-04T17:51:46.893563+00:00] PPT EN virginia-car-accident-statute-of-limitations-virginia-beach-2026: 14 slides (score 100) → /blog/presentations/virginia-car-accident-statute-of-limitations-virginia-beach-2026.pptx
+[2026-06-04T17:51:46.987011+00:00] PPT ES virginia-car-accident-statute-of-limitations-virginia-beach-2026: 14 slides (score 100) → /blog/presentations/es/virginia-car-accident-statute-of-limitations-virginia-beach-2026.pptx
+[2026-06-04T17:51:46.987104+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/virginia-car-accident-statute-of-limitations-virginia-beach-2026.md
+[2026-06-04T17:51:47.016562+00:00] IndexNow queued for virginia-car-accident-statute-of-limitations-virginia-beach-2026
+[2026-06-04T17:51:49.058506+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T17:51:49.060995+00:00] SKIP materialize semi-truck-accident-in-seattle-washington-what-to-do-2026: already meets bar (100/4028w)
+[2026-06-04T17:51:49.064130+00:00] Spanish OK for semi-truck-accident-in-seattle-washington-what-to-do-2026 (3209 words)
+[2026-06-04T17:51:49.145865+00:00] PPT EN semi-truck-accident-in-seattle-washington-what-to-do-2026: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-seattle-washington-what-to-do-2026.pptx
+[2026-06-04T17:51:49.229033+00:00] PPT ES semi-truck-accident-in-seattle-washington-what-to-do-2026: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-seattle-washington-what-to-do-2026.pptx
+[2026-06-04T17:51:49.229122+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/semi-truck-accident-in-seattle-washington-what-to-do-2026.md
+[2026-06-04T17:51:49.258043+00:00] IndexNow queued for semi-truck-accident-in-seattle-washington-what-to-do-2026
+[2026-06-04T17:51:49.258426+00:00] Syndication → content/syndication/semi-truck-accident-in-seattle-washington-what-to-do-2026.json
+[2026-06-04T17:51:49.298490+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-nashville-tennessee-2026', 'insurance-denied-your-claim-in-salt-lake-city-utah-2026', 'insurance-denied-your-claim-in-burlington-vermont-2026', 'virginia-car-accident-statute-of-limitations-virginia-beach-2026', 'semi-truck-accident-in-seattle-washington-what-to-do-2026']
+[2026-06-04T17:51:49.305346+00:00] Daily ledger (UTC): 48/50 states, 52 EN posts
+[2026-06-04T17:51:49.562502+00:00]  "tail": "ent in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T17:51:49.447982+00:00\",\n  \"stats\": {\n    \"enPosts\": 789,\n    \"esPosts\": 789,\n    \"platinumEn\": 770,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-nashville-tennessee-2026\",\n      \"insurance-denied-your-claim-in-salt-lake-city-utah-2026\",\n      \"insurance-denied-your-claim-in-burlington-vermont-2026\",\n      \"virginia-car-accident-statute-of-limitations-virginia-beach-2026\",\n      \"semi-truck-accident-in-seattle-washington-what-to-do-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T17:51:49.562644+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-06-04
+
+Round 1: 37/50 states — need 13
+After round 1: 41/50 states
+
+Round 2: 41/50 states — need 9
+After round 2: 43/50 states
+
+Round 3: 43/50 states — need 7
+After round 3: 48/50 states
+
+Final: 48/50 states
+Partial progress OK (48/50) — next scheduled run will continue.
