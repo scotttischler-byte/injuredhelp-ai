@@ -5085,3 +5085,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-04T11:56:35.405537+00:00] WARN organic_crush exit 1
+[2026-06-04T15:19:29.629431+00:00] Inject for 17 states not yet published today
+[2026-06-04T15:19:29.630699+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T15:19:29.667805+00:00] Daily 50-state rotation (2026-06-04): +0 new, 16 re-prioritized, 16 at queue front
+[2026-06-04T15:19:29.699808+00:00] Daily 50-state injection complete
+[2026-06-04T15:19:29.782040+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T15:19:29.783671+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T15:19:29.828366+00:00] Daily 50-state rotation (2026-06-04): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-04T15:19:29.855489+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T15:19:29.858753+00:00] States already published today (UTC): 34 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina']
+[2026-06-04T15:19:29.861281+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T15:19:29.861995+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-fargo-north-dakota-2026
+[2026-06-04T15:19:34.978859+00:00] After materialize: 100 / 3924w ([])
+[2026-06-04T15:19:34.980257+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-fargo-north-dakota-2026 (3233 words)
+[2026-06-04T15:19:34.982893+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-fargo-north-dakota-2026 (3233 words)
+[2026-06-04T15:19:35.247041+00:00] PPT EN 7-costly-car-accident-mistakes-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-fargo-north-dakota-2026.pptx
+[2026-06-04T15:19:35.316820+00:00] PPT ES 7-costly-car-accident-mistakes-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-fargo-north-dakota-2026.pptx
+[2026-06-04T15:19:35.316887+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-fargo-north-dakota-2026.md
+[2026-06-04T15:19:35.343034+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-fargo-north-dakota-2026
+[2026-06-04T15:19:37.380688+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T15:19:37.381468+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026
+[2026-06-04T15:19:41.299868+00:00] After materialize: 100 / 3876w ([])
+[2026-06-04T15:19:41.301158+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026 (3197 words)
+[2026-06-04T15:19:41.303990+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026 (3197 words)
+[2026-06-04T15:19:41.375896+00:00] PPT EN should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026.pptx
+[2026-06-04T15:19:41.445870+00:00] PPT ES should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026.pptx
+[2026-06-04T15:19:41.445952+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026.md
+[2026-06-04T15:19:41.473944+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026
+[2026-06-04T15:19:43.510122+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T15:19:43.510832+00:00] Materializing template → platinum for insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026
+[2026-06-04T15:19:47.557710+00:00] After materialize: 100 / 3890w ([])
+[2026-06-04T15:19:47.558937+00:00] Spanish OK for insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026 (3195 words)
+[2026-06-04T15:19:47.561567+00:00] Spanish OK for insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026 (3195 words)
+[2026-06-04T15:19:47.629293+00:00] PPT EN insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-04T15:19:47.696094+00:00] PPT ES insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-04T15:19:47.696167+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026.md
+[2026-06-04T15:19:47.722267+00:00] IndexNow queued for insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026
+[2026-06-04T15:19:47.722583+00:00] Syndication → content/syndication/insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026.json
+[2026-06-04T15:19:47.757867+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['7-costly-car-accident-mistakes-in-fargo-north-dakota-2026', 'should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026', 'insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026']
+[2026-06-04T15:19:47.764974+00:00] Daily ledger (UTC): 37/50 states, 37 EN posts
+[2026-06-04T15:19:48.000591+00:00] ent lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T15:19:47.898317+00:00\",\n  \"stats\": {\n    \"enPosts\": 775,\n    \"esPosts\": 775,\n    \"platinumEn\": 756,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"7-costly-car-accident-mistakes-in-fargo-north-dakota-2026\",\n      \"should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026\",\n      \"insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T15:19:48.000700+00:00] WARN organic_crush exit 1

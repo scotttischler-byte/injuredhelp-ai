@@ -677,11 +677,14 @@
     "7-costly-car-accident-mistakes-in-newark-new-jersey-2026",
     "7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026",
     "insurance-denied-your-claim-in-new-york-city-new-york-2026",
-    "should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026"
+    "should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026",
+    "7-costly-car-accident-mistakes-in-fargo-north-dakota-2026",
+    "should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026",
+    "insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026"
   ],
   "stats": {
-    "total_published": 676,
-    "last_run_at": "2026-06-04T11:56:35.058127+00:00"
+    "total_published": 679,
+    "last_run_at": "2026-06-04T15:19:47.722633+00:00"
   },
   "pending": [
     {
@@ -1088,41 +1091,41 @@
       "top_city": true
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Fargo, North Dakota (2026)",
-      "city": "Fargo",
-      "state": "North Dakota",
-      "place_slug": "fargo",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Albuquerque, New Mexico (2026)",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "place_slug": "albuquerque",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-fargo-north-dakota-2026",
+      "slug": "severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Columbus Crash? (Ohio 2026)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": "columbus",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-columbus-crash-ohio-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "Insurance Denied Your Claim in Oklahoma City? (Oklahoma 2026)",
-      "city": "Oklahoma City",
-      "state": "Oklahoma",
-      "place_slug": "oklahoma-city",
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in New York City, New York (2026)",
+      "city": "New York City",
+      "state": "New York",
+      "place_slug": "new-york-city",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "insurance-denied-your-claim-in-oklahoma-city-oklahoma-2026",
+      "slug": "7-costly-car-accident-mistakes-in-new-york-city-new-york-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Charlotte, North Carolina \u2014 What to Know (2026)",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "place_slug": "charlotte",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -24272,17 +24275,6 @@
       "slug": "fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Albuquerque, New Mexico (2026)",
-      "city": "Albuquerque",
-      "state": "New Mexico",
-      "place_slug": "albuquerque",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026"
-    },
-    {
       "angle": "spinal-cord-injury",
       "title": "Spinal Cord Injury After a Crash in Albuquerque, New Mexico (2026)",
       "city": "Albuquerque",
@@ -41553,17 +41545,6 @@
       "slug": "whiplash-after-a-car-accident-in-buffalo-new-york-what-to-know-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in New York City, New York (2026)",
-      "city": "New York City",
-      "state": "New York",
-      "place_slug": "new-york-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-new-york-city-new-york-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a New York City Crash? (New York 2026)",
       "city": "New York City",
@@ -41826,17 +41807,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Charlotte, North Carolina \u2014 What to Know (2026)",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "place_slug": "charlotte",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
