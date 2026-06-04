@@ -4920,3 +4920,118 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-04T08:51:28.820929+00:00] WARN organic_crush exit 1
+[2026-06-04T11:01:49.557273+00:00] Inject for 30 states not yet published today
+[2026-06-04T11:01:49.558926+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T11:01:49.612380+00:00] Daily 50-state rotation (2026-06-04): +0 new, 29 re-prioritized, 29 at queue front
+[2026-06-04T11:01:49.643820+00:00] Daily 50-state injection complete
+[2026-06-04T11:01:49.743942+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T11:01:49.745991+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T11:01:49.803789+00:00] Daily 50-state rotation (2026-06-04): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-04T11:01:49.836198+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T11:01:49.840006+00:00] States already published today (UTC): 21 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland']
+[2026-06-04T11:01:49.843437+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:01:49.844344+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-boston-massachusetts-2026
+[2026-06-04T11:01:56.017077+00:00] After materialize: 100 / 3887w ([])
+[2026-06-04T11:01:56.018905+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-boston-massachusetts-2026 (3205 words)
+[2026-06-04T11:01:56.022338+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-boston-massachusetts-2026 (3205 words)
+[2026-06-04T11:01:56.199928+00:00] PPT EN 7-costly-car-accident-mistakes-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-boston-massachusetts-2026.pptx
+[2026-06-04T11:01:56.296878+00:00] PPT ES 7-costly-car-accident-mistakes-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-boston-massachusetts-2026.pptx
+[2026-06-04T11:01:56.296964+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-boston-massachusetts-2026.md
+[2026-06-04T11:01:56.328550+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-boston-massachusetts-2026
+[2026-06-04T11:01:59.374346+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:01:59.375274+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-detroit-michigan-2026
+[2026-06-04T11:02:04.356703+00:00] After materialize: 100 / 3887w ([])
+[2026-06-04T11:02:04.358365+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-detroit-michigan-2026 (3205 words)
+[2026-06-04T11:02:04.361770+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-detroit-michigan-2026 (3205 words)
+[2026-06-04T11:02:04.461218+00:00] PPT EN 7-costly-car-accident-mistakes-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-detroit-michigan-2026.pptx
+[2026-06-04T11:02:04.558808+00:00] PPT ES 7-costly-car-accident-mistakes-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-detroit-michigan-2026.pptx
+[2026-06-04T11:02:04.558895+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-detroit-michigan-2026.md
+[2026-06-04T11:02:04.591146+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-detroit-michigan-2026
+[2026-06-04T11:02:07.634863+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:02:07.635788+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026
+[2026-06-04T11:02:12.452080+00:00] After materialize: 100 / 3882w ([])
+[2026-06-04T11:02:12.453665+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026 (3202 words)
+[2026-06-04T11:02:12.457025+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026 (3202 words)
+[2026-06-04T11:02:12.555847+00:00] PPT EN 7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026.pptx
+[2026-06-04T11:02:12.652927+00:00] PPT ES 7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026.pptx
+[2026-06-04T11:02:12.653018+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026.md
+[2026-06-04T11:02:12.685057+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026
+[2026-06-04T11:02:15.729193+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:02:15.730125+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-jackson-mississippi-2026
+[2026-06-04T11:02:20.556167+00:00] After materialize: 100 / 3872w ([])
+[2026-06-04T11:02:20.557772+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-jackson-mississippi-2026 (3185 words)
+[2026-06-04T11:02:20.561121+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-jackson-mississippi-2026 (3185 words)
+[2026-06-04T11:02:20.659527+00:00] PPT EN 7-costly-car-accident-mistakes-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-jackson-mississippi-2026.pptx
+[2026-06-04T11:02:20.766415+00:00] PPT ES 7-costly-car-accident-mistakes-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-jackson-mississippi-2026.pptx
+[2026-06-04T11:02:20.766501+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-jackson-mississippi-2026.md
+[2026-06-04T11:02:20.798334+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-jackson-mississippi-2026
+[2026-06-04T11:02:23.842264+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:02:23.843179+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-kansas-city-missouri-2026
+[2026-06-04T11:02:28.674213+00:00] After materialize: 100 / 3883w ([])
+[2026-06-04T11:02:28.675801+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-kansas-city-missouri-2026 (3201 words)
+[2026-06-04T11:02:28.679180+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-kansas-city-missouri-2026 (3201 words)
+[2026-06-04T11:02:28.777200+00:00] PPT EN 7-costly-car-accident-mistakes-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-kansas-city-missouri-2026.pptx
+[2026-06-04T11:02:28.874789+00:00] PPT ES 7-costly-car-accident-mistakes-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-kansas-city-missouri-2026.pptx
+[2026-06-04T11:02:28.874871+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-kansas-city-missouri-2026.md
+[2026-06-04T11:02:28.907045+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-kansas-city-missouri-2026
+[2026-06-04T11:02:31.950258+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:02:31.951162+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-billings-montana-2026
+[2026-06-04T11:02:36.788525+00:00] After materialize: 100 / 3872w ([])
+[2026-06-04T11:02:36.790166+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-billings-montana-2026 (3189 words)
+[2026-06-04T11:02:36.793665+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-billings-montana-2026 (3189 words)
+[2026-06-04T11:02:36.892424+00:00] PPT EN 7-costly-car-accident-mistakes-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-billings-montana-2026.pptx
+[2026-06-04T11:02:36.990110+00:00] PPT ES 7-costly-car-accident-mistakes-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-billings-montana-2026.pptx
+[2026-06-04T11:02:36.990231+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-billings-montana-2026.md
+[2026-06-04T11:02:37.022962+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-billings-montana-2026
+[2026-06-04T11:02:40.066293+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:02:40.067204+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-omaha-nebraska-2026
+[2026-06-04T11:02:44.875718+00:00] After materialize: 100 / 3872w ([])
+[2026-06-04T11:02:44.877279+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-omaha-nebraska-2026 (3189 words)
+[2026-06-04T11:02:44.880719+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-omaha-nebraska-2026 (3189 words)
+[2026-06-04T11:02:44.979779+00:00] PPT EN 7-costly-car-accident-mistakes-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-omaha-nebraska-2026.pptx
+[2026-06-04T11:02:45.078513+00:00] PPT ES 7-costly-car-accident-mistakes-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-omaha-nebraska-2026.pptx
+[2026-06-04T11:02:45.078625+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-omaha-nebraska-2026.md
+[2026-06-04T11:02:45.110497+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-omaha-nebraska-2026
+[2026-06-04T11:02:48.154765+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:02:48.155661+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-las-vegas-nevada-2026
+[2026-06-04T11:02:52.991545+00:00] After materialize: 100 / 3883w ([])
+[2026-06-04T11:02:52.993179+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-las-vegas-nevada-2026 (3205 words)
+[2026-06-04T11:02:52.996563+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-las-vegas-nevada-2026 (3205 words)
+[2026-06-04T11:02:53.095921+00:00] PPT EN 7-costly-car-accident-mistakes-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-las-vegas-nevada-2026.pptx
+[2026-06-04T11:02:53.196858+00:00] PPT ES 7-costly-car-accident-mistakes-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-las-vegas-nevada-2026.pptx
+[2026-06-04T11:02:53.196949+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-las-vegas-nevada-2026.md
+[2026-06-04T11:02:53.229045+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-las-vegas-nevada-2026
+[2026-06-04T11:02:56.272897+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:02:56.273835+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026
+[2026-06-04T11:03:01.109752+00:00] After materialize: 100 / 3902w ([])
+[2026-06-04T11:03:01.111346+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026 (3222 words)
+[2026-06-04T11:03:01.114806+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026 (3222 words)
+[2026-06-04T11:03:01.213882+00:00] PPT EN 7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026.pptx
+[2026-06-04T11:03:01.313837+00:00] PPT ES 7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026.pptx
+[2026-06-04T11:03:01.313926+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026.md
+[2026-06-04T11:03:01.346115+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026
+[2026-06-04T11:03:04.389202+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:03:04.390116+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-newark-new-jersey-2026
+[2026-06-04T11:03:09.244913+00:00] After materialize: 100 / 3916w ([])
+[2026-06-04T11:03:09.256542+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-newark-new-jersey-2026 (3238 words)
+[2026-06-04T11:03:09.259950+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-newark-new-jersey-2026 (3238 words)
+[2026-06-04T11:03:09.357664+00:00] PPT EN 7-costly-car-accident-mistakes-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-newark-new-jersey-2026.pptx
+[2026-06-04T11:03:09.456768+00:00] PPT ES 7-costly-car-accident-mistakes-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-newark-new-jersey-2026.pptx
+[2026-06-04T11:03:09.456861+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-newark-new-jersey-2026.md
+[2026-06-04T11:03:09.488370+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-newark-new-jersey-2026
+[2026-06-04T11:03:09.488834+00:00] Syndication → content/syndication/7-costly-car-accident-mistakes-in-newark-new-jersey-2026.json
+[2026-06-04T11:03:09.529510+00:00] Done: 10/10 published (platinum bar ≥100, ≥3000w) — ['7-costly-car-accident-mistakes-in-boston-massachusetts-2026', '7-costly-car-accident-mistakes-in-detroit-michigan-2026', '7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026', '7-costly-car-accident-mistakes-in-jackson-mississippi-2026', '7-costly-car-accident-mistakes-in-kansas-city-missouri-2026', '7-costly-car-accident-mistakes-in-billings-montana-2026', '7-costly-car-accident-mistakes-in-omaha-nebraska-2026', '7-costly-car-accident-mistakes-in-las-vegas-nevada-2026', '7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026', '7-costly-car-accident-mistakes-in-newark-new-jersey-2026']
+[2026-06-04T11:03:09.538637+00:00] Daily ledger (UTC): 31/50 states, 31 EN posts
+[2026-06-04T11:03:09.826092+00:00]    "ok": true,
+      "code": 0,
+      "tail": "TY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T11:03:09.702398+00:00\",\n  \"stats\": {\n    \"enPosts\": 769,\n    \"esPosts\": 769,\n    \"platinumEn\": 750,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"7-costly-car-accident-mistakes-in-boston-massachusetts-2026\",\n      \"7-costly-car-accident-mistakes-in-detroit-michigan-2026\",\n      \"7-costly-car-accident-mistakes-in-minneapolis-minnesota-2026\",\n      \"7-costly-car-accident-mistakes-in-jackson-mississippi-2026\",\n      \"7-costly-car-accident-mistakes-in-kansas-city-missouri-2026\",\n      \"7-costly-car-accident-mistakes-in-billings-montana-2026\",\n      \"7-costly-car-accident-mistakes-in-omaha-nebraska-2026\",\n      \"7-costly-car-accident-mistakes-in-las-vegas-nevada-2026\",\n      \"7-costly-car-accident-mistakes-in-manchester-new-hampshire-2026\",\n      \"7-costly-car-accident-mistakes-in-newark-new-jersey-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T11:03:09.826196+00:00] WARN organic_crush exit 1
