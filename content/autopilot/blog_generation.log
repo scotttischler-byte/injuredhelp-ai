@@ -5338,3 +5338,44 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-04T17:51:49.562644+00:00] WARN organic_crush exit 1
+[2026-06-04T18:18:15.733973+00:00] Inject for 3 states not yet published today
+[2026-06-04T18:18:15.735638+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T18:18:15.782868+00:00] Daily 50-state rotation (2026-06-04): +0 new, 2 re-prioritized, 2 at queue front
+[2026-06-04T18:18:15.813864+00:00] Daily 50-state injection complete
+[2026-06-04T18:18:15.913293+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T18:18:15.915324+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T18:18:15.971952+00:00] Daily 50-state rotation (2026-06-04): +0 new, 49 re-prioritized, 49 at queue front
+[2026-06-04T18:18:16.004294+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T18:18:16.008741+00:00] States already published today (UTC): 48 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington']
+[2026-06-04T18:18:16.012156+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T18:18:16.013042+00:00] Materializing template → platinum for west-virginia-car-accident-statute-of-limitations-charleston-2026
+[2026-06-04T18:18:21.761353+00:00] After materialize: 100 / 3923w ([])
+[2026-06-04T18:18:21.765410+00:00] Spanish OK for west-virginia-car-accident-statute-of-limitations-charleston-2026 (3216 words)
+[2026-06-04T18:18:21.768748+00:00] Spanish OK for west-virginia-car-accident-statute-of-limitations-charleston-2026 (3216 words)
+[2026-06-04T18:18:21.985005+00:00] PPT EN west-virginia-car-accident-statute-of-limitations-charleston-2026: 14 slides (score 100) → /blog/presentations/west-virginia-car-accident-statute-of-limitations-charleston-2026.pptx
+[2026-06-04T18:18:22.081519+00:00] PPT ES west-virginia-car-accident-statute-of-limitations-charleston-2026: 14 slides (score 100) → /blog/presentations/es/west-virginia-car-accident-statute-of-limitations-charleston-2026.pptx
+[2026-06-04T18:18:22.081604+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/west-virginia-car-accident-statute-of-limitations-charleston-2026.md
+[2026-06-04T18:18:22.112646+00:00] IndexNow queued for west-virginia-car-accident-statute-of-limitations-charleston-2026
+[2026-06-04T18:18:24.159113+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T18:18:24.160004+00:00] Materializing template → platinum for wisconsin-car-accident-statute-of-limitations-milwaukee-2026
+[2026-06-04T18:18:28.730886+00:00] After materialize: 100 / 3882w ([])
+[2026-06-04T18:18:28.732457+00:00] Spanish OK for wisconsin-car-accident-statute-of-limitations-milwaukee-2026 (3185 words)
+[2026-06-04T18:18:28.735729+00:00] Spanish OK for wisconsin-car-accident-statute-of-limitations-milwaukee-2026 (3185 words)
+[2026-06-04T18:18:28.835468+00:00] PPT EN wisconsin-car-accident-statute-of-limitations-milwaukee-2026: 14 slides (score 100) → /blog/presentations/wisconsin-car-accident-statute-of-limitations-milwaukee-2026.pptx
+[2026-06-04T18:18:28.932246+00:00] PPT ES wisconsin-car-accident-statute-of-limitations-milwaukee-2026: 14 slides (score 100) → /blog/presentations/es/wisconsin-car-accident-statute-of-limitations-milwaukee-2026.pptx
+[2026-06-04T18:18:28.932327+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/wisconsin-car-accident-statute-of-limitations-milwaukee-2026.md
+[2026-06-04T18:18:28.963267+00:00] IndexNow queued for wisconsin-car-accident-statute-of-limitations-milwaukee-2026
+[2026-06-04T18:18:28.963630+00:00] Syndication → content/syndication/wisconsin-car-accident-statute-of-limitations-milwaukee-2026.json
+[2026-06-04T18:18:29.006230+00:00] Done: 2/2 published (platinum bar ≥100, ≥3000w) — ['west-virginia-car-accident-statute-of-limitations-charleston-2026', 'wisconsin-car-accident-statute-of-limitations-milwaukee-2026']
+[2026-06-04T18:18:29.015897+00:00] Daily ledger (UTC): 48/50 states, 54 EN posts
+[2026-06-04T18:18:29.298554+00:00] how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T18:18:29.179291+00:00\",\n  \"stats\": {\n    \"enPosts\": 791,\n    \"esPosts\": 791,\n    \"platinumEn\": 772,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"west-virginia-car-accident-statute-of-limitations-charleston-2026\",\n      \"wisconsin-car-accident-statute-of-limitations-milwaukee-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T18:18:29.298659+00:00] WARN organic_crush exit 1
