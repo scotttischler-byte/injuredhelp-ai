@@ -5035,3 +5035,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-04T11:03:09.826196+00:00] WARN organic_crush exit 1
+[2026-06-04T11:56:14.649006+00:00] Inject for 20 states not yet published today
+[2026-06-04T11:56:14.650746+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T11:56:14.704967+00:00] Daily 50-state rotation (2026-06-04): +0 new, 19 re-prioritized, 19 at queue front
+[2026-06-04T11:56:14.739123+00:00] Daily 50-state injection complete
+[2026-06-04T11:56:14.845635+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-04T11:56:14.847829+00:00] Loaded 239 cities from cities.ts
+[2026-06-04T11:56:14.906952+00:00] Daily 50-state rotation (2026-06-04): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-04T11:56:14.940452+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-04T11:56:14.944661+00:00] States already published today (UTC): 31 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey']
+[2026-06-04T11:56:14.948235+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:56:14.949193+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026
+[2026-06-04T11:56:20.771188+00:00] After materialize: 100 / 3902w ([])
+[2026-06-04T11:56:20.773028+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026 (3218 words)
+[2026-06-04T11:56:20.776368+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026 (3218 words)
+[2026-06-04T11:56:20.959849+00:00] PPT EN 7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026.pptx
+[2026-06-04T11:56:21.059861+00:00] PPT ES 7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026.pptx
+[2026-06-04T11:56:21.059961+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026.md
+[2026-06-04T11:56:21.092112+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026
+[2026-06-04T11:56:23.138435+00:00] Quality 30 / 569w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:56:23.139334+00:00] Materializing template → platinum for insurance-denied-your-claim-in-new-york-city-new-york-2026
+[2026-06-04T11:56:27.847789+00:00] After materialize: 100 / 3952w ([])
+[2026-06-04T11:56:27.849443+00:00] Spanish OK for insurance-denied-your-claim-in-new-york-city-new-york-2026 (3256 words)
+[2026-06-04T11:56:27.852799+00:00] Spanish OK for insurance-denied-your-claim-in-new-york-city-new-york-2026 (3256 words)
+[2026-06-04T11:56:27.953974+00:00] PPT EN insurance-denied-your-claim-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-new-york-city-new-york-2026.pptx
+[2026-06-04T11:56:28.053644+00:00] PPT ES insurance-denied-your-claim-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-new-york-city-new-york-2026.pptx
+[2026-06-04T11:56:28.053744+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-new-york-city-new-york-2026.md
+[2026-06-04T11:56:28.085536+00:00] IndexNow queued for insurance-denied-your-claim-in-new-york-city-new-york-2026
+[2026-06-04T11:56:30.129287+00:00] Quality 30 / 562w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-04T11:56:30.130319+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026
+[2026-06-04T11:56:34.820978+00:00] After materialize: 100 / 3914w ([])
+[2026-06-04T11:56:34.822630+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026 (3236 words)
+[2026-06-04T11:56:34.825998+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026 (3236 words)
+[2026-06-04T11:56:34.925795+00:00] PPT EN should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026.pptx
+[2026-06-04T11:56:35.025460+00:00] PPT ES should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026.pptx
+[2026-06-04T11:56:35.025557+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026.md
+[2026-06-04T11:56:35.057644+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026
+[2026-06-04T11:56:35.058064+00:00] Syndication → content/syndication/should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026.json
+[2026-06-04T11:56:35.101293+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026', 'insurance-denied-your-claim-in-new-york-city-new-york-2026', 'should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026']
+[2026-06-04T11:56:35.110276+00:00] Daily ledger (UTC): 34/50 states, 34 EN posts
+[2026-06-04T11:56:35.405423+00:00] ida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-04T11:56:35.276583+00:00\",\n  \"stats\": {\n    \"enPosts\": 772,\n    \"esPosts\": 772,\n    \"platinumEn\": 753,\n    \"lastUpdated\": \"2026-06-04\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"7-costly-car-accident-mistakes-in-albuquerque-new-mexico-2026\",\n      \"insurance-denied-your-claim-in-new-york-city-new-york-2026\",\n      \"should-you-hire-a-lawyer-after-a-charlotte-crash-north-carolina-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-04T11:56:35.405537+00:00] WARN organic_crush exit 1
