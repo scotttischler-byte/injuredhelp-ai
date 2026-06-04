@@ -661,11 +661,14 @@
     "7-costly-car-accident-mistakes-in-indianapolis-indiana-2026",
     "7-costly-car-accident-mistakes-in-des-moines-iowa-2026",
     "7-costly-car-accident-mistakes-in-wichita-kansas-2026",
-    "7-costly-car-accident-mistakes-in-louisville-kentucky-2026"
+    "7-costly-car-accident-mistakes-in-louisville-kentucky-2026",
+    "7-costly-car-accident-mistakes-in-new-orleans-louisiana-2026",
+    "7-costly-car-accident-mistakes-in-portland-maine-2026",
+    "7-costly-car-accident-mistakes-in-baltimore-maryland-2026"
   ],
   "stats": {
-    "total_published": 660,
-    "last_run_at": "2026-06-04T08:00:56.491056+00:00"
+    "total_published": 663,
+    "last_run_at": "2026-06-04T08:51:28.481552+00:00"
   },
   "pending": [
     {
@@ -838,41 +841,67 @@
       "top_city": true
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in New Orleans, Louisiana (2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Chicago, Illinois \u2014 What to Know (2026)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
       "priority": -2,
-      "firm_state": false,
+      "firm_state": true,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-new-orleans-louisiana-2026",
+      "slug": "whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Portland, Maine (2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Indianapolis, Indiana (2026)",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "place_slug": "indianapolis",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-portland-maine-2026",
+      "slug": "severe-injury-after-a-car-accident-in-indianapolis-indiana-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Baltimore, Maryland (2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Des Moines, Iowa (2026)",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "place_slug": "des-moines",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-baltimore-maryland-2026",
+      "slug": "severe-injury-after-a-car-accident-in-des-moines-iowa-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Wichita, Kansas (2026)",
+      "city": "Wichita",
+      "state": "Kansas",
+      "place_slug": "wichita",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-car-accident-in-wichita-kansas-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Louisville, Kentucky (2026)",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "place_slug": "louisville",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-car-accident-in-louisville-kentucky-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -7310,17 +7339,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-chicago-illinois-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Chicago, Illinois \u2014 What to Know (2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": "chicago",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -18378,17 +18396,6 @@
       "slug": "fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Indianapolis, Indiana (2026)",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "place_slug": "indianapolis",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-indianapolis-indiana-2026"
-    },
-    {
       "angle": "spinal-cord-injury",
       "title": "Spinal Cord Injury After a Crash in Indianapolis, Indiana (2026)",
       "city": "Indianapolis",
@@ -18728,17 +18735,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "fmcsa-violations-after-a-truck-crash-in-des-moines-iowa"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Des Moines, Iowa (2026)",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "place_slug": "des-moines",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-des-moines-iowa-2026"
     },
     {
       "angle": "spinal-cord-injury",
@@ -19170,17 +19166,6 @@
       "slug": "fmcsa-violations-after-a-truck-crash-in-wichita-kansas"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Wichita, Kansas (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-wichita-kansas-2026"
-    },
-    {
       "angle": "spinal-cord-injury",
       "title": "Spinal Cord Injury After a Crash in Wichita, Kansas (2026)",
       "city": "Wichita",
@@ -19432,17 +19417,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "fmcsa-violations-after-a-truck-crash-in-louisville-kentucky"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Louisville, Kentucky (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-louisville-kentucky-2026"
     },
     {
       "angle": "spinal-cord-injury",
