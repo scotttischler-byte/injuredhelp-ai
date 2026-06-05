@@ -699,52 +699,16 @@
     "west-virginia-car-accident-statute-of-limitations-charleston-2026",
     "wisconsin-car-accident-statute-of-limitations-milwaukee-2026",
     "insurance-denied-your-claim-in-charleston-west-virginia-2026",
-    "insurance-denied-your-claim-in-milwaukee-wisconsin-2026"
+    "insurance-denied-your-claim-in-milwaukee-wisconsin-2026",
+    "severe-injury-after-a-car-accident-in-birmingham-alabama-2026",
+    "should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026",
+    "truck-accident-in-phoenix-arizona-steps-legal-help-2026"
   ],
   "stats": {
-    "total_published": 698,
-    "last_run_at": "2026-06-04T20:20:19.889745+00:00"
+    "total_published": 701,
+    "last_run_at": "2026-06-05T00:10:22.962982+00:00"
   },
   "pending": [
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Birmingham, Alabama (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-birmingham-alabama-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Anchorage Crash? (Alaska 2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Phoenix, Arizona: Steps & Legal Help (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-phoenix-arizona-steps-legal-help-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
     {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Little Rock Crash? (Arkansas 2026)",
@@ -1266,6 +1230,19 @@
       "firm_state": true
     },
     {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-05)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05"
+    },
+    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Salt Lake City, Utah (2026)",
       "city": "Salt Lake City",
@@ -1314,6 +1291,32 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "washington-car-accident-statute-of-limitations-seattle-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Charleston, West Virginia (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-charleston-west-virginia-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Milwaukee, Wisconsin (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -46175,17 +46178,6 @@
       "slug": "whiplash-after-a-car-accident-in-virginia-beach-virginia-what-to-know-2026"
     },
     {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Charleston, West Virginia (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-charleston-west-virginia-2026"
-    },
-    {
       "angle": "lawyer-vs-diy",
       "title": "Should You Hire a Lawyer After a Charleston Crash? (West Virginia 2026)",
       "city": "Charleston",
@@ -46811,17 +46803,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-madison-wisconsin-what-to-know-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Milwaukee, Wisconsin (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026"
     },
     {
       "angle": "lawyer-vs-diy",

@@ -5420,3 +5420,51 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-04T20:20:20.246038+00:00] WARN organic_crush exit 1
+[2026-06-05T00:10:09.326536+00:00] Inject for 51 states not yet published today
+[2026-06-05T00:10:09.327813+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T00:10:09.370359+00:00] Daily 50-state rotation (2026-06-05): +1 new, 49 re-prioritized, 50 at queue front
+[2026-06-05T00:10:09.395845+00:00] Daily 50-state injection complete
+[2026-06-05T00:10:09.477894+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T00:10:09.479513+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T00:10:09.522107+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T00:10:09.549060+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T00:10:09.552092+00:00] States already published today (UTC): 0 — []
+[2026-06-05T00:10:09.554720+00:00] Quality 30 / 619w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T00:10:09.556900+00:00] SKIP materialize severe-injury-after-a-car-accident-in-birmingham-alabama-2026: already meets bar (100/3996w)
+[2026-06-05T00:10:09.559777+00:00] Spanish OK for severe-injury-after-a-car-accident-in-birmingham-alabama-2026 (3349 words)
+[2026-06-05T00:10:09.771054+00:00] PPT EN severe-injury-after-a-car-accident-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-birmingham-alabama-2026.pptx
+[2026-06-05T00:10:09.837459+00:00] PPT ES severe-injury-after-a-car-accident-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-birmingham-alabama-2026.pptx
+[2026-06-05T00:10:09.837538+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-birmingham-alabama-2026.md
+[2026-06-05T00:10:09.863486+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-birmingham-alabama-2026
+[2026-06-05T00:10:11.900449+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T00:10:11.901257+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026
+[2026-06-05T00:10:16.459398+00:00] After materialize: 100 / 3874w ([])
+[2026-06-05T00:10:16.460713+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026 (3193 words)
+[2026-06-05T00:10:16.463337+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026 (3193 words)
+[2026-06-05T00:10:16.532016+00:00] PPT EN should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026.pptx
+[2026-06-05T00:10:16.599028+00:00] PPT ES should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026.pptx
+[2026-06-05T00:10:16.599104+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026.md
+[2026-06-05T00:10:16.625233+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026
+[2026-06-05T00:10:18.662021+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T00:10:18.662783+00:00] Materializing template → platinum for truck-accident-in-phoenix-arizona-steps-legal-help-2026
+[2026-06-05T00:10:22.795722+00:00] After materialize: 100 / 3991w ([])
+[2026-06-05T00:10:22.796955+00:00] Spanish OK for truck-accident-in-phoenix-arizona-steps-legal-help-2026 (3205 words)
+[2026-06-05T00:10:22.801969+00:00] Spanish OK for truck-accident-in-phoenix-arizona-steps-legal-help-2026 (3205 words)
+[2026-06-05T00:10:22.869144+00:00] PPT EN truck-accident-in-phoenix-arizona-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-phoenix-arizona-steps-legal-help-2026.pptx
+[2026-06-05T00:10:22.936125+00:00] PPT ES truck-accident-in-phoenix-arizona-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-phoenix-arizona-steps-legal-help-2026.pptx
+[2026-06-05T00:10:22.936201+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-phoenix-arizona-steps-legal-help-2026.md
+[2026-06-05T00:10:22.962594+00:00] IndexNow queued for truck-accident-in-phoenix-arizona-steps-legal-help-2026
+[2026-06-05T00:10:22.962935+00:00] Syndication → content/syndication/truck-accident-in-phoenix-arizona-steps-legal-help-2026.json
+[2026-06-05T00:10:22.997596+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-car-accident-in-birmingham-alabama-2026', 'should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026', 'truck-accident-in-phoenix-arizona-steps-legal-help-2026']
+[2026-06-05T00:10:23.005037+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-05T00:10:23.245917+00:00] lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T00:10:23.141908+00:00\",\n  \"stats\": {\n    \"enPosts\": 795,\n    \"esPosts\": 795,\n    \"platinumEn\": 776,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-car-accident-in-birmingham-alabama-2026\",\n      \"should-you-hire-a-lawyer-after-a-anchorage-crash-alaska-2026\",\n      \"truck-accident-in-phoenix-arizona-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T00:10:23.246025+00:00] WARN organic_crush exit 1

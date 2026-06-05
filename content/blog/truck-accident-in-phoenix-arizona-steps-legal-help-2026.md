@@ -1,60 +1,64 @@
 ---
-title: 'Severe Injury After a Car Accident in Birmingham, Alabama (2026)'
+title: 'Truck Accident in Phoenix, Arizona: Steps & Legal Help (2026)'
 description: >-
-  Educational guide for Birmingham car accident victims in Alabama. Deadlines,
-  insurance tactics, and free attorney matching — 800+ law firm network. Not
-  legal advice.
-date: '2026-05-31'
-category: Severe Injury
-state: Alabama
+  Educational guide for Phoenix semi truck and car accident victims in Arizona.
+  FMCSA-aware deadlines, insurer tactics, and free truck attorney matching —
+  800+ law firm network. Not legal advice.
+date: '2026-06-05'
+category: Truck Accidents
+state: Arizona
 excerpt: >-
-  Serious injury crash in Birmingham, Alabama? Alabama's 2 years filing window
-  (verify with counsel), insurer tactics, and free attorney matching in ~60
-  seconds via WreckMatch.
+  Semi-truck crash in Phoenix, Arizona? Arizona's 2 years filing window (verify
+  with counsel), insurer tactics, and free attorney matching in ~60 seconds via
+  WreckMatch.
 autopilot: true
-vertical: severe
+vertical: truck
 qualityTier: "platinum"
 authorId: "scott-tischler"
 reviewerId: "roy-waddell"
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
-presentationUrl: "/blog/presentations/severe-injury-after-a-car-accident-in-birmingham-alabama-2026.pptx"
+presentationUrl: "/blog/presentations/truck-accident-in-phoenix-arizona-steps-legal-help-2026.pptx"
 ---
-# Severe Injury After a Car Accident in Birmingham, Alabama (2026)
+# Truck Accident in Phoenix, Arizona: Steps & Legal Help (2026)
 
 **Educational only — not legal advice.** WreckMatch LLC is a legal referral service, **not a law firm**. Results not guaranteed. Consult a licensed attorney in your state.
 
-**Last updated:** 2026-05-31
+**Last updated:** 2026-06-05
 
 WreckMatch connects victims with attorneys from a **network of 800+ participating law firms** nationwide — free matching, typically under 60 seconds.
 
-**Quick answer:** After a crash in Birmingham, Alabama, call 911, get medical care, preserve evidence, avoid recorded insurer statements, and use **[free attorney matching](https://www.wreckmatch.com/#form)** before signing anything.
+**Quick answer:** After a semi truck or crash in Phoenix, Arizona, call 911, get medical care, preserve evidence including ECM/black box and carrier IDs, avoid recorded insurer statements, and use **[free attorney matching](https://www.wreckmatch.com/#form)** before signing anything.
 
 
-## Why we published this guide for Birmingham
+## Why we published this guide for Phoenix
 
-Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in Alabama are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
+Insurance companies run billion-dollar playbooks the moment a crash is reported — trained adjusters, scripted calls, and pressure to settle before you understand your rights. **Scott Tischler**, Co-Founder of WreckMatch, built our AI intake and educational stack so everyday drivers in Arizona are not outgunned. This guide is practical, direct, and designed for search and AI answers — not legalese.
 
 When you are ready, we connect you with licensed counsel in about 60 seconds. WreckMatch is a **referral service, not a law firm**.
 
-## What should you do first after a crash in Birmingham?
+## What should you do first after a truck crash in Phoenix?
 
-1. Call **911** if anyone is hurt or traffic is blocked.
-2. Photograph vehicles, injuries visible from outside the car, and the full scene.
-3. Exchange insurance and contact information; collect witness phone numbers.
-4. Seek **medical care within 24 hours** — delays hurt both health and claims.
-5. **Do not** give a recorded statement to the other driver's insurer.
+1. Call **911** — commercial crashes often need highway patrol, HAZMAT, and EMS.
+2. Photograph **all units**, DOT numbers, plates, carrier logos, and road conditions.
+3. Request **driver and carrier identification** (many defendants may exist).
+4. Seek **trauma care** — internal injuries are common even when you feel “fine.”
+5. **Do not** give a recorded statement to any insurer.
 6. **[Get matched with a lawyer →](https://www.wreckmatch.com/#form)**
 
-## Severe injury & wrongful death considerations
+## Semi truck & commercial vehicle specifics
 
-- Document **lifetime care needs**, lost earnings, and future medical costs — not just today's ER bill.
-- Do not accept lump-sum settlements before **maximum medical improvement (MMI)** without counsel.
-- Life-care planners, economists, and medical illustrators may be appropriate in high-value cases.
-- **Wrongful death** claims involve different beneficiaries, estates, and deadlines than personal injury alone.
+| Evidence | Why it matters |
+|----------|----------------|
+| Black box (ECM) data | Speed, braking, hours-of-service |
+| Driver logbooks / ELD | FMCSA violations |
+| Cargo loading records | Shifted load liability |
+| Carrier insurance limits | Often $750K–$1M+ |
 
-## Alabama deadlines & why timing matters
+**Direct answer:** Truck cases often involve **multiple defendants** (driver, motor carrier, broker, shipper). Your attorney may send **spoliation** letters immediately so electronic data is preserved.
+
+## Arizona deadlines & why timing matters
 
 | Topic | Detail |
 |-------|--------|
@@ -79,7 +83,7 @@ Consider a free consultation if: hospitalization occurred, fault is disputed, a 
 
 ### Is WreckMatch a law firm?
 
-No. WreckMatch LLC is a **legal referral service** — not a law firm. We connect injured people with participating attorneys who handle **car, truck, and catastrophic injury** cases in Alabama.
+No. WreckMatch LLC is a **legal referral service** — not a law firm. We connect injured people with participating attorneys who handle **truck and catastrophic injury** cases in Arizona.
 
 ### How fast is the callback?
 
@@ -91,33 +95,33 @@ Participating attorneys usually work on **contingency** — no upfront fee for r
 
 ### Where is the local help hub?
 
-**[Birmingham car accident help](https://www.wreckmatch.com/car-accident-help-birmingham)** · [National what-to-do guide](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
+**[Phoenix car accident help](https://www.wreckmatch.com/car-accident-help-phoenix)** · [National truck crash guide](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
 
 
-*Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
+*Reviewed for legal context by **Hon. Ret. Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
 
 
 **[Free attorney matching →](https://www.wreckmatch.com/#form)** · 855 WRECKMATCH (855) 897-3256
 
 <!-- wm-materialized-expansion -->
 
-**At a glance:** Alabama fast facts: 2-year statute of limitations · Contributory fault rule · 25/50/25 minimum auto liability insurance.
+**At a glance:** Arizona fast facts: 2-year statute of limitations · Pure comparative fault rule · 25/50/15 minimum auto liability insurance.
 
-## Alabama legal context for catastrophic-injury cases
+## Arizona legal context for commercial-truck crashs
 
-In Alabama, the statute of limitations on most personal-injury claims is 2 years from the date of the crash. Missing that window almost always ends the case — courts dismiss late-filed lawsuits with rare exceptions for minors, mental incapacity, or delayed discovery of injuries. Notice deadlines for claims against government vehicles can be far shorter, sometimes 60 to 180 days.
+In Arizona, the statute of limitations on most personal-injury claims is 2 years from the date of the crash. Missing that window almost always ends the case — courts dismiss late-filed lawsuits with rare exceptions for minors, mental incapacity, or delayed discovery of injuries. Notice deadlines for claims against government vehicles can be far shorter, sometimes 60 to 180 days.
 
-Alabama follows the Contributory rule for fault allocation. Under traditional contributory negligence, if you are even 1% at fault you can be barred from recovering anything — one of the harshest rules in the country. That makes the on-scene evidence collection in the first 48 hours unusually important. The minimum liability insurance every driver must carry in Alabama is 25/50/25 (bodily injury per person / per accident / property damage). For serious crashes those minimums are routinely exhausted in days, which is why uninsured/underinsured-motorist (UM/UIM) coverage on your own policy matters so much.
+Arizona follows the Pure comparative rule for fault allocation. Pure comparative negligence reduces your recovery in proportion to your share of fault, but never bars it. A driver found 30% responsible can still recover 70% of damages. The minimum liability insurance every driver must carry in Arizona is 25/50/15 (bodily injury per person / per accident / property damage). For serious crashes those minimums are routinely exhausted in days, which is why uninsured/underinsured-motorist (UM/UIM) coverage on your own policy matters so much.
 
-Alabama is an at-fault state. The at-fault driver's liability insurance is the primary source of recovery, and you can pursue compensation for medical bills, lost wages, and pain and suffering once liability is established.
+Arizona is an at-fault state. The at-fault driver's liability insurance is the primary source of recovery, and you can pursue compensation for medical bills, lost wages, and pain and suffering once liability is established.
 
-In Alabama, deadlines and insurance rules can change how claims are handled. Document medical care early and avoid recorded statements without guidance. Recent settlement data reported by Alabama firms shows a typical published recovery range of $18k–$95k — but those numbers describe the firms' historical mix and are not a prediction of your case. A licensed attorney in Alabama can give you a grounded read on value once they review medical records, fault evidence, and policy limits.
+In Arizona, deadlines and insurance rules can change how claims are handled. Document medical care early and avoid recorded statements without guidance. Recent settlement data reported by Arizona firms shows a typical published recovery range of $20k–$110k — but those numbers describe the firms' historical mix and are not a prediction of your case. A licensed attorney in Arizona can give you a grounded read on value once they review medical records, fault evidence, and policy limits.
 
-## What to do in the first 48 hours after a catastrophic-injury case
+## What to do in the first 48 hours after a commercial-truck crash
 
 The first two days after a crash quietly decide most cases. Insurers train adjusters to call within 24 hours, ask leading questions, and lock in statements that compress case value before victims have seen a doctor or talked to a lawyer. Following a disciplined sequence in the first 48 hours protects you from the most common traps.
 
-In Birmingham, catastrophic-injury cases often happen on or near Interstate corridors and State routes near metro area, and the nearest trauma-capable centers include Regional Medical Center and Level I/II trauma center (verify locally). Going to one of those facilities, even if you "feel fine," is the single most important step in the first 24 hours.
+In Phoenix, commercial-truck crashs often happen on or near Interstate corridors and State routes near metro area, and the nearest trauma-capable centers include Regional Medical Center and Level I/II trauma center (verify locally). Going to one of those facilities, even if you "feel fine," is the single most important step in the first 24 hours.
 
 1. Call 911 — even for a “minor” crash. The police report is the single most cited document in your case.
 2. Take wide-angle and close-up photos of all vehicles, the surrounding intersection, traffic signs, skid marks, debris, and your visible injuries.
@@ -130,17 +134,17 @@ In Birmingham, catastrophic-injury cases often happen on or near Interstate corr
 9. Start a daily symptom journal: pain levels, missed work, things you can no longer do, sleep disruption, mood changes.
 10. Speak with a personal-injury attorney before signing anything labeled “release,” “waiver,” or “medical authorization” — insurers use these to access unrelated medical history and discount value.
 
-## Catastrophic-injury cases — what changes
+## Truck-specific evidence and pitfalls
 
-Catastrophic injuries — defined loosely as injuries causing permanent impairment or requiring lifelong care — change the case in three structural ways. First, damages calculations almost always require an economist and life-care planner, because the value depends on lost future earnings and lifetime medical costs that cannot be estimated by feel.
+Commercial-truck cases stand apart from passenger-car crashes because the evidence is much richer — and disappears much faster. Most modern tractors carry an Event Data Recorder (the “black box” / ECM) capturing speed, brake application, throttle position, and steering input for the seconds before impact. That data is owned by the carrier, gets overwritten on a rolling schedule, and is often deleted unless preserved by a formal spoliation letter within days of the crash.
 
-Second, the at-fault driver's liability policy is almost always too small. Recovery typically requires layering: the at-fault policy, any commercial or employer policy, umbrella coverage, the injured person's own underinsured-motorist coverage, and in some cases a third-party premises or product-liability theory. Identifying every available policy in the first 30 days frequently changes the realistic ceiling on the case.
+FMCSA regulations also require the driver to keep an Hours-of-Service log (electronic, via ELD) and the carrier to retain driver qualification files, drug-and-alcohol test results, post-crash testing, maintenance records, and dispatch communications. A plaintiff's attorney typically issues preservation demands within 24–72 hours covering these categories specifically.
 
-Third, structured settlements become a serious option. Rather than a lump sum that can be exhausted, a structure converts settlement proceeds into a tax-advantaged annuity covering decades of medical and living expenses. This is especially common with minor plaintiffs and severe-brain-injury survivors.
+Insurers for trucking companies move fast in the opposite direction — sending “rapid response” teams to the scene to photograph and interview before victims leave the hospital. Anything you say in those early conversations can and will be used to allocate fault, so the safer rule is simple: politely decline, exchange paperwork, and let your attorney handle communication.
 
 ## What might your case be worth?
 
-Honest answer: nobody can tell you a precise number without reviewing your medical records, the police report, available insurance policies, the at-fault driver's conduct, and the comparative-fault posture of your state. Published "average" settlement numbers (commonly $18k–$95k for Alabama catastrophic-injury cases based on aggregated firm-reported data) describe historical mixes — not your case.
+Honest answer: nobody can tell you a precise number without reviewing your medical records, the police report, available insurance policies, the at-fault driver's conduct, and the comparative-fault posture of your state. Published "average" settlement numbers (commonly $20k–$110k for Arizona commercial-truck crashs based on aggregated firm-reported data) describe historical mixes — not your case.
 
 Case value is driven primarily by: (1) medical-bill totals and the share that will be reasonably necessary in the future; (2) lost wages and impaired earning capacity, including any permanent restrictions; (3) the severity, permanency, and visibility of the injuries; (4) liability clarity — is fault uncontested or shared; (5) policy limits — a $25,000 policy caps recovery at $25,000 regardless of damages unless additional coverage is identified; (6) jurisdiction — some venues are systematically more plaintiff-favorable.
 
@@ -161,20 +165,20 @@ Not every crash needs a lawyer. Fender-benders with no injury, no missed work, a
 
 | Situation | Risk of going alone |
 | --- | --- |
-| catastrophic-injury case with hospitalization or surgery | High — policy limits often exhausted; UM/UIM analysis required. |
-| catastrophic-injury case with shared or disputed fault | High — comparative-fault math can wipe out recovery quickly. |
-| catastrophic-injury case involving government, commercial, or fleet vehicle | High — short notice deadlines and multiple policies. |
+| commercial-truck crash with hospitalization or surgery | High — policy limits often exhausted; UM/UIM analysis required. |
+| commercial-truck crash with shared or disputed fault | High — comparative-fault math can wipe out recovery quickly. |
+| commercial-truck crash involving government, commercial, or fleet vehicle | High — short notice deadlines and multiple policies. |
 | Soft-tissue injury, 1–2 weeks PT, cooperative insurer | Moderate — manageable, but a free consult costs nothing. |
 
-## Local context for Birmingham
+## Local context for Phoenix
 
-If you were hurt in Birmingham, Alabama, the nearest care options frequently include Regional Medical Center, Level I/II trauma center (verify locally). Crash volume in this metro is driven by Interstate corridors, State routes near metro area, and Birmingham sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence.
+If you were hurt in Phoenix, Arizona, the nearest care options frequently include Regional Medical Center, Level I/II trauma center (verify locally). Crash volume in this metro is driven by Interstate corridors, State routes near metro area, and Phoenix sees heavy commuter traffic and intersection crashes. Seek care promptly and preserve evidence.
 
-Statewide, Alabama drivers carry minimum liability insurance of 25/50/25. Crash reports in Alabama can be requested through the state's Department of Transportation or Department of Public Safety, typically within 10 business days of the incident. If a citation was issued, the criminal-traffic case can run on a separate timeline from the civil claim — but findings can sometimes be used as evidence.
+Statewide, Arizona drivers carry minimum liability insurance of 25/50/15. Crash reports in Arizona can be requested through the state's Department of Transportation or Department of Public Safety, typically within 10 business days of the incident. If a citation was issued, the criminal-traffic case can run on a separate timeline from the civil claim — but findings can sometimes be used as evidence.
 
 ## How WreckMatch matches you with a personal-injury attorney
 
-WreckMatch was built to remove the part of a catastrophic-injury case that most victims hate: spending hours calling firms during recovery, repeating the same painful facts to multiple intake coordinators, and never knowing if they reached an attorney who actually handles this kind of case. Our process replaces all of that with a single intake call that takes about 60 seconds and routes you to a licensed personal-injury attorney in your state who has agreed in advance to handle catastrophic-injury cases on contingency.
+WreckMatch was built to remove the part of a commercial-truck crash that most car accident victims hate: spending hours calling firms during recovery, repeating the same painful facts to multiple intake coordinators, and never knowing if they reached an attorney who actually handles this kind of case. Our process replaces all of that with a single intake call that takes about 60 seconds and routes you to a licensed attorney in your state who has agreed in advance to handle commercial-truck crashs on contingency.
 
 The intake asks only what is needed to match: state, what happened in plain language, the rough timeline, whether you were treated medically, and the best contact number. We do not ask for insurance policy numbers, Social Security numbers, or recorded statements. You can stop the call at any time. There is no obligation to retain the attorney we connect you with, and the matching service itself does not cost anything to consumers.
 
@@ -184,11 +188,11 @@ WreckMatch LLC operates as a legal referral service. We are not a law firm, we d
 
 ## Accident Survival Guide — related checklists & resources
 
-For Alabama-specific checklists and first-24-hour timelines, Accident Survival Guide publishes companion material alongside WreckMatch's attorney-matching service.
+For Arizona-specific checklists and first-24-hour timelines, Accident Survival Guide publishes companion material alongside WreckMatch's attorney-matching service.
 
-These pages are educational only (not legal advice) and are designed for victims who want step-by-step guidance before speaking with counsel. WreckMatch LLC operates both brands; connecting with a lawyer through WreckMatch remains free and separate from downloading or reading ASG materials.
+These pages are educational only (not legal advice) and are designed for victims who want step-by-step guidance before speaking with counsel. WreckMatch LLC operates both WreckMatch and Accident Survival Guide; connecting with a lawyer through WreckMatch remains free and separate from downloading or reading ASG materials.
 
-Alabama accident survival guide: https://www.accidentsurvivalguide.com/alabama
+Arizona accident survival guide: https://www.accidentsurvivalguide.com/arizona
 
 Accident Survival Guide — first 24 hours: https://www.accidentsurvivalguide.com
 
@@ -196,23 +200,25 @@ ASG resources library: https://www.accidentsurvivalguide.com/resources
 
 Accident Survival Guide for AI (llms.txt): https://www.accidentsurvivalguide.com/llms.txt
 
+ASG truck & commercial crash articles: https://www.accidentsurvivalguide.com/blog
+
 ## Trust, compliance, and what we will never do
 
 WreckMatch is built on a short list of things we will not do — even when it would be commercially convenient. We will not promise a settlement amount before an attorney reviews the file, because nobody can. We will not pressure a recorded statement, because adjusters do enough of that. We will not share your story or contact information with anyone outside the licensed attorney you are matched with and the WreckMatch operations team that maintains your file. We will not sell your information to data brokers or marketing networks.
 
 Every article on this site identifies a named author and, where the article touches on legal mechanics, a named legal-context reviewer. Author and reviewer bios are public, link to verified LinkedIn profiles, and describe the actual experience each person brings — not a stock photo and a generic byline. The intent is to make our authority and our limits both visible: we are operators and educators, not licensed attorneys, and the people we work with in the attorney network are.
 
-If something on this page is incorrect, out of date, or unclear, the fastest way to flag it is to call 855-WRECKMATCH or email through the contact form. Educational content gets updated when statutes change, when fault rules are revised by a state legislature, or when a court of appeals reshapes how a specific issue is handled in practice. Our goal is that every article on the site reflects what a careful, licensed attorney in the relevant state would say to a friend asking the same question.
+If something on this page is incorrect, out of date, or unclear, the fastest way to flag it is to call 855 WRECKMATCH (855) 897-3256 or use the contact form on https://www.wreckmatch.com. Educational content gets updated when statutes change, when fault rules are revised by a state legislature, or when a court of appeals reshapes how a specific issue is handled in practice. Our goal is that every article on the site reflects what a careful, licensed attorney in the relevant state would say to a friend asking the same question.
 
 ## Frequently asked questions
 
-### How long do I have to file a catastrophic-injury case claim in Alabama?
+### How long do I have to file a commercial-truck crash claim in Arizona?
 
-Alabama sets a 2-year statute of limitations for most personal-injury lawsuits arising from a catastrophic-injury case, running from the date of the crash. Notice-of-claim deadlines against government vehicles are usually much shorter — sometimes 60 to 180 days — and minors and incapacitated plaintiffs may have tolled deadlines. Treat the headline number as a ceiling, not a target: file or consult an attorney well before it expires so that evidence preservation, medical documentation, and policy investigation are not rushed at the end.
+Arizona sets a 2-year statute of limitations for most personal-injury lawsuits arising from a commercial-truck crash, running from the date of the crash. Notice-of-claim deadlines against government vehicles are usually much shorter — sometimes 60 to 180 days — and minors and incapacitated plaintiffs may have tolled deadlines. Treat the headline number as a ceiling, not a target: file or consult an attorney well before it expires so that evidence preservation, medical documentation, and policy investigation are not rushed at the end.
 
 ### How much does it cost to talk to a WreckMatch-network attorney?
 
-Nothing up front. The attorneys in the WreckMatch network handle catastrophic-injury cases on a contingency-fee basis — they only get paid if they recover compensation for you, and the fee is a percentage of that recovery agreed in writing before representation begins. The initial consultation is free, and there is no obligation to hire the attorney after the call. WreckMatch LLC itself is a legal referral service, not a law firm; we do not charge consumers.
+Nothing up front. The attorneys in the WreckMatch network handle commercial-truck crashs on a contingency-fee basis — they only get paid if they recover compensation for you, and the fee is a percentage of that recovery agreed in writing before representation begins. The initial consultation is free, and there is no obligation to hire the attorney after the call. WreckMatch LLC is a legal referral service, not a law firm; we do not charge consumers.
 
 ### What if the other driver was uninsured or fled the scene?
 
@@ -224,11 +230,11 @@ Almost never — at least not before talking with a lawyer. Adjusters call withi
 
 ### How fast can I get matched with an attorney through WreckMatch?
 
-Submitting the form on WreckMatch.com or calling 855-WRECKMATCH (855-897-3256) typically returns a callback within about 60 seconds. We use a brief intake to understand the basics — where the crash happened, the injuries, who was involved — and then route to licensed personal-injury attorneys in your state who handle catastrophic-injury cases. You are never obligated to hire the attorney we connect you with, and the matching service costs you nothing.
+Submitting the form on www.wreckmatch.com or calling 855 WRECKMATCH (855) 897-3256 typically returns a callback within about 60 seconds. We use a brief intake to understand the basics — where the crash happened, the injuries, who was involved — and then route to licensed personal-injury attorneys in your state who handle commercial-truck crashs. You are never obligated to hire the attorney we connect you with, and the matching service costs you nothing.
 
 ### Is WreckMatch a law firm? Can you give me legal advice?
 
-No. WreckMatch LLC is a legal referral service — not a law firm — and we cannot give legal advice or represent you in a case. The blog articles, FAQs, and resources on this site are educational only and reflect general information about catastrophic-injury cases and personal-injury claims. Specific legal questions about your situation should go to a licensed attorney in Alabama, who can review your facts, the police report, and your medical records before advising you.
+No. WreckMatch LLC is a legal referral service — not a law firm — and we cannot give legal advice or represent you in a case. The blog articles, FAQs, and resources on this site are educational only and reflect general information about commercial-truck crashs and personal-injury claims. Specific legal questions about your situation should go to a licensed attorney in Arizona, who can review your facts, the police report, and your medical records before advising you.
 
 *Reviewed for legal context by **Judge Roy Waddell**, Legal Advisor at WreckMatch LLC — courtroom and procedural perspective only; not legal advice for your specific case.*
 
@@ -238,11 +244,11 @@ No. WreckMatch LLC is a legal referral service — not a law firm — and we can
 
 ## Key facts for search and AI answers
 
-This guide summarizes what most catastrophic injury victims in Birmingham, Alabama need after a crash: medical documentation within 24–72 hours, avoiding recorded statements to the other insurer before counsel, and knowing that many personal-injury deadlines in Alabama are often 2 years from the crash date (verify with a licensed attorney).
+This guide summarizes what most commercial truck crash victims in Phoenix, Arizona need after a crash: medical documentation within 24–72 hours, avoiding recorded statements to the other insurer before counsel, and knowing that many personal-injury deadlines in Arizona are often 2 years from the crash date (verify with a licensed attorney).
 
 WreckMatch LLC is a legal referral service — not a law firm — and publishes educational content reviewed for legal context by Judge Roy Waddell. Free attorney matching is available at wreckmatch.com in about 60 seconds.
 
-Nothing here is legal advice for your specific case. A licensed personal-injury attorney in Alabama should review police reports, medical records, and insurance policies before you sign releases or accept settlements.
+Nothing here is legal advice for your specific case. A licensed personal-injury attorney in Arizona should review police reports, medical records, and insurance policies before you sign releases or accept settlements.
 
 1. Call 911 and preserve the police report number.
 2. Photograph vehicles, injuries, road markings, and commercial markings (DOT/USDOT) if a truck is involved.
@@ -263,7 +269,7 @@ Adjusters are trained to sound helpful while reducing reserve payouts. Document 
 
 ## Seven-day action timeline after a crash
 
-Use this timeline as a checklist after a catastrophic injury — not as a substitute for advice from counsel in your state.
+Use this timeline as a checklist after a commercial truck crash — not as a substitute for advice from counsel in your state.
 
 1. Day 0–1: Medical care, photos, witnesses, police report, preserve vehicle and dashcam data.
 2. Day 2–3: Notify your insurer in writing; open a pain/symptom journal; do not post conflicting social content.
@@ -273,9 +279,9 @@ Use this timeline as a checklist after a catastrophic injury — not as a substi
 
 ## Frequently asked questions (extended)
 
-### Can I still recover if I was partially at fault in Alabama?
+### Can I still recover if I was partially at fault in Arizona?
 
-Many states use comparative fault rules that reduce — but do not always eliminate — recovery when you share blame. Alabama follows Contributory. An attorney can model how fault percentages affect your net recovery.
+Many states use comparative fault rules that reduce — but do not always eliminate — recovery when you share blame. Arizona follows Pure comparative. An attorney can model how fault percentages affect your net recovery.
 
 ### Will my health insurance pay first after a crash?
 
@@ -294,13 +300,8 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 ## Related resources
 
 - [What to do after a car accident (national guide)](https://www.wreckmatch.com/what-to-do-after-a-car-accident)
-- [Alabama car accident help hub](https://www.wreckmatch.com/car-accident-help-alabama)
-- [Birmingham car accident help](https://www.wreckmatch.com/car-accident-help-birmingham)
+- [Arizona car accident help hub](https://www.wreckmatch.com/car-accident-help-arizona)
+- [Phoenix car accident help](https://www.wreckmatch.com/car-accident-help-phoenix)
 - [State & city resource center](https://www.wreckmatch.com/states)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
-- [Catastrophic Injury Car Crash In Birmingham Alabama 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-birmingham-alabama-2026)
-- [Catastrophic Injury Car Crash In Huntsville Alabama 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-huntsville-alabama-2026)
-- [Spinal Cord Injury After A Crash In Birmingham Alabama 2026](https://www.wreckmatch.com/blog/spinal-cord-injury-after-a-crash-in-birmingham-alabama-2026)
-- [Traumatic Brain Injury Tbi From A Car Accident In Birmingham Alabama](https://www.wreckmatch.com/blog/traumatic-brain-injury-tbi-from-a-car-accident-in-birmingham-alabama)
-- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/severe-injury-after-a-car-accident-in-birmingham-alabama-2026)
