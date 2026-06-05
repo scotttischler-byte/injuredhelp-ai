@@ -1940,3 +1940,703 @@ Target: 50 states (top city per state) — UTC day 2026-06-04
 
 Round 1: 50/50 states — need 0
 Done — 50-state SLA met.
+[2026-06-05T04:44:47.327129+00:00] Inject for 48 states not yet published today
+[2026-06-05T04:44:47.328411+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:44:47.368639+00:00] Daily 50-state rotation (2026-06-05): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-05T04:44:47.394568+00:00] Daily 50-state injection complete
+[2026-06-05T04:44:47.477195+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:44:47.478836+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:44:47.522595+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:44:47.549576+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:44:47.552670+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-05T04:44:47.555241+00:00] Quality 30 / 562w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:44:47.556001+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026
+[2026-06-05T04:44:52.709657+00:00] After materialize: 100 / 3896w ([])
+[2026-06-05T04:44:52.711167+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026 (3209 words)
+[2026-06-05T04:44:52.713836+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026 (3209 words)
+[2026-06-05T04:44:52.893791+00:00] PPT EN should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026.pptx
+[2026-06-05T04:44:52.960325+00:00] PPT ES should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026.pptx
+[2026-06-05T04:44:52.960398+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026.md
+[2026-06-05T04:44:52.986485+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026
+[2026-06-05T04:44:55.024831+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:44:55.025652+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026
+[2026-06-05T04:44:58.899845+00:00] After materialize: 100 / 3961w ([])
+[2026-06-05T04:44:58.901140+00:00] Spanish OK for whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026 (3260 words)
+[2026-06-05T04:44:58.903827+00:00] Spanish OK for whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026 (3260 words)
+[2026-06-05T04:44:58.971735+00:00] PPT EN whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026.pptx
+[2026-06-05T04:44:59.038521+00:00] PPT ES whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026.pptx
+[2026-06-05T04:44:59.038594+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026.md
+[2026-06-05T04:44:59.065237+00:00] IndexNow queued for whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026
+[2026-06-05T04:45:01.101791+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:01.102605+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026
+[2026-06-05T04:45:05.531445+00:00] After materialize: 100 / 3953w ([])
+[2026-06-05T04:45:05.540490+00:00] Spanish OK for whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026 (3246 words)
+[2026-06-05T04:45:05.550676+00:00] Spanish OK for whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026 (3246 words)
+[2026-06-05T04:45:05.627435+00:00] PPT EN whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026.pptx
+[2026-06-05T04:45:05.700252+00:00] PPT ES whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026.pptx
+[2026-06-05T04:45:05.700343+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026.md
+[2026-06-05T04:45:05.734281+00:00] IndexNow queued for whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026
+[2026-06-05T04:45:07.780619+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:07.781446+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026
+[2026-06-05T04:45:11.661062+00:00] After materialize: 100 / 3885w ([])
+[2026-06-05T04:45:11.662440+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026 (3195 words)
+[2026-06-05T04:45:11.665191+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026 (3195 words)
+[2026-06-05T04:45:11.733298+00:00] PPT EN should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026.pptx
+[2026-06-05T04:45:11.809874+00:00] PPT ES should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026.pptx
+[2026-06-05T04:45:11.809946+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026.md
+[2026-06-05T04:45:11.835915+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026
+[2026-06-05T04:45:13.872485+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:13.873282+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026
+[2026-06-05T04:45:17.714151+00:00] After materialize: 100 / 3874w ([])
+[2026-06-05T04:45:17.715541+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026 (3197 words)
+[2026-06-05T04:45:17.718279+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026 (3197 words)
+[2026-06-05T04:45:17.785458+00:00] PPT EN should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026.pptx
+[2026-06-05T04:45:17.851955+00:00] PPT ES should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026.pptx
+[2026-06-05T04:45:17.852025+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026.md
+[2026-06-05T04:45:17.878104+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026
+[2026-06-05T04:45:17.878448+00:00] Syndication → content/syndication/should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026.json
+[2026-06-05T04:45:17.912690+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026', 'whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026', 'whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026', 'should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026', 'should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026']
+[2026-06-05T04:45:17.920133+00:00] Daily ledger (UTC): 8/50 states, 8 EN posts
+[2026-06-05T04:45:18.157217+00:00] ": 0,
+      "tail": " accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:45:18.055502+00:00\",\n  \"stats\": {\n    \"enPosts\": 800,\n    \"esPosts\": 800,\n    \"platinumEn\": 781,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"should-you-hire-a-lawyer-after-a-little-rock-crash-arkansas-2026\",\n      \"whiplash-after-a-car-accident-in-los-angeles-california-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-denver-colorado-what-to-know-2026\",\n      \"should-you-hire-a-lawyer-after-a-bridgeport-crash-connecticut-2026\",\n      \"should-you-hire-a-lawyer-after-a-wilmington-crash-delaware-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:45:18.157359+00:00] WARN organic_crush exit 1
+[2026-06-05T04:45:18.264381+00:00] Inject for 43 states not yet published today
+[2026-06-05T04:45:18.265694+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:45:18.306931+00:00] Daily 50-state rotation (2026-06-05): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-05T04:45:18.332608+00:00] Daily 50-state injection complete
+[2026-06-05T04:45:18.414222+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:45:18.415817+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:45:18.459317+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:45:18.486383+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:45:18.489548+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware']
+[2026-06-05T04:45:18.491665+00:00] Quality 30 / 567w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:18.492470+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026
+[2026-06-05T04:45:22.392619+00:00] After materialize: 100 / 3934w ([])
+[2026-06-05T04:45:22.394078+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026 (3259 words)
+[2026-06-05T04:45:22.396764+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026 (3259 words)
+[2026-06-05T04:45:22.513318+00:00] PPT EN should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026.pptx
+[2026-06-05T04:45:22.579159+00:00] PPT ES should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026.pptx
+[2026-06-05T04:45:22.579236+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026.md
+[2026-06-05T04:45:22.605236+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026
+[2026-06-05T04:45:24.643730+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:24.644535+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026
+[2026-06-05T04:45:28.479494+00:00] After materialize: 100 / 3966w ([])
+[2026-06-05T04:45:28.480755+00:00] Spanish OK for whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026 (3263 words)
+[2026-06-05T04:45:28.483550+00:00] Spanish OK for whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026 (3263 words)
+[2026-06-05T04:45:28.551300+00:00] PPT EN whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026.pptx
+[2026-06-05T04:45:28.617202+00:00] PPT ES whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026.pptx
+[2026-06-05T04:45:28.617279+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026.md
+[2026-06-05T04:45:28.643304+00:00] IndexNow queued for whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026
+[2026-06-05T04:45:30.679211+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:30.680005+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026
+[2026-06-05T04:45:34.537084+00:00] After materialize: 100 / 3953w ([])
+[2026-06-05T04:45:34.538401+00:00] Spanish OK for whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026 (3246 words)
+[2026-06-05T04:45:34.541141+00:00] Spanish OK for whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026 (3246 words)
+[2026-06-05T04:45:34.608201+00:00] PPT EN whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026.pptx
+[2026-06-05T04:45:34.674528+00:00] PPT ES whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026.pptx
+[2026-06-05T04:45:34.674599+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026.md
+[2026-06-05T04:45:34.700914+00:00] IndexNow queued for whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026
+[2026-06-05T04:45:36.737644+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:36.738430+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026
+[2026-06-05T04:45:40.564596+00:00] After materialize: 100 / 3886w ([])
+[2026-06-05T04:45:40.565893+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026 (3210 words)
+[2026-06-05T04:45:40.568650+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026 (3210 words)
+[2026-06-05T04:45:40.636015+00:00] PPT EN should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026.pptx
+[2026-06-05T04:45:40.712662+00:00] PPT ES should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026.pptx
+[2026-06-05T04:45:40.712737+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026.md
+[2026-06-05T04:45:40.738462+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026
+[2026-06-05T04:45:42.775097+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:42.775877+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026
+[2026-06-05T04:45:46.604683+00:00] After materialize: 100 / 3874w ([])
+[2026-06-05T04:45:46.605979+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026 (3197 words)
+[2026-06-05T04:45:46.608629+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026 (3197 words)
+[2026-06-05T04:45:46.675319+00:00] PPT EN should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026.pptx
+[2026-06-05T04:45:46.741336+00:00] PPT ES should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026.pptx
+[2026-06-05T04:45:46.741405+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026.md
+[2026-06-05T04:45:46.767314+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026
+[2026-06-05T04:45:46.767600+00:00] Syndication → content/syndication/should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026.json
+[2026-06-05T04:45:46.802667+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026', 'whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026', 'whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026', 'should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026', 'should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026']
+[2026-06-05T04:45:46.808207+00:00] Daily ledger (UTC): 13/50 states, 13 EN posts
+[2026-06-05T04:45:47.045242+00:00] ": 0,
+      "tail": "ate] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:45:46.941430+00:00\",\n  \"stats\": {\n    \"enPosts\": 805,\n    \"esPosts\": 805,\n    \"platinumEn\": 786,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"should-you-hire-a-lawyer-after-a-washington-crash-district-of-columbia-2026\",\n      \"whiplash-after-a-car-accident-in-miami-florida-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-atlanta-georgia-what-to-know-2026\",\n      \"should-you-hire-a-lawyer-after-a-honolulu-crash-hawaii-2026\",\n      \"should-you-hire-a-lawyer-after-a-boise-crash-idaho-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:45:47.045381+00:00] WARN organic_crush exit 1
+[2026-06-05T04:45:47.149891+00:00] Inject for 38 states not yet published today
+[2026-06-05T04:45:47.151199+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:45:47.198151+00:00] Daily 50-state rotation (2026-06-05): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-05T04:45:47.223998+00:00] Daily 50-state injection complete
+[2026-06-05T04:45:47.306068+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:45:47.307809+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:45:47.350823+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:45:47.377793+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:45:47.381056+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho']
+[2026-06-05T04:45:47.383178+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:47.384005+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026
+[2026-06-05T04:45:51.229555+00:00] After materialize: 100 / 3953w ([])
+[2026-06-05T04:45:51.231058+00:00] Spanish OK for whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026 (3246 words)
+[2026-06-05T04:45:51.233752+00:00] Spanish OK for whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026 (3246 words)
+[2026-06-05T04:45:51.350808+00:00] PPT EN whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026.pptx
+[2026-06-05T04:45:51.418286+00:00] PPT ES whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026.pptx
+[2026-06-05T04:45:51.418358+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026.md
+[2026-06-05T04:45:51.444569+00:00] IndexNow queued for whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026
+[2026-06-05T04:45:53.483368+00:00] Quality 30 / 619w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:53.484165+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-indianapolis-indiana-2026
+[2026-06-05T04:45:57.344128+00:00] After materialize: 100 / 3952w ([])
+[2026-06-05T04:45:57.345415+00:00] Spanish OK for severe-injury-after-a-car-accident-in-indianapolis-indiana-2026 (3346 words)
+[2026-06-05T04:45:57.348123+00:00] Spanish OK for severe-injury-after-a-car-accident-in-indianapolis-indiana-2026 (3346 words)
+[2026-06-05T04:45:57.415254+00:00] PPT EN severe-injury-after-a-car-accident-in-indianapolis-indiana-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-indianapolis-indiana-2026.pptx
+[2026-06-05T04:45:57.481475+00:00] PPT ES severe-injury-after-a-car-accident-in-indianapolis-indiana-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-indianapolis-indiana-2026.pptx
+[2026-06-05T04:45:57.481548+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-indianapolis-indiana-2026.md
+[2026-06-05T04:45:57.507655+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-indianapolis-indiana-2026
+[2026-06-05T04:45:59.543490+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:45:59.544291+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-des-moines-iowa-2026
+[2026-06-05T04:46:03.388176+00:00] After materialize: 100 / 3961w ([])
+[2026-06-05T04:46:03.389463+00:00] Spanish OK for severe-injury-after-a-car-accident-in-des-moines-iowa-2026 (3362 words)
+[2026-06-05T04:46:03.392176+00:00] Spanish OK for severe-injury-after-a-car-accident-in-des-moines-iowa-2026 (3362 words)
+[2026-06-05T04:46:03.457997+00:00] PPT EN severe-injury-after-a-car-accident-in-des-moines-iowa-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-des-moines-iowa-2026.pptx
+[2026-06-05T04:46:03.523282+00:00] PPT ES severe-injury-after-a-car-accident-in-des-moines-iowa-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-des-moines-iowa-2026.pptx
+[2026-06-05T04:46:03.523354+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-des-moines-iowa-2026.md
+[2026-06-05T04:46:03.549260+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-des-moines-iowa-2026
+[2026-06-05T04:46:05.586548+00:00] Quality 30 / 628w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:05.587328+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-wichita-kansas-2026
+[2026-06-05T04:46:09.441218+00:00] After materialize: 100 / 3970w ([])
+[2026-06-05T04:46:09.442479+00:00] Spanish OK for severe-injury-after-a-car-accident-in-wichita-kansas-2026 (3344 words)
+[2026-06-05T04:46:09.445164+00:00] Spanish OK for severe-injury-after-a-car-accident-in-wichita-kansas-2026 (3344 words)
+[2026-06-05T04:46:09.511295+00:00] PPT EN severe-injury-after-a-car-accident-in-wichita-kansas-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-wichita-kansas-2026.pptx
+[2026-06-05T04:46:09.586244+00:00] PPT ES severe-injury-after-a-car-accident-in-wichita-kansas-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-wichita-kansas-2026.pptx
+[2026-06-05T04:46:09.586316+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-wichita-kansas-2026.md
+[2026-06-05T04:46:09.612330+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-wichita-kansas-2026
+[2026-06-05T04:46:11.649038+00:00] Quality 30 / 628w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:11.649824+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-louisville-kentucky-2026
+[2026-06-05T04:46:15.515882+00:00] After materialize: 100 / 3969w ([])
+[2026-06-05T04:46:15.517129+00:00] Spanish OK for severe-injury-after-a-car-accident-in-louisville-kentucky-2026 (3355 words)
+[2026-06-05T04:46:15.531154+00:00] Spanish OK for severe-injury-after-a-car-accident-in-louisville-kentucky-2026 (3355 words)
+[2026-06-05T04:46:15.596177+00:00] PPT EN severe-injury-after-a-car-accident-in-louisville-kentucky-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-louisville-kentucky-2026.pptx
+[2026-06-05T04:46:15.661039+00:00] PPT ES severe-injury-after-a-car-accident-in-louisville-kentucky-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-louisville-kentucky-2026.pptx
+[2026-06-05T04:46:15.661108+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-louisville-kentucky-2026.md
+[2026-06-05T04:46:15.687378+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-louisville-kentucky-2026
+[2026-06-05T04:46:15.687658+00:00] Syndication → content/syndication/severe-injury-after-a-car-accident-in-louisville-kentucky-2026.json
+[2026-06-05T04:46:15.723075+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026', 'severe-injury-after-a-car-accident-in-indianapolis-indiana-2026', 'severe-injury-after-a-car-accident-in-des-moines-iowa-2026', 'severe-injury-after-a-car-accident-in-wichita-kansas-2026', 'severe-injury-after-a-car-accident-in-louisville-kentucky-2026']
+[2026-06-05T04:46:15.729723+00:00] Daily ledger (UTC): 18/50 states, 18 EN posts
+[2026-06-05T04:46:15.966479+00:00]  "tail": " step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:46:15.863420+00:00\",\n  \"stats\": {\n    \"enPosts\": 810,\n    \"esPosts\": 810,\n    \"platinumEn\": 791,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-chicago-illinois-what-to-know-2026\",\n      \"severe-injury-after-a-car-accident-in-indianapolis-indiana-2026\",\n      \"severe-injury-after-a-car-accident-in-des-moines-iowa-2026\",\n      \"severe-injury-after-a-car-accident-in-wichita-kansas-2026\",\n      \"severe-injury-after-a-car-accident-in-louisville-kentucky-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:46:15.966608+00:00] WARN organic_crush exit 1
+[2026-06-05T04:46:16.068959+00:00] Inject for 33 states not yet published today
+[2026-06-05T04:46:16.070388+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:46:16.110867+00:00] Daily 50-state rotation (2026-06-05): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-05T04:46:16.137431+00:00] Daily 50-state injection complete
+[2026-06-05T04:46:16.218130+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:46:16.219727+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:46:16.262786+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:46:16.289810+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:46:16.293202+00:00] States already published today (UTC): 18 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky']
+[2026-06-05T04:46:16.295295+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:16.296044+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026
+[2026-06-05T04:46:20.162070+00:00] After materialize: 100 / 3961w ([])
+[2026-06-05T04:46:20.163538+00:00] Spanish OK for severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026 (3358 words)
+[2026-06-05T04:46:20.166242+00:00] Spanish OK for severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026 (3358 words)
+[2026-06-05T04:46:20.283226+00:00] PPT EN severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026.pptx
+[2026-06-05T04:46:20.348936+00:00] PPT ES severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026.pptx
+[2026-06-05T04:46:20.349012+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026.md
+[2026-06-05T04:46:20.375284+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026
+[2026-06-05T04:46:22.414828+00:00] Quality 30 / 619w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:22.415619+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-portland-maine-2026
+[2026-06-05T04:46:26.277663+00:00] After materialize: 100 / 3961w ([])
+[2026-06-05T04:46:26.278904+00:00] Spanish OK for severe-injury-after-a-car-accident-in-portland-maine-2026 (3344 words)
+[2026-06-05T04:46:26.302916+00:00] Spanish OK for severe-injury-after-a-car-accident-in-portland-maine-2026 (3344 words)
+[2026-06-05T04:46:26.370223+00:00] PPT EN severe-injury-after-a-car-accident-in-portland-maine-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-portland-maine-2026.pptx
+[2026-06-05T04:46:26.436402+00:00] PPT ES severe-injury-after-a-car-accident-in-portland-maine-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-portland-maine-2026.pptx
+[2026-06-05T04:46:26.436473+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-portland-maine-2026.md
+[2026-06-05T04:46:26.462500+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-portland-maine-2026
+[2026-06-05T04:46:28.499556+00:00] Quality 30 / 628w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:28.500364+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-baltimore-maryland-2026
+[2026-06-05T04:46:32.438990+00:00] After materialize: 100 / 3969w ([])
+[2026-06-05T04:46:32.440297+00:00] Spanish OK for severe-injury-after-a-car-accident-in-baltimore-maryland-2026 (3352 words)
+[2026-06-05T04:46:32.442994+00:00] Spanish OK for severe-injury-after-a-car-accident-in-baltimore-maryland-2026 (3352 words)
+[2026-06-05T04:46:32.509317+00:00] PPT EN severe-injury-after-a-car-accident-in-baltimore-maryland-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-baltimore-maryland-2026.pptx
+[2026-06-05T04:46:32.577811+00:00] PPT ES severe-injury-after-a-car-accident-in-baltimore-maryland-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-baltimore-maryland-2026.pptx
+[2026-06-05T04:46:32.577888+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-baltimore-maryland-2026.md
+[2026-06-05T04:46:32.603900+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-baltimore-maryland-2026
+[2026-06-05T04:46:34.642011+00:00] Quality 30 / 619w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:34.642809+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-boston-massachusetts-2026
+[2026-06-05T04:46:38.495988+00:00] After materialize: 100 / 3965w ([])
+[2026-06-05T04:46:38.521299+00:00] Spanish OK for severe-injury-after-a-car-accident-in-boston-massachusetts-2026 (3184 words)
+[2026-06-05T04:46:38.524025+00:00] Spanish OK for severe-injury-after-a-car-accident-in-boston-massachusetts-2026 (3184 words)
+[2026-06-05T04:46:38.589997+00:00] PPT EN severe-injury-after-a-car-accident-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-boston-massachusetts-2026.pptx
+[2026-06-05T04:46:38.665273+00:00] PPT ES severe-injury-after-a-car-accident-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-boston-massachusetts-2026.pptx
+[2026-06-05T04:46:38.665343+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-boston-massachusetts-2026.md
+[2026-06-05T04:46:38.691525+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-boston-massachusetts-2026
+[2026-06-05T04:46:40.728328+00:00] Quality 30 / 619w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:40.729106+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-detroit-michigan-2026
+[2026-06-05T04:46:44.575855+00:00] After materialize: 100 / 3965w ([])
+[2026-06-05T04:46:44.577204+00:00] Spanish OK for severe-injury-after-a-car-accident-in-detroit-michigan-2026 (3184 words)
+[2026-06-05T04:46:44.583524+00:00] Spanish OK for severe-injury-after-a-car-accident-in-detroit-michigan-2026 (3184 words)
+[2026-06-05T04:46:44.649597+00:00] PPT EN severe-injury-after-a-car-accident-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-detroit-michigan-2026.pptx
+[2026-06-05T04:46:44.715574+00:00] PPT ES severe-injury-after-a-car-accident-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-detroit-michigan-2026.pptx
+[2026-06-05T04:46:44.715643+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-detroit-michigan-2026.md
+[2026-06-05T04:46:44.742133+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-detroit-michigan-2026
+[2026-06-05T04:46:44.742430+00:00] Syndication → content/syndication/severe-injury-after-a-car-accident-in-detroit-michigan-2026.json
+[2026-06-05T04:46:44.776861+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026', 'severe-injury-after-a-car-accident-in-portland-maine-2026', 'severe-injury-after-a-car-accident-in-baltimore-maryland-2026', 'severe-injury-after-a-car-accident-in-boston-massachusetts-2026', 'severe-injury-after-a-car-accident-in-detroit-michigan-2026']
+[2026-06-05T04:46:44.782449+00:00] Daily ledger (UTC): 23/50 states, 23 EN posts
+[2026-06-05T04:46:45.018253+00:00]  "tail": " by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:46:44.915586+00:00\",\n  \"stats\": {\n    \"enPosts\": 815,\n    \"esPosts\": 815,\n    \"platinumEn\": 796,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-car-accident-in-new-orleans-louisiana-2026\",\n      \"severe-injury-after-a-car-accident-in-portland-maine-2026\",\n      \"severe-injury-after-a-car-accident-in-baltimore-maryland-2026\",\n      \"severe-injury-after-a-car-accident-in-boston-massachusetts-2026\",\n      \"severe-injury-after-a-car-accident-in-detroit-michigan-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:46:45.018381+00:00] WARN organic_crush exit 1
+[2026-06-05T04:46:45.124751+00:00] Inject for 28 states not yet published today
+[2026-06-05T04:46:45.126162+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:46:45.165903+00:00] Daily 50-state rotation (2026-06-05): +0 new, 27 re-prioritized, 27 at queue front
+[2026-06-05T04:46:45.193797+00:00] Daily 50-state injection complete
+[2026-06-05T04:46:45.274631+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:46:45.276289+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:46:45.319392+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:46:45.346837+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:46:45.350381+00:00] States already published today (UTC): 23 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan']
+[2026-06-05T04:46:45.352501+00:00] Quality 30 / 628w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:45.353303+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026
+[2026-06-05T04:46:49.192423+00:00] After materialize: 100 / 3969w ([])
+[2026-06-05T04:46:49.193851+00:00] Spanish OK for severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026 (3181 words)
+[2026-06-05T04:46:49.196571+00:00] Spanish OK for severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026 (3181 words)
+[2026-06-05T04:46:49.314094+00:00] PPT EN severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026.pptx
+[2026-06-05T04:46:49.380014+00:00] PPT ES severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026.pptx
+[2026-06-05T04:46:49.380086+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026.md
+[2026-06-05T04:46:49.406038+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026
+[2026-06-05T04:46:51.446244+00:00] Quality 30 / 619w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:51.447029+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-jackson-mississippi-2026
+[2026-06-05T04:46:55.240636+00:00] After materialize: 100 / 3950w ([])
+[2026-06-05T04:46:55.241904+00:00] Spanish OK for severe-injury-after-a-car-accident-in-jackson-mississippi-2026 (3342 words)
+[2026-06-05T04:46:55.244685+00:00] Spanish OK for severe-injury-after-a-car-accident-in-jackson-mississippi-2026 (3342 words)
+[2026-06-05T04:46:55.311556+00:00] PPT EN severe-injury-after-a-car-accident-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-jackson-mississippi-2026.pptx
+[2026-06-05T04:46:55.377831+00:00] PPT ES severe-injury-after-a-car-accident-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-jackson-mississippi-2026.pptx
+[2026-06-05T04:46:55.377904+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-jackson-mississippi-2026.md
+[2026-06-05T04:46:55.403889+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-jackson-mississippi-2026
+[2026-06-05T04:46:57.439753+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:46:57.440556+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-kansas-city-missouri-2026
+[2026-06-05T04:47:01.299883+00:00] After materialize: 100 / 3961w ([])
+[2026-06-05T04:47:01.301272+00:00] Spanish OK for severe-injury-after-a-car-accident-in-kansas-city-missouri-2026 (3358 words)
+[2026-06-05T04:47:01.303983+00:00] Spanish OK for severe-injury-after-a-car-accident-in-kansas-city-missouri-2026 (3358 words)
+[2026-06-05T04:47:01.371060+00:00] PPT EN severe-injury-after-a-car-accident-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-kansas-city-missouri-2026.pptx
+[2026-06-05T04:47:01.438631+00:00] PPT ES severe-injury-after-a-car-accident-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-kansas-city-missouri-2026.pptx
+[2026-06-05T04:47:01.438701+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-kansas-city-missouri-2026.md
+[2026-06-05T04:47:01.464543+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-kansas-city-missouri-2026
+[2026-06-05T04:47:03.501421+00:00] Quality 30 / 628w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:03.502209+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-billings-montana-2026
+[2026-06-05T04:47:07.354266+00:00] After materialize: 100 / 3959w ([])
+[2026-06-05T04:47:07.355616+00:00] Spanish OK for severe-injury-after-a-car-accident-in-billings-montana-2026 (3346 words)
+[2026-06-05T04:47:07.362862+00:00] Spanish OK for severe-injury-after-a-car-accident-in-billings-montana-2026 (3346 words)
+[2026-06-05T04:47:07.429143+00:00] PPT EN severe-injury-after-a-car-accident-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-billings-montana-2026.pptx
+[2026-06-05T04:47:07.506075+00:00] PPT ES severe-injury-after-a-car-accident-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-billings-montana-2026.pptx
+[2026-06-05T04:47:07.506188+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-billings-montana-2026.md
+[2026-06-05T04:47:07.532271+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-billings-montana-2026
+[2026-06-05T04:47:09.570305+00:00] Quality 30 / 619w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:09.571077+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-omaha-nebraska-2026
+[2026-06-05T04:47:13.421036+00:00] After materialize: 100 / 3950w ([])
+[2026-06-05T04:47:13.422359+00:00] Spanish OK for severe-injury-after-a-car-accident-in-omaha-nebraska-2026 (3346 words)
+[2026-06-05T04:47:13.438087+00:00] Spanish OK for severe-injury-after-a-car-accident-in-omaha-nebraska-2026 (3346 words)
+[2026-06-05T04:47:13.504174+00:00] PPT EN severe-injury-after-a-car-accident-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-omaha-nebraska-2026.pptx
+[2026-06-05T04:47:13.570330+00:00] PPT ES severe-injury-after-a-car-accident-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-omaha-nebraska-2026.pptx
+[2026-06-05T04:47:13.570402+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-omaha-nebraska-2026.md
+[2026-06-05T04:47:13.596391+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-omaha-nebraska-2026
+[2026-06-05T04:47:13.596680+00:00] Syndication → content/syndication/severe-injury-after-a-car-accident-in-omaha-nebraska-2026.json
+[2026-06-05T04:47:13.632047+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026', 'severe-injury-after-a-car-accident-in-jackson-mississippi-2026', 'severe-injury-after-a-car-accident-in-kansas-city-missouri-2026', 'severe-injury-after-a-car-accident-in-billings-montana-2026', 'severe-injury-after-a-car-accident-in-omaha-nebraska-2026']
+[2026-06-05T04:47:13.638957+00:00] Daily ledger (UTC): 28/50 states, 28 EN posts
+[2026-06-05T04:47:13.875624+00:00]  "tail": "by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:47:13.773349+00:00\",\n  \"stats\": {\n    \"enPosts\": 820,\n    \"esPosts\": 820,\n    \"platinumEn\": 801,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-car-accident-in-minneapolis-minnesota-2026\",\n      \"severe-injury-after-a-car-accident-in-jackson-mississippi-2026\",\n      \"severe-injury-after-a-car-accident-in-kansas-city-missouri-2026\",\n      \"severe-injury-after-a-car-accident-in-billings-montana-2026\",\n      \"severe-injury-after-a-car-accident-in-omaha-nebraska-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:47:13.875774+00:00] WARN organic_crush exit 1
+[2026-06-05T04:47:13.982488+00:00] Inject for 23 states not yet published today
+[2026-06-05T04:47:13.983897+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:47:14.022157+00:00] Daily 50-state rotation (2026-06-05): +0 new, 22 re-prioritized, 22 at queue front
+[2026-06-05T04:47:14.049221+00:00] Daily 50-state injection complete
+[2026-06-05T04:47:14.131478+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:47:14.133134+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:47:14.177319+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:47:14.204923+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:47:14.208613+00:00] States already published today (UTC): 28 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska']
+[2026-06-05T04:47:14.210754+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:14.211537+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-las-vegas-nevada-2026
+[2026-06-05T04:47:18.070482+00:00] After materialize: 100 / 3961w ([])
+[2026-06-05T04:47:18.071939+00:00] Spanish OK for severe-injury-after-a-car-accident-in-las-vegas-nevada-2026 (3362 words)
+[2026-06-05T04:47:18.074673+00:00] Spanish OK for severe-injury-after-a-car-accident-in-las-vegas-nevada-2026 (3362 words)
+[2026-06-05T04:47:18.192018+00:00] PPT EN severe-injury-after-a-car-accident-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-las-vegas-nevada-2026.pptx
+[2026-06-05T04:47:18.258058+00:00] PPT ES severe-injury-after-a-car-accident-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-las-vegas-nevada-2026.pptx
+[2026-06-05T04:47:18.258158+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-las-vegas-nevada-2026.md
+[2026-06-05T04:47:18.283809+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-las-vegas-nevada-2026
+[2026-06-05T04:47:20.323533+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:20.324348+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026
+[2026-06-05T04:47:24.210167+00:00] After materialize: 100 / 3980w ([])
+[2026-06-05T04:47:24.211404+00:00] Spanish OK for severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026 (3200 words)
+[2026-06-05T04:47:24.214076+00:00] Spanish OK for severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026 (3200 words)
+[2026-06-05T04:47:24.281369+00:00] PPT EN severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026.pptx
+[2026-06-05T04:47:24.347858+00:00] PPT ES severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026.pptx
+[2026-06-05T04:47:24.347932+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026.md
+[2026-06-05T04:47:24.373884+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026
+[2026-06-05T04:47:26.412203+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:26.412987+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-newark-new-jersey-2026
+[2026-06-05T04:47:30.262710+00:00] After materialize: 100 / 3994w ([])
+[2026-06-05T04:47:30.263983+00:00] Spanish OK for severe-injury-after-a-car-accident-in-newark-new-jersey-2026 (3216 words)
+[2026-06-05T04:47:30.266652+00:00] Spanish OK for severe-injury-after-a-car-accident-in-newark-new-jersey-2026 (3216 words)
+[2026-06-05T04:47:30.332670+00:00] PPT EN severe-injury-after-a-car-accident-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-newark-new-jersey-2026.pptx
+[2026-06-05T04:47:30.399624+00:00] PPT ES severe-injury-after-a-car-accident-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-newark-new-jersey-2026.pptx
+[2026-06-05T04:47:30.399697+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-newark-new-jersey-2026.md
+[2026-06-05T04:47:30.425844+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-newark-new-jersey-2026
+[2026-06-05T04:47:32.463989+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:32.464782+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026
+[2026-06-05T04:47:36.340983+00:00] After materialize: 100 / 3980w ([])
+[2026-06-05T04:47:36.342308+00:00] Spanish OK for severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026 (3196 words)
+[2026-06-05T04:47:36.345038+00:00] Spanish OK for severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026 (3196 words)
+[2026-06-05T04:47:36.411612+00:00] PPT EN severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026.pptx
+[2026-06-05T04:47:36.488394+00:00] PPT ES severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026.pptx
+[2026-06-05T04:47:36.488466+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026.md
+[2026-06-05T04:47:36.514686+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026
+[2026-06-05T04:47:38.552088+00:00] Quality 30 / 570w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:38.552832+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-new-york-city-new-york-2026
+[2026-06-05T04:47:42.396958+00:00] After materialize: 100 / 3947w ([])
+[2026-06-05T04:47:42.398312+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-new-york-city-new-york-2026 (3266 words)
+[2026-06-05T04:47:42.400966+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-new-york-city-new-york-2026 (3266 words)
+[2026-06-05T04:47:42.467696+00:00] PPT EN 7-costly-car-accident-mistakes-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-new-york-city-new-york-2026.pptx
+[2026-06-05T04:47:42.534099+00:00] PPT ES 7-costly-car-accident-mistakes-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-new-york-city-new-york-2026.pptx
+[2026-06-05T04:47:42.534205+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-new-york-city-new-york-2026.md
+[2026-06-05T04:47:42.560007+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-new-york-city-new-york-2026
+[2026-06-05T04:47:42.560322+00:00] Syndication → content/syndication/7-costly-car-accident-mistakes-in-new-york-city-new-york-2026.json
+[2026-06-05T04:47:42.595273+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-car-accident-in-las-vegas-nevada-2026', 'severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026', 'severe-injury-after-a-car-accident-in-newark-new-jersey-2026', 'severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026', '7-costly-car-accident-mistakes-in-new-york-city-new-york-2026']
+[2026-06-05T04:47:42.601173+00:00] Daily ledger (UTC): 33/50 states, 33 EN posts
+[2026-06-05T04:47:42.837668+00:00]  "tail": "\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:47:42.735027+00:00\",\n  \"stats\": {\n    \"enPosts\": 825,\n    \"esPosts\": 825,\n    \"platinumEn\": 806,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-car-accident-in-las-vegas-nevada-2026\",\n      \"severe-injury-after-a-car-accident-in-manchester-new-hampshire-2026\",\n      \"severe-injury-after-a-car-accident-in-newark-new-jersey-2026\",\n      \"severe-injury-after-a-car-accident-in-albuquerque-new-mexico-2026\",\n      \"7-costly-car-accident-mistakes-in-new-york-city-new-york-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:47:42.837788+00:00] WARN organic_crush exit 1
+[2026-06-05T04:47:42.943557+00:00] Inject for 18 states not yet published today
+[2026-06-05T04:47:42.944819+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:47:42.981823+00:00] Daily 50-state rotation (2026-06-05): +0 new, 17 re-prioritized, 17 at queue front
+[2026-06-05T04:47:43.008361+00:00] Daily 50-state injection complete
+[2026-06-05T04:47:43.089697+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:47:43.091342+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:47:43.134790+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:47:43.161797+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:47:43.165510+00:00] States already published today (UTC): 33 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York']
+[2026-06-05T04:47:43.167627+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:43.168458+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026
+[2026-06-05T04:47:46.999447+00:00] After materialize: 100 / 3982w ([])
+[2026-06-05T04:47:47.000922+00:00] Spanish OK for whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026 (3287 words)
+[2026-06-05T04:47:47.003634+00:00] Spanish OK for whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026 (3287 words)
+[2026-06-05T04:47:47.121883+00:00] PPT EN whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026.pptx
+[2026-06-05T04:47:47.188769+00:00] PPT ES whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026.pptx
+[2026-06-05T04:47:47.188842+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026.md
+[2026-06-05T04:47:47.215250+00:00] IndexNow queued for whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026
+[2026-06-05T04:47:49.255488+00:00] Quality 30 / 633w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:49.256294+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-fargo-north-dakota-2026
+[2026-06-05T04:47:53.082591+00:00] After materialize: 100 / 4011w ([])
+[2026-06-05T04:47:53.083836+00:00] Spanish OK for severe-injury-after-a-car-accident-in-fargo-north-dakota-2026 (3211 words)
+[2026-06-05T04:47:53.086632+00:00] Spanish OK for severe-injury-after-a-car-accident-in-fargo-north-dakota-2026 (3211 words)
+[2026-06-05T04:47:53.154323+00:00] PPT EN severe-injury-after-a-car-accident-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-fargo-north-dakota-2026.pptx
+[2026-06-05T04:47:53.221196+00:00] PPT ES severe-injury-after-a-car-accident-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-fargo-north-dakota-2026.pptx
+[2026-06-05T04:47:53.221273+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-fargo-north-dakota-2026.md
+[2026-06-05T04:47:53.247135+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-fargo-north-dakota-2026
+[2026-06-05T04:47:55.284672+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:47:55.285495+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026
+[2026-06-05T04:47:59.123578+00:00] After materialize: 100 / 3953w ([])
+[2026-06-05T04:47:59.124829+00:00] Spanish OK for whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026 (3248 words)
+[2026-06-05T04:47:59.127503+00:00] Spanish OK for whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026 (3248 words)
+[2026-06-05T04:47:59.194453+00:00] PPT EN whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026.pptx
+[2026-06-05T04:47:59.260795+00:00] PPT ES whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026.pptx
+[2026-06-05T04:47:59.260869+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026.md
+[2026-06-05T04:47:59.287144+00:00] IndexNow queued for whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026
+[2026-06-05T04:48:01.324538+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:01.325288+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026
+[2026-06-05T04:48:05.177179+00:00] After materialize: 100 / 3885w ([])
+[2026-06-05T04:48:05.182164+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026 (3205 words)
+[2026-06-05T04:48:05.184821+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026 (3205 words)
+[2026-06-05T04:48:05.251912+00:00] PPT EN 7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-05T04:48:05.327575+00:00] PPT ES 7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-05T04:48:05.327646+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026.md
+[2026-06-05T04:48:05.353869+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026
+[2026-06-05T04:48:07.392015+00:00] Quality 30 / 628w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:07.392811+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-portland-oregon-2026
+[2026-06-05T04:48:11.210327+00:00] After materialize: 100 / 3970w ([])
+[2026-06-05T04:48:11.211589+00:00] Spanish OK for severe-injury-after-a-car-accident-in-portland-oregon-2026 (3344 words)
+[2026-06-05T04:48:11.214342+00:00] Spanish OK for severe-injury-after-a-car-accident-in-portland-oregon-2026 (3344 words)
+[2026-06-05T04:48:11.280298+00:00] PPT EN severe-injury-after-a-car-accident-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-portland-oregon-2026.pptx
+[2026-06-05T04:48:11.346341+00:00] PPT ES severe-injury-after-a-car-accident-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-portland-oregon-2026.pptx
+[2026-06-05T04:48:11.346410+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-portland-oregon-2026.md
+[2026-06-05T04:48:11.372633+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-portland-oregon-2026
+[2026-06-05T04:48:11.372926+00:00] Syndication → content/syndication/severe-injury-after-a-car-accident-in-portland-oregon-2026.json
+[2026-06-05T04:48:11.408133+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026', 'severe-injury-after-a-car-accident-in-fargo-north-dakota-2026', 'whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026', '7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026', 'severe-injury-after-a-car-accident-in-portland-oregon-2026']
+[2026-06-05T04:48:11.415180+00:00] Daily ledger (UTC): 38/50 states, 38 EN posts
+[2026-06-05T04:48:11.651565+00:00] ": 0,
+      "tail": "ate] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:48:11.549332+00:00\",\n  \"stats\": {\n    \"enPosts\": 830,\n    \"esPosts\": 830,\n    \"platinumEn\": 811,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-charlotte-north-carolina-what-to-know-2026\",\n      \"severe-injury-after-a-car-accident-in-fargo-north-dakota-2026\",\n      \"whiplash-after-a-car-accident-in-columbus-ohio-what-to-know-2026\",\n      \"7-costly-car-accident-mistakes-in-oklahoma-city-oklahoma-2026\",\n      \"severe-injury-after-a-car-accident-in-portland-oregon-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:48:11.651670+00:00] WARN organic_crush exit 1
+[2026-06-05T04:48:11.758734+00:00] Inject for 13 states not yet published today
+[2026-06-05T04:48:11.760013+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:48:11.797393+00:00] Daily 50-state rotation (2026-06-05): +0 new, 12 re-prioritized, 12 at queue front
+[2026-06-05T04:48:11.824260+00:00] Daily 50-state injection complete
+[2026-06-05T04:48:11.905412+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:48:11.907031+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:48:11.949751+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:48:11.976485+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:48:11.980321+00:00] States already published today (UTC): 38 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon']
+[2026-06-05T04:48:11.982464+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:11.983257+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026
+[2026-06-05T04:48:15.829282+00:00] After materialize: 100 / 3957w ([])
+[2026-06-05T04:48:15.830764+00:00] Spanish OK for whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026 (3264 words)
+[2026-06-05T04:48:15.833485+00:00] Spanish OK for whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026 (3264 words)
+[2026-06-05T04:48:15.952258+00:00] PPT EN whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026.pptx
+[2026-06-05T04:48:16.018252+00:00] PPT ES whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026.pptx
+[2026-06-05T04:48:16.018323+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026.md
+[2026-06-05T04:48:16.044233+00:00] IndexNow queued for whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026
+[2026-06-05T04:48:18.083803+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:18.084609+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-providence-rhode-island-2026
+[2026-06-05T04:48:21.956686+00:00] After materialize: 100 / 3980w ([])
+[2026-06-05T04:48:21.957971+00:00] Spanish OK for severe-injury-after-a-car-accident-in-providence-rhode-island-2026 (3196 words)
+[2026-06-05T04:48:21.960730+00:00] Spanish OK for severe-injury-after-a-car-accident-in-providence-rhode-island-2026 (3196 words)
+[2026-06-05T04:48:22.027314+00:00] PPT EN severe-injury-after-a-car-accident-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-providence-rhode-island-2026.pptx
+[2026-06-05T04:48:22.092980+00:00] PPT ES severe-injury-after-a-car-accident-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-providence-rhode-island-2026.pptx
+[2026-06-05T04:48:22.093053+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-providence-rhode-island-2026.md
+[2026-06-05T04:48:22.119060+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-providence-rhode-island-2026
+[2026-06-05T04:48:24.156036+00:00] Quality 30 / 624w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:24.156864+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-charleston-south-carolina-2026
+[2026-06-05T04:48:27.985284+00:00] After materialize: 100 / 3982w ([])
+[2026-06-05T04:48:27.986545+00:00] Spanish OK for severe-injury-after-a-car-accident-in-charleston-south-carolina-2026 (3200 words)
+[2026-06-05T04:48:27.989256+00:00] Spanish OK for severe-injury-after-a-car-accident-in-charleston-south-carolina-2026 (3200 words)
+[2026-06-05T04:48:28.055232+00:00] PPT EN severe-injury-after-a-car-accident-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-charleston-south-carolina-2026.pptx
+[2026-06-05T04:48:28.120873+00:00] PPT ES severe-injury-after-a-car-accident-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-charleston-south-carolina-2026.pptx
+[2026-06-05T04:48:28.120943+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-charleston-south-carolina-2026.md
+[2026-06-05T04:48:28.147398+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-charleston-south-carolina-2026
+[2026-06-05T04:48:30.184426+00:00] Quality 30 / 565w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:30.185164+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026
+[2026-06-05T04:48:34.016916+00:00] After materialize: 100 / 3913w ([])
+[2026-06-05T04:48:34.018183+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026 (3238 words)
+[2026-06-05T04:48:34.024835+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026 (3238 words)
+[2026-06-05T04:48:34.091322+00:00] PPT EN 7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-05T04:48:34.166877+00:00] PPT ES 7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-05T04:48:34.166950+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026.md
+[2026-06-05T04:48:34.192979+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026
+[2026-06-05T04:48:36.230046+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:36.230781+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-nashville-tennessee-2026
+[2026-06-05T04:48:40.072650+00:00] After materialize: 100 / 3883w ([])
+[2026-06-05T04:48:40.143315+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-nashville-tennessee-2026 (3187 words)
+[2026-06-05T04:48:40.145942+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-nashville-tennessee-2026 (3187 words)
+[2026-06-05T04:48:40.211358+00:00] PPT EN 7-costly-car-accident-mistakes-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-nashville-tennessee-2026.pptx
+[2026-06-05T04:48:40.276186+00:00] PPT ES 7-costly-car-accident-mistakes-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-nashville-tennessee-2026.pptx
+[2026-06-05T04:48:40.276260+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-nashville-tennessee-2026.md
+[2026-06-05T04:48:40.302709+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-nashville-tennessee-2026
+[2026-06-05T04:48:40.302996+00:00] Syndication → content/syndication/7-costly-car-accident-mistakes-in-nashville-tennessee-2026.json
+[2026-06-05T04:48:40.338083+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026', 'severe-injury-after-a-car-accident-in-providence-rhode-island-2026', 'severe-injury-after-a-car-accident-in-charleston-south-carolina-2026', '7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026', '7-costly-car-accident-mistakes-in-nashville-tennessee-2026']
+[2026-06-05T04:48:40.345256+00:00] Daily ledger (UTC): 43/50 states, 43 EN posts
+[2026-06-05T04:48:40.581315+00:00] ": 0,
+      "tail": "r accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:48:40.478838+00:00\",\n  \"stats\": {\n    \"enPosts\": 835,\n    \"esPosts\": 835,\n    \"platinumEn\": 816,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-philadelphia-pennsylvania-what-to-know-2026\",\n      \"severe-injury-after-a-car-accident-in-providence-rhode-island-2026\",\n      \"severe-injury-after-a-car-accident-in-charleston-south-carolina-2026\",\n      \"7-costly-car-accident-mistakes-in-sioux-falls-south-dakota-2026\",\n      \"7-costly-car-accident-mistakes-in-nashville-tennessee-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:48:40.581412+00:00] WARN organic_crush exit 1
+[2026-06-05T04:48:40.690104+00:00] Inject for 8 states not yet published today
+[2026-06-05T04:48:40.691431+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:48:40.726802+00:00] Daily 50-state rotation (2026-06-05): +0 new, 7 re-prioritized, 7 at queue front
+[2026-06-05T04:48:40.753133+00:00] Daily 50-state injection complete
+[2026-06-05T04:48:40.834354+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:48:40.837079+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:48:40.881473+00:00] Daily 50-state rotation (2026-06-05): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-05T04:48:40.908033+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:48:40.911947+00:00] States already published today (UTC): 43 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee']
+[2026-06-05T04:48:40.914041+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:40.914804+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05
+[2026-06-05T04:48:44.776079+00:00] After materialize: 100 / 3920w ([])
+[2026-06-05T04:48:44.777569+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05 (3245 words)
+[2026-06-05T04:48:44.780238+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05 (3245 words)
+[2026-06-05T04:48:44.897264+00:00] PPT EN what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05.pptx
+[2026-06-05T04:48:44.963432+00:00] PPT ES what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05.pptx
+[2026-06-05T04:48:44.963504+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05.md
+[2026-06-05T04:48:44.989681+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05
+[2026-06-05T04:48:47.027930+00:00] Quality 30 / 565w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:47.028674+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026
+[2026-06-05T04:48:50.902264+00:00] After materialize: 100 / 3915w ([])
+[2026-06-05T04:48:50.903487+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026 (3232 words)
+[2026-06-05T04:48:50.906162+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026 (3232 words)
+[2026-06-05T04:48:50.973991+00:00] PPT EN 7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026.pptx
+[2026-06-05T04:48:51.040165+00:00] PPT ES 7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026.pptx
+[2026-06-05T04:48:51.040244+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026.md
+[2026-06-05T04:48:51.066419+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026
+[2026-06-05T04:48:53.102918+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:53.103675+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-burlington-vermont-2026
+[2026-06-05T04:48:56.934796+00:00] After materialize: 100 / 3872w ([])
+[2026-06-05T04:48:56.936070+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-burlington-vermont-2026 (3189 words)
+[2026-06-05T04:48:56.938720+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-burlington-vermont-2026 (3189 words)
+[2026-06-05T04:48:57.007990+00:00] PPT EN 7-costly-car-accident-mistakes-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-burlington-vermont-2026.pptx
+[2026-06-05T04:48:57.076292+00:00] PPT ES 7-costly-car-accident-mistakes-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-burlington-vermont-2026.pptx
+[2026-06-05T04:48:57.076366+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-burlington-vermont-2026.md
+[2026-06-05T04:48:57.102307+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-burlington-vermont-2026
+[2026-06-05T04:48:59.139844+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:48:59.140534+00:00] Materializing template → platinum for insurance-denied-your-claim-in-virginia-beach-virginia-2026
+[2026-06-05T04:49:03.207254+00:00] After materialize: 100 / 3898w ([])
+[2026-06-05T04:49:03.208532+00:00] Spanish OK for insurance-denied-your-claim-in-virginia-beach-virginia-2026 (3201 words)
+[2026-06-05T04:49:03.211169+00:00] Spanish OK for insurance-denied-your-claim-in-virginia-beach-virginia-2026 (3201 words)
+[2026-06-05T04:49:03.280444+00:00] PPT EN insurance-denied-your-claim-in-virginia-beach-virginia-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-virginia-beach-virginia-2026.pptx
+[2026-06-05T04:49:03.356494+00:00] PPT ES insurance-denied-your-claim-in-virginia-beach-virginia-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-virginia-beach-virginia-2026.pptx
+[2026-06-05T04:49:03.356580+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-virginia-beach-virginia-2026.md
+[2026-06-05T04:49:03.382815+00:00] IndexNow queued for insurance-denied-your-claim-in-virginia-beach-virginia-2026
+[2026-06-05T04:49:05.420323+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:49:05.421017+00:00] Materializing template → platinum for washington-car-accident-statute-of-limitations-seattle-2026
+[2026-06-05T04:49:09.364254+00:00] After materialize: 100 / 3882w ([])
+[2026-06-05T04:49:09.365468+00:00] Spanish OK for washington-car-accident-statute-of-limitations-seattle-2026 (3181 words)
+[2026-06-05T04:49:09.368074+00:00] Spanish OK for washington-car-accident-statute-of-limitations-seattle-2026 (3181 words)
+[2026-06-05T04:49:09.435079+00:00] PPT EN washington-car-accident-statute-of-limitations-seattle-2026: 14 slides (score 100) → /blog/presentations/washington-car-accident-statute-of-limitations-seattle-2026.pptx
+[2026-06-05T04:49:09.500983+00:00] PPT ES washington-car-accident-statute-of-limitations-seattle-2026: 14 slides (score 100) → /blog/presentations/es/washington-car-accident-statute-of-limitations-seattle-2026.pptx
+[2026-06-05T04:49:09.501053+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/washington-car-accident-statute-of-limitations-seattle-2026.md
+[2026-06-05T04:49:09.527010+00:00] IndexNow queued for washington-car-accident-statute-of-limitations-seattle-2026
+[2026-06-05T04:49:09.527306+00:00] Syndication → content/syndication/washington-car-accident-statute-of-limitations-seattle-2026.json
+[2026-06-05T04:49:09.562163+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05', '7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026', '7-costly-car-accident-mistakes-in-burlington-vermont-2026', 'insurance-denied-your-claim-in-virginia-beach-virginia-2026', 'washington-car-accident-statute-of-limitations-seattle-2026']
+[2026-06-05T04:49:09.569564+00:00] Daily ledger (UTC): 47/50 states, 48 EN posts
+[2026-06-05T04:49:09.809883+00:00]  "tail": " step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:49:09.704144+00:00\",\n  \"stats\": {\n    \"enPosts\": 840,\n    \"esPosts\": 840,\n    \"platinumEn\": 821,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-05\",\n      \"7-costly-car-accident-mistakes-in-salt-lake-city-utah-2026\",\n      \"7-costly-car-accident-mistakes-in-burlington-vermont-2026\",\n      \"insurance-denied-your-claim-in-virginia-beach-virginia-2026\",\n      \"washington-car-accident-statute-of-limitations-seattle-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:49:09.809989+00:00] WARN organic_crush exit 1
+[2026-06-05T04:49:09.915564+00:00] Inject for 4 states not yet published today
+[2026-06-05T04:49:09.916836+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:49:09.951803+00:00] Daily 50-state rotation (2026-06-05): +0 new, 3 re-prioritized, 3 at queue front
+[2026-06-05T04:49:09.977878+00:00] Daily 50-state injection complete
+[2026-06-05T04:49:10.059560+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-05T04:49:10.061211+00:00] Loaded 239 cities from cities.ts
+[2026-06-05T04:49:10.103324+00:00] Daily 50-state rotation (2026-06-05): +0 new, 49 re-prioritized, 49 at queue front
+[2026-06-05T04:49:10.130413+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-05T04:49:10.134436+00:00] States already published today (UTC): 47 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia']
+[2026-06-05T04:49:10.136492+00:00] Quality 30 / 554w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:49:10.137182+00:00] Materializing template → platinum for insurance-denied-your-claim-in-seattle-washington-2026
+[2026-06-05T04:49:13.964938+00:00] After materialize: 100 / 3877w ([])
+[2026-06-05T04:49:13.966400+00:00] Spanish OK for insurance-denied-your-claim-in-seattle-washington-2026 (3175 words)
+[2026-06-05T04:49:13.969063+00:00] Spanish OK for insurance-denied-your-claim-in-seattle-washington-2026 (3175 words)
+[2026-06-05T04:49:14.086824+00:00] PPT EN insurance-denied-your-claim-in-seattle-washington-2026: 14 slides (score 100) → /blog/presentations/insurance-denied-your-claim-in-seattle-washington-2026.pptx
+[2026-06-05T04:49:14.153005+00:00] PPT ES insurance-denied-your-claim-in-seattle-washington-2026: 14 slides (score 100) → /blog/presentations/es/insurance-denied-your-claim-in-seattle-washington-2026.pptx
+[2026-06-05T04:49:14.153078+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/insurance-denied-your-claim-in-seattle-washington-2026.md
+[2026-06-05T04:49:14.179747+00:00] IndexNow queued for insurance-denied-your-claim-in-seattle-washington-2026
+[2026-06-05T04:49:16.219235+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:49:16.219985+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-charleston-west-virginia-2026
+[2026-06-05T04:49:20.101630+00:00] After materialize: 100 / 3913w ([])
+[2026-06-05T04:49:20.102861+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-charleston-west-virginia-2026 (3220 words)
+[2026-06-05T04:49:20.105621+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-charleston-west-virginia-2026 (3220 words)
+[2026-06-05T04:49:20.172781+00:00] PPT EN 7-costly-car-accident-mistakes-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-charleston-west-virginia-2026.pptx
+[2026-06-05T04:49:20.238694+00:00] PPT ES 7-costly-car-accident-mistakes-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-charleston-west-virginia-2026.pptx
+[2026-06-05T04:49:20.238766+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-charleston-west-virginia-2026.md
+[2026-06-05T04:49:20.264874+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-charleston-west-virginia-2026
+[2026-06-05T04:49:22.301499+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-05T04:49:22.302243+00:00] Materializing template → platinum for 7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026
+[2026-06-05T04:49:26.157826+00:00] After materialize: 100 / 3872w ([])
+[2026-06-05T04:49:26.159082+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026 (3189 words)
+[2026-06-05T04:49:26.161907+00:00] Spanish OK for 7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026 (3189 words)
+[2026-06-05T04:49:26.229033+00:00] PPT EN 7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026.pptx
+[2026-06-05T04:49:26.294693+00:00] PPT ES 7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/es/7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026.pptx
+[2026-06-05T04:49:26.294763+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026.md
+[2026-06-05T04:49:26.320568+00:00] IndexNow queued for 7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026
+[2026-06-05T04:49:26.320854+00:00] Syndication → content/syndication/7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026.json
+[2026-06-05T04:49:26.355914+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['insurance-denied-your-claim-in-seattle-washington-2026', '7-costly-car-accident-mistakes-in-charleston-west-virginia-2026', '7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026']
+[2026-06-05T04:49:26.362967+00:00] Daily ledger (UTC): 50/50 states, 51 EN posts
+[2026-06-05T04:49:26.597814+00:00]  lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-05T04:49:26.497457+00:00\",\n  \"stats\": {\n    \"enPosts\": 843,\n    \"esPosts\": 843,\n    \"platinumEn\": 824,\n    \"lastUpdated\": \"2026-06-05\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"insurance-denied-your-claim-in-seattle-washington-2026\",\n      \"7-costly-car-accident-mistakes-in-charleston-west-virginia-2026\",\n      \"7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-05T04:49:26.597920+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-06-05
+
+Round 1: 3/50 states — need 47
+After round 1: 8/50 states
+
+Round 2: 8/50 states — need 42
+After round 2: 13/50 states
+
+Round 3: 13/50 states — need 37
+After round 3: 18/50 states
+
+Round 4: 18/50 states — need 32
+After round 4: 23/50 states
+
+Round 5: 23/50 states — need 27
+After round 5: 28/50 states
+
+Round 6: 28/50 states — need 22
+After round 6: 33/50 states
+
+Round 7: 33/50 states — need 17
+After round 7: 38/50 states
+
+Round 8: 38/50 states — need 12
+After round 8: 43/50 states
+
+Round 9: 43/50 states — need 7
+After round 9: 47/50 states
+
+Round 10: 47/50 states — need 3
+After round 10: 50/50 states
+
+Round 11: 50/50 states — need 0
+Done — 50-state SLA met.
