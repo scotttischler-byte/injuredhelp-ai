@@ -1,7 +1,7 @@
 # Viral content pack — Vermont Car Accident Statute of Limitations — Burlington (2026)
 
 **URL:** https://www.wreckmatch.com/blog/vermont-car-accident-statute-of-limitations-burlington-2026  
-**Generated:** 2026-06-04T17:51:49.386165+00:00  
+**Generated:** 2026-06-05T11:21:32.876603+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
