@@ -750,52 +750,16 @@
     "washington-car-accident-statute-of-limitations-seattle-2026",
     "insurance-denied-your-claim-in-seattle-washington-2026",
     "7-costly-car-accident-mistakes-in-charleston-west-virginia-2026",
-    "7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026"
+    "7-costly-car-accident-mistakes-in-milwaukee-wisconsin-2026",
+    "should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026",
+    "whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026",
+    "hit-by-an-uninsured-driver-in-phoenix-arizona-2026"
   ],
   "stats": {
-    "total_published": 749,
-    "last_run_at": "2026-06-05T04:49:26.320897+00:00"
+    "total_published": 752,
+    "last_run_at": "2026-06-06T03:37:26.624569+00:00"
   },
   "pending": [
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Birmingham Crash? (Alabama 2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Anchorage, Alaska \u2014 What to Know (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Phoenix, Arizona (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-phoenix-arizona-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
     {
       "angle": "whiplash",
       "title": "Whiplash After a Car Accident in Little Rock, Arkansas \u2014 What to Know (2026)",
@@ -1317,6 +1281,19 @@
       "firm_state": true
     },
     {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-06)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06"
+    },
+    {
       "angle": "severe-injury-car-accident",
       "title": "Severe Injury After a Car Accident in Salt Lake City, Utah (2026)",
       "city": "Salt Lake City",
@@ -1352,6 +1329,45 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "7-costly-car-accident-mistakes-in-virginia-beach-virginia-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "7 Costly Car Accident Mistakes in Seattle, Washington (2026)",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "7-costly-car-accident-mistakes-in-seattle-washington-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Charleston, West Virginia (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-car-accident-in-charleston-west-virginia-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Car Accident in Milwaukee, Wisconsin (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-car-accident-in-milwaukee-wisconsin-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -8018,17 +8034,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-bellevue-washington-what-to-know-2026"
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Seattle, Washington (2026)",
-      "city": "Seattle",
-      "state": "Washington",
-      "place_slug": "seattle",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-seattle-washington-2026"
     },
     {
       "angle": "lawyer-vs-diy",
@@ -29239,17 +29244,6 @@
       "slug": "fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Charleston, West Virginia (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-charleston-west-virginia-2026"
-    },
-    {
       "angle": "spinal-cord-injury",
       "title": "Spinal Cord Injury After a Crash in Charleston, West Virginia (2026)",
       "city": "Charleston",
@@ -29842,17 +29836,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Milwaukee, Wisconsin (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "severe",
-      "slug": "severe-injury-after-a-car-accident-in-milwaukee-wisconsin-2026"
     },
     {
       "angle": "spinal-cord-injury",

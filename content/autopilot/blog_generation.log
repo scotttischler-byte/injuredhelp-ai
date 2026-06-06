@@ -6134,3 +6134,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-05T04:49:26.597920+00:00] WARN organic_crush exit 1
+[2026-06-06T03:37:06.236826+00:00] Inject for 51 states not yet published today
+[2026-06-06T03:37:06.238518+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T03:37:06.292305+00:00] Daily 50-state rotation (2026-06-06): +1 new, 49 re-prioritized, 50 at queue front
+[2026-06-06T03:37:06.323408+00:00] Daily 50-state injection complete
+[2026-06-06T03:37:06.423717+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T03:37:06.425845+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T03:37:06.482860+00:00] Daily 50-state rotation (2026-06-06): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-06T03:37:06.514842+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T03:37:06.519121+00:00] States already published today (UTC): 0 — []
+[2026-06-06T03:37:06.522614+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T03:37:06.523571+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026
+[2026-06-06T03:37:12.465243+00:00] After materialize: 100 / 3884w ([])
+[2026-06-06T03:37:12.467234+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026 (3203 words)
+[2026-06-06T03:37:12.470640+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026 (3203 words)
+[2026-06-06T03:37:12.649221+00:00] PPT EN should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026.pptx
+[2026-06-06T03:37:12.748063+00:00] PPT ES should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026.pptx
+[2026-06-06T03:37:12.748149+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026.md
+[2026-06-06T03:37:12.779664+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026
+[2026-06-06T03:37:14.824634+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T03:37:14.825637+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026
+[2026-06-06T03:37:19.461020+00:00] After materialize: 100 / 3951w ([])
+[2026-06-06T03:37:19.462706+00:00] Spanish OK for whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026 (3244 words)
+[2026-06-06T03:37:19.466169+00:00] Spanish OK for whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026 (3244 words)
+[2026-06-06T03:37:19.565633+00:00] PPT EN whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026.pptx
+[2026-06-06T03:37:19.662336+00:00] PPT ES whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026.pptx
+[2026-06-06T03:37:19.662445+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026.md
+[2026-06-06T03:37:19.694137+00:00] IndexNow queued for whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026
+[2026-06-06T03:37:21.737335+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T03:37:21.738291+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-phoenix-arizona-2026
+[2026-06-06T03:37:26.390728+00:00] After materialize: 100 / 3872w ([])
+[2026-06-06T03:37:26.392345+00:00] Spanish OK for hit-by-an-uninsured-driver-in-phoenix-arizona-2026 (3185 words)
+[2026-06-06T03:37:26.395662+00:00] Spanish OK for hit-by-an-uninsured-driver-in-phoenix-arizona-2026 (3185 words)
+[2026-06-06T03:37:26.495182+00:00] PPT EN hit-by-an-uninsured-driver-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-phoenix-arizona-2026.pptx
+[2026-06-06T03:37:26.592646+00:00] PPT ES hit-by-an-uninsured-driver-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-phoenix-arizona-2026.pptx
+[2026-06-06T03:37:26.592735+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-phoenix-arizona-2026.md
+[2026-06-06T03:37:26.624057+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-phoenix-arizona-2026
+[2026-06-06T03:37:26.624494+00:00] Syndication → content/syndication/hit-by-an-uninsured-driver-in-phoenix-arizona-2026.json
+[2026-06-06T03:37:26.664949+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026', 'whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026', 'hit-by-an-uninsured-driver-in-phoenix-arizona-2026']
+[2026-06-06T03:37:26.675262+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-06T03:37:26.966519+00:00] yer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T03:37:26.842011+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"should-you-hire-a-lawyer-after-a-birmingham-crash-alabama-2026\",\n      \"whiplash-after-a-car-accident-in-anchorage-alaska-what-to-know-2026\",\n      \"hit-by-an-uninsured-driver-in-phoenix-arizona-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T03:37:26.966649+00:00] WARN organic_crush exit 1
