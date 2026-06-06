@@ -795,11 +795,14 @@
     "severe-injury-after-a-car-accident-in-sioux-falls-south-dakota-2026",
     "should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026",
     "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06",
-    "severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026"
+    "severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026",
+    "severe-injury-after-a-car-accident-in-burlington-vermont-2026",
+    "7-costly-car-accident-mistakes-in-virginia-beach-virginia-2026",
+    "7-costly-car-accident-mistakes-in-seattle-washington-2026"
   ],
   "stats": {
-    "total_published": 794,
-    "last_run_at": "2026-06-06T13:47:10.027715+00:00"
+    "total_published": 797,
+    "last_run_at": "2026-06-06T15:18:28.703378+00:00"
   },
   "pending": [
     {
@@ -1349,41 +1352,28 @@
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Burlington, Vermont (2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-burlington-vermont-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Virginia Beach, Virginia (2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-virginia-beach-virginia-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "common-mistakes",
-      "title": "7 Costly Car Accident Mistakes in Seattle, Washington (2026)",
-      "city": "Seattle",
-      "state": "Washington",
-      "place_slug": "seattle",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Nashville, Tennessee \u2014 What to Know (2026)",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "place_slug": "nashville",
       "priority": -2,
       "firm_state": true,
       "vertical": "auto",
-      "slug": "7-costly-car-accident-mistakes-in-seattle-washington-2026",
+      "slug": "whiplash-after-a-car-accident-in-nashville-tennessee-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Salt Lake City Crash? (Utah 2026)",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "place_slug": "salt-lake-city",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "should-you-hire-a-lawyer-after-a-salt-lake-city-crash-utah-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -7888,17 +7878,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-nashville-tennessee-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Nashville, Tennessee \u2014 What to Know (2026)",
-      "city": "Nashville",
-      "state": "Tennessee",
-      "place_slug": "nashville",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-nashville-tennessee-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -44232,17 +44211,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-provo-utah-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Salt Lake City Crash? (Utah 2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-salt-lake-city-crash-utah-2026"
     },
     {
       "angle": "rideshare",
