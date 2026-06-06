@@ -774,11 +774,26 @@
     "should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026",
     "should-you-hire-a-lawyer-after-a-boston-crash-massachusetts-2026",
     "should-you-hire-a-lawyer-after-a-detroit-crash-michigan-2026",
-    "should-you-hire-a-lawyer-after-a-minneapolis-crash-minnesota-2026"
+    "should-you-hire-a-lawyer-after-a-minneapolis-crash-minnesota-2026",
+    "should-you-hire-a-lawyer-after-a-jackson-crash-mississippi-2026",
+    "should-you-hire-a-lawyer-after-a-kansas-city-crash-missouri-2026",
+    "should-you-hire-a-lawyer-after-a-billings-crash-montana-2026",
+    "should-you-hire-a-lawyer-after-a-omaha-crash-nebraska-2026",
+    "should-you-hire-a-lawyer-after-a-las-vegas-crash-nevada-2026",
+    "should-you-hire-a-lawyer-after-a-manchester-crash-new-hampshire-2026",
+    "should-you-hire-a-lawyer-after-a-newark-crash-new-jersey-2026",
+    "should-you-hire-a-lawyer-after-a-albuquerque-crash-new-mexico-2026",
+    "severe-injury-after-a-car-accident-in-new-york-city-new-york-2026",
+    "truck-accident-in-charlotte-north-carolina-steps-legal-help-2026",
+    "should-you-hire-a-lawyer-after-a-fargo-crash-north-dakota-2026",
+    "truck-accident-in-columbus-ohio-steps-legal-help-2026",
+    "severe-injury-after-a-car-accident-in-oklahoma-city-oklahoma-2026",
+    "should-you-hire-a-lawyer-after-a-portland-crash-oregon-2026",
+    "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026"
   ],
   "stats": {
-    "total_published": 773,
-    "last_run_at": "2026-06-06T09:28:08.464326+00:00"
+    "total_published": 788,
+    "last_run_at": "2026-06-06T11:00:40.967905+00:00"
   },
   "pending": [
     {
@@ -1055,197 +1070,171 @@
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Jackson Crash? (Mississippi 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Boston, Massachusetts \u2014 What to Know (2026)",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "place_slug": "boston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-boston-massachusetts-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Detroit, Michigan \u2014 What to Know (2026)",
+      "city": "Detroit",
+      "state": "Michigan",
+      "place_slug": "detroit",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-detroit-michigan-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Minneapolis, Minnesota \u2014 What to Know (2026)",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "place_slug": "minneapolis",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-minneapolis-minnesota-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Jackson, Mississippi \u2014 What to Know (2026)",
       "city": "Jackson",
       "state": "Mississippi",
       "place_slug": "jackson",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-jackson-crash-mississippi-2026",
+      "slug": "whiplash-after-a-car-accident-in-jackson-mississippi-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Kansas City Crash? (Missouri 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Kansas City, Missouri \u2014 What to Know (2026)",
       "city": "Kansas City",
       "state": "Missouri",
       "place_slug": "kansas-city",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-kansas-city-crash-missouri-2026",
+      "slug": "whiplash-after-a-car-accident-in-kansas-city-missouri-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Billings Crash? (Montana 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Billings, Montana \u2014 What to Know (2026)",
       "city": "Billings",
       "state": "Montana",
       "place_slug": "billings",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-billings-crash-montana-2026",
+      "slug": "whiplash-after-a-car-accident-in-billings-montana-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Omaha Crash? (Nebraska 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Omaha, Nebraska \u2014 What to Know (2026)",
       "city": "Omaha",
       "state": "Nebraska",
       "place_slug": "omaha",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-omaha-crash-nebraska-2026",
+      "slug": "whiplash-after-a-car-accident-in-omaha-nebraska-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Las Vegas Crash? (Nevada 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Las Vegas, Nevada \u2014 What to Know (2026)",
       "city": "Las Vegas",
       "state": "Nevada",
       "place_slug": "las-vegas",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-las-vegas-crash-nevada-2026",
+      "slug": "whiplash-after-a-car-accident-in-las-vegas-nevada-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Manchester Crash? (New Hampshire 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Manchester, New Hampshire \u2014 What to Know (2026)",
       "city": "Manchester",
       "state": "New Hampshire",
       "place_slug": "manchester",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-manchester-crash-new-hampshire-2026",
+      "slug": "whiplash-after-a-car-accident-in-manchester-new-hampshire-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Newark Crash? (New Jersey 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Newark, New Jersey \u2014 What to Know (2026)",
       "city": "Newark",
       "state": "New Jersey",
       "place_slug": "newark",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-newark-crash-new-jersey-2026",
+      "slug": "whiplash-after-a-car-accident-in-newark-new-jersey-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Albuquerque Crash? (New Mexico 2026)",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Albuquerque, New Mexico \u2014 What to Know (2026)",
       "city": "Albuquerque",
       "state": "New Mexico",
       "place_slug": "albuquerque",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-albuquerque-crash-new-mexico-2026",
+      "slug": "whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in New York City, New York (2026)",
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a New York City Crash? (New York 2026)",
       "city": "New York City",
       "state": "New York",
       "place_slug": "new-york-city",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-new-york-city-new-york-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Charlotte, North Carolina: Steps & Legal Help (2026)",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Charlotte, North Carolina (2026)",
       "city": "Charlotte",
       "state": "North Carolina",
       "place_slug": "charlotte",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-charlotte-north-carolina-steps-legal-help-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Fargo Crash? (North Dakota 2026)",
-      "city": "Fargo",
-      "state": "North Dakota",
-      "place_slug": "fargo",
-      "priority": -2,
-      "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-fargo-crash-north-dakota-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Columbus, Ohio: Steps & Legal Help (2026)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": "columbus",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-columbus-ohio-steps-legal-help-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Oklahoma City, Oklahoma (2026)",
-      "city": "Oklahoma City",
-      "state": "Oklahoma",
-      "place_slug": "oklahoma-city",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-oklahoma-city-oklahoma-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Portland Crash? (Oregon 2026)",
-      "city": "Portland",
-      "state": "Oregon",
-      "place_slug": "portland",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-portland-crash-oregon-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Philadelphia, Pennsylvania: Steps & Legal Help (2026)",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "place_slug": "philadelphia",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026",
+      "slug": "hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -36755,17 +36744,6 @@
       "slug": "hit-by-an-uninsured-driver-in-boston-massachusetts-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Boston, Massachusetts \u2014 What to Know (2026)",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "place_slug": "boston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-boston-massachusetts-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Cambridge, Massachusetts (2026)",
       "city": "Cambridge",
@@ -37294,17 +37272,6 @@
       "slug": "hit-by-an-uninsured-driver-in-detroit-michigan-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Detroit, Michigan \u2014 What to Know (2026)",
-      "city": "Detroit",
-      "state": "Michigan",
-      "place_slug": "detroit",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-detroit-michigan-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Grand Rapids, Michigan (2026)",
       "city": "Grand Rapids",
@@ -37721,17 +37688,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-minneapolis-minnesota-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Minneapolis, Minnesota \u2014 What to Know (2026)",
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "place_slug": "minneapolis",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-minneapolis-minnesota-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -38152,17 +38108,6 @@
       "slug": "hit-by-an-uninsured-driver-in-jackson-mississippi-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Jackson, Mississippi \u2014 What to Know (2026)",
-      "city": "Jackson",
-      "state": "Mississippi",
-      "place_slug": "jackson",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-jackson-mississippi-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Southaven, Mississippi (2026)",
       "city": "Southaven",
@@ -38359,17 +38304,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-kansas-city-missouri-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Kansas City, Missouri \u2014 What to Know (2026)",
-      "city": "Kansas City",
-      "state": "Missouri",
-      "place_slug": "kansas-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-kansas-city-missouri-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -38590,17 +38524,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-billings-montana-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Billings, Montana \u2014 What to Know (2026)",
-      "city": "Billings",
-      "state": "Montana",
-      "place_slug": "billings",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-billings-montana-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -39197,17 +39120,6 @@
       "slug": "hit-by-an-uninsured-driver-in-omaha-nebraska-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Omaha, Nebraska \u2014 What to Know (2026)",
-      "city": "Omaha",
-      "state": "Nebraska",
-      "place_slug": "omaha",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-omaha-nebraska-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Henderson, Nevada (2026)",
       "city": "Henderson",
@@ -39338,17 +39250,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-las-vegas-nevada-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Las Vegas, Nevada \u2014 What to Know (2026)",
-      "city": "Las Vegas",
-      "state": "Nevada",
-      "place_slug": "las-vegas",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-las-vegas-nevada-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -39769,17 +39670,6 @@
       "slug": "hit-by-an-uninsured-driver-in-manchester-new-hampshire-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Manchester, New Hampshire \u2014 What to Know (2026)",
-      "city": "Manchester",
-      "state": "New Hampshire",
-      "place_slug": "manchester",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-manchester-new-hampshire-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Nashua, New Hampshire (2026)",
       "city": "Nashua",
@@ -40187,17 +40077,6 @@
       "slug": "hit-by-an-uninsured-driver-in-newark-new-jersey-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Newark, New Jersey \u2014 What to Know (2026)",
-      "city": "Newark",
-      "state": "New Jersey",
-      "place_slug": "newark",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-newark-new-jersey-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Paterson, New Jersey (2026)",
       "city": "Paterson",
@@ -40328,17 +40207,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-albuquerque-new-mexico-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Albuquerque, New Mexico \u2014 What to Know (2026)",
-      "city": "Albuquerque",
-      "state": "New Mexico",
-      "place_slug": "albuquerque",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -40836,17 +40704,6 @@
       "slug": "whiplash-after-a-car-accident-in-buffalo-new-york-what-to-know-2026"
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a New York City Crash? (New York 2026)",
-      "city": "New York City",
-      "state": "New York",
-      "place_slug": "new-york-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026"
-    },
-    {
       "angle": "rideshare",
       "title": "Uber or Lyft Accident in New York City, New York (2026 Guide)",
       "city": "New York City",
@@ -41087,17 +40944,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-charlotte-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Charlotte, North Carolina (2026)",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "place_slug": "charlotte",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026"
     },
     {
       "angle": "common-mistakes",
