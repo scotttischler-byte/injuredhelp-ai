@@ -6184,3 +6184,209 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-06T03:37:26.966649+00:00] WARN organic_crush exit 1
+[2026-06-06T06:36:43.760225+00:00] Inject for 48 states not yet published today
+[2026-06-06T06:36:43.761893+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T06:36:43.813758+00:00] Daily 50-state rotation (2026-06-06): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-06T06:36:43.850540+00:00] Daily 50-state injection complete
+[2026-06-06T06:36:43.956540+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T06:36:43.958711+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T06:36:44.015229+00:00] Daily 50-state rotation (2026-06-06): +1 new, 49 re-prioritized, 50 at queue front
+[2026-06-06T06:36:44.048919+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T06:36:44.053538+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-06T06:36:44.056915+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:36:44.057934+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026
+[2026-06-06T06:36:50.093389+00:00] After materialize: 100 / 3964w ([])
+[2026-06-06T06:36:50.095248+00:00] Spanish OK for whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026 (3262 words)
+[2026-06-06T06:36:50.098670+00:00] Spanish OK for whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026 (3262 words)
+[2026-06-06T06:36:50.290759+00:00] PPT EN whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026.pptx
+[2026-06-06T06:36:50.376416+00:00] PPT ES whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026.pptx
+[2026-06-06T06:36:50.376507+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026.md
+[2026-06-06T06:36:50.409591+00:00] IndexNow queued for whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026
+[2026-06-06T06:36:52.457538+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:36:52.458514+00:00] Materializing template → platinum for truck-accident-in-los-angeles-california-steps-legal-help-2026
+[2026-06-06T06:36:57.155597+00:00] After materialize: 100 / 4010w ([])
+[2026-06-06T06:36:57.157179+00:00] Spanish OK for truck-accident-in-los-angeles-california-steps-legal-help-2026 (3221 words)
+[2026-06-06T06:36:57.160687+00:00] Spanish OK for truck-accident-in-los-angeles-california-steps-legal-help-2026 (3221 words)
+[2026-06-06T06:36:57.246186+00:00] PPT EN truck-accident-in-los-angeles-california-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-los-angeles-california-steps-legal-help-2026.pptx
+[2026-06-06T06:36:57.331636+00:00] PPT ES truck-accident-in-los-angeles-california-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-los-angeles-california-steps-legal-help-2026.pptx
+[2026-06-06T06:36:57.331730+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-los-angeles-california-steps-legal-help-2026.md
+[2026-06-06T06:36:57.364980+00:00] IndexNow queued for truck-accident-in-los-angeles-california-steps-legal-help-2026
+[2026-06-06T06:36:59.409221+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:36:59.410191+00:00] Materializing template → platinum for truck-accident-in-denver-colorado-steps-legal-help-2026
+[2026-06-06T06:37:04.112392+00:00] After materialize: 100 / 4002w ([])
+[2026-06-06T06:37:04.113943+00:00] Spanish OK for truck-accident-in-denver-colorado-steps-legal-help-2026 (3207 words)
+[2026-06-06T06:37:04.117373+00:00] Spanish OK for truck-accident-in-denver-colorado-steps-legal-help-2026 (3207 words)
+[2026-06-06T06:37:04.203072+00:00] PPT EN truck-accident-in-denver-colorado-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-denver-colorado-steps-legal-help-2026.pptx
+[2026-06-06T06:37:04.288487+00:00] PPT ES truck-accident-in-denver-colorado-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-denver-colorado-steps-legal-help-2026.pptx
+[2026-06-06T06:37:04.288584+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-denver-colorado-steps-legal-help-2026.md
+[2026-06-06T06:37:04.321924+00:00] IndexNow queued for truck-accident-in-denver-colorado-steps-legal-help-2026
+[2026-06-06T06:37:06.366571+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:06.367588+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026
+[2026-06-06T06:37:10.985788+00:00] After materialize: 100 / 3953w ([])
+[2026-06-06T06:37:10.987442+00:00] Spanish OK for whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026 (3246 words)
+[2026-06-06T06:37:10.990949+00:00] Spanish OK for whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026 (3246 words)
+[2026-06-06T06:37:11.077253+00:00] PPT EN whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026.pptx
+[2026-06-06T06:37:11.172501+00:00] PPT ES whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026.pptx
+[2026-06-06T06:37:11.172596+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026.md
+[2026-06-06T06:37:11.205923+00:00] IndexNow queued for whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026
+[2026-06-06T06:37:13.250055+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:13.253837+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026
+[2026-06-06T06:37:17.981488+00:00] After materialize: 100 / 3942w ([])
+[2026-06-06T06:37:17.983119+00:00] Spanish OK for whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026 (3248 words)
+[2026-06-06T06:37:17.986515+00:00] Spanish OK for whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026 (3248 words)
+[2026-06-06T06:37:18.072783+00:00] PPT EN whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026.pptx
+[2026-06-06T06:37:18.158252+00:00] PPT ES whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026.pptx
+[2026-06-06T06:37:18.158347+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026.md
+[2026-06-06T06:37:18.191701+00:00] IndexNow queued for whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026
+[2026-06-06T06:37:18.192127+00:00] Syndication → content/syndication/whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026.json
+[2026-06-06T06:37:18.233367+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026', 'truck-accident-in-los-angeles-california-steps-legal-help-2026', 'truck-accident-in-denver-colorado-steps-legal-help-2026', 'whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026', 'whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026']
+[2026-06-06T06:37:18.244234+00:00] Daily ledger (UTC): 8/50 states, 8 EN posts
+[2026-06-06T06:37:18.553241+00:00] ": 0,
+      "tail": "r accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T06:37:18.420247+00:00\",\n  \"stats\": {\n    \"enPosts\": 851,\n    \"esPosts\": 851,\n    \"platinumEn\": 832,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-little-rock-arkansas-what-to-know-2026\",\n      \"truck-accident-in-los-angeles-california-steps-legal-help-2026\",\n      \"truck-accident-in-denver-colorado-steps-legal-help-2026\",\n      \"whiplash-after-a-car-accident-in-bridgeport-connecticut-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T06:37:18.553410+00:00] WARN organic_crush exit 1
+[2026-06-06T06:37:18.689028+00:00] Inject for 43 states not yet published today
+[2026-06-06T06:37:18.690671+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T06:37:18.743868+00:00] Daily 50-state rotation (2026-06-06): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-06T06:37:18.776442+00:00] Daily 50-state injection complete
+[2026-06-06T06:37:18.880211+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T06:37:18.882366+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T06:37:18.938702+00:00] Daily 50-state rotation (2026-06-06): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-06T06:37:18.972268+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T06:37:18.977254+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware']
+[2026-06-06T06:37:18.980020+00:00] Quality 30 / 569w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:18.981379+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026
+[2026-06-06T06:37:23.693941+00:00] After materialize: 100 / 4002w ([])
+[2026-06-06T06:37:23.695779+00:00] Spanish OK for whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026 (3310 words)
+[2026-06-06T06:37:23.699311+00:00] Spanish OK for whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026 (3310 words)
+[2026-06-06T06:37:23.849939+00:00] PPT EN whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026.pptx
+[2026-06-06T06:37:23.935576+00:00] PPT ES whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026.pptx
+[2026-06-06T06:37:23.935671+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026.md
+[2026-06-06T06:37:23.969928+00:00] IndexNow queued for whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026
+[2026-06-06T06:37:26.017404+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:26.018372+00:00] Materializing template → platinum for truck-accident-in-miami-florida-steps-legal-help-2026
+[2026-06-06T06:37:30.710178+00:00] After materialize: 100 / 4015w ([])
+[2026-06-06T06:37:30.711718+00:00] Spanish OK for truck-accident-in-miami-florida-steps-legal-help-2026 (3224 words)
+[2026-06-06T06:37:30.715251+00:00] Spanish OK for truck-accident-in-miami-florida-steps-legal-help-2026 (3224 words)
+[2026-06-06T06:37:30.800821+00:00] PPT EN truck-accident-in-miami-florida-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-miami-florida-steps-legal-help-2026.pptx
+[2026-06-06T06:37:30.887406+00:00] PPT ES truck-accident-in-miami-florida-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-miami-florida-steps-legal-help-2026.pptx
+[2026-06-06T06:37:30.887509+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-miami-florida-steps-legal-help-2026.md
+[2026-06-06T06:37:30.921223+00:00] IndexNow queued for truck-accident-in-miami-florida-steps-legal-help-2026
+[2026-06-06T06:37:32.966234+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:32.967215+00:00] Materializing template → platinum for truck-accident-in-atlanta-georgia-steps-legal-help-2026
+[2026-06-06T06:37:37.699906+00:00] After materialize: 100 / 4002w ([])
+[2026-06-06T06:37:37.701464+00:00] Spanish OK for truck-accident-in-atlanta-georgia-steps-legal-help-2026 (3207 words)
+[2026-06-06T06:37:37.704941+00:00] Spanish OK for truck-accident-in-atlanta-georgia-steps-legal-help-2026 (3207 words)
+[2026-06-06T06:37:37.790308+00:00] PPT EN truck-accident-in-atlanta-georgia-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-atlanta-georgia-steps-legal-help-2026.pptx
+[2026-06-06T06:37:37.877087+00:00] PPT ES truck-accident-in-atlanta-georgia-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-atlanta-georgia-steps-legal-help-2026.pptx
+[2026-06-06T06:37:37.877188+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-atlanta-georgia-steps-legal-help-2026.md
+[2026-06-06T06:37:37.910405+00:00] IndexNow queued for truck-accident-in-atlanta-georgia-steps-legal-help-2026
+[2026-06-06T06:37:39.955475+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:39.956491+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026
+[2026-06-06T06:37:44.643912+00:00] After materialize: 100 / 3954w ([])
+[2026-06-06T06:37:44.645549+00:00] Spanish OK for whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026 (3261 words)
+[2026-06-06T06:37:44.649123+00:00] Spanish OK for whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026 (3261 words)
+[2026-06-06T06:37:44.735586+00:00] PPT EN whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026.pptx
+[2026-06-06T06:37:44.834023+00:00] PPT ES whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026.pptx
+[2026-06-06T06:37:44.834131+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026.md
+[2026-06-06T06:37:44.867447+00:00] IndexNow queued for whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026
+[2026-06-06T06:37:46.912544+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:46.913604+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026
+[2026-06-06T06:37:51.646085+00:00] After materialize: 100 / 3951w ([])
+[2026-06-06T06:37:51.647713+00:00] Spanish OK for whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026 (3248 words)
+[2026-06-06T06:37:51.651151+00:00] Spanish OK for whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026 (3248 words)
+[2026-06-06T06:37:51.737916+00:00] PPT EN whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026.pptx
+[2026-06-06T06:37:51.824200+00:00] PPT ES whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026.pptx
+[2026-06-06T06:37:51.824299+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026.md
+[2026-06-06T06:37:51.857223+00:00] IndexNow queued for whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026
+[2026-06-06T06:37:51.857588+00:00] Syndication → content/syndication/whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026.json
+[2026-06-06T06:37:51.900179+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026', 'truck-accident-in-miami-florida-steps-legal-help-2026', 'truck-accident-in-atlanta-georgia-steps-legal-help-2026', 'whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026', 'whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026']
+[2026-06-06T06:37:51.907163+00:00] Daily ledger (UTC): 13/50 states, 13 EN posts
+[2026-06-06T06:37:52.214088+00:00] ": 0,
+      "tail": "tate] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T06:37:52.082312+00:00\",\n  \"stats\": {\n    \"enPosts\": 856,\n    \"esPosts\": 856,\n    \"platinumEn\": 837,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-washington-district-of-columbia-what-to-know-2026\",\n      \"truck-accident-in-miami-florida-steps-legal-help-2026\",\n      \"truck-accident-in-atlanta-georgia-steps-legal-help-2026\",\n      \"whiplash-after-a-car-accident-in-honolulu-hawaii-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T06:37:52.214241+00:00] WARN organic_crush exit 1
+[2026-06-06T06:37:52.347390+00:00] Inject for 38 states not yet published today
+[2026-06-06T06:37:52.349070+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T06:37:52.401683+00:00] Daily 50-state rotation (2026-06-06): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-06T06:37:52.435332+00:00] Daily 50-state injection complete
+[2026-06-06T06:37:52.544061+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T06:37:52.546158+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T06:37:52.602047+00:00] Daily 50-state rotation (2026-06-06): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-06T06:37:52.635996+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T06:37:52.640795+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho']
+[2026-06-06T06:37:52.643512+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:52.644478+00:00] Materializing template → platinum for truck-accident-in-chicago-illinois-steps-legal-help-2026
+[2026-06-06T06:37:57.348736+00:00] After materialize: 100 / 4002w ([])
+[2026-06-06T06:37:57.350545+00:00] Spanish OK for truck-accident-in-chicago-illinois-steps-legal-help-2026 (3207 words)
+[2026-06-06T06:37:57.354104+00:00] Spanish OK for truck-accident-in-chicago-illinois-steps-legal-help-2026 (3207 words)
+[2026-06-06T06:37:57.504404+00:00] PPT EN truck-accident-in-chicago-illinois-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-chicago-illinois-steps-legal-help-2026.pptx
+[2026-06-06T06:37:57.590306+00:00] PPT ES truck-accident-in-chicago-illinois-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-chicago-illinois-steps-legal-help-2026.pptx
+[2026-06-06T06:37:57.590399+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-chicago-illinois-steps-legal-help-2026.md
+[2026-06-06T06:37:57.623831+00:00] IndexNow queued for truck-accident-in-chicago-illinois-steps-legal-help-2026
+[2026-06-06T06:37:59.671155+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:37:59.672165+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026
+[2026-06-06T06:38:04.401408+00:00] After materialize: 100 / 3876w ([])
+[2026-06-06T06:38:04.402988+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026 (3197 words)
+[2026-06-06T06:38:04.406384+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026 (3197 words)
+[2026-06-06T06:38:04.491674+00:00] PPT EN should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026.pptx
+[2026-06-06T06:38:04.577234+00:00] PPT ES should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026.pptx
+[2026-06-06T06:38:04.577330+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026.md
+[2026-06-06T06:38:04.610039+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026
+[2026-06-06T06:38:06.654432+00:00] Quality 30 / 562w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:38:06.655446+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026
+[2026-06-06T06:38:11.392037+00:00] After materialize: 100 / 3885w ([])
+[2026-06-06T06:38:11.393608+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026 (3211 words)
+[2026-06-06T06:38:11.397113+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026 (3211 words)
+[2026-06-06T06:38:11.483034+00:00] PPT EN should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026.pptx
+[2026-06-06T06:38:11.568613+00:00] PPT ES should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026.pptx
+[2026-06-06T06:38:11.568708+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026.md
+[2026-06-06T06:38:11.601794+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026
+[2026-06-06T06:38:13.647585+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:38:13.648598+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026
+[2026-06-06T06:38:18.342664+00:00] After materialize: 100 / 3885w ([])
+[2026-06-06T06:38:18.344287+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026 (3195 words)
+[2026-06-06T06:38:18.347667+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026 (3195 words)
+[2026-06-06T06:38:18.433601+00:00] PPT EN should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026.pptx
+[2026-06-06T06:38:18.530240+00:00] PPT ES should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026.pptx
+[2026-06-06T06:38:18.530344+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026.md
+[2026-06-06T06:38:18.564992+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026
+[2026-06-06T06:38:20.610060+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T06:38:20.611057+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026
+[2026-06-06T06:38:25.293894+00:00] After materialize: 100 / 3884w ([])
+[2026-06-06T06:38:25.295518+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026 (3206 words)
+[2026-06-06T06:38:25.298920+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026 (3206 words)
+[2026-06-06T06:38:25.384519+00:00] PPT EN should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026.pptx
+[2026-06-06T06:38:25.469945+00:00] PPT ES should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026.pptx
+[2026-06-06T06:38:25.470045+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026.md
+[2026-06-06T06:38:25.503458+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026
+[2026-06-06T06:38:25.503822+00:00] Syndication → content/syndication/should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026.json
+[2026-06-06T06:38:25.545271+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['truck-accident-in-chicago-illinois-steps-legal-help-2026', 'should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026', 'should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026', 'should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026', 'should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026']
+[2026-06-06T06:38:25.553815+00:00] Daily ledger (UTC): 18/50 states, 18 EN posts
+[2026-06-06T06:38:25.856091+00:00]  "tail": "step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T06:38:25.727384+00:00\",\n  \"stats\": {\n    \"enPosts\": 861,\n    \"esPosts\": 861,\n    \"platinumEn\": 842,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-chicago-illinois-steps-legal-help-2026\",\n      \"should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026\",\n      \"should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026\",\n      \"should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026\",\n      \"should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T06:38:25.856252+00:00] WARN organic_crush exit 1
