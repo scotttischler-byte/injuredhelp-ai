@@ -771,11 +771,14 @@
     "should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026",
     "should-you-hire-a-lawyer-after-a-new-orleans-crash-louisiana-2026",
     "should-you-hire-a-lawyer-after-a-portland-crash-maine-2026",
-    "should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026"
+    "should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026",
+    "should-you-hire-a-lawyer-after-a-boston-crash-massachusetts-2026",
+    "should-you-hire-a-lawyer-after-a-detroit-crash-michigan-2026",
+    "should-you-hire-a-lawyer-after-a-minneapolis-crash-minnesota-2026"
   ],
   "stats": {
-    "total_published": 770,
-    "last_run_at": "2026-06-06T06:55:11.430311+00:00"
+    "total_published": 773,
+    "last_run_at": "2026-06-06T09:28:08.464326+00:00"
   },
   "pending": [
     {
@@ -1013,41 +1016,41 @@
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Boston Crash? (Massachusetts 2026)",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "place_slug": "boston",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in New Orleans, Louisiana \u2014 What to Know (2026)",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "place_slug": "new-orleans",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-boston-crash-massachusetts-2026",
+      "slug": "whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Detroit Crash? (Michigan 2026)",
-      "city": "Detroit",
-      "state": "Michigan",
-      "place_slug": "detroit",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Portland, Maine \u2014 What to Know (2026)",
+      "city": "Portland",
+      "state": "Maine",
+      "place_slug": "portland",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-detroit-crash-michigan-2026",
+      "slug": "whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Minneapolis Crash? (Minnesota 2026)",
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "place_slug": "minneapolis",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Baltimore, Maryland \u2014 What to Know (2026)",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "place_slug": "baltimore",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-minneapolis-crash-minnesota-2026",
+      "slug": "whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -35971,17 +35974,6 @@
       "slug": "hit-by-an-uninsured-driver-in-new-orleans-louisiana-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in New Orleans, Louisiana \u2014 What to Know (2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Shreveport, Louisiana (2026)",
       "city": "Shreveport",
@@ -36312,17 +36304,6 @@
       "slug": "hit-by-an-uninsured-driver-in-portland-maine-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Portland, Maine \u2014 What to Know (2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in South Portland, Maine (2026)",
       "city": "South Portland",
@@ -36453,17 +36434,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-baltimore-maryland-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Baltimore, Maryland \u2014 What to Know (2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
