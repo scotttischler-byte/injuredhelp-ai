@@ -789,11 +789,14 @@
     "truck-accident-in-columbus-ohio-steps-legal-help-2026",
     "severe-injury-after-a-car-accident-in-oklahoma-city-oklahoma-2026",
     "should-you-hire-a-lawyer-after-a-portland-crash-oregon-2026",
-    "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026"
+    "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026",
+    "should-you-hire-a-lawyer-after-a-providence-crash-rhode-island-2026",
+    "should-you-hire-a-lawyer-after-a-charleston-crash-south-carolina-2026",
+    "severe-injury-after-a-car-accident-in-sioux-falls-south-dakota-2026"
   ],
   "stats": {
-    "total_published": 788,
-    "last_run_at": "2026-06-06T11:00:40.967905+00:00"
+    "total_published": 791,
+    "last_run_at": "2026-06-06T11:28:44.729543+00:00"
   },
   "pending": [
     {
@@ -1239,41 +1242,67 @@
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Providence Crash? (Rhode Island 2026)",
-      "city": "Providence",
-      "state": "Rhode Island",
-      "place_slug": "providence",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Fargo, North Dakota \u2014 What to Know (2026)",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "place_slug": "fargo",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-providence-crash-rhode-island-2026",
+      "slug": "whiplash-after-a-car-accident-in-fargo-north-dakota-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Columbus, Ohio (2026)",
+      "city": "Columbus",
+      "state": "Ohio",
+      "place_slug": "columbus",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-columbus-ohio-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
       "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Charleston Crash? (South Carolina 2026)",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "place_slug": "charleston",
+      "title": "Should You Hire a Lawyer After a Oklahoma City Crash? (Oklahoma 2026)",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "place_slug": "oklahoma-city",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-charleston-crash-south-carolina-2026",
+      "slug": "should-you-hire-a-lawyer-after-a-oklahoma-city-crash-oklahoma-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Sioux Falls, South Dakota (2026)",
-      "city": "Sioux Falls",
-      "state": "South Dakota",
-      "place_slug": "sioux-falls",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Portland, Oregon \u2014 What to Know (2026)",
+      "city": "Portland",
+      "state": "Oregon",
+      "place_slug": "portland",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-sioux-falls-south-dakota-2026",
+      "slug": "whiplash-after-a-car-accident-in-portland-oregon-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Philadelphia, Pennsylvania (2026)",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "place_slug": "philadelphia",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-philadelphia-pennsylvania-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -41474,17 +41503,6 @@
       "slug": "hit-by-an-uninsured-driver-in-fargo-north-dakota-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Fargo, North Dakota \u2014 What to Know (2026)",
-      "city": "Fargo",
-      "state": "North Dakota",
-      "place_slug": "fargo",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-fargo-north-dakota-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Grand Forks, North Dakota (2026)",
       "city": "Grand Forks",
@@ -41980,17 +41998,6 @@
       "slug": "uber-or-lyft-accident-in-columbus-ohio-2026-guide"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Columbus, Ohio (2026)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": "columbus",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-columbus-ohio-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Toledo, Ohio (2026)",
       "city": "Toledo",
@@ -42286,17 +42293,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-norman-oklahoma-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Oklahoma City Crash? (Oklahoma 2026)",
-      "city": "Oklahoma City",
-      "state": "Oklahoma",
-      "place_slug": "oklahoma-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-oklahoma-city-crash-oklahoma-2026"
     },
     {
       "angle": "rideshare",
@@ -42640,17 +42636,6 @@
       "slug": "hit-by-an-uninsured-driver-in-portland-oregon-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Portland, Oregon \u2014 What to Know (2026)",
-      "city": "Portland",
-      "state": "Oregon",
-      "place_slug": "portland",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-portland-oregon-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Salem, Oregon (2026)",
       "city": "Salem",
@@ -42968,17 +42953,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-philadelphia-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Philadelphia, Pennsylvania (2026)",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "place_slug": "philadelphia",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-philadelphia-pennsylvania-2026"
     },
     {
       "angle": "common-mistakes",
