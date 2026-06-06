@@ -768,11 +768,14 @@
     "should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026",
     "should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026",
     "should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026",
-    "should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026"
+    "should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026",
+    "should-you-hire-a-lawyer-after-a-new-orleans-crash-louisiana-2026",
+    "should-you-hire-a-lawyer-after-a-portland-crash-maine-2026",
+    "should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026"
   ],
   "stats": {
-    "total_published": 767,
-    "last_run_at": "2026-06-06T06:38:25.503909+00:00"
+    "total_published": 770,
+    "last_run_at": "2026-06-06T06:55:11.430311+00:00"
   },
   "pending": [
     {
@@ -945,41 +948,67 @@
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a New Orleans Crash? (Louisiana 2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Chicago, Illinois (2026)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
       "priority": -2,
-      "firm_state": false,
+      "firm_state": true,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-new-orleans-crash-louisiana-2026",
+      "slug": "hit-by-an-uninsured-driver-in-chicago-illinois-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Portland Crash? (Maine 2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Indianapolis, Indiana \u2014 What to Know (2026)",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "place_slug": "indianapolis",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-portland-crash-maine-2026",
+      "slug": "whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Baltimore Crash? (Maryland 2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Des Moines, Iowa \u2014 What to Know (2026)",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "place_slug": "des-moines",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026",
+      "slug": "whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Wichita, Kansas \u2014 What to Know (2026)",
+      "city": "Wichita",
+      "state": "Kansas",
+      "place_slug": "wichita",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Louisville, Kentucky \u2014 What to Know (2026)",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "place_slug": "louisville",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -7219,17 +7248,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-chicago-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Chicago, Illinois (2026)",
-      "city": "Chicago",
-      "state": "Illinois",
-      "place_slug": "chicago",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-chicago-illinois-2026"
     },
     {
       "angle": "common-mistakes",
@@ -34644,17 +34662,6 @@
       "slug": "hit-by-an-uninsured-driver-in-indianapolis-indiana-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Indianapolis, Indiana \u2014 What to Know (2026)",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "place_slug": "indianapolis",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in South Bend, Indiana (2026)",
       "city": "South Bend",
@@ -34983,17 +34990,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-des-moines-iowa-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Des Moines, Iowa \u2014 What to Know (2026)",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "place_slug": "des-moines",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -35425,17 +35421,6 @@
       "slug": "hit-by-an-uninsured-driver-in-wichita-kansas-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Wichita, Kansas \u2014 What to Know (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026"
-    },
-    {
       "angle": "insurance-denied",
       "title": "Insurance Denied Your Claim in Bowling Green? (Kentucky 2026)",
       "city": "Bowling Green",
@@ -35654,17 +35639,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-louisville-kentucky-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Louisville, Kentucky \u2014 What to Know (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",

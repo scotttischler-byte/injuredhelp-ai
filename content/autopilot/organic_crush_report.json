@@ -1,23 +1,23 @@
 {
-  "at": "2026-06-06T06:38:25.586542+00:00",
+  "at": "2026-06-06T06:55:11.519977+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
       "ok": false,
       "code": 2,
-      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026 should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026 should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026 should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026\n"
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: should-you-hire-a-lawyer-after-a-portland-crash-maine-2026 should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T06:38:25.727384+00:00\",\n  \"stats\": {\n    \"enPosts\": 861,\n    \"esPosts\": 861,\n    \"platinumEn\": 842,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-chicago-illinois-steps-legal-help-2026\",\n      \"should-you-hire-a-lawyer-after-a-indianapolis-crash-indiana-2026\",\n      \"should-you-hire-a-lawyer-after-a-des-moines-crash-iowa-2026\",\n      \"should-you-hire-a-lawyer-after-a-wichita-crash-kansas-2026\",\n      \"should-you-hire-a-lawyer-after-a-louisville-crash-kentucky-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "yer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T06:55:11.666882+00:00\",\n  \"stats\": {\n    \"enPosts\": 864,\n    \"esPosts\": 864,\n    \"platinumEn\": 845,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"should-you-hire-a-lawyer-after-a-new-orleans-crash-louisiana-2026\",\n      \"should-you-hire-a-lawyer-after-a-portland-crash-maine-2026\",\n      \"should-you-hire-a-lawyer-after-a-baltimore-crash-maryland-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
