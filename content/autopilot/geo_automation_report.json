@@ -1,5 +1,5 @@
 {
-  "at": "2026-06-05T17:26:13.104318+00:00",
+  "at": "2026-06-06T06:41:19.125863+00:00",
   "mode": "geo-automation",
   "opsChecklist": [
     "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
@@ -63,7 +63,7 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "urlCount": 423,
+      "urlCount": 476,
       "ok": true,
       "results": [
         {
@@ -87,7 +87,7 @@
     {
       "origin": "https://injuredhelp.ai",
       "urlCount": 539,
-      "ok": true,
+      "ok": false,
       "results": [
         {
           "endpoint": "https://api.indexnow.org/indexnow",
@@ -101,8 +101,8 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 202,
-          "ok": true
+          "status": 403,
+          "ok": false
         }
       ],
       "siteId": "injuredhelp"
