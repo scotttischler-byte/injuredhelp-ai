@@ -3338,3 +3338,717 @@ Target: 50 states (top city per state) — UTC day 2026-06-04
 
 Round 1: 50/50 states — need 0
 Done — 50-state SLA met.
+[2026-06-06T04:18:04.127724+00:00] Inject for 51 states not yet published today
+[2026-06-06T04:18:04.129163+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:18:04.130888+00:00] Daily 50-state rotation (2026-06-06): +2 new, 48 re-prioritized, 50 at queue front
+[2026-06-06T04:18:04.131446+00:00] Daily 50-state injection complete
+[2026-06-06T04:18:04.204971+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:18:04.206644+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:18:04.208607+00:00] Daily 50-state rotation (2026-06-06): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-06T04:18:04.209194+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:18:04.211632+00:00] States already published today (UTC): 0 — []
+[2026-06-06T04:18:04.214176+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:04.214924+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-birmingham-alabama
+[2026-06-06T04:18:08.406631+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:18:08.408055+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-birmingham-alabama (3210 words)
+[2026-06-06T04:18:08.410770+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-birmingham-alabama (3210 words)
+[2026-06-06T04:18:08.785184+00:00] PPT EN black-box-data-after-a-semi-crash-in-birmingham-alabama: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-birmingham-alabama.pptx
+[2026-06-06T04:18:08.894553+00:00] PPT ES black-box-data-after-a-semi-crash-in-birmingham-alabama: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-birmingham-alabama.pptx
+[2026-06-06T04:18:08.894718+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-birmingham-alabama.md
+[2026-06-06T04:18:09.011339+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-birmingham-alabama
+[2026-06-06T04:18:11.129119+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:11.129899+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-anchorage-alaska
+[2026-06-06T04:18:14.253584+00:00] After materialize: 100 / 4014w ([])
+[2026-06-06T04:18:14.254770+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-anchorage-alaska (3200 words)
+[2026-06-06T04:18:14.257418+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-anchorage-alaska (3200 words)
+[2026-06-06T04:18:14.325161+00:00] PPT EN black-box-data-after-a-semi-crash-in-anchorage-alaska: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-anchorage-alaska.pptx
+[2026-06-06T04:18:14.393827+00:00] PPT ES black-box-data-after-a-semi-crash-in-anchorage-alaska: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-anchorage-alaska.pptx
+[2026-06-06T04:18:14.393902+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-anchorage-alaska.md
+[2026-06-06T04:18:14.420192+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-anchorage-alaska
+[2026-06-06T04:18:16.423848+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:16.424637+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-phoenix-arizona
+[2026-06-06T04:18:19.617435+00:00] After materialize: 100 / 4014w ([])
+[2026-06-06T04:18:19.618679+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-phoenix-arizona (3200 words)
+[2026-06-06T04:18:19.621437+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-phoenix-arizona (3200 words)
+[2026-06-06T04:18:19.687600+00:00] PPT EN black-box-data-after-a-semi-crash-in-phoenix-arizona: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-phoenix-arizona.pptx
+[2026-06-06T04:18:19.831507+00:00] PPT ES black-box-data-after-a-semi-crash-in-phoenix-arizona: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-phoenix-arizona.pptx
+[2026-06-06T04:18:19.831708+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-phoenix-arizona.md
+[2026-06-06T04:18:19.876278+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-phoenix-arizona
+[2026-06-06T04:18:21.884581+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:21.885699+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-little-rock-arkansas
+[2026-06-06T04:18:25.052093+00:00] After materialize: 100 / 4036w ([])
+[2026-06-06T04:18:25.053375+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-little-rock-arkansas (3218 words)
+[2026-06-06T04:18:25.056111+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-little-rock-arkansas (3218 words)
+[2026-06-06T04:18:25.123680+00:00] PPT EN black-box-data-after-a-semi-crash-in-little-rock-arkansas: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-little-rock-arkansas.pptx
+[2026-06-06T04:18:25.192624+00:00] PPT ES black-box-data-after-a-semi-crash-in-little-rock-arkansas: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-little-rock-arkansas.pptx
+[2026-06-06T04:18:25.192721+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-little-rock-arkansas.md
+[2026-06-06T04:18:25.220102+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-little-rock-arkansas
+[2026-06-06T04:18:27.223577+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:27.224418+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-los-angeles-california
+[2026-06-06T04:18:30.423761+00:00] After materialize: 100 / 4033w ([])
+[2026-06-06T04:18:30.425012+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-los-angeles-california (3216 words)
+[2026-06-06T04:18:30.427781+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-los-angeles-california (3216 words)
+[2026-06-06T04:18:30.494157+00:00] PPT EN black-box-data-after-a-semi-crash-in-los-angeles-california: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-los-angeles-california.pptx
+[2026-06-06T04:18:30.557591+00:00] PPT ES black-box-data-after-a-semi-crash-in-los-angeles-california: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-los-angeles-california.pptx
+[2026-06-06T04:18:30.557670+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-los-angeles-california.md
+[2026-06-06T04:18:30.585016+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-los-angeles-california
+[2026-06-06T04:18:30.585303+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-los-angeles-california.json
+[2026-06-06T04:18:30.587970+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-birmingham-alabama', 'black-box-data-after-a-semi-crash-in-anchorage-alaska', 'black-box-data-after-a-semi-crash-in-phoenix-arizona', 'black-box-data-after-a-semi-crash-in-little-rock-arkansas', 'black-box-data-after-a-semi-crash-in-los-angeles-california']
+[2026-06-06T04:18:30.594181+00:00] Daily ledger (UTC): 5/50 states, 5 EN posts
+[2026-06-06T04:18:30.838370+00:00]  "tail": "car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:18:30.732326+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-birmingham-alabama\",\n      \"black-box-data-after-a-semi-crash-in-anchorage-alaska\",\n      \"black-box-data-after-a-semi-crash-in-phoenix-arizona\",\n      \"black-box-data-after-a-semi-crash-in-little-rock-arkansas\",\n      \"black-box-data-after-a-semi-crash-in-los-angeles-california\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:18:30.838501+00:00] WARN organic_crush exit 1
+[2026-06-06T04:18:30.935812+00:00] Inject for 46 states not yet published today
+[2026-06-06T04:18:30.937232+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:18:30.938931+00:00] Daily 50-state rotation (2026-06-06): +0 new, 45 re-prioritized, 45 at queue front
+[2026-06-06T04:18:30.939458+00:00] Daily 50-state injection complete
+[2026-06-06T04:18:31.012380+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:18:31.014016+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:18:31.015949+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:18:31.016569+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:18:31.019174+00:00] States already published today (UTC): 5 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California']
+[2026-06-06T04:18:31.021264+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:31.022026+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-denver-colorado
+[2026-06-06T04:18:34.257103+00:00] After materialize: 100 / 4025w ([])
+[2026-06-06T04:18:34.263294+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-denver-colorado (3202 words)
+[2026-06-06T04:18:34.279219+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-denver-colorado (3202 words)
+[2026-06-06T04:18:34.397460+00:00] PPT EN black-box-data-after-a-semi-crash-in-denver-colorado: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-denver-colorado.pptx
+[2026-06-06T04:18:34.463950+00:00] PPT ES black-box-data-after-a-semi-crash-in-denver-colorado: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-denver-colorado.pptx
+[2026-06-06T04:18:34.464028+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-denver-colorado.md
+[2026-06-06T04:18:34.490307+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-denver-colorado
+[2026-06-06T04:18:36.494584+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:36.495352+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-bridgeport-connecticut
+[2026-06-06T04:18:39.693852+00:00] After materialize: 100 / 4025w ([])
+[2026-06-06T04:18:39.695078+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-bridgeport-connecticut (3202 words)
+[2026-06-06T04:18:39.697824+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-bridgeport-connecticut (3202 words)
+[2026-06-06T04:18:39.765691+00:00] PPT EN black-box-data-after-a-semi-crash-in-bridgeport-connecticut: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-bridgeport-connecticut.pptx
+[2026-06-06T04:18:39.834481+00:00] PPT ES black-box-data-after-a-semi-crash-in-bridgeport-connecticut: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-bridgeport-connecticut.pptx
+[2026-06-06T04:18:39.834581+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-bridgeport-connecticut.md
+[2026-06-06T04:18:39.860331+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-bridgeport-connecticut
+[2026-06-06T04:18:41.863781+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:41.864580+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-wilmington-delaware
+[2026-06-06T04:18:45.001660+00:00] After materialize: 100 / 4014w ([])
+[2026-06-06T04:18:45.002962+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-wilmington-delaware (3204 words)
+[2026-06-06T04:18:45.005678+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-wilmington-delaware (3204 words)
+[2026-06-06T04:18:45.071515+00:00] PPT EN black-box-data-after-a-semi-crash-in-wilmington-delaware: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-wilmington-delaware.pptx
+[2026-06-06T04:18:45.135457+00:00] PPT ES black-box-data-after-a-semi-crash-in-wilmington-delaware: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-wilmington-delaware.pptx
+[2026-06-06T04:18:45.135556+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-wilmington-delaware.md
+[2026-06-06T04:18:45.161551+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-wilmington-delaware
+[2026-06-06T04:18:47.165253+00:00] Quality 30 / 650w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:47.166049+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-washington-district-of-columbia
+[2026-06-06T04:18:50.311849+00:00] After materialize: 100 / 4074w ([])
+[2026-06-06T04:18:50.313156+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-washington-district-of-columbia (3264 words)
+[2026-06-06T04:18:50.315940+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-washington-district-of-columbia (3264 words)
+[2026-06-06T04:18:50.383293+00:00] PPT EN black-box-data-after-a-semi-crash-in-washington-district-of-columbia: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-washington-district-of-columbia.pptx
+[2026-06-06T04:18:50.453582+00:00] PPT ES black-box-data-after-a-semi-crash-in-washington-district-of-columbia: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-washington-district-of-columbia.pptx
+[2026-06-06T04:18:50.453672+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-washington-district-of-columbia.md
+[2026-06-06T04:18:50.479903+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-washington-district-of-columbia
+[2026-06-06T04:18:52.483252+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:52.484016+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-miami-florida
+[2026-06-06T04:18:55.643339+00:00] After materialize: 100 / 4037w ([])
+[2026-06-06T04:18:55.644640+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-miami-florida (3214 words)
+[2026-06-06T04:18:55.647368+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-miami-florida (3214 words)
+[2026-06-06T04:18:55.714509+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-miami-florida: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-miami-florida.pptx
+[2026-06-06T04:18:55.778894+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-miami-florida: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-miami-florida.pptx
+[2026-06-06T04:18:55.778967+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-miami-florida.md
+[2026-06-06T04:18:55.805090+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-miami-florida
+[2026-06-06T04:18:55.805389+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-miami-florida.json
+[2026-06-06T04:18:55.808174+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-denver-colorado', 'black-box-data-after-a-semi-crash-in-bridgeport-connecticut', 'black-box-data-after-a-semi-crash-in-wilmington-delaware', 'black-box-data-after-a-semi-crash-in-washington-district-of-columbia', 'fmcsa-violations-after-a-truck-crash-in-miami-florida']
+[2026-06-06T04:18:55.812835+00:00] Daily ledger (UTC): 10/50 states, 10 EN posts
+[2026-06-06T04:18:56.052068+00:00]  "tail": " in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:18:55.948585+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-denver-colorado\",\n      \"black-box-data-after-a-semi-crash-in-bridgeport-connecticut\",\n      \"black-box-data-after-a-semi-crash-in-wilmington-delaware\",\n      \"black-box-data-after-a-semi-crash-in-washington-district-of-columbia\",\n      \"fmcsa-violations-after-a-truck-crash-in-miami-florida\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:18:56.052214+00:00] WARN organic_crush exit 1
+[2026-06-06T04:18:56.153312+00:00] Inject for 41 states not yet published today
+[2026-06-06T04:18:56.154753+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:18:56.156275+00:00] Daily 50-state rotation (2026-06-06): +0 new, 40 re-prioritized, 40 at queue front
+[2026-06-06T04:18:56.156839+00:00] Daily 50-state injection complete
+[2026-06-06T04:18:56.229902+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:18:56.231549+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:18:56.233482+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:18:56.234097+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:18:56.236779+00:00] States already published today (UTC): 10 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida']
+[2026-06-06T04:18:56.238837+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:18:56.239581+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-atlanta-georgia
+[2026-06-06T04:18:59.403711+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:18:59.405100+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-atlanta-georgia (3197 words)
+[2026-06-06T04:18:59.407826+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-atlanta-georgia (3197 words)
+[2026-06-06T04:18:59.528023+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-atlanta-georgia: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-atlanta-georgia.pptx
+[2026-06-06T04:18:59.594508+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-atlanta-georgia: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-atlanta-georgia.pptx
+[2026-06-06T04:18:59.594641+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-atlanta-georgia.md
+[2026-06-06T04:18:59.620906+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-atlanta-georgia
+[2026-06-06T04:19:01.625270+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:01.626044+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii
+[2026-06-06T04:19:04.758948+00:00] After materialize: 100 / 4025w ([])
+[2026-06-06T04:19:04.760135+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii (3212 words)
+[2026-06-06T04:19:04.762860+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii (3212 words)
+[2026-06-06T04:19:04.830410+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii.pptx
+[2026-06-06T04:19:04.898730+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii.pptx
+[2026-06-06T04:19:04.898805+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii.md
+[2026-06-06T04:19:04.925363+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii
+[2026-06-06T04:19:06.929266+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:06.930060+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-boise-idaho
+[2026-06-06T04:19:10.089879+00:00] After materialize: 100 / 4013w ([])
+[2026-06-06T04:19:10.091105+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-boise-idaho (3199 words)
+[2026-06-06T04:19:10.093835+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-boise-idaho (3199 words)
+[2026-06-06T04:19:10.160889+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-boise-idaho: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-boise-idaho.pptx
+[2026-06-06T04:19:10.225117+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-boise-idaho: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-boise-idaho.pptx
+[2026-06-06T04:19:10.225188+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-boise-idaho.md
+[2026-06-06T04:19:10.251328+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-boise-idaho
+[2026-06-06T04:19:12.255147+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:12.255919+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-chicago-illinois
+[2026-06-06T04:19:15.426664+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:19:15.427918+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-chicago-illinois (3197 words)
+[2026-06-06T04:19:15.430622+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-chicago-illinois (3197 words)
+[2026-06-06T04:19:15.498333+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-chicago-illinois: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-chicago-illinois.pptx
+[2026-06-06T04:19:15.567934+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-chicago-illinois: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-chicago-illinois.pptx
+[2026-06-06T04:19:15.568007+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-chicago-illinois.md
+[2026-06-06T04:19:15.594142+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-chicago-illinois
+[2026-06-06T04:19:17.598141+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:17.598905+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana
+[2026-06-06T04:19:20.754869+00:00] After materialize: 100 / 4015w ([])
+[2026-06-06T04:19:20.756123+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana (3199 words)
+[2026-06-06T04:19:20.758878+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana (3199 words)
+[2026-06-06T04:19:20.825129+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana.pptx
+[2026-06-06T04:19:20.889957+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana.pptx
+[2026-06-06T04:19:20.890030+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana.md
+[2026-06-06T04:19:20.916078+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana
+[2026-06-06T04:19:20.916367+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana.json
+[2026-06-06T04:19:20.919199+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-atlanta-georgia', 'fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii', 'fmcsa-violations-after-a-truck-crash-in-boise-idaho', 'fmcsa-violations-after-a-truck-crash-in-chicago-illinois', 'fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana']
+[2026-06-06T04:19:20.923928+00:00] Daily ledger (UTC): 15/50 states, 15 EN posts
+[2026-06-06T04:19:21.163127+00:00]  "tail": "ar accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:19:21.058813+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-atlanta-georgia\",\n      \"fmcsa-violations-after-a-truck-crash-in-honolulu-hawaii\",\n      \"fmcsa-violations-after-a-truck-crash-in-boise-idaho\",\n      \"fmcsa-violations-after-a-truck-crash-in-chicago-illinois\",\n      \"fmcsa-violations-after-a-truck-crash-in-indianapolis-indiana\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:19:21.163281+00:00] WARN organic_crush exit 1
+[2026-06-06T04:19:21.264264+00:00] Inject for 36 states not yet published today
+[2026-06-06T04:19:21.265711+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:19:21.267078+00:00] Daily 50-state rotation (2026-06-06): +0 new, 35 re-prioritized, 35 at queue front
+[2026-06-06T04:19:21.267654+00:00] Daily 50-state injection complete
+[2026-06-06T04:19:21.340749+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:19:21.342363+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:19:21.344350+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:19:21.344960+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:19:21.347733+00:00] States already published today (UTC): 15 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana']
+[2026-06-06T04:19:21.349806+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:21.350551+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-des-moines-iowa
+[2026-06-06T04:19:24.493248+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:19:24.494734+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-des-moines-iowa (3215 words)
+[2026-06-06T04:19:24.497425+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-des-moines-iowa (3215 words)
+[2026-06-06T04:19:24.617819+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-des-moines-iowa: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-des-moines-iowa.pptx
+[2026-06-06T04:19:24.685214+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-des-moines-iowa: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-des-moines-iowa.pptx
+[2026-06-06T04:19:24.685306+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-des-moines-iowa.md
+[2026-06-06T04:19:24.712195+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-des-moines-iowa
+[2026-06-06T04:19:26.716538+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:26.717345+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-wichita-kansas
+[2026-06-06T04:19:29.835302+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:19:29.836562+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-wichita-kansas (3197 words)
+[2026-06-06T04:19:29.839339+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-wichita-kansas (3197 words)
+[2026-06-06T04:19:29.907463+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-wichita-kansas: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-wichita-kansas.pptx
+[2026-06-06T04:19:29.976053+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-wichita-kansas: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-wichita-kansas.pptx
+[2026-06-06T04:19:29.976133+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-wichita-kansas.md
+[2026-06-06T04:19:30.002319+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-wichita-kansas
+[2026-06-06T04:19:32.005959+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:32.006750+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-louisville-kentucky
+[2026-06-06T04:19:35.199181+00:00] After materialize: 100 / 4023w ([])
+[2026-06-06T04:19:35.200443+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-louisville-kentucky (3208 words)
+[2026-06-06T04:19:35.203165+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-louisville-kentucky (3208 words)
+[2026-06-06T04:19:35.269726+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-louisville-kentucky: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-louisville-kentucky.pptx
+[2026-06-06T04:19:35.333822+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-louisville-kentucky: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-louisville-kentucky.pptx
+[2026-06-06T04:19:35.333895+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-louisville-kentucky.md
+[2026-06-06T04:19:35.359909+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-louisville-kentucky
+[2026-06-06T04:19:37.363879+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:37.364652+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana
+[2026-06-06T04:19:40.495282+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:19:40.496566+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana (3211 words)
+[2026-06-06T04:19:40.524491+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana (3211 words)
+[2026-06-06T04:19:40.591760+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana.pptx
+[2026-06-06T04:19:40.661700+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana.pptx
+[2026-06-06T04:19:40.661781+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana.md
+[2026-06-06T04:19:40.688593+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana
+[2026-06-06T04:19:42.692197+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:42.692970+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-portland-maine
+[2026-06-06T04:19:45.850772+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:19:45.852068+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-portland-maine (3197 words)
+[2026-06-06T04:19:45.854792+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-portland-maine (3197 words)
+[2026-06-06T04:19:45.920601+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-portland-maine: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-portland-maine.pptx
+[2026-06-06T04:19:45.984506+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-portland-maine: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-portland-maine.pptx
+[2026-06-06T04:19:45.984604+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-portland-maine.md
+[2026-06-06T04:19:46.011104+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-portland-maine
+[2026-06-06T04:19:46.011412+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-portland-maine.json
+[2026-06-06T04:19:46.014345+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-des-moines-iowa', 'fmcsa-violations-after-a-truck-crash-in-wichita-kansas', 'fmcsa-violations-after-a-truck-crash-in-louisville-kentucky', 'fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana', 'fmcsa-violations-after-a-truck-crash-in-portland-maine']
+[2026-06-06T04:19:46.019164+00:00] Daily ledger (UTC): 20/50 states, 20 EN posts
+[2026-06-06T04:19:46.258832+00:00]  "tail": "ident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:19:46.155946+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-des-moines-iowa\",\n      \"fmcsa-violations-after-a-truck-crash-in-wichita-kansas\",\n      \"fmcsa-violations-after-a-truck-crash-in-louisville-kentucky\",\n      \"fmcsa-violations-after-a-truck-crash-in-new-orleans-louisiana\",\n      \"fmcsa-violations-after-a-truck-crash-in-portland-maine\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:19:46.258971+00:00] WARN organic_crush exit 1
+[2026-06-06T04:19:46.358601+00:00] Inject for 31 states not yet published today
+[2026-06-06T04:19:46.360061+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:19:46.361339+00:00] Daily 50-state rotation (2026-06-06): +0 new, 30 re-prioritized, 30 at queue front
+[2026-06-06T04:19:46.361908+00:00] Daily 50-state injection complete
+[2026-06-06T04:19:46.436912+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:19:46.438537+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:19:46.440501+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:19:46.441123+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:19:46.444020+00:00] States already published today (UTC): 20 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine']
+[2026-06-06T04:19:46.446116+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:46.446865+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-baltimore-maryland
+[2026-06-06T04:19:49.618273+00:00] After materialize: 100 / 4023w ([])
+[2026-06-06T04:19:49.619730+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-baltimore-maryland (3205 words)
+[2026-06-06T04:19:49.622489+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-baltimore-maryland (3205 words)
+[2026-06-06T04:19:49.742339+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-baltimore-maryland: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-baltimore-maryland.pptx
+[2026-06-06T04:19:49.808955+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-baltimore-maryland: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-baltimore-maryland.pptx
+[2026-06-06T04:19:49.809032+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-baltimore-maryland.md
+[2026-06-06T04:19:49.835035+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-baltimore-maryland
+[2026-06-06T04:19:51.839312+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:51.840179+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-boston-massachusetts
+[2026-06-06T04:19:55.025823+00:00] After materialize: 100 / 4028w ([])
+[2026-06-06T04:19:55.027136+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-boston-massachusetts (3215 words)
+[2026-06-06T04:19:55.029908+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-boston-massachusetts (3215 words)
+[2026-06-06T04:19:55.098777+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-boston-massachusetts: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-boston-massachusetts.pptx
+[2026-06-06T04:19:55.170693+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-boston-massachusetts: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-boston-massachusetts.pptx
+[2026-06-06T04:19:55.170781+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-boston-massachusetts.md
+[2026-06-06T04:19:55.199829+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-boston-massachusetts
+[2026-06-06T04:19:57.203566+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:19:57.204337+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-detroit-michigan
+[2026-06-06T04:20:00.355130+00:00] After materialize: 100 / 4028w ([])
+[2026-06-06T04:20:00.416974+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-detroit-michigan (3215 words)
+[2026-06-06T04:20:00.512278+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-detroit-michigan (3215 words)
+[2026-06-06T04:20:00.578484+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-detroit-michigan: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-detroit-michigan.pptx
+[2026-06-06T04:20:00.642659+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-detroit-michigan: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-detroit-michigan.pptx
+[2026-06-06T04:20:00.642742+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-detroit-michigan.md
+[2026-06-06T04:20:00.670058+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-detroit-michigan
+[2026-06-06T04:20:02.674137+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:02.674913+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota
+[2026-06-06T04:20:05.859241+00:00] After materialize: 100 / 4023w ([])
+[2026-06-06T04:20:05.860510+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota (3212 words)
+[2026-06-06T04:20:05.863557+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota (3212 words)
+[2026-06-06T04:20:05.932117+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota.pptx
+[2026-06-06T04:20:06.004859+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota.pptx
+[2026-06-06T04:20:06.004945+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota.md
+[2026-06-06T04:20:06.032176+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota
+[2026-06-06T04:20:08.035901+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:08.036719+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-jackson-mississippi
+[2026-06-06T04:20:11.223811+00:00] After materialize: 100 / 4013w ([])
+[2026-06-06T04:20:11.225099+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-jackson-mississippi (3195 words)
+[2026-06-06T04:20:11.229153+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-jackson-mississippi (3195 words)
+[2026-06-06T04:20:11.295414+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-jackson-mississippi: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-jackson-mississippi.pptx
+[2026-06-06T04:20:11.360160+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-jackson-mississippi: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-jackson-mississippi.pptx
+[2026-06-06T04:20:11.360240+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-jackson-mississippi.md
+[2026-06-06T04:20:11.386446+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-jackson-mississippi
+[2026-06-06T04:20:11.386805+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-jackson-mississippi.json
+[2026-06-06T04:20:11.390128+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-baltimore-maryland', 'fmcsa-violations-after-a-truck-crash-in-boston-massachusetts', 'fmcsa-violations-after-a-truck-crash-in-detroit-michigan', 'fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota', 'fmcsa-violations-after-a-truck-crash-in-jackson-mississippi']
+[2026-06-06T04:20:11.395309+00:00] Daily ledger (UTC): 25/50 states, 25 EN posts
+[2026-06-06T04:20:11.639282+00:00]  "tail": "orida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:20:11.533829+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-baltimore-maryland\",\n      \"fmcsa-violations-after-a-truck-crash-in-boston-massachusetts\",\n      \"fmcsa-violations-after-a-truck-crash-in-detroit-michigan\",\n      \"fmcsa-violations-after-a-truck-crash-in-minneapolis-minnesota\",\n      \"fmcsa-violations-after-a-truck-crash-in-jackson-mississippi\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:20:11.639426+00:00] WARN organic_crush exit 1
+[2026-06-06T04:20:11.744303+00:00] Inject for 26 states not yet published today
+[2026-06-06T04:20:11.745753+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:20:11.746907+00:00] Daily 50-state rotation (2026-06-06): +0 new, 25 re-prioritized, 25 at queue front
+[2026-06-06T04:20:11.747456+00:00] Daily 50-state injection complete
+[2026-06-06T04:20:11.822708+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:20:11.824340+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:20:11.826355+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:20:11.826975+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:20:11.829902+00:00] States already published today (UTC): 25 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi']
+[2026-06-06T04:20:11.831963+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:11.832716+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri
+[2026-06-06T04:20:15.037384+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:20:15.038850+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri (3211 words)
+[2026-06-06T04:20:15.041614+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri (3211 words)
+[2026-06-06T04:20:15.160865+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri.pptx
+[2026-06-06T04:20:15.227153+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri.pptx
+[2026-06-06T04:20:15.227225+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri.md
+[2026-06-06T04:20:15.253198+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri
+[2026-06-06T04:20:17.257650+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:17.258418+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-billings-montana
+[2026-06-06T04:20:20.443592+00:00] After materialize: 100 / 4013w ([])
+[2026-06-06T04:20:20.444805+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-billings-montana (3199 words)
+[2026-06-06T04:20:20.447560+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-billings-montana (3199 words)
+[2026-06-06T04:20:20.516618+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-billings-montana: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-billings-montana.pptx
+[2026-06-06T04:20:20.585415+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-billings-montana: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-billings-montana.pptx
+[2026-06-06T04:20:20.585494+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-billings-montana.md
+[2026-06-06T04:20:20.612103+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-billings-montana
+[2026-06-06T04:20:22.615883+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:22.616676+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-omaha-nebraska
+[2026-06-06T04:20:25.763067+00:00] After materialize: 100 / 4013w ([])
+[2026-06-06T04:20:25.764323+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-omaha-nebraska (3199 words)
+[2026-06-06T04:20:25.767087+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-omaha-nebraska (3199 words)
+[2026-06-06T04:20:25.834804+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-omaha-nebraska: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-omaha-nebraska.pptx
+[2026-06-06T04:20:25.899335+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-omaha-nebraska: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-omaha-nebraska.pptx
+[2026-06-06T04:20:25.899414+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-omaha-nebraska.md
+[2026-06-06T04:20:25.925594+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-omaha-nebraska
+[2026-06-06T04:20:27.929899+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:27.930706+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada
+[2026-06-06T04:20:31.119869+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:20:31.121064+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada (3215 words)
+[2026-06-06T04:20:31.144566+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada (3215 words)
+[2026-06-06T04:20:31.212775+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada.pptx
+[2026-06-06T04:20:31.284128+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada.pptx
+[2026-06-06T04:20:31.284207+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada.md
+[2026-06-06T04:20:31.310472+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada
+[2026-06-06T04:20:33.314217+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:33.314998+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire
+[2026-06-06T04:20:36.594216+00:00] After materialize: 100 / 4043w ([])
+[2026-06-06T04:20:36.595507+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire (3231 words)
+[2026-06-06T04:20:36.598280+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire (3231 words)
+[2026-06-06T04:20:36.664461+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire.pptx
+[2026-06-06T04:20:36.729199+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire.pptx
+[2026-06-06T04:20:36.729289+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire.md
+[2026-06-06T04:20:36.759722+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire
+[2026-06-06T04:20:36.760097+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire.json
+[2026-06-06T04:20:36.763324+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri', 'fmcsa-violations-after-a-truck-crash-in-billings-montana', 'fmcsa-violations-after-a-truck-crash-in-omaha-nebraska', 'fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada', 'fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire']
+[2026-06-06T04:20:36.768477+00:00] Daily ledger (UTC): 30/50 states, 30 EN posts
+[2026-06-06T04:20:37.016976+00:00]  "tail": "n Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:20:36.907123+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-kansas-city-missouri\",\n      \"fmcsa-violations-after-a-truck-crash-in-billings-montana\",\n      \"fmcsa-violations-after-a-truck-crash-in-omaha-nebraska\",\n      \"fmcsa-violations-after-a-truck-crash-in-las-vegas-nevada\",\n      \"fmcsa-violations-after-a-truck-crash-in-manchester-new-hampshire\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:20:37.017121+00:00] WARN organic_crush exit 1
+[2026-06-06T04:20:37.119809+00:00] Inject for 21 states not yet published today
+[2026-06-06T04:20:37.121269+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:20:37.122294+00:00] Daily 50-state rotation (2026-06-06): +0 new, 20 re-prioritized, 20 at queue front
+[2026-06-06T04:20:37.122862+00:00] Daily 50-state injection complete
+[2026-06-06T04:20:37.196870+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:20:37.198496+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:20:37.200568+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:20:37.201171+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:20:37.204166+00:00] States already published today (UTC): 30 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire']
+[2026-06-06T04:20:37.206303+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:37.207073+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-newark-new-jersey
+[2026-06-06T04:20:40.409382+00:00] After materialize: 100 / 4057w ([])
+[2026-06-06T04:20:40.442725+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-newark-new-jersey (3247 words)
+[2026-06-06T04:20:40.445521+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-newark-new-jersey (3247 words)
+[2026-06-06T04:20:40.564507+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-newark-new-jersey: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-newark-new-jersey.pptx
+[2026-06-06T04:20:40.630680+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-newark-new-jersey: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-newark-new-jersey.pptx
+[2026-06-06T04:20:40.630751+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-newark-new-jersey.md
+[2026-06-06T04:20:40.657060+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-newark-new-jersey
+[2026-06-06T04:20:42.661599+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:42.662376+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico
+[2026-06-06T04:20:45.811676+00:00] After materialize: 100 / 4043w ([])
+[2026-06-06T04:20:45.812950+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico (3227 words)
+[2026-06-06T04:20:45.823982+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico (3227 words)
+[2026-06-06T04:20:45.891491+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico.pptx
+[2026-06-06T04:20:45.959938+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico.pptx
+[2026-06-06T04:20:45.960015+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico.md
+[2026-06-06T04:20:45.987063+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico
+[2026-06-06T04:20:47.990723+00:00] Quality 30 / 654w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:47.991497+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york
+[2026-06-06T04:20:51.198582+00:00] After materialize: 100 / 4088w ([])
+[2026-06-06T04:20:51.199841+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york (3275 words)
+[2026-06-06T04:20:51.202617+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york (3275 words)
+[2026-06-06T04:20:51.269155+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york.pptx
+[2026-06-06T04:20:51.333075+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york.pptx
+[2026-06-06T04:20:51.333162+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york.md
+[2026-06-06T04:20:51.359867+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york
+[2026-06-06T04:20:53.364291+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:53.365094+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina
+[2026-06-06T04:20:56.528963+00:00] After materialize: 100 / 4053w ([])
+[2026-06-06T04:20:56.530224+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina (3237 words)
+[2026-06-06T04:20:56.532960+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina (3237 words)
+[2026-06-06T04:20:56.600247+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina.pptx
+[2026-06-06T04:20:56.670637+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina.pptx
+[2026-06-06T04:20:56.670726+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina.md
+[2026-06-06T04:20:56.698457+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina
+[2026-06-06T04:20:58.702225+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:20:58.703006+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota
+[2026-06-06T04:21:01.893299+00:00] After materialize: 100 / 4065w ([])
+[2026-06-06T04:21:01.894632+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota (3242 words)
+[2026-06-06T04:21:01.897365+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota (3242 words)
+[2026-06-06T04:21:01.963166+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota.pptx
+[2026-06-06T04:21:02.027689+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota.pptx
+[2026-06-06T04:21:02.027773+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota.md
+[2026-06-06T04:21:02.054334+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota
+[2026-06-06T04:21:02.054705+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota.json
+[2026-06-06T04:21:02.057904+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-newark-new-jersey', 'fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico', 'fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york', 'fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina', 'fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota']
+[2026-06-06T04:21:02.063101+00:00] Daily ledger (UTC): 35/50 states, 35 EN posts
+[2026-06-06T04:21:02.304017+00:00]  "tail": "p by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:21:02.199022+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-newark-new-jersey\",\n      \"fmcsa-violations-after-a-truck-crash-in-albuquerque-new-mexico\",\n      \"fmcsa-violations-after-a-truck-crash-in-new-york-city-new-york\",\n      \"fmcsa-violations-after-a-truck-crash-in-charlotte-north-carolina\",\n      \"fmcsa-violations-after-a-truck-crash-in-fargo-north-dakota\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:21:02.304129+00:00] WARN organic_crush exit 1
+[2026-06-06T04:21:02.403184+00:00] Inject for 16 states not yet published today
+[2026-06-06T04:21:02.404648+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:21:02.405553+00:00] Daily 50-state rotation (2026-06-06): +0 new, 15 re-prioritized, 15 at queue front
+[2026-06-06T04:21:02.406106+00:00] Daily 50-state injection complete
+[2026-06-06T04:21:02.479338+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:21:02.480989+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:21:02.483004+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:21:02.483629+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:21:02.486918+00:00] States already published today (UTC): 35 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota']
+[2026-06-06T04:21:02.489019+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:02.489768+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-columbus-ohio
+[2026-06-06T04:21:05.640896+00:00] After materialize: 100 / 4015w ([])
+[2026-06-06T04:21:05.642326+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-columbus-ohio (3199 words)
+[2026-06-06T04:21:05.645019+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-columbus-ohio (3199 words)
+[2026-06-06T04:21:05.763339+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-columbus-ohio: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-columbus-ohio.pptx
+[2026-06-06T04:21:05.830655+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-columbus-ohio: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-columbus-ohio.pptx
+[2026-06-06T04:21:05.830737+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-columbus-ohio.md
+[2026-06-06T04:21:05.857184+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-columbus-ohio
+[2026-06-06T04:21:07.861887+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:07.862679+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma
+[2026-06-06T04:21:11.075621+00:00] After materialize: 100 / 4026w ([])
+[2026-06-06T04:21:11.076921+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma (3215 words)
+[2026-06-06T04:21:11.079619+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma (3215 words)
+[2026-06-06T04:21:11.147314+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma.pptx
+[2026-06-06T04:21:11.218600+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma.pptx
+[2026-06-06T04:21:11.218686+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma.md
+[2026-06-06T04:21:11.245204+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma
+[2026-06-06T04:21:13.249070+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:13.249857+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-portland-oregon
+[2026-06-06T04:21:16.473616+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:21:16.474894+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-portland-oregon (3197 words)
+[2026-06-06T04:21:16.477700+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-portland-oregon (3197 words)
+[2026-06-06T04:21:16.544690+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-portland-oregon: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-portland-oregon.pptx
+[2026-06-06T04:21:16.610422+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-portland-oregon: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-portland-oregon.pptx
+[2026-06-06T04:21:16.610509+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-portland-oregon.md
+[2026-06-06T04:21:16.637482+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-portland-oregon
+[2026-06-06T04:21:18.642073+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:18.642853+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania
+[2026-06-06T04:21:21.848024+00:00] After materialize: 100 / 4028w ([])
+[2026-06-06T04:21:21.854962+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania (3215 words)
+[2026-06-06T04:21:21.857696+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania (3215 words)
+[2026-06-06T04:21:21.925159+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania.pptx
+[2026-06-06T04:21:21.995856+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania.pptx
+[2026-06-06T04:21:21.995945+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania.md
+[2026-06-06T04:21:22.022660+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania
+[2026-06-06T04:21:24.026789+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:24.027583+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-providence-rhode-island
+[2026-06-06T04:21:27.304755+00:00] After materialize: 100 / 4043w ([])
+[2026-06-06T04:21:27.306034+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-providence-rhode-island (3227 words)
+[2026-06-06T04:21:27.308779+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-providence-rhode-island (3227 words)
+[2026-06-06T04:21:27.375215+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-providence-rhode-island: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-providence-rhode-island.pptx
+[2026-06-06T04:21:27.439519+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-providence-rhode-island: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-providence-rhode-island.pptx
+[2026-06-06T04:21:27.439620+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-providence-rhode-island.md
+[2026-06-06T04:21:27.466006+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-providence-rhode-island
+[2026-06-06T04:21:27.466359+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-providence-rhode-island.json
+[2026-06-06T04:21:27.469754+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-columbus-ohio', 'fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma', 'fmcsa-violations-after-a-truck-crash-in-portland-oregon', 'fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania', 'fmcsa-violations-after-a-truck-crash-in-providence-rhode-island']
+[2026-06-06T04:21:27.475127+00:00] Daily ledger (UTC): 40/50 states, 40 EN posts
+[2026-06-06T04:21:27.715100+00:00]  "tail": "a step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:21:27.611207+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-columbus-ohio\",\n      \"fmcsa-violations-after-a-truck-crash-in-oklahoma-city-oklahoma\",\n      \"fmcsa-violations-after-a-truck-crash-in-portland-oregon\",\n      \"fmcsa-violations-after-a-truck-crash-in-philadelphia-pennsylvania\",\n      \"fmcsa-violations-after-a-truck-crash-in-providence-rhode-island\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:21:27.715210+00:00] WARN organic_crush exit 1
+[2026-06-06T04:21:27.814479+00:00] Inject for 11 states not yet published today
+[2026-06-06T04:21:27.816002+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:21:27.816773+00:00] Daily 50-state rotation (2026-06-06): +0 new, 10 re-prioritized, 10 at queue front
+[2026-06-06T04:21:27.817314+00:00] Daily 50-state injection complete
+[2026-06-06T04:21:27.889815+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:21:27.891426+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:21:27.893531+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:21:27.894152+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:21:27.897360+00:00] States already published today (UTC): 40 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island']
+[2026-06-06T04:21:27.899425+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:27.900185+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina
+[2026-06-06T04:21:31.060905+00:00] After materialize: 100 / 4045w ([])
+[2026-06-06T04:21:31.062354+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina (3231 words)
+[2026-06-06T04:21:31.066001+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina (3231 words)
+[2026-06-06T04:21:31.183305+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina.pptx
+[2026-06-06T04:21:31.249486+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina.pptx
+[2026-06-06T04:21:31.249590+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina.md
+[2026-06-06T04:21:31.276103+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina
+[2026-06-06T04:21:33.280791+00:00] Quality 30 / 649w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:33.281585+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota
+[2026-06-06T04:21:36.498932+00:00] After materialize: 100 / 4054w ([])
+[2026-06-06T04:21:36.500125+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota (3247 words)
+[2026-06-06T04:21:36.502870+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota (3247 words)
+[2026-06-06T04:21:36.570921+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota.pptx
+[2026-06-06T04:21:36.640170+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota.pptx
+[2026-06-06T04:21:36.640258+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota.md
+[2026-06-06T04:21:36.668115+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota
+[2026-06-06T04:21:38.672728+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:38.673501+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-nashville-tennessee
+[2026-06-06T04:21:41.867985+00:00] After materialize: 100 / 4024w ([])
+[2026-06-06T04:21:41.869192+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-nashville-tennessee (3197 words)
+[2026-06-06T04:21:41.871913+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-nashville-tennessee (3197 words)
+[2026-06-06T04:21:41.937853+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-nashville-tennessee: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-nashville-tennessee.pptx
+[2026-06-06T04:21:42.001856+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-nashville-tennessee: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-nashville-tennessee.pptx
+[2026-06-06T04:21:42.001930+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-nashville-tennessee.md
+[2026-06-06T04:21:42.028062+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-nashville-tennessee
+[2026-06-06T04:21:44.032355+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:44.033130+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-houston-texas
+[2026-06-06T04:21:47.210749+00:00] After materialize: 100 / 4031w ([])
+[2026-06-06T04:21:47.211933+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-houston-texas (3204 words)
+[2026-06-06T04:21:47.214679+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-houston-texas (3204 words)
+[2026-06-06T04:21:47.282310+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-houston-texas: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-houston-texas.pptx
+[2026-06-06T04:21:47.352479+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-houston-texas: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-houston-texas.pptx
+[2026-06-06T04:21:47.352591+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-houston-texas.md
+[2026-06-06T04:21:47.378901+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-houston-texas
+[2026-06-06T04:21:49.383324+00:00] Quality 30 / 649w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:49.384109+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah
+[2026-06-06T04:21:52.576122+00:00] After materialize: 100 / 4056w ([])
+[2026-06-06T04:21:52.577415+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah (3242 words)
+[2026-06-06T04:21:52.580186+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah (3242 words)
+[2026-06-06T04:21:52.646571+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah.pptx
+[2026-06-06T04:21:52.710790+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah.pptx
+[2026-06-06T04:21:52.710877+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah.md
+[2026-06-06T04:21:52.737049+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah
+[2026-06-06T04:21:52.737361+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah.json
+[2026-06-06T04:21:52.740728+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina', 'fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota', 'fmcsa-violations-after-a-truck-crash-in-nashville-tennessee', 'fmcsa-violations-after-a-truck-crash-in-houston-texas', 'fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah']
+[2026-06-06T04:21:52.748865+00:00] Daily ledger (UTC): 45/50 states, 45 EN posts
+[2026-06-06T04:21:52.992920+00:00]  "tail": "step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:21:52.887168+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-charleston-south-carolina\",\n      \"fmcsa-violations-after-a-truck-crash-in-sioux-falls-south-dakota\",\n      \"fmcsa-violations-after-a-truck-crash-in-nashville-tennessee\",\n      \"fmcsa-violations-after-a-truck-crash-in-houston-texas\",\n      \"fmcsa-violations-after-a-truck-crash-in-salt-lake-city-utah\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:21:52.993029+00:00] WARN organic_crush exit 1
+[2026-06-06T04:21:53.095031+00:00] Inject for 6 states not yet published today
+[2026-06-06T04:21:53.096480+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:21:53.097104+00:00] Daily 50-state rotation (2026-06-06): +0 new, 5 re-prioritized, 5 at queue front
+[2026-06-06T04:21:53.097651+00:00] Daily 50-state injection complete
+[2026-06-06T04:21:53.170829+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T04:21:53.172466+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T04:21:53.174616+00:00] Daily 50-state rotation (2026-06-06): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-06T04:21:53.175219+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T04:21:53.178582+00:00] States already published today (UTC): 45 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah']
+[2026-06-06T04:21:53.180674+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:53.181459+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-burlington-vermont
+[2026-06-06T04:21:56.380166+00:00] After materialize: 100 / 4013w ([])
+[2026-06-06T04:21:56.381622+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-burlington-vermont (3199 words)
+[2026-06-06T04:21:56.384269+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-burlington-vermont (3199 words)
+[2026-06-06T04:21:56.502730+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-burlington-vermont: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-burlington-vermont.pptx
+[2026-06-06T04:21:56.569333+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-burlington-vermont: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-burlington-vermont.pptx
+[2026-06-06T04:21:56.569408+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-burlington-vermont.md
+[2026-06-06T04:21:56.595656+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-burlington-vermont
+[2026-06-06T04:21:58.600458+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:21:58.601252+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia
+[2026-06-06T04:22:01.777566+00:00] After materialize: 100 / 4034w ([])
+[2026-06-06T04:22:01.778835+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia (3221 words)
+[2026-06-06T04:22:01.781598+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia (3221 words)
+[2026-06-06T04:22:01.849422+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia.pptx
+[2026-06-06T04:22:01.917994+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia.pptx
+[2026-06-06T04:22:01.918070+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia.md
+[2026-06-06T04:22:01.945008+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia
+[2026-06-06T04:22:03.949171+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:22:03.949966+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-seattle-washington
+[2026-06-06T04:22:07.136162+00:00] After materialize: 100 / 4013w ([])
+[2026-06-06T04:22:07.137432+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-seattle-washington (3195 words)
+[2026-06-06T04:22:07.140154+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-seattle-washington (3195 words)
+[2026-06-06T04:22:07.309713+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-seattle-washington: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-seattle-washington.pptx
+[2026-06-06T04:22:07.374246+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-seattle-washington: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-seattle-washington.pptx
+[2026-06-06T04:22:07.374318+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-seattle-washington.md
+[2026-06-06T04:22:07.400565+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-seattle-washington
+[2026-06-06T04:22:09.404959+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:22:09.405747+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia
+[2026-06-06T04:22:12.583118+00:00] After materialize: 100 / 4054w ([])
+[2026-06-06T04:22:12.589106+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia (3229 words)
+[2026-06-06T04:22:12.591807+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia (3229 words)
+[2026-06-06T04:22:12.659185+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia.pptx
+[2026-06-06T04:22:12.731883+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia.pptx
+[2026-06-06T04:22:12.731960+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia.md
+[2026-06-06T04:22:12.758400+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia
+[2026-06-06T04:22:14.762481+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T04:22:14.763299+00:00] Materializing template → platinum for fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin
+[2026-06-06T04:22:17.952296+00:00] After materialize: 100 / 4013w ([])
+[2026-06-06T04:22:17.953608+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin (3199 words)
+[2026-06-06T04:22:17.956335+00:00] Spanish OK for fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin (3199 words)
+[2026-06-06T04:22:18.021811+00:00] PPT EN fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin: 14 slides (score 100) → /blog/presentations/fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin.pptx
+[2026-06-06T04:22:18.085449+00:00] PPT ES fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin: 14 slides (score 100) → /blog/presentations/es/fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin.pptx
+[2026-06-06T04:22:18.085521+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin.md
+[2026-06-06T04:22:18.111562+00:00] IndexNow queued for fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin
+[2026-06-06T04:22:18.111850+00:00] Syndication → sites/semitruckmatch/content/syndication/fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin.json
+[2026-06-06T04:22:18.115167+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['fmcsa-violations-after-a-truck-crash-in-burlington-vermont', 'fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia', 'fmcsa-violations-after-a-truck-crash-in-seattle-washington', 'fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia', 'fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin']
+[2026-06-06T04:22:18.120720+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-06-06T04:22:18.357738+00:00]  "tail": "ep by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T04:22:18.256580+00:00\",\n  \"stats\": {\n    \"enPosts\": 846,\n    \"esPosts\": 846,\n    \"platinumEn\": 827,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"fmcsa-violations-after-a-truck-crash-in-burlington-vermont\",\n      \"fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia\",\n      \"fmcsa-violations-after-a-truck-crash-in-seattle-washington\",\n      \"fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia\",\n      \"fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T04:22:18.357841+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-06-06
+
+Round 1: 0/50 states — need 50
+After round 1: 5/50 states
+
+Round 2: 5/50 states — need 45
+After round 2: 10/50 states
+
+Round 3: 10/50 states — need 40
+After round 3: 15/50 states
+
+Round 4: 15/50 states — need 35
+After round 4: 20/50 states
+
+Round 5: 20/50 states — need 30
+After round 5: 25/50 states
+
+Round 6: 25/50 states — need 25
+After round 6: 30/50 states
+
+Round 7: 30/50 states — need 20
+After round 7: 35/50 states
+
+Round 8: 35/50 states — need 15
+After round 8: 40/50 states
+
+Round 9: 40/50 states — need 10
+After round 9: 45/50 states
+
+Round 10: 45/50 states — need 5
+After round 10: 50/50 states
+
+Round 11: 50/50 states — need 0
+Done — 50-state SLA met.
