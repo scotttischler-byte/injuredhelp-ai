@@ -792,11 +792,14 @@
     "truck-accident-in-philadelphia-pennsylvania-steps-legal-help-2026",
     "should-you-hire-a-lawyer-after-a-providence-crash-rhode-island-2026",
     "should-you-hire-a-lawyer-after-a-charleston-crash-south-carolina-2026",
-    "severe-injury-after-a-car-accident-in-sioux-falls-south-dakota-2026"
+    "severe-injury-after-a-car-accident-in-sioux-falls-south-dakota-2026",
+    "should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026",
+    "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06",
+    "severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026"
   ],
   "stats": {
-    "total_published": 791,
-    "last_run_at": "2026-06-06T11:28:44.729543+00:00"
+    "total_published": 794,
+    "last_run_at": "2026-06-06T13:47:10.027715+00:00"
   },
   "pending": [
     {
@@ -1307,41 +1310,41 @@
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Nashville Crash? (Tennessee 2026)",
-      "city": "Nashville",
-      "state": "Tennessee",
-      "place_slug": "nashville",
-      "priority": -2,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026",
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-06)",
-      "city": "Houston",
-      "state": "Texas",
-      "place_slug": "houston",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Car Accident in Salt Lake City, Utah (2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Providence, Rhode Island \u2014 What to Know (2026)",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "place_slug": "providence",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026",
+      "slug": "whiplash-after-a-car-accident-in-providence-rhode-island-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Charleston, South Carolina \u2014 What to Know (2026)",
+      "city": "Charleston",
+      "state": "South Carolina",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-charleston-south-carolina-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Sioux Falls Crash? (South Dakota 2026)",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "place_slug": "sioux-falls",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "should-you-hire-a-lawyer-after-a-sioux-falls-crash-south-dakota-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -43384,17 +43387,6 @@
       "slug": "hit-by-an-uninsured-driver-in-providence-rhode-island-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Providence, Rhode Island \u2014 What to Know (2026)",
-      "city": "Providence",
-      "state": "Rhode Island",
-      "place_slug": "providence",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-providence-rhode-island-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Warwick, Rhode Island (2026)",
       "city": "Warwick",
@@ -43525,17 +43517,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-charleston-south-carolina-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Charleston, South Carolina \u2014 What to Know (2026)",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "place_slug": "charleston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-charleston-south-carolina-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -44108,17 +44089,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-rapid-city-south-dakota-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Sioux Falls Crash? (South Dakota 2026)",
-      "city": "Sioux Falls",
-      "state": "South Dakota",
-      "place_slug": "sioux-falls",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-sioux-falls-crash-south-dakota-2026"
     },
     {
       "angle": "rideshare",

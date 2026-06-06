@@ -6745,3 +6745,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-06T11:28:45.090989+00:00] WARN organic_crush exit 1
+[2026-06-06T13:46:48.972460+00:00] Inject for 9 states not yet published today
+[2026-06-06T13:46:48.974169+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T13:46:49.015920+00:00] Daily 50-state rotation (2026-06-06): +0 new, 8 re-prioritized, 8 at queue front
+[2026-06-06T13:46:49.048230+00:00] Daily 50-state injection complete
+[2026-06-06T13:46:49.154047+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-06T13:46:49.156218+00:00] Loaded 239 cities from cities.ts
+[2026-06-06T13:46:49.212150+00:00] Daily 50-state rotation (2026-06-06): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-06T13:46:49.246146+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-06T13:46:49.251701+00:00] States already published today (UTC): 42 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota']
+[2026-06-06T13:46:49.255109+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T13:46:49.256120+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026
+[2026-06-06T13:46:55.555146+00:00] After materialize: 100 / 3885w ([])
+[2026-06-06T13:46:55.557043+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026 (3195 words)
+[2026-06-06T13:46:55.560470+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026 (3195 words)
+[2026-06-06T13:46:55.727865+00:00] PPT EN should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026.pptx
+[2026-06-06T13:46:55.815077+00:00] PPT ES should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026.pptx
+[2026-06-06T13:46:55.815179+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026.md
+[2026-06-06T13:46:55.848920+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026
+[2026-06-06T13:46:57.900370+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T13:46:57.901354+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06
+[2026-06-06T13:47:02.777825+00:00] After materialize: 100 / 3920w ([])
+[2026-06-06T13:47:02.779483+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06 (3245 words)
+[2026-06-06T13:47:02.782991+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06 (3245 words)
+[2026-06-06T13:47:02.870856+00:00] PPT EN what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06.pptx
+[2026-06-06T13:47:02.958354+00:00] PPT ES what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06.pptx
+[2026-06-06T13:47:02.958459+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06.md
+[2026-06-06T13:47:02.992489+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06
+[2026-06-06T13:47:05.039505+00:00] Quality 30 / 629w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-06T13:47:05.040534+00:00] Materializing template → platinum for severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026
+[2026-06-06T13:47:09.815854+00:00] After materialize: 100 / 3993w ([])
+[2026-06-06T13:47:09.817456+00:00] Spanish OK for severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026 (3211 words)
+[2026-06-06T13:47:09.820938+00:00] Spanish OK for severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026 (3211 words)
+[2026-06-06T13:47:09.907838+00:00] PPT EN severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026.pptx
+[2026-06-06T13:47:09.994002+00:00] PPT ES severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026.pptx
+[2026-06-06T13:47:09.994104+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026.md
+[2026-06-06T13:47:10.027308+00:00] IndexNow queued for severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026
+[2026-06-06T13:47:10.027656+00:00] Syndication → content/syndication/severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026.json
+[2026-06-06T13:47:10.072981+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026', 'what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06', 'severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026']
+[2026-06-06T13:47:10.084889+00:00] Daily ledger (UTC): 45/50 states, 45 EN posts
+[2026-06-06T13:47:10.392790+00:00] de\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-06T13:47:10.261830+00:00\",\n  \"stats\": {\n    \"enPosts\": 888,\n    \"esPosts\": 888,\n    \"platinumEn\": 869,\n    \"lastUpdated\": \"2026-06-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"should-you-hire-a-lawyer-after-a-nashville-crash-tennessee-2026\",\n      \"what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-06\",\n      \"severe-injury-after-a-car-accident-in-salt-lake-city-utah-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-06T13:47:10.392917+00:00] WARN organic_crush exit 1
