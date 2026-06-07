@@ -1,23 +1,23 @@
 {
-  "at": "2026-06-07T10:31:21.166897+00:00",
+  "at": "2026-06-07T11:18:07.861046+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
       "ok": false,
       "code": 2,
-      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026 hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026\n"
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: should-you-hire-a-lawyer-after-a-burlington-crash-vermont-2026 severe-injury-after-a-car-accident-in-virginia-beach-virginia-2026 severe-injury-after-a-car-accident-in-seattle-washington-2026 should-you-hire-a-lawyer-after-a-charleston-crash-west-virginia-2026\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fresno-california-family-guide_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/should-you-hire-a-lawyer-after-a-charleston-crash-west-virginia-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-07_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/hit-by-an-uninsured-driver-in-philadelphia-pennsylvania-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T10:31:21.311035+00:00\",\n  \"stats\": {\n    \"enPosts\": 927,\n    \"esPosts\": 927,\n    \"platinumEn\": 908,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026\",\n      \"should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026\",\n      \"hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "te] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T11:18:08.006937+00:00\",\n  \"stats\": {\n    \"enPosts\": 942,\n    \"esPosts\": 942,\n    \"platinumEn\": 923,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"should-you-hire-a-lawyer-after-a-salt-lake-city-crash-utah-2026\",\n      \"should-you-hire-a-lawyer-after-a-burlington-crash-vermont-2026\",\n      \"severe-injury-after-a-car-accident-in-virginia-beach-virginia-2026\",\n      \"severe-injury-after-a-car-accident-in-seattle-washington-2026\",\n      \"should-you-hire-a-lawyer-after-a-charleston-crash-west-virginia-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
