@@ -7141,3 +7141,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-07T07:14:21.918076+00:00] WARN organic_crush exit 1
+[2026-06-07T07:59:54.438295+00:00] Inject for 33 states not yet published today
+[2026-06-07T07:59:54.440033+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:59:54.492657+00:00] Daily 50-state rotation (2026-06-07): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-07T07:59:54.526160+00:00] Daily 50-state injection complete
+[2026-06-07T07:59:54.634681+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T07:59:54.636818+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:59:54.692325+00:00] Daily 50-state rotation (2026-06-07): +1 new, 48 re-prioritized, 49 at queue front
+[2026-06-07T07:59:54.729128+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T07:59:54.734741+00:00] States already published today (UTC): 18 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky']
+[2026-06-07T07:59:54.738132+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:59:54.739171+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026
+[2026-06-07T08:00:00.954134+00:00] After materialize: 100 / 3953w ([])
+[2026-06-07T08:00:00.956062+00:00] Spanish OK for whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026 (3260 words)
+[2026-06-07T08:00:00.959741+00:00] Spanish OK for whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026 (3260 words)
+[2026-06-07T08:00:01.128148+00:00] PPT EN whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026.pptx
+[2026-06-07T08:00:01.215359+00:00] PPT ES whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026.pptx
+[2026-06-07T08:00:01.215464+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026.md
+[2026-06-07T08:00:01.248825+00:00] IndexNow queued for whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026
+[2026-06-07T08:00:03.300261+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T08:00:03.301294+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026
+[2026-06-07T08:00:08.239782+00:00] After materialize: 100 / 3953w ([])
+[2026-06-07T08:00:08.241420+00:00] Spanish OK for whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026 (3246 words)
+[2026-06-07T08:00:08.244978+00:00] Spanish OK for whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026 (3246 words)
+[2026-06-07T08:00:08.331190+00:00] PPT EN whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026.pptx
+[2026-06-07T08:00:08.417138+00:00] PPT ES whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026.pptx
+[2026-06-07T08:00:08.417233+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026.md
+[2026-06-07T08:00:08.450576+00:00] IndexNow queued for whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026
+[2026-06-07T08:00:10.499147+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T08:00:10.500194+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026
+[2026-06-07T08:00:15.487278+00:00] After materialize: 100 / 3961w ([])
+[2026-06-07T08:00:15.489009+00:00] Spanish OK for whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026 (3254 words)
+[2026-06-07T08:00:15.492631+00:00] Spanish OK for whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026 (3254 words)
+[2026-06-07T08:00:15.581478+00:00] PPT EN whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026.pptx
+[2026-06-07T08:00:15.670157+00:00] PPT ES whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026.pptx
+[2026-06-07T08:00:15.670259+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026.md
+[2026-06-07T08:00:15.704396+00:00] IndexNow queued for whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026
+[2026-06-07T08:00:15.704842+00:00] Syndication → content/syndication/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026.json
+[2026-06-07T08:00:15.751947+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026', 'whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026', 'whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026']
+[2026-06-07T08:00:15.764087+00:00] Daily ledger (UTC): 21/50 states, 21 EN posts
+[2026-06-07T08:00:16.074956+00:00] 6\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T08:00:15.943580+00:00\",\n  \"stats\": {\n    \"enPosts\": 914,\n    \"esPosts\": 914,\n    \"platinumEn\": 895,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T08:00:16.075070+00:00] WARN organic_crush exit 1

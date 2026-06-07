@@ -818,11 +818,14 @@
     "whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026",
     "whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026",
     "whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026",
-    "whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026"
+    "whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026",
+    "whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026",
+    "whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026",
+    "whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026"
   ],
   "stats": {
-    "total_published": 817,
-    "last_run_at": "2026-06-07T07:14:21.576727+00:00"
+    "total_published": 820,
+    "last_run_at": "2026-06-07T08:00:15.704904+00:00"
   },
   "pending": [
     {
@@ -982,41 +985,67 @@
       "top_city": true
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in New Orleans, Louisiana \u2014 What to Know (2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Chicago, Illinois \u2014 Top City Guide (2026-06-07)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-06-07"
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Indianapolis, Indiana: Steps & Legal Help (2026)",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "place_slug": "indianapolis",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-new-orleans-louisiana-what-to-know-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-indianapolis-indiana-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Portland, Maine \u2014 What to Know (2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Des Moines, Iowa: Steps & Legal Help (2026)",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "place_slug": "des-moines",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-portland-maine-what-to-know-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-des-moines-iowa-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Baltimore, Maryland \u2014 What to Know (2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Wichita, Kansas: Steps & Legal Help (2026)",
+      "city": "Wichita",
+      "state": "Kansas",
+      "place_slug": "wichita",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-wichita-kansas-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Louisville, Kentucky: Steps & Legal Help (2026)",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "place_slug": "louisville",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-louisville-kentucky-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -30416,17 +30445,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Indianapolis, Indiana: Steps & Legal Help (2026)",
-      "city": "Indianapolis",
-      "state": "Indiana",
-      "place_slug": "indianapolis",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-indianapolis-indiana-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in South Bend, Indiana: Steps & Legal Help (2026)",
       "city": "South Bend",
       "state": "Indiana",
@@ -30457,17 +30475,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-davenport-iowa-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Des Moines, Iowa: Steps & Legal Help (2026)",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "place_slug": "des-moines",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-des-moines-iowa-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
@@ -30515,17 +30522,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Wichita, Kansas: Steps & Legal Help (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-wichita-kansas-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Bowling Green, Kentucky: Steps & Legal Help (2026)",
       "city": "Bowling Green",
       "state": "Kentucky",
@@ -30545,17 +30541,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-lexington-kentucky-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Louisville, Kentucky: Steps & Legal Help (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-louisville-kentucky-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
