@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-06T23:06:20.079620+00:00",
+  "updatedAt": "2026-06-07T04:04:10.420988+00:00",
   "days": {
     "2026-05-31": {
       "en": 176,
@@ -370,6 +370,18 @@
       "targetStates": 50,
       "target": 50,
       "recordedAt": "2026-06-06T23:06:20.079546+00:00"
+    },
+    "2026-06-07": {
+      "en": 3,
+      "states": 3,
+      "stateList": [
+        "Alabama",
+        "Alaska",
+        "Arizona"
+      ],
+      "targetStates": 50,
+      "target": 50,
+      "recordedAt": "2026-06-07T04:04:10.420891+00:00"
     }
   }
 }
