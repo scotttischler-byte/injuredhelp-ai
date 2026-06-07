@@ -263,16 +263,102 @@
     "fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin",
     "tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026",
     "tractor-trailer-injury-in-anchorage-alaska-legal-steps-2026",
-    "tractor-trailer-injury-in-phoenix-arizona-legal-steps-2026"
+    "tractor-trailer-injury-in-phoenix-arizona-legal-steps-2026",
+    "tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026",
+    "tractor-trailer-injury-in-los-angeles-california-legal-steps-2026",
+    "tractor-trailer-injury-in-denver-colorado-legal-steps-2026",
+    "tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026",
+    "tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026",
+    "tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026",
+    "black-box-data-after-a-semi-crash-in-miami-florida",
+    "black-box-data-after-a-semi-crash-in-atlanta-georgia",
+    "black-box-data-after-a-semi-crash-in-honolulu-hawaii",
+    "black-box-data-after-a-semi-crash-in-boise-idaho",
+    "black-box-data-after-a-semi-crash-in-chicago-illinois",
+    "black-box-data-after-a-semi-crash-in-indianapolis-indiana",
+    "black-box-data-after-a-semi-crash-in-des-moines-iowa",
+    "black-box-data-after-a-semi-crash-in-wichita-kansas",
+    "black-box-data-after-a-semi-crash-in-louisville-kentucky",
+    "black-box-data-after-a-semi-crash-in-new-orleans-louisiana",
+    "black-box-data-after-a-semi-crash-in-portland-maine",
+    "black-box-data-after-a-semi-crash-in-baltimore-maryland",
+    "black-box-data-after-a-semi-crash-in-boston-massachusetts",
+    "black-box-data-after-a-semi-crash-in-detroit-michigan",
+    "black-box-data-after-a-semi-crash-in-minneapolis-minnesota",
+    "black-box-data-after-a-semi-crash-in-jackson-mississippi",
+    "black-box-data-after-a-semi-crash-in-kansas-city-missouri",
+    "black-box-data-after-a-semi-crash-in-billings-montana",
+    "black-box-data-after-a-semi-crash-in-omaha-nebraska",
+    "black-box-data-after-a-semi-crash-in-las-vegas-nevada",
+    "black-box-data-after-a-semi-crash-in-manchester-new-hampshire",
+    "black-box-data-after-a-semi-crash-in-newark-new-jersey",
+    "black-box-data-after-a-semi-crash-in-albuquerque-new-mexico",
+    "black-box-data-after-a-semi-crash-in-new-york-city-new-york",
+    "black-box-data-after-a-semi-crash-in-charlotte-north-carolina",
+    "black-box-data-after-a-semi-crash-in-fargo-north-dakota",
+    "black-box-data-after-a-semi-crash-in-columbus-ohio",
+    "black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma",
+    "black-box-data-after-a-semi-crash-in-portland-oregon",
+    "black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania",
+    "black-box-data-after-a-semi-crash-in-providence-rhode-island",
+    "black-box-data-after-a-semi-crash-in-charleston-south-carolina",
+    "black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota",
+    "black-box-data-after-a-semi-crash-in-nashville-tennessee",
+    "black-box-data-after-a-semi-crash-in-houston-texas",
+    "black-box-data-after-a-semi-crash-in-salt-lake-city-utah",
+    "black-box-data-after-a-semi-crash-in-burlington-vermont",
+    "black-box-data-after-a-semi-crash-in-virginia-beach-virginia",
+    "black-box-data-after-a-semi-crash-in-seattle-washington",
+    "black-box-data-after-a-semi-crash-in-charleston-west-virginia",
+    "black-box-data-after-a-semi-crash-in-milwaukee-wisconsin"
   ],
   "stats": {
-    "total_published": 262,
-    "last_run_at": "2026-06-07T04:04:04.230634+00:00"
+    "total_published": 309,
+    "last_run_at": "2026-06-07T04:58:57.749898+00:00"
   },
   "pending": [
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Little Rock, Arkansas: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Birmingham, Alabama (2026)",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "place_slug": "birmingham",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-birmingham-alabama-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Anchorage, Alaska (2026)",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-anchorage-alaska-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Phoenix, Arizona (2026)",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-phoenix-arizona-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Little Rock, Arkansas (2026)",
       "city": "Little Rock",
       "state": "Arkansas",
       "place_slug": "little-rock",
@@ -280,12 +366,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-little-rock-arkansas-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Los Angeles, California: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Los Angeles, California (2026)",
       "city": "Los Angeles",
       "state": "California",
       "place_slug": "los-angeles",
@@ -293,12 +379,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-los-angeles-california-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-los-angeles-california-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Denver, Colorado: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Denver, Colorado (2026)",
       "city": "Denver",
       "state": "Colorado",
       "place_slug": "denver",
@@ -306,12 +392,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-denver-colorado-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-denver-colorado-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Bridgeport, Connecticut: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Bridgeport, Connecticut (2026)",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
@@ -319,12 +405,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-bridgeport-connecticut-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Wilmington, Delaware: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Wilmington, Delaware (2026)",
       "city": "Wilmington",
       "state": "Delaware",
       "place_slug": "wilmington",
@@ -332,12 +418,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-wilmington-delaware-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Washington, District of Columbia: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Washington, District of Columbia (2026)",
       "city": "Washington",
       "state": "District of Columbia",
       "place_slug": "washington",
@@ -345,12 +431,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-washington-district-of-columbia-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Miami, Florida",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Miami, Florida: Legal Steps (2026)",
       "city": "Miami",
       "state": "Florida",
       "place_slug": "miami",
@@ -359,11 +445,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-miami-florida"
+      "slug": "tractor-trailer-injury-in-miami-florida-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Atlanta, Georgia",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Atlanta, Georgia: Legal Steps (2026)",
       "city": "Atlanta",
       "state": "Georgia",
       "place_slug": "atlanta",
@@ -372,11 +458,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-atlanta-georgia"
+      "slug": "tractor-trailer-injury-in-atlanta-georgia-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Honolulu, Hawaii",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Honolulu, Hawaii: Legal Steps (2026)",
       "city": "Honolulu",
       "state": "Hawaii",
       "place_slug": "honolulu",
@@ -385,11 +471,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-honolulu-hawaii"
+      "slug": "tractor-trailer-injury-in-honolulu-hawaii-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Boise, Idaho",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Boise, Idaho: Legal Steps (2026)",
       "city": "Boise",
       "state": "Idaho",
       "place_slug": "boise",
@@ -398,11 +484,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-boise-idaho"
+      "slug": "tractor-trailer-injury-in-boise-idaho-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Chicago, Illinois",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Chicago, Illinois: Legal Steps (2026)",
       "city": "Chicago",
       "state": "Illinois",
       "place_slug": "chicago",
@@ -411,11 +497,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-chicago-illinois"
+      "slug": "tractor-trailer-injury-in-chicago-illinois-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Indianapolis, Indiana",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Indianapolis, Indiana: Legal Steps (2026)",
       "city": "Indianapolis",
       "state": "Indiana",
       "place_slug": "indianapolis",
@@ -424,11 +510,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-indianapolis-indiana"
+      "slug": "tractor-trailer-injury-in-indianapolis-indiana-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Des Moines, Iowa",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Des Moines, Iowa: Legal Steps (2026)",
       "city": "Des Moines",
       "state": "Iowa",
       "place_slug": "des-moines",
@@ -437,11 +523,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-des-moines-iowa"
+      "slug": "tractor-trailer-injury-in-des-moines-iowa-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Wichita, Kansas",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Wichita, Kansas: Legal Steps (2026)",
       "city": "Wichita",
       "state": "Kansas",
       "place_slug": "wichita",
@@ -450,11 +536,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-wichita-kansas"
+      "slug": "tractor-trailer-injury-in-wichita-kansas-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Louisville, Kentucky",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Louisville, Kentucky: Legal Steps (2026)",
       "city": "Louisville",
       "state": "Kentucky",
       "place_slug": "louisville",
@@ -463,11 +549,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-louisville-kentucky"
+      "slug": "tractor-trailer-injury-in-louisville-kentucky-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in New Orleans, Louisiana",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in New Orleans, Louisiana: Legal Steps (2026)",
       "city": "New Orleans",
       "state": "Louisiana",
       "place_slug": "new-orleans",
@@ -476,11 +562,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-new-orleans-louisiana"
+      "slug": "tractor-trailer-injury-in-new-orleans-louisiana-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Portland, Maine",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Portland, Maine: Legal Steps (2026)",
       "city": "Portland",
       "state": "Maine",
       "place_slug": "portland",
@@ -489,11 +575,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-portland-maine"
+      "slug": "tractor-trailer-injury-in-portland-maine-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Baltimore, Maryland",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Baltimore, Maryland: Legal Steps (2026)",
       "city": "Baltimore",
       "state": "Maryland",
       "place_slug": "baltimore",
@@ -502,11 +588,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-baltimore-maryland"
+      "slug": "tractor-trailer-injury-in-baltimore-maryland-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Boston, Massachusetts",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Boston, Massachusetts: Legal Steps (2026)",
       "city": "Boston",
       "state": "Massachusetts",
       "place_slug": "boston",
@@ -515,11 +601,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-boston-massachusetts"
+      "slug": "tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Detroit, Michigan",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Detroit, Michigan: Legal Steps (2026)",
       "city": "Detroit",
       "state": "Michigan",
       "place_slug": "detroit",
@@ -528,11 +614,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-detroit-michigan"
+      "slug": "tractor-trailer-injury-in-detroit-michigan-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Minneapolis, Minnesota",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Minneapolis, Minnesota: Legal Steps (2026)",
       "city": "Minneapolis",
       "state": "Minnesota",
       "place_slug": "minneapolis",
@@ -541,11 +627,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-minneapolis-minnesota"
+      "slug": "tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Jackson, Mississippi",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Jackson, Mississippi: Legal Steps (2026)",
       "city": "Jackson",
       "state": "Mississippi",
       "place_slug": "jackson",
@@ -554,11 +640,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-jackson-mississippi"
+      "slug": "tractor-trailer-injury-in-jackson-mississippi-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Kansas City, Missouri",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Kansas City, Missouri: Legal Steps (2026)",
       "city": "Kansas City",
       "state": "Missouri",
       "place_slug": "kansas-city",
@@ -567,11 +653,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-kansas-city-missouri"
+      "slug": "tractor-trailer-injury-in-kansas-city-missouri-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Billings, Montana",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Billings, Montana: Legal Steps (2026)",
       "city": "Billings",
       "state": "Montana",
       "place_slug": "billings",
@@ -580,11 +666,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-billings-montana"
+      "slug": "tractor-trailer-injury-in-billings-montana-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Omaha, Nebraska",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Omaha, Nebraska: Legal Steps (2026)",
       "city": "Omaha",
       "state": "Nebraska",
       "place_slug": "omaha",
@@ -593,11 +679,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-omaha-nebraska"
+      "slug": "tractor-trailer-injury-in-omaha-nebraska-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Las Vegas, Nevada",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Las Vegas, Nevada: Legal Steps (2026)",
       "city": "Las Vegas",
       "state": "Nevada",
       "place_slug": "las-vegas",
@@ -606,11 +692,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-las-vegas-nevada"
+      "slug": "tractor-trailer-injury-in-las-vegas-nevada-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Manchester, New Hampshire",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Manchester, New Hampshire: Legal Steps (2026)",
       "city": "Manchester",
       "state": "New Hampshire",
       "place_slug": "manchester",
@@ -619,11 +705,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-manchester-new-hampshire"
+      "slug": "tractor-trailer-injury-in-manchester-new-hampshire-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Newark, New Jersey",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Newark, New Jersey: Legal Steps (2026)",
       "city": "Newark",
       "state": "New Jersey",
       "place_slug": "newark",
@@ -632,11 +718,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-newark-new-jersey"
+      "slug": "tractor-trailer-injury-in-newark-new-jersey-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Albuquerque, New Mexico",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Albuquerque, New Mexico: Legal Steps (2026)",
       "city": "Albuquerque",
       "state": "New Mexico",
       "place_slug": "albuquerque",
@@ -645,11 +731,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-albuquerque-new-mexico"
+      "slug": "tractor-trailer-injury-in-albuquerque-new-mexico-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in New York City, New York",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in New York City, New York: Legal Steps (2026)",
       "city": "New York City",
       "state": "New York",
       "place_slug": "new-york-city",
@@ -658,11 +744,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-new-york-city-new-york"
+      "slug": "tractor-trailer-injury-in-new-york-city-new-york-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Charlotte, North Carolina",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Charlotte, North Carolina: Legal Steps (2026)",
       "city": "Charlotte",
       "state": "North Carolina",
       "place_slug": "charlotte",
@@ -671,11 +757,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-charlotte-north-carolina"
+      "slug": "tractor-trailer-injury-in-charlotte-north-carolina-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Fargo, North Dakota",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Fargo, North Dakota: Legal Steps (2026)",
       "city": "Fargo",
       "state": "North Dakota",
       "place_slug": "fargo",
@@ -684,11 +770,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-fargo-north-dakota"
+      "slug": "tractor-trailer-injury-in-fargo-north-dakota-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Columbus, Ohio",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Columbus, Ohio: Legal Steps (2026)",
       "city": "Columbus",
       "state": "Ohio",
       "place_slug": "columbus",
@@ -697,11 +783,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-columbus-ohio"
+      "slug": "tractor-trailer-injury-in-columbus-ohio-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Oklahoma City, Oklahoma",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Oklahoma City, Oklahoma: Legal Steps (2026)",
       "city": "Oklahoma City",
       "state": "Oklahoma",
       "place_slug": "oklahoma-city",
@@ -710,11 +796,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma"
+      "slug": "tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Portland, Oregon",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Portland, Oregon: Legal Steps (2026)",
       "city": "Portland",
       "state": "Oregon",
       "place_slug": "portland",
@@ -723,11 +809,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-portland-oregon"
+      "slug": "tractor-trailer-injury-in-portland-oregon-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Philadelphia, Pennsylvania",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Philadelphia, Pennsylvania: Legal Steps (2026)",
       "city": "Philadelphia",
       "state": "Pennsylvania",
       "place_slug": "philadelphia",
@@ -736,11 +822,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania"
+      "slug": "tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Providence, Rhode Island",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Providence, Rhode Island: Legal Steps (2026)",
       "city": "Providence",
       "state": "Rhode Island",
       "place_slug": "providence",
@@ -749,11 +835,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-providence-rhode-island"
+      "slug": "tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Charleston, South Carolina",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Charleston, South Carolina: Legal Steps (2026)",
       "city": "Charleston",
       "state": "South Carolina",
       "place_slug": "charleston",
@@ -762,11 +848,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-charleston-south-carolina"
+      "slug": "tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Sioux Falls, South Dakota",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Sioux Falls, South Dakota: Legal Steps (2026)",
       "city": "Sioux Falls",
       "state": "South Dakota",
       "place_slug": "sioux-falls",
@@ -775,11 +861,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota"
+      "slug": "tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Nashville, Tennessee",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Nashville, Tennessee: Legal Steps (2026)",
       "city": "Nashville",
       "state": "Tennessee",
       "place_slug": "nashville",
@@ -788,11 +874,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-nashville-tennessee"
+      "slug": "tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Houston, Texas",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Houston, Texas: Legal Steps (2026)",
       "city": "Houston",
       "state": "Texas",
       "place_slug": "houston",
@@ -801,11 +887,11 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-houston-texas"
+      "slug": "tractor-trailer-injury-in-houston-texas-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Salt Lake City, Utah",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Salt Lake City, Utah: Legal Steps (2026)",
       "city": "Salt Lake City",
       "state": "Utah",
       "place_slug": "salt-lake-city",
@@ -814,11 +900,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-salt-lake-city-utah"
+      "slug": "tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Burlington, Vermont",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Burlington, Vermont: Legal Steps (2026)",
       "city": "Burlington",
       "state": "Vermont",
       "place_slug": "burlington",
@@ -827,11 +913,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-burlington-vermont"
+      "slug": "tractor-trailer-injury-in-burlington-vermont-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Virginia Beach, Virginia",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Virginia Beach, Virginia: Legal Steps (2026)",
       "city": "Virginia Beach",
       "state": "Virginia",
       "place_slug": "virginia-beach",
@@ -840,11 +926,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-virginia-beach-virginia"
+      "slug": "tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026"
     },
     {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Seattle, Washington",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Seattle, Washington: Legal Steps (2026)",
       "city": "Seattle",
       "state": "Washington",
       "place_slug": "seattle",
@@ -853,33 +939,7 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-seattle-washington"
-    },
-    {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Charleston, West Virginia",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-charleston-west-virginia"
-    },
-    {
-      "angle": "black-box-truck",
-      "title": "Black Box Data After a Semi Crash in Milwaukee, Wisconsin",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "black-box-data-after-a-semi-crash-in-milwaukee-wisconsin"
+      "slug": "tractor-trailer-injury-in-seattle-washington-legal-steps-2026"
     }
   ],
   "skipped_slugs": [

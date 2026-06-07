@@ -4076,3 +4076,690 @@ Target: 50 states (top city per state) — UTC day 2026-06-06
 
 Round 1: 50/50 states — need 0
 Done — 50-state SLA met.
+[2026-06-07T04:54:12.333874+00:00] Inject for 48 states not yet published today
+[2026-06-07T04:54:12.335767+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:54:12.338217+00:00] Daily 50-state rotation (2026-06-07): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-07T04:54:12.338990+00:00] Daily 50-state injection complete
+[2026-06-07T04:54:12.435742+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:54:12.437812+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:54:12.440577+00:00] Daily 50-state rotation (2026-06-07): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-07T04:54:12.441361+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:54:12.445035+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-07T04:54:12.448288+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:12.449259+00:00] Materializing template → platinum for tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026
+[2026-06-07T04:54:17.792858+00:00] After materialize: 100 / 4028w ([])
+[2026-06-07T04:54:17.794781+00:00] Spanish OK for tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026 (3209 words)
+[2026-06-07T04:54:17.798460+00:00] Spanish OK for tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026 (3209 words)
+[2026-06-07T04:54:17.994871+00:00] PPT EN tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026.pptx
+[2026-06-07T04:54:18.081173+00:00] PPT ES tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026.pptx
+[2026-06-07T04:54:18.081272+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026.md
+[2026-06-07T04:54:18.114523+00:00] IndexNow queued for tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026
+[2026-06-07T04:54:20.120528+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:20.121533+00:00] Materializing template → platinum for tractor-trailer-injury-in-los-angeles-california-legal-steps-2026
+[2026-06-07T04:54:24.224497+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:54:24.226079+00:00] Spanish OK for tractor-trailer-injury-in-los-angeles-california-legal-steps-2026 (3207 words)
+[2026-06-07T04:54:24.229646+00:00] Spanish OK for tractor-trailer-injury-in-los-angeles-california-legal-steps-2026 (3207 words)
+[2026-06-07T04:54:24.318151+00:00] PPT EN tractor-trailer-injury-in-los-angeles-california-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-los-angeles-california-legal-steps-2026.pptx
+[2026-06-07T04:54:24.411131+00:00] PPT ES tractor-trailer-injury-in-los-angeles-california-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-los-angeles-california-legal-steps-2026.pptx
+[2026-06-07T04:54:24.411256+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-los-angeles-california-legal-steps-2026.md
+[2026-06-07T04:54:24.445278+00:00] IndexNow queued for tractor-trailer-injury-in-los-angeles-california-legal-steps-2026
+[2026-06-07T04:54:26.450685+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:26.451695+00:00] Materializing template → platinum for tractor-trailer-injury-in-denver-colorado-legal-steps-2026
+[2026-06-07T04:54:30.620444+00:00] After materialize: 100 / 4017w ([])
+[2026-06-07T04:54:30.622106+00:00] Spanish OK for tractor-trailer-injury-in-denver-colorado-legal-steps-2026 (3193 words)
+[2026-06-07T04:54:30.625740+00:00] Spanish OK for tractor-trailer-injury-in-denver-colorado-legal-steps-2026 (3193 words)
+[2026-06-07T04:54:30.711789+00:00] PPT EN tractor-trailer-injury-in-denver-colorado-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-denver-colorado-legal-steps-2026.pptx
+[2026-06-07T04:54:30.795592+00:00] PPT ES tractor-trailer-injury-in-denver-colorado-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-denver-colorado-legal-steps-2026.pptx
+[2026-06-07T04:54:30.795687+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-denver-colorado-legal-steps-2026.md
+[2026-06-07T04:54:30.829170+00:00] IndexNow queued for tractor-trailer-injury-in-denver-colorado-legal-steps-2026
+[2026-06-07T04:54:32.834212+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:32.835183+00:00] Materializing template → platinum for tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026
+[2026-06-07T04:54:36.933901+00:00] After materialize: 100 / 4017w ([])
+[2026-06-07T04:54:36.935545+00:00] Spanish OK for tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026 (3193 words)
+[2026-06-07T04:54:36.939121+00:00] Spanish OK for tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026 (3193 words)
+[2026-06-07T04:54:37.027570+00:00] PPT EN tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026.pptx
+[2026-06-07T04:54:37.120450+00:00] PPT ES tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026.pptx
+[2026-06-07T04:54:37.120568+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026.md
+[2026-06-07T04:54:37.154460+00:00] IndexNow queued for tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026
+[2026-06-07T04:54:39.159698+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:39.160683+00:00] Materializing template → platinum for tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026
+[2026-06-07T04:54:43.269166+00:00] After materialize: 100 / 4006w ([])
+[2026-06-07T04:54:43.270822+00:00] Spanish OK for tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026 (3195 words)
+[2026-06-07T04:54:43.274293+00:00] Spanish OK for tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026 (3195 words)
+[2026-06-07T04:54:43.360540+00:00] PPT EN tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026.pptx
+[2026-06-07T04:54:43.446232+00:00] PPT ES tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026.pptx
+[2026-06-07T04:54:43.446350+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026.md
+[2026-06-07T04:54:43.485967+00:00] IndexNow queued for tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026
+[2026-06-07T04:54:43.486460+00:00] Syndication → sites/semitruckmatch/content/syndication/tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026.json
+[2026-06-07T04:54:43.490358+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026', 'tractor-trailer-injury-in-los-angeles-california-legal-steps-2026', 'tractor-trailer-injury-in-denver-colorado-legal-steps-2026', 'tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026', 'tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026']
+[2026-06-07T04:54:43.499174+00:00] Daily ledger (UTC): 8/50 states, 8 EN posts
+[2026-06-07T04:54:43.807439+00:00]       "tail": "\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:54:43.677737+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"tractor-trailer-injury-in-little-rock-arkansas-legal-steps-2026\",\n      \"tractor-trailer-injury-in-los-angeles-california-legal-steps-2026\",\n      \"tractor-trailer-injury-in-denver-colorado-legal-steps-2026\",\n      \"tractor-trailer-injury-in-bridgeport-connecticut-legal-steps-2026\",\n      \"tractor-trailer-injury-in-wilmington-delaware-legal-steps-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:54:43.807603+00:00] WARN organic_crush exit 1
+[2026-06-07T04:54:43.936276+00:00] Inject for 43 states not yet published today
+[2026-06-07T04:54:43.938117+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:54:43.940437+00:00] Daily 50-state rotation (2026-06-07): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-07T04:54:43.941139+00:00] Daily 50-state injection complete
+[2026-06-07T04:54:44.033030+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:54:44.035093+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:54:44.037906+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:54:44.038712+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:54:44.042513+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware']
+[2026-06-07T04:54:44.045165+00:00] Quality 30 / 649w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:44.046150+00:00] Materializing template → platinum for tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026
+[2026-06-07T04:54:48.196445+00:00] After materialize: 100 / 4066w ([])
+[2026-06-07T04:54:48.198210+00:00] Spanish OK for tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026 (3255 words)
+[2026-06-07T04:54:48.201829+00:00] Spanish OK for tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026 (3255 words)
+[2026-06-07T04:54:48.355905+00:00] PPT EN tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026.pptx
+[2026-06-07T04:54:48.442516+00:00] PPT ES tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026.pptx
+[2026-06-07T04:54:48.442627+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026.md
+[2026-06-07T04:54:48.475845+00:00] IndexNow queued for tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026
+[2026-06-07T04:54:50.481417+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:50.482394+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-miami-florida
+[2026-06-07T04:54:54.642071+00:00] After materialize: 100 / 4038w ([])
+[2026-06-07T04:54:54.643717+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-miami-florida (3219 words)
+[2026-06-07T04:54:54.647362+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-miami-florida (3219 words)
+[2026-06-07T04:54:54.736104+00:00] PPT EN black-box-data-after-a-semi-crash-in-miami-florida: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-miami-florida.pptx
+[2026-06-07T04:54:54.826441+00:00] PPT ES black-box-data-after-a-semi-crash-in-miami-florida: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-miami-florida.pptx
+[2026-06-07T04:54:54.826544+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-miami-florida.md
+[2026-06-07T04:54:54.860339+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-miami-florida
+[2026-06-07T04:54:56.865437+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:54:56.866429+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-atlanta-georgia
+[2026-06-07T04:55:00.995346+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:55:00.997164+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-atlanta-georgia (3202 words)
+[2026-06-07T04:55:01.000980+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-atlanta-georgia (3202 words)
+[2026-06-07T04:55:01.088276+00:00] PPT EN black-box-data-after-a-semi-crash-in-atlanta-georgia: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-atlanta-georgia.pptx
+[2026-06-07T04:55:01.172971+00:00] PPT ES black-box-data-after-a-semi-crash-in-atlanta-georgia: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-atlanta-georgia.pptx
+[2026-06-07T04:55:01.173073+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-atlanta-georgia.md
+[2026-06-07T04:55:01.206809+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-atlanta-georgia
+[2026-06-07T04:55:03.211945+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:03.212916+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-honolulu-hawaii
+[2026-06-07T04:55:07.390721+00:00] After materialize: 100 / 4026w ([])
+[2026-06-07T04:55:07.392355+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-honolulu-hawaii (3217 words)
+[2026-06-07T04:55:07.395892+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-honolulu-hawaii (3217 words)
+[2026-06-07T04:55:07.483929+00:00] PPT EN black-box-data-after-a-semi-crash-in-honolulu-hawaii: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-honolulu-hawaii.pptx
+[2026-06-07T04:55:07.575547+00:00] PPT ES black-box-data-after-a-semi-crash-in-honolulu-hawaii: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-honolulu-hawaii.pptx
+[2026-06-07T04:55:07.575650+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-honolulu-hawaii.md
+[2026-06-07T04:55:07.609657+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-honolulu-hawaii
+[2026-06-07T04:55:09.614294+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:09.615255+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-boise-idaho
+[2026-06-07T04:55:13.754130+00:00] After materialize: 100 / 4014w ([])
+[2026-06-07T04:55:13.755905+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-boise-idaho (3204 words)
+[2026-06-07T04:55:13.759719+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-boise-idaho (3204 words)
+[2026-06-07T04:55:13.846262+00:00] PPT EN black-box-data-after-a-semi-crash-in-boise-idaho: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-boise-idaho.pptx
+[2026-06-07T04:55:13.930147+00:00] PPT ES black-box-data-after-a-semi-crash-in-boise-idaho: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-boise-idaho.pptx
+[2026-06-07T04:55:13.930275+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-boise-idaho.md
+[2026-06-07T04:55:13.963893+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-boise-idaho
+[2026-06-07T04:55:13.964291+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-boise-idaho.json
+[2026-06-07T04:55:13.968327+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026', 'black-box-data-after-a-semi-crash-in-miami-florida', 'black-box-data-after-a-semi-crash-in-atlanta-georgia', 'black-box-data-after-a-semi-crash-in-honolulu-hawaii', 'black-box-data-after-a-semi-crash-in-boise-idaho']
+[2026-06-07T04:55:13.975039+00:00] Daily ledger (UTC): 13/50 states, 13 EN posts
+[2026-06-07T04:55:14.286785+00:00]  "tail": "car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:55:14.152417+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"tractor-trailer-injury-in-washington-district-of-columbia-legal-steps-2026\",\n      \"black-box-data-after-a-semi-crash-in-miami-florida\",\n      \"black-box-data-after-a-semi-crash-in-atlanta-georgia\",\n      \"black-box-data-after-a-semi-crash-in-honolulu-hawaii\",\n      \"black-box-data-after-a-semi-crash-in-boise-idaho\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:55:14.286964+00:00] WARN organic_crush exit 1
+[2026-06-07T04:55:14.415992+00:00] Inject for 38 states not yet published today
+[2026-06-07T04:55:14.417814+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:55:14.419868+00:00] Daily 50-state rotation (2026-06-07): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-07T04:55:14.420616+00:00] Daily 50-state injection complete
+[2026-06-07T04:55:14.514571+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:55:14.516649+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:55:14.519543+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:55:14.520339+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:55:14.524284+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho']
+[2026-06-07T04:55:14.527006+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:14.527969+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-chicago-illinois
+[2026-06-07T04:55:18.650943+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:55:18.652771+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-chicago-illinois (3202 words)
+[2026-06-07T04:55:18.656235+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-chicago-illinois (3202 words)
+[2026-06-07T04:55:18.809876+00:00] PPT EN black-box-data-after-a-semi-crash-in-chicago-illinois: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-chicago-illinois.pptx
+[2026-06-07T04:55:18.897507+00:00] PPT ES black-box-data-after-a-semi-crash-in-chicago-illinois: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-chicago-illinois.pptx
+[2026-06-07T04:55:18.897617+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-chicago-illinois.md
+[2026-06-07T04:55:18.931571+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-chicago-illinois
+[2026-06-07T04:55:20.937817+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:20.938808+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-indianapolis-indiana
+[2026-06-07T04:55:25.132300+00:00] After materialize: 100 / 4016w ([])
+[2026-06-07T04:55:25.133911+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-indianapolis-indiana (3204 words)
+[2026-06-07T04:55:25.137408+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-indianapolis-indiana (3204 words)
+[2026-06-07T04:55:25.225353+00:00] PPT EN black-box-data-after-a-semi-crash-in-indianapolis-indiana: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-indianapolis-indiana.pptx
+[2026-06-07T04:55:25.313974+00:00] PPT ES black-box-data-after-a-semi-crash-in-indianapolis-indiana: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-indianapolis-indiana.pptx
+[2026-06-07T04:55:25.314072+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-indianapolis-indiana.md
+[2026-06-07T04:55:25.347634+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-indianapolis-indiana
+[2026-06-07T04:55:27.353088+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:27.354081+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-des-moines-iowa
+[2026-06-07T04:55:31.482642+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:55:31.484250+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-des-moines-iowa (3220 words)
+[2026-06-07T04:55:31.487861+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-des-moines-iowa (3220 words)
+[2026-06-07T04:55:31.574731+00:00] PPT EN black-box-data-after-a-semi-crash-in-des-moines-iowa: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-des-moines-iowa.pptx
+[2026-06-07T04:55:31.656878+00:00] PPT ES black-box-data-after-a-semi-crash-in-des-moines-iowa: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-des-moines-iowa.pptx
+[2026-06-07T04:55:31.656973+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-des-moines-iowa.md
+[2026-06-07T04:55:31.690229+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-des-moines-iowa
+[2026-06-07T04:55:33.695680+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:33.696652+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-wichita-kansas
+[2026-06-07T04:55:37.795571+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:55:37.797118+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-wichita-kansas (3202 words)
+[2026-06-07T04:55:37.800705+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-wichita-kansas (3202 words)
+[2026-06-07T04:55:37.887918+00:00] PPT EN black-box-data-after-a-semi-crash-in-wichita-kansas: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-wichita-kansas.pptx
+[2026-06-07T04:55:37.976453+00:00] PPT ES black-box-data-after-a-semi-crash-in-wichita-kansas: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-wichita-kansas.pptx
+[2026-06-07T04:55:37.976567+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-wichita-kansas.md
+[2026-06-07T04:55:38.010111+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-wichita-kansas
+[2026-06-07T04:55:40.015524+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:40.016532+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-louisville-kentucky
+[2026-06-07T04:55:44.154218+00:00] After materialize: 100 / 4024w ([])
+[2026-06-07T04:55:44.155858+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-louisville-kentucky (3213 words)
+[2026-06-07T04:55:44.159471+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-louisville-kentucky (3213 words)
+[2026-06-07T04:55:44.244235+00:00] PPT EN black-box-data-after-a-semi-crash-in-louisville-kentucky: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-louisville-kentucky.pptx
+[2026-06-07T04:55:44.326926+00:00] PPT ES black-box-data-after-a-semi-crash-in-louisville-kentucky: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-louisville-kentucky.pptx
+[2026-06-07T04:55:44.327020+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-louisville-kentucky.md
+[2026-06-07T04:55:44.360747+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-louisville-kentucky
+[2026-06-07T04:55:44.361123+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-louisville-kentucky.json
+[2026-06-07T04:55:44.365354+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-chicago-illinois', 'black-box-data-after-a-semi-crash-in-indianapolis-indiana', 'black-box-data-after-a-semi-crash-in-des-moines-iowa', 'black-box-data-after-a-semi-crash-in-wichita-kansas', 'black-box-data-after-a-semi-crash-in-louisville-kentucky']
+[2026-06-07T04:55:44.372175+00:00] Daily ledger (UTC): 18/50 states, 18 EN posts
+[2026-06-07T04:55:44.680224+00:00]  "tail": " after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:55:44.549004+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-chicago-illinois\",\n      \"black-box-data-after-a-semi-crash-in-indianapolis-indiana\",\n      \"black-box-data-after-a-semi-crash-in-des-moines-iowa\",\n      \"black-box-data-after-a-semi-crash-in-wichita-kansas\",\n      \"black-box-data-after-a-semi-crash-in-louisville-kentucky\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:55:44.680412+00:00] WARN organic_crush exit 1
+[2026-06-07T04:55:44.802050+00:00] Inject for 33 states not yet published today
+[2026-06-07T04:55:44.803897+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:55:44.805796+00:00] Daily 50-state rotation (2026-06-07): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-07T04:55:44.806544+00:00] Daily 50-state injection complete
+[2026-06-07T04:55:44.900417+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:55:44.902522+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:55:44.905445+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:55:44.906245+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:55:44.910332+00:00] States already published today (UTC): 18 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky']
+[2026-06-07T04:55:44.913029+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:44.914002+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-new-orleans-louisiana
+[2026-06-07T04:55:49.021916+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:55:49.023718+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-new-orleans-louisiana (3216 words)
+[2026-06-07T04:55:49.027269+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-new-orleans-louisiana (3216 words)
+[2026-06-07T04:55:49.180743+00:00] PPT EN black-box-data-after-a-semi-crash-in-new-orleans-louisiana: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-new-orleans-louisiana.pptx
+[2026-06-07T04:55:49.266538+00:00] PPT ES black-box-data-after-a-semi-crash-in-new-orleans-louisiana: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-new-orleans-louisiana.pptx
+[2026-06-07T04:55:49.266657+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-new-orleans-louisiana.md
+[2026-06-07T04:55:49.300074+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-new-orleans-louisiana
+[2026-06-07T04:55:51.306002+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:51.306992+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-portland-maine
+[2026-06-07T04:55:55.372236+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:55:55.373799+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-portland-maine (3202 words)
+[2026-06-07T04:55:55.377253+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-portland-maine (3202 words)
+[2026-06-07T04:55:55.465461+00:00] PPT EN black-box-data-after-a-semi-crash-in-portland-maine: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-portland-maine.pptx
+[2026-06-07T04:55:55.554953+00:00] PPT ES black-box-data-after-a-semi-crash-in-portland-maine: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-portland-maine.pptx
+[2026-06-07T04:55:55.555058+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-portland-maine.md
+[2026-06-07T04:55:55.588607+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-portland-maine
+[2026-06-07T04:55:57.594015+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:55:57.595014+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-baltimore-maryland
+[2026-06-07T04:56:01.708034+00:00] After materialize: 100 / 4024w ([])
+[2026-06-07T04:56:01.709707+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-baltimore-maryland (3210 words)
+[2026-06-07T04:56:01.713302+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-baltimore-maryland (3210 words)
+[2026-06-07T04:56:01.798982+00:00] PPT EN black-box-data-after-a-semi-crash-in-baltimore-maryland: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-baltimore-maryland.pptx
+[2026-06-07T04:56:01.882000+00:00] PPT ES black-box-data-after-a-semi-crash-in-baltimore-maryland: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-baltimore-maryland.pptx
+[2026-06-07T04:56:01.882096+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-baltimore-maryland.md
+[2026-06-07T04:56:01.915741+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-baltimore-maryland
+[2026-06-07T04:56:03.921082+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:03.922065+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-boston-massachusetts
+[2026-06-07T04:56:08.004534+00:00] After materialize: 100 / 4029w ([])
+[2026-06-07T04:56:08.006154+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-boston-massachusetts (3220 words)
+[2026-06-07T04:56:08.009645+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-boston-massachusetts (3220 words)
+[2026-06-07T04:56:08.096885+00:00] PPT EN black-box-data-after-a-semi-crash-in-boston-massachusetts: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-boston-massachusetts.pptx
+[2026-06-07T04:56:08.186366+00:00] PPT ES black-box-data-after-a-semi-crash-in-boston-massachusetts: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-boston-massachusetts.pptx
+[2026-06-07T04:56:08.186512+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-boston-massachusetts.md
+[2026-06-07T04:56:08.220085+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-boston-massachusetts
+[2026-06-07T04:56:10.224904+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:10.225887+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-detroit-michigan
+[2026-06-07T04:56:14.353511+00:00] After materialize: 100 / 4029w ([])
+[2026-06-07T04:56:14.355211+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-detroit-michigan (3220 words)
+[2026-06-07T04:56:14.358940+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-detroit-michigan (3220 words)
+[2026-06-07T04:56:14.444807+00:00] PPT EN black-box-data-after-a-semi-crash-in-detroit-michigan: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-detroit-michigan.pptx
+[2026-06-07T04:56:14.528048+00:00] PPT ES black-box-data-after-a-semi-crash-in-detroit-michigan: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-detroit-michigan.pptx
+[2026-06-07T04:56:14.528143+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-detroit-michigan.md
+[2026-06-07T04:56:14.561916+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-detroit-michigan
+[2026-06-07T04:56:14.562327+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-detroit-michigan.json
+[2026-06-07T04:56:14.566609+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-new-orleans-louisiana', 'black-box-data-after-a-semi-crash-in-portland-maine', 'black-box-data-after-a-semi-crash-in-baltimore-maryland', 'black-box-data-after-a-semi-crash-in-boston-massachusetts', 'black-box-data-after-a-semi-crash-in-detroit-michigan']
+[2026-06-07T04:56:14.574235+00:00] Daily ledger (UTC): 23/50 states, 23 EN posts
+[2026-06-07T04:56:14.884263+00:00]  "tail": "r car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:56:14.750187+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-new-orleans-louisiana\",\n      \"black-box-data-after-a-semi-crash-in-portland-maine\",\n      \"black-box-data-after-a-semi-crash-in-baltimore-maryland\",\n      \"black-box-data-after-a-semi-crash-in-boston-massachusetts\",\n      \"black-box-data-after-a-semi-crash-in-detroit-michigan\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:56:14.884492+00:00] WARN organic_crush exit 1
+[2026-06-07T04:56:15.039436+00:00] Inject for 28 states not yet published today
+[2026-06-07T04:56:15.041275+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:56:15.043030+00:00] Daily 50-state rotation (2026-06-07): +0 new, 27 re-prioritized, 27 at queue front
+[2026-06-07T04:56:15.043846+00:00] Daily 50-state injection complete
+[2026-06-07T04:56:15.143875+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:56:15.146025+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:56:15.148956+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:56:15.149809+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:56:15.154107+00:00] States already published today (UTC): 23 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan']
+[2026-06-07T04:56:15.156823+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:15.157809+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-minneapolis-minnesota
+[2026-06-07T04:56:19.310550+00:00] After materialize: 100 / 4024w ([])
+[2026-06-07T04:56:19.312325+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-minneapolis-minnesota (3217 words)
+[2026-06-07T04:56:19.315989+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-minneapolis-minnesota (3217 words)
+[2026-06-07T04:56:19.470736+00:00] PPT EN black-box-data-after-a-semi-crash-in-minneapolis-minnesota: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-minneapolis-minnesota.pptx
+[2026-06-07T04:56:19.557079+00:00] PPT ES black-box-data-after-a-semi-crash-in-minneapolis-minnesota: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-minneapolis-minnesota.pptx
+[2026-06-07T04:56:19.557173+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-minneapolis-minnesota.md
+[2026-06-07T04:56:19.591054+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-minneapolis-minnesota
+[2026-06-07T04:56:21.597088+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:21.598079+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-jackson-mississippi
+[2026-06-07T04:56:25.735996+00:00] After materialize: 100 / 4014w ([])
+[2026-06-07T04:56:25.737722+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-jackson-mississippi (3200 words)
+[2026-06-07T04:56:25.741312+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-jackson-mississippi (3200 words)
+[2026-06-07T04:56:25.829896+00:00] PPT EN black-box-data-after-a-semi-crash-in-jackson-mississippi: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-jackson-mississippi.pptx
+[2026-06-07T04:56:25.918148+00:00] PPT ES black-box-data-after-a-semi-crash-in-jackson-mississippi: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-jackson-mississippi.pptx
+[2026-06-07T04:56:25.918252+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-jackson-mississippi.md
+[2026-06-07T04:56:25.952088+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-jackson-mississippi
+[2026-06-07T04:56:27.957610+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:27.958634+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-kansas-city-missouri
+[2026-06-07T04:56:32.131183+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:56:32.132918+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-kansas-city-missouri (3216 words)
+[2026-06-07T04:56:32.136546+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-kansas-city-missouri (3216 words)
+[2026-06-07T04:56:32.223444+00:00] PPT EN black-box-data-after-a-semi-crash-in-kansas-city-missouri: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-kansas-city-missouri.pptx
+[2026-06-07T04:56:32.306195+00:00] PPT ES black-box-data-after-a-semi-crash-in-kansas-city-missouri: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-kansas-city-missouri.pptx
+[2026-06-07T04:56:32.306305+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-kansas-city-missouri.md
+[2026-06-07T04:56:32.340155+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-kansas-city-missouri
+[2026-06-07T04:56:34.345565+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:34.346537+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-billings-montana
+[2026-06-07T04:56:38.455661+00:00] After materialize: 100 / 4014w ([])
+[2026-06-07T04:56:38.457194+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-billings-montana (3204 words)
+[2026-06-07T04:56:38.460734+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-billings-montana (3204 words)
+[2026-06-07T04:56:38.548015+00:00] PPT EN black-box-data-after-a-semi-crash-in-billings-montana: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-billings-montana.pptx
+[2026-06-07T04:56:38.637284+00:00] PPT ES black-box-data-after-a-semi-crash-in-billings-montana: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-billings-montana.pptx
+[2026-06-07T04:56:38.637408+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-billings-montana.md
+[2026-06-07T04:56:38.670686+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-billings-montana
+[2026-06-07T04:56:40.676108+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:40.677106+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-omaha-nebraska
+[2026-06-07T04:56:44.804485+00:00] After materialize: 100 / 4014w ([])
+[2026-06-07T04:56:44.806036+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-omaha-nebraska (3204 words)
+[2026-06-07T04:56:44.809673+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-omaha-nebraska (3204 words)
+[2026-06-07T04:56:44.895244+00:00] PPT EN black-box-data-after-a-semi-crash-in-omaha-nebraska: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-omaha-nebraska.pptx
+[2026-06-07T04:56:44.984562+00:00] PPT ES black-box-data-after-a-semi-crash-in-omaha-nebraska: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-omaha-nebraska.pptx
+[2026-06-07T04:56:44.984670+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-omaha-nebraska.md
+[2026-06-07T04:56:45.020880+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-omaha-nebraska
+[2026-06-07T04:56:45.021292+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-omaha-nebraska.json
+[2026-06-07T04:56:45.026030+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-minneapolis-minnesota', 'black-box-data-after-a-semi-crash-in-jackson-mississippi', 'black-box-data-after-a-semi-crash-in-kansas-city-missouri', 'black-box-data-after-a-semi-crash-in-billings-montana', 'black-box-data-after-a-semi-crash-in-omaha-nebraska']
+[2026-06-07T04:56:45.033289+00:00] Daily ledger (UTC): 28/50 states, 28 EN posts
+[2026-06-07T04:56:45.343671+00:00]  "tail": " car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:56:45.211526+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-minneapolis-minnesota\",\n      \"black-box-data-after-a-semi-crash-in-jackson-mississippi\",\n      \"black-box-data-after-a-semi-crash-in-kansas-city-missouri\",\n      \"black-box-data-after-a-semi-crash-in-billings-montana\",\n      \"black-box-data-after-a-semi-crash-in-omaha-nebraska\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:56:45.343828+00:00] WARN organic_crush exit 1
+[2026-06-07T04:56:45.474360+00:00] Inject for 23 states not yet published today
+[2026-06-07T04:56:45.476223+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:56:45.477756+00:00] Daily 50-state rotation (2026-06-07): +0 new, 22 re-prioritized, 22 at queue front
+[2026-06-07T04:56:45.478518+00:00] Daily 50-state injection complete
+[2026-06-07T04:56:45.572162+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:56:45.574239+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:56:45.577169+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:56:45.577978+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:56:45.582269+00:00] States already published today (UTC): 28 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska']
+[2026-06-07T04:56:45.585011+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:45.585979+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-las-vegas-nevada
+[2026-06-07T04:56:49.727126+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:56:49.729060+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-las-vegas-nevada (3220 words)
+[2026-06-07T04:56:49.732697+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-las-vegas-nevada (3220 words)
+[2026-06-07T04:56:49.886940+00:00] PPT EN black-box-data-after-a-semi-crash-in-las-vegas-nevada: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-las-vegas-nevada.pptx
+[2026-06-07T04:56:49.973322+00:00] PPT ES black-box-data-after-a-semi-crash-in-las-vegas-nevada: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-las-vegas-nevada.pptx
+[2026-06-07T04:56:49.973453+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-las-vegas-nevada.md
+[2026-06-07T04:56:50.007013+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-las-vegas-nevada
+[2026-06-07T04:56:52.013094+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:52.014089+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-manchester-new-hampshire
+[2026-06-07T04:56:56.116413+00:00] After materialize: 100 / 4044w ([])
+[2026-06-07T04:56:56.117984+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-manchester-new-hampshire (3236 words)
+[2026-06-07T04:56:56.121539+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-manchester-new-hampshire (3236 words)
+[2026-06-07T04:56:56.209700+00:00] PPT EN black-box-data-after-a-semi-crash-in-manchester-new-hampshire: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-manchester-new-hampshire.pptx
+[2026-06-07T04:56:56.298846+00:00] PPT ES black-box-data-after-a-semi-crash-in-manchester-new-hampshire: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-manchester-new-hampshire.pptx
+[2026-06-07T04:56:56.298936+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-manchester-new-hampshire.md
+[2026-06-07T04:56:56.332416+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-manchester-new-hampshire
+[2026-06-07T04:56:58.337317+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:56:58.338321+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-newark-new-jersey
+[2026-06-07T04:57:02.507677+00:00] After materialize: 100 / 4058w ([])
+[2026-06-07T04:57:02.509488+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-newark-new-jersey (3252 words)
+[2026-06-07T04:57:02.513211+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-newark-new-jersey (3252 words)
+[2026-06-07T04:57:02.600129+00:00] PPT EN black-box-data-after-a-semi-crash-in-newark-new-jersey: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-newark-new-jersey.pptx
+[2026-06-07T04:57:02.683699+00:00] PPT ES black-box-data-after-a-semi-crash-in-newark-new-jersey: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-newark-new-jersey.pptx
+[2026-06-07T04:57:02.683832+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-newark-new-jersey.md
+[2026-06-07T04:57:02.717673+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-newark-new-jersey
+[2026-06-07T04:57:04.723397+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:04.724367+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-albuquerque-new-mexico
+[2026-06-07T04:57:08.865977+00:00] After materialize: 100 / 4044w ([])
+[2026-06-07T04:57:08.867632+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-albuquerque-new-mexico (3232 words)
+[2026-06-07T04:57:08.871307+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-albuquerque-new-mexico (3232 words)
+[2026-06-07T04:57:08.960653+00:00] PPT EN black-box-data-after-a-semi-crash-in-albuquerque-new-mexico: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-albuquerque-new-mexico.pptx
+[2026-06-07T04:57:09.053514+00:00] PPT ES black-box-data-after-a-semi-crash-in-albuquerque-new-mexico: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-albuquerque-new-mexico.pptx
+[2026-06-07T04:57:09.053608+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-albuquerque-new-mexico.md
+[2026-06-07T04:57:09.087523+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-albuquerque-new-mexico
+[2026-06-07T04:57:11.092528+00:00] Quality 30 / 655w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:11.093508+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-new-york-city-new-york
+[2026-06-07T04:57:15.275967+00:00] After materialize: 100 / 4089w ([])
+[2026-06-07T04:57:15.277639+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-new-york-city-new-york (3280 words)
+[2026-06-07T04:57:15.281186+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-new-york-city-new-york (3280 words)
+[2026-06-07T04:57:15.367126+00:00] PPT EN black-box-data-after-a-semi-crash-in-new-york-city-new-york: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-new-york-city-new-york.pptx
+[2026-06-07T04:57:15.451107+00:00] PPT ES black-box-data-after-a-semi-crash-in-new-york-city-new-york: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-new-york-city-new-york.pptx
+[2026-06-07T04:57:15.451207+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-new-york-city-new-york.md
+[2026-06-07T04:57:15.485114+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-new-york-city-new-york
+[2026-06-07T04:57:15.485551+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-new-york-city-new-york.json
+[2026-06-07T04:57:15.489938+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-las-vegas-nevada', 'black-box-data-after-a-semi-crash-in-manchester-new-hampshire', 'black-box-data-after-a-semi-crash-in-newark-new-jersey', 'black-box-data-after-a-semi-crash-in-albuquerque-new-mexico', 'black-box-data-after-a-semi-crash-in-new-york-city-new-york']
+[2026-06-07T04:57:15.497226+00:00] Daily ledger (UTC): 33/50 states, 33 EN posts
+[2026-06-07T04:57:15.806161+00:00]  "tail": "nt in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:57:15.672778+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-las-vegas-nevada\",\n      \"black-box-data-after-a-semi-crash-in-manchester-new-hampshire\",\n      \"black-box-data-after-a-semi-crash-in-newark-new-jersey\",\n      \"black-box-data-after-a-semi-crash-in-albuquerque-new-mexico\",\n      \"black-box-data-after-a-semi-crash-in-new-york-city-new-york\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:57:15.806332+00:00] WARN organic_crush exit 1
+[2026-06-07T04:57:15.937128+00:00] Inject for 18 states not yet published today
+[2026-06-07T04:57:15.938987+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:57:15.940332+00:00] Daily 50-state rotation (2026-06-07): +0 new, 17 re-prioritized, 17 at queue front
+[2026-06-07T04:57:15.941077+00:00] Daily 50-state injection complete
+[2026-06-07T04:57:16.034840+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:57:16.036922+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:57:16.039879+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:57:16.040691+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:57:16.045069+00:00] States already published today (UTC): 33 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York']
+[2026-06-07T04:57:16.047779+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:16.048762+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-charlotte-north-carolina
+[2026-06-07T04:57:20.164750+00:00] After materialize: 100 / 4054w ([])
+[2026-06-07T04:57:20.166611+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-charlotte-north-carolina (3242 words)
+[2026-06-07T04:57:20.170223+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-charlotte-north-carolina (3242 words)
+[2026-06-07T04:57:20.325285+00:00] PPT EN black-box-data-after-a-semi-crash-in-charlotte-north-carolina: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-charlotte-north-carolina.pptx
+[2026-06-07T04:57:20.411593+00:00] PPT ES black-box-data-after-a-semi-crash-in-charlotte-north-carolina: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-charlotte-north-carolina.pptx
+[2026-06-07T04:57:20.411729+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-charlotte-north-carolina.md
+[2026-06-07T04:57:20.445349+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-charlotte-north-carolina
+[2026-06-07T04:57:22.451457+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:22.452467+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-fargo-north-dakota
+[2026-06-07T04:57:26.561692+00:00] After materialize: 100 / 4066w ([])
+[2026-06-07T04:57:26.563290+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-fargo-north-dakota (3247 words)
+[2026-06-07T04:57:26.567040+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-fargo-north-dakota (3247 words)
+[2026-06-07T04:57:26.655745+00:00] PPT EN black-box-data-after-a-semi-crash-in-fargo-north-dakota: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-fargo-north-dakota.pptx
+[2026-06-07T04:57:26.746908+00:00] PPT ES black-box-data-after-a-semi-crash-in-fargo-north-dakota: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-fargo-north-dakota.pptx
+[2026-06-07T04:57:26.747008+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-fargo-north-dakota.md
+[2026-06-07T04:57:26.781086+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-fargo-north-dakota
+[2026-06-07T04:57:28.786772+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:28.787761+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-columbus-ohio
+[2026-06-07T04:57:32.901186+00:00] After materialize: 100 / 4016w ([])
+[2026-06-07T04:57:32.902796+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-columbus-ohio (3204 words)
+[2026-06-07T04:57:32.906277+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-columbus-ohio (3204 words)
+[2026-06-07T04:57:32.992262+00:00] PPT EN black-box-data-after-a-semi-crash-in-columbus-ohio: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-columbus-ohio.pptx
+[2026-06-07T04:57:33.075474+00:00] PPT ES black-box-data-after-a-semi-crash-in-columbus-ohio: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-columbus-ohio.pptx
+[2026-06-07T04:57:33.075591+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-columbus-ohio.md
+[2026-06-07T04:57:33.108673+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-columbus-ohio
+[2026-06-07T04:57:35.114344+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:35.115317+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma
+[2026-06-07T04:57:39.245062+00:00] After materialize: 100 / 4027w ([])
+[2026-06-07T04:57:39.246621+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma (3220 words)
+[2026-06-07T04:57:39.250113+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma (3220 words)
+[2026-06-07T04:57:39.338070+00:00] PPT EN black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma.pptx
+[2026-06-07T04:57:39.426965+00:00] PPT ES black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma.pptx
+[2026-06-07T04:57:39.427071+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma.md
+[2026-06-07T04:57:39.460660+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma
+[2026-06-07T04:57:41.466325+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:41.467294+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-portland-oregon
+[2026-06-07T04:57:45.563339+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:57:45.565086+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-portland-oregon (3202 words)
+[2026-06-07T04:57:45.568751+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-portland-oregon (3202 words)
+[2026-06-07T04:57:45.654520+00:00] PPT EN black-box-data-after-a-semi-crash-in-portland-oregon: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-portland-oregon.pptx
+[2026-06-07T04:57:45.737226+00:00] PPT ES black-box-data-after-a-semi-crash-in-portland-oregon: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-portland-oregon.pptx
+[2026-06-07T04:57:45.737329+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-portland-oregon.md
+[2026-06-07T04:57:45.770854+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-portland-oregon
+[2026-06-07T04:57:45.771244+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-portland-oregon.json
+[2026-06-07T04:57:45.775754+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-charlotte-north-carolina', 'black-box-data-after-a-semi-crash-in-fargo-north-dakota', 'black-box-data-after-a-semi-crash-in-columbus-ohio', 'black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma', 'black-box-data-after-a-semi-crash-in-portland-oregon']
+[2026-06-07T04:57:45.783124+00:00] Daily ledger (UTC): 38/50 states, 38 EN posts
+[2026-06-07T04:57:46.089069+00:00]  "tail": "ar accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:57:45.958895+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-charlotte-north-carolina\",\n      \"black-box-data-after-a-semi-crash-in-fargo-north-dakota\",\n      \"black-box-data-after-a-semi-crash-in-columbus-ohio\",\n      \"black-box-data-after-a-semi-crash-in-oklahoma-city-oklahoma\",\n      \"black-box-data-after-a-semi-crash-in-portland-oregon\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:57:46.089220+00:00] WARN organic_crush exit 1
+[2026-06-07T04:57:46.215733+00:00] Inject for 13 states not yet published today
+[2026-06-07T04:57:46.217561+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:57:46.218700+00:00] Daily 50-state rotation (2026-06-07): +0 new, 12 re-prioritized, 12 at queue front
+[2026-06-07T04:57:46.219431+00:00] Daily 50-state injection complete
+[2026-06-07T04:57:46.312879+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:57:46.314944+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:57:46.317970+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:57:46.318783+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:57:46.323254+00:00] States already published today (UTC): 38 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon']
+[2026-06-07T04:57:46.325971+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:46.326952+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania
+[2026-06-07T04:57:50.411488+00:00] After materialize: 100 / 4029w ([])
+[2026-06-07T04:57:50.413410+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania (3220 words)
+[2026-06-07T04:57:50.416948+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania (3220 words)
+[2026-06-07T04:57:50.569690+00:00] PPT EN black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania.pptx
+[2026-06-07T04:57:50.655786+00:00] PPT ES black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania.pptx
+[2026-06-07T04:57:50.655877+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania.md
+[2026-06-07T04:57:50.689578+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania
+[2026-06-07T04:57:52.695713+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:52.696709+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-providence-rhode-island
+[2026-06-07T04:57:56.803712+00:00] After materialize: 100 / 4044w ([])
+[2026-06-07T04:57:56.805281+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-providence-rhode-island (3232 words)
+[2026-06-07T04:57:56.808863+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-providence-rhode-island (3232 words)
+[2026-06-07T04:57:56.896559+00:00] PPT EN black-box-data-after-a-semi-crash-in-providence-rhode-island: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-providence-rhode-island.pptx
+[2026-06-07T04:57:56.985184+00:00] PPT ES black-box-data-after-a-semi-crash-in-providence-rhode-island: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-providence-rhode-island.pptx
+[2026-06-07T04:57:56.985291+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-providence-rhode-island.md
+[2026-06-07T04:57:57.018964+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-providence-rhode-island
+[2026-06-07T04:57:59.024681+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:57:59.025689+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-charleston-south-carolina
+[2026-06-07T04:58:03.136712+00:00] After materialize: 100 / 4046w ([])
+[2026-06-07T04:58:03.138280+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-charleston-south-carolina (3236 words)
+[2026-06-07T04:58:03.141868+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-charleston-south-carolina (3236 words)
+[2026-06-07T04:58:03.227597+00:00] PPT EN black-box-data-after-a-semi-crash-in-charleston-south-carolina: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-charleston-south-carolina.pptx
+[2026-06-07T04:58:03.310535+00:00] PPT ES black-box-data-after-a-semi-crash-in-charleston-south-carolina: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-charleston-south-carolina.pptx
+[2026-06-07T04:58:03.310646+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-charleston-south-carolina.md
+[2026-06-07T04:58:03.343968+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-charleston-south-carolina
+[2026-06-07T04:58:05.349700+00:00] Quality 30 / 650w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:05.350688+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota
+[2026-06-07T04:58:09.466417+00:00] After materialize: 100 / 4055w ([])
+[2026-06-07T04:58:09.467972+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota (3252 words)
+[2026-06-07T04:58:09.471592+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota (3252 words)
+[2026-06-07T04:58:09.559618+00:00] PPT EN black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota.pptx
+[2026-06-07T04:58:09.651721+00:00] PPT ES black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota.pptx
+[2026-06-07T04:58:09.651821+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota.md
+[2026-06-07T04:58:09.685541+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota
+[2026-06-07T04:58:11.691346+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:11.692333+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-nashville-tennessee
+[2026-06-07T04:58:15.792008+00:00] After materialize: 100 / 4025w ([])
+[2026-06-07T04:58:15.793745+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-nashville-tennessee (3202 words)
+[2026-06-07T04:58:15.797358+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-nashville-tennessee (3202 words)
+[2026-06-07T04:58:15.883336+00:00] PPT EN black-box-data-after-a-semi-crash-in-nashville-tennessee: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-nashville-tennessee.pptx
+[2026-06-07T04:58:15.966902+00:00] PPT ES black-box-data-after-a-semi-crash-in-nashville-tennessee: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-nashville-tennessee.pptx
+[2026-06-07T04:58:15.966995+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-nashville-tennessee.md
+[2026-06-07T04:58:16.000728+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-nashville-tennessee
+[2026-06-07T04:58:16.001093+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-nashville-tennessee.json
+[2026-06-07T04:58:16.005636+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania', 'black-box-data-after-a-semi-crash-in-providence-rhode-island', 'black-box-data-after-a-semi-crash-in-charleston-south-carolina', 'black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota', 'black-box-data-after-a-semi-crash-in-nashville-tennessee']
+[2026-06-07T04:58:16.017099+00:00] Daily ledger (UTC): 43/50 states, 43 EN posts
+[2026-06-07T04:58:16.323015+00:00]  "tail": "tep by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:58:16.193533+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-philadelphia-pennsylvania\",\n      \"black-box-data-after-a-semi-crash-in-providence-rhode-island\",\n      \"black-box-data-after-a-semi-crash-in-charleston-south-carolina\",\n      \"black-box-data-after-a-semi-crash-in-sioux-falls-south-dakota\",\n      \"black-box-data-after-a-semi-crash-in-nashville-tennessee\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:58:16.323146+00:00] WARN organic_crush exit 1
+[2026-06-07T04:58:16.449599+00:00] Inject for 8 states not yet published today
+[2026-06-07T04:58:16.451428+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:58:16.452334+00:00] Daily 50-state rotation (2026-06-07): +0 new, 7 re-prioritized, 7 at queue front
+[2026-06-07T04:58:16.453074+00:00] Daily 50-state injection complete
+[2026-06-07T04:58:16.546045+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:58:16.548103+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:58:16.551132+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:58:16.551973+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:58:16.556539+00:00] States already published today (UTC): 43 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee']
+[2026-06-07T04:58:16.559217+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:16.560167+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-houston-texas
+[2026-06-07T04:58:20.737818+00:00] After materialize: 100 / 4032w ([])
+[2026-06-07T04:58:20.739692+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-houston-texas (3209 words)
+[2026-06-07T04:58:20.743288+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-houston-texas (3209 words)
+[2026-06-07T04:58:20.898047+00:00] PPT EN black-box-data-after-a-semi-crash-in-houston-texas: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-houston-texas.pptx
+[2026-06-07T04:58:20.984321+00:00] PPT ES black-box-data-after-a-semi-crash-in-houston-texas: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-houston-texas.pptx
+[2026-06-07T04:58:20.984455+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-houston-texas.md
+[2026-06-07T04:58:21.018238+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-houston-texas
+[2026-06-07T04:58:23.024697+00:00] Quality 30 / 650w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:23.025697+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-salt-lake-city-utah
+[2026-06-07T04:58:27.152096+00:00] After materialize: 100 / 4057w ([])
+[2026-06-07T04:58:27.153748+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-salt-lake-city-utah (3247 words)
+[2026-06-07T04:58:27.157510+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-salt-lake-city-utah (3247 words)
+[2026-06-07T04:58:27.246778+00:00] PPT EN black-box-data-after-a-semi-crash-in-salt-lake-city-utah: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-salt-lake-city-utah.pptx
+[2026-06-07T04:58:27.338142+00:00] PPT ES black-box-data-after-a-semi-crash-in-salt-lake-city-utah: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-salt-lake-city-utah.pptx
+[2026-06-07T04:58:27.338249+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-salt-lake-city-utah.md
+[2026-06-07T04:58:27.372076+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-salt-lake-city-utah
+[2026-06-07T04:58:29.377297+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:29.378293+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-burlington-vermont
+[2026-06-07T04:58:33.516155+00:00] After materialize: 100 / 4014w ([])
+[2026-06-07T04:58:33.517865+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-burlington-vermont (3204 words)
+[2026-06-07T04:58:33.521402+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-burlington-vermont (3204 words)
+[2026-06-07T04:58:33.607416+00:00] PPT EN black-box-data-after-a-semi-crash-in-burlington-vermont: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-burlington-vermont.pptx
+[2026-06-07T04:58:33.690054+00:00] PPT ES black-box-data-after-a-semi-crash-in-burlington-vermont: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-burlington-vermont.pptx
+[2026-06-07T04:58:33.690174+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-burlington-vermont.md
+[2026-06-07T04:58:33.723508+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-burlington-vermont
+[2026-06-07T04:58:35.729538+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:35.730525+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-virginia-beach-virginia
+[2026-06-07T04:58:39.862973+00:00] After materialize: 100 / 4035w ([])
+[2026-06-07T04:58:39.864582+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-virginia-beach-virginia (3226 words)
+[2026-06-07T04:58:39.868084+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-virginia-beach-virginia (3226 words)
+[2026-06-07T04:58:39.955561+00:00] PPT EN black-box-data-after-a-semi-crash-in-virginia-beach-virginia: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-virginia-beach-virginia.pptx
+[2026-06-07T04:58:40.048913+00:00] PPT ES black-box-data-after-a-semi-crash-in-virginia-beach-virginia: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-virginia-beach-virginia.pptx
+[2026-06-07T04:58:40.049019+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-virginia-beach-virginia.md
+[2026-06-07T04:58:40.082641+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-virginia-beach-virginia
+[2026-06-07T04:58:42.087839+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:42.088863+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-seattle-washington
+[2026-06-07T04:58:46.205358+00:00] After materialize: 100 / 4014w ([])
+[2026-06-07T04:58:46.206931+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-seattle-washington (3200 words)
+[2026-06-07T04:58:46.210508+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-seattle-washington (3200 words)
+[2026-06-07T04:58:46.296221+00:00] PPT EN black-box-data-after-a-semi-crash-in-seattle-washington: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-seattle-washington.pptx
+[2026-06-07T04:58:46.379527+00:00] PPT ES black-box-data-after-a-semi-crash-in-seattle-washington: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-seattle-washington.pptx
+[2026-06-07T04:58:46.379625+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-seattle-washington.md
+[2026-06-07T04:58:46.413021+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-seattle-washington
+[2026-06-07T04:58:46.413424+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-seattle-washington.json
+[2026-06-07T04:58:46.418036+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-houston-texas', 'black-box-data-after-a-semi-crash-in-salt-lake-city-utah', 'black-box-data-after-a-semi-crash-in-burlington-vermont', 'black-box-data-after-a-semi-crash-in-virginia-beach-virginia', 'black-box-data-after-a-semi-crash-in-seattle-washington']
+[2026-06-07T04:58:46.425656+00:00] Daily ledger (UTC): 48/50 states, 48 EN posts
+[2026-06-07T04:58:46.735398+00:00]  "tail": "car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:58:46.600192+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-houston-texas\",\n      \"black-box-data-after-a-semi-crash-in-salt-lake-city-utah\",\n      \"black-box-data-after-a-semi-crash-in-burlington-vermont\",\n      \"black-box-data-after-a-semi-crash-in-virginia-beach-virginia\",\n      \"black-box-data-after-a-semi-crash-in-seattle-washington\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:58:46.735573+00:00] WARN organic_crush exit 1
+[2026-06-07T04:58:46.864269+00:00] Inject for 3 states not yet published today
+[2026-06-07T04:58:46.866295+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:58:46.867006+00:00] Daily 50-state rotation (2026-06-07): +0 new, 2 re-prioritized, 2 at queue front
+[2026-06-07T04:58:46.867758+00:00] Daily 50-state injection complete
+[2026-06-07T04:58:46.960949+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T04:58:46.963049+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T04:58:46.966078+00:00] Daily 50-state rotation (2026-06-07): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-07T04:58:46.966912+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T04:58:46.971635+00:00] States already published today (UTC): 48 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington']
+[2026-06-07T04:58:46.974352+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:46.975305+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-charleston-west-virginia
+[2026-06-07T04:58:51.108438+00:00] After materialize: 100 / 4055w ([])
+[2026-06-07T04:58:51.110283+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-charleston-west-virginia (3234 words)
+[2026-06-07T04:58:51.113935+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-charleston-west-virginia (3234 words)
+[2026-06-07T04:58:51.268273+00:00] PPT EN black-box-data-after-a-semi-crash-in-charleston-west-virginia: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-charleston-west-virginia.pptx
+[2026-06-07T04:58:51.354616+00:00] PPT ES black-box-data-after-a-semi-crash-in-charleston-west-virginia: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-charleston-west-virginia.pptx
+[2026-06-07T04:58:51.354717+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-charleston-west-virginia.md
+[2026-06-07T04:58:51.388014+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-charleston-west-virginia
+[2026-06-07T04:58:53.394430+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T04:58:53.395412+00:00] Materializing template → platinum for black-box-data-after-a-semi-crash-in-milwaukee-wisconsin
+[2026-06-07T04:58:57.533570+00:00] After materialize: 100 / 4014w ([])
+[2026-06-07T04:58:57.535104+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-milwaukee-wisconsin (3204 words)
+[2026-06-07T04:58:57.538760+00:00] Spanish OK for black-box-data-after-a-semi-crash-in-milwaukee-wisconsin (3204 words)
+[2026-06-07T04:58:57.626983+00:00] PPT EN black-box-data-after-a-semi-crash-in-milwaukee-wisconsin: 14 slides (score 100) → /blog/presentations/black-box-data-after-a-semi-crash-in-milwaukee-wisconsin.pptx
+[2026-06-07T04:58:57.715729+00:00] PPT ES black-box-data-after-a-semi-crash-in-milwaukee-wisconsin: 14 slides (score 100) → /blog/presentations/es/black-box-data-after-a-semi-crash-in-milwaukee-wisconsin.pptx
+[2026-06-07T04:58:57.715820+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/black-box-data-after-a-semi-crash-in-milwaukee-wisconsin.md
+[2026-06-07T04:58:57.749446+00:00] IndexNow queued for black-box-data-after-a-semi-crash-in-milwaukee-wisconsin
+[2026-06-07T04:58:57.749824+00:00] Syndication → sites/semitruckmatch/content/syndication/black-box-data-after-a-semi-crash-in-milwaukee-wisconsin.json
+[2026-06-07T04:58:57.754482+00:00] Done: 2/2 published (platinum bar ≥100, ≥3000w) — ['black-box-data-after-a-semi-crash-in-charleston-west-virginia', 'black-box-data-after-a-semi-crash-in-milwaukee-wisconsin']
+[2026-06-07T04:58:57.762148+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-06-07T04:58:58.072556+00:00]  \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T04:58:57.939928+00:00\",\n  \"stats\": {\n    \"enPosts\": 896,\n    \"esPosts\": 896,\n    \"platinumEn\": 877,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"black-box-data-after-a-semi-crash-in-charleston-west-virginia\",\n      \"black-box-data-after-a-semi-crash-in-milwaukee-wisconsin\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T04:58:58.072695+00:00] WARN organic_crush exit 1
+Target: 50 states (top city per state) — UTC day 2026-06-07
+
+Round 1: 3/50 states — need 47
+After round 1: 8/50 states
+
+Round 2: 8/50 states — need 42
+After round 2: 13/50 states
+
+Round 3: 13/50 states — need 37
+After round 3: 18/50 states
+
+Round 4: 18/50 states — need 32
+After round 4: 23/50 states
+
+Round 5: 23/50 states — need 27
+After round 5: 28/50 states
+
+Round 6: 28/50 states — need 22
+After round 6: 33/50 states
+
+Round 7: 33/50 states — need 17
+After round 7: 38/50 states
+
+Round 8: 38/50 states — need 12
+After round 8: 43/50 states
+
+Round 9: 43/50 states — need 7
+After round 9: 48/50 states
+
+Round 10: 48/50 states — need 2
+After round 10: 50/50 states
+
+Round 11: 50/50 states — need 0
+Done — 50-state SLA met.
