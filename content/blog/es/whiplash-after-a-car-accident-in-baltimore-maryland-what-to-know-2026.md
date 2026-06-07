@@ -15,15 +15,17 @@ excerpt: >-
   matching in ~60 seconds via WreckMatch.
 autopilot: true
 vertical: auto
-qualityTier: "platinum"
-authorId: "kathy-carr"
-reviewerId: "roy-waddell"
+qualityTier: platinum
+authorId: kathy-carr
+reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026
-presentationUrl: "/blog/presentations/es/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026.pptx
+presentationUrlEn: >-
   /blog/presentations/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026.pptx
 ---
 ## Por qué publicamos esta guía para Baltimore Maryland What To Know
@@ -293,4 +295,3 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
 **[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
-
