@@ -6936,3 +6936,208 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-07T04:04:10.323832+00:00] WARN organic_crush exit 1
+[2026-06-07T07:12:39.339317+00:00] Inject for 48 states not yet published today
+[2026-06-07T07:12:39.341012+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:12:39.392714+00:00] Daily 50-state rotation (2026-06-07): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-07T07:12:39.424063+00:00] Daily 50-state injection complete
+[2026-06-07T07:12:39.526785+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T07:12:39.528873+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:12:39.584561+00:00] Daily 50-state rotation (2026-06-07): +0 new, 49 re-prioritized, 49 at queue front
+[2026-06-07T07:12:39.616163+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T07:12:39.621000+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-07T07:12:39.624435+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:12:39.625370+00:00] Materializing template → platinum for truck-accident-in-little-rock-arkansas-steps-legal-help-2026
+[2026-06-07T07:12:45.469756+00:00] After materialize: 100 / 4013w ([])
+[2026-06-07T07:12:45.471722+00:00] Spanish OK for truck-accident-in-little-rock-arkansas-steps-legal-help-2026 (3223 words)
+[2026-06-07T07:12:45.475307+00:00] Spanish OK for truck-accident-in-little-rock-arkansas-steps-legal-help-2026 (3223 words)
+[2026-06-07T07:12:45.692586+00:00] PPT EN truck-accident-in-little-rock-arkansas-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-little-rock-arkansas-steps-legal-help-2026.pptx
+[2026-06-07T07:12:45.790240+00:00] PPT ES truck-accident-in-little-rock-arkansas-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-little-rock-arkansas-steps-legal-help-2026.pptx
+[2026-06-07T07:12:45.790337+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-little-rock-arkansas-steps-legal-help-2026.md
+[2026-06-07T07:12:45.821660+00:00] IndexNow queued for truck-accident-in-little-rock-arkansas-steps-legal-help-2026
+[2026-06-07T07:12:47.868068+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:12:47.869063+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-los-angeles-california-2026
+[2026-06-07T07:12:52.595658+00:00] After materialize: 100 / 3891w ([])
+[2026-06-07T07:12:52.597315+00:00] Spanish OK for hit-by-an-uninsured-driver-in-los-angeles-california-2026 (3201 words)
+[2026-06-07T07:12:52.600708+00:00] Spanish OK for hit-by-an-uninsured-driver-in-los-angeles-california-2026 (3201 words)
+[2026-06-07T07:12:52.697655+00:00] PPT EN hit-by-an-uninsured-driver-in-los-angeles-california-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-los-angeles-california-2026.pptx
+[2026-06-07T07:12:52.793954+00:00] PPT ES hit-by-an-uninsured-driver-in-los-angeles-california-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-los-angeles-california-2026.pptx
+[2026-06-07T07:12:52.794042+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-los-angeles-california-2026.md
+[2026-06-07T07:12:52.825490+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-los-angeles-california-2026
+[2026-06-07T07:12:54.868679+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:12:54.869685+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-denver-colorado-2026
+[2026-06-07T07:12:59.578665+00:00] After materialize: 100 / 3883w ([])
+[2026-06-07T07:12:59.580349+00:00] Spanish OK for hit-by-an-uninsured-driver-in-denver-colorado-2026 (3187 words)
+[2026-06-07T07:12:59.583739+00:00] Spanish OK for hit-by-an-uninsured-driver-in-denver-colorado-2026 (3187 words)
+[2026-06-07T07:12:59.681380+00:00] PPT EN hit-by-an-uninsured-driver-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-denver-colorado-2026.pptx
+[2026-06-07T07:12:59.777741+00:00] PPT ES hit-by-an-uninsured-driver-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-denver-colorado-2026.pptx
+[2026-06-07T07:12:59.777827+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-denver-colorado-2026.md
+[2026-06-07T07:12:59.808743+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-denver-colorado-2026
+[2026-06-07T07:13:01.853188+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:01.854121+00:00] Materializing template → platinum for truck-accident-in-bridgeport-connecticut-steps-legal-help-2026
+[2026-06-07T07:13:06.622893+00:00] After materialize: 100 / 4002w ([])
+[2026-06-07T07:13:06.624550+00:00] Spanish OK for truck-accident-in-bridgeport-connecticut-steps-legal-help-2026 (3207 words)
+[2026-06-07T07:13:06.628007+00:00] Spanish OK for truck-accident-in-bridgeport-connecticut-steps-legal-help-2026 (3207 words)
+[2026-06-07T07:13:06.725303+00:00] PPT EN truck-accident-in-bridgeport-connecticut-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-bridgeport-connecticut-steps-legal-help-2026.pptx
+[2026-06-07T07:13:06.831121+00:00] PPT ES truck-accident-in-bridgeport-connecticut-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-bridgeport-connecticut-steps-legal-help-2026.pptx
+[2026-06-07T07:13:06.831250+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-bridgeport-connecticut-steps-legal-help-2026.md
+[2026-06-07T07:13:06.862949+00:00] IndexNow queued for truck-accident-in-bridgeport-connecticut-steps-legal-help-2026
+[2026-06-07T07:13:08.909793+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:08.911289+00:00] Materializing template → platinum for truck-accident-in-wilmington-delaware-steps-legal-help-2026
+[2026-06-07T07:13:13.690951+00:00] After materialize: 100 / 3991w ([])
+[2026-06-07T07:13:13.692666+00:00] Spanish OK for truck-accident-in-wilmington-delaware-steps-legal-help-2026 (3209 words)
+[2026-06-07T07:13:13.696131+00:00] Spanish OK for truck-accident-in-wilmington-delaware-steps-legal-help-2026 (3209 words)
+[2026-06-07T07:13:13.793997+00:00] PPT EN truck-accident-in-wilmington-delaware-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-wilmington-delaware-steps-legal-help-2026.pptx
+[2026-06-07T07:13:13.890908+00:00] PPT ES truck-accident-in-wilmington-delaware-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-wilmington-delaware-steps-legal-help-2026.pptx
+[2026-06-07T07:13:13.890995+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-wilmington-delaware-steps-legal-help-2026.md
+[2026-06-07T07:13:13.922107+00:00] IndexNow queued for truck-accident-in-wilmington-delaware-steps-legal-help-2026
+[2026-06-07T07:13:13.922557+00:00] Syndication → content/syndication/truck-accident-in-wilmington-delaware-steps-legal-help-2026.json
+[2026-06-07T07:13:13.963536+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['truck-accident-in-little-rock-arkansas-steps-legal-help-2026', 'hit-by-an-uninsured-driver-in-los-angeles-california-2026', 'hit-by-an-uninsured-driver-in-denver-colorado-2026', 'truck-accident-in-bridgeport-connecticut-steps-legal-help-2026', 'truck-accident-in-wilmington-delaware-steps-legal-help-2026']
+[2026-06-07T07:13:13.974852+00:00] Daily ledger (UTC): 8/50 states, 8 EN posts
+[2026-06-07T07:13:14.273174+00:00]  "tail": " in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T07:13:14.146910+00:00\",\n  \"stats\": {\n    \"enPosts\": 901,\n    \"esPosts\": 901,\n    \"platinumEn\": 882,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-little-rock-arkansas-steps-legal-help-2026\",\n      \"hit-by-an-uninsured-driver-in-los-angeles-california-2026\",\n      \"hit-by-an-uninsured-driver-in-denver-colorado-2026\",\n      \"truck-accident-in-bridgeport-connecticut-steps-legal-help-2026\",\n      \"truck-accident-in-wilmington-delaware-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T07:13:14.273327+00:00] WARN organic_crush exit 1
+[2026-06-07T07:13:14.405787+00:00] Inject for 43 states not yet published today
+[2026-06-07T07:13:14.407491+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:13:14.461523+00:00] Daily 50-state rotation (2026-06-07): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-07T07:13:14.493211+00:00] Daily 50-state injection complete
+[2026-06-07T07:13:14.593476+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T07:13:14.595556+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:13:14.652646+00:00] Daily 50-state rotation (2026-06-07): +1 new, 48 re-prioritized, 49 at queue front
+[2026-06-07T07:13:14.685007+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T07:13:14.690034+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware']
+[2026-06-07T07:13:14.693000+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:14.693949+00:00] Materializing template → platinum for truck-accident-in-washington-district-of-columbia-steps-legal-help-2026
+[2026-06-07T07:13:19.455807+00:00] After materialize: 100 / 4051w ([])
+[2026-06-07T07:13:19.457680+00:00] Spanish OK for truck-accident-in-washington-district-of-columbia-steps-legal-help-2026 (3268 words)
+[2026-06-07T07:13:19.461123+00:00] Spanish OK for truck-accident-in-washington-district-of-columbia-steps-legal-help-2026 (3268 words)
+[2026-06-07T07:13:19.623877+00:00] PPT EN truck-accident-in-washington-district-of-columbia-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-washington-district-of-columbia-steps-legal-help-2026.pptx
+[2026-06-07T07:13:19.720474+00:00] PPT ES truck-accident-in-washington-district-of-columbia-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-washington-district-of-columbia-steps-legal-help-2026.pptx
+[2026-06-07T07:13:19.720567+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-washington-district-of-columbia-steps-legal-help-2026.md
+[2026-06-07T07:13:19.751853+00:00] IndexNow queued for truck-accident-in-washington-district-of-columbia-steps-legal-help-2026
+[2026-06-07T07:13:21.798369+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:21.799325+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-miami-florida-2026
+[2026-06-07T07:13:26.534266+00:00] After materialize: 100 / 3896w ([])
+[2026-06-07T07:13:26.535822+00:00] Spanish OK for hit-by-an-uninsured-driver-in-miami-florida-2026 (3204 words)
+[2026-06-07T07:13:26.539227+00:00] Spanish OK for hit-by-an-uninsured-driver-in-miami-florida-2026 (3204 words)
+[2026-06-07T07:13:26.636478+00:00] PPT EN hit-by-an-uninsured-driver-in-miami-florida-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-miami-florida-2026.pptx
+[2026-06-07T07:13:26.735343+00:00] PPT ES hit-by-an-uninsured-driver-in-miami-florida-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-miami-florida-2026.pptx
+[2026-06-07T07:13:26.735436+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-miami-florida-2026.md
+[2026-06-07T07:13:26.767086+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-miami-florida-2026
+[2026-06-07T07:13:28.810502+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:28.811460+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-atlanta-georgia-2026
+[2026-06-07T07:13:33.502082+00:00] After materialize: 100 / 3883w ([])
+[2026-06-07T07:13:33.503784+00:00] Spanish OK for hit-by-an-uninsured-driver-in-atlanta-georgia-2026 (3187 words)
+[2026-06-07T07:13:33.507274+00:00] Spanish OK for hit-by-an-uninsured-driver-in-atlanta-georgia-2026 (3187 words)
+[2026-06-07T07:13:33.605370+00:00] PPT EN hit-by-an-uninsured-driver-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-atlanta-georgia-2026.pptx
+[2026-06-07T07:13:33.702115+00:00] PPT ES hit-by-an-uninsured-driver-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-atlanta-georgia-2026.pptx
+[2026-06-07T07:13:33.702245+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-atlanta-georgia-2026.md
+[2026-06-07T07:13:33.734271+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-atlanta-georgia-2026
+[2026-06-07T07:13:35.784956+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:35.785937+00:00] Materializing template → platinum for truck-accident-in-honolulu-hawaii-steps-legal-help-2026
+[2026-06-07T07:13:40.519578+00:00] After materialize: 100 / 4003w ([])
+[2026-06-07T07:13:40.521138+00:00] Spanish OK for truck-accident-in-honolulu-hawaii-steps-legal-help-2026 (3222 words)
+[2026-06-07T07:13:40.524585+00:00] Spanish OK for truck-accident-in-honolulu-hawaii-steps-legal-help-2026 (3222 words)
+[2026-06-07T07:13:40.622809+00:00] PPT EN truck-accident-in-honolulu-hawaii-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-honolulu-hawaii-steps-legal-help-2026.pptx
+[2026-06-07T07:13:40.730097+00:00] PPT ES truck-accident-in-honolulu-hawaii-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-honolulu-hawaii-steps-legal-help-2026.pptx
+[2026-06-07T07:13:40.730227+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-honolulu-hawaii-steps-legal-help-2026.md
+[2026-06-07T07:13:40.762260+00:00] IndexNow queued for truck-accident-in-honolulu-hawaii-steps-legal-help-2026
+[2026-06-07T07:13:42.806081+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:42.807030+00:00] Materializing template → platinum for truck-accident-in-boise-idaho-steps-legal-help-2026
+[2026-06-07T07:13:47.568935+00:00] After materialize: 100 / 3991w ([])
+[2026-06-07T07:13:47.570559+00:00] Spanish OK for truck-accident-in-boise-idaho-steps-legal-help-2026 (3209 words)
+[2026-06-07T07:13:47.573973+00:00] Spanish OK for truck-accident-in-boise-idaho-steps-legal-help-2026 (3209 words)
+[2026-06-07T07:13:47.669901+00:00] PPT EN truck-accident-in-boise-idaho-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-boise-idaho-steps-legal-help-2026.pptx
+[2026-06-07T07:13:47.767338+00:00] PPT ES truck-accident-in-boise-idaho-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-boise-idaho-steps-legal-help-2026.pptx
+[2026-06-07T07:13:47.767436+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-boise-idaho-steps-legal-help-2026.md
+[2026-06-07T07:13:47.800678+00:00] IndexNow queued for truck-accident-in-boise-idaho-steps-legal-help-2026
+[2026-06-07T07:13:47.801176+00:00] Syndication → content/syndication/truck-accident-in-boise-idaho-steps-legal-help-2026.json
+[2026-06-07T07:13:47.843010+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['truck-accident-in-washington-district-of-columbia-steps-legal-help-2026', 'hit-by-an-uninsured-driver-in-miami-florida-2026', 'hit-by-an-uninsured-driver-in-atlanta-georgia-2026', 'truck-accident-in-honolulu-hawaii-steps-legal-help-2026', 'truck-accident-in-boise-idaho-steps-legal-help-2026']
+[2026-06-07T07:13:47.852697+00:00] Daily ledger (UTC): 13/50 states, 13 EN posts
+[2026-06-07T07:13:48.152293+00:00]  "tail": " car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T07:13:48.023250+00:00\",\n  \"stats\": {\n    \"enPosts\": 906,\n    \"esPosts\": 906,\n    \"platinumEn\": 887,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-washington-district-of-columbia-steps-legal-help-2026\",\n      \"hit-by-an-uninsured-driver-in-miami-florida-2026\",\n      \"hit-by-an-uninsured-driver-in-atlanta-georgia-2026\",\n      \"truck-accident-in-honolulu-hawaii-steps-legal-help-2026\",\n      \"truck-accident-in-boise-idaho-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T07:13:48.152452+00:00] WARN organic_crush exit 1
+[2026-06-07T07:13:48.284274+00:00] Inject for 38 states not yet published today
+[2026-06-07T07:13:48.285960+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:13:48.338923+00:00] Daily 50-state rotation (2026-06-07): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-07T07:13:48.369254+00:00] Daily 50-state injection complete
+[2026-06-07T07:13:48.469513+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T07:13:48.471591+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T07:13:48.528385+00:00] Daily 50-state rotation (2026-06-07): +2 new, 47 re-prioritized, 49 at queue front
+[2026-06-07T07:13:48.560325+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T07:13:48.565718+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho']
+[2026-06-07T07:13:48.568627+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:48.569585+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-chicago-illinois-2026
+[2026-06-07T07:13:53.289775+00:00] After materialize: 100 / 3883w ([])
+[2026-06-07T07:13:53.291722+00:00] Spanish OK for hit-by-an-uninsured-driver-in-chicago-illinois-2026 (3187 words)
+[2026-06-07T07:13:53.295119+00:00] Spanish OK for hit-by-an-uninsured-driver-in-chicago-illinois-2026 (3187 words)
+[2026-06-07T07:13:53.463334+00:00] PPT EN hit-by-an-uninsured-driver-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-chicago-illinois-2026.pptx
+[2026-06-07T07:13:53.562530+00:00] PPT ES hit-by-an-uninsured-driver-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-chicago-illinois-2026.pptx
+[2026-06-07T07:13:53.562638+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-chicago-illinois-2026.md
+[2026-06-07T07:13:53.594813+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-chicago-illinois-2026
+[2026-06-07T07:13:55.641336+00:00] Quality 30 / 559w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:13:55.642345+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026
+[2026-06-07T07:14:00.366134+00:00] After materialize: 100 / 3944w ([])
+[2026-06-07T07:14:00.367806+00:00] Spanish OK for whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026 (3248 words)
+[2026-06-07T07:14:00.371358+00:00] Spanish OK for whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026 (3248 words)
+[2026-06-07T07:14:00.468275+00:00] PPT EN whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026.pptx
+[2026-06-07T07:14:00.564197+00:00] PPT ES whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026.pptx
+[2026-06-07T07:14:00.564299+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026.md
+[2026-06-07T07:14:00.596609+00:00] IndexNow queued for whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026
+[2026-06-07T07:14:02.639639+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:14:02.640709+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026
+[2026-06-07T07:14:07.373421+00:00] After materialize: 100 / 3953w ([])
+[2026-06-07T07:14:07.375003+00:00] Spanish OK for whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026 (3264 words)
+[2026-06-07T07:14:07.378424+00:00] Spanish OK for whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026 (3264 words)
+[2026-06-07T07:14:07.474724+00:00] PPT EN whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026.pptx
+[2026-06-07T07:14:07.572532+00:00] PPT ES whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026.pptx
+[2026-06-07T07:14:07.572631+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026.md
+[2026-06-07T07:14:07.604832+00:00] IndexNow queued for whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026
+[2026-06-07T07:14:09.647056+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:14:09.648063+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026
+[2026-06-07T07:14:14.355473+00:00] After materialize: 100 / 3962w ([])
+[2026-06-07T07:14:14.357127+00:00] Spanish OK for whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026 (3246 words)
+[2026-06-07T07:14:14.360605+00:00] Spanish OK for whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026 (3246 words)
+[2026-06-07T07:14:14.456621+00:00] PPT EN whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026.pptx
+[2026-06-07T07:14:14.564471+00:00] PPT ES whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026.pptx
+[2026-06-07T07:14:14.564566+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026.md
+[2026-06-07T07:14:14.596958+00:00] IndexNow queued for whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026
+[2026-06-07T07:14:16.640252+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T07:14:16.641266+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026
+[2026-06-07T07:14:21.346576+00:00] After materialize: 100 / 3961w ([])
+[2026-06-07T07:14:21.348317+00:00] Spanish OK for whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026 (3257 words)
+[2026-06-07T07:14:21.351779+00:00] Spanish OK for whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026 (3257 words)
+[2026-06-07T07:14:21.449093+00:00] PPT EN whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026.pptx
+[2026-06-07T07:14:21.544611+00:00] PPT ES whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026.pptx
+[2026-06-07T07:14:21.544709+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026.md
+[2026-06-07T07:14:21.576297+00:00] IndexNow queued for whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026
+[2026-06-07T07:14:21.576667+00:00] Syndication → content/syndication/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026.json
+[2026-06-07T07:14:21.617466+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['hit-by-an-uninsured-driver-in-chicago-illinois-2026', 'whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026', 'whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026', 'whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026', 'whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026']
+[2026-06-07T07:14:21.625063+00:00] Daily ledger (UTC): 18/50 states, 18 EN posts
+[2026-06-07T07:14:21.917919+00:00] ": 0,
+      "tail": " Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T07:14:21.791044+00:00\",\n  \"stats\": {\n    \"enPosts\": 911,\n    \"esPosts\": 911,\n    \"platinumEn\": 892,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"hit-by-an-uninsured-driver-in-chicago-illinois-2026\",\n      \"whiplash-after-a-car-accident-in-indianapolis-indiana-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-des-moines-iowa-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-wichita-kansas-what-to-know-2026\",\n      \"whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T07:14:21.918076+00:00] WARN organic_crush exit 1
