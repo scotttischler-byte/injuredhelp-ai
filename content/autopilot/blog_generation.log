@@ -7562,3 +7562,34 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-07T11:18:08.138589+00:00] WARN organic_crush exit 1
+[2026-06-07T12:22:33.529515+00:00] Inject for 2 states not yet published today
+[2026-06-07T12:22:33.531206+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T12:22:33.579598+00:00] Daily 50-state rotation (2026-06-07): +0 new, 1 re-prioritized, 1 at queue front
+[2026-06-07T12:22:33.609501+00:00] Daily 50-state injection complete
+[2026-06-07T12:22:33.710498+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T12:22:33.712680+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T12:22:33.768683+00:00] Daily 50-state rotation (2026-06-07): +0 new, 48 re-prioritized, 48 at queue front
+[2026-06-07T12:22:33.800059+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T12:22:33.806040+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia']
+[2026-06-07T12:22:33.809462+00:00] Quality 30 / 557w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T12:22:33.810518+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026
+[2026-06-07T12:22:39.916587+00:00] After materialize: 100 / 3874w ([])
+[2026-06-07T12:22:39.918432+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026 (3197 words)
+[2026-06-07T12:22:39.921848+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026 (3197 words)
+[2026-06-07T12:22:40.123287+00:00] PPT EN should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026.pptx
+[2026-06-07T12:22:40.221442+00:00] PPT ES should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026.pptx
+[2026-06-07T12:22:40.221534+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026.md
+[2026-06-07T12:22:40.252823+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026
+[2026-06-07T12:22:40.253241+00:00] Syndication → content/syndication/should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026.json
+[2026-06-07T12:22:40.297990+00:00] Done: 1/1 published (platinum bar ≥100, ≥3000w) — ['should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026']
+[2026-06-07T12:22:40.310504+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-06-07T12:22:40.619380+00:00] ep by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T12:22:40.492698+00:00\",\n  \"stats\": {\n    \"enPosts\": 943,\n    \"esPosts\": 943,\n    \"platinumEn\": 924,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": true
+}
+

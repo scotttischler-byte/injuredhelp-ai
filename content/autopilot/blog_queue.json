@@ -849,11 +849,12 @@
     "should-you-hire-a-lawyer-after-a-burlington-crash-vermont-2026",
     "severe-injury-after-a-car-accident-in-virginia-beach-virginia-2026",
     "severe-injury-after-a-car-accident-in-seattle-washington-2026",
-    "should-you-hire-a-lawyer-after-a-charleston-crash-west-virginia-2026"
+    "should-you-hire-a-lawyer-after-a-charleston-crash-west-virginia-2026",
+    "should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026"
   ],
   "stats": {
-    "total_published": 848,
-    "last_run_at": "2026-06-07T11:18:07.775282+00:00"
+    "total_published": 849,
+    "last_run_at": "2026-06-07T12:22:40.253306+00:00"
   },
   "pending": [
     {
@@ -1403,15 +1404,67 @@
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Milwaukee Crash? (Wisconsin 2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Salt Lake City, Utah \u2014 What to Know (2026)",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "place_slug": "salt-lake-city",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-milwaukee-crash-wisconsin-2026",
+      "slug": "whiplash-after-a-car-accident-in-salt-lake-city-utah-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Burlington, Vermont \u2014 What to Know (2026)",
+      "city": "Burlington",
+      "state": "Vermont",
+      "place_slug": "burlington",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Virginia Beach Crash? (Virginia 2026)",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "place_slug": "virginia-beach",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "should-you-hire-a-lawyer-after-a-virginia-beach-crash-virginia-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "Should You Hire a Lawyer After a Seattle Crash? (Washington 2026)",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "should-you-hire-a-lawyer-after-a-seattle-crash-washington-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Charleston, West Virginia \u2014 What to Know (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -7958,17 +8011,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "whiplash-after-a-car-accident-in-bellevue-washington-what-to-know-2026"
-    },
-    {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Seattle Crash? (Washington 2026)",
-      "city": "Seattle",
-      "state": "Washington",
-      "place_slug": "seattle",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-seattle-crash-washington-2026"
     },
     {
       "angle": "rideshare",
@@ -43864,17 +43906,6 @@
       "slug": "hit-by-an-uninsured-driver-in-salt-lake-city-utah-2026"
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Salt Lake City, Utah \u2014 What to Know (2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-salt-lake-city-utah-what-to-know-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in West Jordan, Utah (2026)",
       "city": "West Jordan",
@@ -44104,17 +44135,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-burlington-vermont-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Burlington, Vermont \u2014 What to Know (2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -44788,17 +44808,6 @@
       "slug": "whiplash-after-a-car-accident-in-richmond-virginia-what-to-know-2026"
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Virginia Beach Crash? (Virginia 2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-virginia-beach-crash-virginia-2026"
-    },
-    {
       "angle": "rideshare",
       "title": "Uber or Lyft Accident in Virginia Beach, Virginia (2026 Guide)",
       "city": "Virginia Beach",
@@ -44863,17 +44872,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-charleston-west-virginia-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Charleston, West Virginia \u2014 What to Know (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
