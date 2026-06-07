@@ -831,11 +831,14 @@
     "whiplash-after-a-car-accident-in-omaha-nebraska-what-to-know-2026",
     "whiplash-after-a-car-accident-in-las-vegas-nevada-what-to-know-2026",
     "whiplash-after-a-car-accident-in-manchester-new-hampshire-what-to-know-2026",
-    "whiplash-after-a-car-accident-in-newark-new-jersey-what-to-know-2026"
+    "whiplash-after-a-car-accident-in-newark-new-jersey-what-to-know-2026",
+    "whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026",
+    "should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026",
+    "hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026"
   ],
   "stats": {
-    "total_published": 830,
-    "last_run_at": "2026-06-07T10:26:01.351057+00:00"
+    "total_published": 833,
+    "last_run_at": "2026-06-07T10:31:21.080565+00:00"
   },
   "pending": [
     {
@@ -1099,41 +1102,132 @@
       "top_city": true
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Albuquerque, New Mexico \u2014 What to Know (2026)",
-      "city": "Albuquerque",
-      "state": "New Mexico",
-      "place_slug": "albuquerque",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Boston, Massachusetts: Steps & Legal Help (2026)",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "place_slug": "boston",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-boston-massachusetts-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a New York City Crash? (New York 2026)",
-      "city": "New York City",
-      "state": "New York",
-      "place_slug": "new-york-city",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Detroit, Michigan: Steps & Legal Help (2026)",
+      "city": "Detroit",
+      "state": "Michigan",
+      "place_slug": "detroit",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-detroit-michigan-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Charlotte, North Carolina (2026)",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "place_slug": "charlotte",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Minneapolis, Minnesota: Steps & Legal Help (2026)",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "place_slug": "minneapolis",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-minneapolis-minnesota-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Jackson, Mississippi: Steps & Legal Help (2026)",
+      "city": "Jackson",
+      "state": "Mississippi",
+      "place_slug": "jackson",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-jackson-mississippi-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Kansas City, Missouri: Steps & Legal Help (2026)",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "place_slug": "kansas-city",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-kansas-city-missouri-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Billings, Montana: Steps & Legal Help (2026)",
+      "city": "Billings",
+      "state": "Montana",
+      "place_slug": "billings",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-billings-montana-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Omaha, Nebraska: Steps & Legal Help (2026)",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "place_slug": "omaha",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-omaha-nebraska-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Las Vegas, Nevada: Steps & Legal Help (2026)",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "place_slug": "las-vegas",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-las-vegas-nevada-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Manchester, New Hampshire: Steps & Legal Help (2026)",
+      "city": "Manchester",
+      "state": "New Hampshire",
+      "place_slug": "manchester",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-manchester-new-hampshire-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Newark, New Jersey: Steps & Legal Help (2026)",
+      "city": "Newark",
+      "state": "New Jersey",
+      "place_slug": "newark",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-newark-new-jersey-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -30573,17 +30667,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Boston, Massachusetts: Steps & Legal Help (2026)",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "place_slug": "boston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-boston-massachusetts-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Cambridge, Massachusetts: Steps & Legal Help (2026)",
       "city": "Cambridge",
       "state": "Massachusetts",
@@ -30625,17 +30708,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-ann-arbor-michigan-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Detroit, Michigan: Steps & Legal Help (2026)",
-      "city": "Detroit",
-      "state": "Michigan",
-      "place_slug": "detroit",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-detroit-michigan-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
@@ -30683,17 +30755,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Minneapolis, Minnesota: Steps & Legal Help (2026)",
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "place_slug": "minneapolis",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-minneapolis-minnesota-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Rochester, Minnesota: Steps & Legal Help (2026)",
       "city": "Rochester",
       "state": "Minnesota",
@@ -30738,17 +30799,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Jackson, Mississippi: Steps & Legal Help (2026)",
-      "city": "Jackson",
-      "state": "Mississippi",
-      "place_slug": "jackson",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-jackson-mississippi-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Southaven, Mississippi: Steps & Legal Help (2026)",
       "city": "Southaven",
       "state": "Mississippi",
@@ -30771,17 +30821,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Kansas City, Missouri: Steps & Legal Help (2026)",
-      "city": "Kansas City",
-      "state": "Missouri",
-      "place_slug": "kansas-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-kansas-city-missouri-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Springfield, Missouri: Steps & Legal Help (2026)",
       "city": "Springfield",
       "state": "Missouri",
@@ -30801,17 +30840,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-st-louis-missouri-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Billings, Montana: Steps & Legal Help (2026)",
-      "city": "Billings",
-      "state": "Montana",
-      "place_slug": "billings",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-billings-montana-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
@@ -30881,17 +30909,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Omaha, Nebraska: Steps & Legal Help (2026)",
-      "city": "Omaha",
-      "state": "Nebraska",
-      "place_slug": "omaha",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-omaha-nebraska-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Henderson, Nevada: Steps & Legal Help (2026)",
       "city": "Henderson",
       "state": "Nevada",
@@ -30900,17 +30917,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-henderson-nevada-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Las Vegas, Nevada: Steps & Legal Help (2026)",
-      "city": "Las Vegas",
-      "state": "Nevada",
-      "place_slug": "las-vegas",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-las-vegas-nevada-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
@@ -30958,17 +30964,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Manchester, New Hampshire: Steps & Legal Help (2026)",
-      "city": "Manchester",
-      "state": "New Hampshire",
-      "place_slug": "manchester",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-manchester-new-hampshire-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Nashua, New Hampshire: Steps & Legal Help (2026)",
       "city": "Nashua",
       "state": "New Hampshire",
@@ -31010,17 +31005,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-jersey-city-new-jersey-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Newark, New Jersey: Steps & Legal Help (2026)",
-      "city": "Newark",
-      "state": "New Jersey",
-      "place_slug": "newark",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-newark-new-jersey-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",

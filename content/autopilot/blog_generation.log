@@ -7306,3 +7306,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-07T10:26:01.699257+00:00] WARN organic_crush exit 1
+[2026-06-07T10:31:00.046420+00:00] Inject for 20 states not yet published today
+[2026-06-07T10:31:00.048205+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T10:31:00.099360+00:00] Daily 50-state rotation (2026-06-07): +0 new, 19 re-prioritized, 19 at queue front
+[2026-06-07T10:31:00.133861+00:00] Daily 50-state injection complete
+[2026-06-07T10:31:00.241378+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-07T10:31:00.243518+00:00] Loaded 239 cities from cities.ts
+[2026-06-07T10:31:00.301130+00:00] Daily 50-state rotation (2026-06-07): +0 new, 49 re-prioritized, 49 at queue front
+[2026-06-07T10:31:00.334554+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-07T10:31:00.340241+00:00] States already published today (UTC): 31 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey']
+[2026-06-07T10:31:00.343794+00:00] Quality 30 / 564w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T10:31:00.344807+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026
+[2026-06-07T10:31:06.382622+00:00] After materialize: 100 / 3972w ([])
+[2026-06-07T10:31:06.384540+00:00] Spanish OK for whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026 (3277 words)
+[2026-06-07T10:31:06.388103+00:00] Spanish OK for whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026 (3277 words)
+[2026-06-07T10:31:06.607646+00:00] PPT EN whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026.pptx
+[2026-06-07T10:31:06.708900+00:00] PPT ES whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026.pptx
+[2026-06-07T10:31:06.709001+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026.md
+[2026-06-07T10:31:06.741229+00:00] IndexNow queued for whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026
+[2026-06-07T10:31:08.788209+00:00] Quality 30 / 572w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T10:31:08.789237+00:00] Materializing template → platinum for should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026
+[2026-06-07T10:31:13.666329+00:00] After materialize: 100 / 3949w ([])
+[2026-06-07T10:31:13.667994+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026 (3270 words)
+[2026-06-07T10:31:13.671446+00:00] Spanish OK for should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026 (3270 words)
+[2026-06-07T10:31:13.771787+00:00] PPT EN should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026: 14 slides (score 100) → /blog/presentations/should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026.pptx
+[2026-06-07T10:31:13.871945+00:00] PPT ES should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026: 14 slides (score 100) → /blog/presentations/es/should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026.pptx
+[2026-06-07T10:31:13.872043+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026.md
+[2026-06-07T10:31:13.904057+00:00] IndexNow queued for should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026
+[2026-06-07T10:31:15.947881+00:00] Quality 30 / 560w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-07T10:31:15.948903+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026
+[2026-06-07T10:31:20.843969+00:00] After materialize: 100 / 3912w ([])
+[2026-06-07T10:31:20.845556+00:00] Spanish OK for hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026 (3228 words)
+[2026-06-07T10:31:20.849063+00:00] Spanish OK for hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026 (3228 words)
+[2026-06-07T10:31:20.948858+00:00] PPT EN hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026.pptx
+[2026-06-07T10:31:21.047633+00:00] PPT ES hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026.pptx
+[2026-06-07T10:31:21.047765+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026.md
+[2026-06-07T10:31:21.080031+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026
+[2026-06-07T10:31:21.080489+00:00] Syndication → content/syndication/hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026.json
+[2026-06-07T10:31:21.122488+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026', 'should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026', 'hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026']
+[2026-06-07T10:31:21.134722+00:00] Daily ledger (UTC): 34/50 states, 34 EN posts
+[2026-06-07T10:31:21.440819+00:00] ide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-07T10:31:21.311035+00:00\",\n  \"stats\": {\n    \"enPosts\": 927,\n    \"esPosts\": 927,\n    \"platinumEn\": 908,\n    \"lastUpdated\": \"2026-06-07\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-albuquerque-new-mexico-what-to-know-2026\",\n      \"should-you-hire-a-lawyer-after-a-new-york-city-crash-new-york-2026\",\n      \"hit-by-an-uninsured-driver-in-charlotte-north-carolina-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-07T10:31:21.440933+00:00] WARN organic_crush exit 1
