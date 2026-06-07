@@ -260,52 +260,16 @@
     "fmcsa-violations-after-a-truck-crash-in-virginia-beach-virginia",
     "fmcsa-violations-after-a-truck-crash-in-seattle-washington",
     "fmcsa-violations-after-a-truck-crash-in-charleston-west-virginia",
-    "fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin"
+    "fmcsa-violations-after-a-truck-crash-in-milwaukee-wisconsin",
+    "tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026",
+    "tractor-trailer-injury-in-anchorage-alaska-legal-steps-2026",
+    "tractor-trailer-injury-in-phoenix-arizona-legal-steps-2026"
   ],
   "stats": {
-    "total_published": 259,
-    "last_run_at": "2026-06-06T04:22:18.111893+00:00"
+    "total_published": 262,
+    "last_run_at": "2026-06-07T04:04:04.230634+00:00"
   },
   "pending": [
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Birmingham, Alabama: Legal Steps (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Anchorage, Alaska: Legal Steps (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-anchorage-alaska-legal-steps-2026"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Phoenix, Arizona: Legal Steps (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-phoenix-arizona-legal-steps-2026"
-    },
     {
       "angle": "tractor-trailer-injury",
       "title": "Tractor-Trailer Injury in Little Rock, Arkansas: Legal Steps (2026)",
@@ -851,6 +815,71 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "black-box-data-after-a-semi-crash-in-salt-lake-city-utah"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Burlington, Vermont",
+      "city": "Burlington",
+      "state": "Vermont",
+      "place_slug": "burlington",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-burlington-vermont"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Virginia Beach, Virginia",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "place_slug": "virginia-beach",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-virginia-beach-virginia"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Seattle, Washington",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-seattle-washington"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Charleston, West Virginia",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-charleston-west-virginia"
+    },
+    {
+      "angle": "black-box-truck",
+      "title": "Black Box Data After a Semi Crash in Milwaukee, Wisconsin",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "black-box-data-after-a-semi-crash-in-milwaukee-wisconsin"
     }
   ],
   "skipped_slugs": [
