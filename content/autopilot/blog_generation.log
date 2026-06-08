@@ -8269,3 +8269,34 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-08T14:50:39.674717+00:00] WARN organic_crush exit 1
+[2026-06-08T17:56:00.731171+00:00] Inject for 2 states not yet published today
+[2026-06-08T17:56:00.732930+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T17:56:00.781972+00:00] Daily 50-state rotation (2026-06-08): +0 new, 1 re-prioritized, 1 at queue front
+[2026-06-08T17:56:00.812697+00:00] Daily 50-state injection complete
+[2026-06-08T17:56:00.913624+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-08T17:56:00.915743+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T17:56:00.977153+00:00] Daily 50-state rotation (2026-06-08): +0 new, 41 re-prioritized, 41 at queue front
+[2026-06-08T17:56:01.009745+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-08T17:56:01.016302+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia']
+[2026-06-08T17:56:01.019879+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T17:56:01.020875+00:00] Materializing template → platinum for whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026
+[2026-06-08T17:56:07.009944+00:00] After materialize: 100 / 3951w ([])
+[2026-06-08T17:56:07.011793+00:00] Spanish OK for whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026 (3248 words)
+[2026-06-08T17:56:07.015234+00:00] Spanish OK for whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026 (3248 words)
+[2026-06-08T17:56:07.236264+00:00] PPT EN whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026: 14 slides (score 100) → /blog/presentations/whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026.pptx
+[2026-06-08T17:56:07.333645+00:00] PPT ES whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026: 14 slides (score 100) → /blog/presentations/es/whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026.pptx
+[2026-06-08T17:56:07.333736+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026.md
+[2026-06-08T17:56:07.364958+00:00] IndexNow queued for whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026
+[2026-06-08T17:56:07.365392+00:00] Syndication → content/syndication/whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026.json
+[2026-06-08T17:56:07.410362+00:00] Done: 1/1 published (platinum bar ≥100, ≥3000w) — ['whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026']
+[2026-06-08T17:56:07.423611+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-06-08T17:56:07.734440+00:00] tep\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-08T17:56:07.608774+00:00\",\n  \"stats\": {\n    \"enPosts\": 993,\n    \"esPosts\": 993,\n    \"platinumEn\": 974,\n    \"lastUpdated\": \"2026-06-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": true
+}
+

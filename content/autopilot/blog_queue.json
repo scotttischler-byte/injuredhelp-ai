@@ -899,11 +899,12 @@
     "whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026",
     "should-you-hire-a-lawyer-after-a-virginia-beach-crash-virginia-2026",
     "should-you-hire-a-lawyer-after-a-seattle-crash-washington-2026",
-    "whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026"
+    "whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026",
+    "whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026"
   ],
   "stats": {
-    "total_published": 898,
-    "last_run_at": "2026-06-08T14:50:39.360973+00:00"
+    "total_published": 899,
+    "last_run_at": "2026-06-08T17:56:07.365484+00:00"
   },
   "pending": [
     {
@@ -1389,14 +1390,40 @@
     },
     {
       "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Milwaukee, Wisconsin \u2014 What to Know (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
+      "title": "Whiplash After a Car Accident in Virginia Beach, Virginia \u2014 What to Know (2026)",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "place_slug": "virginia-beach",
       "priority": -2,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026",
+      "slug": "whiplash-after-a-car-accident-in-virginia-beach-virginia-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "whiplash",
+      "title": "Whiplash After a Car Accident in Seattle, Washington \u2014 What to Know (2026)",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "whiplash-after-a-car-accident-in-seattle-washington-what-to-know-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Charleston, West Virginia: Steps & Legal Help (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-charleston-west-virginia-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -8045,17 +8072,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-seattle-washington-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Seattle, Washington \u2014 What to Know (2026)",
-      "city": "Seattle",
-      "state": "Washington",
-      "place_slug": "seattle",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-seattle-washington-what-to-know-2026"
     },
     {
       "angle": "common-mistakes",
@@ -31456,17 +31472,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Charleston, West Virginia: Steps & Legal Help (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-charleston-west-virginia-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Huntington, West Virginia: Steps & Legal Help (2026)",
       "city": "Huntington",
       "state": "West Virginia",
@@ -44466,17 +44471,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "hit-by-an-uninsured-driver-in-virginia-beach-virginia-2026"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Virginia Beach, Virginia \u2014 What to Know (2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-virginia-beach-virginia-what-to-know-2026"
     },
     {
       "angle": "rideshare",
