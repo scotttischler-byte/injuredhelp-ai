@@ -896,11 +896,14 @@
     "truck-accident-in-nashville-tennessee-steps-legal-help-2026",
     "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-08",
     "whiplash-after-a-car-accident-in-salt-lake-city-utah-what-to-know-2026",
-    "whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026"
+    "whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026",
+    "should-you-hire-a-lawyer-after-a-virginia-beach-crash-virginia-2026",
+    "should-you-hire-a-lawyer-after-a-seattle-crash-washington-2026",
+    "whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026"
   ],
   "stats": {
-    "total_published": 895,
-    "last_run_at": "2026-06-08T13:17:48.518855+00:00"
+    "total_published": 898,
+    "last_run_at": "2026-06-08T14:50:39.360973+00:00"
   },
   "pending": [
     {
@@ -1333,41 +1336,54 @@
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Virginia Beach Crash? (Virginia 2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Sioux Falls, South Dakota: Steps & Legal Help (2026)",
+      "city": "Sioux Falls",
+      "state": "South Dakota",
+      "place_slug": "sioux-falls",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-virginia-beach-crash-virginia-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-sioux-falls-south-dakota-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "lawyer-vs-diy",
-      "title": "Should You Hire a Lawyer After a Seattle Crash? (Washington 2026)",
-      "city": "Seattle",
-      "state": "Washington",
-      "place_slug": "seattle",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Nashville, Tennessee (2026)",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "place_slug": "nashville",
       "priority": -2,
       "firm_state": true,
       "vertical": "auto",
-      "slug": "should-you-hire-a-lawyer-after-a-seattle-crash-washington-2026",
+      "slug": "hit-by-an-uninsured-driver-in-nashville-tennessee-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Charleston, West Virginia \u2014 What to Know (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Salt Lake City, Utah: Steps & Legal Help (2026)",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "place_slug": "salt-lake-city",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-salt-lake-city-utah-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Burlington, Vermont: Steps & Legal Help (2026)",
+      "city": "Burlington",
+      "state": "Vermont",
+      "place_slug": "burlington",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-burlington-vermont-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -7897,17 +7913,6 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-nashville-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Nashville, Tennessee (2026)",
-      "city": "Nashville",
-      "state": "Tennessee",
-      "place_slug": "nashville",
-      "priority": 1,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-nashville-tennessee-2026"
     },
     {
       "angle": "common-mistakes",
@@ -31330,17 +31335,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in Sioux Falls, South Dakota: Steps & Legal Help (2026)",
-      "city": "Sioux Falls",
-      "state": "South Dakota",
-      "place_slug": "sioux-falls",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-sioux-falls-south-dakota-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Provo, Utah: Steps & Legal Help (2026)",
       "city": "Provo",
       "state": "Utah",
@@ -31349,17 +31343,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-provo-utah-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Salt Lake City, Utah: Steps & Legal Help (2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-salt-lake-city-utah-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
@@ -31382,17 +31365,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-west-valley-city-utah-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Burlington, Vermont: Steps & Legal Help (2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-burlington-vermont-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
