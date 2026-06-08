@@ -881,11 +881,26 @@
     "truck-accident-in-omaha-nebraska-steps-legal-help-2026",
     "truck-accident-in-las-vegas-nevada-steps-legal-help-2026",
     "truck-accident-in-manchester-new-hampshire-steps-legal-help-2026",
-    "truck-accident-in-newark-new-jersey-steps-legal-help-2026"
+    "truck-accident-in-newark-new-jersey-steps-legal-help-2026",
+    "truck-accident-in-albuquerque-new-mexico-steps-legal-help-2026",
+    "whiplash-after-a-car-accident-in-new-york-city-new-york-what-to-know-2026",
+    "what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-06-08",
+    "truck-accident-in-fargo-north-dakota-steps-legal-help-2026",
+    "what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-06-08",
+    "whiplash-after-a-car-accident-in-oklahoma-city-oklahoma-what-to-know-2026",
+    "truck-accident-in-portland-oregon-steps-legal-help-2026",
+    "what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-08",
+    "truck-accident-in-providence-rhode-island-steps-legal-help-2026",
+    "truck-accident-in-charleston-south-carolina-steps-legal-help-2026",
+    "whiplash-after-a-car-accident-in-sioux-falls-south-dakota-what-to-know-2026",
+    "truck-accident-in-nashville-tennessee-steps-legal-help-2026",
+    "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-08",
+    "whiplash-after-a-car-accident-in-salt-lake-city-utah-what-to-know-2026",
+    "whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026"
   ],
   "stats": {
-    "total_published": 880,
-    "last_run_at": "2026-06-08T12:25:35.590021+00:00"
+    "total_published": 895,
+    "last_run_at": "2026-06-08T13:17:48.518855+00:00"
   },
   "pending": [
     {
@@ -1097,197 +1112,223 @@
       "top_city": true
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Albuquerque, New Mexico: Steps & Legal Help (2026)",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Boston, Massachusetts (2026)",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "place_slug": "boston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-boston-massachusetts-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Detroit, Michigan (2026)",
+      "city": "Detroit",
+      "state": "Michigan",
+      "place_slug": "detroit",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-detroit-michigan-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Minneapolis, Minnesota (2026)",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "place_slug": "minneapolis",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-minneapolis-minnesota-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Jackson, Mississippi (2026)",
+      "city": "Jackson",
+      "state": "Mississippi",
+      "place_slug": "jackson",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-jackson-mississippi-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Kansas City, Missouri (2026)",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "place_slug": "kansas-city",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-kansas-city-missouri-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Billings, Montana (2026)",
+      "city": "Billings",
+      "state": "Montana",
+      "place_slug": "billings",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-billings-montana-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Omaha, Nebraska (2026)",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "place_slug": "omaha",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-omaha-nebraska-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Las Vegas, Nevada (2026)",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "place_slug": "las-vegas",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-las-vegas-nevada-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Manchester, New Hampshire (2026)",
+      "city": "Manchester",
+      "state": "New Hampshire",
+      "place_slug": "manchester",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-manchester-new-hampshire-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Newark, New Jersey (2026)",
+      "city": "Newark",
+      "state": "New Jersey",
+      "place_slug": "newark",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-newark-new-jersey-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Albuquerque, New Mexico (2026)",
       "city": "Albuquerque",
       "state": "New Mexico",
       "place_slug": "albuquerque",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-albuquerque-new-mexico-steps-legal-help-2026",
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-albuquerque-new-mexico-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in New York City, New York \u2014 What to Know (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in New York City, New York: Steps & Legal Help (2026)",
       "city": "New York City",
       "state": "New York",
       "place_slug": "new-york-city",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-new-york-city-new-york-what-to-know-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-new-york-city-new-york-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "insurance-denied",
-      "title": "What to Do After a Car Accident in Charlotte, North Carolina \u2014 Top City Guide (2026-06-08)",
-      "city": "Charlotte",
-      "state": "North Carolina",
-      "place_slug": "charlotte",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-06-08"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Fargo, North Dakota: Steps & Legal Help (2026)",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Fargo, North Dakota (2026)",
       "city": "Fargo",
       "state": "North Dakota",
       "place_slug": "fargo",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-fargo-north-dakota-steps-legal-help-2026",
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-fargo-north-dakota-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "What to Do After a Car Accident in Columbus, Ohio \u2014 Top City Guide (2026-06-08)",
-      "city": "Columbus",
-      "state": "Ohio",
-      "place_slug": "columbus",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-06-08"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Oklahoma City, Oklahoma \u2014 What to Know (2026)",
+      "angle": "truck-accident",
+      "title": "Truck Accident in Oklahoma City, Oklahoma: Steps & Legal Help (2026)",
       "city": "Oklahoma City",
       "state": "Oklahoma",
       "place_slug": "oklahoma-city",
       "priority": -2,
       "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-oklahoma-city-oklahoma-what-to-know-2026",
+      "vertical": "truck",
+      "slug": "truck-accident-in-oklahoma-city-oklahoma-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Portland, Oregon: Steps & Legal Help (2026)",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Portland, Oregon (2026)",
       "city": "Portland",
       "state": "Oregon",
       "place_slug": "portland",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-portland-oregon-steps-legal-help-2026",
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-portland-oregon-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "truck-accident",
-      "title": "What to Do After a Car Accident in Philadelphia, Pennsylvania \u2014 Top City Guide (2026-06-08)",
-      "city": "Philadelphia",
-      "state": "Pennsylvania",
-      "place_slug": "philadelphia",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-08"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Providence, Rhode Island: Steps & Legal Help (2026)",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Providence, Rhode Island (2026)",
       "city": "Providence",
       "state": "Rhode Island",
       "place_slug": "providence",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-providence-rhode-island-steps-legal-help-2026",
+      "vertical": "auto",
+      "slug": "hit-by-an-uninsured-driver-in-providence-rhode-island-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
     {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Charleston, South Carolina: Steps & Legal Help (2026)",
+      "angle": "uninsured-driver",
+      "title": "Hit by an Uninsured Driver in Charleston, South Carolina (2026)",
       "city": "Charleston",
       "state": "South Carolina",
       "place_slug": "charleston",
       "priority": -2,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-charleston-south-carolina-steps-legal-help-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Sioux Falls, South Dakota \u2014 What to Know (2026)",
-      "city": "Sioux Falls",
-      "state": "South Dakota",
-      "place_slug": "sioux-falls",
-      "priority": -2,
-      "firm_state": false,
       "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-sioux-falls-south-dakota-what-to-know-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Nashville, Tennessee: Steps & Legal Help (2026)",
-      "city": "Nashville",
-      "state": "Tennessee",
-      "place_slug": "nashville",
-      "priority": -2,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "truck-accident-in-nashville-tennessee-steps-legal-help-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "insurance-denied",
-      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-08)",
-      "city": "Houston",
-      "state": "Texas",
-      "place_slug": "houston",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-08"
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Salt Lake City, Utah \u2014 What to Know (2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-salt-lake-city-utah-what-to-know-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "whiplash",
-      "title": "Whiplash After a Car Accident in Burlington, Vermont \u2014 What to Know (2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026",
+      "slug": "hit-by-an-uninsured-driver-in-charleston-south-carolina-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -30948,17 +30989,6 @@
     },
     {
       "angle": "truck-accident",
-      "title": "Truck Accident in New York City, New York: Steps & Legal Help (2026)",
-      "city": "New York City",
-      "state": "New York",
-      "place_slug": "new-york-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-new-york-city-new-york-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
       "title": "Truck Accident in Rochester, New York: Steps & Legal Help (2026)",
       "city": "Rochester",
       "state": "New York",
@@ -31121,17 +31151,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-norman-oklahoma-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Oklahoma City, Oklahoma: Steps & Legal Help (2026)",
-      "city": "Oklahoma City",
-      "state": "Oklahoma",
-      "place_slug": "oklahoma-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-oklahoma-city-oklahoma-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",
@@ -36238,17 +36257,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-boston-2026"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Boston, Massachusetts (2026)",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "place_slug": "boston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-boston-massachusetts-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Cambridge, Massachusetts (2026)",
       "city": "Cambridge",
@@ -36766,17 +36774,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-detroit-2026"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Detroit, Michigan (2026)",
-      "city": "Detroit",
-      "state": "Michigan",
-      "place_slug": "detroit",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-detroit-michigan-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Grand Rapids, Michigan (2026)",
       "city": "Grand Rapids",
@@ -37182,17 +37179,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-minneapolis-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Minneapolis, Minnesota (2026)",
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "place_slug": "minneapolis",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-minneapolis-minnesota-2026"
     },
     {
       "angle": "common-mistakes",
@@ -37602,17 +37588,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-jackson-2026"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Jackson, Mississippi (2026)",
-      "city": "Jackson",
-      "state": "Mississippi",
-      "place_slug": "jackson",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-jackson-mississippi-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Southaven, Mississippi (2026)",
       "city": "Southaven",
@@ -37798,17 +37773,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "uber-or-lyft-accident-in-kansas-city-missouri-2026-guide"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Kansas City, Missouri (2026)",
-      "city": "Kansas City",
-      "state": "Missouri",
-      "place_slug": "kansas-city",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-kansas-city-missouri-2026"
     },
     {
       "angle": "common-mistakes",
@@ -38018,17 +37982,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-billings-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Billings, Montana (2026)",
-      "city": "Billings",
-      "state": "Montana",
-      "place_slug": "billings",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-billings-montana-2026"
     },
     {
       "angle": "common-mistakes",
@@ -38614,17 +38567,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-omaha-2026"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Omaha, Nebraska (2026)",
-      "city": "Omaha",
-      "state": "Nebraska",
-      "place_slug": "omaha",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-omaha-nebraska-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Henderson, Nevada (2026)",
       "city": "Henderson",
@@ -38744,17 +38686,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-las-vegas-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Las Vegas, Nevada (2026)",
-      "city": "Las Vegas",
-      "state": "Nevada",
-      "place_slug": "las-vegas",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-las-vegas-nevada-2026"
     },
     {
       "angle": "common-mistakes",
@@ -39164,17 +39095,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-manchester-2026"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Manchester, New Hampshire (2026)",
-      "city": "Manchester",
-      "state": "New Hampshire",
-      "place_slug": "manchester",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-manchester-new-hampshire-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Nashua, New Hampshire (2026)",
       "city": "Nashua",
@@ -39571,17 +39491,6 @@
       "slug": "uber-or-lyft-accident-in-newark-new-jersey-2026-guide"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Newark, New Jersey (2026)",
-      "city": "Newark",
-      "state": "New Jersey",
-      "place_slug": "newark",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-newark-new-jersey-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Paterson, New Jersey (2026)",
       "city": "Paterson",
@@ -39701,17 +39610,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-albuquerque-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Albuquerque, New Mexico (2026)",
-      "city": "Albuquerque",
-      "state": "New Mexico",
-      "place_slug": "albuquerque",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-albuquerque-new-mexico-2026"
     },
     {
       "angle": "common-mistakes",
@@ -40957,17 +40855,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-fargo-2026"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Fargo, North Dakota (2026)",
-      "city": "Fargo",
-      "state": "North Dakota",
-      "place_slug": "fargo",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-fargo-north-dakota-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Grand Forks, North Dakota (2026)",
       "city": "Grand Forks",
@@ -42079,17 +41966,6 @@
       "slug": "uber-or-lyft-accident-in-portland-oregon-2026-guide"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Portland, Oregon (2026)",
-      "city": "Portland",
-      "state": "Oregon",
-      "place_slug": "portland",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-portland-oregon-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Salem, Oregon (2026)",
       "city": "Salem",
@@ -42827,17 +42703,6 @@
       "slug": "how-long-does-a-car-accident-settlement-take-in-providence-2026"
     },
     {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Providence, Rhode Island (2026)",
-      "city": "Providence",
-      "state": "Rhode Island",
-      "place_slug": "providence",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-providence-rhode-island-2026"
-    },
-    {
       "angle": "common-mistakes",
       "title": "7 Costly Car Accident Mistakes in Warwick, Rhode Island (2026)",
       "city": "Warwick",
@@ -42957,17 +42822,6 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "how-long-does-a-car-accident-settlement-take-in-charleston-2026"
-    },
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Charleston, South Carolina (2026)",
-      "city": "Charleston",
-      "state": "South Carolina",
-      "place_slug": "charleston",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-charleston-south-carolina-2026"
     },
     {
       "angle": "common-mistakes",
