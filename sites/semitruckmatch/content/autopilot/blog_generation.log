@@ -4975,3 +4975,53 @@ Node.js v24.14.1
 }
 
 [2026-06-07T04:58:58.072695+00:00] WARN organic_crush exit 1
+[2026-06-08T00:11:02.158363+00:00] Inject for 51 states not yet published today
+[2026-06-08T00:11:02.160194+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T00:11:02.162993+00:00] Daily 50-state rotation (2026-06-08): +2 new, 48 re-prioritized, 50 at queue front
+[2026-06-08T00:11:02.163758+00:00] Daily 50-state injection complete
+[2026-06-08T00:11:02.254909+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-08T00:11:02.256984+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T00:11:02.260220+00:00] Daily 50-state rotation (2026-06-08): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-08T00:11:02.261008+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-08T00:11:02.264980+00:00] States already published today (UTC): 0 — []
+[2026-06-08T00:11:02.268381+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T00:11:02.269324+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-birmingham-alabama-2026
+[2026-06-08T00:11:07.928372+00:00] After materialize: 100 / 4023w ([])
+[2026-06-08T00:11:07.930206+00:00] Spanish OK for underride-or-override-truck-crash-in-birmingham-alabama-2026 (3207 words)
+[2026-06-08T00:11:07.933650+00:00] Spanish OK for underride-or-override-truck-crash-in-birmingham-alabama-2026 (3207 words)
+[2026-06-08T00:11:08.142213+00:00] PPT EN underride-or-override-truck-crash-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-birmingham-alabama-2026.pptx
+[2026-06-08T00:11:08.240523+00:00] PPT ES underride-or-override-truck-crash-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-birmingham-alabama-2026.pptx
+[2026-06-08T00:11:08.240616+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-birmingham-alabama-2026.md
+[2026-06-08T00:11:08.271637+00:00] IndexNow queued for underride-or-override-truck-crash-in-birmingham-alabama-2026
+[2026-06-08T00:11:10.277652+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T00:11:10.278656+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-anchorage-alaska-2026
+[2026-06-08T00:11:14.586555+00:00] After materialize: 100 / 4013w ([])
+[2026-06-08T00:11:14.588153+00:00] Spanish OK for underride-or-override-truck-crash-in-anchorage-alaska-2026 (3197 words)
+[2026-06-08T00:11:14.591596+00:00] Spanish OK for underride-or-override-truck-crash-in-anchorage-alaska-2026 (3197 words)
+[2026-06-08T00:11:14.691112+00:00] PPT EN underride-or-override-truck-crash-in-anchorage-alaska-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-anchorage-alaska-2026.pptx
+[2026-06-08T00:11:14.790953+00:00] PPT ES underride-or-override-truck-crash-in-anchorage-alaska-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-anchorage-alaska-2026.pptx
+[2026-06-08T00:11:14.791036+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-anchorage-alaska-2026.md
+[2026-06-08T00:11:14.822505+00:00] IndexNow queued for underride-or-override-truck-crash-in-anchorage-alaska-2026
+[2026-06-08T00:11:16.827772+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T00:11:16.828734+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-phoenix-arizona-2026
+[2026-06-08T00:11:21.097077+00:00] After materialize: 100 / 4013w ([])
+[2026-06-08T00:11:21.098676+00:00] Spanish OK for underride-or-override-truck-crash-in-phoenix-arizona-2026 (3197 words)
+[2026-06-08T00:11:21.102064+00:00] Spanish OK for underride-or-override-truck-crash-in-phoenix-arizona-2026 (3197 words)
+[2026-06-08T00:11:21.200480+00:00] PPT EN underride-or-override-truck-crash-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-phoenix-arizona-2026.pptx
+[2026-06-08T00:11:21.296044+00:00] PPT ES underride-or-override-truck-crash-in-phoenix-arizona-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-phoenix-arizona-2026.pptx
+[2026-06-08T00:11:21.296128+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-phoenix-arizona-2026.md
+[2026-06-08T00:11:21.327275+00:00] IndexNow queued for underride-or-override-truck-crash-in-phoenix-arizona-2026
+[2026-06-08T00:11:21.327696+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-phoenix-arizona-2026.json
+[2026-06-08T00:11:21.331702+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['underride-or-override-truck-crash-in-birmingham-alabama-2026', 'underride-or-override-truck-crash-in-anchorage-alaska-2026', 'underride-or-override-truck-crash-in-phoenix-arizona-2026']
+[2026-06-08T00:11:21.341034+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-08T00:11:21.635135+00:00]  lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-08T00:11:21.511746+00:00\",\n  \"stats\": {\n    \"enPosts\": 943,\n    \"esPosts\": 943,\n    \"platinumEn\": 924,\n    \"lastUpdated\": \"2026-06-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"underride-or-override-truck-crash-in-birmingham-alabama-2026\",\n      \"underride-or-override-truck-crash-in-anchorage-alaska-2026\",\n      \"underride-or-override-truck-crash-in-phoenix-arizona-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-08T00:11:21.635242+00:00] WARN organic_crush exit 1

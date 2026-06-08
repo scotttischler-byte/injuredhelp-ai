@@ -310,52 +310,16 @@
     "black-box-data-after-a-semi-crash-in-virginia-beach-virginia",
     "black-box-data-after-a-semi-crash-in-seattle-washington",
     "black-box-data-after-a-semi-crash-in-charleston-west-virginia",
-    "black-box-data-after-a-semi-crash-in-milwaukee-wisconsin"
+    "black-box-data-after-a-semi-crash-in-milwaukee-wisconsin",
+    "underride-or-override-truck-crash-in-birmingham-alabama-2026",
+    "underride-or-override-truck-crash-in-anchorage-alaska-2026",
+    "underride-or-override-truck-crash-in-phoenix-arizona-2026"
   ],
   "stats": {
-    "total_published": 309,
-    "last_run_at": "2026-06-07T04:58:57.749898+00:00"
+    "total_published": 312,
+    "last_run_at": "2026-06-08T00:11:21.327771+00:00"
   },
   "pending": [
-    {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Birmingham, Alabama (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-birmingham-alabama-2026"
-    },
-    {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Anchorage, Alaska (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-anchorage-alaska-2026"
-    },
-    {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Phoenix, Arizona (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-phoenix-arizona-2026"
-    },
     {
       "angle": "underride-override",
       "title": "Underride or Override Truck Crash in Little Rock, Arkansas (2026)",
@@ -940,6 +904,32 @@
       "firm_state": true,
       "vertical": "truck",
       "slug": "tractor-trailer-injury-in-seattle-washington-legal-steps-2026"
+    },
+    {
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Charleston, West Virginia: Legal Steps (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026"
+    },
+    {
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Milwaukee, Wisconsin: Legal Steps (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026"
     }
   ],
   "skipped_slugs": [
