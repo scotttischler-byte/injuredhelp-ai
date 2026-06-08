@@ -313,51 +313,54 @@
     "black-box-data-after-a-semi-crash-in-milwaukee-wisconsin",
     "underride-or-override-truck-crash-in-birmingham-alabama-2026",
     "underride-or-override-truck-crash-in-anchorage-alaska-2026",
-    "underride-or-override-truck-crash-in-phoenix-arizona-2026"
+    "underride-or-override-truck-crash-in-phoenix-arizona-2026",
+    "underride-or-override-truck-crash-in-little-rock-arkansas-2026",
+    "underride-or-override-truck-crash-in-los-angeles-california-2026",
+    "underride-or-override-truck-crash-in-denver-colorado-2026"
   ],
   "stats": {
-    "total_published": 312,
-    "last_run_at": "2026-06-08T00:11:21.327771+00:00"
+    "total_published": 315,
+    "last_run_at": "2026-06-08T05:53:07.732357+00:00"
   },
   "pending": [
     {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Little Rock, Arkansas (2026)",
-      "city": "Little Rock",
-      "state": "Arkansas",
-      "place_slug": "little-rock",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Birmingham, Alabama (2026)",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "place_slug": "birmingham",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-truck-crash-in-birmingham-alabama-2026"
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Anchorage, Alaska (2026)",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-little-rock-arkansas-2026"
+      "slug": "severe-injury-after-a-truck-crash-in-anchorage-alaska-2026"
     },
     {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Los Angeles, California (2026)",
-      "city": "Los Angeles",
-      "state": "California",
-      "place_slug": "los-angeles",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Phoenix, Arizona (2026)",
+      "city": "Phoenix",
+      "state": "Arizona",
+      "place_slug": "phoenix",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
-      "firm_state": true,
+      "firm_state": false,
       "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-los-angeles-california-2026"
-    },
-    {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Denver, Colorado (2026)",
-      "city": "Denver",
-      "state": "Colorado",
-      "place_slug": "denver",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-denver-colorado-2026"
+      "slug": "severe-injury-after-a-truck-crash-in-phoenix-arizona-2026"
     },
     {
       "angle": "underride-override",

@@ -5025,3 +5025,53 @@ Node.js v24.14.1
 }
 
 [2026-06-08T00:11:21.635242+00:00] WARN organic_crush exit 1
+[2026-06-08T05:52:49.787710+00:00] Inject for 48 states not yet published today
+[2026-06-08T05:52:49.789372+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T05:52:49.791958+00:00] Daily 50-state rotation (2026-06-08): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-08T05:52:49.792629+00:00] Daily 50-state injection complete
+[2026-06-08T05:52:49.882902+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-08T05:52:49.884784+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T05:52:49.887778+00:00] Daily 50-state rotation (2026-06-08): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-08T05:52:49.888528+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-08T05:52:49.892304+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-08T05:52:49.895455+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T05:52:49.896339+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-little-rock-arkansas-2026
+[2026-06-08T05:52:55.060878+00:00] After materialize: 100 / 4035w ([])
+[2026-06-08T05:52:55.062546+00:00] Spanish OK for underride-or-override-truck-crash-in-little-rock-arkansas-2026 (3215 words)
+[2026-06-08T05:52:55.065728+00:00] Spanish OK for underride-or-override-truck-crash-in-little-rock-arkansas-2026 (3215 words)
+[2026-06-08T05:52:55.221963+00:00] PPT EN underride-or-override-truck-crash-in-little-rock-arkansas-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-little-rock-arkansas-2026.pptx
+[2026-06-08T05:52:55.304110+00:00] PPT ES underride-or-override-truck-crash-in-little-rock-arkansas-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-little-rock-arkansas-2026.pptx
+[2026-06-08T05:52:55.304200+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-little-rock-arkansas-2026.md
+[2026-06-08T05:52:55.332931+00:00] IndexNow queued for underride-or-override-truck-crash-in-little-rock-arkansas-2026
+[2026-06-08T05:52:57.338204+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T05:52:57.339110+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-los-angeles-california-2026
+[2026-06-08T05:53:01.340497+00:00] After materialize: 100 / 4032w ([])
+[2026-06-08T05:53:01.341940+00:00] Spanish OK for underride-or-override-truck-crash-in-los-angeles-california-2026 (3213 words)
+[2026-06-08T05:53:01.345213+00:00] Spanish OK for underride-or-override-truck-crash-in-los-angeles-california-2026 (3213 words)
+[2026-06-08T05:53:01.430185+00:00] PPT EN underride-or-override-truck-crash-in-los-angeles-california-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-los-angeles-california-2026.pptx
+[2026-06-08T05:53:01.516238+00:00] PPT ES underride-or-override-truck-crash-in-los-angeles-california-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-los-angeles-california-2026.pptx
+[2026-06-08T05:53:01.516326+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-los-angeles-california-2026.md
+[2026-06-08T05:53:01.544792+00:00] IndexNow queued for underride-or-override-truck-crash-in-los-angeles-california-2026
+[2026-06-08T05:53:03.549215+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T05:53:03.550103+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-denver-colorado-2026
+[2026-06-08T05:53:07.534698+00:00] After materialize: 100 / 4024w ([])
+[2026-06-08T05:53:07.536232+00:00] Spanish OK for underride-or-override-truck-crash-in-denver-colorado-2026 (3199 words)
+[2026-06-08T05:53:07.539405+00:00] Spanish OK for underride-or-override-truck-crash-in-denver-colorado-2026 (3199 words)
+[2026-06-08T05:53:07.622658+00:00] PPT EN underride-or-override-truck-crash-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-denver-colorado-2026.pptx
+[2026-06-08T05:53:07.703476+00:00] PPT ES underride-or-override-truck-crash-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-denver-colorado-2026.pptx
+[2026-06-08T05:53:07.703563+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-denver-colorado-2026.md
+[2026-06-08T05:53:07.731970+00:00] IndexNow queued for underride-or-override-truck-crash-in-denver-colorado-2026
+[2026-06-08T05:53:07.732310+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-denver-colorado-2026.json
+[2026-06-08T05:53:07.736180+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['underride-or-override-truck-crash-in-little-rock-arkansas-2026', 'underride-or-override-truck-crash-in-los-angeles-california-2026', 'underride-or-override-truck-crash-in-denver-colorado-2026']
+[2026-06-08T05:53:07.744330+00:00] Daily ledger (UTC): 6/50 states, 6 EN posts
+[2026-06-08T05:53:08.008768+00:00] Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-08T05:53:07.893959+00:00\",\n  \"stats\": {\n    \"enPosts\": 943,\n    \"esPosts\": 943,\n    \"platinumEn\": 924,\n    \"lastUpdated\": \"2026-06-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"underride-or-override-truck-crash-in-little-rock-arkansas-2026\",\n      \"underride-or-override-truck-crash-in-los-angeles-california-2026\",\n      \"underride-or-override-truck-crash-in-denver-colorado-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-08T05:53:08.008872+00:00] WARN organic_crush exit 1
