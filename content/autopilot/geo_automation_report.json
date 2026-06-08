@@ -1,5 +1,5 @@
 {
-  "at": "2026-06-07T16:47:54.212917+00:00",
+  "at": "2026-06-08T08:25:31.465040+00:00",
   "mode": "geo-automation",
   "opsChecklist": [
     "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
@@ -63,7 +63,7 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "urlCount": 523,
+      "urlCount": 534,
       "ok": true,
       "results": [
         {
@@ -87,7 +87,7 @@
     {
       "origin": "https://injuredhelp.ai",
       "urlCount": 539,
-      "ok": false,
+      "ok": true,
       "results": [
         {
           "endpoint": "https://api.indexnow.org/indexnow",
@@ -101,8 +101,8 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 403,
-          "ok": false
+          "status": 202,
+          "ok": true
         }
       ],
       "siteId": "injuredhelp"
@@ -150,23 +150,34 @@
     {
       "url": "https://www.wreckmatch.com/api/geo/cron",
       "ok": false,
-      "error": "HTTP Error 401: Unauthorized"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "url": "https://www.wreckmatch.com/api/exposure/cron",
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "url": "https://www.wreckmatch.com/api/indexing/cron",
-      "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "ok": true,
+      "status": 200,
+      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-06-08\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
     },
     {
       "url": "https://www.semitruckmatch.com/api/geo/cron",
+      "ok": false,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://www.semitruckmatch.com/api/exposure/cron",
+      "ok": false,
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://www.semitruckmatch.com/api/indexing/cron",
       "ok": true,
       "status": 200,
-      "body": "<!DOCTYPE html><html data-dpl-id=\"dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\" lang=\"en\" class=\"h-full scroll-smooth antialiased\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/0lp0l.o._ak1a.css?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/0w_s5j_gjomj7.js?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZNFcUw2m\"/><script src=\"/_next/static/chunks/128aahewwf1we.js?dpl=dpl_C2t6QZCJp8eiUiQsxM5NZN"
+      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-06-08\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
     },
     {
       "url": "https://injuredhelp.ai/api/geo/cron",
