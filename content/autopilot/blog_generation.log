@@ -7847,3 +7847,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-08T08:22:08.262187+00:00] WARN organic_crush exit 1
+[2026-06-08T10:59:17.101062+00:00] Inject for 33 states not yet published today
+[2026-06-08T10:59:17.102663+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T10:59:17.149393+00:00] Daily 50-state rotation (2026-06-08): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-08T10:59:17.177462+00:00] Daily 50-state injection complete
+[2026-06-08T10:59:17.266135+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-08T10:59:17.267956+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T10:59:17.321371+00:00] Daily 50-state rotation (2026-06-08): +0 new, 45 re-prioritized, 45 at queue front
+[2026-06-08T10:59:17.350135+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-08T10:59:17.355042+00:00] States already published today (UTC): 18 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky']
+[2026-06-08T10:59:17.358091+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T10:59:17.358915+00:00] Materializing template → platinum for truck-accident-in-new-orleans-louisiana-steps-legal-help-2026
+[2026-06-08T10:59:23.721625+00:00] After materialize: 100 / 4002w ([])
+[2026-06-08T10:59:23.723346+00:00] Spanish OK for truck-accident-in-new-orleans-louisiana-steps-legal-help-2026 (3221 words)
+[2026-06-08T10:59:23.726464+00:00] Spanish OK for truck-accident-in-new-orleans-louisiana-steps-legal-help-2026 (3221 words)
+[2026-06-08T10:59:23.912193+00:00] PPT EN truck-accident-in-new-orleans-louisiana-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-new-orleans-louisiana-steps-legal-help-2026.pptx
+[2026-06-08T10:59:23.994874+00:00] PPT ES truck-accident-in-new-orleans-louisiana-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-new-orleans-louisiana-steps-legal-help-2026.pptx
+[2026-06-08T10:59:23.994958+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-new-orleans-louisiana-steps-legal-help-2026.md
+[2026-06-08T10:59:24.023456+00:00] IndexNow queued for truck-accident-in-new-orleans-louisiana-steps-legal-help-2026
+[2026-06-08T10:59:26.064951+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T10:59:26.065831+00:00] Materializing template → platinum for truck-accident-in-portland-maine-steps-legal-help-2026
+[2026-06-08T10:59:30.303640+00:00] After materialize: 100 / 4002w ([])
+[2026-06-08T10:59:30.305020+00:00] Spanish OK for truck-accident-in-portland-maine-steps-legal-help-2026 (3207 words)
+[2026-06-08T10:59:30.308158+00:00] Spanish OK for truck-accident-in-portland-maine-steps-legal-help-2026 (3207 words)
+[2026-06-08T10:59:30.390937+00:00] PPT EN truck-accident-in-portland-maine-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-portland-maine-steps-legal-help-2026.pptx
+[2026-06-08T10:59:30.473125+00:00] PPT ES truck-accident-in-portland-maine-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-portland-maine-steps-legal-help-2026.pptx
+[2026-06-08T10:59:30.473204+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-portland-maine-steps-legal-help-2026.md
+[2026-06-08T10:59:30.501612+00:00] IndexNow queued for truck-accident-in-portland-maine-steps-legal-help-2026
+[2026-06-08T10:59:32.542452+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T10:59:32.543316+00:00] Materializing template → platinum for truck-accident-in-baltimore-maryland-steps-legal-help-2026
+[2026-06-08T10:59:36.743850+00:00] After materialize: 100 / 4001w ([])
+[2026-06-08T10:59:36.745333+00:00] Spanish OK for truck-accident-in-baltimore-maryland-steps-legal-help-2026 (3215 words)
+[2026-06-08T10:59:36.748489+00:00] Spanish OK for truck-accident-in-baltimore-maryland-steps-legal-help-2026 (3215 words)
+[2026-06-08T10:59:36.831518+00:00] PPT EN truck-accident-in-baltimore-maryland-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-baltimore-maryland-steps-legal-help-2026.pptx
+[2026-06-08T10:59:36.913962+00:00] PPT ES truck-accident-in-baltimore-maryland-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-baltimore-maryland-steps-legal-help-2026.pptx
+[2026-06-08T10:59:36.914038+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-baltimore-maryland-steps-legal-help-2026.md
+[2026-06-08T10:59:36.941910+00:00] IndexNow queued for truck-accident-in-baltimore-maryland-steps-legal-help-2026
+[2026-06-08T10:59:36.942182+00:00] Syndication → content/syndication/truck-accident-in-baltimore-maryland-steps-legal-help-2026.json
+[2026-06-08T10:59:36.980255+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['truck-accident-in-new-orleans-louisiana-steps-legal-help-2026', 'truck-accident-in-portland-maine-steps-legal-help-2026', 'truck-accident-in-baltimore-maryland-steps-legal-help-2026']
+[2026-06-08T10:59:36.991060+00:00] Daily ledger (UTC): 21/50 states, 21 EN posts
+[2026-06-08T10:59:37.250159+00:00] nt lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-08T10:59:37.139480+00:00\",\n  \"stats\": {\n    \"enPosts\": 964,\n    \"esPosts\": 964,\n    \"platinumEn\": 945,\n    \"lastUpdated\": \"2026-06-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-new-orleans-louisiana-steps-legal-help-2026\",\n      \"truck-accident-in-portland-maine-steps-legal-help-2026\",\n      \"truck-accident-in-baltimore-maryland-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-08T10:59:37.250258+00:00] WARN organic_crush exit 1
