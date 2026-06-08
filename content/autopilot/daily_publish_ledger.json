@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-08T10:59:37.334852+00:00",
+  "updatedAt": "2026-06-08T12:25:35.993851+00:00",
   "days": {
     "2026-05-31": {
       "en": 176,
@@ -431,8 +431,8 @@
       "recordedAt": "2026-06-07T22:16:11.549449+00:00"
     },
     "2026-06-08": {
-      "en": 21,
-      "states": 21,
+      "en": 31,
+      "states": 31,
       "stateList": [
         "Alabama",
         "Alaska",
@@ -454,11 +454,21 @@
         "Kentucky",
         "Louisiana",
         "Maine",
-        "Maryland"
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New Hampshire",
+        "New Jersey"
       ],
       "targetStates": 50,
       "target": 50,
-      "recordedAt": "2026-06-08T10:59:37.334779+00:00"
+      "recordedAt": "2026-06-08T12:25:35.993748+00:00"
     }
   }
 }

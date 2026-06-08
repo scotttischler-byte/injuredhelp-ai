@@ -7897,3 +7897,118 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-08T10:59:37.250258+00:00] WARN organic_crush exit 1
+[2026-06-08T12:24:17.061899+00:00] Inject for 30 states not yet published today
+[2026-06-08T12:24:17.063618+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T12:24:17.117728+00:00] Daily 50-state rotation (2026-06-08): +0 new, 29 re-prioritized, 29 at queue front
+[2026-06-08T12:24:17.178835+00:00] Daily 50-state injection complete
+[2026-06-08T12:24:17.279612+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-08T12:24:17.281715+00:00] Loaded 239 cities from cities.ts
+[2026-06-08T12:24:17.339446+00:00] Daily 50-state rotation (2026-06-08): +0 new, 45 re-prioritized, 45 at queue front
+[2026-06-08T12:24:17.370457+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-08T12:24:17.375776+00:00] States already published today (UTC): 21 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland']
+[2026-06-08T12:24:17.379175+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:24:17.380104+00:00] Materializing template → platinum for truck-accident-in-boston-massachusetts-steps-legal-help-2026
+[2026-06-08T12:24:23.285225+00:00] After materialize: 100 / 4006w ([])
+[2026-06-08T12:24:23.287138+00:00] Spanish OK for truck-accident-in-boston-massachusetts-steps-legal-help-2026 (3225 words)
+[2026-06-08T12:24:23.290528+00:00] Spanish OK for truck-accident-in-boston-massachusetts-steps-legal-help-2026 (3225 words)
+[2026-06-08T12:24:23.497466+00:00] PPT EN truck-accident-in-boston-massachusetts-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-boston-massachusetts-steps-legal-help-2026.pptx
+[2026-06-08T12:24:23.593124+00:00] PPT ES truck-accident-in-boston-massachusetts-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-boston-massachusetts-steps-legal-help-2026.pptx
+[2026-06-08T12:24:23.593204+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-boston-massachusetts-steps-legal-help-2026.md
+[2026-06-08T12:24:23.624373+00:00] IndexNow queued for truck-accident-in-boston-massachusetts-steps-legal-help-2026
+[2026-06-08T12:24:26.669881+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:24:26.670835+00:00] Materializing template → platinum for truck-accident-in-detroit-michigan-steps-legal-help-2026
+[2026-06-08T12:24:31.369986+00:00] After materialize: 100 / 4006w ([])
+[2026-06-08T12:24:31.371647+00:00] Spanish OK for truck-accident-in-detroit-michigan-steps-legal-help-2026 (3225 words)
+[2026-06-08T12:24:31.375052+00:00] Spanish OK for truck-accident-in-detroit-michigan-steps-legal-help-2026 (3225 words)
+[2026-06-08T12:24:31.471156+00:00] PPT EN truck-accident-in-detroit-michigan-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-detroit-michigan-steps-legal-help-2026.pptx
+[2026-06-08T12:24:31.566327+00:00] PPT ES truck-accident-in-detroit-michigan-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-detroit-michigan-steps-legal-help-2026.pptx
+[2026-06-08T12:24:31.566411+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-detroit-michigan-steps-legal-help-2026.md
+[2026-06-08T12:24:31.598485+00:00] IndexNow queued for truck-accident-in-detroit-michigan-steps-legal-help-2026
+[2026-06-08T12:24:34.641770+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:24:34.642749+00:00] Materializing template → platinum for truck-accident-in-minneapolis-minnesota-steps-legal-help-2026
+[2026-06-08T12:24:39.371350+00:00] After materialize: 100 / 4001w ([])
+[2026-06-08T12:24:39.372999+00:00] Spanish OK for truck-accident-in-minneapolis-minnesota-steps-legal-help-2026 (3222 words)
+[2026-06-08T12:24:39.376455+00:00] Spanish OK for truck-accident-in-minneapolis-minnesota-steps-legal-help-2026 (3222 words)
+[2026-06-08T12:24:39.473626+00:00] PPT EN truck-accident-in-minneapolis-minnesota-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-minneapolis-minnesota-steps-legal-help-2026.pptx
+[2026-06-08T12:24:39.569491+00:00] PPT ES truck-accident-in-minneapolis-minnesota-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-minneapolis-minnesota-steps-legal-help-2026.pptx
+[2026-06-08T12:24:39.569576+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-minneapolis-minnesota-steps-legal-help-2026.md
+[2026-06-08T12:24:39.602047+00:00] IndexNow queued for truck-accident-in-minneapolis-minnesota-steps-legal-help-2026
+[2026-06-08T12:24:42.645029+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:24:42.645970+00:00] Materializing template → platinum for truck-accident-in-jackson-mississippi-steps-legal-help-2026
+[2026-06-08T12:24:47.402125+00:00] After materialize: 100 / 3991w ([])
+[2026-06-08T12:24:47.403728+00:00] Spanish OK for truck-accident-in-jackson-mississippi-steps-legal-help-2026 (3205 words)
+[2026-06-08T12:24:47.407102+00:00] Spanish OK for truck-accident-in-jackson-mississippi-steps-legal-help-2026 (3205 words)
+[2026-06-08T12:24:47.504984+00:00] PPT EN truck-accident-in-jackson-mississippi-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-jackson-mississippi-steps-legal-help-2026.pptx
+[2026-06-08T12:24:47.610144+00:00] PPT ES truck-accident-in-jackson-mississippi-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-jackson-mississippi-steps-legal-help-2026.pptx
+[2026-06-08T12:24:47.610229+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-jackson-mississippi-steps-legal-help-2026.md
+[2026-06-08T12:24:47.641827+00:00] IndexNow queued for truck-accident-in-jackson-mississippi-steps-legal-help-2026
+[2026-06-08T12:24:50.684926+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:24:50.685869+00:00] Materializing template → platinum for truck-accident-in-kansas-city-missouri-steps-legal-help-2026
+[2026-06-08T12:24:55.424947+00:00] After materialize: 100 / 4002w ([])
+[2026-06-08T12:24:55.426436+00:00] Spanish OK for truck-accident-in-kansas-city-missouri-steps-legal-help-2026 (3221 words)
+[2026-06-08T12:24:55.429786+00:00] Spanish OK for truck-accident-in-kansas-city-missouri-steps-legal-help-2026 (3221 words)
+[2026-06-08T12:24:55.525935+00:00] PPT EN truck-accident-in-kansas-city-missouri-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-kansas-city-missouri-steps-legal-help-2026.pptx
+[2026-06-08T12:24:55.621966+00:00] PPT ES truck-accident-in-kansas-city-missouri-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-kansas-city-missouri-steps-legal-help-2026.pptx
+[2026-06-08T12:24:55.622047+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-kansas-city-missouri-steps-legal-help-2026.md
+[2026-06-08T12:24:55.653565+00:00] IndexNow queued for truck-accident-in-kansas-city-missouri-steps-legal-help-2026
+[2026-06-08T12:24:58.695695+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:24:58.696608+00:00] Materializing template → platinum for truck-accident-in-billings-montana-steps-legal-help-2026
+[2026-06-08T12:25:03.381533+00:00] After materialize: 100 / 3991w ([])
+[2026-06-08T12:25:03.383152+00:00] Spanish OK for truck-accident-in-billings-montana-steps-legal-help-2026 (3209 words)
+[2026-06-08T12:25:03.386565+00:00] Spanish OK for truck-accident-in-billings-montana-steps-legal-help-2026 (3209 words)
+[2026-06-08T12:25:03.484313+00:00] PPT EN truck-accident-in-billings-montana-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-billings-montana-steps-legal-help-2026.pptx
+[2026-06-08T12:25:03.580056+00:00] PPT ES truck-accident-in-billings-montana-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-billings-montana-steps-legal-help-2026.pptx
+[2026-06-08T12:25:03.580187+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-billings-montana-steps-legal-help-2026.md
+[2026-06-08T12:25:03.612194+00:00] IndexNow queued for truck-accident-in-billings-montana-steps-legal-help-2026
+[2026-06-08T12:25:06.654659+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:25:06.655571+00:00] Materializing template → platinum for truck-accident-in-omaha-nebraska-steps-legal-help-2026
+[2026-06-08T12:25:11.366565+00:00] After materialize: 100 / 3991w ([])
+[2026-06-08T12:25:11.368151+00:00] Spanish OK for truck-accident-in-omaha-nebraska-steps-legal-help-2026 (3209 words)
+[2026-06-08T12:25:11.371493+00:00] Spanish OK for truck-accident-in-omaha-nebraska-steps-legal-help-2026 (3209 words)
+[2026-06-08T12:25:11.468120+00:00] PPT EN truck-accident-in-omaha-nebraska-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-omaha-nebraska-steps-legal-help-2026.pptx
+[2026-06-08T12:25:11.564198+00:00] PPT ES truck-accident-in-omaha-nebraska-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-omaha-nebraska-steps-legal-help-2026.pptx
+[2026-06-08T12:25:11.564284+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-omaha-nebraska-steps-legal-help-2026.md
+[2026-06-08T12:25:11.596018+00:00] IndexNow queued for truck-accident-in-omaha-nebraska-steps-legal-help-2026
+[2026-06-08T12:25:14.638683+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:25:14.639627+00:00] Materializing template → platinum for truck-accident-in-las-vegas-nevada-steps-legal-help-2026
+[2026-06-08T12:25:19.377985+00:00] After materialize: 100 / 4002w ([])
+[2026-06-08T12:25:19.379708+00:00] Spanish OK for truck-accident-in-las-vegas-nevada-steps-legal-help-2026 (3225 words)
+[2026-06-08T12:25:19.383199+00:00] Spanish OK for truck-accident-in-las-vegas-nevada-steps-legal-help-2026 (3225 words)
+[2026-06-08T12:25:19.480335+00:00] PPT EN truck-accident-in-las-vegas-nevada-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-las-vegas-nevada-steps-legal-help-2026.pptx
+[2026-06-08T12:25:19.576603+00:00] PPT ES truck-accident-in-las-vegas-nevada-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-las-vegas-nevada-steps-legal-help-2026.pptx
+[2026-06-08T12:25:19.576704+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-las-vegas-nevada-steps-legal-help-2026.md
+[2026-06-08T12:25:19.608374+00:00] IndexNow queued for truck-accident-in-las-vegas-nevada-steps-legal-help-2026
+[2026-06-08T12:25:22.651953+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:25:22.652902+00:00] Materializing template → platinum for truck-accident-in-manchester-new-hampshire-steps-legal-help-2026
+[2026-06-08T12:25:27.383009+00:00] After materialize: 100 / 4021w ([])
+[2026-06-08T12:25:27.384615+00:00] Spanish OK for truck-accident-in-manchester-new-hampshire-steps-legal-help-2026 (3241 words)
+[2026-06-08T12:25:27.388004+00:00] Spanish OK for truck-accident-in-manchester-new-hampshire-steps-legal-help-2026 (3241 words)
+[2026-06-08T12:25:27.485263+00:00] PPT EN truck-accident-in-manchester-new-hampshire-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-manchester-new-hampshire-steps-legal-help-2026.pptx
+[2026-06-08T12:25:27.580325+00:00] PPT ES truck-accident-in-manchester-new-hampshire-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-manchester-new-hampshire-steps-legal-help-2026.pptx
+[2026-06-08T12:25:27.580406+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-manchester-new-hampshire-steps-legal-help-2026.md
+[2026-06-08T12:25:27.612540+00:00] IndexNow queued for truck-accident-in-manchester-new-hampshire-steps-legal-help-2026
+[2026-06-08T12:25:30.656224+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-08T12:25:30.657168+00:00] Materializing template → platinum for truck-accident-in-newark-new-jersey-steps-legal-help-2026
+[2026-06-08T12:25:35.360864+00:00] After materialize: 100 / 4035w ([])
+[2026-06-08T12:25:35.362520+00:00] Spanish OK for truck-accident-in-newark-new-jersey-steps-legal-help-2026 (3257 words)
+[2026-06-08T12:25:35.365994+00:00] Spanish OK for truck-accident-in-newark-new-jersey-steps-legal-help-2026 (3257 words)
+[2026-06-08T12:25:35.462332+00:00] PPT EN truck-accident-in-newark-new-jersey-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/truck-accident-in-newark-new-jersey-steps-legal-help-2026.pptx
+[2026-06-08T12:25:35.558268+00:00] PPT ES truck-accident-in-newark-new-jersey-steps-legal-help-2026: 14 slides (score 100) → /blog/presentations/es/truck-accident-in-newark-new-jersey-steps-legal-help-2026.pptx
+[2026-06-08T12:25:35.558347+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/truck-accident-in-newark-new-jersey-steps-legal-help-2026.md
+[2026-06-08T12:25:35.589562+00:00] IndexNow queued for truck-accident-in-newark-new-jersey-steps-legal-help-2026
+[2026-06-08T12:25:35.589960+00:00] Syndication → content/syndication/truck-accident-in-newark-new-jersey-steps-legal-help-2026.json
+[2026-06-08T12:25:35.632385+00:00] Done: 10/10 published (platinum bar ≥100, ≥3000w) — ['truck-accident-in-boston-massachusetts-steps-legal-help-2026', 'truck-accident-in-detroit-michigan-steps-legal-help-2026', 'truck-accident-in-minneapolis-minnesota-steps-legal-help-2026', 'truck-accident-in-jackson-mississippi-steps-legal-help-2026', 'truck-accident-in-kansas-city-missouri-steps-legal-help-2026', 'truck-accident-in-billings-montana-steps-legal-help-2026', 'truck-accident-in-omaha-nebraska-steps-legal-help-2026', 'truck-accident-in-las-vegas-nevada-steps-legal-help-2026', 'truck-accident-in-manchester-new-hampshire-steps-legal-help-2026', 'truck-accident-in-newark-new-jersey-steps-legal-help-2026']
+[2026-06-08T12:25:35.644846+00:00] Daily ledger (UTC): 31/50 states, 31 EN posts
+[2026-06-08T12:25:35.950854+00:00]    "ok": true,
+      "code": 0,
+      "tail": "=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-08T12:25:35.820268+00:00\",\n  \"stats\": {\n    \"enPosts\": 974,\n    \"esPosts\": 974,\n    \"platinumEn\": 955,\n    \"lastUpdated\": \"2026-06-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-boston-massachusetts-steps-legal-help-2026\",\n      \"truck-accident-in-detroit-michigan-steps-legal-help-2026\",\n      \"truck-accident-in-minneapolis-minnesota-steps-legal-help-2026\",\n      \"truck-accident-in-jackson-mississippi-steps-legal-help-2026\",\n      \"truck-accident-in-kansas-city-missouri-steps-legal-help-2026\",\n      \"truck-accident-in-billings-montana-steps-legal-help-2026\",\n      \"truck-accident-in-omaha-nebraska-steps-legal-help-2026\",\n      \"truck-accident-in-las-vegas-nevada-steps-legal-help-2026\",\n      \"truck-accident-in-manchester-new-hampshire-steps-legal-help-2026\",\n      \"truck-accident-in-newark-new-jersey-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-08T12:25:35.950959+00:00] WARN organic_crush exit 1

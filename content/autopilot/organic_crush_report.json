@@ -1,28 +1,28 @@
 {
-  "at": "2026-06-08T11:21:29.480412+00:00",
+  "at": "2026-06-08T12:25:35.676239+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": true,
-      "code": 0,
-      "tail": "at-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-06-08\nmeshed what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-08\nmeshed truck-accident-in-portland-maine-steps-legal-help-2026\nmeshed truck-accident-in-indianapolis-indiana-steps-legal-help-2026\nmeshed truck-accident-in-wichita-kansas-steps-legal-help-2026\nmeshed truck-accident-in-louisville-kentucky-steps-legal-help-2026\nmeshed truck-accident-in-new-orleans-louisiana-steps-legal-help-2026\nmeshed truck-accident-in-baltimore-maryland-steps-legal-help-2026\nmeshed truck-accident-in-des-moines-iowa-steps-legal-help-2026\nmeshed truck-accident-in-birmingham-alabama-steps-legal-help-2026\nmeshed tractor-trailer-injury-in-denver-colorado-legal-steps-2026\nmeshed hit-by-an-uninsured-driver-in-honolulu-hawaii-2026\nmeshed hit-by-an-uninsured-driver-in-wilmington-delaware-2026\nmeshed hit-by-an-uninsured-driver-in-little-rock-arkansas-2026\nmeshed hit-by-an-uninsured-driver-in-washington-district-of-columbia-2026\nmeshed hit-by-an-uninsured-driver-in-boise-idaho-2026\nmeshed hit-by-an-uninsured-driver-in-bridgeport-connecticut-2026\nmeshed hit-by-an-uninsured-driver-in-anchorage-alaska-2026\nDone. 21 posts.\n"
+      "ok": false,
+      "code": 2,
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: truck-accident-in-detroit-michigan-steps-legal-help-2026 truck-accident-in-minneapolis-minnesota-steps-legal-help-2026 truck-accident-in-jackson-mississippi-steps-legal-help-2026 truck-accident-in-kansas-city-missouri-steps-legal-help-2026 truck-accident-in-billings-montana-steps-legal-help-2026 truck-accident-in-omaha-nebraska-steps-legal-help-2026 truck-accident-in-las-vegas-nevada-steps-legal-help-2026 truck-accident-in-manchester-new-hampshire-steps-legal-help-2026 truck-accident-in-newark-new-jersey-steps-legal-help-2026\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-07_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-08_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wisconsin-car-accident-statute-of-limitations-milwaukee-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-montgomery-alabama-what-to-know-2026_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/truck-accident-in-newark-new-jersey-steps-legal-help-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fresno-california-family-guide_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "ed comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-08T11:21:33.363191+00:00\",\n  \"stats\": {\n    \"enPosts\": 964,\n    \"esPosts\": 964,\n    \"platinumEn\": 945,\n    \"lastUpdated\": \"2026-06-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-08T12:25:35.820268+00:00\",\n  \"stats\": {\n    \"enPosts\": 974,\n    \"esPosts\": 974,\n    \"platinumEn\": 955,\n    \"lastUpdated\": \"2026-06-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-boston-massachusetts-steps-legal-help-2026\",\n      \"truck-accident-in-detroit-michigan-steps-legal-help-2026\",\n      \"truck-accident-in-minneapolis-minnesota-steps-legal-help-2026\",\n      \"truck-accident-in-jackson-mississippi-steps-legal-help-2026\",\n      \"truck-accident-in-kansas-city-missouri-steps-legal-help-2026\",\n      \"truck-accident-in-billings-montana-steps-legal-help-2026\",\n      \"truck-accident-in-omaha-nebraska-steps-legal-help-2026\",\n      \"truck-accident-in-las-vegas-nevada-steps-legal-help-2026\",\n      \"truck-accident-in-manchester-new-hampshire-steps-legal-help-2026\",\n      \"truck-accident-in-newark-new-jersey-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": true
+  "ok": false
 }
