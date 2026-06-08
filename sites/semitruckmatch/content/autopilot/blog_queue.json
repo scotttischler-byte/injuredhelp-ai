@@ -316,11 +316,26 @@
     "underride-or-override-truck-crash-in-phoenix-arizona-2026",
     "underride-or-override-truck-crash-in-little-rock-arkansas-2026",
     "underride-or-override-truck-crash-in-los-angeles-california-2026",
-    "underride-or-override-truck-crash-in-denver-colorado-2026"
+    "underride-or-override-truck-crash-in-denver-colorado-2026",
+    "underride-or-override-truck-crash-in-bridgeport-connecticut-2026",
+    "underride-or-override-truck-crash-in-wilmington-delaware-2026",
+    "underride-or-override-truck-crash-in-washington-district-of-columbia-2026",
+    "tractor-trailer-injury-in-miami-florida-legal-steps-2026",
+    "tractor-trailer-injury-in-atlanta-georgia-legal-steps-2026",
+    "tractor-trailer-injury-in-honolulu-hawaii-legal-steps-2026",
+    "tractor-trailer-injury-in-boise-idaho-legal-steps-2026",
+    "tractor-trailer-injury-in-chicago-illinois-legal-steps-2026",
+    "tractor-trailer-injury-in-indianapolis-indiana-legal-steps-2026",
+    "tractor-trailer-injury-in-des-moines-iowa-legal-steps-2026",
+    "tractor-trailer-injury-in-wichita-kansas-legal-steps-2026",
+    "tractor-trailer-injury-in-louisville-kentucky-legal-steps-2026",
+    "tractor-trailer-injury-in-new-orleans-louisiana-legal-steps-2026",
+    "tractor-trailer-injury-in-portland-maine-legal-steps-2026",
+    "tractor-trailer-injury-in-baltimore-maryland-legal-steps-2026"
   ],
   "stats": {
-    "total_published": 315,
-    "last_run_at": "2026-06-08T05:53:07.732357+00:00"
+    "total_published": 330,
+    "last_run_at": "2026-06-08T08:21:46.790758+00:00"
   },
   "pending": [
     {
@@ -363,8 +378,47 @@
       "slug": "severe-injury-after-a-truck-crash-in-phoenix-arizona-2026"
     },
     {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Bridgeport, Connecticut (2026)",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Little Rock, Arkansas (2026)",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "place_slug": "little-rock",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026"
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Los Angeles, California (2026)",
+      "city": "Los Angeles",
+      "state": "California",
+      "place_slug": "los-angeles",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-truck-crash-in-los-angeles-california-2026"
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Denver, Colorado (2026)",
+      "city": "Denver",
+      "state": "Colorado",
+      "place_slug": "denver",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "severe-injury-after-a-truck-crash-in-denver-colorado-2026"
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Bridgeport, Connecticut (2026)",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
@@ -373,11 +427,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-bridgeport-connecticut-2026"
+      "slug": "severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026"
     },
     {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Wilmington, Delaware (2026)",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Wilmington, Delaware (2026)",
       "city": "Wilmington",
       "state": "Delaware",
       "place_slug": "wilmington",
@@ -386,11 +440,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-wilmington-delaware-2026"
+      "slug": "severe-injury-after-a-truck-crash-in-wilmington-delaware-2026"
     },
     {
-      "angle": "underride-override",
-      "title": "Underride or Override Truck Crash in Washington, District of Columbia (2026)",
+      "angle": "severe-injury-car-accident",
+      "title": "Severe Injury After a Truck Crash in Washington, District of Columbia (2026)",
       "city": "Washington",
       "state": "District of Columbia",
       "place_slug": "washington",
@@ -399,11 +453,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "underride-or-override-truck-crash-in-washington-district-of-columbia-2026"
+      "slug": "severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Miami, Florida: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Miami, Florida (2026)",
       "city": "Miami",
       "state": "Florida",
       "place_slug": "miami",
@@ -411,12 +465,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-miami-florida-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-miami-florida-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Atlanta, Georgia: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Atlanta, Georgia (2026)",
       "city": "Atlanta",
       "state": "Georgia",
       "place_slug": "atlanta",
@@ -424,12 +478,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-atlanta-georgia-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-atlanta-georgia-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Honolulu, Hawaii: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Honolulu, Hawaii (2026)",
       "city": "Honolulu",
       "state": "Hawaii",
       "place_slug": "honolulu",
@@ -437,12 +491,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-honolulu-hawaii-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-honolulu-hawaii-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Boise, Idaho: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Boise, Idaho (2026)",
       "city": "Boise",
       "state": "Idaho",
       "place_slug": "boise",
@@ -450,12 +504,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-boise-idaho-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-boise-idaho-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Chicago, Illinois: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Chicago, Illinois (2026)",
       "city": "Chicago",
       "state": "Illinois",
       "place_slug": "chicago",
@@ -463,12 +517,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": true,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-chicago-illinois-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-chicago-illinois-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Indianapolis, Indiana: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Indianapolis, Indiana (2026)",
       "city": "Indianapolis",
       "state": "Indiana",
       "place_slug": "indianapolis",
@@ -476,12 +530,12 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-indianapolis-indiana-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-indianapolis-indiana-2026"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Des Moines, Iowa: Legal Steps (2026)",
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Des Moines, Iowa (2026)",
       "city": "Des Moines",
       "state": "Iowa",
       "place_slug": "des-moines",
@@ -489,73 +543,8 @@
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-des-moines-iowa-legal-steps-2026"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Wichita, Kansas: Legal Steps (2026)",
-      "city": "Wichita",
-      "state": "Kansas",
-      "place_slug": "wichita",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-wichita-kansas-legal-steps-2026"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Louisville, Kentucky: Legal Steps (2026)",
-      "city": "Louisville",
-      "state": "Kentucky",
-      "place_slug": "louisville",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-louisville-kentucky-legal-steps-2026"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in New Orleans, Louisiana: Legal Steps (2026)",
-      "city": "New Orleans",
-      "state": "Louisiana",
-      "place_slug": "new-orleans",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-new-orleans-louisiana-legal-steps-2026"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Portland, Maine: Legal Steps (2026)",
-      "city": "Portland",
-      "state": "Maine",
-      "place_slug": "portland",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-portland-maine-legal-steps-2026"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Baltimore, Maryland: Legal Steps (2026)",
-      "city": "Baltimore",
-      "state": "Maryland",
-      "place_slug": "baltimore",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-baltimore-maryland-legal-steps-2026"
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-des-moines-iowa-2026"
     },
     {
       "angle": "tractor-trailer-injury",
