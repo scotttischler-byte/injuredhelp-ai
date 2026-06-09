@@ -5534,3 +5534,657 @@ Node.js v24.14.1
 }
 
 [2026-06-09T00:08:32.493441+00:00] WARN organic_crush exit 1
+[2026-06-09T04:21:59.685915+00:00] Inject for 48 states not yet published today
+[2026-06-09T04:21:59.687705+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:21:59.690562+00:00] Daily 50-state rotation (2026-06-09): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-09T04:21:59.691327+00:00] Daily 50-state injection complete
+[2026-06-09T04:21:59.778804+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:21:59.780828+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:21:59.784170+00:00] Daily 50-state rotation (2026-06-09): +3 new, 47 re-prioritized, 50 at queue front
+[2026-06-09T04:21:59.784972+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:21:59.789269+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-09T04:21:59.792630+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:21:59.793620+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026
+[2026-06-09T04:22:05.124598+00:00] After materialize: 100 / 4002w ([])
+[2026-06-09T04:22:05.126416+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026 (3193 words)
+[2026-06-09T04:22:05.129800+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026 (3193 words)
+[2026-06-09T04:22:05.341305+00:00] PPT EN severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026.pptx
+[2026-06-09T04:22:05.437573+00:00] PPT ES severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026.pptx
+[2026-06-09T04:22:05.437669+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026.md
+[2026-06-09T04:22:05.468818+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026
+[2026-06-09T04:22:07.475124+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:07.476129+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-los-angeles-california-2026
+[2026-06-09T04:22:11.663911+00:00] After materialize: 100 / 3999w ([])
+[2026-06-09T04:22:11.665466+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-los-angeles-california-2026 (3191 words)
+[2026-06-09T04:22:11.669099+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-los-angeles-california-2026 (3191 words)
+[2026-06-09T04:22:11.766502+00:00] PPT EN severe-injury-after-a-truck-crash-in-los-angeles-california-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-los-angeles-california-2026.pptx
+[2026-06-09T04:22:11.865440+00:00] PPT ES severe-injury-after-a-truck-crash-in-los-angeles-california-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-los-angeles-california-2026.pptx
+[2026-06-09T04:22:11.865521+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-los-angeles-california-2026.md
+[2026-06-09T04:22:11.896638+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-los-angeles-california-2026
+[2026-06-09T04:22:13.902552+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:13.903595+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-denver-colorado-2026
+[2026-06-09T04:22:18.089018+00:00] After materialize: 100 / 3998w ([])
+[2026-06-09T04:22:18.090601+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-denver-colorado-2026 (3355 words)
+[2026-06-09T04:22:18.094034+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-denver-colorado-2026 (3355 words)
+[2026-06-09T04:22:18.190502+00:00] PPT EN severe-injury-after-a-truck-crash-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-denver-colorado-2026.pptx
+[2026-06-09T04:22:18.284233+00:00] PPT ES severe-injury-after-a-truck-crash-in-denver-colorado-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-denver-colorado-2026.pptx
+[2026-06-09T04:22:18.284315+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-denver-colorado-2026.md
+[2026-06-09T04:22:18.316003+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-denver-colorado-2026
+[2026-06-09T04:22:20.321643+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:20.322675+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026
+[2026-06-09T04:22:24.488070+00:00] After materialize: 100 / 3998w ([])
+[2026-06-09T04:22:24.489685+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026 (3355 words)
+[2026-06-09T04:22:24.493270+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026 (3355 words)
+[2026-06-09T04:22:24.590385+00:00] PPT EN severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026.pptx
+[2026-06-09T04:22:24.692079+00:00] PPT ES severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026.pptx
+[2026-06-09T04:22:24.692171+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026.md
+[2026-06-09T04:22:24.723633+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026
+[2026-06-09T04:22:26.729422+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:26.730419+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-wilmington-delaware-2026
+[2026-06-09T04:22:30.920496+00:00] After materialize: 100 / 3987w ([])
+[2026-06-09T04:22:30.922148+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-wilmington-delaware-2026 (3357 words)
+[2026-06-09T04:22:30.925645+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-wilmington-delaware-2026 (3357 words)
+[2026-06-09T04:22:31.021372+00:00] PPT EN severe-injury-after-a-truck-crash-in-wilmington-delaware-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-wilmington-delaware-2026.pptx
+[2026-06-09T04:22:31.115720+00:00] PPT ES severe-injury-after-a-truck-crash-in-wilmington-delaware-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-wilmington-delaware-2026.pptx
+[2026-06-09T04:22:31.115812+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-wilmington-delaware-2026.md
+[2026-06-09T04:22:31.147634+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-wilmington-delaware-2026
+[2026-06-09T04:22:31.148029+00:00] Syndication → sites/semitruckmatch/content/syndication/severe-injury-after-a-truck-crash-in-wilmington-delaware-2026.json
+[2026-06-09T04:22:31.152482+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026', 'severe-injury-after-a-truck-crash-in-los-angeles-california-2026', 'severe-injury-after-a-truck-crash-in-denver-colorado-2026', 'severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026', 'severe-injury-after-a-truck-crash-in-wilmington-delaware-2026']
+[2026-06-09T04:22:31.162561+00:00] Daily ledger (UTC): 8/50 states, 8 EN posts
+[2026-06-09T04:22:31.463733+00:00]  "tail": "step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:22:31.335626+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-truck-crash-in-little-rock-arkansas-2026\",\n      \"severe-injury-after-a-truck-crash-in-los-angeles-california-2026\",\n      \"severe-injury-after-a-truck-crash-in-denver-colorado-2026\",\n      \"severe-injury-after-a-truck-crash-in-bridgeport-connecticut-2026\",\n      \"severe-injury-after-a-truck-crash-in-wilmington-delaware-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:22:31.463923+00:00] WARN organic_crush exit 1
+[2026-06-09T04:22:31.584899+00:00] Inject for 43 states not yet published today
+[2026-06-09T04:22:31.586810+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:22:31.589486+00:00] Daily 50-state rotation (2026-06-09): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-09T04:22:31.590214+00:00] Daily 50-state injection complete
+[2026-06-09T04:22:31.679141+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:22:31.681242+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:22:31.684973+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:22:31.685745+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:22:31.690244+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware']
+[2026-06-09T04:22:31.693139+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:31.694147+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026
+[2026-06-09T04:22:35.857223+00:00] After materialize: 100 / 4040w ([])
+[2026-06-09T04:22:35.859095+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026 (3239 words)
+[2026-06-09T04:22:35.862609+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026 (3239 words)
+[2026-06-09T04:22:36.026499+00:00] PPT EN severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026.pptx
+[2026-06-09T04:22:36.122798+00:00] PPT ES severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026.pptx
+[2026-06-09T04:22:36.122911+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026.md
+[2026-06-09T04:22:36.154075+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026
+[2026-06-09T04:22:38.160507+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:38.161468+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-miami-florida-2026
+[2026-06-09T04:22:42.357534+00:00] After materialize: 100 / 4037w ([])
+[2026-06-09T04:22:42.359131+00:00] Spanish OK for underride-or-override-truck-crash-in-miami-florida-2026 (3216 words)
+[2026-06-09T04:22:42.362593+00:00] Spanish OK for underride-or-override-truck-crash-in-miami-florida-2026 (3216 words)
+[2026-06-09T04:22:42.460275+00:00] PPT EN underride-or-override-truck-crash-in-miami-florida-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-miami-florida-2026.pptx
+[2026-06-09T04:22:42.560157+00:00] PPT ES underride-or-override-truck-crash-in-miami-florida-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-miami-florida-2026.pptx
+[2026-06-09T04:22:42.560239+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-miami-florida-2026.md
+[2026-06-09T04:22:42.591493+00:00] IndexNow queued for underride-or-override-truck-crash-in-miami-florida-2026
+[2026-06-09T04:22:44.597315+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:44.598331+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-atlanta-georgia-2026
+[2026-06-09T04:22:48.779185+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:22:48.780718+00:00] Spanish OK for underride-or-override-truck-crash-in-atlanta-georgia-2026 (3199 words)
+[2026-06-09T04:22:48.784267+00:00] Spanish OK for underride-or-override-truck-crash-in-atlanta-georgia-2026 (3199 words)
+[2026-06-09T04:22:48.880525+00:00] PPT EN underride-or-override-truck-crash-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-atlanta-georgia-2026.pptx
+[2026-06-09T04:22:48.974386+00:00] PPT ES underride-or-override-truck-crash-in-atlanta-georgia-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-atlanta-georgia-2026.pptx
+[2026-06-09T04:22:48.974474+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-atlanta-georgia-2026.md
+[2026-06-09T04:22:49.006116+00:00] IndexNow queued for underride-or-override-truck-crash-in-atlanta-georgia-2026
+[2026-06-09T04:22:51.011995+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:51.012952+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-honolulu-hawaii-2026
+[2026-06-09T04:22:55.167261+00:00] After materialize: 100 / 4025w ([])
+[2026-06-09T04:22:55.168829+00:00] Spanish OK for underride-or-override-truck-crash-in-honolulu-hawaii-2026 (3214 words)
+[2026-06-09T04:22:55.172262+00:00] Spanish OK for underride-or-override-truck-crash-in-honolulu-hawaii-2026 (3214 words)
+[2026-06-09T04:22:55.270305+00:00] PPT EN underride-or-override-truck-crash-in-honolulu-hawaii-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-honolulu-hawaii-2026.pptx
+[2026-06-09T04:22:55.371848+00:00] PPT ES underride-or-override-truck-crash-in-honolulu-hawaii-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-honolulu-hawaii-2026.pptx
+[2026-06-09T04:22:55.371980+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-honolulu-hawaii-2026.md
+[2026-06-09T04:22:55.403072+00:00] IndexNow queued for underride-or-override-truck-crash-in-honolulu-hawaii-2026
+[2026-06-09T04:22:57.408774+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:22:57.409712+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-boise-idaho-2026
+[2026-06-09T04:23:01.590084+00:00] After materialize: 100 / 4013w ([])
+[2026-06-09T04:23:01.591667+00:00] Spanish OK for underride-or-override-truck-crash-in-boise-idaho-2026 (3201 words)
+[2026-06-09T04:23:01.595132+00:00] Spanish OK for underride-or-override-truck-crash-in-boise-idaho-2026 (3201 words)
+[2026-06-09T04:23:01.692327+00:00] PPT EN underride-or-override-truck-crash-in-boise-idaho-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-boise-idaho-2026.pptx
+[2026-06-09T04:23:01.785521+00:00] PPT ES underride-or-override-truck-crash-in-boise-idaho-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-boise-idaho-2026.pptx
+[2026-06-09T04:23:01.785611+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-boise-idaho-2026.md
+[2026-06-09T04:23:01.817422+00:00] IndexNow queued for underride-or-override-truck-crash-in-boise-idaho-2026
+[2026-06-09T04:23:01.817814+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-boise-idaho-2026.json
+[2026-06-09T04:23:01.822357+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026', 'underride-or-override-truck-crash-in-miami-florida-2026', 'underride-or-override-truck-crash-in-atlanta-georgia-2026', 'underride-or-override-truck-crash-in-honolulu-hawaii-2026', 'underride-or-override-truck-crash-in-boise-idaho-2026']
+[2026-06-09T04:23:01.830179+00:00] Daily ledger (UTC): 13/50 states, 13 EN posts
+[2026-06-09T04:23:02.133817+00:00]  "tail": "rida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:23:02.003728+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-truck-crash-in-washington-district-of-columbia-2026\",\n      \"underride-or-override-truck-crash-in-miami-florida-2026\",\n      \"underride-or-override-truck-crash-in-atlanta-georgia-2026\",\n      \"underride-or-override-truck-crash-in-honolulu-hawaii-2026\",\n      \"underride-or-override-truck-crash-in-boise-idaho-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:23:02.134024+00:00] WARN organic_crush exit 1
+[2026-06-09T04:23:02.264133+00:00] Inject for 38 states not yet published today
+[2026-06-09T04:23:02.266107+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:23:02.268622+00:00] Daily 50-state rotation (2026-06-09): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-09T04:23:02.269366+00:00] Daily 50-state injection complete
+[2026-06-09T04:23:02.357705+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:23:02.359776+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:23:02.363087+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:23:02.363864+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:23:02.368402+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho']
+[2026-06-09T04:23:02.371283+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:02.372233+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-chicago-illinois-2026
+[2026-06-09T04:23:06.524696+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:23:06.526666+00:00] Spanish OK for underride-or-override-truck-crash-in-chicago-illinois-2026 (3199 words)
+[2026-06-09T04:23:06.530086+00:00] Spanish OK for underride-or-override-truck-crash-in-chicago-illinois-2026 (3199 words)
+[2026-06-09T04:23:06.693248+00:00] PPT EN underride-or-override-truck-crash-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-chicago-illinois-2026.pptx
+[2026-06-09T04:23:06.790016+00:00] PPT ES underride-or-override-truck-crash-in-chicago-illinois-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-chicago-illinois-2026.pptx
+[2026-06-09T04:23:06.790101+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-chicago-illinois-2026.md
+[2026-06-09T04:23:06.821031+00:00] IndexNow queued for underride-or-override-truck-crash-in-chicago-illinois-2026
+[2026-06-09T04:23:08.827561+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:08.828522+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-indianapolis-indiana-2026
+[2026-06-09T04:23:13.012596+00:00] After materialize: 100 / 4015w ([])
+[2026-06-09T04:23:13.014146+00:00] Spanish OK for underride-or-override-truck-crash-in-indianapolis-indiana-2026 (3201 words)
+[2026-06-09T04:23:13.017570+00:00] Spanish OK for underride-or-override-truck-crash-in-indianapolis-indiana-2026 (3201 words)
+[2026-06-09T04:23:13.115828+00:00] PPT EN underride-or-override-truck-crash-in-indianapolis-indiana-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-indianapolis-indiana-2026.pptx
+[2026-06-09T04:23:13.216969+00:00] PPT ES underride-or-override-truck-crash-in-indianapolis-indiana-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-indianapolis-indiana-2026.pptx
+[2026-06-09T04:23:13.217063+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-indianapolis-indiana-2026.md
+[2026-06-09T04:23:13.248449+00:00] IndexNow queued for underride-or-override-truck-crash-in-indianapolis-indiana-2026
+[2026-06-09T04:23:15.254436+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:15.255417+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-des-moines-iowa-2026
+[2026-06-09T04:23:19.433769+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:23:19.435379+00:00] Spanish OK for underride-or-override-truck-crash-in-des-moines-iowa-2026 (3217 words)
+[2026-06-09T04:23:19.438811+00:00] Spanish OK for underride-or-override-truck-crash-in-des-moines-iowa-2026 (3217 words)
+[2026-06-09T04:23:19.535765+00:00] PPT EN underride-or-override-truck-crash-in-des-moines-iowa-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-des-moines-iowa-2026.pptx
+[2026-06-09T04:23:19.629265+00:00] PPT ES underride-or-override-truck-crash-in-des-moines-iowa-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-des-moines-iowa-2026.pptx
+[2026-06-09T04:23:19.629351+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-des-moines-iowa-2026.md
+[2026-06-09T04:23:19.660693+00:00] IndexNow queued for underride-or-override-truck-crash-in-des-moines-iowa-2026
+[2026-06-09T04:23:21.667138+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:21.668355+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-wichita-kansas-2026
+[2026-06-09T04:23:25.856698+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:23:25.858282+00:00] Spanish OK for underride-or-override-truck-crash-in-wichita-kansas-2026 (3199 words)
+[2026-06-09T04:23:25.861801+00:00] Spanish OK for underride-or-override-truck-crash-in-wichita-kansas-2026 (3199 words)
+[2026-06-09T04:23:25.960157+00:00] PPT EN underride-or-override-truck-crash-in-wichita-kansas-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-wichita-kansas-2026.pptx
+[2026-06-09T04:23:26.061283+00:00] PPT ES underride-or-override-truck-crash-in-wichita-kansas-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-wichita-kansas-2026.pptx
+[2026-06-09T04:23:26.061372+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-wichita-kansas-2026.md
+[2026-06-09T04:23:26.092436+00:00] IndexNow queued for underride-or-override-truck-crash-in-wichita-kansas-2026
+[2026-06-09T04:23:28.098635+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:28.099593+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-louisville-kentucky-2026
+[2026-06-09T04:23:32.292970+00:00] After materialize: 100 / 4023w ([])
+[2026-06-09T04:23:32.294516+00:00] Spanish OK for underride-or-override-truck-crash-in-louisville-kentucky-2026 (3210 words)
+[2026-06-09T04:23:32.298143+00:00] Spanish OK for underride-or-override-truck-crash-in-louisville-kentucky-2026 (3210 words)
+[2026-06-09T04:23:32.394416+00:00] PPT EN underride-or-override-truck-crash-in-louisville-kentucky-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-louisville-kentucky-2026.pptx
+[2026-06-09T04:23:32.487765+00:00] PPT ES underride-or-override-truck-crash-in-louisville-kentucky-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-louisville-kentucky-2026.pptx
+[2026-06-09T04:23:32.487843+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-louisville-kentucky-2026.md
+[2026-06-09T04:23:32.518695+00:00] IndexNow queued for underride-or-override-truck-crash-in-louisville-kentucky-2026
+[2026-06-09T04:23:32.519141+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-louisville-kentucky-2026.json
+[2026-06-09T04:23:32.523756+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['underride-or-override-truck-crash-in-chicago-illinois-2026', 'underride-or-override-truck-crash-in-indianapolis-indiana-2026', 'underride-or-override-truck-crash-in-des-moines-iowa-2026', 'underride-or-override-truck-crash-in-wichita-kansas-2026', 'underride-or-override-truck-crash-in-louisville-kentucky-2026']
+[2026-06-09T04:23:32.531792+00:00] Daily ledger (UTC): 18/50 states, 18 EN posts
+[2026-06-09T04:23:32.827073+00:00]  "tail": "orida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:23:32.701573+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"underride-or-override-truck-crash-in-chicago-illinois-2026\",\n      \"underride-or-override-truck-crash-in-indianapolis-indiana-2026\",\n      \"underride-or-override-truck-crash-in-des-moines-iowa-2026\",\n      \"underride-or-override-truck-crash-in-wichita-kansas-2026\",\n      \"underride-or-override-truck-crash-in-louisville-kentucky-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:23:32.827228+00:00] WARN organic_crush exit 1
+[2026-06-09T04:23:32.950722+00:00] Inject for 33 states not yet published today
+[2026-06-09T04:23:32.952659+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:23:32.954854+00:00] Daily 50-state rotation (2026-06-09): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-09T04:23:32.955587+00:00] Daily 50-state injection complete
+[2026-06-09T04:23:33.044511+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:23:33.046551+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:23:33.049955+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:23:33.050730+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:23:33.055393+00:00] States already published today (UTC): 18 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky']
+[2026-06-09T04:23:33.058244+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:33.059192+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-new-orleans-louisiana-2026
+[2026-06-09T04:23:37.243811+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:23:37.245600+00:00] Spanish OK for underride-or-override-truck-crash-in-new-orleans-louisiana-2026 (3213 words)
+[2026-06-09T04:23:37.249057+00:00] Spanish OK for underride-or-override-truck-crash-in-new-orleans-louisiana-2026 (3213 words)
+[2026-06-09T04:23:37.410046+00:00] PPT EN underride-or-override-truck-crash-in-new-orleans-louisiana-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-new-orleans-louisiana-2026.pptx
+[2026-06-09T04:23:37.506435+00:00] PPT ES underride-or-override-truck-crash-in-new-orleans-louisiana-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-new-orleans-louisiana-2026.pptx
+[2026-06-09T04:23:37.506519+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-new-orleans-louisiana-2026.md
+[2026-06-09T04:23:37.537469+00:00] IndexNow queued for underride-or-override-truck-crash-in-new-orleans-louisiana-2026
+[2026-06-09T04:23:39.543859+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:39.544810+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-portland-maine-2026
+[2026-06-09T04:23:43.716233+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:23:43.717750+00:00] Spanish OK for underride-or-override-truck-crash-in-portland-maine-2026 (3199 words)
+[2026-06-09T04:23:43.721186+00:00] Spanish OK for underride-or-override-truck-crash-in-portland-maine-2026 (3199 words)
+[2026-06-09T04:23:43.819546+00:00] PPT EN underride-or-override-truck-crash-in-portland-maine-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-portland-maine-2026.pptx
+[2026-06-09T04:23:43.919599+00:00] PPT ES underride-or-override-truck-crash-in-portland-maine-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-portland-maine-2026.pptx
+[2026-06-09T04:23:43.919682+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-portland-maine-2026.md
+[2026-06-09T04:23:43.950705+00:00] IndexNow queued for underride-or-override-truck-crash-in-portland-maine-2026
+[2026-06-09T04:23:45.956747+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:45.957709+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-baltimore-maryland-2026
+[2026-06-09T04:23:50.147223+00:00] After materialize: 100 / 4023w ([])
+[2026-06-09T04:23:50.148761+00:00] Spanish OK for underride-or-override-truck-crash-in-baltimore-maryland-2026 (3207 words)
+[2026-06-09T04:23:50.152266+00:00] Spanish OK for underride-or-override-truck-crash-in-baltimore-maryland-2026 (3207 words)
+[2026-06-09T04:23:50.248981+00:00] PPT EN underride-or-override-truck-crash-in-baltimore-maryland-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-baltimore-maryland-2026.pptx
+[2026-06-09T04:23:50.343023+00:00] PPT ES underride-or-override-truck-crash-in-baltimore-maryland-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-baltimore-maryland-2026.pptx
+[2026-06-09T04:23:50.343107+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-baltimore-maryland-2026.md
+[2026-06-09T04:23:50.374494+00:00] IndexNow queued for underride-or-override-truck-crash-in-baltimore-maryland-2026
+[2026-06-09T04:23:52.380719+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:52.381747+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-boston-massachusetts-2026
+[2026-06-09T04:23:56.538308+00:00] After materialize: 100 / 4028w ([])
+[2026-06-09T04:23:56.539841+00:00] Spanish OK for underride-or-override-truck-crash-in-boston-massachusetts-2026 (3217 words)
+[2026-06-09T04:23:56.543363+00:00] Spanish OK for underride-or-override-truck-crash-in-boston-massachusetts-2026 (3217 words)
+[2026-06-09T04:23:56.642174+00:00] PPT EN underride-or-override-truck-crash-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-boston-massachusetts-2026.pptx
+[2026-06-09T04:23:56.744200+00:00] PPT ES underride-or-override-truck-crash-in-boston-massachusetts-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-boston-massachusetts-2026.pptx
+[2026-06-09T04:23:56.744291+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-boston-massachusetts-2026.md
+[2026-06-09T04:23:56.775307+00:00] IndexNow queued for underride-or-override-truck-crash-in-boston-massachusetts-2026
+[2026-06-09T04:23:58.781315+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:23:58.782268+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-detroit-michigan-2026
+[2026-06-09T04:24:02.996181+00:00] After materialize: 100 / 4028w ([])
+[2026-06-09T04:24:02.997753+00:00] Spanish OK for underride-or-override-truck-crash-in-detroit-michigan-2026 (3217 words)
+[2026-06-09T04:24:03.001288+00:00] Spanish OK for underride-or-override-truck-crash-in-detroit-michigan-2026 (3217 words)
+[2026-06-09T04:24:03.097792+00:00] PPT EN underride-or-override-truck-crash-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-detroit-michigan-2026.pptx
+[2026-06-09T04:24:03.191495+00:00] PPT ES underride-or-override-truck-crash-in-detroit-michigan-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-detroit-michigan-2026.pptx
+[2026-06-09T04:24:03.191581+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-detroit-michigan-2026.md
+[2026-06-09T04:24:03.223617+00:00] IndexNow queued for underride-or-override-truck-crash-in-detroit-michigan-2026
+[2026-06-09T04:24:03.224098+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-detroit-michigan-2026.json
+[2026-06-09T04:24:03.228973+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['underride-or-override-truck-crash-in-new-orleans-louisiana-2026', 'underride-or-override-truck-crash-in-portland-maine-2026', 'underride-or-override-truck-crash-in-baltimore-maryland-2026', 'underride-or-override-truck-crash-in-boston-massachusetts-2026', 'underride-or-override-truck-crash-in-detroit-michigan-2026']
+[2026-06-09T04:24:03.237178+00:00] Daily ledger (UTC): 23/50 states, 23 EN posts
+[2026-06-09T04:24:03.534069+00:00]  "tail": " step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:24:03.407294+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"underride-or-override-truck-crash-in-new-orleans-louisiana-2026\",\n      \"underride-or-override-truck-crash-in-portland-maine-2026\",\n      \"underride-or-override-truck-crash-in-baltimore-maryland-2026\",\n      \"underride-or-override-truck-crash-in-boston-massachusetts-2026\",\n      \"underride-or-override-truck-crash-in-detroit-michigan-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:24:03.534219+00:00] WARN organic_crush exit 1
+[2026-06-09T04:24:03.654560+00:00] Inject for 28 states not yet published today
+[2026-06-09T04:24:03.656559+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:24:03.658536+00:00] Daily 50-state rotation (2026-06-09): +0 new, 27 re-prioritized, 27 at queue front
+[2026-06-09T04:24:03.659312+00:00] Daily 50-state injection complete
+[2026-06-09T04:24:03.747001+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:24:03.749011+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:24:03.752379+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:24:03.753176+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:24:03.758138+00:00] States already published today (UTC): 23 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan']
+[2026-06-09T04:24:03.760999+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:03.761953+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-minneapolis-minnesota-2026
+[2026-06-09T04:24:07.920253+00:00] After materialize: 100 / 4023w ([])
+[2026-06-09T04:24:07.922123+00:00] Spanish OK for underride-or-override-truck-crash-in-minneapolis-minnesota-2026 (3214 words)
+[2026-06-09T04:24:07.925645+00:00] Spanish OK for underride-or-override-truck-crash-in-minneapolis-minnesota-2026 (3214 words)
+[2026-06-09T04:24:08.087799+00:00] PPT EN underride-or-override-truck-crash-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-minneapolis-minnesota-2026.pptx
+[2026-06-09T04:24:08.184244+00:00] PPT ES underride-or-override-truck-crash-in-minneapolis-minnesota-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-minneapolis-minnesota-2026.pptx
+[2026-06-09T04:24:08.184336+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-minneapolis-minnesota-2026.md
+[2026-06-09T04:24:08.215501+00:00] IndexNow queued for underride-or-override-truck-crash-in-minneapolis-minnesota-2026
+[2026-06-09T04:24:10.222396+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:10.223357+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-jackson-mississippi-2026
+[2026-06-09T04:24:14.378339+00:00] After materialize: 100 / 4013w ([])
+[2026-06-09T04:24:14.379949+00:00] Spanish OK for underride-or-override-truck-crash-in-jackson-mississippi-2026 (3197 words)
+[2026-06-09T04:24:14.383350+00:00] Spanish OK for underride-or-override-truck-crash-in-jackson-mississippi-2026 (3197 words)
+[2026-06-09T04:24:14.482970+00:00] PPT EN underride-or-override-truck-crash-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-jackson-mississippi-2026.pptx
+[2026-06-09T04:24:14.583894+00:00] PPT ES underride-or-override-truck-crash-in-jackson-mississippi-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-jackson-mississippi-2026.pptx
+[2026-06-09T04:24:14.583983+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-jackson-mississippi-2026.md
+[2026-06-09T04:24:14.614836+00:00] IndexNow queued for underride-or-override-truck-crash-in-jackson-mississippi-2026
+[2026-06-09T04:24:16.621066+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:16.622045+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-kansas-city-missouri-2026
+[2026-06-09T04:24:20.807668+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:24:20.809323+00:00] Spanish OK for underride-or-override-truck-crash-in-kansas-city-missouri-2026 (3213 words)
+[2026-06-09T04:24:20.812766+00:00] Spanish OK for underride-or-override-truck-crash-in-kansas-city-missouri-2026 (3213 words)
+[2026-06-09T04:24:20.910029+00:00] PPT EN underride-or-override-truck-crash-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-kansas-city-missouri-2026.pptx
+[2026-06-09T04:24:21.004149+00:00] PPT ES underride-or-override-truck-crash-in-kansas-city-missouri-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-kansas-city-missouri-2026.pptx
+[2026-06-09T04:24:21.004232+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-kansas-city-missouri-2026.md
+[2026-06-09T04:24:21.035490+00:00] IndexNow queued for underride-or-override-truck-crash-in-kansas-city-missouri-2026
+[2026-06-09T04:24:23.041788+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:23.042855+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-billings-montana-2026
+[2026-06-09T04:24:27.211773+00:00] After materialize: 100 / 4013w ([])
+[2026-06-09T04:24:27.213361+00:00] Spanish OK for underride-or-override-truck-crash-in-billings-montana-2026 (3201 words)
+[2026-06-09T04:24:27.216776+00:00] Spanish OK for underride-or-override-truck-crash-in-billings-montana-2026 (3201 words)
+[2026-06-09T04:24:27.315780+00:00] PPT EN underride-or-override-truck-crash-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-billings-montana-2026.pptx
+[2026-06-09T04:24:27.416353+00:00] PPT ES underride-or-override-truck-crash-in-billings-montana-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-billings-montana-2026.pptx
+[2026-06-09T04:24:27.416435+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-billings-montana-2026.md
+[2026-06-09T04:24:27.447831+00:00] IndexNow queued for underride-or-override-truck-crash-in-billings-montana-2026
+[2026-06-09T04:24:29.453857+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:29.454801+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-omaha-nebraska-2026
+[2026-06-09T04:24:33.613468+00:00] After materialize: 100 / 4013w ([])
+[2026-06-09T04:24:33.615076+00:00] Spanish OK for underride-or-override-truck-crash-in-omaha-nebraska-2026 (3201 words)
+[2026-06-09T04:24:33.618513+00:00] Spanish OK for underride-or-override-truck-crash-in-omaha-nebraska-2026 (3201 words)
+[2026-06-09T04:24:33.715555+00:00] PPT EN underride-or-override-truck-crash-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-omaha-nebraska-2026.pptx
+[2026-06-09T04:24:33.809928+00:00] PPT ES underride-or-override-truck-crash-in-omaha-nebraska-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-omaha-nebraska-2026.pptx
+[2026-06-09T04:24:33.810011+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-omaha-nebraska-2026.md
+[2026-06-09T04:24:33.841507+00:00] IndexNow queued for underride-or-override-truck-crash-in-omaha-nebraska-2026
+[2026-06-09T04:24:33.841950+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-omaha-nebraska-2026.json
+[2026-06-09T04:24:33.846978+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['underride-or-override-truck-crash-in-minneapolis-minnesota-2026', 'underride-or-override-truck-crash-in-jackson-mississippi-2026', 'underride-or-override-truck-crash-in-kansas-city-missouri-2026', 'underride-or-override-truck-crash-in-billings-montana-2026', 'underride-or-override-truck-crash-in-omaha-nebraska-2026']
+[2026-06-09T04:24:33.855346+00:00] Daily ledger (UTC): 28/50 states, 28 EN posts
+[2026-06-09T04:24:34.156153+00:00]  "tail": "step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:24:34.026494+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"underride-or-override-truck-crash-in-minneapolis-minnesota-2026\",\n      \"underride-or-override-truck-crash-in-jackson-mississippi-2026\",\n      \"underride-or-override-truck-crash-in-kansas-city-missouri-2026\",\n      \"underride-or-override-truck-crash-in-billings-montana-2026\",\n      \"underride-or-override-truck-crash-in-omaha-nebraska-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:24:34.156302+00:00] WARN organic_crush exit 1
+[2026-06-09T04:24:34.277225+00:00] Inject for 23 states not yet published today
+[2026-06-09T04:24:34.279170+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:24:34.280912+00:00] Daily 50-state rotation (2026-06-09): +0 new, 22 re-prioritized, 22 at queue front
+[2026-06-09T04:24:34.281638+00:00] Daily 50-state injection complete
+[2026-06-09T04:24:34.369548+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:24:34.371569+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:24:34.375068+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:24:34.375840+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:24:34.380787+00:00] States already published today (UTC): 28 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska']
+[2026-06-09T04:24:34.383633+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:34.384565+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-las-vegas-nevada-2026
+[2026-06-09T04:24:38.560230+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:24:38.562048+00:00] Spanish OK for underride-or-override-truck-crash-in-las-vegas-nevada-2026 (3217 words)
+[2026-06-09T04:24:38.565465+00:00] Spanish OK for underride-or-override-truck-crash-in-las-vegas-nevada-2026 (3217 words)
+[2026-06-09T04:24:38.728214+00:00] PPT EN underride-or-override-truck-crash-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-las-vegas-nevada-2026.pptx
+[2026-06-09T04:24:38.825228+00:00] PPT ES underride-or-override-truck-crash-in-las-vegas-nevada-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-las-vegas-nevada-2026.pptx
+[2026-06-09T04:24:38.825310+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-las-vegas-nevada-2026.md
+[2026-06-09T04:24:38.856578+00:00] IndexNow queued for underride-or-override-truck-crash-in-las-vegas-nevada-2026
+[2026-06-09T04:24:40.863697+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:40.864707+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-manchester-new-hampshire-2026
+[2026-06-09T04:24:45.048014+00:00] After materialize: 100 / 4043w ([])
+[2026-06-09T04:24:45.049603+00:00] Spanish OK for underride-or-override-truck-crash-in-manchester-new-hampshire-2026 (3233 words)
+[2026-06-09T04:24:45.053143+00:00] Spanish OK for underride-or-override-truck-crash-in-manchester-new-hampshire-2026 (3233 words)
+[2026-06-09T04:24:45.151511+00:00] PPT EN underride-or-override-truck-crash-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-manchester-new-hampshire-2026.pptx
+[2026-06-09T04:24:45.251619+00:00] PPT ES underride-or-override-truck-crash-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-manchester-new-hampshire-2026.pptx
+[2026-06-09T04:24:45.251698+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-manchester-new-hampshire-2026.md
+[2026-06-09T04:24:45.282525+00:00] IndexNow queued for underride-or-override-truck-crash-in-manchester-new-hampshire-2026
+[2026-06-09T04:24:47.289029+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:47.290051+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-newark-new-jersey-2026
+[2026-06-09T04:24:51.445351+00:00] After materialize: 100 / 4057w ([])
+[2026-06-09T04:24:51.446953+00:00] Spanish OK for underride-or-override-truck-crash-in-newark-new-jersey-2026 (3249 words)
+[2026-06-09T04:24:51.450412+00:00] Spanish OK for underride-or-override-truck-crash-in-newark-new-jersey-2026 (3249 words)
+[2026-06-09T04:24:51.547452+00:00] PPT EN underride-or-override-truck-crash-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-newark-new-jersey-2026.pptx
+[2026-06-09T04:24:51.642191+00:00] PPT ES underride-or-override-truck-crash-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-newark-new-jersey-2026.pptx
+[2026-06-09T04:24:51.642268+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-newark-new-jersey-2026.md
+[2026-06-09T04:24:51.673862+00:00] IndexNow queued for underride-or-override-truck-crash-in-newark-new-jersey-2026
+[2026-06-09T04:24:53.680185+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:24:53.681164+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-albuquerque-new-mexico-2026
+[2026-06-09T04:24:57.859538+00:00] After materialize: 100 / 4043w ([])
+[2026-06-09T04:24:57.861142+00:00] Spanish OK for underride-or-override-truck-crash-in-albuquerque-new-mexico-2026 (3229 words)
+[2026-06-09T04:24:57.864578+00:00] Spanish OK for underride-or-override-truck-crash-in-albuquerque-new-mexico-2026 (3229 words)
+[2026-06-09T04:24:57.964204+00:00] PPT EN underride-or-override-truck-crash-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-albuquerque-new-mexico-2026.pptx
+[2026-06-09T04:24:58.065383+00:00] PPT ES underride-or-override-truck-crash-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-albuquerque-new-mexico-2026.pptx
+[2026-06-09T04:24:58.065469+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-albuquerque-new-mexico-2026.md
+[2026-06-09T04:24:58.097141+00:00] IndexNow queued for underride-or-override-truck-crash-in-albuquerque-new-mexico-2026
+[2026-06-09T04:25:00.103680+00:00] Quality 30 / 654w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:00.104744+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-new-york-city-new-york-2026
+[2026-06-09T04:25:04.335205+00:00] After materialize: 100 / 4088w ([])
+[2026-06-09T04:25:04.336768+00:00] Spanish OK for underride-or-override-truck-crash-in-new-york-city-new-york-2026 (3277 words)
+[2026-06-09T04:25:04.340295+00:00] Spanish OK for underride-or-override-truck-crash-in-new-york-city-new-york-2026 (3277 words)
+[2026-06-09T04:25:04.437141+00:00] PPT EN underride-or-override-truck-crash-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-new-york-city-new-york-2026.pptx
+[2026-06-09T04:25:04.531804+00:00] PPT ES underride-or-override-truck-crash-in-new-york-city-new-york-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-new-york-city-new-york-2026.pptx
+[2026-06-09T04:25:04.531912+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-new-york-city-new-york-2026.md
+[2026-06-09T04:25:04.563075+00:00] IndexNow queued for underride-or-override-truck-crash-in-new-york-city-new-york-2026
+[2026-06-09T04:25:04.563483+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-new-york-city-new-york-2026.json
+[2026-06-09T04:25:04.568604+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['underride-or-override-truck-crash-in-las-vegas-nevada-2026', 'underride-or-override-truck-crash-in-manchester-new-hampshire-2026', 'underride-or-override-truck-crash-in-newark-new-jersey-2026', 'underride-or-override-truck-crash-in-albuquerque-new-mexico-2026', 'underride-or-override-truck-crash-in-new-york-city-new-york-2026']
+[2026-06-09T04:25:04.577166+00:00] Daily ledger (UTC): 33/50 states, 33 EN posts
+[2026-06-09T04:25:04.880086+00:00]  "tail": "p\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:25:04.753133+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"underride-or-override-truck-crash-in-las-vegas-nevada-2026\",\n      \"underride-or-override-truck-crash-in-manchester-new-hampshire-2026\",\n      \"underride-or-override-truck-crash-in-newark-new-jersey-2026\",\n      \"underride-or-override-truck-crash-in-albuquerque-new-mexico-2026\",\n      \"underride-or-override-truck-crash-in-new-york-city-new-york-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:25:04.880193+00:00] WARN organic_crush exit 1
+[2026-06-09T04:25:05.004085+00:00] Inject for 18 states not yet published today
+[2026-06-09T04:25:05.006044+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:25:05.007485+00:00] Daily 50-state rotation (2026-06-09): +0 new, 17 re-prioritized, 17 at queue front
+[2026-06-09T04:25:05.008212+00:00] Daily 50-state injection complete
+[2026-06-09T04:25:05.097809+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:25:05.099979+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:25:05.103509+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:25:05.104344+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:25:05.109433+00:00] States already published today (UTC): 33 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York']
+[2026-06-09T04:25:05.112309+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:05.113262+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-charlotte-north-carolina-2026
+[2026-06-09T04:25:09.266195+00:00] After materialize: 100 / 4053w ([])
+[2026-06-09T04:25:09.268020+00:00] Spanish OK for underride-or-override-truck-crash-in-charlotte-north-carolina-2026 (3239 words)
+[2026-06-09T04:25:09.271464+00:00] Spanish OK for underride-or-override-truck-crash-in-charlotte-north-carolina-2026 (3239 words)
+[2026-06-09T04:25:09.433207+00:00] PPT EN underride-or-override-truck-crash-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-charlotte-north-carolina-2026.pptx
+[2026-06-09T04:25:09.529855+00:00] PPT ES underride-or-override-truck-crash-in-charlotte-north-carolina-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-charlotte-north-carolina-2026.pptx
+[2026-06-09T04:25:09.529973+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-charlotte-north-carolina-2026.md
+[2026-06-09T04:25:09.561000+00:00] IndexNow queued for underride-or-override-truck-crash-in-charlotte-north-carolina-2026
+[2026-06-09T04:25:11.567793+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:11.568792+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-fargo-north-dakota-2026
+[2026-06-09T04:25:15.756985+00:00] After materialize: 100 / 4065w ([])
+[2026-06-09T04:25:15.758539+00:00] Spanish OK for underride-or-override-truck-crash-in-fargo-north-dakota-2026 (3244 words)
+[2026-06-09T04:25:15.762083+00:00] Spanish OK for underride-or-override-truck-crash-in-fargo-north-dakota-2026 (3244 words)
+[2026-06-09T04:25:15.860452+00:00] PPT EN underride-or-override-truck-crash-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-fargo-north-dakota-2026.pptx
+[2026-06-09T04:25:15.960175+00:00] PPT ES underride-or-override-truck-crash-in-fargo-north-dakota-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-fargo-north-dakota-2026.pptx
+[2026-06-09T04:25:15.960256+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-fargo-north-dakota-2026.md
+[2026-06-09T04:25:15.991517+00:00] IndexNow queued for underride-or-override-truck-crash-in-fargo-north-dakota-2026
+[2026-06-09T04:25:17.997713+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:17.998667+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-columbus-ohio-2026
+[2026-06-09T04:25:22.156278+00:00] After materialize: 100 / 4015w ([])
+[2026-06-09T04:25:22.157844+00:00] Spanish OK for underride-or-override-truck-crash-in-columbus-ohio-2026 (3201 words)
+[2026-06-09T04:25:22.161326+00:00] Spanish OK for underride-or-override-truck-crash-in-columbus-ohio-2026 (3201 words)
+[2026-06-09T04:25:22.258088+00:00] PPT EN underride-or-override-truck-crash-in-columbus-ohio-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-columbus-ohio-2026.pptx
+[2026-06-09T04:25:22.351414+00:00] PPT ES underride-or-override-truck-crash-in-columbus-ohio-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-columbus-ohio-2026.pptx
+[2026-06-09T04:25:22.351494+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-columbus-ohio-2026.md
+[2026-06-09T04:25:22.382494+00:00] IndexNow queued for underride-or-override-truck-crash-in-columbus-ohio-2026
+[2026-06-09T04:25:24.388772+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:24.389750+00:00] Materializing template → platinum for tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026
+[2026-06-09T04:25:28.581449+00:00] After materialize: 100 / 4019w ([])
+[2026-06-09T04:25:28.583048+00:00] Spanish OK for tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026 (3211 words)
+[2026-06-09T04:25:28.586463+00:00] Spanish OK for tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026 (3211 words)
+[2026-06-09T04:25:28.687928+00:00] PPT EN tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026.pptx
+[2026-06-09T04:25:28.788957+00:00] PPT ES tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026.pptx
+[2026-06-09T04:25:28.789050+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026.md
+[2026-06-09T04:25:28.820193+00:00] IndexNow queued for tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026
+[2026-06-09T04:25:30.826559+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:30.827923+00:00] Materializing template → platinum for tractor-trailer-injury-in-portland-oregon-legal-steps-2026
+[2026-06-09T04:25:34.978079+00:00] After materialize: 100 / 4017w ([])
+[2026-06-09T04:25:34.979583+00:00] Spanish OK for tractor-trailer-injury-in-portland-oregon-legal-steps-2026 (3193 words)
+[2026-06-09T04:25:34.983046+00:00] Spanish OK for tractor-trailer-injury-in-portland-oregon-legal-steps-2026 (3193 words)
+[2026-06-09T04:25:35.081028+00:00] PPT EN tractor-trailer-injury-in-portland-oregon-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-portland-oregon-legal-steps-2026.pptx
+[2026-06-09T04:25:35.173939+00:00] PPT ES tractor-trailer-injury-in-portland-oregon-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-portland-oregon-legal-steps-2026.pptx
+[2026-06-09T04:25:35.174025+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-portland-oregon-legal-steps-2026.md
+[2026-06-09T04:25:35.205170+00:00] IndexNow queued for tractor-trailer-injury-in-portland-oregon-legal-steps-2026
+[2026-06-09T04:25:35.205564+00:00] Syndication → sites/semitruckmatch/content/syndication/tractor-trailer-injury-in-portland-oregon-legal-steps-2026.json
+[2026-06-09T04:25:35.210672+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['underride-or-override-truck-crash-in-charlotte-north-carolina-2026', 'underride-or-override-truck-crash-in-fargo-north-dakota-2026', 'underride-or-override-truck-crash-in-columbus-ohio-2026', 'tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026', 'tractor-trailer-injury-in-portland-oregon-legal-steps-2026']
+[2026-06-09T04:25:35.219378+00:00] Daily ledger (UTC): 38/50 states, 38 EN posts
+[2026-06-09T04:25:35.514017+00:00]  "tail": " by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:25:35.390608+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"underride-or-override-truck-crash-in-charlotte-north-carolina-2026\",\n      \"underride-or-override-truck-crash-in-fargo-north-dakota-2026\",\n      \"underride-or-override-truck-crash-in-columbus-ohio-2026\",\n      \"tractor-trailer-injury-in-oklahoma-city-oklahoma-legal-steps-2026\",\n      \"tractor-trailer-injury-in-portland-oregon-legal-steps-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:25:35.514119+00:00] WARN organic_crush exit 1
+[2026-06-09T04:25:35.635643+00:00] Inject for 13 states not yet published today
+[2026-06-09T04:25:35.637612+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:25:35.638815+00:00] Daily 50-state rotation (2026-06-09): +0 new, 12 re-prioritized, 12 at queue front
+[2026-06-09T04:25:35.639534+00:00] Daily 50-state injection complete
+[2026-06-09T04:25:35.727436+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:25:35.729515+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:25:35.733037+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:25:35.733829+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:25:35.738987+00:00] States already published today (UTC): 38 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon']
+[2026-06-09T04:25:35.741832+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:35.742774+00:00] Materializing template → platinum for tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026
+[2026-06-09T04:25:39.902021+00:00] After materialize: 100 / 4021w ([])
+[2026-06-09T04:25:39.903840+00:00] Spanish OK for tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026 (3211 words)
+[2026-06-09T04:25:39.907305+00:00] Spanish OK for tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026 (3211 words)
+[2026-06-09T04:25:40.070469+00:00] PPT EN tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026.pptx
+[2026-06-09T04:25:40.167457+00:00] PPT ES tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026.pptx
+[2026-06-09T04:25:40.167543+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026.md
+[2026-06-09T04:25:40.198643+00:00] IndexNow queued for tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026
+[2026-06-09T04:25:42.206024+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:42.207086+00:00] Materializing template → platinum for tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026
+[2026-06-09T04:25:46.378398+00:00] After materialize: 100 / 4036w ([])
+[2026-06-09T04:25:46.380037+00:00] Spanish OK for tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026 (3223 words)
+[2026-06-09T04:25:46.383647+00:00] Spanish OK for tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026 (3223 words)
+[2026-06-09T04:25:46.482426+00:00] PPT EN tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026.pptx
+[2026-06-09T04:25:46.582300+00:00] PPT ES tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026.pptx
+[2026-06-09T04:25:46.582382+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026.md
+[2026-06-09T04:25:46.613606+00:00] IndexNow queued for tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026
+[2026-06-09T04:25:48.620186+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:48.621201+00:00] Materializing template → platinum for tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026
+[2026-06-09T04:25:52.830669+00:00] After materialize: 100 / 4038w ([])
+[2026-06-09T04:25:52.832196+00:00] Spanish OK for tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026 (3227 words)
+[2026-06-09T04:25:52.835733+00:00] Spanish OK for tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026 (3227 words)
+[2026-06-09T04:25:52.932959+00:00] PPT EN tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026.pptx
+[2026-06-09T04:25:53.027358+00:00] PPT ES tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026.pptx
+[2026-06-09T04:25:53.027440+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026.md
+[2026-06-09T04:25:53.058774+00:00] IndexNow queued for tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026
+[2026-06-09T04:25:55.065340+00:00] Quality 30 / 649w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:25:55.066404+00:00] Materializing template → platinum for tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026
+[2026-06-09T04:25:59.288427+00:00] After materialize: 100 / 4047w ([])
+[2026-06-09T04:25:59.290030+00:00] Spanish OK for tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026 (3243 words)
+[2026-06-09T04:25:59.293444+00:00] Spanish OK for tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026 (3243 words)
+[2026-06-09T04:25:59.392486+00:00] PPT EN tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026.pptx
+[2026-06-09T04:25:59.494384+00:00] PPT ES tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026.pptx
+[2026-06-09T04:25:59.494466+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026.md
+[2026-06-09T04:25:59.526197+00:00] IndexNow queued for tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026
+[2026-06-09T04:26:01.532601+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:01.533564+00:00] Materializing template → platinum for tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026
+[2026-06-09T04:26:05.752637+00:00] After materialize: 100 / 4017w ([])
+[2026-06-09T04:26:05.754281+00:00] Spanish OK for tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026 (3193 words)
+[2026-06-09T04:26:05.757818+00:00] Spanish OK for tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026 (3193 words)
+[2026-06-09T04:26:05.857717+00:00] PPT EN tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026.pptx
+[2026-06-09T04:26:05.952810+00:00] PPT ES tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026.pptx
+[2026-06-09T04:26:05.952932+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026.md
+[2026-06-09T04:26:05.984432+00:00] IndexNow queued for tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026
+[2026-06-09T04:26:05.984851+00:00] Syndication → sites/semitruckmatch/content/syndication/tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026.json
+[2026-06-09T04:26:05.990291+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026', 'tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026', 'tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026', 'tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026', 'tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026']
+[2026-06-09T04:26:06.004165+00:00] Daily ledger (UTC): 43/50 states, 43 EN posts
+[2026-06-09T04:26:06.306790+00:00] ": 0,
+      "tail": "r accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:26:06.178373+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"tractor-trailer-injury-in-philadelphia-pennsylvania-legal-steps-2026\",\n      \"tractor-trailer-injury-in-providence-rhode-island-legal-steps-2026\",\n      \"tractor-trailer-injury-in-charleston-south-carolina-legal-steps-2026\",\n      \"tractor-trailer-injury-in-sioux-falls-south-dakota-legal-steps-2026\",\n      \"tractor-trailer-injury-in-nashville-tennessee-legal-steps-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:26:06.306939+00:00] WARN organic_crush exit 1
+[2026-06-09T04:26:06.435438+00:00] Inject for 8 states not yet published today
+[2026-06-09T04:26:06.437410+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:26:06.438400+00:00] Daily 50-state rotation (2026-06-09): +0 new, 7 re-prioritized, 7 at queue front
+[2026-06-09T04:26:06.439129+00:00] Daily 50-state injection complete
+[2026-06-09T04:26:06.529565+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:26:06.531596+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:26:06.535106+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:26:06.535908+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:26:06.541055+00:00] States already published today (UTC): 43 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee']
+[2026-06-09T04:26:06.543910+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:06.544816+00:00] Materializing template → platinum for tractor-trailer-injury-in-houston-texas-legal-steps-2026
+[2026-06-09T04:26:10.786470+00:00] After materialize: 100 / 4024w ([])
+[2026-06-09T04:26:10.788293+00:00] Spanish OK for tractor-trailer-injury-in-houston-texas-legal-steps-2026 (3200 words)
+[2026-06-09T04:26:10.791676+00:00] Spanish OK for tractor-trailer-injury-in-houston-texas-legal-steps-2026 (3200 words)
+[2026-06-09T04:26:10.959641+00:00] PPT EN tractor-trailer-injury-in-houston-texas-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-houston-texas-legal-steps-2026.pptx
+[2026-06-09T04:26:11.058982+00:00] PPT ES tractor-trailer-injury-in-houston-texas-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-houston-texas-legal-steps-2026.pptx
+[2026-06-09T04:26:11.059078+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-houston-texas-legal-steps-2026.md
+[2026-06-09T04:26:11.090226+00:00] IndexNow queued for tractor-trailer-injury-in-houston-texas-legal-steps-2026
+[2026-06-09T04:26:13.097383+00:00] Quality 30 / 649w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:13.098363+00:00] Materializing template → platinum for tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026
+[2026-06-09T04:26:17.377677+00:00] After materialize: 100 / 4049w ([])
+[2026-06-09T04:26:17.379238+00:00] Spanish OK for tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026 (3238 words)
+[2026-06-09T04:26:17.382613+00:00] Spanish OK for tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026 (3238 words)
+[2026-06-09T04:26:17.482752+00:00] PPT EN tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026.pptx
+[2026-06-09T04:26:17.583451+00:00] PPT ES tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026.pptx
+[2026-06-09T04:26:17.583540+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026.md
+[2026-06-09T04:26:17.615055+00:00] IndexNow queued for tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026
+[2026-06-09T04:26:19.621688+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:19.622648+00:00] Materializing template → platinum for tractor-trailer-injury-in-burlington-vermont-legal-steps-2026
+[2026-06-09T04:26:23.804529+00:00] After materialize: 100 / 4006w ([])
+[2026-06-09T04:26:23.806150+00:00] Spanish OK for tractor-trailer-injury-in-burlington-vermont-legal-steps-2026 (3195 words)
+[2026-06-09T04:26:23.809576+00:00] Spanish OK for tractor-trailer-injury-in-burlington-vermont-legal-steps-2026 (3195 words)
+[2026-06-09T04:26:23.906736+00:00] PPT EN tractor-trailer-injury-in-burlington-vermont-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-burlington-vermont-legal-steps-2026.pptx
+[2026-06-09T04:26:24.001256+00:00] PPT ES tractor-trailer-injury-in-burlington-vermont-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-burlington-vermont-legal-steps-2026.pptx
+[2026-06-09T04:26:24.001338+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-burlington-vermont-legal-steps-2026.md
+[2026-06-09T04:26:24.032812+00:00] IndexNow queued for tractor-trailer-injury-in-burlington-vermont-legal-steps-2026
+[2026-06-09T04:26:26.039384+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:26.040345+00:00] Materializing template → platinum for tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026
+[2026-06-09T04:26:30.272238+00:00] After materialize: 100 / 4027w ([])
+[2026-06-09T04:26:30.273787+00:00] Spanish OK for tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026 (3217 words)
+[2026-06-09T04:26:30.277201+00:00] Spanish OK for tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026 (3217 words)
+[2026-06-09T04:26:30.376816+00:00] PPT EN tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026.pptx
+[2026-06-09T04:26:30.481084+00:00] PPT ES tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026.pptx
+[2026-06-09T04:26:30.481168+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026.md
+[2026-06-09T04:26:30.513246+00:00] IndexNow queued for tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026
+[2026-06-09T04:26:32.519549+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:32.520499+00:00] Materializing template → platinum for tractor-trailer-injury-in-seattle-washington-legal-steps-2026
+[2026-06-09T04:26:36.708046+00:00] After materialize: 100 / 4006w ([])
+[2026-06-09T04:26:36.709762+00:00] Spanish OK for tractor-trailer-injury-in-seattle-washington-legal-steps-2026 (3191 words)
+[2026-06-09T04:26:36.713212+00:00] Spanish OK for tractor-trailer-injury-in-seattle-washington-legal-steps-2026 (3191 words)
+[2026-06-09T04:26:36.811235+00:00] PPT EN tractor-trailer-injury-in-seattle-washington-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-seattle-washington-legal-steps-2026.pptx
+[2026-06-09T04:26:36.905826+00:00] PPT ES tractor-trailer-injury-in-seattle-washington-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-seattle-washington-legal-steps-2026.pptx
+[2026-06-09T04:26:36.905951+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-seattle-washington-legal-steps-2026.md
+[2026-06-09T04:26:36.937112+00:00] IndexNow queued for tractor-trailer-injury-in-seattle-washington-legal-steps-2026
+[2026-06-09T04:26:36.937507+00:00] Syndication → sites/semitruckmatch/content/syndication/tractor-trailer-injury-in-seattle-washington-legal-steps-2026.json
+[2026-06-09T04:26:36.942642+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['tractor-trailer-injury-in-houston-texas-legal-steps-2026', 'tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026', 'tractor-trailer-injury-in-burlington-vermont-legal-steps-2026', 'tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026', 'tractor-trailer-injury-in-seattle-washington-legal-steps-2026']
+[2026-06-09T04:26:36.951867+00:00] Daily ledger (UTC): 48/50 states, 48 EN posts
+[2026-06-09T04:26:37.247575+00:00]  "tail": "y step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:26:37.121218+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"tractor-trailer-injury-in-houston-texas-legal-steps-2026\",\n      \"tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026\",\n      \"tractor-trailer-injury-in-burlington-vermont-legal-steps-2026\",\n      \"tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026\",\n      \"tractor-trailer-injury-in-seattle-washington-legal-steps-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:26:37.247686+00:00] WARN organic_crush exit 1
+[2026-06-09T04:26:37.370820+00:00] Inject for 3 states not yet published today
+[2026-06-09T04:26:37.372752+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:26:37.373498+00:00] Daily 50-state rotation (2026-06-09): +0 new, 2 re-prioritized, 2 at queue front
+[2026-06-09T04:26:37.374235+00:00] Daily 50-state injection complete
+[2026-06-09T04:26:37.461951+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T04:26:37.463976+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T04:26:37.467523+00:00] Daily 50-state rotation (2026-06-09): +5 new, 45 re-prioritized, 50 at queue front
+[2026-06-09T04:26:37.468352+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T04:26:37.473745+00:00] States already published today (UTC): 48 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington']
+[2026-06-09T04:26:37.476672+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:37.477622+00:00] Materializing template → platinum for tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026
+[2026-06-09T04:26:41.648461+00:00] After materialize: 100 / 4047w ([])
+[2026-06-09T04:26:41.650344+00:00] Spanish OK for tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026 (3225 words)
+[2026-06-09T04:26:41.653782+00:00] Spanish OK for tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026 (3225 words)
+[2026-06-09T04:26:41.816839+00:00] PPT EN tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026.pptx
+[2026-06-09T04:26:41.913622+00:00] PPT ES tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026.pptx
+[2026-06-09T04:26:41.913728+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026.md
+[2026-06-09T04:26:41.944502+00:00] IndexNow queued for tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026
+[2026-06-09T04:26:43.951779+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T04:26:43.952742+00:00] Materializing template → platinum for tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026
+[2026-06-09T04:26:48.150955+00:00] After materialize: 100 / 4006w ([])
+[2026-06-09T04:26:48.152506+00:00] Spanish OK for tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026 (3195 words)
+[2026-06-09T04:26:48.155977+00:00] Spanish OK for tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026 (3195 words)
+[2026-06-09T04:26:48.254223+00:00] PPT EN tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026.pptx
+[2026-06-09T04:26:48.354444+00:00] PPT ES tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026.pptx
+[2026-06-09T04:26:48.354530+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026.md
+[2026-06-09T04:26:48.386056+00:00] IndexNow queued for tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026
+[2026-06-09T04:26:48.386398+00:00] Syndication → sites/semitruckmatch/content/syndication/tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026.json
+[2026-06-09T04:26:48.391743+00:00] Done: 2/2 published (platinum bar ≥100, ≥3000w) — ['tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026', 'tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026']
+[2026-06-09T04:26:48.400670+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-06-09T04:26:48.698674+00:00] referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:26:48.572010+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026\",\n      \"tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T04:26:48.698796+00:00] WARN organic_crush exit 1
