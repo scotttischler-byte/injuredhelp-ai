@@ -1,7 +1,7 @@
 # Viral content pack — What to Do After a Car Accident in Phoenix, Arizona — Top City Guide (2026-06-08)
 
 **URL:** https://www.wreckmatch.com/blog/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-08  
-**Generated:** 2026-06-08T20:34:27.823968+00:00  
+**Generated:** 2026-06-09T10:03:37.685793+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
