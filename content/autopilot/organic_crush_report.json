@@ -1,28 +1,28 @@
 {
-  "at": "2026-06-09T04:27:18.727154+00:00",
+  "at": "2026-06-09T04:36:20.877338+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": false,
-      "code": 2,
-      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026\n"
+      "ok": true,
+      "code": 0,
+      "tail": "by-an-uninsured-driver-in-des-moines-iowa-2026\nmeshed hit-by-an-uninsured-driver-in-indianapolis-indiana-2026\nmeshed hit-by-an-uninsured-driver-in-las-vegas-nevada-2026\nmeshed hit-by-an-uninsured-driver-in-fargo-north-dakota-2026\nmeshed hit-by-an-uninsured-driver-in-jackson-mississippi-2026\nmeshed hit-by-an-uninsured-driver-in-detroit-michigan-2026\nmeshed hit-by-an-uninsured-driver-in-baltimore-maryland-2026\nmeshed hit-by-an-uninsured-driver-in-albuquerque-new-mexico-2026\nmeshed hit-by-an-uninsured-driver-in-boston-massachusetts-2026\nmeshed hit-by-an-uninsured-driver-in-birmingham-alabama-2026\nmeshed hit-by-an-uninsured-driver-in-billings-montana-2026\nmeshed hit-by-an-uninsured-driver-in-charleston-south-carolina-2026\nmeshed 18-wheeler-crash-in-wilmington-delaware-victim-guide-2026\nmeshed 18-wheeler-crash-in-washington-district-of-columbia-victim-guide-2026\nmeshed 18-wheeler-crash-in-honolulu-hawaii-victim-guide-2026\nmeshed 18-wheeler-crash-in-little-rock-arkansas-victim-guide-2026\nmeshed 18-wheeler-crash-in-bridgeport-connecticut-victim-guide-2026\nmeshed 18-wheeler-crash-in-boise-idaho-victim-guide-2026\nmeshed 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026\nDone. 50 posts.\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-seattle-washington-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/hit-by-an-uninsured-driver-in-nashville-tennessee-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/hit-by-an-uninsured-driver-in-portland-oregon-2026_viral.md\n"
+      "tail": "content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-07_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-portland-maine-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:27:18.868575+00:00\",\n  \"stats\": {\n    \"enPosts\": 1043,\n    \"esPosts\": 1043,\n    \"platinumEn\": 1024,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-charleston-west-virginia-steps-legal-help-2026\",\n      \"truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:36:25.361796+00:00\",\n  \"stats\": {\n    \"enPosts\": 1043,\n    \"esPosts\": 1043,\n    \"platinumEn\": 1024,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": false
+  "ok": true
 }
