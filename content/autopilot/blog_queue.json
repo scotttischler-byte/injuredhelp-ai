@@ -900,39 +900,16 @@
     "should-you-hire-a-lawyer-after-a-virginia-beach-crash-virginia-2026",
     "should-you-hire-a-lawyer-after-a-seattle-crash-washington-2026",
     "whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026",
-    "whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026"
+    "whiplash-after-a-car-accident-in-milwaukee-wisconsin-what-to-know-2026",
+    "hit-by-an-uninsured-driver-in-birmingham-alabama-2026",
+    "18-wheeler-crash-in-anchorage-alaska-victim-guide-2026",
+    "what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09"
   ],
   "stats": {
-    "total_published": 899,
-    "last_run_at": "2026-06-08T17:56:07.365484+00:00"
+    "total_published": 902,
+    "last_run_at": "2026-06-09T00:08:42.727345+00:00"
   },
   "pending": [
-    {
-      "angle": "uninsured-driver",
-      "title": "Hit by an Uninsured Driver in Birmingham, Alabama (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "hit-by-an-uninsured-driver-in-birmingham-alabama-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Anchorage, Alaska \u2014 Victim Guide (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-anchorage-alaska-victim-guide-2026",
-      "daily_state_rotation": true,
-      "top_city": true
-    },
     {
       "angle": "18-wheeler-crash",
       "title": "18-Wheeler Crash in Little Rock, Arkansas \u2014 Victim Guide (2026)",
@@ -947,8 +924,21 @@
       "top_city": true
     },
     {
+      "angle": "common-mistakes",
+      "title": "What to Do After a Car Accident in Los Angeles, California \u2014 Top City Guide (2026-06-09)",
+      "city": "Los Angeles",
+      "state": "California",
+      "place_slug": "los-angeles",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-09"
+    },
+    {
       "angle": "severe-injury-car-accident",
-      "title": "What to Do After a Car Accident in Denver, Colorado \u2014 Top City Guide (2026-06-08)",
+      "title": "What to Do After a Car Accident in Denver, Colorado \u2014 Top City Guide (2026-06-09)",
       "city": "Denver",
       "state": "Colorado",
       "place_slug": "denver",
@@ -957,7 +947,7 @@
       "top_city": true,
       "firm_state": true,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-08"
+      "slug": "what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-09"
     },
     {
       "angle": "18-wheeler-crash",
@@ -999,6 +989,32 @@
       "top_city": true
     },
     {
+      "angle": "uninsured-driver",
+      "title": "What to Do After a Car Accident in Miami, Florida \u2014 Top City Guide (2026-06-09)",
+      "city": "Miami",
+      "state": "Florida",
+      "place_slug": "miami",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-06-09"
+    },
+    {
+      "angle": "what-to-do-after",
+      "title": "What to Do After a Car Accident in Atlanta, Georgia \u2014 Top City Guide (2026-06-09)",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "place_slug": "atlanta",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-09"
+    },
+    {
       "angle": "18-wheeler-crash",
       "title": "18-Wheeler Crash in Honolulu, Hawaii \u2014 Victim Guide (2026)",
       "city": "Honolulu",
@@ -1023,6 +1039,19 @@
       "slug": "18-wheeler-crash-in-boise-idaho-victim-guide-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Chicago, Illinois \u2014 Top City Guide (2026-06-09)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-06-09"
     },
     {
       "angle": "uninsured-driver",
@@ -1272,6 +1301,19 @@
       "top_city": true
     },
     {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Charlotte, North Carolina \u2014 Top City Guide (2026-06-09)",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "place_slug": "charlotte",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-06-09"
+    },
+    {
       "angle": "uninsured-driver",
       "title": "Hit by an Uninsured Driver in Fargo, North Dakota (2026)",
       "city": "Fargo",
@@ -1283,6 +1325,19 @@
       "slug": "hit-by-an-uninsured-driver-in-fargo-north-dakota-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "What to Do After a Car Accident in Columbus, Ohio \u2014 Top City Guide (2026-06-09)",
+      "city": "Columbus",
+      "state": "Ohio",
+      "place_slug": "columbus",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-06-09"
     },
     {
       "angle": "truck-accident",
@@ -1309,6 +1364,19 @@
       "slug": "hit-by-an-uninsured-driver-in-portland-oregon-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "What to Do After a Car Accident in Philadelphia, Pennsylvania \u2014 Top City Guide (2026-06-09)",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "place_slug": "philadelphia",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-09"
     },
     {
       "angle": "uninsured-driver",
@@ -1361,6 +1429,19 @@
       "slug": "hit-by-an-uninsured-driver-in-nashville-tennessee-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-09)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-09"
     },
     {
       "angle": "truck-accident",
@@ -1426,6 +1507,32 @@
       "slug": "truck-accident-in-charleston-west-virginia-steps-legal-help-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "Truck Accident in Milwaukee, Wisconsin: Steps & Legal Help (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "What to Do After a Car Accident in Denver, Colorado \u2014 Top City Guide (2026-06-08)",
+      "city": "Denver",
+      "state": "Colorado",
+      "place_slug": "denver",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-08"
     },
     {
       "angle": "common-mistakes",
@@ -31535,17 +31642,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "truck-accident-in-madison-wisconsin-steps-legal-help-2026"
-    },
-    {
-      "angle": "truck-accident",
-      "title": "Truck Accident in Milwaukee, Wisconsin: Steps & Legal Help (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": 3,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026"
     },
     {
       "angle": "truck-accident",

@@ -8300,3 +8300,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
   "ok": true
 }
 
+[2026-06-09T00:08:18.921981+00:00] Inject for 51 states not yet published today
+[2026-06-09T00:08:18.923694+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T00:08:18.978348+00:00] Daily 50-state rotation (2026-06-09): +10 new, 40 re-prioritized, 50 at queue front
+[2026-06-09T00:08:19.009443+00:00] Daily 50-state injection complete
+[2026-06-09T00:08:19.111660+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-09T00:08:19.113765+00:00] Loaded 239 cities from cities.ts
+[2026-06-09T00:08:19.169889+00:00] Daily 50-state rotation (2026-06-09): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-09T00:08:19.201381+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-09T00:08:19.206984+00:00] States already published today (UTC): 0 — []
+[2026-06-09T00:08:19.210409+00:00] Quality 30 / 555w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T00:08:19.211360+00:00] Materializing template → platinum for hit-by-an-uninsured-driver-in-birmingham-alabama-2026
+[2026-06-09T00:08:25.511574+00:00] After materialize: 100 / 3882w ([])
+[2026-06-09T00:08:25.513416+00:00] Spanish OK for hit-by-an-uninsured-driver-in-birmingham-alabama-2026 (3195 words)
+[2026-06-09T00:08:25.516809+00:00] Spanish OK for hit-by-an-uninsured-driver-in-birmingham-alabama-2026 (3195 words)
+[2026-06-09T00:08:25.717288+00:00] PPT EN hit-by-an-uninsured-driver-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/hit-by-an-uninsured-driver-in-birmingham-alabama-2026.pptx
+[2026-06-09T00:08:25.813264+00:00] PPT ES hit-by-an-uninsured-driver-in-birmingham-alabama-2026: 14 slides (score 100) → /blog/presentations/es/hit-by-an-uninsured-driver-in-birmingham-alabama-2026.pptx
+[2026-06-09T00:08:25.813343+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/hit-by-an-uninsured-driver-in-birmingham-alabama-2026.md
+[2026-06-09T00:08:25.844439+00:00] IndexNow queued for hit-by-an-uninsured-driver-in-birmingham-alabama-2026
+[2026-06-09T00:08:27.890492+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T00:08:27.891446+00:00] Materializing template → platinum for 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026
+[2026-06-09T00:08:32.760669+00:00] After materialize: 100 / 3991w ([])
+[2026-06-09T00:08:32.762266+00:00] Spanish OK for 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026 (3209 words)
+[2026-06-09T00:08:32.765858+00:00] Spanish OK for 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026 (3209 words)
+[2026-06-09T00:08:32.863133+00:00] PPT EN 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-anchorage-alaska-victim-guide-2026.pptx
+[2026-06-09T00:08:32.960674+00:00] PPT ES 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-anchorage-alaska-victim-guide-2026.pptx
+[2026-06-09T00:08:32.960784+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/18-wheeler-crash-in-anchorage-alaska-victim-guide-2026.md
+[2026-06-09T00:08:32.991972+00:00] IndexNow queued for 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026
+[2026-06-09T00:08:35.035901+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-09T00:08:35.036877+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09
+[2026-06-09T00:08:42.494357+00:00] After materialize: 100 / 3902w ([])
+[2026-06-09T00:08:42.495963+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09 (3236 words)
+[2026-06-09T00:08:42.499366+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09 (3236 words)
+[2026-06-09T00:08:42.597794+00:00] PPT EN what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09.pptx
+[2026-06-09T00:08:42.694664+00:00] PPT ES what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09.pptx
+[2026-06-09T00:08:42.694837+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09.md
+[2026-06-09T00:08:42.726809+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09
+[2026-06-09T00:08:42.727269+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09.json
+[2026-06-09T00:08:42.769372+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['hit-by-an-uninsured-driver-in-birmingham-alabama-2026', '18-wheeler-crash-in-anchorage-alaska-victim-guide-2026', 'what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09']
+[2026-06-09T00:08:42.782284+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-09T00:08:43.086017+00:00] Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T00:08:42.959634+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"hit-by-an-uninsured-driver-in-birmingham-alabama-2026\",\n      \"18-wheeler-crash-in-anchorage-alaska-victim-guide-2026\",\n      \"what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-09T00:08:43.086122+00:00] WARN organic_crush exit 1
