@@ -346,52 +346,16 @@
     "tractor-trailer-injury-in-new-york-city-new-york-legal-steps-2026",
     "tractor-trailer-injury-in-charlotte-north-carolina-legal-steps-2026",
     "tractor-trailer-injury-in-fargo-north-dakota-legal-steps-2026",
-    "tractor-trailer-injury-in-columbus-ohio-legal-steps-2026"
+    "tractor-trailer-injury-in-columbus-ohio-legal-steps-2026",
+    "severe-injury-after-a-truck-crash-in-birmingham-alabama-2026",
+    "severe-injury-after-a-truck-crash-in-anchorage-alaska-2026",
+    "severe-injury-after-a-truck-crash-in-phoenix-arizona-2026"
   ],
   "stats": {
-    "total_published": 345,
-    "last_run_at": "2026-06-08T13:17:47.944416+00:00"
+    "total_published": 348,
+    "last_run_at": "2026-06-09T00:08:32.157831+00:00"
   },
   "pending": [
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Birmingham, Alabama (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-birmingham-alabama-2026"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Anchorage, Alaska (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-anchorage-alaska-2026"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Phoenix, Arizona (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-phoenix-arizona-2026"
-    },
     {
       "angle": "severe-injury-car-accident",
       "title": "Severe Injury After a Truck Crash in Little Rock, Arkansas (2026)",
@@ -755,6 +719,71 @@
       "firm_state": false,
       "vertical": "auto",
       "slug": "underride-or-override-truck-crash-in-newark-new-jersey-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Albuquerque, New Mexico (2026)",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "place_slug": "albuquerque",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-albuquerque-new-mexico-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in New York City, New York (2026)",
+      "city": "New York City",
+      "state": "New York",
+      "place_slug": "new-york-city",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-new-york-city-new-york-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Charlotte, North Carolina (2026)",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "place_slug": "charlotte",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-charlotte-north-carolina-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Fargo, North Dakota (2026)",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "place_slug": "fargo",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-fargo-north-dakota-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Columbus, Ohio (2026)",
+      "city": "Columbus",
+      "state": "Ohio",
+      "place_slug": "columbus",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-columbus-ohio-2026"
     },
     {
       "angle": "tractor-trailer-injury",
