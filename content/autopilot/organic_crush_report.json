@@ -1,23 +1,23 @@
 {
-  "at": "2026-06-09T00:08:42.813906+00:00",
+  "at": "2026-06-09T04:27:18.727154+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
       "ok": false,
       "code": 2,
-      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: 18-wheeler-crash-in-anchorage-alaska-victim-guide-2026 what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09\n"
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-seattle-washington-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/hit-by-an-uninsured-driver-in-nashville-tennessee-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/hit-by-an-uninsured-driver-in-portland-oregon-2026_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "awyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T00:08:42.959634+00:00\",\n  \"stats\": {\n    \"enPosts\": 996,\n    \"esPosts\": 996,\n    \"platinumEn\": 977,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"hit-by-an-uninsured-driver-in-birmingham-alabama-2026\",\n      \"18-wheeler-crash-in-anchorage-alaska-victim-guide-2026\",\n      \"what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-09\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-09T04:27:18.868575+00:00\",\n  \"stats\": {\n    \"enPosts\": 1043,\n    \"esPosts\": 1043,\n    \"platinumEn\": 1024,\n    \"lastUpdated\": \"2026-06-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"truck-accident-in-charleston-west-virginia-steps-legal-help-2026\",\n      \"truck-accident-in-milwaukee-wisconsin-steps-legal-help-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
