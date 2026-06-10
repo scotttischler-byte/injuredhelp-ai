@@ -6188,3 +6188,53 @@ Node.js v24.14.1
 }
 
 [2026-06-09T04:26:48.698796+00:00] WARN organic_crush exit 1
+[2026-06-10T00:16:13.975143+00:00] Inject for 51 states not yet published today
+[2026-06-10T00:16:13.976945+00:00] Loaded 239 cities from cities.ts
+[2026-06-10T00:16:13.980216+00:00] Daily 50-state rotation (2026-06-10): +2 new, 48 re-prioritized, 50 at queue front
+[2026-06-10T00:16:13.980969+00:00] Daily 50-state injection complete
+[2026-06-10T00:16:14.074686+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-10T00:16:14.076716+00:00] Loaded 239 cities from cities.ts
+[2026-06-10T00:16:14.080366+00:00] Daily 50-state rotation (2026-06-10): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-10T00:16:14.081187+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-10T00:16:14.085777+00:00] States already published today (UTC): 0 — []
+[2026-06-10T00:16:14.089277+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-10T00:16:14.090330+00:00] Materializing template → platinum for alabama-truck-accident-statute-of-limitations-birmingham-2026
+[2026-06-10T00:16:19.377294+00:00] After materialize: 100 / 3952w ([])
+[2026-06-10T00:16:19.379123+00:00] Spanish OK for alabama-truck-accident-statute-of-limitations-birmingham-2026 (3204 words)
+[2026-06-10T00:16:19.382455+00:00] Spanish OK for alabama-truck-accident-statute-of-limitations-birmingham-2026 (3204 words)
+[2026-06-10T00:16:19.601130+00:00] PPT EN alabama-truck-accident-statute-of-limitations-birmingham-2026: 14 slides (score 100) → /blog/presentations/alabama-truck-accident-statute-of-limitations-birmingham-2026.pptx
+[2026-06-10T00:16:19.697359+00:00] PPT ES alabama-truck-accident-statute-of-limitations-birmingham-2026: 14 slides (score 100) → /blog/presentations/es/alabama-truck-accident-statute-of-limitations-birmingham-2026.pptx
+[2026-06-10T00:16:19.697443+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/alabama-truck-accident-statute-of-limitations-birmingham-2026.md
+[2026-06-10T00:16:19.727703+00:00] IndexNow queued for alabama-truck-accident-statute-of-limitations-birmingham-2026
+[2026-06-10T00:16:21.734397+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-10T00:16:21.735298+00:00] Materializing template → platinum for alaska-truck-accident-statute-of-limitations-anchorage-2026
+[2026-06-10T00:16:25.882506+00:00] After materialize: 100 / 3942w ([])
+[2026-06-10T00:16:25.884004+00:00] Spanish OK for alaska-truck-accident-statute-of-limitations-anchorage-2026 (3194 words)
+[2026-06-10T00:16:25.887492+00:00] Spanish OK for alaska-truck-accident-statute-of-limitations-anchorage-2026 (3194 words)
+[2026-06-10T00:16:25.986406+00:00] PPT EN alaska-truck-accident-statute-of-limitations-anchorage-2026: 14 slides (score 100) → /blog/presentations/alaska-truck-accident-statute-of-limitations-anchorage-2026.pptx
+[2026-06-10T00:16:26.082204+00:00] PPT ES alaska-truck-accident-statute-of-limitations-anchorage-2026: 14 slides (score 100) → /blog/presentations/es/alaska-truck-accident-statute-of-limitations-anchorage-2026.pptx
+[2026-06-10T00:16:26.082283+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/alaska-truck-accident-statute-of-limitations-anchorage-2026.md
+[2026-06-10T00:16:26.113107+00:00] IndexNow queued for alaska-truck-accident-statute-of-limitations-anchorage-2026
+[2026-06-10T00:16:28.118784+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-10T00:16:28.119645+00:00] Materializing template → platinum for arizona-truck-accident-statute-of-limitations-phoenix-2026
+[2026-06-10T00:16:32.259727+00:00] After materialize: 100 / 3942w ([])
+[2026-06-10T00:16:32.261387+00:00] Spanish OK for arizona-truck-accident-statute-of-limitations-phoenix-2026 (3194 words)
+[2026-06-10T00:16:32.264709+00:00] Spanish OK for arizona-truck-accident-statute-of-limitations-phoenix-2026 (3194 words)
+[2026-06-10T00:16:32.362159+00:00] PPT EN arizona-truck-accident-statute-of-limitations-phoenix-2026: 14 slides (score 100) → /blog/presentations/arizona-truck-accident-statute-of-limitations-phoenix-2026.pptx
+[2026-06-10T00:16:32.482688+00:00] PPT ES arizona-truck-accident-statute-of-limitations-phoenix-2026: 14 slides (score 100) → /blog/presentations/es/arizona-truck-accident-statute-of-limitations-phoenix-2026.pptx
+[2026-06-10T00:16:32.482790+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/arizona-truck-accident-statute-of-limitations-phoenix-2026.md
+[2026-06-10T00:16:32.516043+00:00] IndexNow queued for arizona-truck-accident-statute-of-limitations-phoenix-2026
+[2026-06-10T00:16:32.516904+00:00] Syndication → sites/semitruckmatch/content/syndication/arizona-truck-accident-statute-of-limitations-phoenix-2026.json
+[2026-06-10T00:16:32.521816+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['alabama-truck-accident-statute-of-limitations-birmingham-2026', 'alaska-truck-accident-statute-of-limitations-anchorage-2026', 'arizona-truck-accident-statute-of-limitations-phoenix-2026']
+[2026-06-10T00:16:32.532551+00:00] Daily ledger (UTC): 0/50 states, 3 EN posts
+[2026-06-10T00:16:32.840072+00:00] r Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-10T00:16:32.717875+00:00\",\n  \"stats\": {\n    \"enPosts\": 1043,\n    \"esPosts\": 1043,\n    \"platinumEn\": 1024,\n    \"lastUpdated\": \"2026-06-10\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"alabama-truck-accident-statute-of-limitations-birmingham-2026\",\n      \"alaska-truck-accident-statute-of-limitations-anchorage-2026\",\n      \"arizona-truck-accident-statute-of-limitations-phoenix-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-10T00:16:32.840180+00:00] WARN organic_crush exit 1

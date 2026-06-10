@@ -396,52 +396,16 @@
     "tractor-trailer-injury-in-virginia-beach-virginia-legal-steps-2026",
     "tractor-trailer-injury-in-seattle-washington-legal-steps-2026",
     "tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026",
-    "tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026"
+    "tractor-trailer-injury-in-milwaukee-wisconsin-legal-steps-2026",
+    "alabama-truck-accident-statute-of-limitations-birmingham-2026",
+    "alaska-truck-accident-statute-of-limitations-anchorage-2026",
+    "arizona-truck-accident-statute-of-limitations-phoenix-2026"
   ],
   "stats": {
-    "total_published": 395,
-    "last_run_at": "2026-06-09T04:26:48.386460+00:00"
+    "total_published": 398,
+    "last_run_at": "2026-06-10T00:16:32.516973+00:00"
   },
   "pending": [
-    {
-      "angle": "statute-of-limitations",
-      "title": "Alabama Truck Accident Statute of Limitations \u2014 Birmingham (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "auto",
-      "slug": "alabama-truck-accident-statute-of-limitations-birmingham-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Alaska Truck Accident Statute of Limitations \u2014 Anchorage (2026)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "alaska-truck-accident-statute-of-limitations-anchorage-2026"
-    },
-    {
-      "angle": "statute-of-limitations",
-      "title": "Arizona Truck Accident Statute of Limitations \u2014 Phoenix (2026)",
-      "city": "Phoenix",
-      "state": "Arizona",
-      "place_slug": "phoenix",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "arizona-truck-accident-statute-of-limitations-phoenix-2026"
-    },
     {
       "angle": "statute-of-limitations",
       "title": "Arkansas Truck Accident Statute of Limitations \u2014 Little Rock (2026)",
@@ -1026,6 +990,32 @@
       "firm_state": true,
       "vertical": "auto",
       "slug": "underride-or-override-truck-crash-in-seattle-washington-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Charleston, West Virginia (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-charleston-west-virginia-2026"
+    },
+    {
+      "angle": "underride-override",
+      "title": "Underride or Override Truck Crash in Milwaukee, Wisconsin (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "underride-or-override-truck-crash-in-milwaukee-wisconsin-2026"
     }
   ],
   "skipped_slugs": [
