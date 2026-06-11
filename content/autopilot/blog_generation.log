@@ -10020,3 +10020,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-11T08:13:55.833951+00:00] WARN organic_crush exit 1
+[2026-06-11T10:28:12.599661+00:00] Inject for 30 states not yet published today
+[2026-06-11T10:28:12.601409+00:00] Loaded 239 cities from cities.ts
+[2026-06-11T10:28:12.653288+00:00] Daily 50-state rotation (2026-06-11): +0 new, 29 re-prioritized, 29 at queue front
+[2026-06-11T10:28:12.683263+00:00] Daily 50-state injection complete
+[2026-06-11T10:28:12.782969+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-11T10:28:12.785057+00:00] Loaded 239 cities from cities.ts
+[2026-06-11T10:28:12.839709+00:00] Daily 50-state rotation (2026-06-11): +5 new, 32 re-prioritized, 37 at queue front
+[2026-06-11T10:28:12.870278+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-11T10:28:12.877210+00:00] States already published today (UTC): 21 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland']
+[2026-06-11T10:28:12.880774+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-11T10:28:12.881706+00:00] Materializing template → platinum for tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026
+[2026-06-11T10:28:19.083345+00:00] After materialize: 100 / 3998w ([])
+[2026-06-11T10:28:19.085172+00:00] Spanish OK for tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026 (3213 words)
+[2026-06-11T10:28:19.088632+00:00] Spanish OK for tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026 (3213 words)
+[2026-06-11T10:28:19.396758+00:00] PPT EN tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026.pptx
+[2026-06-11T10:28:19.497747+00:00] PPT ES tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026.pptx
+[2026-06-11T10:28:19.497846+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026.md
+[2026-06-11T10:28:19.529245+00:00] IndexNow queued for tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026
+[2026-06-11T10:28:21.575323+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-11T10:28:21.576296+00:00] Materializing template → platinum for tractor-trailer-injury-in-detroit-michigan-legal-steps-2026
+[2026-06-11T10:28:26.582209+00:00] After materialize: 100 / 3998w ([])
+[2026-06-11T10:28:26.583718+00:00] Spanish OK for tractor-trailer-injury-in-detroit-michigan-legal-steps-2026 (3213 words)
+[2026-06-11T10:28:26.587149+00:00] Spanish OK for tractor-trailer-injury-in-detroit-michigan-legal-steps-2026 (3213 words)
+[2026-06-11T10:28:26.684894+00:00] PPT EN tractor-trailer-injury-in-detroit-michigan-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-detroit-michigan-legal-steps-2026.pptx
+[2026-06-11T10:28:26.781244+00:00] PPT ES tractor-trailer-injury-in-detroit-michigan-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-detroit-michigan-legal-steps-2026.pptx
+[2026-06-11T10:28:26.781326+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/tractor-trailer-injury-in-detroit-michigan-legal-steps-2026.md
+[2026-06-11T10:28:26.812386+00:00] IndexNow queued for tractor-trailer-injury-in-detroit-michigan-legal-steps-2026
+[2026-06-11T10:28:28.854336+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-11T10:28:28.855295+00:00] Materializing template → platinum for tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026
+[2026-06-11T10:28:33.766299+00:00] After materialize: 100 / 3993w ([])
+[2026-06-11T10:28:33.767793+00:00] Spanish OK for tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026 (3210 words)
+[2026-06-11T10:28:33.771188+00:00] Spanish OK for tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026 (3210 words)
+[2026-06-11T10:28:33.868898+00:00] PPT EN tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026.pptx
+[2026-06-11T10:28:33.966460+00:00] PPT ES tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026.pptx
+[2026-06-11T10:28:33.966550+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026.md
+[2026-06-11T10:28:33.998188+00:00] IndexNow queued for tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026
+[2026-06-11T10:28:33.998567+00:00] Syndication → content/syndication/tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026.json
+[2026-06-11T10:28:34.040330+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026', 'tractor-trailer-injury-in-detroit-michigan-legal-steps-2026', 'tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026']
+[2026-06-11T10:28:34.055111+00:00] Daily ledger (UTC): 24/50 states, 24 EN posts
+[2026-06-11T10:28:34.364399+00:00] a 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-11T10:28:34.234663+00:00\",\n  \"stats\": {\n    \"enPosts\": 1116,\n    \"esPosts\": 1116,\n    \"platinumEn\": 1097,\n    \"lastUpdated\": \"2026-06-11\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026\",\n      \"tractor-trailer-injury-in-detroit-michigan-legal-steps-2026\",\n      \"tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-11T10:28:34.364498+00:00] WARN organic_crush exit 1

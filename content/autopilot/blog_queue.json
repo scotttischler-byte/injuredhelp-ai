@@ -1021,11 +1021,14 @@
     "tractor-trailer-injury-in-louisville-kentucky-legal-steps-2026",
     "tractor-trailer-injury-in-new-orleans-louisiana-legal-steps-2026",
     "tractor-trailer-injury-in-portland-maine-legal-steps-2026",
-    "tractor-trailer-injury-in-baltimore-maryland-legal-steps-2026"
+    "tractor-trailer-injury-in-baltimore-maryland-legal-steps-2026",
+    "tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026",
+    "tractor-trailer-injury-in-detroit-michigan-legal-steps-2026",
+    "tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026"
   ],
   "stats": {
-    "total_published": 1020,
-    "last_run_at": "2026-06-11T08:13:55.589196+00:00"
+    "total_published": 1023,
+    "last_run_at": "2026-06-11T10:28:33.998629+00:00"
   },
   "pending": [
     {
@@ -1068,43 +1071,69 @@
       "slug": "what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-06-11"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Boston, Massachusetts: Legal Steps (2026)",
-      "city": "Boston",
-      "state": "Massachusetts",
-      "place_slug": "boston",
+      "angle": "lawyer-vs-diy",
+      "title": "What to Do After a Car Accident in Wichita, Kansas \u2014 Top City Guide (2026-06-11)",
+      "city": "Wichita",
+      "state": "Kansas",
+      "place_slug": "wichita",
       "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-boston-massachusetts-legal-steps-2026",
       "daily_state_rotation": true,
-      "top_city": true
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-06-11"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Detroit, Michigan: Legal Steps (2026)",
-      "city": "Detroit",
-      "state": "Michigan",
-      "place_slug": "detroit",
+      "angle": "whiplash",
+      "title": "What to Do After a Car Accident in Louisville, Kentucky \u2014 Top City Guide (2026-06-11)",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "place_slug": "louisville",
       "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-detroit-michigan-legal-steps-2026",
       "daily_state_rotation": true,
-      "top_city": true
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-06-11"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Minneapolis, Minnesota: Legal Steps (2026)",
-      "city": "Minneapolis",
-      "state": "Minnesota",
-      "place_slug": "minneapolis",
+      "angle": "truck-accident",
+      "title": "What to Do After a Car Accident in New Orleans, Louisiana \u2014 Top City Guide (2026-06-11)",
+      "city": "New Orleans",
+      "state": "Louisiana",
+      "place_slug": "new-orleans",
       "priority": -2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-minneapolis-minnesota-legal-steps-2026",
       "daily_state_rotation": true,
-      "top_city": true
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-06-11"
+    },
+    {
+      "angle": "uninsured-driver",
+      "title": "What to Do After a Car Accident in Portland, Maine \u2014 Top City Guide (2026-06-11)",
+      "city": "Portland",
+      "state": "Maine",
+      "place_slug": "portland",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-06-11"
+    },
+    {
+      "angle": "what-to-do-after",
+      "title": "What to Do After a Car Accident in Baltimore, Maryland \u2014 Top City Guide (2026-06-11)",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "place_slug": "baltimore",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-06-11"
     },
     {
       "angle": "tractor-trailer-injury",
