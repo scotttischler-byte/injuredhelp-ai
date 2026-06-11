@@ -10391,3 +10391,34 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-11T12:55:22.843783+00:00] WARN organic_crush exit 1
+[2026-06-11T14:39:08.057057+00:00] Inject for 2 states not yet published today
+[2026-06-11T14:39:08.058878+00:00] Loaded 239 cities from cities.ts
+[2026-06-11T14:39:08.103473+00:00] Daily 50-state rotation (2026-06-11): +0 new, 1 re-prioritized, 1 at queue front
+[2026-06-11T14:39:08.134605+00:00] Daily 50-state injection complete
+[2026-06-11T14:39:08.242598+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-11T14:39:08.244821+00:00] Loaded 239 cities from cities.ts
+[2026-06-11T14:39:08.297966+00:00] Daily 50-state rotation (2026-06-11): +1 new, 31 re-prioritized, 32 at queue front
+[2026-06-11T14:39:08.330313+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-11T14:39:08.337175+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia']
+[2026-06-11T14:39:08.340594+00:00] Quality 30 / 627w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-11T14:39:08.341563+00:00] Materializing template → platinum for 18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026
+[2026-06-11T14:39:14.455469+00:00] After materialize: 100 / 3991w ([])
+[2026-06-11T14:39:14.457283+00:00] Spanish OK for 18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026 (3213 words)
+[2026-06-11T14:39:14.460866+00:00] Spanish OK for 18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026 (3213 words)
+[2026-06-11T14:39:14.749845+00:00] PPT EN 18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026: 14 slides (score 100) → /blog/presentations/18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026.pptx
+[2026-06-11T14:39:14.837543+00:00] PPT ES 18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026: 14 slides (score 100) → /blog/presentations/es/18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026.pptx
+[2026-06-11T14:39:14.837642+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026.md
+[2026-06-11T14:39:14.871573+00:00] IndexNow queued for 18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026
+[2026-06-11T14:39:14.872017+00:00] Syndication → content/syndication/18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026.json
+[2026-06-11T14:39:14.918904+00:00] Done: 1/1 published (platinum bar ≥100, ≥3000w) — ['18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026']
+[2026-06-11T14:39:14.935304+00:00] Daily ledger (UTC): 50/50 states, 50 EN posts
+[2026-06-11T14:39:15.283247+00:00]  step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-11T14:39:15.145410+00:00\",\n  \"stats\": {\n    \"enPosts\": 1142,\n    \"esPosts\": 1142,\n    \"platinumEn\": 1123,\n    \"lastUpdated\": \"2026-06-11\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": true
+}
+

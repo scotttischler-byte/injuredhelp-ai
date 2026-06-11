@@ -1049,11 +1049,12 @@
     "18-wheeler-crash-in-burlington-vermont-victim-guide-2026",
     "hit-by-an-uninsured-driver-in-virginia-beach-virginia-2026",
     "hit-by-an-uninsured-driver-in-seattle-washington-2026",
-    "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026"
+    "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026",
+    "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026"
   ],
   "stats": {
-    "total_published": 1048,
-    "last_run_at": "2026-06-11T12:55:22.484462+00:00"
+    "total_published": 1049,
+    "last_run_at": "2026-06-11T14:39:14.872077+00:00"
   },
   "pending": [
     {
@@ -1395,15 +1396,67 @@
       "top_city": true
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Milwaukee, Wisconsin \u2014 Victim Guide (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Salt Lake City, Utah: Legal Steps (2026)",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "place_slug": "salt-lake-city",
       "priority": -2,
       "firm_state": false,
       "vertical": "truck",
-      "slug": "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026",
+      "slug": "tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Burlington, Vermont: Legal Steps (2026)",
+      "city": "Burlington",
+      "state": "Vermont",
+      "place_slug": "burlington",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "tractor-trailer-injury-in-burlington-vermont-legal-steps-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Virginia Beach, Virginia \u2014 Victim Guide (2026)",
+      "city": "Virginia Beach",
+      "state": "Virginia",
+      "place_slug": "virginia-beach",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-virginia-beach-virginia-victim-guide-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Seattle, Washington \u2014 Victim Guide (2026)",
+      "city": "Seattle",
+      "state": "Washington",
+      "place_slug": "seattle",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-seattle-washington-victim-guide-2026"
+    },
+    {
+      "angle": "tractor-trailer-injury",
+      "title": "Tractor-Trailer Injury in Charleston, West Virginia: Legal Steps (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026",
       "daily_state_rotation": true,
       "top_city": true
     },
@@ -14681,17 +14734,6 @@
       "slug": "semi-truck-accident-in-richmond-virginia-what-to-do-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Virginia Beach, Virginia \u2014 Victim Guide (2026)",
-      "city": "Virginia Beach",
-      "state": "Virginia",
-      "place_slug": "virginia-beach",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-virginia-beach-virginia-victim-guide-2026"
-    },
-    {
       "angle": "black-box-truck",
       "title": "Black Box Data After a Semi Crash in Virginia Beach, Virginia",
       "city": "Virginia Beach",
@@ -27529,17 +27571,6 @@
       "slug": "traumatic-brain-injury-tbi-from-a-car-accident-in-salt-lake-city-utah"
     },
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Salt Lake City, Utah: Legal Steps (2026)",
-      "city": "Salt Lake City",
-      "state": "Utah",
-      "place_slug": "salt-lake-city",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "tractor-trailer-injury-in-salt-lake-city-utah-legal-steps-2026"
-    },
-    {
       "angle": "underride-override",
       "title": "Underride or Override Truck Crash in Salt Lake City, Utah (2026)",
       "city": "Salt Lake City",
@@ -27780,17 +27811,6 @@
       "firm_state": false,
       "vertical": "severe",
       "slug": "traumatic-brain-injury-tbi-from-a-car-accident-in-burlington-vermont"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Burlington, Vermont: Legal Steps (2026)",
-      "city": "Burlington",
-      "state": "Vermont",
-      "place_slug": "burlington",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "tractor-trailer-injury-in-burlington-vermont-legal-steps-2026"
     },
     {
       "angle": "underride-override",
@@ -28550,17 +28570,6 @@
       "firm_state": false,
       "vertical": "severe",
       "slug": "traumatic-brain-injury-tbi-from-a-car-accident-in-charleston-west-virginia"
-    },
-    {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Charleston, West Virginia: Legal Steps (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "tractor-trailer-injury-in-charleston-west-virginia-legal-steps-2026"
     },
     {
       "angle": "underride-override",

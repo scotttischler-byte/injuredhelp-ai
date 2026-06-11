@@ -1,28 +1,28 @@
 {
-  "at": "2026-06-11T12:55:22.569705+00:00",
+  "at": "2026-06-11T14:39:14.968420+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": false,
-      "code": 2,
-      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: 18-wheeler-crash-in-burlington-vermont-victim-guide-2026 hit-by-an-uninsured-driver-in-virginia-beach-virginia-2026 hit-by-an-uninsured-driver-in-seattle-washington-2026 18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026\n"
+      "ok": true,
+      "code": 0,
+      "tail": "meshed 18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026\nDone. 1 posts.\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-11_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-11_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-11T12:55:22.716826+00:00\",\n  \"stats\": {\n    \"enPosts\": 1141,\n    \"esPosts\": 1141,\n    \"platinumEn\": 1122,\n    \"lastUpdated\": \"2026-06-11\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-salt-lake-city-utah-victim-guide-2026\",\n      \"18-wheeler-crash-in-burlington-vermont-victim-guide-2026\",\n      \"hit-by-an-uninsured-driver-in-virginia-beach-virginia-2026\",\n      \"hit-by-an-uninsured-driver-in-seattle-washington-2026\",\n      \"18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-11T14:39:15.145410+00:00\",\n  \"stats\": {\n    \"enPosts\": 1142,\n    \"esPosts\": 1142,\n    \"platinumEn\": 1123,\n    \"lastUpdated\": \"2026-06-11\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": false
+  "ok": true
 }
