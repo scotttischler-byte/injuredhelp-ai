@@ -1000,42 +1000,19 @@
     "truck-accident-in-virginia-beach-virginia-steps-legal-help-2026",
     "truck-accident-in-seattle-washington-steps-legal-help-2026",
     "hit-by-an-uninsured-driver-in-charleston-west-virginia-2026",
-    "hit-by-an-uninsured-driver-in-milwaukee-wisconsin-2026"
+    "hit-by-an-uninsured-driver-in-milwaukee-wisconsin-2026",
+    "tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026",
+    "what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11",
+    "what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11"
   ],
   "stats": {
-    "total_published": 999,
-    "last_run_at": "2026-06-10T04:49:16.072276+00:00"
+    "total_published": 1002,
+    "last_run_at": "2026-06-11T00:17:35.566078+00:00"
   },
   "pending": [
     {
-      "angle": "tractor-trailer-injury",
-      "title": "Tractor-Trailer Injury in Birmingham, Alabama: Legal Steps (2026)",
-      "city": "Birmingham",
-      "state": "Alabama",
-      "place_slug": "birmingham",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": true,
-      "vertical": "truck",
-      "slug": "tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026"
-    },
-    {
-      "angle": "semi-truck-accident",
-      "title": "What to Do After a Car Accident in Anchorage, Alaska \u2014 Top City Guide (2026-06-10)",
-      "city": "Anchorage",
-      "state": "Alaska",
-      "place_slug": "anchorage",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-10"
-    },
-    {
       "angle": "insurance-denied",
-      "title": "What to Do After a Car Accident in Little Rock, Arkansas \u2014 Top City Guide (2026-06-10)",
+      "title": "What to Do After a Car Accident in Little Rock, Arkansas \u2014 Top City Guide (2026-06-11)",
       "city": "Little Rock",
       "state": "Arkansas",
       "place_slug": "little-rock",
@@ -1044,11 +1021,37 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-10"
+      "slug": "what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-11"
+    },
+    {
+      "angle": "common-mistakes",
+      "title": "What to Do After a Car Accident in Los Angeles, California \u2014 Top City Guide (2026-06-11)",
+      "city": "Los Angeles",
+      "state": "California",
+      "place_slug": "los-angeles",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-11"
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "What to Do After a Car Accident in Denver, Colorado \u2014 Top City Guide (2026-06-11)",
+      "city": "Denver",
+      "state": "Colorado",
+      "place_slug": "denver",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-11"
     },
     {
       "angle": "lawyer-vs-diy",
-      "title": "What to Do After a Car Accident in Bridgeport, Connecticut \u2014 Top City Guide (2026-06-10)",
+      "title": "What to Do After a Car Accident in Bridgeport, Connecticut \u2014 Top City Guide (2026-06-11)",
       "city": "Bridgeport",
       "state": "Connecticut",
       "place_slug": "bridgeport",
@@ -1057,11 +1060,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-06-10"
+      "slug": "what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-06-11"
     },
     {
       "angle": "whiplash",
-      "title": "What to Do After a Car Accident in Wilmington, Delaware \u2014 Top City Guide (2026-06-10)",
+      "title": "What to Do After a Car Accident in Wilmington, Delaware \u2014 Top City Guide (2026-06-11)",
       "city": "Wilmington",
       "state": "Delaware",
       "place_slug": "wilmington",
@@ -1070,11 +1073,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-06-10"
+      "slug": "what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-06-11"
     },
     {
       "angle": "truck-accident",
-      "title": "What to Do After a Car Accident in Washington, District of Columbia \u2014 Top City Guide (2026-06-10)",
+      "title": "What to Do After a Car Accident in Washington, District of Columbia \u2014 Top City Guide (2026-06-11)",
       "city": "Washington",
       "state": "District of Columbia",
       "place_slug": "washington",
@@ -1086,8 +1089,34 @@
       "slug": "what-to-do-after-a-car-accident-in-washington-district-of-columbia-top-city-guide-2026-06-"
     },
     {
+      "angle": "uninsured-driver",
+      "title": "What to Do After a Car Accident in Miami, Florida \u2014 Top City Guide (2026-06-11)",
+      "city": "Miami",
+      "state": "Florida",
+      "place_slug": "miami",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-06-11"
+    },
+    {
+      "angle": "what-to-do-after",
+      "title": "What to Do After a Car Accident in Atlanta, Georgia \u2014 Top City Guide (2026-06-11)",
+      "city": "Atlanta",
+      "state": "Georgia",
+      "place_slug": "atlanta",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-11"
+    },
+    {
       "angle": "semi-truck-accident",
-      "title": "What to Do After a Car Accident in Honolulu, Hawaii \u2014 Top City Guide (2026-06-10)",
+      "title": "What to Do After a Car Accident in Honolulu, Hawaii \u2014 Top City Guide (2026-06-11)",
       "city": "Honolulu",
       "state": "Hawaii",
       "place_slug": "honolulu",
@@ -1096,11 +1125,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-10"
+      "slug": "what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-11"
     },
     {
       "angle": "statute-of-limitations",
-      "title": "What to Do After a Car Accident in Boise, Idaho \u2014 Top City Guide (2026-06-10)",
+      "title": "What to Do After a Car Accident in Boise, Idaho \u2014 Top City Guide (2026-06-11)",
       "city": "Boise",
       "state": "Idaho",
       "place_slug": "boise",
@@ -1109,7 +1138,20 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-10"
+      "slug": "what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-11"
+    },
+    {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Chicago, Illinois \u2014 Top City Guide (2026-06-11)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-06-11"
     },
     {
       "angle": "tractor-trailer-injury",
@@ -1359,6 +1401,19 @@
       "top_city": true
     },
     {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Charlotte, North Carolina \u2014 Top City Guide (2026-06-11)",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "place_slug": "charlotte",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-06-11"
+    },
+    {
       "angle": "tractor-trailer-injury",
       "title": "Tractor-Trailer Injury in Fargo, North Dakota: Legal Steps (2026)",
       "city": "Fargo",
@@ -1370,6 +1425,19 @@
       "slug": "tractor-trailer-injury-in-fargo-north-dakota-legal-steps-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "severe-injury-car-accident",
+      "title": "What to Do After a Car Accident in Columbus, Ohio \u2014 Top City Guide (2026-06-11)",
+      "city": "Columbus",
+      "state": "Ohio",
+      "place_slug": "columbus",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-06-11"
     },
     {
       "angle": "18-wheeler-crash",
@@ -1396,6 +1464,19 @@
       "slug": "tractor-trailer-injury-in-portland-oregon-legal-steps-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "truck-accident",
+      "title": "What to Do After a Car Accident in Philadelphia, Pennsylvania \u2014 Top City Guide (2026-06-11)",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "place_slug": "philadelphia",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-11"
     },
     {
       "angle": "tractor-trailer-injury",
@@ -1435,6 +1516,32 @@
       "slug": "18-wheeler-crash-in-sioux-falls-south-dakota-victim-guide-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "What to Do After a Car Accident in Nashville, Tennessee \u2014 Top City Guide (2026-06-11)",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "place_slug": "nashville",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-06-11"
+    },
+    {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Houston, Texas \u2014 Top City Guide (2026-06-11)",
+      "city": "Houston",
+      "state": "Texas",
+      "place_slug": "houston",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-06-11"
     },
     {
       "angle": "18-wheeler-crash",
@@ -1487,6 +1594,110 @@
       "slug": "hit-by-an-uninsured-driver-in-seattle-washington-2026",
       "daily_state_rotation": true,
       "top_city": true
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Charleston, West Virginia \u2014 Victim Guide (2026)",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "place_slug": "charleston",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "18-wheeler-crash",
+      "title": "18-Wheeler Crash in Milwaukee, Wisconsin \u2014 Victim Guide (2026)",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "place_slug": "milwaukee",
+      "priority": -2,
+      "firm_state": false,
+      "vertical": "truck",
+      "slug": "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026",
+      "daily_state_rotation": true,
+      "top_city": true
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "What to Do After a Car Accident in Anchorage, Alaska \u2014 Top City Guide (2026-06-10)",
+      "city": "Anchorage",
+      "state": "Alaska",
+      "place_slug": "anchorage",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-10"
+    },
+    {
+      "angle": "insurance-denied",
+      "title": "What to Do After a Car Accident in Little Rock, Arkansas \u2014 Top City Guide (2026-06-10)",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "place_slug": "little-rock",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-10"
+    },
+    {
+      "angle": "lawyer-vs-diy",
+      "title": "What to Do After a Car Accident in Bridgeport, Connecticut \u2014 Top City Guide (2026-06-10)",
+      "city": "Bridgeport",
+      "state": "Connecticut",
+      "place_slug": "bridgeport",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-06-10"
+    },
+    {
+      "angle": "whiplash",
+      "title": "What to Do After a Car Accident in Wilmington, Delaware \u2014 Top City Guide (2026-06-10)",
+      "city": "Wilmington",
+      "state": "Delaware",
+      "place_slug": "wilmington",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-06-10"
+    },
+    {
+      "angle": "semi-truck-accident",
+      "title": "What to Do After a Car Accident in Honolulu, Hawaii \u2014 Top City Guide (2026-06-10)",
+      "city": "Honolulu",
+      "state": "Hawaii",
+      "place_slug": "honolulu",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-10"
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "What to Do After a Car Accident in Boise, Idaho \u2014 Top City Guide (2026-06-10)",
+      "city": "Boise",
+      "state": "Idaho",
+      "place_slug": "boise",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-10"
     },
     {
       "angle": "statute-of-limitations",
@@ -14717,17 +14928,6 @@
       "slug": "do-i-need-a-truck-accident-lawyer-in-virginia-beach-virginia-2026"
     },
     {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Charleston, West Virginia \u2014 Victim Guide (2026)",
-      "city": "Charleston",
-      "state": "West Virginia",
-      "place_slug": "charleston",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-charleston-west-virginia-victim-guide-2026"
-    },
-    {
       "angle": "black-box-truck",
       "title": "Black Box Data After a Semi Crash in Charleston, West Virginia",
       "city": "Charleston",
@@ -15012,17 +15212,6 @@
       "firm_state": false,
       "vertical": "truck",
       "slug": "semi-truck-accident-in-madison-wisconsin-what-to-do-2026"
-    },
-    {
-      "angle": "18-wheeler-crash",
-      "title": "18-Wheeler Crash in Milwaukee, Wisconsin \u2014 Victim Guide (2026)",
-      "city": "Milwaukee",
-      "state": "Wisconsin",
-      "place_slug": "milwaukee",
-      "priority": 2,
-      "firm_state": false,
-      "vertical": "truck",
-      "slug": "18-wheeler-crash-in-milwaukee-wisconsin-victim-guide-2026"
     },
     {
       "angle": "black-box-truck",

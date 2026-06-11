@@ -9715,3 +9715,51 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-10T04:49:16.394648+00:00] WARN organic_crush exit 1
+[2026-06-11T00:17:22.008482+00:00] Inject for 51 states not yet published today
+[2026-06-11T00:17:22.009833+00:00] Loaded 239 cities from cities.ts
+[2026-06-11T00:17:22.058091+00:00] Daily 50-state rotation (2026-06-11): +17 new, 33 re-prioritized, 50 at queue front
+[2026-06-11T00:17:22.123005+00:00] Daily 50-state injection complete
+[2026-06-11T00:17:22.212699+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-11T00:17:22.215069+00:00] Loaded 239 cities from cities.ts
+[2026-06-11T00:17:22.263995+00:00] Daily 50-state rotation (2026-06-11): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-11T00:17:22.316599+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-11T00:17:22.322354+00:00] States already published today (UTC): 0 — []
+[2026-06-11T00:17:22.324991+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-11T00:17:22.327168+00:00] SKIP materialize tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026: already meets bar (100/4026w)
+[2026-06-11T00:17:22.342629+00:00] Spanish OK for tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026 (3200 words)
+[2026-06-11T00:17:22.498012+00:00] PPT EN tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026: 14 slides (score 100) → /blog/presentations/tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026.pptx
+[2026-06-11T00:17:22.600475+00:00] PPT ES tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026: 14 slides (score 100) → /blog/presentations/es/tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026.pptx
+[2026-06-11T00:17:22.600610+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026.md
+[2026-06-11T00:17:22.634213+00:00] IndexNow queued for tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026
+[2026-06-11T00:17:24.671644+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-11T00:17:24.672581+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11
+[2026-06-11T00:17:29.458165+00:00] After materialize: 100 / 3973w ([])
+[2026-06-11T00:17:29.459391+00:00] Spanish OK for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11 (3241 words)
+[2026-06-11T00:17:29.462182+00:00] Spanish OK for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11 (3241 words)
+[2026-06-11T00:17:29.528508+00:00] PPT EN what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11.pptx
+[2026-06-11T00:17:29.594235+00:00] PPT ES what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11.pptx
+[2026-06-11T00:17:29.594304+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11.md
+[2026-06-11T00:17:29.620533+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11
+[2026-06-11T00:17:31.654715+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-11T00:17:31.655489+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11
+[2026-06-11T00:17:35.402046+00:00] After materialize: 100 / 3902w ([])
+[2026-06-11T00:17:35.403303+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11 (3236 words)
+[2026-06-11T00:17:35.406026+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11 (3236 words)
+[2026-06-11T00:17:35.472809+00:00] PPT EN what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11.pptx
+[2026-06-11T00:17:35.539405+00:00] PPT ES what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11.pptx
+[2026-06-11T00:17:35.539476+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11.md
+[2026-06-11T00:17:35.565739+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11
+[2026-06-11T00:17:35.566035+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11.json
+[2026-06-11T00:17:35.599164+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026', 'what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11', 'what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11']
+[2026-06-11T00:17:35.610588+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-11T00:17:35.860359+00:00] l": "] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-11T00:17:35.755837+00:00\",\n  \"stats\": {\n    \"enPosts\": 1095,\n    \"esPosts\": 1095,\n    \"platinumEn\": 1076,\n    \"lastUpdated\": \"2026-06-11\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"tractor-trailer-injury-in-birmingham-alabama-legal-steps-2026\",\n      \"what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-11\",\n      \"what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-11\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-11T00:17:35.860459+00:00] WARN organic_crush exit 1
