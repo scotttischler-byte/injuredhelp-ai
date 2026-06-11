@@ -1,7 +1,7 @@
 # Viral content pack — What to Do After a Car Accident in Bridgeport, Connecticut (2026)
 
 **URL:** https://www.wreckmatch.com/blog/what-to-do-after-a-car-accident-in-bridgeport-connecticut-2026  
-**Generated:** 2026-06-05T11:21:32.876666+00:00  
+**Generated:** 2026-06-11T20:36:32.926572+00:00  
 **Copy-paste only — film/post when ready**
 
 ---

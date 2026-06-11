@@ -1,7 +1,7 @@
 # Viral content pack — What to Do After a Car Accident in Indianapolis, Indiana (2026)
 
 **URL:** https://www.wreckmatch.com/blog/what-to-do-after-a-car-accident-in-indianapolis-indiana-2026  
-**Generated:** 2026-06-11T12:07:43.061265+00:00  
+**Generated:** 2026-06-11T20:36:32.926385+00:00  
 **Copy-paste only — film/post when ready**
 
 ---

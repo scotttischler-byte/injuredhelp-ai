@@ -1,7 +1,7 @@
 # Viral content pack — What to Do After a Car Accident in Atlanta, Georgia (2026)
 
 **URL:** https://www.wreckmatch.com/blog/what-to-do-after-a-car-accident-in-atlanta-georgia-2026  
-**Generated:** 2026-06-01T21:36:11.318907+00:00  
+**Generated:** 2026-06-11T20:36:32.926834+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
