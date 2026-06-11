@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Louisville, Kentucky — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-louisville-kentucky-what-to-know-2026  
-**Generated:** 2026-06-11T04:59:38.175098+00:00  
+**Generated:** 2026-06-11T05:50:19.021849+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
