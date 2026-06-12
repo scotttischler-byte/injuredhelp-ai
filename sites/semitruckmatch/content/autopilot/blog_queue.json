@@ -435,16 +435,44 @@
     "semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-12",
     "semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-12",
     "semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-12",
-    "severe-injury-after-a-truck-crash-in-chicago-illinois-2026"
+    "severe-injury-after-a-truck-crash-in-chicago-illinois-2026",
+    "severe-injury-after-a-truck-crash-in-indianapolis-indiana-2026",
+    "severe-injury-after-a-truck-crash-in-des-moines-iowa-2026",
+    "severe-injury-after-a-truck-crash-in-wichita-kansas-2026",
+    "severe-injury-after-a-truck-crash-in-louisville-kentucky-2026",
+    "severe-injury-after-a-truck-crash-in-new-orleans-louisiana-2026",
+    "severe-injury-after-a-truck-crash-in-portland-maine-2026",
+    "severe-injury-after-a-truck-crash-in-baltimore-maryland-2026",
+    "severe-injury-after-a-truck-crash-in-boston-massachusetts-2026",
+    "severe-injury-after-a-truck-crash-in-detroit-michigan-2026",
+    "severe-injury-after-a-truck-crash-in-minneapolis-minnesota-2026",
+    "severe-injury-after-a-truck-crash-in-jackson-mississippi-2026",
+    "severe-injury-after-a-truck-crash-in-kansas-city-missouri-2026",
+    "severe-injury-after-a-truck-crash-in-billings-montana-2026",
+    "severe-injury-after-a-truck-crash-in-omaha-nebraska-2026",
+    "severe-injury-after-a-truck-crash-in-las-vegas-nevada-2026"
   ],
   "stats": {
-    "total_published": 434,
-    "last_run_at": "2026-06-12T08:01:55.948749+00:00"
+    "total_published": 449,
+    "last_run_at": "2026-06-12T12:30:10.587746+00:00"
   },
   "pending": [
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Indianapolis, Indiana (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Illinois Truck Accident Statute of Limitations \u2014 Chicago (2026)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "place_slug": "chicago",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": true,
+      "vertical": "auto",
+      "slug": "illinois-truck-accident-statute-of-limitations-chicago-2026"
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Indiana Truck Accident Statute of Limitations \u2014 Indianapolis (2026)",
       "city": "Indianapolis",
       "state": "Indiana",
       "place_slug": "indianapolis",
@@ -453,11 +481,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-indianapolis-indiana-2026"
+      "slug": "indiana-truck-accident-statute-of-limitations-indianapolis-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Des Moines, Iowa (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Iowa Truck Accident Statute of Limitations \u2014 Des Moines (2026)",
       "city": "Des Moines",
       "state": "Iowa",
       "place_slug": "des-moines",
@@ -466,11 +494,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-des-moines-iowa-2026"
+      "slug": "iowa-truck-accident-statute-of-limitations-des-moines-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Wichita, Kansas (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Kansas Truck Accident Statute of Limitations \u2014 Wichita (2026)",
       "city": "Wichita",
       "state": "Kansas",
       "place_slug": "wichita",
@@ -479,11 +507,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-wichita-kansas-2026"
+      "slug": "kansas-truck-accident-statute-of-limitations-wichita-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Louisville, Kentucky (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Kentucky Truck Accident Statute of Limitations \u2014 Louisville (2026)",
       "city": "Louisville",
       "state": "Kentucky",
       "place_slug": "louisville",
@@ -492,11 +520,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-louisville-kentucky-2026"
+      "slug": "kentucky-truck-accident-statute-of-limitations-louisville-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in New Orleans, Louisiana (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Louisiana Truck Accident Statute of Limitations \u2014 New Orleans (2026)",
       "city": "New Orleans",
       "state": "Louisiana",
       "place_slug": "new-orleans",
@@ -505,11 +533,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-new-orleans-louisiana-2026"
+      "slug": "louisiana-truck-accident-statute-of-limitations-new-orleans-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Portland, Maine (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Maine Truck Accident Statute of Limitations \u2014 Portland (2026)",
       "city": "Portland",
       "state": "Maine",
       "place_slug": "portland",
@@ -518,11 +546,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-portland-maine-2026"
+      "slug": "maine-truck-accident-statute-of-limitations-portland-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Baltimore, Maryland (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Maryland Truck Accident Statute of Limitations \u2014 Baltimore (2026)",
       "city": "Baltimore",
       "state": "Maryland",
       "place_slug": "baltimore",
@@ -531,11 +559,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-baltimore-maryland-2026"
+      "slug": "maryland-truck-accident-statute-of-limitations-baltimore-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Boston, Massachusetts (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Massachusetts Truck Accident Statute of Limitations \u2014 Boston (2026)",
       "city": "Boston",
       "state": "Massachusetts",
       "place_slug": "boston",
@@ -544,11 +572,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-boston-massachusetts-2026"
+      "slug": "massachusetts-truck-accident-statute-of-limitations-boston-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Detroit, Michigan (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Michigan Truck Accident Statute of Limitations \u2014 Detroit (2026)",
       "city": "Detroit",
       "state": "Michigan",
       "place_slug": "detroit",
@@ -557,11 +585,11 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-detroit-michigan-2026"
+      "slug": "michigan-truck-accident-statute-of-limitations-detroit-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Minneapolis, Minnesota (2026)",
+      "angle": "statute-of-limitations",
+      "title": "Minnesota Truck Accident Statute of Limitations \u2014 Minneapolis (2026)",
       "city": "Minneapolis",
       "state": "Minnesota",
       "place_slug": "minneapolis",
@@ -570,72 +598,7 @@
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-minneapolis-minnesota-2026"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Jackson, Mississippi (2026)",
-      "city": "Jackson",
-      "state": "Mississippi",
-      "place_slug": "jackson",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-jackson-mississippi-2026"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Kansas City, Missouri (2026)",
-      "city": "Kansas City",
-      "state": "Missouri",
-      "place_slug": "kansas-city",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-kansas-city-missouri-2026"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Billings, Montana (2026)",
-      "city": "Billings",
-      "state": "Montana",
-      "place_slug": "billings",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-billings-montana-2026"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Omaha, Nebraska (2026)",
-      "city": "Omaha",
-      "state": "Nebraska",
-      "place_slug": "omaha",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-omaha-nebraska-2026"
-    },
-    {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Las Vegas, Nevada (2026)",
-      "city": "Las Vegas",
-      "state": "Nevada",
-      "place_slug": "las-vegas",
-      "priority": -2,
-      "daily_state_rotation": true,
-      "top_city": true,
-      "firm_state": false,
-      "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-las-vegas-nevada-2026"
+      "slug": "minnesota-truck-accident-statute-of-limitations-minneapolis-2026"
     },
     {
       "angle": "severe-injury-car-accident",
