@@ -6953,3 +6953,53 @@ Node.js v24.14.1
 }
 
 [2026-06-12T12:30:10.911449+00:00] WARN organic_crush exit 1
+[2026-06-12T16:20:20.628379+00:00] Inject for 22 states not yet published today
+[2026-06-12T16:20:20.630372+00:00] Loaded 239 cities from cities.ts
+[2026-06-12T16:20:20.631947+00:00] Daily 50-state rotation (2026-06-12): +0 new, 21 re-prioritized, 21 at queue front
+[2026-06-12T16:20:20.632602+00:00] Daily 50-state injection complete
+[2026-06-12T16:20:20.724755+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-12T16:20:20.726905+00:00] Loaded 239 cities from cities.ts
+[2026-06-12T16:20:20.730562+00:00] Daily 50-state rotation (2026-06-12): +5 new, 32 re-prioritized, 37 at queue front
+[2026-06-12T16:20:20.731309+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-12T16:20:20.737168+00:00] States already published today (UTC): 29 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada']
+[2026-06-12T16:20:20.740632+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-12T16:20:20.741635+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026
+[2026-06-12T16:20:26.334421+00:00] After materialize: 100 / 4010w ([])
+[2026-06-12T16:20:26.337958+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026 (3211 words)
+[2026-06-12T16:20:26.341515+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026 (3211 words)
+[2026-06-12T16:20:26.544253+00:00] PPT EN severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026.pptx
+[2026-06-12T16:20:26.642232+00:00] PPT ES severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026.pptx
+[2026-06-12T16:20:26.642325+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026.md
+[2026-06-12T16:20:26.673876+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026
+[2026-06-12T16:20:28.681878+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-12T16:20:28.682967+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-newark-new-jersey-2026
+[2026-06-12T16:20:33.011323+00:00] After materialize: 100 / 4031w ([])
+[2026-06-12T16:20:33.012914+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-newark-new-jersey-2026 (3227 words)
+[2026-06-12T16:20:33.016405+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-newark-new-jersey-2026 (3227 words)
+[2026-06-12T16:20:33.116193+00:00] PPT EN severe-injury-after-a-truck-crash-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-newark-new-jersey-2026.pptx
+[2026-06-12T16:20:33.216825+00:00] PPT ES severe-injury-after-a-truck-crash-in-newark-new-jersey-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-newark-new-jersey-2026.pptx
+[2026-06-12T16:20:33.216927+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-newark-new-jersey-2026.md
+[2026-06-12T16:20:33.248433+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-newark-new-jersey-2026
+[2026-06-12T16:20:35.255648+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-12T16:20:35.256776+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026
+[2026-06-12T16:20:39.552821+00:00] After materialize: 100 / 4010w ([])
+[2026-06-12T16:20:39.554493+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026 (3207 words)
+[2026-06-12T16:20:39.558047+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026 (3207 words)
+[2026-06-12T16:20:39.655547+00:00] PPT EN severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026.pptx
+[2026-06-12T16:20:39.750307+00:00] PPT ES severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026.pptx
+[2026-06-12T16:20:39.750398+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026.md
+[2026-06-12T16:20:39.782454+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026
+[2026-06-12T16:20:39.783027+00:00] Syndication → sites/semitruckmatch/content/syndication/severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026.json
+[2026-06-12T16:20:39.789091+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026', 'severe-injury-after-a-truck-crash-in-newark-new-jersey-2026', 'severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026']
+[2026-06-12T16:20:39.800688+00:00] Daily ledger (UTC): 32/50 states, 36 EN posts
+[2026-06-12T16:20:40.114590+00:00] 026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-12T16:20:39.983109+00:00\",\n  \"stats\": {\n    \"enPosts\": 1176,\n    \"esPosts\": 1176,\n    \"platinumEn\": 1157,\n    \"lastUpdated\": \"2026-06-12\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026\",\n      \"severe-injury-after-a-truck-crash-in-newark-new-jersey-2026\",\n      \"severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-12T16:20:40.114727+00:00] WARN organic_crush exit 1

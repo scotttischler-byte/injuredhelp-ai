@@ -450,11 +450,14 @@
     "severe-injury-after-a-truck-crash-in-kansas-city-missouri-2026",
     "severe-injury-after-a-truck-crash-in-billings-montana-2026",
     "severe-injury-after-a-truck-crash-in-omaha-nebraska-2026",
-    "severe-injury-after-a-truck-crash-in-las-vegas-nevada-2026"
+    "severe-injury-after-a-truck-crash-in-las-vegas-nevada-2026",
+    "severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026",
+    "severe-injury-after-a-truck-crash-in-newark-new-jersey-2026",
+    "severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026"
   ],
   "stats": {
-    "total_published": 449,
-    "last_run_at": "2026-06-12T12:30:10.587746+00:00"
+    "total_published": 452,
+    "last_run_at": "2026-06-12T16:20:39.783104+00:00"
   },
   "pending": [
     {
@@ -601,43 +604,69 @@
       "slug": "minnesota-truck-accident-statute-of-limitations-minneapolis-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Manchester, New Hampshire (2026)",
-      "city": "Manchester",
-      "state": "New Hampshire",
-      "place_slug": "manchester",
+      "angle": "statute-of-limitations",
+      "title": "Mississippi Truck Accident Statute of Limitations \u2014 Jackson (2026)",
+      "city": "Jackson",
+      "state": "Mississippi",
+      "place_slug": "jackson",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-manchester-new-hampshire-2026"
+      "slug": "mississippi-truck-accident-statute-of-limitations-jackson-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Newark, New Jersey (2026)",
-      "city": "Newark",
-      "state": "New Jersey",
-      "place_slug": "newark",
+      "angle": "statute-of-limitations",
+      "title": "Missouri Truck Accident Statute of Limitations \u2014 Kansas City (2026)",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "place_slug": "kansas-city",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-newark-new-jersey-2026"
+      "slug": "missouri-truck-accident-statute-of-limitations-kansas-city-2026"
     },
     {
-      "angle": "severe-injury-car-accident",
-      "title": "Severe Injury After a Truck Crash in Albuquerque, New Mexico (2026)",
-      "city": "Albuquerque",
-      "state": "New Mexico",
-      "place_slug": "albuquerque",
+      "angle": "statute-of-limitations",
+      "title": "Montana Truck Accident Statute of Limitations \u2014 Billings (2026)",
+      "city": "Billings",
+      "state": "Montana",
+      "place_slug": "billings",
       "priority": -2,
       "daily_state_rotation": true,
       "top_city": true,
       "firm_state": false,
       "vertical": "auto",
-      "slug": "severe-injury-after-a-truck-crash-in-albuquerque-new-mexico-2026"
+      "slug": "montana-truck-accident-statute-of-limitations-billings-2026"
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Nebraska Truck Accident Statute of Limitations \u2014 Omaha (2026)",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "place_slug": "omaha",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "nebraska-truck-accident-statute-of-limitations-omaha-2026"
+    },
+    {
+      "angle": "statute-of-limitations",
+      "title": "Nevada Truck Accident Statute of Limitations \u2014 Las Vegas (2026)",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "place_slug": "las-vegas",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "nevada-truck-accident-statute-of-limitations-las-vegas-2026"
     },
     {
       "angle": "severe-injury-car-accident",
