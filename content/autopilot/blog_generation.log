@@ -11124,3 +11124,13 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-12T17:43:35.146453+00:00] WARN organic_crush exit 1
+[2026-06-12T19:07:00.036757+00:00] Inject for 2 states not yet published today
+[2026-06-12T19:07:00.038370+00:00] Loaded 239 cities from cities.ts
+[2026-06-12T19:07:00.062814+00:00] Daily 50-state injection complete
+[2026-06-12T19:07:00.145553+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-12T19:07:00.147338+00:00] Loaded 239 cities from cities.ts
+[2026-06-12T19:07:00.185751+00:00] Daily 50-state rotation (2026-06-12): +2 new, 7 re-prioritized, 9 at queue front
+[2026-06-12T19:07:00.210538+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-12T19:07:00.216578+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-06-12T19:07:00.222835+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-06-12T19:07:00.234377+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
