@@ -13,9 +13,9 @@ excerpt: >-
   seconds via WreckMatch.
 autopilot: true
 vertical: truck
-qualityTier: platinum
-authorId: scott-tischler
-reviewerId: roy-waddell
+qualityTier: "platinum"
+authorId: "scott-tischler"
+reviewerId: "roy-waddell"
 materializedExpansion: true
 readTime: 18 min read
 platinumExpansion: true
