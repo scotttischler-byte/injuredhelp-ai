@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Seattle, Washington — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-seattle-washington-what-to-know-2026  
-**Generated:** 2026-06-14T10:47:30.164300+00:00  
+**Generated:** 2026-06-14T14:06:21.175564+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
