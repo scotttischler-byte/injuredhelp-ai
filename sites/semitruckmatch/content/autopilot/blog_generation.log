@@ -7565,3 +7565,53 @@ Node.js v24.14.1
 }
 
 [2026-06-14T11:37:57.862747+00:00] WARN organic_crush exit 1
+[2026-06-14T14:05:59.457053+00:00] Inject for 27 states not yet published today
+[2026-06-14T14:05:59.459093+00:00] Loaded 239 cities from cities.ts
+[2026-06-14T14:05:59.460958+00:00] Daily 50-state rotation (2026-06-14): +4 new, 22 re-prioritized, 26 at queue front
+[2026-06-14T14:05:59.461607+00:00] Daily 50-state injection complete
+[2026-06-14T14:05:59.558852+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-14T14:05:59.562535+00:00] Loaded 239 cities from cities.ts
+[2026-06-14T14:05:59.568902+00:00] Daily 50-state rotation (2026-06-14): +0 new, 26 re-prioritized, 26 at queue front
+[2026-06-14T14:05:59.569599+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-14T14:05:59.576099+00:00] States already published today (UTC): 24 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota']
+[2026-06-14T14:05:59.579732+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-14T14:05:59.580724+00:00] Materializing template → platinum for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14
+[2026-06-14T14:06:05.161529+00:00] After materialize: 100 / 4017w ([])
+[2026-06-14T14:06:05.163506+00:00] Spanish OK for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14 (3228 words)
+[2026-06-14T14:06:05.167078+00:00] Spanish OK for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14 (3228 words)
+[2026-06-14T14:06:05.398230+00:00] PPT EN semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14.pptx
+[2026-06-14T14:06:05.498283+00:00] PPT ES semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14.pptx
+[2026-06-14T14:06:05.498393+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14.md
+[2026-06-14T14:06:05.531014+00:00] IndexNow queued for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14
+[2026-06-14T14:06:07.539210+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-14T14:06:07.540228+00:00] Materializing template → platinum for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14
+[2026-06-14T14:06:11.981222+00:00] After materialize: 100 / 4028w ([])
+[2026-06-14T14:06:11.982800+00:00] Spanish OK for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14 (3244 words)
+[2026-06-14T14:06:11.986405+00:00] Spanish OK for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14 (3244 words)
+[2026-06-14T14:06:12.088925+00:00] PPT EN semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14.pptx
+[2026-06-14T14:06:12.192347+00:00] PPT ES semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14.pptx
+[2026-06-14T14:06:12.192452+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14.md
+[2026-06-14T14:06:12.225631+00:00] IndexNow queued for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14
+[2026-06-14T14:06:14.233010+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-14T14:06:14.234016+00:00] Materializing template → platinum for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14
+[2026-06-14T14:06:18.708424+00:00] After materialize: 100 / 4017w ([])
+[2026-06-14T14:06:18.709975+00:00] Spanish OK for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14 (3232 words)
+[2026-06-14T14:06:18.713379+00:00] Spanish OK for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14 (3232 words)
+[2026-06-14T14:06:18.814692+00:00] PPT EN semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14.pptx
+[2026-06-14T14:06:18.912521+00:00] PPT ES semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14.pptx
+[2026-06-14T14:06:18.912622+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14.md
+[2026-06-14T14:06:18.945465+00:00] IndexNow queued for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14
+[2026-06-14T14:06:18.945991+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14.json
+[2026-06-14T14:06:18.952463+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14', 'semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14', 'semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14']
+[2026-06-14T14:06:18.965465+00:00] Daily ledger (UTC): 27/50 states, 42 EN posts
+[2026-06-14T14:06:19.298320+00:00] 26\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-14T14:06:19.159534+00:00\",\n  \"stats\": {\n    \"enPosts\": 1273,\n    \"esPosts\": 1273,\n    \"platinumEn\": 1254,\n    \"lastUpdated\": \"2026-06-14\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14\",\n      \"semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14\",\n      \"semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-14T14:06:19.298445+00:00] WARN organic_crush exit 1

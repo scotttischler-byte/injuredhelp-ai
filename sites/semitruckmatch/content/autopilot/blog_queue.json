@@ -492,13 +492,29 @@
     "mississippi-truck-accident-statute-of-limitations-jackson-2026",
     "missouri-truck-accident-statute-of-limitations-kansas-city-2026",
     "montana-truck-accident-statute-of-limitations-billings-2026",
-    "nebraska-truck-accident-statute-of-limitations-omaha-2026"
+    "nebraska-truck-accident-statute-of-limitations-omaha-2026",
+    "semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-14",
+    "semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-14",
+    "semi-truck-accident-in-billings-montana-top-city-guide-2026-06-14"
   ],
   "stats": {
-    "total_published": 491,
-    "last_run_at": "2026-06-14T11:37:57.525891+00:00"
+    "total_published": 494,
+    "last_run_at": "2026-06-14T14:06:18.946070+00:00"
   },
   "pending": [
+    {
+      "angle": "underride-override",
+      "title": "Semi Truck Accident in Omaha, Nebraska \u2014 Top City Guide (2026-06-14)",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "place_slug": "omaha",
+      "priority": -2,
+      "daily_state_rotation": true,
+      "top_city": true,
+      "firm_state": false,
+      "vertical": "auto",
+      "slug": "semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-14"
+    },
     {
       "angle": "statute-of-limitations",
       "title": "Nevada Truck Accident Statute of Limitations \u2014 Las Vegas (2026)",
