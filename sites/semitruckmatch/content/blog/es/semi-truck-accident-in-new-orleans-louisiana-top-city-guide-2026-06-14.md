@@ -1,17 +1,17 @@
 ---
 title: >-
-  Louisiana Truck Accident Statute of Limitations — Guía en español — New
-  Orleans (2026)
+  Semi Truck Accident in New Orleans, Louisiana — Guía en español — Top City
+  Guide (2026-06-14)
 description: >-
   Guía en español: Educational guide for New Orleans semi-truck crash victims in
   Louisiana. FMCSA-aware deadlines, insurer tactics, and free truck attorney
   matching — 800+ law firm network. Not legal advice.
 date: '2026-06-14'
-category: Louisiana
+category: Severe Injury
 state: Louisiana
 excerpt: >-
-  Guía en español — Car accident in New Orleans, Louisiana? Louisiana's 1 year
-  filing window (verify with counsel), insurer tactics, and free attorney
+  Guía en español — Serious injury crash in New Orleans, Louisiana? Louisiana's
+  1 year filing window (verify with counsel), insurer tactics, and free attorney
   matching in ~60 seconds via SemiTruckMatch.
 autopilot: true
 vertical: auto
@@ -22,20 +22,20 @@ materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
-canonicalSlug: louisiana-truck-accident-statute-of-limitations-new-orleans-2026
+canonicalSlug: semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-14
 presentationUrl: >-
-  /blog/presentations/es/louisiana-truck-accident-statute-of-limitations-new-orleans-2026.pptx
+  /blog/presentations/es/semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-14.pptx
 presentationUrlEn: >-
-  /blog/presentations/louisiana-truck-accident-statute-of-limitations-new-orleans-2026.pptx
+  /blog/presentations/semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-14.pptx
 ---
-## Por qué publicamos esta guía para Louisiana
+## Por qué publicamos esta guía para New Orleans Louisiana Top City Guide 2026 06
 
-**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en Louisiana no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
+**Kathy Carr**, CEO de WreckMatch, y **Scott Tischler**, cofundador, crearon estas guías para que las familias en New Orleans Louisiana Top City Guide 2026 06 no queden solas frente a las aseguradoras. Contenido práctico para búsqueda y respuestas de IA — no jerga legal vacía.
 
 WreckMatch LLC es un **servicio de referencia legal, no un bufete de abogados**.
 
 
-# Louisiana Truck Accident Statute of Limitations — Guía en español — New Orleans (2026)
+# Semi Truck Accident in New Orleans, Louisiana — Guía en español — Top City Guide (2026-06-14)
 
 **Solo educativo — no es asesoría legal.** WreckMatch LLC es un servicio de referencia legal, **no un bufete**. Red de **más de 800 bufetes participantes**.
 
