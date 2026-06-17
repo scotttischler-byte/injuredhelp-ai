@@ -8385,3 +8385,691 @@ Node.js v24.14.1
 }
 
 [2026-06-17T04:15:15.103118+00:00] WARN organic_crush exit 1
+[2026-06-17T05:09:51.498870+00:00] Inject for 48 states not yet published today
+[2026-06-17T05:09:51.500896+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:09:51.504532+00:00] Daily 50-state rotation (2026-06-17): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-17T05:09:51.505372+00:00] Daily 50-state injection complete
+[2026-06-17T05:09:51.599718+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:09:51.601772+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:09:51.605975+00:00] Daily 50-state rotation (2026-06-17): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-17T05:09:51.606829+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:09:51.613102+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-17T05:09:51.616466+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:09:51.617424+00:00] Materializing template → platinum for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17
+[2026-06-17T05:09:57.010781+00:00] After materialize: 100 / 4039w ([])
+[2026-06-17T05:09:57.012629+00:00] Spanish OK for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17 (3246 words)
+[2026-06-17T05:09:57.016164+00:00] Spanish OK for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17 (3246 words)
+[2026-06-17T05:09:57.197310+00:00] PPT EN semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:09:57.295148+00:00] PPT ES semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:09:57.295234+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17.md
+[2026-06-17T05:09:57.326378+00:00] IndexNow queued for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17
+[2026-06-17T05:09:59.335010+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:09:59.336109+00:00] Materializing template → platinum for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17
+[2026-06-17T05:10:03.651285+00:00] After materialize: 100 / 4036w ([])
+[2026-06-17T05:10:03.652980+00:00] Spanish OK for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17 (3244 words)
+[2026-06-17T05:10:03.656471+00:00] Spanish OK for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17 (3244 words)
+[2026-06-17T05:10:03.755871+00:00] PPT EN semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:03.856638+00:00] PPT ES semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:03.856725+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:03.887731+00:00] IndexNow queued for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17
+[2026-06-17T05:10:05.895052+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:05.896055+00:00] Materializing template → platinum for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17
+[2026-06-17T05:10:10.216736+00:00] After materialize: 100 / 4028w ([])
+[2026-06-17T05:10:10.218254+00:00] Spanish OK for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:10:10.221719+00:00] Spanish OK for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:10:10.319142+00:00] PPT EN semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:10.413297+00:00] PPT ES semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:10.413377+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:10.445219+00:00] IndexNow queued for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17
+[2026-06-17T05:10:12.453112+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:12.454188+00:00] Materializing template → platinum for semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17
+[2026-06-17T05:10:16.807855+00:00] After materialize: 100 / 4028w ([])
+[2026-06-17T05:10:16.809430+00:00] Spanish OK for semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:10:16.813031+00:00] Spanish OK for semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:10:16.911191+00:00] PPT EN semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:17.011781+00:00] PPT ES semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:17.011860+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:17.043584+00:00] IndexNow queued for semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17
+[2026-06-17T05:10:19.050926+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:19.051901+00:00] Materializing template → platinum for semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17
+[2026-06-17T05:10:23.429379+00:00] After materialize: 100 / 4017w ([])
+[2026-06-17T05:10:23.431063+00:00] Spanish OK for semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:10:23.434471+00:00] Spanish OK for semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:10:23.531052+00:00] PPT EN semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:23.624882+00:00] PPT ES semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:23.624967+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:23.656458+00:00] IndexNow queued for semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17
+[2026-06-17T05:10:23.656901+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17.json
+[2026-06-17T05:10:23.662926+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17', 'semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17', 'semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17', 'semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17', 'semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17']
+[2026-06-17T05:10:23.676034+00:00] Daily ledger (UTC): 8/50 states, 8 EN posts
+[2026-06-17T05:10:24.001558+00:00] ": 0,
+      "tail": "er in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:10:23.868225+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-bridgeport-connecticut-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-wilmington-delaware-top-city-guide-2026-06-17\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:10:24.001706+00:00] WARN organic_crush exit 1
+[2026-06-17T05:10:24.124032+00:00] Inject for 43 states not yet published today
+[2026-06-17T05:10:24.125979+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:10:24.129237+00:00] Daily 50-state rotation (2026-06-17): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-17T05:10:24.130017+00:00] Daily 50-state injection complete
+[2026-06-17T05:10:24.217961+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:10:24.220019+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:10:24.224159+00:00] Daily 50-state rotation (2026-06-17): +0 new, 42 re-prioritized, 42 at queue front
+[2026-06-17T05:10:24.224971+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:10:24.231222+00:00] States already published today (UTC): 8 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware']
+[2026-06-17T05:10:24.234107+00:00] Quality 30 / 645w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:24.235071+00:00] Materializing template → platinum for semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17
+[2026-06-17T05:10:28.587903+00:00] After materialize: 100 / 4069w ([])
+[2026-06-17T05:10:28.589763+00:00] Spanish OK for semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17 (3292 words)
+[2026-06-17T05:10:28.593229+00:00] Spanish OK for semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17 (3292 words)
+[2026-06-17T05:10:28.754473+00:00] PPT EN semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:28.850943+00:00] PPT ES semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:28.851023+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:28.882193+00:00] IndexNow queued for semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17
+[2026-06-17T05:10:30.889764+00:00] Quality 30 / 572w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:30.890768+00:00] Materializing template → platinum for semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17
+[2026-06-17T05:10:35.205710+00:00] After materialize: 100 / 3970w ([])
+[2026-06-17T05:10:35.207352+00:00] Spanish OK for semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17 (3245 words)
+[2026-06-17T05:10:35.210747+00:00] Spanish OK for semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17 (3245 words)
+[2026-06-17T05:10:35.309247+00:00] PPT EN semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:35.407948+00:00] PPT ES semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:35.408027+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:35.439311+00:00] IndexNow queued for semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17
+[2026-06-17T05:10:37.446993+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:37.448012+00:00] Materializing template → platinum for semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17
+[2026-06-17T05:10:41.773363+00:00] After materialize: 100 / 4028w ([])
+[2026-06-17T05:10:41.775045+00:00] Spanish OK for semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:10:41.778603+00:00] Spanish OK for semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:10:41.890470+00:00] PPT EN semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:41.984260+00:00] PPT ES semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:41.984340+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:42.016338+00:00] IndexNow queued for semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17
+[2026-06-17T05:10:44.023737+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:44.024741+00:00] Materializing template → platinum for semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17
+[2026-06-17T05:10:48.362213+00:00] After materialize: 100 / 4029w ([])
+[2026-06-17T05:10:48.363867+00:00] Spanish OK for semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17 (3245 words)
+[2026-06-17T05:10:48.367289+00:00] Spanish OK for semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17 (3245 words)
+[2026-06-17T05:10:48.464698+00:00] PPT EN semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:48.564433+00:00] PPT ES semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:48.564514+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:48.595690+00:00] IndexNow queued for semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17
+[2026-06-17T05:10:50.603558+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:50.604559+00:00] Materializing template → platinum for semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17
+[2026-06-17T05:10:54.930014+00:00] After materialize: 100 / 4017w ([])
+[2026-06-17T05:10:54.931628+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:10:54.935073+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:10:55.032365+00:00] PPT EN semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:55.126763+00:00] PPT ES semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:10:55.126840+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17.md
+[2026-06-17T05:10:55.157954+00:00] IndexNow queued for semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17
+[2026-06-17T05:10:55.158283+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17.json
+[2026-06-17T05:10:55.164218+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17', 'semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17', 'semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17', 'semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17', 'semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17']
+[2026-06-17T05:10:55.174855+00:00] Daily ledger (UTC): 13/50 states, 13 EN posts
+[2026-06-17T05:10:55.490968+00:00] ": 0,
+      "tail": "accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:10:55.362985+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-washington-district-of-columbia-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-miami-florida-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-atlanta-georgia-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-honolulu-hawaii-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-boise-idaho-top-city-guide-2026-06-17\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:10:55.491077+00:00] WARN organic_crush exit 1
+[2026-06-17T05:10:55.614442+00:00] Inject for 38 states not yet published today
+[2026-06-17T05:10:55.616360+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:10:55.619436+00:00] Daily 50-state rotation (2026-06-17): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-17T05:10:55.620223+00:00] Daily 50-state injection complete
+[2026-06-17T05:10:55.708762+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:10:55.710831+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:10:55.714845+00:00] Daily 50-state rotation (2026-06-17): +0 new, 37 re-prioritized, 37 at queue front
+[2026-06-17T05:10:55.715613+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:10:55.722021+00:00] States already published today (UTC): 13 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho']
+[2026-06-17T05:10:55.724907+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:10:55.725867+00:00] Materializing template → platinum for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17
+[2026-06-17T05:11:00.172873+00:00] After materialize: 100 / 4028w ([])
+[2026-06-17T05:11:00.174785+00:00] Spanish OK for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:11:00.178310+00:00] Spanish OK for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:11:00.342012+00:00] PPT EN semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:00.439319+00:00] PPT ES semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:00.439401+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:00.470380+00:00] IndexNow queued for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17
+[2026-06-17T05:11:02.478929+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:02.479966+00:00] Materializing template → platinum for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17
+[2026-06-17T05:11:06.771775+00:00] After materialize: 100 / 4019w ([])
+[2026-06-17T05:11:06.773419+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:11:06.776939+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:11:06.876090+00:00] PPT EN semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:06.976696+00:00] PPT ES semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:06.976780+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:07.008218+00:00] IndexNow queued for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17
+[2026-06-17T05:11:09.016395+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:09.017418+00:00] Materializing template → platinum for semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17
+[2026-06-17T05:11:13.345727+00:00] After materialize: 100 / 4028w ([])
+[2026-06-17T05:11:13.347298+00:00] Spanish OK for semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:11:13.350765+00:00] Spanish OK for semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:11:13.448876+00:00] PPT EN semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:13.543253+00:00] PPT ES semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:13.543332+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:13.574449+00:00] IndexNow queued for semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17
+[2026-06-17T05:11:15.581997+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:15.582962+00:00] Materializing template → platinum for semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17
+[2026-06-17T05:11:19.917398+00:00] After materialize: 100 / 4028w ([])
+[2026-06-17T05:11:19.918968+00:00] Spanish OK for semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:11:19.922390+00:00] Spanish OK for semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17 (3230 words)
+[2026-06-17T05:11:20.020497+00:00] PPT EN semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:20.122313+00:00] PPT ES semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:20.122394+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:20.153653+00:00] IndexNow queued for semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17
+[2026-06-17T05:11:22.161229+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:22.162213+00:00] Materializing template → platinum for semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17
+[2026-06-17T05:11:26.550209+00:00] After materialize: 100 / 4027w ([])
+[2026-06-17T05:11:26.551887+00:00] Spanish OK for semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17 (3241 words)
+[2026-06-17T05:11:26.555333+00:00] Spanish OK for semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17 (3241 words)
+[2026-06-17T05:11:26.653782+00:00] PPT EN semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:26.748601+00:00] PPT ES semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:26.748695+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:26.780176+00:00] IndexNow queued for semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17
+[2026-06-17T05:11:26.780673+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17.json
+[2026-06-17T05:11:26.787235+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17', 'semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17', 'semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17', 'semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17', 'semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17']
+[2026-06-17T05:11:26.798389+00:00] Daily ledger (UTC): 18/50 states, 18 EN posts
+[2026-06-17T05:11:27.122370+00:00] ": 0,
+      "tail": " accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:11:26.988976+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-chicago-illinois-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-des-moines-iowa-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-wichita-kansas-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-louisville-kentucky-top-city-guide-2026-06-17\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:11:27.122473+00:00] WARN organic_crush exit 1
+[2026-06-17T05:11:27.251343+00:00] Inject for 33 states not yet published today
+[2026-06-17T05:11:27.253338+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:11:27.255988+00:00] Daily 50-state rotation (2026-06-17): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-17T05:11:27.256715+00:00] Daily 50-state injection complete
+[2026-06-17T05:11:27.347706+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:11:27.349773+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:11:27.353690+00:00] Daily 50-state rotation (2026-06-17): +0 new, 32 re-prioritized, 32 at queue front
+[2026-06-17T05:11:27.354431+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:11:27.361057+00:00] States already published today (UTC): 18 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky']
+[2026-06-17T05:11:27.364132+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:27.365116+00:00] Materializing template → platinum for semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17
+[2026-06-17T05:11:31.771664+00:00] After materialize: 100 / 4020w ([])
+[2026-06-17T05:11:31.773512+00:00] Spanish OK for semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17 (3244 words)
+[2026-06-17T05:11:31.777063+00:00] Spanish OK for semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17 (3244 words)
+[2026-06-17T05:11:31.940495+00:00] PPT EN semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:32.038153+00:00] PPT ES semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:32.038246+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:32.069614+00:00] IndexNow queued for semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17
+[2026-06-17T05:11:34.078244+00:00] Quality 30 / 572w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:34.079263+00:00] Materializing template → platinum for semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17
+[2026-06-17T05:11:38.479478+00:00] After materialize: 100 / 3957w ([])
+[2026-06-17T05:11:38.481056+00:00] Spanish OK for semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17 (3228 words)
+[2026-06-17T05:11:38.484432+00:00] Spanish OK for semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17 (3228 words)
+[2026-06-17T05:11:38.583952+00:00] PPT EN semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:38.684171+00:00] PPT ES semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:38.684265+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:38.715615+00:00] IndexNow queued for semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17
+[2026-06-17T05:11:40.723696+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:40.724746+00:00] Materializing template → platinum for semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17
+[2026-06-17T05:11:45.124368+00:00] After materialize: 100 / 4027w ([])
+[2026-06-17T05:11:45.126057+00:00] Spanish OK for semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17 (3238 words)
+[2026-06-17T05:11:45.129551+00:00] Spanish OK for semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17 (3238 words)
+[2026-06-17T05:11:45.228399+00:00] PPT EN semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:45.325611+00:00] PPT ES semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:45.325724+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:45.360088+00:00] IndexNow queued for semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17
+[2026-06-17T05:11:47.368411+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:47.369465+00:00] Materializing template → platinum for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17
+[2026-06-17T05:11:51.870108+00:00] After materialize: 100 / 4032w ([])
+[2026-06-17T05:11:51.871830+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:11:51.875368+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:11:51.975229+00:00] PPT EN semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:52.080413+00:00] PPT ES semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:52.080518+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:52.113168+00:00] IndexNow queued for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17
+[2026-06-17T05:11:54.121078+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:54.122124+00:00] Materializing template → platinum for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17
+[2026-06-17T05:11:58.631356+00:00] After materialize: 100 / 4032w ([])
+[2026-06-17T05:11:58.633007+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:11:58.636511+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:11:58.735130+00:00] PPT EN semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:58.830918+00:00] PPT ES semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:11:58.831043+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17.md
+[2026-06-17T05:11:58.864236+00:00] IndexNow queued for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17
+[2026-06-17T05:11:58.864737+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17.json
+[2026-06-17T05:11:58.871037+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17', 'semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17', 'semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17', 'semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17', 'semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17']
+[2026-06-17T05:11:58.887426+00:00] Daily ledger (UTC): 23/50 states, 23 EN posts
+[2026-06-17T05:11:59.219827+00:00] ": 0,
+      "tail": "dent lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:11:59.082420+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-new-orleans-louisiana-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-portland-maine-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-baltimore-maryland-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-17\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:11:59.219957+00:00] WARN organic_crush exit 1
+[2026-06-17T05:11:59.351201+00:00] Inject for 28 states not yet published today
+[2026-06-17T05:11:59.353239+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:11:59.355470+00:00] Daily 50-state rotation (2026-06-17): +0 new, 27 re-prioritized, 27 at queue front
+[2026-06-17T05:11:59.356187+00:00] Daily 50-state injection complete
+[2026-06-17T05:11:59.452143+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:11:59.454224+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:11:59.458100+00:00] Daily 50-state rotation (2026-06-17): +0 new, 27 re-prioritized, 27 at queue front
+[2026-06-17T05:11:59.458826+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:11:59.465588+00:00] States already published today (UTC): 23 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan']
+[2026-06-17T05:11:59.468536+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:11:59.469532+00:00] Materializing template → platinum for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17
+[2026-06-17T05:12:03.986432+00:00] After materialize: 100 / 4027w ([])
+[2026-06-17T05:12:03.988367+00:00] Spanish OK for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17 (3245 words)
+[2026-06-17T05:12:03.991935+00:00] Spanish OK for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17 (3245 words)
+[2026-06-17T05:12:04.160238+00:00] PPT EN semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:04.259703+00:00] PPT ES semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:04.259812+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:04.293015+00:00] IndexNow queued for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17
+[2026-06-17T05:12:06.301669+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:06.302721+00:00] Materializing template → platinum for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17
+[2026-06-17T05:12:10.821302+00:00] After materialize: 100 / 4017w ([])
+[2026-06-17T05:12:10.822913+00:00] Spanish OK for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17 (3228 words)
+[2026-06-17T05:12:10.826511+00:00] Spanish OK for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17 (3228 words)
+[2026-06-17T05:12:10.927059+00:00] PPT EN semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:11.028686+00:00] PPT ES semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:11.028796+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:11.060874+00:00] IndexNow queued for semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17
+[2026-06-17T05:12:13.068732+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:13.069790+00:00] Materializing template → platinum for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17
+[2026-06-17T05:12:17.536960+00:00] After materialize: 100 / 4028w ([])
+[2026-06-17T05:12:17.538611+00:00] Spanish OK for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17 (3244 words)
+[2026-06-17T05:12:17.542061+00:00] Spanish OK for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17 (3244 words)
+[2026-06-17T05:12:17.641050+00:00] PPT EN semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:17.737070+00:00] PPT ES semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:17.737176+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:17.770177+00:00] IndexNow queued for semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17
+[2026-06-17T05:12:19.778471+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:19.779493+00:00] Materializing template → platinum for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17
+[2026-06-17T05:12:24.190678+00:00] After materialize: 100 / 4017w ([])
+[2026-06-17T05:12:24.192330+00:00] Spanish OK for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:12:24.195814+00:00] Spanish OK for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:12:24.294475+00:00] PPT EN semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:24.396027+00:00] PPT ES semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:24.396124+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:24.427844+00:00] IndexNow queued for semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17
+[2026-06-17T05:12:26.435554+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:26.436676+00:00] Materializing template → platinum for semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17
+[2026-06-17T05:12:30.807350+00:00] After materialize: 100 / 4017w ([])
+[2026-06-17T05:12:30.808924+00:00] Spanish OK for semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:12:30.812312+00:00] Spanish OK for semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:12:30.908877+00:00] PPT EN semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:31.002792+00:00] PPT ES semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:31.002874+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:31.034986+00:00] IndexNow queued for semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17
+[2026-06-17T05:12:31.035405+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17.json
+[2026-06-17T05:12:31.041822+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17', 'semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17', 'semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17', 'semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17', 'semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17']
+[2026-06-17T05:12:31.058128+00:00] Daily ledger (UTC): 28/50 states, 28 EN posts
+[2026-06-17T05:12:31.384192+00:00] ": 0,
+      "tail": "ent lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:12:31.250477+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-jackson-mississippi-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-kansas-city-missouri-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-billings-montana-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-omaha-nebraska-top-city-guide-2026-06-17\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:12:31.384308+00:00] WARN organic_crush exit 1
+[2026-06-17T05:12:31.513376+00:00] Inject for 23 states not yet published today
+[2026-06-17T05:12:31.515331+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:12:31.517050+00:00] Daily 50-state rotation (2026-06-17): +0 new, 22 re-prioritized, 22 at queue front
+[2026-06-17T05:12:31.517702+00:00] Daily 50-state injection complete
+[2026-06-17T05:12:31.607898+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:12:31.609971+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:12:31.613741+00:00] Daily 50-state rotation (2026-06-17): +0 new, 22 re-prioritized, 22 at queue front
+[2026-06-17T05:12:31.614392+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:12:31.620544+00:00] States already published today (UTC): 28 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska']
+[2026-06-17T05:12:31.623429+00:00] Quality 30 / 640w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:31.624383+00:00] Materializing template → platinum for semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17
+[2026-06-17T05:12:36.018044+00:00] After materialize: 100 / 4020w ([])
+[2026-06-17T05:12:36.019890+00:00] Spanish OK for semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:12:36.023275+00:00] Spanish OK for semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17 (3248 words)
+[2026-06-17T05:12:36.186093+00:00] PPT EN semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:36.283690+00:00] PPT ES semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:36.283781+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:36.315272+00:00] IndexNow queued for semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17
+[2026-06-17T05:12:38.323921+00:00] Quality 30 / 577w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:38.324911+00:00] Materializing template → platinum for semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17
+[2026-06-17T05:12:42.722331+00:00] After materialize: 100 / 3976w ([])
+[2026-06-17T05:12:42.723914+00:00] Spanish OK for semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17 (3263 words)
+[2026-06-17T05:12:42.727500+00:00] Spanish OK for semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17 (3263 words)
+[2026-06-17T05:12:42.827165+00:00] PPT EN semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:42.927920+00:00] PPT ES semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:42.928033+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:42.959373+00:00] IndexNow queued for semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17
+[2026-06-17T05:12:44.966823+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:44.967822+00:00] Materializing template → platinum for semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17
+[2026-06-17T05:12:49.381216+00:00] After materialize: 100 / 4061w ([])
+[2026-06-17T05:12:49.382804+00:00] Spanish OK for semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17 (3280 words)
+[2026-06-17T05:12:49.386189+00:00] Spanish OK for semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17 (3280 words)
+[2026-06-17T05:12:49.486774+00:00] PPT EN semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:49.583831+00:00] PPT ES semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:49.583927+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:49.615352+00:00] IndexNow queued for semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17
+[2026-06-17T05:12:51.622194+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:51.623243+00:00] Materializing template → platinum for semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17
+[2026-06-17T05:12:56.107702+00:00] After materialize: 100 / 4047w ([])
+[2026-06-17T05:12:56.109281+00:00] Spanish OK for semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17 (3260 words)
+[2026-06-17T05:12:56.112752+00:00] Spanish OK for semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17 (3260 words)
+[2026-06-17T05:12:56.214219+00:00] PPT EN semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:56.319098+00:00] PPT ES semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:12:56.319189+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17.md
+[2026-06-17T05:12:56.350697+00:00] IndexNow queued for semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17
+[2026-06-17T05:12:58.358079+00:00] Quality 30 / 583w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:12:58.358998+00:00] Materializing template → platinum for new-york-truck-accident-statute-of-limitations-new-york-city-2026
+[2026-06-17T05:13:02.742977+00:00] After materialize: 100 / 4017w ([])
+[2026-06-17T05:13:02.744523+00:00] Spanish OK for new-york-truck-accident-statute-of-limitations-new-york-city-2026 (3271 words)
+[2026-06-17T05:13:02.747920+00:00] Spanish OK for new-york-truck-accident-statute-of-limitations-new-york-city-2026 (3271 words)
+[2026-06-17T05:13:02.845934+00:00] PPT EN new-york-truck-accident-statute-of-limitations-new-york-city-2026: 14 slides (score 100) → /blog/presentations/new-york-truck-accident-statute-of-limitations-new-york-city-2026.pptx
+[2026-06-17T05:13:02.942749+00:00] PPT ES new-york-truck-accident-statute-of-limitations-new-york-city-2026: 14 slides (score 100) → /blog/presentations/es/new-york-truck-accident-statute-of-limitations-new-york-city-2026.pptx
+[2026-06-17T05:13:02.942880+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/new-york-truck-accident-statute-of-limitations-new-york-city-2026.md
+[2026-06-17T05:13:02.975295+00:00] IndexNow queued for new-york-truck-accident-statute-of-limitations-new-york-city-2026
+[2026-06-17T05:13:02.975841+00:00] Syndication → sites/semitruckmatch/content/syndication/new-york-truck-accident-statute-of-limitations-new-york-city-2026.json
+[2026-06-17T05:13:02.981842+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17', 'semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17', 'semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17', 'semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17', 'new-york-truck-accident-statute-of-limitations-new-york-city-2026']
+[2026-06-17T05:13:02.992477+00:00] Daily ledger (UTC): 33/50 states, 33 EN posts
+[2026-06-17T05:13:03.318503+00:00] ": 0,
+      "tail": "awyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:13:03.188164+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-las-vegas-nevada-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-manchester-new-hampshire-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-newark-new-jersey-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-albuquerque-new-mexico-top-city-guide-2026-06-17\",\n      \"new-york-truck-accident-statute-of-limitations-new-york-city-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:13:03.318643+00:00] WARN organic_crush exit 1
+[2026-06-17T05:13:03.442727+00:00] Inject for 18 states not yet published today
+[2026-06-17T05:13:03.444686+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:13:03.445953+00:00] Daily 50-state rotation (2026-06-17): +0 new, 17 re-prioritized, 17 at queue front
+[2026-06-17T05:13:03.446544+00:00] Daily 50-state injection complete
+[2026-06-17T05:13:03.536727+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:13:03.538851+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:13:03.542513+00:00] Daily 50-state rotation (2026-06-17): +1 new, 17 re-prioritized, 18 at queue front
+[2026-06-17T05:13:03.543179+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:13:03.550266+00:00] States already published today (UTC): 33 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York']
+[2026-06-17T05:13:03.553071+00:00] Quality 30 / 573w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:03.553959+00:00] Materializing template → platinum for north-carolina-truck-accident-statute-of-limitations-charlotte-2026
+[2026-06-17T05:13:07.949937+00:00] After materialize: 100 / 3982w ([])
+[2026-06-17T05:13:07.951764+00:00] Spanish OK for north-carolina-truck-accident-statute-of-limitations-charlotte-2026 (3237 words)
+[2026-06-17T05:13:07.955153+00:00] Spanish OK for north-carolina-truck-accident-statute-of-limitations-charlotte-2026 (3237 words)
+[2026-06-17T05:13:08.119856+00:00] PPT EN north-carolina-truck-accident-statute-of-limitations-charlotte-2026: 14 slides (score 100) → /blog/presentations/north-carolina-truck-accident-statute-of-limitations-charlotte-2026.pptx
+[2026-06-17T05:13:08.217347+00:00] PPT ES north-carolina-truck-accident-statute-of-limitations-charlotte-2026: 14 slides (score 100) → /blog/presentations/es/north-carolina-truck-accident-statute-of-limitations-charlotte-2026.pptx
+[2026-06-17T05:13:08.217428+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/north-carolina-truck-accident-statute-of-limitations-charlotte-2026.md
+[2026-06-17T05:13:08.248489+00:00] IndexNow queued for north-carolina-truck-accident-statute-of-limitations-charlotte-2026
+[2026-06-17T05:13:10.257011+00:00] Quality 30 / 573w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:10.257969+00:00] Materializing template → platinum for north-dakota-truck-accident-statute-of-limitations-fargo-2026
+[2026-06-17T05:13:14.639504+00:00] After materialize: 100 / 3994w ([])
+[2026-06-17T05:13:14.641037+00:00] Spanish OK for north-dakota-truck-accident-statute-of-limitations-fargo-2026 (3242 words)
+[2026-06-17T05:13:14.644401+00:00] Spanish OK for north-dakota-truck-accident-statute-of-limitations-fargo-2026 (3242 words)
+[2026-06-17T05:13:14.744476+00:00] PPT EN north-dakota-truck-accident-statute-of-limitations-fargo-2026: 14 slides (score 100) → /blog/presentations/north-dakota-truck-accident-statute-of-limitations-fargo-2026.pptx
+[2026-06-17T05:13:14.843367+00:00] PPT ES north-dakota-truck-accident-statute-of-limitations-fargo-2026: 14 slides (score 100) → /blog/presentations/es/north-dakota-truck-accident-statute-of-limitations-fargo-2026.pptx
+[2026-06-17T05:13:14.843445+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/north-dakota-truck-accident-statute-of-limitations-fargo-2026.md
+[2026-06-17T05:13:14.874715+00:00] IndexNow queued for north-dakota-truck-accident-statute-of-limitations-fargo-2026
+[2026-06-17T05:13:16.882594+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:16.883500+00:00] Materializing template → platinum for ohio-truck-accident-statute-of-limitations-columbus-2026
+[2026-06-17T05:13:21.240054+00:00] After materialize: 100 / 3944w ([])
+[2026-06-17T05:13:21.241695+00:00] Spanish OK for ohio-truck-accident-statute-of-limitations-columbus-2026 (3198 words)
+[2026-06-17T05:13:21.245064+00:00] Spanish OK for ohio-truck-accident-statute-of-limitations-columbus-2026 (3198 words)
+[2026-06-17T05:13:21.345009+00:00] PPT EN ohio-truck-accident-statute-of-limitations-columbus-2026: 14 slides (score 100) → /blog/presentations/ohio-truck-accident-statute-of-limitations-columbus-2026.pptx
+[2026-06-17T05:13:21.441250+00:00] PPT ES ohio-truck-accident-statute-of-limitations-columbus-2026: 14 slides (score 100) → /blog/presentations/es/ohio-truck-accident-statute-of-limitations-columbus-2026.pptx
+[2026-06-17T05:13:21.441345+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/ohio-truck-accident-statute-of-limitations-columbus-2026.md
+[2026-06-17T05:13:21.472328+00:00] IndexNow queued for ohio-truck-accident-statute-of-limitations-columbus-2026
+[2026-06-17T05:13:23.479875+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:23.480949+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026
+[2026-06-17T05:13:27.836709+00:00] After materialize: 100 / 3993w ([])
+[2026-06-17T05:13:27.838251+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026 (3195 words)
+[2026-06-17T05:13:27.841670+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026 (3195 words)
+[2026-06-17T05:13:27.940562+00:00] PPT EN severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-17T05:13:28.044181+00:00] PPT ES severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026.pptx
+[2026-06-17T05:13:28.044264+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026.md
+[2026-06-17T05:13:28.075419+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026
+[2026-06-17T05:13:30.082826+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:30.083818+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-portland-oregon-2026
+[2026-06-17T05:13:34.442364+00:00] After materialize: 100 / 3991w ([])
+[2026-06-17T05:13:34.444098+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-portland-oregon-2026 (3355 words)
+[2026-06-17T05:13:34.447633+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-portland-oregon-2026 (3355 words)
+[2026-06-17T05:13:34.546148+00:00] PPT EN severe-injury-after-a-truck-crash-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-portland-oregon-2026.pptx
+[2026-06-17T05:13:34.642018+00:00] PPT ES severe-injury-after-a-truck-crash-in-portland-oregon-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-portland-oregon-2026.pptx
+[2026-06-17T05:13:34.642115+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-portland-oregon-2026.md
+[2026-06-17T05:13:34.673840+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-portland-oregon-2026
+[2026-06-17T05:13:34.674297+00:00] Syndication → sites/semitruckmatch/content/syndication/severe-injury-after-a-truck-crash-in-portland-oregon-2026.json
+[2026-06-17T05:13:34.680748+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['north-carolina-truck-accident-statute-of-limitations-charlotte-2026', 'north-dakota-truck-accident-statute-of-limitations-fargo-2026', 'ohio-truck-accident-statute-of-limitations-columbus-2026', 'severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026', 'severe-injury-after-a-truck-crash-in-portland-oregon-2026']
+[2026-06-17T05:13:34.692282+00:00] Daily ledger (UTC): 35/50 states, 38 EN posts
+[2026-06-17T05:13:35.015914+00:00]  "tail": "step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:13:34.883378+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"north-carolina-truck-accident-statute-of-limitations-charlotte-2026\",\n      \"north-dakota-truck-accident-statute-of-limitations-fargo-2026\",\n      \"ohio-truck-accident-statute-of-limitations-columbus-2026\",\n      \"severe-injury-after-a-truck-crash-in-oklahoma-city-oklahoma-2026\",\n      \"severe-injury-after-a-truck-crash-in-portland-oregon-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:13:35.016019+00:00] WARN organic_crush exit 1
+[2026-06-17T05:13:35.143219+00:00] Inject for 16 states not yet published today
+[2026-06-17T05:13:35.145187+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:13:35.146408+00:00] Daily 50-state rotation (2026-06-17): +3 new, 12 re-prioritized, 15 at queue front
+[2026-06-17T05:13:35.147021+00:00] Daily 50-state injection complete
+[2026-06-17T05:13:35.238483+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:13:35.240553+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:13:35.244267+00:00] Daily 50-state rotation (2026-06-17): +2 new, 16 re-prioritized, 18 at queue front
+[2026-06-17T05:13:35.244930+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:13:35.252039+00:00] States already published today (UTC): 35 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'Oklahoma', 'Oregon']
+[2026-06-17T05:13:35.254974+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:35.255959+00:00] Materializing template → platinum for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17
+[2026-06-17T05:13:39.602529+00:00] After materialize: 100 / 4057w ([])
+[2026-06-17T05:13:39.604421+00:00] Spanish OK for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17 (3270 words)
+[2026-06-17T05:13:39.608025+00:00] Spanish OK for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17 (3270 words)
+[2026-06-17T05:13:39.771844+00:00] PPT EN semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:13:39.868724+00:00] PPT ES semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:13:39.868804+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17.md
+[2026-06-17T05:13:39.899816+00:00] IndexNow queued for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17
+[2026-06-17T05:13:41.907710+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:41.908753+00:00] Materializing template → platinum for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17
+[2026-06-17T05:13:46.281668+00:00] After materialize: 100 / 4069w ([])
+[2026-06-17T05:13:46.283270+00:00] Spanish OK for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17 (3275 words)
+[2026-06-17T05:13:46.286781+00:00] Spanish OK for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17 (3275 words)
+[2026-06-17T05:13:46.386170+00:00] PPT EN semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:13:46.485251+00:00] PPT ES semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:13:46.485332+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17.md
+[2026-06-17T05:13:46.516727+00:00] IndexNow queued for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17
+[2026-06-17T05:13:48.524998+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:48.526038+00:00] Materializing template → platinum for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17
+[2026-06-17T05:13:52.890464+00:00] After materialize: 100 / 4019w ([])
+[2026-06-17T05:13:52.892040+00:00] Spanish OK for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:13:52.895420+00:00] Spanish OK for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17 (3232 words)
+[2026-06-17T05:13:52.992860+00:00] PPT EN semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:13:53.087553+00:00] PPT ES semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17.pptx
+[2026-06-17T05:13:53.087691+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17.md
+[2026-06-17T05:13:53.119048+00:00] IndexNow queued for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17
+[2026-06-17T05:13:55.126775+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:13:55.127787+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026
+[2026-06-17T05:13:59.523179+00:00] After materialize: 100 / 4002w ([])
+[2026-06-17T05:13:59.524891+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026 (3195 words)
+[2026-06-17T05:13:59.528369+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026 (3195 words)
+[2026-06-17T05:13:59.626457+00:00] PPT EN severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026.pptx
+[2026-06-17T05:13:59.727727+00:00] PPT ES severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026.pptx
+[2026-06-17T05:13:59.727841+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026.md
+[2026-06-17T05:13:59.759035+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026
+[2026-06-17T05:14:01.767282+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:01.768302+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-providence-rhode-island-2026
+[2026-06-17T05:14:06.111865+00:00] After materialize: 100 / 4017w ([])
+[2026-06-17T05:14:06.113559+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-providence-rhode-island-2026 (3207 words)
+[2026-06-17T05:14:06.117125+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-providence-rhode-island-2026 (3207 words)
+[2026-06-17T05:14:06.213896+00:00] PPT EN severe-injury-after-a-truck-crash-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-providence-rhode-island-2026.pptx
+[2026-06-17T05:14:06.308510+00:00] PPT ES severe-injury-after-a-truck-crash-in-providence-rhode-island-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-providence-rhode-island-2026.pptx
+[2026-06-17T05:14:06.308627+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-providence-rhode-island-2026.md
+[2026-06-17T05:14:06.340181+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-providence-rhode-island-2026
+[2026-06-17T05:14:06.340617+00:00] Syndication → sites/semitruckmatch/content/syndication/severe-injury-after-a-truck-crash-in-providence-rhode-island-2026.json
+[2026-06-17T05:14:06.346994+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17', 'semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17', 'semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17', 'severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026', 'severe-injury-after-a-truck-crash-in-providence-rhode-island-2026']
+[2026-06-17T05:14:06.358753+00:00] Daily ledger (UTC): 40/50 states, 43 EN posts
+[2026-06-17T05:14:06.676504+00:00] ": 0,
+      "tail": "dent lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:14:06.547150+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-06-17\",\n      \"semi-truck-accident-in-columbus-ohio-top-city-guide-2026-06-17\",\n      \"severe-injury-after-a-truck-crash-in-philadelphia-pennsylvania-2026\",\n      \"severe-injury-after-a-truck-crash-in-providence-rhode-island-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:14:06.676647+00:00] WARN organic_crush exit 1
+[2026-06-17T05:14:06.800376+00:00] Inject for 11 states not yet published today
+[2026-06-17T05:14:06.802316+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:14:06.803182+00:00] Daily 50-state rotation (2026-06-17): +0 new, 10 re-prioritized, 10 at queue front
+[2026-06-17T05:14:06.803750+00:00] Daily 50-state injection complete
+[2026-06-17T05:14:06.891071+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:14:06.893109+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:14:06.896753+00:00] Daily 50-state rotation (2026-06-17): +2 new, 13 re-prioritized, 15 at queue front
+[2026-06-17T05:14:06.897346+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:14:06.904528+00:00] States already published today (UTC): 40 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island']
+[2026-06-17T05:14:06.907442+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:06.908431+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026
+[2026-06-17T05:14:11.255000+00:00] After materialize: 100 / 4019w ([])
+[2026-06-17T05:14:11.256878+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026 (3211 words)
+[2026-06-17T05:14:11.260396+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026 (3211 words)
+[2026-06-17T05:14:11.423304+00:00] PPT EN severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026.pptx
+[2026-06-17T05:14:11.520832+00:00] PPT ES severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026.pptx
+[2026-06-17T05:14:11.520914+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026.md
+[2026-06-17T05:14:11.552836+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026
+[2026-06-17T05:14:13.561468+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:13.562454+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026
+[2026-06-17T05:14:17.933337+00:00] After materialize: 100 / 4021w ([])
+[2026-06-17T05:14:17.934936+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026 (3227 words)
+[2026-06-17T05:14:17.938345+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026 (3227 words)
+[2026-06-17T05:14:18.036346+00:00] PPT EN severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-17T05:14:18.135196+00:00] PPT ES severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026.pptx
+[2026-06-17T05:14:18.135274+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026.md
+[2026-06-17T05:14:18.166480+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026
+[2026-06-17T05:14:20.174834+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:20.176058+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-nashville-tennessee-2026
+[2026-06-17T05:14:24.531607+00:00] After materialize: 100 / 3998w ([])
+[2026-06-17T05:14:24.533285+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-nashville-tennessee-2026 (3355 words)
+[2026-06-17T05:14:24.536764+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-nashville-tennessee-2026 (3355 words)
+[2026-06-17T05:14:24.633977+00:00] PPT EN severe-injury-after-a-truck-crash-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-nashville-tennessee-2026.pptx
+[2026-06-17T05:14:24.728398+00:00] PPT ES severe-injury-after-a-truck-crash-in-nashville-tennessee-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-nashville-tennessee-2026.pptx
+[2026-06-17T05:14:24.728476+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-nashville-tennessee-2026.md
+[2026-06-17T05:14:24.759758+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-nashville-tennessee-2026
+[2026-06-17T05:14:26.767769+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:26.768864+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-houston-texas-2026
+[2026-06-17T05:14:31.119161+00:00] After materialize: 100 / 4005w ([])
+[2026-06-17T05:14:31.120824+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-houston-texas-2026 (3184 words)
+[2026-06-17T05:14:31.124346+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-houston-texas-2026 (3184 words)
+[2026-06-17T05:14:31.222087+00:00] PPT EN severe-injury-after-a-truck-crash-in-houston-texas-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-houston-texas-2026.pptx
+[2026-06-17T05:14:31.321987+00:00] PPT ES severe-injury-after-a-truck-crash-in-houston-texas-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-houston-texas-2026.pptx
+[2026-06-17T05:14:31.322075+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-houston-texas-2026.md
+[2026-06-17T05:14:31.353505+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-houston-texas-2026
+[2026-06-17T05:14:33.361139+00:00] Quality 30 / 642w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:33.362154+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026
+[2026-06-17T05:14:37.715467+00:00] After materialize: 100 / 4023w ([])
+[2026-06-17T05:14:37.717125+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026 (3222 words)
+[2026-06-17T05:14:37.720532+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026 (3222 words)
+[2026-06-17T05:14:37.817299+00:00] PPT EN severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026.pptx
+[2026-06-17T05:14:37.911868+00:00] PPT ES severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026.pptx
+[2026-06-17T05:14:37.911944+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026.md
+[2026-06-17T05:14:37.943185+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026
+[2026-06-17T05:14:37.943608+00:00] Syndication → sites/semitruckmatch/content/syndication/severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026.json
+[2026-06-17T05:14:37.950109+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026', 'severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026', 'severe-injury-after-a-truck-crash-in-nashville-tennessee-2026', 'severe-injury-after-a-truck-crash-in-houston-texas-2026', 'severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026']
+[2026-06-17T05:14:37.962003+00:00] Daily ledger (UTC): 45/50 states, 48 EN posts
+[2026-06-17T05:14:38.277322+00:00]       "tail": "\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:14:38.148321+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-truck-crash-in-charleston-south-carolina-2026\",\n      \"severe-injury-after-a-truck-crash-in-sioux-falls-south-dakota-2026\",\n      \"severe-injury-after-a-truck-crash-in-nashville-tennessee-2026\",\n      \"severe-injury-after-a-truck-crash-in-houston-texas-2026\",\n      \"severe-injury-after-a-truck-crash-in-salt-lake-city-utah-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:14:38.277424+00:00] WARN organic_crush exit 1
+[2026-06-17T05:14:38.401305+00:00] Inject for 6 states not yet published today
+[2026-06-17T05:14:38.403230+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:14:38.403798+00:00] Daily 50-state rotation (2026-06-17): +0 new, 5 re-prioritized, 5 at queue front
+[2026-06-17T05:14:38.404322+00:00] Daily 50-state injection complete
+[2026-06-17T05:14:38.493101+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-17T05:14:38.495139+00:00] Loaded 239 cities from cities.ts
+[2026-06-17T05:14:38.498828+00:00] Daily 50-state rotation (2026-06-17): +5 new, 10 re-prioritized, 15 at queue front
+[2026-06-17T05:14:38.499421+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-17T05:14:38.506671+00:00] States already published today (UTC): 45 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah']
+[2026-06-17T05:14:38.509563+00:00] Quality 30 / 632w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:38.510535+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-burlington-vermont-2026
+[2026-06-17T05:14:42.846757+00:00] After materialize: 100 / 3980w ([])
+[2026-06-17T05:14:42.848666+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-burlington-vermont-2026 (3357 words)
+[2026-06-17T05:14:42.852174+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-burlington-vermont-2026 (3357 words)
+[2026-06-17T05:14:43.016063+00:00] PPT EN severe-injury-after-a-truck-crash-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-burlington-vermont-2026.pptx
+[2026-06-17T05:14:43.113838+00:00] PPT ES severe-injury-after-a-truck-crash-in-burlington-vermont-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-burlington-vermont-2026.pptx
+[2026-06-17T05:14:43.113937+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-burlington-vermont-2026.md
+[2026-06-17T05:14:43.145343+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-burlington-vermont-2026
+[2026-06-17T05:14:45.153882+00:00] Quality 30 / 637w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:45.154887+00:00] Materializing template → platinum for severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026
+[2026-06-17T05:14:49.517544+00:00] After materialize: 100 / 4001w ([])
+[2026-06-17T05:14:49.519115+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026 (3201 words)
+[2026-06-17T05:14:49.522543+00:00] Spanish OK for severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026 (3201 words)
+[2026-06-17T05:14:49.620412+00:00] PPT EN severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026: 14 slides (score 100) → /blog/presentations/severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026.pptx
+[2026-06-17T05:14:49.720986+00:00] PPT ES severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026: 14 slides (score 100) → /blog/presentations/es/severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026.pptx
+[2026-06-17T05:14:49.721066+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026.md
+[2026-06-17T05:14:49.752264+00:00] IndexNow queued for severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026
+[2026-06-17T05:14:51.760124+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:51.761175+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-seattle-washington-2026
+[2026-06-17T05:14:56.123882+00:00] After materialize: 100 / 4013w ([])
+[2026-06-17T05:14:56.125460+00:00] Spanish OK for underride-or-override-truck-crash-in-seattle-washington-2026 (3197 words)
+[2026-06-17T05:14:56.128953+00:00] Spanish OK for underride-or-override-truck-crash-in-seattle-washington-2026 (3197 words)
+[2026-06-17T05:14:56.226760+00:00] PPT EN underride-or-override-truck-crash-in-seattle-washington-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-seattle-washington-2026.pptx
+[2026-06-17T05:14:56.322308+00:00] PPT ES underride-or-override-truck-crash-in-seattle-washington-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-seattle-washington-2026.pptx
+[2026-06-17T05:14:56.322389+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-seattle-washington-2026.md
+[2026-06-17T05:14:56.353570+00:00] IndexNow queued for underride-or-override-truck-crash-in-seattle-washington-2026
+[2026-06-17T05:14:58.362064+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:14:58.363036+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-charleston-west-virginia-2026
+[2026-06-17T05:15:02.723342+00:00] After materialize: 100 / 4054w ([])
+[2026-06-17T05:15:02.724906+00:00] Spanish OK for underride-or-override-truck-crash-in-charleston-west-virginia-2026 (3231 words)
+[2026-06-17T05:15:02.728352+00:00] Spanish OK for underride-or-override-truck-crash-in-charleston-west-virginia-2026 (3231 words)
+[2026-06-17T05:15:02.826531+00:00] PPT EN underride-or-override-truck-crash-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-charleston-west-virginia-2026.pptx
+[2026-06-17T05:15:02.928540+00:00] PPT ES underride-or-override-truck-crash-in-charleston-west-virginia-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-charleston-west-virginia-2026.pptx
+[2026-06-17T05:15:02.928667+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-charleston-west-virginia-2026.md
+[2026-06-17T05:15:02.959897+00:00] IndexNow queued for underride-or-override-truck-crash-in-charleston-west-virginia-2026
+[2026-06-17T05:15:04.967840+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-17T05:15:04.968814+00:00] Materializing template → platinum for underride-or-override-truck-crash-in-milwaukee-wisconsin-2026
+[2026-06-17T05:15:09.362408+00:00] After materialize: 100 / 4013w ([])
+[2026-06-17T05:15:09.364010+00:00] Spanish OK for underride-or-override-truck-crash-in-milwaukee-wisconsin-2026 (3201 words)
+[2026-06-17T05:15:09.367505+00:00] Spanish OK for underride-or-override-truck-crash-in-milwaukee-wisconsin-2026 (3201 words)
+[2026-06-17T05:15:09.466909+00:00] PPT EN underride-or-override-truck-crash-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/underride-or-override-truck-crash-in-milwaukee-wisconsin-2026.pptx
+[2026-06-17T05:15:09.562954+00:00] PPT ES underride-or-override-truck-crash-in-milwaukee-wisconsin-2026: 14 slides (score 100) → /blog/presentations/es/underride-or-override-truck-crash-in-milwaukee-wisconsin-2026.pptx
+[2026-06-17T05:15:09.563052+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/underride-or-override-truck-crash-in-milwaukee-wisconsin-2026.md
+[2026-06-17T05:15:09.594741+00:00] IndexNow queued for underride-or-override-truck-crash-in-milwaukee-wisconsin-2026
+[2026-06-17T05:15:09.595160+00:00] Syndication → sites/semitruckmatch/content/syndication/underride-or-override-truck-crash-in-milwaukee-wisconsin-2026.json
+[2026-06-17T05:15:09.602221+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['severe-injury-after-a-truck-crash-in-burlington-vermont-2026', 'severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026', 'underride-or-override-truck-crash-in-seattle-washington-2026', 'underride-or-override-truck-crash-in-charleston-west-virginia-2026', 'underride-or-override-truck-crash-in-milwaukee-wisconsin-2026']
+[2026-06-17T05:15:09.614608+00:00] Daily ledger (UTC): 50/50 states, 53 EN posts
+[2026-06-17T05:15:09.933327+00:00] ": 0,
+      "tail": " [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-17T05:15:09.803418+00:00\",\n  \"stats\": {\n    \"enPosts\": 1365,\n    \"esPosts\": 1365,\n    \"platinumEn\": 1346,\n    \"lastUpdated\": \"2026-06-17\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"severe-injury-after-a-truck-crash-in-burlington-vermont-2026\",\n      \"severe-injury-after-a-truck-crash-in-virginia-beach-virginia-2026\",\n      \"underride-or-override-truck-crash-in-seattle-washington-2026\",\n      \"underride-or-override-truck-crash-in-charleston-west-virginia-2026\",\n      \"underride-or-override-truck-crash-in-milwaukee-wisconsin-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-17T05:15:09.933440+00:00] WARN organic_crush exit 1
