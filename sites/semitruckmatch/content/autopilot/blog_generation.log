@@ -9587,3 +9587,53 @@ Node.js v24.14.1
 }
 
 [2026-06-18T12:33:23.539690+00:00] WARN organic_crush exit 1
+[2026-06-18T16:34:58.206811+00:00] Inject for 15 states not yet published today
+[2026-06-18T16:34:58.208757+00:00] Loaded 239 cities from cities.ts
+[2026-06-18T16:34:58.209919+00:00] Daily 50-state rotation (2026-06-18): +0 new, 14 re-prioritized, 14 at queue front
+[2026-06-18T16:34:58.210558+00:00] Daily 50-state injection complete
+[2026-06-18T16:34:58.301422+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-18T16:34:58.303512+00:00] Loaded 239 cities from cities.ts
+[2026-06-18T16:34:58.307245+00:00] Daily 50-state rotation (2026-06-18): +0 new, 14 re-prioritized, 14 at queue front
+[2026-06-18T16:34:58.307912+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-18T16:34:58.314522+00:00] States already published today (UTC): 36 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio']
+[2026-06-18T16:34:58.317884+00:00] Quality 30 / 573w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-18T16:34:58.318756+00:00] Materializing template → platinum for oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026
+[2026-06-18T16:35:04.222186+00:00] After materialize: 100 / 3955w ([])
+[2026-06-18T16:35:04.224040+00:00] Spanish OK for oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026 (3212 words)
+[2026-06-18T16:35:04.227469+00:00] Spanish OK for oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026 (3212 words)
+[2026-06-18T16:35:04.467035+00:00] PPT EN oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026: 14 slides (score 100) → /blog/presentations/oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026.pptx
+[2026-06-18T16:35:04.565740+00:00] PPT ES oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026: 14 slides (score 100) → /blog/presentations/es/oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026.pptx
+[2026-06-18T16:35:04.565846+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026.md
+[2026-06-18T16:35:04.599114+00:00] IndexNow queued for oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026
+[2026-06-18T16:35:06.607450+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-18T16:35:06.608418+00:00] Materializing template → platinum for oregon-truck-accident-statute-of-limitations-portland-2026
+[2026-06-18T16:35:11.160365+00:00] After materialize: 100 / 3953w ([])
+[2026-06-18T16:35:11.161971+00:00] Spanish OK for oregon-truck-accident-statute-of-limitations-portland-2026 (3196 words)
+[2026-06-18T16:35:11.165498+00:00] Spanish OK for oregon-truck-accident-statute-of-limitations-portland-2026 (3196 words)
+[2026-06-18T16:35:11.264645+00:00] PPT EN oregon-truck-accident-statute-of-limitations-portland-2026: 14 slides (score 100) → /blog/presentations/oregon-truck-accident-statute-of-limitations-portland-2026.pptx
+[2026-06-18T16:35:11.365828+00:00] PPT ES oregon-truck-accident-statute-of-limitations-portland-2026: 14 slides (score 100) → /blog/presentations/es/oregon-truck-accident-statute-of-limitations-portland-2026.pptx
+[2026-06-18T16:35:11.365934+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/oregon-truck-accident-statute-of-limitations-portland-2026.md
+[2026-06-18T16:35:11.397688+00:00] IndexNow queued for oregon-truck-accident-statute-of-limitations-portland-2026
+[2026-06-18T16:35:13.405661+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-18T16:35:13.406711+00:00] Materializing template → platinum for pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026
+[2026-06-18T16:35:18.042946+00:00] After materialize: 100 / 3957w ([])
+[2026-06-18T16:35:18.044626+00:00] Spanish OK for pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026 (3214 words)
+[2026-06-18T16:35:18.048191+00:00] Spanish OK for pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026 (3214 words)
+[2026-06-18T16:35:18.146440+00:00] PPT EN pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026: 14 slides (score 100) → /blog/presentations/pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026.pptx
+[2026-06-18T16:35:18.240254+00:00] PPT ES pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026: 14 slides (score 100) → /blog/presentations/es/pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026.pptx
+[2026-06-18T16:35:18.240379+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026.md
+[2026-06-18T16:35:18.272089+00:00] IndexNow queued for pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026
+[2026-06-18T16:35:18.272525+00:00] Syndication → sites/semitruckmatch/content/syndication/pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026.json
+[2026-06-18T16:35:18.279403+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026', 'oregon-truck-accident-statute-of-limitations-portland-2026', 'pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026']
+[2026-06-18T16:35:18.293748+00:00] Daily ledger (UTC): 37/50 states, 39 EN posts
+[2026-06-18T16:35:18.642855+00:00] 6 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-18T16:35:18.496634+00:00\",\n  \"stats\": {\n    \"enPosts\": 1454,\n    \"esPosts\": 1454,\n    \"platinumEn\": 1435,\n    \"lastUpdated\": \"2026-06-18\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"oklahoma-truck-accident-statute-of-limitations-oklahoma-city-2026\",\n      \"oregon-truck-accident-statute-of-limitations-portland-2026\",\n      \"pennsylvania-truck-accident-statute-of-limitations-philadelphia-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-18T16:35:18.642959+00:00] WARN organic_crush exit 1
