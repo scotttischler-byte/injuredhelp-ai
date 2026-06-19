@@ -9637,3 +9637,53 @@ Node.js v24.14.1
 }
 
 [2026-06-18T16:35:18.642959+00:00] WARN organic_crush exit 1
+[2026-06-19T00:28:23.760548+00:00] Inject for 51 states not yet published today
+[2026-06-19T00:28:23.762531+00:00] Loaded 239 cities from cities.ts
+[2026-06-19T00:28:23.766004+00:00] Daily 50-state rotation (2026-06-19): +39 new, 11 re-prioritized, 50 at queue front
+[2026-06-19T00:28:23.766964+00:00] Daily 50-state injection complete
+[2026-06-19T00:28:23.867730+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-19T00:28:23.869813+00:00] Loaded 239 cities from cities.ts
+[2026-06-19T00:28:23.874147+00:00] Daily 50-state rotation (2026-06-19): +0 new, 50 re-prioritized, 50 at queue front
+[2026-06-19T00:28:23.875139+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-19T00:28:23.882219+00:00] States already published today (UTC): 0 — []
+[2026-06-19T00:28:23.885487+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-19T00:28:23.886457+00:00] Materializing template → platinum for semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19
+[2026-06-19T00:28:29.381942+00:00] After materialize: 100 / 4027w ([])
+[2026-06-19T00:28:29.383775+00:00] Spanish OK for semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19 (3238 words)
+[2026-06-19T00:28:29.387405+00:00] Spanish OK for semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19 (3238 words)
+[2026-06-19T00:28:29.740091+00:00] PPT EN semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19.pptx
+[2026-06-19T00:28:29.827270+00:00] PPT ES semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19.pptx
+[2026-06-19T00:28:29.827376+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19.md
+[2026-06-19T00:28:29.861263+00:00] IndexNow queued for semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19
+[2026-06-19T00:28:31.870677+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-19T00:28:31.871674+00:00] Materializing template → platinum for semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19
+[2026-06-19T00:28:36.234483+00:00] After materialize: 100 / 4017w ([])
+[2026-06-19T00:28:36.236142+00:00] Spanish OK for semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19 (3228 words)
+[2026-06-19T00:28:36.239715+00:00] Spanish OK for semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19 (3228 words)
+[2026-06-19T00:28:36.328535+00:00] PPT EN semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19.pptx
+[2026-06-19T00:28:36.419563+00:00] PPT ES semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19.pptx
+[2026-06-19T00:28:36.419675+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19.md
+[2026-06-19T00:28:36.453909+00:00] IndexNow queued for semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19
+[2026-06-19T00:28:38.462253+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-19T00:28:38.463254+00:00] Materializing template → platinum for semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19
+[2026-06-19T00:28:42.856591+00:00] After materialize: 100 / 4017w ([])
+[2026-06-19T00:28:42.858264+00:00] Spanish OK for semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19 (3228 words)
+[2026-06-19T00:28:42.861900+00:00] Spanish OK for semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19 (3228 words)
+[2026-06-19T00:28:42.948151+00:00] PPT EN semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19.pptx
+[2026-06-19T00:28:43.032392+00:00] PPT ES semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19.pptx
+[2026-06-19T00:28:43.032503+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19.md
+[2026-06-19T00:28:43.067215+00:00] IndexNow queued for semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19
+[2026-06-19T00:28:43.067680+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19.json
+[2026-06-19T00:28:43.075026+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19', 'semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19', 'semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19']
+[2026-06-19T00:28:43.089746+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-19T00:28:43.440418+00:00] de\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-19T00:28:43.298792+00:00\",\n  \"stats\": {\n    \"enPosts\": 1457,\n    \"esPosts\": 1457,\n    \"platinumEn\": 1438,\n    \"lastUpdated\": \"2026-06-19\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-birmingham-alabama-top-city-guide-2026-06-19\",\n      \"semi-truck-accident-in-anchorage-alaska-top-city-guide-2026-06-19\",\n      \"semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-06-19\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-19T00:28:43.440558+00:00] WARN organic_crush exit 1
