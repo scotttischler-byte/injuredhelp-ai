@@ -10201,3 +10201,53 @@ Node.js v24.14.1
 }
 
 [2026-06-19T12:55:29.189298+00:00] WARN organic_crush exit 1
+[2026-06-19T15:21:08.574985+00:00] Inject for 12 states not yet published today
+[2026-06-19T15:21:08.577018+00:00] Loaded 239 cities from cities.ts
+[2026-06-19T15:21:08.578009+00:00] Daily 50-state rotation (2026-06-19): +0 new, 11 re-prioritized, 11 at queue front
+[2026-06-19T15:21:08.578641+00:00] Daily 50-state injection complete
+[2026-06-19T15:21:08.675003+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-19T15:21:08.677101+00:00] Loaded 239 cities from cities.ts
+[2026-06-19T15:21:08.680973+00:00] Daily 50-state rotation (2026-06-19): +0 new, 11 re-prioritized, 11 at queue front
+[2026-06-19T15:21:08.681641+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-19T15:21:08.689724+00:00] States already published today (UTC): 39 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania']
+[2026-06-19T15:21:08.693046+00:00] Quality 30 / 573w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-19T15:21:08.693951+00:00] Materializing template → platinum for rhode-island-truck-accident-statute-of-limitations-providence-2026
+[2026-06-19T15:21:14.494174+00:00] After materialize: 100 / 3972w ([])
+[2026-06-19T15:21:14.496033+00:00] Spanish OK for rhode-island-truck-accident-statute-of-limitations-providence-2026 (3227 words)
+[2026-06-19T15:21:14.499627+00:00] Spanish OK for rhode-island-truck-accident-statute-of-limitations-providence-2026 (3227 words)
+[2026-06-19T15:21:14.688905+00:00] PPT EN rhode-island-truck-accident-statute-of-limitations-providence-2026: 14 slides (score 100) → /blog/presentations/rhode-island-truck-accident-statute-of-limitations-providence-2026.pptx
+[2026-06-19T15:21:14.775847+00:00] PPT ES rhode-island-truck-accident-statute-of-limitations-providence-2026: 14 slides (score 100) → /blog/presentations/es/rhode-island-truck-accident-statute-of-limitations-providence-2026.pptx
+[2026-06-19T15:21:14.775987+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/rhode-island-truck-accident-statute-of-limitations-providence-2026.md
+[2026-06-19T15:21:14.810168+00:00] IndexNow queued for rhode-island-truck-accident-statute-of-limitations-providence-2026
+[2026-06-19T15:21:16.819241+00:00] Quality 30 / 573w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-19T15:21:16.820174+00:00] Materializing template → platinum for south-carolina-truck-accident-statute-of-limitations-charleston-2026
+[2026-06-19T15:21:21.308257+00:00] After materialize: 100 / 3974w ([])
+[2026-06-19T15:21:21.309911+00:00] Spanish OK for south-carolina-truck-accident-statute-of-limitations-charleston-2026 (3231 words)
+[2026-06-19T15:21:21.313559+00:00] Spanish OK for south-carolina-truck-accident-statute-of-limitations-charleston-2026 (3231 words)
+[2026-06-19T15:21:21.400313+00:00] PPT EN south-carolina-truck-accident-statute-of-limitations-charleston-2026: 14 slides (score 100) → /blog/presentations/south-carolina-truck-accident-statute-of-limitations-charleston-2026.pptx
+[2026-06-19T15:21:21.490155+00:00] PPT ES south-carolina-truck-accident-statute-of-limitations-charleston-2026: 14 slides (score 100) → /blog/presentations/es/south-carolina-truck-accident-statute-of-limitations-charleston-2026.pptx
+[2026-06-19T15:21:21.490256+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/south-carolina-truck-accident-statute-of-limitations-charleston-2026.md
+[2026-06-19T15:21:21.524760+00:00] IndexNow queued for south-carolina-truck-accident-statute-of-limitations-charleston-2026
+[2026-06-19T15:21:23.532462+00:00] Quality 30 / 578w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-19T15:21:23.533372+00:00] Materializing template → platinum for south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026
+[2026-06-19T15:21:28.522038+00:00] After materialize: 100 / 3983w ([])
+[2026-06-19T15:21:28.523660+00:00] Spanish OK for south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026 (3245 words)
+[2026-06-19T15:21:28.527189+00:00] Spanish OK for south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026 (3245 words)
+[2026-06-19T15:21:28.612334+00:00] PPT EN south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026: 14 slides (score 100) → /blog/presentations/south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026.pptx
+[2026-06-19T15:21:28.695310+00:00] PPT ES south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026: 14 slides (score 100) → /blog/presentations/es/south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026.pptx
+[2026-06-19T15:21:28.695408+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026.md
+[2026-06-19T15:21:28.729899+00:00] IndexNow queued for south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026
+[2026-06-19T15:21:28.730291+00:00] Syndication → sites/semitruckmatch/content/syndication/south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026.json
+[2026-06-19T15:21:28.737455+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['rhode-island-truck-accident-statute-of-limitations-providence-2026', 'south-carolina-truck-accident-statute-of-limitations-charleston-2026', 'south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026']
+[2026-06-19T15:21:28.751305+00:00] Daily ledger (UTC): 39/50 states, 42 EN posts
+[2026-06-19T15:21:29.100660+00:00] 026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-19T15:21:28.958454+00:00\",\n  \"stats\": {\n    \"enPosts\": 1496,\n    \"esPosts\": 1496,\n    \"platinumEn\": 1477,\n    \"lastUpdated\": \"2026-06-19\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"rhode-island-truck-accident-statute-of-limitations-providence-2026\",\n      \"south-carolina-truck-accident-statute-of-limitations-charleston-2026\",\n      \"south-dakota-truck-accident-statute-of-limitations-sioux-falls-2026\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-19T15:21:29.100785+00:00] WARN organic_crush exit 1
