@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Burlington, Vermont — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026  
-**Generated:** 2026-06-20T07:07:41.612270+00:00  
+**Generated:** 2026-06-20T10:30:18.491520+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
