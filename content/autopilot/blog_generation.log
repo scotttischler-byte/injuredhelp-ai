@@ -17524,3 +17524,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-21T00:09:19.975590+00:00] WARN organic_crush exit 1
+[2026-06-21T06:03:32.536491+00:00] Inject for 48 states not yet published today
+[2026-06-21T06:03:32.538566+00:00] Loaded 239 cities from cities.ts
+[2026-06-21T06:03:32.595631+00:00] Daily 50-state rotation (2026-06-21): +0 new, 46 re-prioritized, 46 at queue front
+[2026-06-21T06:03:32.625702+00:00] Daily 50-state injection complete
+[2026-06-21T06:03:32.728136+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-21T06:03:32.730411+00:00] Loaded 239 cities from cities.ts
+[2026-06-21T06:03:32.788209+00:00] Daily 50-state rotation (2026-06-21): +0 new, 46 re-prioritized, 46 at queue front
+[2026-06-21T06:03:32.819774+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-21T06:03:32.831183+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-21T06:03:32.834711+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-21T06:03:32.835720+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21
+[2026-06-21T06:03:39.167781+00:00] After materialize: 100 / 3924w ([])
+[2026-06-21T06:03:39.169676+00:00] Spanish OK for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21 (3254 words)
+[2026-06-21T06:03:39.173072+00:00] Spanish OK for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21 (3254 words)
+[2026-06-21T06:03:39.381136+00:00] PPT EN what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21.pptx
+[2026-06-21T06:03:39.478987+00:00] PPT ES what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21.pptx
+[2026-06-21T06:03:39.479076+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21.md
+[2026-06-21T06:03:39.510548+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21
+[2026-06-21T06:03:41.560868+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-21T06:03:41.561852+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21
+[2026-06-21T06:03:46.838403+00:00] After materialize: 100 / 3921w ([])
+[2026-06-21T06:03:46.840027+00:00] Spanish OK for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21 (3252 words)
+[2026-06-21T06:03:46.843398+00:00] Spanish OK for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21 (3252 words)
+[2026-06-21T06:03:46.941681+00:00] PPT EN what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21.pptx
+[2026-06-21T06:03:47.039257+00:00] PPT ES what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21.pptx
+[2026-06-21T06:03:47.039344+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21.md
+[2026-06-21T06:03:47.072241+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21
+[2026-06-21T06:03:49.117267+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-21T06:03:49.118275+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21
+[2026-06-21T06:03:54.532474+00:00] After materialize: 100 / 3976w ([])
+[2026-06-21T06:03:54.534167+00:00] Spanish OK for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21 (3240 words)
+[2026-06-21T06:03:54.537663+00:00] Spanish OK for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21 (3240 words)
+[2026-06-21T06:03:54.636047+00:00] PPT EN what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21.pptx
+[2026-06-21T06:03:54.734122+00:00] PPT ES what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21.pptx
+[2026-06-21T06:03:54.734214+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21.md
+[2026-06-21T06:03:54.766441+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21
+[2026-06-21T06:03:54.766860+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21.json
+[2026-06-21T06:03:54.809975+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21', 'what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21', 'what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21']
+[2026-06-21T06:03:54.828784+00:00] Daily ledger (UTC): 6/50 states, 6 EN posts
+[2026-06-21T06:03:55.170088+00:00] l": "lt car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-21T06:03:55.031360+00:00\",\n  \"stats\": {\n    \"enPosts\": 1561,\n    \"esPosts\": 1561,\n    \"platinumEn\": 1542,\n    \"lastUpdated\": \"2026-06-21\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-21\",\n      \"what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-21\",\n      \"what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-21T06:03:55.170191+00:00] WARN organic_crush exit 1
