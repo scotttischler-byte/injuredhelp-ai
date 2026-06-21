@@ -15,15 +15,17 @@ excerpt: >-
   matching in ~60 seconds via WreckMatch.
 autopilot: true
 vertical: auto
-qualityTier: "platinum"
-authorId: "scott-tischler"
-reviewerId: "roy-waddell"
+qualityTier: platinum
+authorId: scott-tischler
+reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21
-presentationUrl: "/blog/presentations/es/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21.pptx
+presentationUrlEn: >-
   /blog/presentations/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-21.pptx
 ---
 ## Por qué publicamos esta guía para Denver Colorado Top City Guide 2026 06
@@ -293,4 +295,3 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
 **[Emparejamiento gratuito →](https://www.wreckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
-
