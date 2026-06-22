@@ -18435,3 +18435,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-22T15:53:59.713522+00:00] WARN organic_crush exit 1
+[2026-06-22T19:30:18.506081+00:00] Inject for 42 states not yet published today
+[2026-06-22T19:30:18.508136+00:00] Loaded 239 cities from cities.ts
+[2026-06-22T19:30:18.563910+00:00] Daily 50-state rotation (2026-06-22): +0 new, 40 re-prioritized, 40 at queue front
+[2026-06-22T19:30:18.594954+00:00] Daily 50-state injection complete
+[2026-06-22T19:30:18.698472+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-22T19:30:18.700779+00:00] Loaded 239 cities from cities.ts
+[2026-06-22T19:30:18.757963+00:00] Daily 50-state rotation (2026-06-22): +0 new, 40 re-prioritized, 40 at queue front
+[2026-06-22T19:30:18.789874+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-22T19:30:18.801217+00:00] States already published today (UTC): 9 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida']
+[2026-06-22T19:30:18.804725+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-22T19:30:18.805670+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22
+[2026-06-22T19:30:25.416489+00:00] After materialize: 100 / 3913w ([])
+[2026-06-22T19:30:25.418350+00:00] Spanish OK for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22 (3238 words)
+[2026-06-22T19:30:25.421819+00:00] Spanish OK for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22 (3238 words)
+[2026-06-22T19:30:25.647868+00:00] PPT EN what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22.pptx
+[2026-06-22T19:30:25.745198+00:00] PPT ES what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22.pptx
+[2026-06-22T19:30:25.745292+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22.md
+[2026-06-22T19:30:25.777112+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22
+[2026-06-22T19:30:27.829416+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-22T19:30:27.830435+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22
+[2026-06-22T19:30:33.305861+00:00] After materialize: 100 / 3985w ([])
+[2026-06-22T19:30:33.307429+00:00] Spanish OK for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22 (3258 words)
+[2026-06-22T19:30:33.310893+00:00] Spanish OK for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22 (3258 words)
+[2026-06-22T19:30:33.408542+00:00] PPT EN what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22.pptx
+[2026-06-22T19:30:33.506183+00:00] PPT ES what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22.pptx
+[2026-06-22T19:30:33.506273+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22.md
+[2026-06-22T19:30:33.538126+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22
+[2026-06-22T19:30:35.586352+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-22T19:30:35.587308+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22
+[2026-06-22T19:30:40.912005+00:00] After materialize: 100 / 3902w ([])
+[2026-06-22T19:30:40.913540+00:00] Spanish OK for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22 (3240 words)
+[2026-06-22T19:30:40.916946+00:00] Spanish OK for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22 (3240 words)
+[2026-06-22T19:30:41.013949+00:00] PPT EN what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22.pptx
+[2026-06-22T19:30:41.110253+00:00] PPT ES what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22.pptx
+[2026-06-22T19:30:41.110337+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22.md
+[2026-06-22T19:30:41.142391+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22
+[2026-06-22T19:30:41.142812+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22.json
+[2026-06-22T19:30:41.187924+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22', 'what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22', 'what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22']
+[2026-06-22T19:30:41.208486+00:00] Daily ledger (UTC): 12/50 states, 12 EN posts
+[2026-06-22T19:30:41.549798+00:00] l": " comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-22T19:30:41.414543+00:00\",\n  \"stats\": {\n    \"enPosts\": 1616,\n    \"esPosts\": 1616,\n    \"platinumEn\": 1597,\n    \"lastUpdated\": \"2026-06-22\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-06-22\",\n      \"what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-22\",\n      \"what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-06-22\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-22T19:30:41.549910+00:00] WARN organic_crush exit 1
