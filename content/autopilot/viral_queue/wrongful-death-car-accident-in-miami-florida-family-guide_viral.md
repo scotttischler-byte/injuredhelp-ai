@@ -1,7 +1,7 @@
 # Viral content pack — Wrongful Death Car Accident in Miami, Florida — Family Guide
 
 **URL:** https://www.wreckmatch.com/blog/wrongful-death-car-accident-in-miami-florida-family-guide  
-**Generated:** 2026-06-24T09:51:47.437213+00:00  
+**Generated:** 2026-06-25T10:39:32.074114+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
