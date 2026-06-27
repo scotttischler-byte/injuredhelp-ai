@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in San Antonio, Texas — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-san-antonio-texas-what-to-know-2026  
-**Generated:** 2026-06-27T06:37:30.713735+00:00  
+**Generated:** 2026-06-27T08:50:30.794909+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
