@@ -22664,3 +22664,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 [2026-06-27T22:14:15.808121+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
 [2026-06-27T22:14:15.816141+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
 [2026-06-27T22:14:15.839071+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-06-28T00:04:25.896275+00:00] Inject for 51 states not yet published today
+[2026-06-28T00:04:25.898498+00:00] Loaded 239 cities from cities.ts
+[2026-06-28T00:04:25.956619+00:00] Daily 50-state rotation (2026-06-28): +49 new, 0 re-prioritized, 49 at queue front
+[2026-06-28T00:04:25.988837+00:00] Daily 50-state injection complete
+[2026-06-28T00:04:26.092826+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-28T00:04:26.095091+00:00] Loaded 239 cities from cities.ts
+[2026-06-28T00:04:26.153965+00:00] Daily 50-state rotation (2026-06-28): +0 new, 49 re-prioritized, 49 at queue front
+[2026-06-28T00:04:26.186040+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-28T00:04:26.198911+00:00] States already published today (UTC): 0 — []
+[2026-06-28T00:04:26.202524+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-28T00:04:26.203502+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28
+[2026-06-28T00:04:33.145638+00:00] After materialize: 100 / 3912w ([])
+[2026-06-28T00:04:33.147521+00:00] Spanish OK for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28 (3246 words)
+[2026-06-28T00:04:33.150823+00:00] Spanish OK for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28 (3246 words)
+[2026-06-28T00:04:33.377927+00:00] PPT EN what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28.pptx
+[2026-06-28T00:04:33.477669+00:00] PPT ES what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28.pptx
+[2026-06-28T00:04:33.477791+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28.md
+[2026-06-28T00:04:33.509713+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28
+[2026-06-28T00:04:35.561371+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-28T00:04:35.562429+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28
+[2026-06-28T00:04:41.375103+00:00] After materialize: 100 / 3973w ([])
+[2026-06-28T00:04:41.377737+00:00] Spanish OK for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28 (3241 words)
+[2026-06-28T00:04:41.383418+00:00] Spanish OK for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28 (3241 words)
+[2026-06-28T00:04:41.581532+00:00] PPT EN what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28.pptx
+[2026-06-28T00:04:41.725537+00:00] PPT ES what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28.pptx
+[2026-06-28T00:04:41.725806+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28.md
+[2026-06-28T00:04:41.838642+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28
+[2026-06-28T00:04:43.901707+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-28T00:04:43.902672+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28
+[2026-06-28T00:04:49.502991+00:00] After materialize: 100 / 3902w ([])
+[2026-06-28T00:04:49.504560+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28 (3236 words)
+[2026-06-28T00:04:49.507907+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28 (3236 words)
+[2026-06-28T00:04:49.608437+00:00] PPT EN what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28.pptx
+[2026-06-28T00:04:49.707103+00:00] PPT ES what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28.pptx
+[2026-06-28T00:04:49.707214+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28.md
+[2026-06-28T00:04:49.739010+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28
+[2026-06-28T00:04:49.739465+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28.json
+[2026-06-28T00:04:49.787231+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28', 'what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28', 'what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28']
+[2026-06-28T00:04:49.813099+00:00] Daily ledger (UTC): 3/50 states, 3 EN posts
+[2026-06-28T00:04:50.178732+00:00] l": "tive fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-28T00:04:50.036094+00:00\",\n  \"stats\": {\n    \"enPosts\": 1870,\n    \"esPosts\": 1870,\n    \"platinumEn\": 1851,\n    \"lastUpdated\": \"2026-06-28\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28\",\n      \"what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28\",\n      \"what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-28T00:04:50.178873+00:00] WARN organic_crush exit 1
