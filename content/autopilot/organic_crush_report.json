@@ -1,28 +1,28 @@
 {
-  "at": "2026-06-28T04:51:41.489167+00:00",
+  "at": "2026-06-28T07:11:12.149212+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": true,
-      "code": 0,
-      "tail": "meshed what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-06-28\nmeshed what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-06-28\nmeshed what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-06-28\nmeshed what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-06-28\nmeshed what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-06-28\nmeshed what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-06-28\nDone. 6 posts.\n"
+      "ok": false,
+      "code": 2,
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-06-28 what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-06-28 what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-06-28 what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-06-28\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "eath-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-san-antonio-texas-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-06-27_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-06-23_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-06-28_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-06-28_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-06-28_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-28T04:51:54.673961+00:00\",\n  \"stats\": {\n    \"enPosts\": 1873,\n    \"esPosts\": 1873,\n    \"platinumEn\": 1854,\n    \"lastUpdated\": \"2026-06-28\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-28T07:11:12.333629+00:00\",\n  \"stats\": {\n    \"enPosts\": 1888,\n    \"esPosts\": 1888,\n    \"platinumEn\": 1869,\n    \"lastUpdated\": \"2026-06-28\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-06-28\",\n      \"what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-06-28\",\n      \"what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-06-28\",\n      \"what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-06-28\",\n      \"what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-06-28\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": true
+  "ok": false
 }
