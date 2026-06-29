@@ -24157,3 +24157,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-29T20:00:35.159937+00:00] WARN organic_crush exit 1
+[2026-06-29T21:28:09.551836+00:00] Inject for 8 states not yet published today
+[2026-06-29T21:28:09.554060+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T21:28:09.601669+00:00] Daily 50-state rotation (2026-06-29): +0 new, 6 re-prioritized, 6 at queue front
+[2026-06-29T21:28:09.631390+00:00] Daily 50-state injection complete
+[2026-06-29T21:28:09.732367+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-29T21:28:09.734576+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T21:28:09.785548+00:00] Daily 50-state rotation (2026-06-29): +0 new, 6 re-prioritized, 6 at queue front
+[2026-06-29T21:28:09.816044+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-29T21:28:09.830360+00:00] States already published today (UTC): 43 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas']
+[2026-06-29T21:28:09.833848+00:00] Quality 30 / 573w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T21:28:09.834827+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29
+[2026-06-29T21:28:16.483918+00:00] After materialize: 100 / 3945w ([])
+[2026-06-29T21:28:16.485708+00:00] Spanish OK for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29 (3283 words)
+[2026-06-29T21:28:16.489003+00:00] Spanish OK for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29 (3283 words)
+[2026-06-29T21:28:16.710837+00:00] PPT EN what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29.pptx
+[2026-06-29T21:28:16.807701+00:00] PPT ES what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29.pptx
+[2026-06-29T21:28:16.807800+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29.md
+[2026-06-29T21:28:16.839369+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29
+[2026-06-29T21:28:18.892748+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T21:28:18.893831+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29
+[2026-06-29T21:28:24.414073+00:00] After materialize: 100 / 3965w ([])
+[2026-06-29T21:28:24.415632+00:00] Spanish OK for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29 (3242 words)
+[2026-06-29T21:28:24.419063+00:00] Spanish OK for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29 (3242 words)
+[2026-06-29T21:28:24.514136+00:00] PPT EN what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29.pptx
+[2026-06-29T21:28:24.608910+00:00] PPT ES what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29.pptx
+[2026-06-29T21:28:24.608989+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29.md
+[2026-06-29T21:28:24.640402+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29
+[2026-06-29T21:28:26.688871+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T21:28:26.689847+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29
+[2026-06-29T21:28:32.363416+00:00] After materialize: 100 / 3923w ([])
+[2026-06-29T21:28:32.364938+00:00] Spanish OK for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29 (3262 words)
+[2026-06-29T21:28:32.368222+00:00] Spanish OK for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29 (3262 words)
+[2026-06-29T21:28:32.464247+00:00] PPT EN what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29.pptx
+[2026-06-29T21:28:32.559726+00:00] PPT ES what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29.pptx
+[2026-06-29T21:28:32.559808+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29.md
+[2026-06-29T21:28:32.590898+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29
+[2026-06-29T21:28:32.591261+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29.json
+[2026-06-29T21:28:32.638720+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29', 'what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29', 'what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29']
+[2026-06-29T21:28:32.665636+00:00] Daily ledger (UTC): 46/50 states, 46 EN posts
+[2026-06-29T21:28:33.023638+00:00] l": "car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-29T21:28:32.887061+00:00\",\n  \"stats\": {\n    \"enPosts\": 1962,\n    \"esPosts\": 1962,\n    \"platinumEn\": 1943,\n    \"lastUpdated\": \"2026-06-29\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29\",\n      \"what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-06-29\",\n      \"what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-06-29\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-29T21:28:33.023747+00:00] WARN organic_crush exit 1
