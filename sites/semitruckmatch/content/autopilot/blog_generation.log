@@ -15516,3 +15516,53 @@ Node.js v24.14.1
 }
 
 [2026-06-29T00:11:29.347988+00:00] WARN organic_crush exit 1
+[2026-06-29T05:52:21.717688+00:00] Inject for 48 states not yet published today
+[2026-06-29T05:52:21.719606+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T05:52:21.725243+00:00] Daily 50-state rotation (2026-06-29): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-29T05:52:21.726797+00:00] Daily 50-state injection complete
+[2026-06-29T05:52:21.821790+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-29T05:52:21.823791+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T05:52:21.829381+00:00] Daily 50-state rotation (2026-06-29): +0 new, 47 re-prioritized, 47 at queue front
+[2026-06-29T05:52:21.831088+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-29T05:52:21.841553+00:00] States already published today (UTC): 3 — ['Alabama', 'Alaska', 'Arizona']
+[2026-06-29T05:52:21.845240+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T05:52:21.846209+00:00] Materializing template → platinum for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29
+[2026-06-29T05:52:28.352899+00:00] After materialize: 100 / 4039w ([])
+[2026-06-29T05:52:28.354668+00:00] Spanish OK for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29 (3246 words)
+[2026-06-29T05:52:28.358172+00:00] Spanish OK for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29 (3246 words)
+[2026-06-29T05:52:28.576108+00:00] PPT EN semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29.pptx
+[2026-06-29T05:52:28.672909+00:00] PPT ES semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29.pptx
+[2026-06-29T05:52:28.673007+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29.md
+[2026-06-29T05:52:28.704175+00:00] IndexNow queued for semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29
+[2026-06-29T05:52:30.717979+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T05:52:30.718967+00:00] Materializing template → platinum for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29
+[2026-06-29T05:52:35.749929+00:00] After materialize: 100 / 4036w ([])
+[2026-06-29T05:52:35.751487+00:00] Spanish OK for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29 (3244 words)
+[2026-06-29T05:52:35.754950+00:00] Spanish OK for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29 (3244 words)
+[2026-06-29T05:52:35.851333+00:00] PPT EN semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29.pptx
+[2026-06-29T05:52:35.951787+00:00] PPT ES semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29.pptx
+[2026-06-29T05:52:35.951914+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29.md
+[2026-06-29T05:52:35.983593+00:00] IndexNow queued for semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29
+[2026-06-29T05:52:37.996078+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T05:52:37.997052+00:00] Materializing template → platinum for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29
+[2026-06-29T05:52:43.174947+00:00] After materialize: 100 / 4028w ([])
+[2026-06-29T05:52:43.176464+00:00] Spanish OK for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29 (3230 words)
+[2026-06-29T05:52:43.179942+00:00] Spanish OK for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29 (3230 words)
+[2026-06-29T05:52:43.276062+00:00] PPT EN semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29.pptx
+[2026-06-29T05:52:43.370335+00:00] PPT ES semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29.pptx
+[2026-06-29T05:52:43.370438+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29.md
+[2026-06-29T05:52:43.402396+00:00] IndexNow queued for semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29
+[2026-06-29T05:52:43.402916+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29.json
+[2026-06-29T05:52:43.413568+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29', 'semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29', 'semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29']
+[2026-06-29T05:52:43.433990+00:00] Daily ledger (UTC): 6/50 states, 6 EN posts
+[2026-06-29T05:52:43.792523+00:00] \n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-29T05:52:43.654538+00:00\",\n  \"stats\": {\n    \"enPosts\": 1919,\n    \"esPosts\": 1919,\n    \"platinumEn\": 1900,\n    \"lastUpdated\": \"2026-06-29\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-little-rock-arkansas-top-city-guide-2026-06-29\",\n      \"semi-truck-accident-in-los-angeles-california-top-city-guide-2026-06-29\",\n      \"semi-truck-accident-in-denver-colorado-top-city-guide-2026-06-29\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-29T05:52:43.792644+00:00] WARN organic_crush exit 1
