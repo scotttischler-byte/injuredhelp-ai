@@ -24057,3 +24057,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-29T14:50:58.012207+00:00] WARN organic_crush exit 1
+[2026-06-29T17:38:44.965626+00:00] Inject for 14 states not yet published today
+[2026-06-29T17:38:44.967901+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T17:38:45.016110+00:00] Daily 50-state rotation (2026-06-29): +0 new, 12 re-prioritized, 12 at queue front
+[2026-06-29T17:38:45.053667+00:00] Daily 50-state injection complete
+[2026-06-29T17:38:45.159052+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-29T17:38:45.161342+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T17:38:45.211267+00:00] Daily 50-state rotation (2026-06-29): +0 new, 12 re-prioritized, 12 at queue front
+[2026-06-29T17:38:45.244465+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-29T17:38:45.259928+00:00] States already published today (UTC): 37 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon']
+[2026-06-29T17:38:45.263406+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T17:38:45.264426+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29
+[2026-06-29T17:38:51.899481+00:00] After materialize: 100 / 3988w ([])
+[2026-06-29T17:38:51.901362+00:00] Spanish OK for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29 (3261 words)
+[2026-06-29T17:38:51.904772+00:00] Spanish OK for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29 (3261 words)
+[2026-06-29T17:38:52.146462+00:00] PPT EN what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:38:52.237621+00:00] PPT ES what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:38:52.237720+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29.md
+[2026-06-29T17:38:52.308403+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29
+[2026-06-29T17:38:54.376487+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T17:38:54.377493+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29
+[2026-06-29T17:38:59.895524+00:00] After materialize: 100 / 3932w ([])
+[2026-06-29T17:38:59.897174+00:00] Spanish OK for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29 (3269 words)
+[2026-06-29T17:38:59.900608+00:00] Spanish OK for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29 (3269 words)
+[2026-06-29T17:38:59.986382+00:00] PPT EN what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:39:00.071751+00:00] PPT ES what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:39:00.071845+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29.md
+[2026-06-29T17:39:00.104844+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29
+[2026-06-29T17:39:02.154610+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T17:39:02.155651+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29
+[2026-06-29T17:39:07.681044+00:00] After materialize: 100 / 3934w ([])
+[2026-06-29T17:39:07.682736+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29 (3273 words)
+[2026-06-29T17:39:07.686217+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29 (3273 words)
+[2026-06-29T17:39:07.773251+00:00] PPT EN what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:39:07.859148+00:00] PPT ES what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:39:07.859269+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29.md
+[2026-06-29T17:39:07.892578+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29
+[2026-06-29T17:39:07.892944+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29.json
+[2026-06-29T17:39:07.942336+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29', 'what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29', 'what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29']
+[2026-06-29T17:39:07.968745+00:00] Daily ledger (UTC): 40/50 states, 40 EN posts
+[2026-06-29T17:39:08.344639+00:00] l": " Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-29T17:39:08.198436+00:00\",\n  \"stats\": {\n    \"enPosts\": 1956,\n    \"esPosts\": 1956,\n    \"platinumEn\": 1937,\n    \"lastUpdated\": \"2026-06-29\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-06-29\",\n      \"what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-06-29\",\n      \"what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-06-29\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-29T17:39:08.344763+00:00] WARN organic_crush exit 1
