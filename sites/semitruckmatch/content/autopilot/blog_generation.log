@@ -16080,3 +16080,53 @@ Node.js v24.14.1
 }
 
 [2026-06-29T14:50:51.183560+00:00] WARN organic_crush exit 1
+[2026-06-29T17:38:43.669578+00:00] Inject for 9 states not yet published today
+[2026-06-29T17:38:43.671504+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T17:38:43.673262+00:00] Daily 50-state rotation (2026-06-29): +0 new, 8 re-prioritized, 8 at queue front
+[2026-06-29T17:38:43.674512+00:00] Daily 50-state injection complete
+[2026-06-29T17:38:43.766643+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-29T17:38:43.768721+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T17:38:43.773641+00:00] Daily 50-state rotation (2026-06-29): +0 new, 8 re-prioritized, 8 at queue front
+[2026-06-29T17:38:43.775022+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-29T17:38:43.786626+00:00] States already published today (UTC): 42 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota']
+[2026-06-29T17:38:43.790226+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T17:38:43.791201+00:00] Materializing template → platinum for semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29
+[2026-06-29T17:38:49.784435+00:00] After materialize: 100 / 4028w ([])
+[2026-06-29T17:38:49.786252+00:00] Spanish OK for semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29 (3230 words)
+[2026-06-29T17:38:49.789654+00:00] Spanish OK for semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29 (3230 words)
+[2026-06-29T17:38:49.971127+00:00] PPT EN semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:38:50.068079+00:00] PPT ES semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:38:50.068184+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29.md
+[2026-06-29T17:38:50.099353+00:00] IndexNow queued for semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29
+[2026-06-29T17:38:52.113271+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T17:38:52.114260+00:00] Materializing template → platinum for semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29
+[2026-06-29T17:38:56.966872+00:00] After materialize: 100 / 4035w ([])
+[2026-06-29T17:38:56.968426+00:00] Spanish OK for semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29 (3237 words)
+[2026-06-29T17:38:56.971953+00:00] Spanish OK for semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29 (3237 words)
+[2026-06-29T17:38:57.070083+00:00] PPT EN semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:38:57.171592+00:00] PPT ES semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:38:57.171685+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29.md
+[2026-06-29T17:38:57.203291+00:00] IndexNow queued for semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29
+[2026-06-29T17:38:59.215617+00:00] Quality 30 / 653w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T17:38:59.216645+00:00] Materializing template → platinum for semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29
+[2026-06-29T17:39:04.138227+00:00] After materialize: 100 / 4060w ([])
+[2026-06-29T17:39:04.139708+00:00] Spanish OK for semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29 (3275 words)
+[2026-06-29T17:39:04.143100+00:00] Spanish OK for semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29 (3275 words)
+[2026-06-29T17:39:04.241160+00:00] PPT EN semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:39:04.336259+00:00] PPT ES semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29.pptx
+[2026-06-29T17:39:04.336356+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29.md
+[2026-06-29T17:39:04.368329+00:00] IndexNow queued for semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29
+[2026-06-29T17:39:04.368806+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29.json
+[2026-06-29T17:39:04.379597+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29', 'semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29', 'semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29']
+[2026-06-29T17:39:04.399316+00:00] Daily ledger (UTC): 45/50 states, 45 EN posts
+[2026-06-29T17:39:04.796274+00:00] \u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-29T17:39:04.648514+00:00\",\n  \"stats\": {\n    \"enPosts\": 1953,\n    \"esPosts\": 1953,\n    \"platinumEn\": 1934,\n    \"lastUpdated\": \"2026-06-29\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-nashville-tennessee-top-city-guide-2026-06-29\",\n      \"semi-truck-accident-in-houston-texas-top-city-guide-2026-06-29\",\n      \"semi-truck-accident-in-salt-lake-city-utah-top-city-guide-2026-06-29\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-29T17:39:04.796385+00:00] WARN organic_crush exit 1
