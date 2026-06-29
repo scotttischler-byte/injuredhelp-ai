@@ -15773,3 +15773,53 @@ Node.js v24.14.1
 }
 
 [2026-06-29T08:25:44.662493+00:00] WARN organic_crush exit 1
+[2026-06-29T11:02:33.978328+00:00] Inject for 30 states not yet published today
+[2026-06-29T11:02:33.980222+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T11:02:33.983883+00:00] Daily 50-state rotation (2026-06-29): +0 new, 29 re-prioritized, 29 at queue front
+[2026-06-29T11:02:33.985251+00:00] Daily 50-state injection complete
+[2026-06-29T11:02:34.074129+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-29T11:02:34.076117+00:00] Loaded 239 cities from cities.ts
+[2026-06-29T11:02:34.081241+00:00] Daily 50-state rotation (2026-06-29): +0 new, 29 re-prioritized, 29 at queue front
+[2026-06-29T11:02:34.082770+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-29T11:02:34.093897+00:00] States already published today (UTC): 21 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland']
+[2026-06-29T11:02:34.097328+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T11:02:34.098343+00:00] Materializing template → platinum for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29
+[2026-06-29T11:02:39.864409+00:00] After materialize: 100 / 4032w ([])
+[2026-06-29T11:02:39.866193+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29 (3248 words)
+[2026-06-29T11:02:39.869591+00:00] Spanish OK for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29 (3248 words)
+[2026-06-29T11:02:40.082286+00:00] PPT EN semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29.pptx
+[2026-06-29T11:02:40.177676+00:00] PPT ES semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29.pptx
+[2026-06-29T11:02:40.177757+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29.md
+[2026-06-29T11:02:40.208391+00:00] IndexNow queued for semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29
+[2026-06-29T11:02:42.222100+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T11:02:42.223056+00:00] Materializing template → platinum for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29
+[2026-06-29T11:02:47.016384+00:00] After materialize: 100 / 4032w ([])
+[2026-06-29T11:02:47.017921+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29 (3248 words)
+[2026-06-29T11:02:47.021317+00:00] Spanish OK for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29 (3248 words)
+[2026-06-29T11:02:47.118227+00:00] PPT EN semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29.pptx
+[2026-06-29T11:02:47.216403+00:00] PPT ES semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29.pptx
+[2026-06-29T11:02:47.216480+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29.md
+[2026-06-29T11:02:47.247484+00:00] IndexNow queued for semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29
+[2026-06-29T11:02:49.260474+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-29T11:02:49.261421+00:00] Materializing template → platinum for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29
+[2026-06-29T11:02:54.104274+00:00] After materialize: 100 / 4027w ([])
+[2026-06-29T11:02:54.105772+00:00] Spanish OK for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29 (3245 words)
+[2026-06-29T11:02:54.109030+00:00] Spanish OK for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29 (3245 words)
+[2026-06-29T11:02:54.205485+00:00] PPT EN semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29.pptx
+[2026-06-29T11:02:54.299097+00:00] PPT ES semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29.pptx
+[2026-06-29T11:02:54.299190+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29.md
+[2026-06-29T11:02:54.331796+00:00] IndexNow queued for semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29
+[2026-06-29T11:02:54.332233+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29.json
+[2026-06-29T11:02:54.343135+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29', 'semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29', 'semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29']
+[2026-06-29T11:02:54.363981+00:00] Daily ledger (UTC): 24/50 states, 24 EN posts
+[2026-06-29T11:02:54.730174+00:00] \n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-29T11:02:54.585059+00:00\",\n  \"stats\": {\n    \"enPosts\": 1922,\n    \"esPosts\": 1922,\n    \"platinumEn\": 1903,\n    \"lastUpdated\": \"2026-06-29\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-boston-massachusetts-top-city-guide-2026-06-29\",\n      \"semi-truck-accident-in-detroit-michigan-top-city-guide-2026-06-29\",\n      \"semi-truck-accident-in-minneapolis-minnesota-top-city-guide-2026-06-29\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-29T11:02:54.730331+00:00] WARN organic_crush exit 1
