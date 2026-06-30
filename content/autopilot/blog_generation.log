@@ -24616,3 +24616,53 @@ Report: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposu
 }
 
 [2026-06-30T11:52:33.077205+00:00] WARN organic_crush exit 1
+[2026-06-30T14:21:48.328205+00:00] Inject for 27 states not yet published today
+[2026-06-30T14:21:48.330511+00:00] Loaded 239 cities from cities.ts
+[2026-06-30T14:21:48.381674+00:00] Daily 50-state rotation (2026-06-30): +0 new, 25 re-prioritized, 25 at queue front
+[2026-06-30T14:21:48.413251+00:00] Daily 50-state injection complete
+[2026-06-30T14:21:48.519767+00:00] Quality bar: score ≥100, words ≥3000
+[2026-06-30T14:21:48.522109+00:00] Loaded 239 cities from cities.ts
+[2026-06-30T14:21:48.575142+00:00] Daily 50-state rotation (2026-06-30): +0 new, 25 re-prioritized, 25 at queue front
+[2026-06-30T14:21:48.610580+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-06-30T14:21:48.626424+00:00] States already published today (UTC): 24 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi']
+[2026-06-30T14:21:48.629942+00:00] Quality 30 / 631w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-30T14:21:48.630957+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30
+[2026-06-30T14:21:55.625036+00:00] After materialize: 100 / 3976w ([])
+[2026-06-30T14:21:55.626863+00:00] Spanish OK for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30 (3254 words)
+[2026-06-30T14:21:55.630282+00:00] Spanish OK for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30 (3254 words)
+[2026-06-30T14:21:55.945243+00:00] PPT EN what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30.pptx
+[2026-06-30T14:21:56.031301+00:00] PPT ES what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30.pptx
+[2026-06-30T14:21:56.031396+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30.md
+[2026-06-30T14:21:56.065003+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30
+[2026-06-30T14:21:58.120528+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-30T14:21:58.121511+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30
+[2026-06-30T14:22:03.780042+00:00] After materialize: 100 / 3902w ([])
+[2026-06-30T14:22:03.781602+00:00] Spanish OK for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30 (3240 words)
+[2026-06-30T14:22:03.784978+00:00] Spanish OK for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30 (3240 words)
+[2026-06-30T14:22:03.870574+00:00] PPT EN what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30.pptx
+[2026-06-30T14:22:03.956400+00:00] PPT ES what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30.pptx
+[2026-06-30T14:22:03.956515+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30.md
+[2026-06-30T14:22:03.989861+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30
+[2026-06-30T14:22:06.040383+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-06-30T14:22:06.041350+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30
+[2026-06-30T14:22:11.672385+00:00] After materialize: 100 / 3902w ([])
+[2026-06-30T14:22:11.673923+00:00] Spanish OK for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30 (3240 words)
+[2026-06-30T14:22:11.677184+00:00] Spanish OK for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30 (3240 words)
+[2026-06-30T14:22:11.763036+00:00] PPT EN what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30.pptx
+[2026-06-30T14:22:11.848210+00:00] PPT ES what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30.pptx
+[2026-06-30T14:22:11.848302+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30.md
+[2026-06-30T14:22:11.882360+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30
+[2026-06-30T14:22:11.882749+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30.json
+[2026-06-30T14:22:11.931711+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30', 'what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30', 'what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30']
+[2026-06-30T14:22:11.958509+00:00] Daily ledger (UTC): 27/50 states, 27 EN posts
+[2026-06-30T14:22:12.349799+00:00] l": "ive fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-06-30T14:22:12.198836+00:00\",\n  \"stats\": {\n    \"enPosts\": 1992,\n    \"esPosts\": 1992,\n    \"platinumEn\": 1973,\n    \"lastUpdated\": \"2026-06-30\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-06-30\",\n      \"what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-06-30\",\n      \"what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-06-30\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-06-30T14:22:12.349946+00:00] WARN organic_crush exit 1
