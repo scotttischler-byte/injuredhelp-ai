@@ -294,3 +294,8 @@ You are never obligated to hire the first lawyer you speak with. Ask about their
 - [State & city resource center](https://www.wreckmatch.com/states)
 - [Accident checklist](https://www.wreckmatch.com/checklist-after-car-accident)
 - [Free attorney matching](https://www.wreckmatch.com/#form) · 855 WRECKMATCH (855) 897-3256
+- [18 Wheeler Crash In Birmingham Alabama Victim Guide 2026](https://www.wreckmatch.com/blog/18-wheeler-crash-in-birmingham-alabama-victim-guide-2026)
+- [7 Costly Car Accident Mistakes In Birmingham Alabama 2026](https://www.wreckmatch.com/blog/7-costly-car-accident-mistakes-in-birmingham-alabama-2026)
+- [Alabama Car Accident Statute Of Limitations Birmingham 2026](https://www.wreckmatch.com/blog/alabama-car-accident-statute-of-limitations-birmingham-2026)
+- [Catastrophic Injury Car Crash In Birmingham Alabama 2026](https://www.wreckmatch.com/blog/catastrophic-injury-car-crash-in-birmingham-alabama-2026)
+- [Spanish version / versión en español](https://www.wreckmatch.com/es/blog/what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-03)
