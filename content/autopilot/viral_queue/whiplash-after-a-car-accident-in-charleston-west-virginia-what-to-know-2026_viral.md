@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Charleston, West Virginia — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-charleston-west-virginia-what-to-know-2026  
-**Generated:** 2026-07-06T11:03:59.957448+00:00  
+**Generated:** 2026-07-06T15:55:34.709750+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
