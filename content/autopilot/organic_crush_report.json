@@ -1,28 +1,28 @@
 {
-  "at": "2026-07-06T18:56:43.270960+00:00",
+  "at": "2026-07-06T20:14:51.855564+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": false,
-      "code": 2,
-      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-06 what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-06\n"
+      "ok": true,
+      "code": 0,
+      "tail": "meshed what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-06\nmeshed what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-06\nmeshed what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-06\nmeshed what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-06\nmeshed what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-06\nmeshed what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-06\nDone. 6 posts.\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-06_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-san-antonio-texas-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-burlington-vermont-what-to-know-2026_viral.md\n"
+      "tail": "topilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide-202605311323_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wisconsin-car-accident-statute-of-limitations-milwaukee-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fresno-california-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-06-13_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": " Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-06T18:56:43.487294+00:00\",\n  \"stats\": {\n    \"enPosts\": 2300,\n    \"esPosts\": 2300,\n    \"platinumEn\": 2281,\n    \"lastUpdated\": \"2026-07-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-06\",\n      \"what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-06\",\n      \"what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-06\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-06T20:15:11.219993+00:00\",\n  \"stats\": {\n    \"enPosts\": 2300,\n    \"esPosts\": 2300,\n    \"platinumEn\": 2281,\n    \"lastUpdated\": \"2026-07-06\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": false
+  "ok": true
 }
