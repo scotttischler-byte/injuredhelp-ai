@@ -1,5 +1,5 @@
 {
-  "at": "2026-07-07T17:29:03.642670+00:00",
+  "at": "2026-07-08T06:09:48.596918+00:00",
   "mode": "geo-automation",
   "opsChecklist": [
     "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
@@ -55,7 +55,7 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 200,
+          "status": 202,
           "ok": true
         }
       ],
@@ -63,7 +63,7 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "urlCount": 564,
+      "urlCount": 567,
       "ok": true,
       "results": [
         {
@@ -78,7 +78,7 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 200,
+          "status": 202,
           "ok": true
         }
       ],
@@ -87,7 +87,7 @@
     {
       "origin": "https://injuredhelp.ai",
       "urlCount": 539,
-      "ok": false,
+      "ok": true,
       "results": [
         {
           "endpoint": "https://api.indexnow.org/indexnow",
@@ -101,8 +101,8 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 403,
-          "ok": false
+          "status": 202,
+          "ok": true
         }
       ],
       "siteId": "injuredhelp"
@@ -161,7 +161,7 @@
       "url": "https://www.wreckmatch.com/api/indexing/cron",
       "ok": true,
       "status": 200,
-      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-07-07\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
+      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-07-08\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
     },
     {
       "url": "https://www.semitruckmatch.com/api/geo/cron",
@@ -177,7 +177,7 @@
       "url": "https://www.semitruckmatch.com/api/indexing/cron",
       "ok": true,
       "status": 200,
-      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-07-07\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
+      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-07-08\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
     },
     {
       "url": "https://injuredhelp.ai/api/geo/cron",
