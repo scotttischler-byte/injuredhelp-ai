@@ -19414,3 +19414,46 @@ WARN: batch returned non-zero; continuing if progress was made
 
 Final: 49/50 states
 Partial progress OK (49/50) — next scheduled run will continue.
+[2026-07-08T16:48:01.705365+00:00] Inject for 2 states not yet published today
+[2026-07-08T16:48:01.707375+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T16:48:01.736044+00:00] Daily 50-state injection complete
+[2026-07-08T16:48:01.828143+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-08T16:48:01.830138+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T16:48:01.864261+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-08T16:48:01.883080+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-08T16:48:01.890856+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-08T16:48:01.925963+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-07-08T16:48:02.090871+00:00] Inject for 2 states not yet published today
+[2026-07-08T16:48:02.092864+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T16:48:02.120975+00:00] Daily 50-state injection complete
+[2026-07-08T16:48:02.219543+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-08T16:48:02.221524+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T16:48:02.255742+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-08T16:48:02.274119+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-08T16:48:02.281827+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-08T16:48:02.313455+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-07-08T16:48:02.477904+00:00] Inject for 2 states not yet published today
+[2026-07-08T16:48:02.479972+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T16:48:02.508022+00:00] Daily 50-state injection complete
+[2026-07-08T16:48:02.599766+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-08T16:48:02.601786+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T16:48:02.635814+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-08T16:48:02.654216+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-08T16:48:02.662096+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-08T16:48:02.693688+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+Target: 50 states (top city per state) — UTC day 2026-07-08
+
+Round 1: 49/50 states — need 1
+After round 1: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 2: 49/50 states — need 1
+After round 2: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 3: 49/50 states — need 1
+After round 3: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Final: 49/50 states
+Partial progress OK (49/50) — next scheduled run will continue.
