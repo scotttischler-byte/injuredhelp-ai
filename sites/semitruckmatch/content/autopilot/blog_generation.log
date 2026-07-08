@@ -21846,3 +21846,53 @@ Node.js v24.14.1
 }
 
 [2026-07-08T08:44:40.878551+00:00] WARN organic_crush exit 1
+[2026-07-08T09:26:52.574347+00:00] Inject for 18 states not yet published today
+[2026-07-08T09:26:52.576422+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T09:26:52.579397+00:00] Daily 50-state rotation (2026-07-08): +0 new, 17 re-prioritized, 17 at queue front
+[2026-07-08T09:26:52.581260+00:00] Daily 50-state injection complete
+[2026-07-08T09:26:52.680031+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-08T09:26:52.682245+00:00] Loaded 239 cities from cities.ts
+[2026-07-08T09:26:52.687767+00:00] Daily 50-state rotation (2026-07-08): +0 new, 17 re-prioritized, 17 at queue front
+[2026-07-08T09:26:52.689836+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-08T09:26:52.705598+00:00] States already published today (UTC): 33 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York']
+[2026-07-08T09:26:52.709220+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-08T09:26:52.710236+00:00] Materializing template → platinum for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08
+[2026-07-08T09:26:59.135164+00:00] After materialize: 100 / 4057w ([])
+[2026-07-08T09:26:59.137071+00:00] Spanish OK for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08 (3270 words)
+[2026-07-08T09:26:59.140574+00:00] Spanish OK for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08 (3270 words)
+[2026-07-08T09:26:59.442468+00:00] PPT EN semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08.pptx
+[2026-07-08T09:26:59.529293+00:00] PPT ES semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08.pptx
+[2026-07-08T09:26:59.529397+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08.md
+[2026-07-08T09:26:59.563525+00:00] IndexNow queued for semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08
+[2026-07-08T09:27:01.581063+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-08T09:27:01.582062+00:00] Materializing template → platinum for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08
+[2026-07-08T09:27:07.195259+00:00] After materialize: 100 / 4069w ([])
+[2026-07-08T09:27:07.196837+00:00] Spanish OK for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08 (3275 words)
+[2026-07-08T09:27:07.200378+00:00] Spanish OK for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08 (3275 words)
+[2026-07-08T09:27:07.285881+00:00] PPT EN semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08.pptx
+[2026-07-08T09:27:07.376307+00:00] PPT ES semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08.pptx
+[2026-07-08T09:27:07.376409+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08.md
+[2026-07-08T09:27:07.410282+00:00] IndexNow queued for semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08
+[2026-07-08T09:27:09.428245+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-08T09:27:09.429249+00:00] Materializing template → platinum for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08
+[2026-07-08T09:27:14.715041+00:00] After materialize: 100 / 4019w ([])
+[2026-07-08T09:27:14.716749+00:00] Spanish OK for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08 (3232 words)
+[2026-07-08T09:27:14.720191+00:00] Spanish OK for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08 (3232 words)
+[2026-07-08T09:27:14.806181+00:00] PPT EN semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08.pptx
+[2026-07-08T09:27:14.890170+00:00] PPT ES semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08.pptx
+[2026-07-08T09:27:14.890274+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08.md
+[2026-07-08T09:27:14.925622+00:00] IndexNow queued for semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08
+[2026-07-08T09:27:14.926085+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08.json
+[2026-07-08T09:27:14.940884+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08', 'semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08', 'semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08']
+[2026-07-08T09:27:14.969472+00:00] Daily ledger (UTC): 36/50 states, 36 EN posts
+[2026-07-08T09:27:15.384706+00:00] 26\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-08T09:27:15.227452+00:00\",\n  \"stats\": {\n    \"enPosts\": 2394,\n    \"esPosts\": 2394,\n    \"platinumEn\": 2375,\n    \"lastUpdated\": \"2026-07-08\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-charlotte-north-carolina-top-city-guide-2026-07-08\",\n      \"semi-truck-accident-in-fargo-north-dakota-top-city-guide-2026-07-08\",\n      \"semi-truck-accident-in-columbus-ohio-top-city-guide-2026-07-08\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-08T09:27:15.384833+00:00] WARN organic_crush exit 1
