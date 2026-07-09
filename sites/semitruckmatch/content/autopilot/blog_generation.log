@@ -22096,3 +22096,53 @@ Node.js v24.14.1
 }
 
 [2026-07-09T12:06:50.124845+00:00] WARN organic_crush exit 1
+[2026-07-09T15:12:29.563248+00:00] Inject for 39 states not yet published today
+[2026-07-09T15:12:29.565979+00:00] Loaded 239 cities from cities.ts
+[2026-07-09T15:12:29.576044+00:00] Daily 50-state rotation (2026-07-09): +0 new, 38 re-prioritized, 38 at queue front
+[2026-07-09T15:12:29.579764+00:00] Daily 50-state injection complete
+[2026-07-09T15:12:29.679603+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-09T15:12:29.681747+00:00] Loaded 239 cities from cities.ts
+[2026-07-09T15:12:29.687971+00:00] Daily 50-state rotation (2026-07-09): +0 new, 38 re-prioritized, 38 at queue front
+[2026-07-09T15:12:29.690258+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-09T15:12:29.703714+00:00] States already published today (UTC): 12 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii']
+[2026-07-09T15:12:29.707364+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-09T15:12:29.708327+00:00] Materializing template → platinum for semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09
+[2026-07-09T15:12:36.165754+00:00] After materialize: 100 / 4017w ([])
+[2026-07-09T15:12:36.167437+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09 (3232 words)
+[2026-07-09T15:12:36.170721+00:00] Spanish OK for semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09 (3232 words)
+[2026-07-09T15:12:36.464867+00:00] PPT EN semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09.pptx
+[2026-07-09T15:12:36.562980+00:00] PPT ES semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09.pptx
+[2026-07-09T15:12:36.563078+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09.md
+[2026-07-09T15:12:36.594888+00:00] IndexNow queued for semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09
+[2026-07-09T15:12:38.611365+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-09T15:12:38.612347+00:00] Materializing template → platinum for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09
+[2026-07-09T15:12:44.159725+00:00] After materialize: 100 / 4028w ([])
+[2026-07-09T15:12:44.161359+00:00] Spanish OK for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09 (3230 words)
+[2026-07-09T15:12:44.165042+00:00] Spanish OK for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09 (3230 words)
+[2026-07-09T15:12:44.266487+00:00] PPT EN semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09.pptx
+[2026-07-09T15:12:44.370555+00:00] PPT ES semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09.pptx
+[2026-07-09T15:12:44.370663+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09.md
+[2026-07-09T15:12:44.404452+00:00] IndexNow queued for semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09
+[2026-07-09T15:12:46.422757+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-09T15:12:46.423825+00:00] Materializing template → platinum for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09
+[2026-07-09T15:12:51.860573+00:00] After materialize: 100 / 4019w ([])
+[2026-07-09T15:12:51.862161+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09 (3232 words)
+[2026-07-09T15:12:51.865777+00:00] Spanish OK for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09 (3232 words)
+[2026-07-09T15:12:51.963660+00:00] PPT EN semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09.pptx
+[2026-07-09T15:12:52.059223+00:00] PPT ES semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09.pptx
+[2026-07-09T15:12:52.059311+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09.md
+[2026-07-09T15:12:52.091832+00:00] IndexNow queued for semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09
+[2026-07-09T15:12:52.092238+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09.json
+[2026-07-09T15:12:52.106267+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09', 'semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09', 'semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09']
+[2026-07-09T15:12:52.132899+00:00] Daily ledger (UTC): 15/50 states, 15 EN posts
+[2026-07-09T15:12:52.531104+00:00] uide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-09T15:12:52.384090+00:00\",\n  \"stats\": {\n    \"enPosts\": 2432,\n    \"esPosts\": 2432,\n    \"platinumEn\": 2413,\n    \"lastUpdated\": \"2026-07-09\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-boise-idaho-top-city-guide-2026-07-09\",\n      \"semi-truck-accident-in-chicago-illinois-top-city-guide-2026-07-09\",\n      \"semi-truck-accident-in-indianapolis-indiana-top-city-guide-2026-07-09\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-09T15:12:52.531219+00:00] WARN organic_crush exit 1
