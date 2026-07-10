@@ -22867,3 +22867,53 @@ Node.js v24.14.1
 }
 
 [2026-07-10T12:10:26.483894+00:00] WARN organic_crush exit 1
+[2026-07-10T13:13:32.639327+00:00] Inject for 15 states not yet published today
+[2026-07-10T13:13:32.641509+00:00] Loaded 239 cities from cities.ts
+[2026-07-10T13:13:32.644679+00:00] Daily 50-state rotation (2026-07-10): +0 new, 14 re-prioritized, 14 at queue front
+[2026-07-10T13:13:32.646902+00:00] Daily 50-state injection complete
+[2026-07-10T13:13:32.749548+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-10T13:13:32.751758+00:00] Loaded 239 cities from cities.ts
+[2026-07-10T13:13:32.757596+00:00] Daily 50-state rotation (2026-07-10): +0 new, 14 re-prioritized, 14 at queue front
+[2026-07-10T13:13:32.760129+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-10T13:13:32.776083+00:00] States already published today (UTC): 36 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'District of Columbia', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio']
+[2026-07-10T13:13:32.779760+00:00] Quality 30 / 648w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-10T13:13:32.780808+00:00] Materializing template → platinum for semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10
+[2026-07-10T13:13:39.147645+00:00] After materialize: 100 / 4030w ([])
+[2026-07-10T13:13:39.149478+00:00] Spanish OK for semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10 (3248 words)
+[2026-07-10T13:13:39.153080+00:00] Spanish OK for semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10 (3248 words)
+[2026-07-10T13:13:39.368057+00:00] PPT EN semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10.pptx
+[2026-07-10T13:13:39.456136+00:00] PPT ES semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10.pptx
+[2026-07-10T13:13:39.456251+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10.md
+[2026-07-10T13:13:39.491506+00:00] IndexNow queued for semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10
+[2026-07-10T13:13:41.510516+00:00] Quality 30 / 643w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-10T13:13:41.511522+00:00] Materializing template → platinum for semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10
+[2026-07-10T13:13:46.841923+00:00] After materialize: 100 / 4028w ([])
+[2026-07-10T13:13:46.843499+00:00] Spanish OK for semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10 (3230 words)
+[2026-07-10T13:13:46.846994+00:00] Spanish OK for semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10 (3230 words)
+[2026-07-10T13:13:46.933978+00:00] PPT EN semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10.pptx
+[2026-07-10T13:13:47.029159+00:00] PPT ES semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10.pptx
+[2026-07-10T13:13:47.029301+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10.md
+[2026-07-10T13:13:47.070135+00:00] IndexNow queued for semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10
+[2026-07-10T13:13:49.098913+00:00] Quality 30 / 635w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-10T13:13:49.099927+00:00] Materializing template → platinum for semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10
+[2026-07-10T13:13:54.455029+00:00] After materialize: 100 / 4024w ([])
+[2026-07-10T13:13:54.456704+00:00] Spanish OK for semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10 (3248 words)
+[2026-07-10T13:13:54.460231+00:00] Spanish OK for semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10 (3248 words)
+[2026-07-10T13:13:54.547842+00:00] PPT EN semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10: 14 slides (score 100) → /blog/presentations/semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10.pptx
+[2026-07-10T13:13:54.633470+00:00] PPT ES semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10: 14 slides (score 100) → /blog/presentations/es/semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10.pptx
+[2026-07-10T13:13:54.633587+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/sites/semitruckmatch/content/blog/semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10.md
+[2026-07-10T13:13:54.669171+00:00] IndexNow queued for semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10
+[2026-07-10T13:13:54.669637+00:00] Syndication → sites/semitruckmatch/content/syndication/semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10.json
+[2026-07-10T13:13:54.686192+00:00] Done: 3/3 published (platinum bar ≥100, ≥3000w) — ['semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10', 'semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10', 'semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10']
+[2026-07-10T13:13:54.718553+00:00] Daily ledger (UTC): 39/50 states, 39 EN posts
+[2026-07-10T13:13:55.148585+00:00] l": "state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-10T13:13:54.985195+00:00\",\n  \"stats\": {\n    \"enPosts\": 2469,\n    \"esPosts\": 2469,\n    \"platinumEn\": 2450,\n    \"lastUpdated\": \"2026-07-10\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"semi-truck-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-10\",\n      \"semi-truck-accident-in-portland-oregon-top-city-guide-2026-07-10\",\n      \"semi-truck-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-10\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-10T13:13:55.148729+00:00] WARN organic_crush exit 1
