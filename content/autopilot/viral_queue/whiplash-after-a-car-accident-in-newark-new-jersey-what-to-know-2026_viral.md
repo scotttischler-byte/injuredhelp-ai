@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Newark, New Jersey — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-newark-new-jersey-what-to-know-2026  
-**Generated:** 2026-07-10T19:53:23.595049+00:00  
+**Generated:** 2026-07-11T09:23:35.240372+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
