@@ -1,28 +1,28 @@
 {
-  "at": "2026-07-12T19:31:57.373235+00:00",
+  "at": "2026-07-12T20:53:08.502311+00:00",
   "steps": [
     {
       "label": "internal_link_mesh",
-      "ok": true,
-      "code": 0,
-      "tail": "d-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-12\nmeshed what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-12\nDone. 15 posts.\n"
+      "ok": false,
+      "code": 2,
+      "tail": "usage: internal_link_mesh.py [-h] [--limit LIMIT] [--slug SLUG]\n                             [--missing-only] [--dry-run]\ninternal_link_mesh.py: error: unrecognized arguments: what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-12 what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-12\n"
     },
     {
       "label": "viral_content_pack",
       "ok": true,
       "code": 0,
-      "tail": "wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-lubbock-texas-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-huntsville-alabama-family-guide-202605311323_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fresno-california-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-miami-florida-family-guide_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-06-13_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-02_viral.md\n"
+      "tail": "wrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-12_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-02_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/whiplash-after-a-car-accident-in-san-antonio-texas-what-to-know-2026_viral.md\nwrote /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/viral_queue/wrongful-death-car-accident-in-fort-worth-texas-family-guide_viral.md\n"
     },
     {
       "label": "exposure_crush",
       "ok": true,
       "code": 0,
-      "tail": "comparative fault car accidents California\u2026\n\u25cb [state] What to do after car accident in California step by step\u2026\n\u25cb [state] Best car accident lawyer in Florida \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Florida 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-12T19:32:21.566538+00:00\",\n  \"stats\": {\n    \"enPosts\": 2594,\n    \"esPosts\": 2594,\n    \"platinumEn\": 2575,\n    \"lastUpdated\": \"2026-07-12\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": []\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+      "tail": "car accidents Florida\u2026\n\u25cb [state] What to do after car accident in Florida step by step\u2026\n\u25cb [state] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-12T20:53:08.737890+00:00\",\n  \"stats\": {\n    \"enPosts\": 2597,\n    \"esPosts\": 2597,\n    \"platinumEn\": 2578,\n    \"lastUpdated\": \"2026-07-12\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-12\",\n      \"what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-12\",\n      \"what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-12\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
     }
   ],
   "social_ready": {
     "exported": 1,
     "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
   },
-  "ok": true
+  "ok": false
 }
