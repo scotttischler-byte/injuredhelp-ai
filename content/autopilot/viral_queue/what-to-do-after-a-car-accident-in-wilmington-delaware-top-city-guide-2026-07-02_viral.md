@@ -1,7 +1,7 @@
 # Viral content pack — What to Do After a Car Accident in Wilmington, Delaware — Top City Guide (2026-07-02)
 
 **URL:** https://www.wreckmatch.com/blog/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-02  
-**Generated:** 2026-07-13T10:28:38.289697+00:00  
+**Generated:** 2026-07-13T10:56:14.496454+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
