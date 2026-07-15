@@ -21025,3 +21025,790 @@ WARN: batch returned non-zero; continuing if progress was made
 
 Final: 49/50 states
 Partial progress OK (49/50) — next scheduled run will continue.
+[2026-07-15T03:28:25.904736+00:00] Inject for 51 states not yet published today
+[2026-07-15T03:28:25.906848+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:28:25.964646+00:00] Daily 50-state rotation (2026-07-15): +49 new, 0 re-prioritized, 49 at queue front
+[2026-07-15T03:28:25.996011+00:00] Daily 50-state injection complete
+[2026-07-15T03:28:26.097204+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:28:26.099493+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:28:26.157237+00:00] Daily 50-state rotation (2026-07-15): +0 new, 49 re-prioritized, 49 at queue front
+[2026-07-15T03:28:26.189333+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:28:26.211744+00:00] States already published today (UTC): 0 — []
+[2026-07-15T03:28:26.215480+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:28:26.216473+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15
+[2026-07-15T03:28:33.399803+00:00] After materialize: 100 / 3912w ([])
+[2026-07-15T03:28:33.401672+00:00] Spanish OK for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15 (3246 words)
+[2026-07-15T03:28:33.404945+00:00] Spanish OK for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15 (3246 words)
+[2026-07-15T03:28:33.610927+00:00] PPT EN what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:33.709608+00:00] PPT ES what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:33.709702+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15.md
+[2026-07-15T03:28:33.741274+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15
+[2026-07-15T03:28:35.799579+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:28:35.800603+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15
+[2026-07-15T03:28:41.974163+00:00] After materialize: 100 / 3973w ([])
+[2026-07-15T03:28:41.975874+00:00] Spanish OK for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15 (3241 words)
+[2026-07-15T03:28:41.979247+00:00] Spanish OK for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15 (3241 words)
+[2026-07-15T03:28:42.076773+00:00] PPT EN what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:42.174711+00:00] PPT ES what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:42.174802+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15.md
+[2026-07-15T03:28:42.208352+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15
+[2026-07-15T03:28:44.262055+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:28:44.263022+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15
+[2026-07-15T03:28:50.435565+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:28:50.437138+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15 (3236 words)
+[2026-07-15T03:28:50.440453+00:00] Spanish OK for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15 (3236 words)
+[2026-07-15T03:28:50.539339+00:00] PPT EN what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:50.637617+00:00] PPT ES what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:50.637717+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15.md
+[2026-07-15T03:28:50.669073+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15
+[2026-07-15T03:28:52.721956+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:28:52.722930+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15
+[2026-07-15T03:28:58.888510+00:00] After materialize: 100 / 3924w ([])
+[2026-07-15T03:28:58.890091+00:00] Spanish OK for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15 (3254 words)
+[2026-07-15T03:28:58.893409+00:00] Spanish OK for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15 (3254 words)
+[2026-07-15T03:28:58.991380+00:00] PPT EN what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:59.099945+00:00] PPT ES what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:28:59.100041+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15.md
+[2026-07-15T03:28:59.131713+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15
+[2026-07-15T03:29:01.184837+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:01.185800+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15
+[2026-07-15T03:29:07.351391+00:00] After materialize: 100 / 3921w ([])
+[2026-07-15T03:29:07.352911+00:00] Spanish OK for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15 (3252 words)
+[2026-07-15T03:29:07.356173+00:00] Spanish OK for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15 (3252 words)
+[2026-07-15T03:29:07.454827+00:00] PPT EN what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:07.552805+00:00] PPT ES what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:07.552892+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15.md
+[2026-07-15T03:29:07.584488+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15
+[2026-07-15T03:29:07.584905+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15.json
+[2026-07-15T03:29:07.636873+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15']
+[2026-07-15T03:29:07.677576+00:00] Daily ledger (UTC): 5/50 states, 5 EN posts
+[2026-07-15T03:29:08.094312+00:00] rue,
+      "code": 0,
+      "tail": " Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:29:07.942730+00:00\",\n  \"stats\": {\n    \"enPosts\": 2703,\n    \"esPosts\": 2703,\n    \"platinumEn\": 2684,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-birmingham-alabama-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-anchorage-alaska-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-phoenix-arizona-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-little-rock-arkansas-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-los-angeles-california-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:29:08.094445+00:00] WARN organic_crush exit 1
+[2026-07-15T03:29:08.271779+00:00] Inject for 46 states not yet published today
+[2026-07-15T03:29:08.273884+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:29:08.330456+00:00] Daily 50-state rotation (2026-07-15): +0 new, 44 re-prioritized, 44 at queue front
+[2026-07-15T03:29:08.360896+00:00] Daily 50-state injection complete
+[2026-07-15T03:29:08.462336+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:29:08.464590+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:29:08.521792+00:00] Daily 50-state rotation (2026-07-15): +0 new, 44 re-prioritized, 44 at queue front
+[2026-07-15T03:29:08.553724+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:29:08.575040+00:00] States already published today (UTC): 5 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California']
+[2026-07-15T03:29:08.578174+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:08.579184+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15
+[2026-07-15T03:29:14.734965+00:00] After materialize: 100 / 3976w ([])
+[2026-07-15T03:29:14.736973+00:00] Spanish OK for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:29:14.740239+00:00] Spanish OK for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:29:14.905308+00:00] PPT EN what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:15.002180+00:00] PPT ES what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:15.002273+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15.md
+[2026-07-15T03:29:15.033741+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15
+[2026-07-15T03:29:17.092598+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:17.093571+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15
+[2026-07-15T03:29:23.284179+00:00] After materialize: 100 / 3913w ([])
+[2026-07-15T03:29:23.285934+00:00] Spanish OK for what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:29:23.289232+00:00] Spanish OK for what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:29:23.386986+00:00] PPT EN what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:23.483807+00:00] PPT ES what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:23.483893+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15.md
+[2026-07-15T03:29:23.515354+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15
+[2026-07-15T03:29:25.569721+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:25.570686+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15
+[2026-07-15T03:29:31.684222+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:29:31.685738+00:00] Spanish OK for what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:29:31.688929+00:00] Spanish OK for what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:29:31.788200+00:00] PPT EN what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:31.887535+00:00] PPT ES what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:31.887631+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15.md
+[2026-07-15T03:29:31.919663+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15
+[2026-07-15T03:29:33.976060+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:33.977007+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15
+[2026-07-15T03:29:40.158879+00:00] After materialize: 100 / 3926w ([])
+[2026-07-15T03:29:40.160429+00:00] Spanish OK for what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15 (3255 words)
+[2026-07-15T03:29:40.163804+00:00] Spanish OK for what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15 (3255 words)
+[2026-07-15T03:29:40.262199+00:00] PPT EN what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:40.369551+00:00] PPT ES what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:40.369637+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15.md
+[2026-07-15T03:29:40.401352+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15
+[2026-07-15T03:29:42.454858+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:42.455807+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15
+[2026-07-15T03:29:48.593584+00:00] After materialize: 100 / 3913w ([])
+[2026-07-15T03:29:48.595073+00:00] Spanish OK for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:29:48.598397+00:00] Spanish OK for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:29:48.696702+00:00] PPT EN what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:48.794588+00:00] PPT ES what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:48.794674+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15.md
+[2026-07-15T03:29:48.827244+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15
+[2026-07-15T03:29:48.827744+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15.json
+[2026-07-15T03:29:48.879087+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15']
+[2026-07-15T03:29:48.916658+00:00] Daily ledger (UTC): 10/50 states, 10 EN posts
+[2026-07-15T03:29:49.330345+00:00] rue,
+      "code": 0,
+      "tail": "[state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:29:49.178138+00:00\",\n  \"stats\": {\n    \"enPosts\": 2708,\n    \"esPosts\": 2708,\n    \"platinumEn\": 2689,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-denver-colorado-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-bridgeport-connecticut-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-wilmington-delaware-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-miami-florida-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-atlanta-georgia-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:29:49.330453+00:00] WARN organic_crush exit 1
+[2026-07-15T03:29:49.504572+00:00] Inject for 41 states not yet published today
+[2026-07-15T03:29:49.506619+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:29:49.562004+00:00] Daily 50-state rotation (2026-07-15): +0 new, 39 re-prioritized, 39 at queue front
+[2026-07-15T03:29:49.594416+00:00] Daily 50-state injection complete
+[2026-07-15T03:29:49.696982+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:29:49.699262+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:29:49.755740+00:00] Daily 50-state rotation (2026-07-15): +0 new, 39 re-prioritized, 39 at queue front
+[2026-07-15T03:29:49.787646+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:29:49.808575+00:00] States already published today (UTC): 10 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia']
+[2026-07-15T03:29:49.811740+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:49.812758+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15
+[2026-07-15T03:29:55.960574+00:00] After materialize: 100 / 3985w ([])
+[2026-07-15T03:29:55.962439+00:00] Spanish OK for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15 (3258 words)
+[2026-07-15T03:29:55.965784+00:00] Spanish OK for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15 (3258 words)
+[2026-07-15T03:29:56.128790+00:00] PPT EN what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:56.226873+00:00] PPT ES what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:29:56.226968+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15.md
+[2026-07-15T03:29:56.258304+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15
+[2026-07-15T03:29:58.317005+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:29:58.317979+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15
+[2026-07-15T03:30:04.493873+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:30:04.495448+00:00] Spanish OK for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:30:04.498689+00:00] Spanish OK for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:30:04.597236+00:00] PPT EN what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:04.694697+00:00] PPT ES what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:04.694787+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15.md
+[2026-07-15T03:30:04.726662+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15
+[2026-07-15T03:30:06.780230+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:30:06.781195+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15
+[2026-07-15T03:30:12.951240+00:00] After materialize: 100 / 3913w ([])
+[2026-07-15T03:30:12.952853+00:00] Spanish OK for what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:30:12.956128+00:00] Spanish OK for what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:30:13.054796+00:00] PPT EN what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:13.152212+00:00] PPT ES what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:13.152299+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15.md
+[2026-07-15T03:30:13.183821+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15
+[2026-07-15T03:30:15.236718+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:30:15.237671+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15
+[2026-07-15T03:30:21.385210+00:00] After materialize: 100 / 3904w ([])
+[2026-07-15T03:30:21.386855+00:00] Spanish OK for what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:30:21.390192+00:00] Spanish OK for what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:30:21.488174+00:00] PPT EN what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:21.594909+00:00] PPT ES what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:21.595031+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15.md
+[2026-07-15T03:30:21.627064+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15
+[2026-07-15T03:30:23.678918+00:00] Quality 30 / 631w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:30:23.679899+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15
+[2026-07-15T03:30:29.840572+00:00] After materialize: 100 / 3976w ([])
+[2026-07-15T03:30:29.842042+00:00] Spanish OK for what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15 (3258 words)
+[2026-07-15T03:30:29.845529+00:00] Spanish OK for what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15 (3258 words)
+[2026-07-15T03:30:29.942180+00:00] PPT EN what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:30.039731+00:00] PPT ES what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:30.039824+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15.md
+[2026-07-15T03:30:30.071357+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15
+[2026-07-15T03:30:30.071740+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15.json
+[2026-07-15T03:30:30.122694+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15']
+[2026-07-15T03:30:30.159077+00:00] Daily ledger (UTC): 15/50 states, 15 EN posts
+[2026-07-15T03:30:30.568639+00:00] "code": 0,
+      "tail": "ork\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:30:30.414551+00:00\",\n  \"stats\": {\n    \"enPosts\": 2713,\n    \"esPosts\": 2713,\n    \"platinumEn\": 2694,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-honolulu-hawaii-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-boise-idaho-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-chicago-illinois-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-indianapolis-indiana-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-des-moines-iowa-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:30:30.568749+00:00] WARN organic_crush exit 1
+[2026-07-15T03:30:30.740105+00:00] Inject for 36 states not yet published today
+[2026-07-15T03:30:30.742156+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:30:30.795717+00:00] Daily 50-state rotation (2026-07-15): +0 new, 34 re-prioritized, 34 at queue front
+[2026-07-15T03:30:30.825489+00:00] Daily 50-state injection complete
+[2026-07-15T03:30:30.926923+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:30:30.929250+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:30:30.985274+00:00] Daily 50-state rotation (2026-07-15): +0 new, 34 re-prioritized, 34 at queue front
+[2026-07-15T03:30:31.017668+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:30:31.040477+00:00] States already published today (UTC): 15 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa']
+[2026-07-15T03:30:31.043637+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:30:31.044626+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15
+[2026-07-15T03:30:37.238931+00:00] After materialize: 100 / 3913w ([])
+[2026-07-15T03:30:37.240727+00:00] Spanish OK for what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:30:37.244096+00:00] Spanish OK for what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:30:37.405656+00:00] PPT EN what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:37.502016+00:00] PPT ES what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:37.502102+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15.md
+[2026-07-15T03:30:37.534325+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15
+[2026-07-15T03:30:39.593841+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:30:39.594815+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15
+[2026-07-15T03:30:45.738929+00:00] After materialize: 100 / 3912w ([])
+[2026-07-15T03:30:45.740531+00:00] Spanish OK for what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15 (3249 words)
+[2026-07-15T03:30:45.743849+00:00] Spanish OK for what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15 (3249 words)
+[2026-07-15T03:30:45.841440+00:00] PPT EN what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:45.939016+00:00] PPT ES what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:45.939118+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15.md
+[2026-07-15T03:30:45.970862+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15
+[2026-07-15T03:30:48.024723+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:30:48.025760+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15
+[2026-07-15T03:30:54.204558+00:00] After materialize: 100 / 3984w ([])
+[2026-07-15T03:30:54.206119+00:00] Spanish OK for what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15 (3257 words)
+[2026-07-15T03:30:54.209493+00:00] Spanish OK for what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15 (3257 words)
+[2026-07-15T03:30:54.306455+00:00] PPT EN what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:54.403451+00:00] PPT ES what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:30:54.403545+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15.md
+[2026-07-15T03:30:54.435566+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15
+[2026-07-15T03:30:56.491573+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:30:56.492540+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15
+[2026-07-15T03:31:02.615676+00:00] After materialize: 100 / 3913w ([])
+[2026-07-15T03:31:02.617300+00:00] Spanish OK for what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:31:02.620789+00:00] Spanish OK for what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:31:02.721862+00:00] PPT EN what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:02.829552+00:00] PPT ES what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:02.829641+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15.md
+[2026-07-15T03:31:02.861281+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15
+[2026-07-15T03:31:04.916453+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:31:04.917409+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15
+[2026-07-15T03:31:11.087762+00:00] After materialize: 100 / 3912w ([])
+[2026-07-15T03:31:11.089380+00:00] Spanish OK for what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15 (3246 words)
+[2026-07-15T03:31:11.092622+00:00] Spanish OK for what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15 (3246 words)
+[2026-07-15T03:31:11.191112+00:00] PPT EN what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:11.288568+00:00] PPT ES what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:11.288662+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15.md
+[2026-07-15T03:31:11.320268+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15
+[2026-07-15T03:31:11.320733+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15.json
+[2026-07-15T03:31:11.373284+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15']
+[2026-07-15T03:31:11.411478+00:00] Daily ledger (UTC): 20/50 states, 20 EN posts
+[2026-07-15T03:31:11.822610+00:00] rue,
+      "code": 0,
+      "tail": "tate] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:31:11.667417+00:00\",\n  \"stats\": {\n    \"enPosts\": 2718,\n    \"esPosts\": 2718,\n    \"platinumEn\": 2699,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-louisville-kentucky-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-new-orleans-louisiana-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-portland-maine-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-baltimore-maryland-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:31:11.822713+00:00] WARN organic_crush exit 1
+[2026-07-15T03:31:11.996432+00:00] Inject for 31 states not yet published today
+[2026-07-15T03:31:11.998490+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:31:12.050982+00:00] Daily 50-state rotation (2026-07-15): +0 new, 29 re-prioritized, 29 at queue front
+[2026-07-15T03:31:12.080581+00:00] Daily 50-state injection complete
+[2026-07-15T03:31:12.181329+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:31:12.183603+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:31:12.238219+00:00] Daily 50-state rotation (2026-07-15): +0 new, 29 re-prioritized, 29 at queue front
+[2026-07-15T03:31:12.269900+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:31:12.290384+00:00] States already published today (UTC): 20 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland']
+[2026-07-15T03:31:12.293507+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:31:12.294515+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15
+[2026-07-15T03:31:18.475276+00:00] After materialize: 100 / 3988w ([])
+[2026-07-15T03:31:18.477749+00:00] Spanish OK for what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15 (3261 words)
+[2026-07-15T03:31:18.481589+00:00] Spanish OK for what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15 (3261 words)
+[2026-07-15T03:31:18.642853+00:00] PPT EN what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:18.741488+00:00] PPT ES what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:18.741592+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15.md
+[2026-07-15T03:31:18.773630+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15
+[2026-07-15T03:31:20.836684+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:31:20.837659+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15
+[2026-07-15T03:31:27.035076+00:00] After materialize: 100 / 3917w ([])
+[2026-07-15T03:31:27.036644+00:00] Spanish OK for what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15 (3256 words)
+[2026-07-15T03:31:27.039973+00:00] Spanish OK for what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15 (3256 words)
+[2026-07-15T03:31:27.137937+00:00] PPT EN what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:27.235138+00:00] PPT ES what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:27.235238+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15.md
+[2026-07-15T03:31:27.266919+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15
+[2026-07-15T03:31:29.324112+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:31:29.325084+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15
+[2026-07-15T03:31:35.524846+00:00] After materialize: 100 / 3912w ([])
+[2026-07-15T03:31:35.526387+00:00] Spanish OK for what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15 (3253 words)
+[2026-07-15T03:31:35.529728+00:00] Spanish OK for what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15 (3253 words)
+[2026-07-15T03:31:35.628510+00:00] PPT EN what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:35.724549+00:00] PPT ES what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:35.724640+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15.md
+[2026-07-15T03:31:35.756608+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15
+[2026-07-15T03:31:37.816253+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:31:37.817279+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15
+[2026-07-15T03:31:43.992061+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:31:43.993669+00:00] Spanish OK for what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15 (3236 words)
+[2026-07-15T03:31:43.997085+00:00] Spanish OK for what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15 (3236 words)
+[2026-07-15T03:31:44.095357+00:00] PPT EN what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:44.204472+00:00] PPT ES what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:44.204568+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15.md
+[2026-07-15T03:31:44.235907+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15
+[2026-07-15T03:31:46.292247+00:00] Quality 30 / 631w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:31:46.293241+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15
+[2026-07-15T03:31:52.439266+00:00] After materialize: 100 / 3976w ([])
+[2026-07-15T03:31:52.440804+00:00] Spanish OK for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15 (3254 words)
+[2026-07-15T03:31:52.444047+00:00] Spanish OK for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15 (3254 words)
+[2026-07-15T03:31:52.541514+00:00] PPT EN what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:52.639142+00:00] PPT ES what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:31:52.639226+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15.md
+[2026-07-15T03:31:52.670847+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15
+[2026-07-15T03:31:52.671265+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15.json
+[2026-07-15T03:31:52.728292+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15']
+[2026-07-15T03:31:52.765628+00:00] Daily ledger (UTC): 25/50 states, 25 EN posts
+[2026-07-15T03:31:53.175426+00:00] rue,
+      "code": 0,
+      "tail": "k accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:31:53.022093+00:00\",\n  \"stats\": {\n    \"enPosts\": 2723,\n    \"esPosts\": 2723,\n    \"platinumEn\": 2704,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-boston-massachusetts-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-detroit-michigan-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-minneapolis-minnesota-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-jackson-mississippi-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-kansas-city-missouri-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:31:53.175540+00:00] WARN organic_crush exit 1
+[2026-07-15T03:31:53.352533+00:00] Inject for 26 states not yet published today
+[2026-07-15T03:31:53.354622+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:31:53.406241+00:00] Daily 50-state rotation (2026-07-15): +0 new, 24 re-prioritized, 24 at queue front
+[2026-07-15T03:31:53.436029+00:00] Daily 50-state injection complete
+[2026-07-15T03:31:53.536916+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:31:53.539215+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:31:53.592775+00:00] Daily 50-state rotation (2026-07-15): +0 new, 24 re-prioritized, 24 at queue front
+[2026-07-15T03:31:53.624590+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:31:53.645929+00:00] States already published today (UTC): 25 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri']
+[2026-07-15T03:31:53.649131+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:31:53.650090+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15
+[2026-07-15T03:31:59.847237+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:31:59.848954+00:00] Spanish OK for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:31:59.852265+00:00] Spanish OK for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:32:00.014880+00:00] PPT EN what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:00.112730+00:00] PPT ES what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:00.112822+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:00.144404+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15
+[2026-07-15T03:32:02.205841+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:32:02.206817+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15
+[2026-07-15T03:32:08.361206+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:32:08.362793+00:00] Spanish OK for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:32:08.366090+00:00] Spanish OK for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:32:08.464138+00:00] PPT EN what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:08.560873+00:00] PPT ES what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:08.560960+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:08.592961+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15
+[2026-07-15T03:32:10.649121+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:32:10.650151+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15
+[2026-07-15T03:32:16.806705+00:00] After materialize: 100 / 3984w ([])
+[2026-07-15T03:32:16.808298+00:00] Spanish OK for what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15 (3261 words)
+[2026-07-15T03:32:16.811759+00:00] Spanish OK for what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15 (3261 words)
+[2026-07-15T03:32:16.910574+00:00] PPT EN what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:17.008296+00:00] PPT ES what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:17.008432+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:17.040167+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15
+[2026-07-15T03:32:19.096647+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:32:19.097609+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15
+[2026-07-15T03:32:25.378599+00:00] After materialize: 100 / 3932w ([])
+[2026-07-15T03:32:25.380169+00:00] Spanish OK for what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15 (3273 words)
+[2026-07-15T03:32:25.383579+00:00] Spanish OK for what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15 (3273 words)
+[2026-07-15T03:32:25.481577+00:00] PPT EN what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:25.588135+00:00] PPT ES what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:25.588243+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:25.619633+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15
+[2026-07-15T03:32:27.674814+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:32:27.675780+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15
+[2026-07-15T03:32:33.849395+00:00] After materialize: 100 / 3946w ([])
+[2026-07-15T03:32:33.851005+00:00] Spanish OK for what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15 (3289 words)
+[2026-07-15T03:32:33.854394+00:00] Spanish OK for what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15 (3289 words)
+[2026-07-15T03:32:33.952232+00:00] PPT EN what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:34.049581+00:00] PPT ES what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:34.049701+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:34.080994+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15
+[2026-07-15T03:32:34.081499+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15.json
+[2026-07-15T03:32:34.133611+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15']
+[2026-07-15T03:32:34.168946+00:00] Daily ledger (UTC): 30/50 states, 30 EN posts
+[2026-07-15T03:32:34.579932+00:00] rue,
+      "code": 0,
+      "tail": "ate] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:32:34.425456+00:00\",\n  \"stats\": {\n    \"enPosts\": 2728,\n    \"esPosts\": 2728,\n    \"platinumEn\": 2709,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-billings-montana-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-omaha-nebraska-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-las-vegas-nevada-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-manchester-new-hampshire-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-newark-new-jersey-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:32:34.580037+00:00] WARN organic_crush exit 1
+[2026-07-15T03:32:34.761611+00:00] Inject for 21 states not yet published today
+[2026-07-15T03:32:34.763682+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:32:34.815173+00:00] Daily 50-state rotation (2026-07-15): +0 new, 19 re-prioritized, 19 at queue front
+[2026-07-15T03:32:34.845639+00:00] Daily 50-state injection complete
+[2026-07-15T03:32:34.947592+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:32:34.949892+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:32:35.003636+00:00] Daily 50-state rotation (2026-07-15): +0 new, 19 re-prioritized, 19 at queue front
+[2026-07-15T03:32:35.036156+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:32:35.057570+00:00] States already published today (UTC): 30 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey']
+[2026-07-15T03:32:35.060702+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:32:35.061713+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15
+[2026-07-15T03:32:41.246183+00:00] After materialize: 100 / 4003w ([])
+[2026-07-15T03:32:41.248083+00:00] Spanish OK for what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15 (3273 words)
+[2026-07-15T03:32:41.251473+00:00] Spanish OK for what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15 (3273 words)
+[2026-07-15T03:32:41.416274+00:00] PPT EN what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:41.514932+00:00] PPT ES what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:41.515027+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:41.546919+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15
+[2026-07-15T03:32:43.607968+00:00] Quality 30 / 578w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:32:43.608958+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15
+[2026-07-15T03:32:49.813007+00:00] After materialize: 100 / 3977w ([])
+[2026-07-15T03:32:49.814650+00:00] Spanish OK for what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15 (3317 words)
+[2026-07-15T03:32:49.817980+00:00] Spanish OK for what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15 (3317 words)
+[2026-07-15T03:32:49.916906+00:00] PPT EN what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:50.016236+00:00] PPT ES what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:50.016373+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:50.048095+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15
+[2026-07-15T03:32:52.104433+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:32:52.105421+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15
+[2026-07-15T03:32:58.386434+00:00] After materialize: 100 / 3942w ([])
+[2026-07-15T03:32:58.388030+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15 (3279 words)
+[2026-07-15T03:32:58.391390+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15 (3279 words)
+[2026-07-15T03:32:58.490022+00:00] PPT EN what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:58.588445+00:00] PPT ES what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:32:58.588538+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15.md
+[2026-07-15T03:32:58.620974+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15
+[2026-07-15T03:33:00.677233+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:00.678180+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15
+[2026-07-15T03:33:06.918200+00:00] After materialize: 100 / 3954w ([])
+[2026-07-15T03:33:06.919705+00:00] Spanish OK for what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15 (3284 words)
+[2026-07-15T03:33:06.922899+00:00] Spanish OK for what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15 (3284 words)
+[2026-07-15T03:33:07.022111+00:00] PPT EN what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:07.131725+00:00] PPT ES what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:07.131823+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15.md
+[2026-07-15T03:33:07.163888+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15
+[2026-07-15T03:33:09.220704+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:09.221695+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15
+[2026-07-15T03:33:15.573218+00:00] After materialize: 100 / 3967w ([])
+[2026-07-15T03:33:15.574801+00:00] Spanish OK for what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15 (3242 words)
+[2026-07-15T03:33:15.578140+00:00] Spanish OK for what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15 (3242 words)
+[2026-07-15T03:33:15.675587+00:00] PPT EN what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:15.775295+00:00] PPT ES what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:15.775460+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15.md
+[2026-07-15T03:33:15.810669+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15
+[2026-07-15T03:33:15.812169+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15.json
+[2026-07-15T03:33:15.863264+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15']
+[2026-07-15T03:33:15.900475+00:00] Daily ledger (UTC): 35/50 states, 35 EN posts
+[2026-07-15T03:33:16.318838+00:00] rue,
+      "code": 0,
+      "tail": "ccident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:33:16.161795+00:00\",\n  \"stats\": {\n    \"enPosts\": 2733,\n    \"esPosts\": 2733,\n    \"platinumEn\": 2714,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-albuquerque-new-mexico-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-new-york-city-new-york-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-charlotte-north-carolina-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-fargo-north-dakota-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-columbus-ohio-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:33:16.318952+00:00] WARN organic_crush exit 1
+[2026-07-15T03:33:16.503503+00:00] Inject for 16 states not yet published today
+[2026-07-15T03:33:16.505601+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:33:16.555014+00:00] Daily 50-state rotation (2026-07-15): +0 new, 14 re-prioritized, 14 at queue front
+[2026-07-15T03:33:16.585004+00:00] Daily 50-state injection complete
+[2026-07-15T03:33:16.689356+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:33:16.691718+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:33:16.744045+00:00] Daily 50-state rotation (2026-07-15): +0 new, 14 re-prioritized, 14 at queue front
+[2026-07-15T03:33:16.776272+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:33:16.797263+00:00] States already published today (UTC): 35 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio']
+[2026-07-15T03:33:16.800429+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:16.801394+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15
+[2026-07-15T03:33:23.158662+00:00] After materialize: 100 / 3915w ([])
+[2026-07-15T03:33:23.160511+00:00] Spanish OK for what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15 (3256 words)
+[2026-07-15T03:33:23.163819+00:00] Spanish OK for what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15 (3256 words)
+[2026-07-15T03:33:23.331593+00:00] PPT EN what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:23.431994+00:00] PPT ES what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:23.432098+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15.md
+[2026-07-15T03:33:23.465682+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15
+[2026-07-15T03:33:25.526308+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:25.527292+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15
+[2026-07-15T03:33:31.861221+00:00] After materialize: 100 / 3913w ([])
+[2026-07-15T03:33:31.862780+00:00] Spanish OK for what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:33:31.866001+00:00] Spanish OK for what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:33:31.964864+00:00] PPT EN what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:32.062773+00:00] PPT ES what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:32.062872+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15.md
+[2026-07-15T03:33:32.094899+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15
+[2026-07-15T03:33:34.152379+00:00] Quality 30 / 634w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:34.153450+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15
+[2026-07-15T03:33:40.531403+00:00] After materialize: 100 / 3988w ([])
+[2026-07-15T03:33:40.533024+00:00] Spanish OK for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15 (3261 words)
+[2026-07-15T03:33:40.536534+00:00] Spanish OK for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15 (3261 words)
+[2026-07-15T03:33:40.635205+00:00] PPT EN what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:40.735081+00:00] PPT ES what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:40.735184+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15.md
+[2026-07-15T03:33:40.768934+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15
+[2026-07-15T03:33:42.826513+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:42.827494+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15
+[2026-07-15T03:33:49.212049+00:00] After materialize: 100 / 3932w ([])
+[2026-07-15T03:33:49.213706+00:00] Spanish OK for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15 (3269 words)
+[2026-07-15T03:33:49.217068+00:00] Spanish OK for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15 (3269 words)
+[2026-07-15T03:33:49.318449+00:00] PPT EN what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:49.433134+00:00] PPT ES what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:49.433246+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15.md
+[2026-07-15T03:33:49.465493+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15
+[2026-07-15T03:33:51.520630+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:51.521593+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15
+[2026-07-15T03:33:57.810501+00:00] After materialize: 100 / 3934w ([])
+[2026-07-15T03:33:57.812029+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15 (3273 words)
+[2026-07-15T03:33:57.815383+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15 (3273 words)
+[2026-07-15T03:33:57.914969+00:00] PPT EN what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:58.013785+00:00] PPT ES what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:33:58.013883+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15.md
+[2026-07-15T03:33:58.046973+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15
+[2026-07-15T03:33:58.047475+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15.json
+[2026-07-15T03:33:58.099135+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15']
+[2026-07-15T03:33:58.136924+00:00] Daily ledger (UTC): 40/50 states, 40 EN posts
+[2026-07-15T03:33:58.553743+00:00] rue,
+      "code": 0,
+      "tail": "yer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:33:58.398089+00:00\",\n  \"stats\": {\n    \"enPosts\": 2738,\n    \"esPosts\": 2738,\n    \"platinumEn\": 2719,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-oklahoma-city-oklahoma-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-portland-oregon-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-philadelphia-pennsylvania-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-providence-rhode-island-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-charleston-south-carolina-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:33:58.553853+00:00] WARN organic_crush exit 1
+[2026-07-15T03:33:58.731156+00:00] Inject for 11 states not yet published today
+[2026-07-15T03:33:58.733247+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:33:58.780930+00:00] Daily 50-state rotation (2026-07-15): +0 new, 9 re-prioritized, 9 at queue front
+[2026-07-15T03:33:58.811420+00:00] Daily 50-state injection complete
+[2026-07-15T03:33:58.913213+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:33:58.915552+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:33:58.967277+00:00] Daily 50-state rotation (2026-07-15): +0 new, 9 re-prioritized, 9 at queue front
+[2026-07-15T03:33:58.999604+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:33:59.022903+00:00] States already published today (UTC): 40 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina']
+[2026-07-15T03:33:59.026084+00:00] Quality 30 / 644w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:33:59.027119+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15
+[2026-07-15T03:34:05.314213+00:00] After materialize: 100 / 4014w ([])
+[2026-07-15T03:34:05.316096+00:00] Spanish OK for what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15 (3293 words)
+[2026-07-15T03:34:05.319516+00:00] Spanish OK for what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15 (3293 words)
+[2026-07-15T03:34:05.484437+00:00] PPT EN what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:05.583807+00:00] PPT ES what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:05.583930+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15.md
+[2026-07-15T03:34:05.615613+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15
+[2026-07-15T03:34:07.677345+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:34:07.678293+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15
+[2026-07-15T03:34:13.921985+00:00] After materialize: 100 / 3913w ([])
+[2026-07-15T03:34:13.923679+00:00] Spanish OK for what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:34:13.927045+00:00] Spanish OK for what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15 (3238 words)
+[2026-07-15T03:34:14.026122+00:00] PPT EN what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:14.124872+00:00] PPT ES what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:14.124984+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15.md
+[2026-07-15T03:34:14.156795+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15
+[2026-07-15T03:34:16.213577+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:34:16.214548+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15
+[2026-07-15T03:34:22.424230+00:00] After materialize: 100 / 3920w ([])
+[2026-07-15T03:34:22.425874+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15 (3245 words)
+[2026-07-15T03:34:22.429158+00:00] Spanish OK for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15 (3245 words)
+[2026-07-15T03:34:22.528133+00:00] PPT EN what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:22.626621+00:00] PPT ES what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:22.626726+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15.md
+[2026-07-15T03:34:22.659018+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15
+[2026-07-15T03:34:24.715184+00:00] Quality 30 / 573w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:34:24.716152+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15
+[2026-07-15T03:34:30.971714+00:00] After materialize: 100 / 3945w ([])
+[2026-07-15T03:34:30.973361+00:00] Spanish OK for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15 (3283 words)
+[2026-07-15T03:34:30.976709+00:00] Spanish OK for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15 (3283 words)
+[2026-07-15T03:34:31.076417+00:00] PPT EN what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:31.184961+00:00] PPT ES what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:31.185053+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15.md
+[2026-07-15T03:34:31.216906+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15
+[2026-07-15T03:34:33.272602+00:00] Quality 30 / 626w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:34:33.273679+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15
+[2026-07-15T03:34:39.565448+00:00] After materialize: 100 / 3965w ([])
+[2026-07-15T03:34:39.567091+00:00] Spanish OK for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15 (3242 words)
+[2026-07-15T03:34:39.570607+00:00] Spanish OK for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15 (3242 words)
+[2026-07-15T03:34:39.671808+00:00] PPT EN what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:39.773442+00:00] PPT ES what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:39.773548+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15.md
+[2026-07-15T03:34:39.807091+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15
+[2026-07-15T03:34:39.807561+00:00] Syndication → content/syndication/what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15.json
+[2026-07-15T03:34:39.860528+00:00] Done: 5/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15']
+[2026-07-15T03:34:39.899582+00:00] Daily ledger (UTC): 45/50 states, 45 EN posts
+[2026-07-15T03:34:40.314595+00:00] rue,
+      "code": 0,
+      "tail": "ruck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:34:40.159764+00:00\",\n  \"stats\": {\n    \"enPosts\": 2743,\n    \"esPosts\": 2743,\n    \"platinumEn\": 2724,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-sioux-falls-south-dakota-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-nashville-tennessee-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-houston-texas-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-salt-lake-city-utah-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-burlington-vermont-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:34:40.314713+00:00] WARN organic_crush exit 1
+[2026-07-15T03:34:40.497098+00:00] Inject for 6 states not yet published today
+[2026-07-15T03:34:40.499238+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:34:40.545896+00:00] Daily 50-state rotation (2026-07-15): +0 new, 4 re-prioritized, 4 at queue front
+[2026-07-15T03:34:40.576636+00:00] Daily 50-state injection complete
+[2026-07-15T03:34:40.682020+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:34:40.684335+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:34:40.735128+00:00] Daily 50-state rotation (2026-07-15): +0 new, 4 re-prioritized, 4 at queue front
+[2026-07-15T03:34:40.767181+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:34:40.789560+00:00] States already published today (UTC): 45 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont']
+[2026-07-15T03:34:40.792688+00:00] Quality 30 / 568w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:34:40.793670+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15
+[2026-07-15T03:34:47.064057+00:00] After materialize: 100 / 3923w ([])
+[2026-07-15T03:34:47.065947+00:00] Spanish OK for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15 (3262 words)
+[2026-07-15T03:34:47.069370+00:00] Spanish OK for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15 (3262 words)
+[2026-07-15T03:34:47.236536+00:00] PPT EN what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:47.337373+00:00] PPT ES what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:47.337488+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15.md
+[2026-07-15T03:34:47.369510+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15
+[2026-07-15T03:34:49.430463+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:34:49.431468+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15
+[2026-07-15T03:34:55.648019+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:34:55.649615+00:00] Spanish OK for what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15 (3236 words)
+[2026-07-15T03:34:55.652913+00:00] Spanish OK for what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15 (3236 words)
+[2026-07-15T03:34:55.751513+00:00] PPT EN what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:55.850812+00:00] PPT ES what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:34:55.850905+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15.md
+[2026-07-15T03:34:55.883746+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15
+[2026-07-15T03:34:57.939500+00:00] Quality 30 / 639w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:34:57.940529+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15
+[2026-07-15T03:35:04.248739+00:00] After materialize: 100 / 4014w ([])
+[2026-07-15T03:35:04.250394+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15 (3275 words)
+[2026-07-15T03:35:04.253805+00:00] Spanish OK for what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15 (3275 words)
+[2026-07-15T03:35:04.352654+00:00] PPT EN what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:35:04.452459+00:00] PPT ES what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:35:04.452557+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15.md
+[2026-07-15T03:35:04.485187+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15
+[2026-07-15T03:35:06.542638+00:00] Quality 30 / 563w (['below_3000_words', 'missing_faq_block', 'missing_ai_citation_block']) — premium template
+[2026-07-15T03:35:06.543597+00:00] Materializing template → platinum for what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15
+[2026-07-15T03:35:12.821022+00:00] After materialize: 100 / 3902w ([])
+[2026-07-15T03:35:12.822588+00:00] Spanish OK for what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:35:12.825842+00:00] Spanish OK for what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15 (3240 words)
+[2026-07-15T03:35:12.925397+00:00] PPT EN what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:35:13.037395+00:00] PPT ES what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15: 14 slides (score 100) → /blog/presentations/es/what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15.pptx
+[2026-07-15T03:35:13.037520+00:00] Published /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/blog/what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15.md
+[2026-07-15T03:35:13.069441+00:00] IndexNow queued for what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15
+[2026-07-15T03:35:15.132063+00:00] Done: 4/5 published (platinum bar ≥100, ≥3000w) — ['what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15', 'what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15']
+[2026-07-15T03:35:15.171997+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-07-15T03:35:15.591472+00:00] ode": 0,
+      "tail": "e] Best car accident lawyer in Georgia \u2014 how referral services work\u2026\n\u25cb [state] Truck accident lawyer Georgia 2026 guide\u2026\n\u25cb [state] Modified comparative fault car accidents Georgia\u2026\n\nReport \u2192 /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/ai_citation_report.json\n\nTip: export PERPLEXITY_API_KEY=... && node scripts/ai-citation-monitor.mjs --live --limit 15\n\nReport: /home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/exposure_report.json\n{\n  \"at\": \"2026-07-15T03:35:15.433662+00:00\",\n  \"stats\": {\n    \"enPosts\": 2747,\n    \"esPosts\": 2747,\n    \"platinumEn\": 2728,\n    \"lastUpdated\": \"2026-07-15\"\n  },\n  \"indexnow\": {\n    \"ok\": true,\n    \"returncode\": 0,\n    \"extraSlugs\": [\n      \"what-to-do-after-a-car-accident-in-virginia-beach-virginia-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-seattle-washington-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-charleston-west-virginia-top-city-guide-2026-07-15\",\n      \"what-to-do-after-a-car-accident-in-milwaukee-wisconsin-top-city-guide-2026-07-15\"\n    ]\n  },\n  \"aiCitations\": {\n    \"ok\": true,\n    \"live\": false,\n    \"wreckmatchHitRate\": null,\n    \"totalPrompts\": null\n  }\n}\n"
+    }
+  ],
+  "social_ready": {
+    "exported": 1,
+    "dir": "/home/runner/work/injuredhelp-ai/injuredhelp-ai/content/autopilot/social_ready"
+  },
+  "ok": false
+}
+
+[2026-07-15T03:35:15.591635+00:00] WARN organic_crush exit 1
+[2026-07-15T03:35:15.775926+00:00] Inject for 2 states not yet published today
+[2026-07-15T03:35:15.778006+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:15.812868+00:00] Daily 50-state injection complete
+[2026-07-15T03:35:15.915445+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:35:15.917788+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:15.955035+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:35:15.978240+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-15T03:35:15.986634+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-15T03:35:16.028124+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-07-15T03:35:16.213805+00:00] Inject for 2 states not yet published today
+[2026-07-15T03:35:16.215921+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:16.246774+00:00] Daily 50-state injection complete
+[2026-07-15T03:35:16.350784+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:35:16.353081+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:16.389623+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:35:16.412463+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-15T03:35:16.421087+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-15T03:35:16.461376+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-07-15T03:35:16.647769+00:00] Inject for 2 states not yet published today
+[2026-07-15T03:35:16.649836+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:16.679700+00:00] Daily 50-state injection complete
+[2026-07-15T03:35:16.783391+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:35:16.785721+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:16.822276+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:35:16.843938+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-15T03:35:16.852788+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-15T03:35:16.893827+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-07-15T03:35:17.083211+00:00] Inject for 2 states not yet published today
+[2026-07-15T03:35:17.085399+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:17.115450+00:00] Daily 50-state injection complete
+[2026-07-15T03:35:17.219795+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:35:17.222071+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:17.258862+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:35:17.282348+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-15T03:35:17.290592+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-15T03:35:17.332908+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+[2026-07-15T03:35:17.517960+00:00] Inject for 2 states not yet published today
+[2026-07-15T03:35:17.520089+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:17.550191+00:00] Daily 50-state injection complete
+[2026-07-15T03:35:17.654895+00:00] Quality bar: score ≥100, words ≥3000
+[2026-07-15T03:35:17.657215+00:00] Loaded 239 cities from cities.ts
+[2026-07-15T03:35:17.694295+00:00] Mode: fifty-states-only (one city per state rotation)
+[2026-07-15T03:35:17.717269+00:00] States already published today (UTC): 49 — ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin']
+[2026-07-15T03:35:17.725522+00:00] Done: 0/1 published (platinum bar ≥100, ≥3000w) — []
+[2026-07-15T03:35:17.765912+00:00] Daily ledger (UTC): 49/50 states, 49 EN posts
+Target: 50 states (top city per state) — UTC day 2026-07-15
+
+Round 1: 0/50 states — need 50
+After round 1: 5/50 states
+
+Round 2: 5/50 states — need 45
+After round 2: 10/50 states
+
+Round 3: 10/50 states — need 40
+After round 3: 15/50 states
+
+Round 4: 15/50 states — need 35
+After round 4: 20/50 states
+
+Round 5: 20/50 states — need 30
+After round 5: 25/50 states
+
+Round 6: 25/50 states — need 25
+After round 6: 30/50 states
+
+Round 7: 30/50 states — need 20
+After round 7: 35/50 states
+
+Round 8: 35/50 states — need 15
+After round 8: 40/50 states
+
+Round 9: 40/50 states — need 10
+After round 9: 45/50 states
+
+Round 10: 45/50 states — need 5
+After round 10: 49/50 states
+
+Round 11: 49/50 states — need 1
+After round 11: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 12: 49/50 states — need 1
+After round 12: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 13: 49/50 states — need 1
+After round 13: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 14: 49/50 states — need 1
+After round 14: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Round 15: 49/50 states — need 1
+After round 15: 49/50 states
+WARN: batch returned non-zero; continuing if progress was made
+
+Final: 49/50 states
+Partial progress OK (49/50) — next scheduled run will continue.
