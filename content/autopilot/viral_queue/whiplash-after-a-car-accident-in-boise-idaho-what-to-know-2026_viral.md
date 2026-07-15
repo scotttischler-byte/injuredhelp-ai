@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Boise, Idaho — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-boise-idaho-what-to-know-2026  
-**Generated:** 2026-07-14T09:52:59.225612+00:00  
+**Generated:** 2026-07-15T19:37:27.294223+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
