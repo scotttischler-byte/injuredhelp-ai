@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17T02:44:33.294470+00:00",
+  "updatedAt": "2026-07-17T05:44:33.352431+00:00",
   "days": {
     "2026-05-31": {
       "en": 176,
@@ -2637,19 +2637,22 @@
       "recordedAt": "2026-07-16T22:58:17.124930+00:00"
     },
     "2026-07-17": {
-      "en": 6,
-      "states": 6,
+      "en": 9,
+      "states": 9,
       "stateList": [
         "Alabama",
         "Alaska",
         "Arizona",
         "Arkansas",
         "California",
-        "Colorado"
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "Florida"
       ],
       "targetStates": 50,
       "target": 50,
-      "recordedAt": "2026-07-17T02:44:33.294354+00:00"
+      "recordedAt": "2026-07-17T05:44:33.352319+00:00"
     }
   }
 }
