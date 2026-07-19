@@ -1,7 +1,7 @@
 # Viral content pack — Wrongful Death Car Accident in Fort Worth, Texas — Family Guide
 
 **URL:** https://www.wreckmatch.com/blog/wrongful-death-car-accident-in-fort-worth-texas-family-guide  
-**Generated:** 2026-07-19T02:48:54.621579+00:00  
+**Generated:** 2026-07-19T03:49:52.735021+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
