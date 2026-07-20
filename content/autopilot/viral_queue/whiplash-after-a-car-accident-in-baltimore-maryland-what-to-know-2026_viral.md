@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Baltimore, Maryland — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-baltimore-maryland-what-to-know-2026  
-**Generated:** 2026-07-19T09:47:49.132563+00:00  
+**Generated:** 2026-07-20T10:47:16.189665+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
