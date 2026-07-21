@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Wilmington, Delaware — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-wilmington-delaware-what-to-know-2026  
-**Generated:** 2026-07-20T14:34:19.684199+00:00  
+**Generated:** 2026-07-21T08:46:18.442195+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
