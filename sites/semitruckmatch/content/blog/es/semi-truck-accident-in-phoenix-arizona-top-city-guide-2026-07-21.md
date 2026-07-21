@@ -15,15 +15,17 @@ excerpt: >-
   matching in ~60 seconds via SemiTruckMatch.
 autopilot: true
 vertical: auto
-qualityTier: "platinum"
-authorId: "scott-tischler"
-reviewerId: "roy-waddell"
+qualityTier: platinum
+authorId: scott-tischler
+reviewerId: roy-waddell
 materializedExpansion: true
 readTime: 14 min de lectura
 platinumExpansion: true
 lang: es
 canonicalSlug: semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-07-21
-presentationUrl: "/blog/presentations/es/semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-07-21.pptx"presentationUrlEn: >-
+presentationUrl: >-
+  /blog/presentations/es/semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-07-21.pptx
+presentationUrlEn: >-
   /blog/presentations/semi-truck-accident-in-phoenix-arizona-top-city-guide-2026-07-21.pptx
 ---
 ## Por qué publicamos esta guía para Phoenix Arizona Top City Guide 2026 07
@@ -295,4 +297,3 @@ Para plazos contra vehículos del gobierno, culpa comparativa o cobertura UM/UIM
 El contenido aquí es educativo y se actualiza cuando cambian estatutos o prácticas de aseguradoras. Judge Roy Waddell revisa el contexto legal publicado.
 
 **[Emparejamiento gratuito →](https://www.semitruckmatch.com/#form)** · **855 WRECKMATCH (855) 897-3256**
-
