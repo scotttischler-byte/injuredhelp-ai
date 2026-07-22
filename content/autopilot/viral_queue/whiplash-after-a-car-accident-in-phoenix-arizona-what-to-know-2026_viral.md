@@ -1,7 +1,7 @@
 # Viral content pack — Whiplash After a Car Accident in Phoenix, Arizona — What to Know (2026)
 
 **URL:** https://www.wreckmatch.com/blog/whiplash-after-a-car-accident-in-phoenix-arizona-what-to-know-2026  
-**Generated:** 2026-07-22T10:22:26.102839+00:00  
+**Generated:** 2026-07-22T14:23:07.520670+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
