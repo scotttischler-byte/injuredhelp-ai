@@ -1,7 +1,7 @@
 # Viral content pack — What to Do After a Car Accident in Wichita, Kansas — Top City Guide (2026-06-20)
 
 **URL:** https://www.wreckmatch.com/blog/what-to-do-after-a-car-accident-in-wichita-kansas-top-city-guide-2026-06-20  
-**Generated:** 2026-06-20T07:08:53.261239+00:00  
+**Generated:** 2026-07-26T08:40:43.338049+00:00  
 **Copy-paste only — film/post when ready**
 
 ---
