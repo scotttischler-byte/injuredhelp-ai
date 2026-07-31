@@ -1,5 +1,5 @@
 {
-  "at": "2026-07-30T16:53:33.212829+00:00",
+  "at": "2026-07-31T06:26:58.594978+00:00",
   "mode": "geo-automation",
   "opsChecklist": [
     "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
@@ -55,7 +55,7 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 200,
+          "status": 202,
           "ok": true
         }
       ],
@@ -63,7 +63,7 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "urlCount": 540,
+      "urlCount": 573,
       "ok": true,
       "results": [
         {
@@ -78,7 +78,7 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 200,
+          "status": 202,
           "ok": true
         }
       ],
@@ -111,11 +111,11 @@
   "audits": [
     {
       "origin": "https://www.wreckmatch.com",
-      "robotsStatus": 200,
-      "allowsAiCrawlers": true,
-      "llmsTxt": true,
-      "aiTxt": true,
-      "blogIndexStatus": 200,
+      "robotsStatus": null,
+      "allowsAiCrawlers": false,
+      "llmsTxt": false,
+      "aiTxt": false,
+      "blogIndexStatus": null,
       "blogSignals": {
         "tableOnIndex": false,
         "faqOnIndex": false
@@ -123,11 +123,11 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "robotsStatus": 200,
-      "allowsAiCrawlers": true,
-      "llmsTxt": true,
-      "aiTxt": true,
-      "blogIndexStatus": 200,
+      "robotsStatus": null,
+      "allowsAiCrawlers": false,
+      "llmsTxt": false,
+      "aiTxt": false,
+      "blogIndexStatus": null,
       "blogSignals": {
         "tableOnIndex": false,
         "faqOnIndex": false
@@ -135,11 +135,11 @@
     },
     {
       "origin": "https://injuredhelp.ai",
-      "robotsStatus": 200,
-      "allowsAiCrawlers": true,
-      "llmsTxt": true,
-      "aiTxt": true,
-      "blogIndexStatus": 200,
+      "robotsStatus": null,
+      "allowsAiCrawlers": false,
+      "llmsTxt": false,
+      "aiTxt": false,
+      "blogIndexStatus": null,
       "blogSignals": {
         "tableOnIndex": false,
         "faqOnIndex": false
@@ -150,49 +150,47 @@
     {
       "url": "https://www.wreckmatch.com/api/geo/cron",
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://www.wreckmatch.com/api/exposure/cron",
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://www.wreckmatch.com/api/indexing/cron",
-      "ok": true,
-      "status": 200,
-      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-07-30\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
+      "ok": false,
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://www.semitruckmatch.com/api/geo/cron",
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://www.semitruckmatch.com/api/exposure/cron",
       "ok": false,
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://www.semitruckmatch.com/api/indexing/cron",
-      "ok": true,
-      "status": 200,
-      "body": "{\"ok\":true,\"mode\":\"vercel-cron-multi-site\",\"stats\":{\"enPosts\":664,\"esPosts\":664,\"platinumEn\":643,\"lastUpdated\":\"2026-07-30\"},\"sites\":[{\"siteId\":\"wreckmatch\",\"origin\":\"https://www.wreckmatch.com\",\"ok\":true,\"submitted\":333,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://www.bing.com/indexnow\",\"status\":200,\"ok\":true},{\"endpoint\":\"https://yandex.com/indexnow\",\"status\":200,\"ok\":true}]},{\"siteId\":\"semitruckmatch\",\"origin\":\"https://www.semitruckmatch.com\",\"ok\":true,\"submitted\":133,\"indexnow\":[{\"endpoint\":\"https://api.indexnow.org/indexnow\",\"sta"
+      "ok": false,
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://injuredhelp.ai/api/geo/cron",
       "ok": false,
-      "error": "HTTP Error 401: Unauthorized"
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://injuredhelp.ai/api/exposure/cron",
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 402: Payment Required"
     },
     {
       "url": "https://injuredhelp.ai/api/indexing/cron",
       "ok": false,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 402: Payment Required"
     }
   ]
 }
