@@ -1,5 +1,5 @@
 {
-  "at": "2026-07-31T06:26:58.594978+00:00",
+  "at": "2026-07-31T09:49:46.135171+00:00",
   "mode": "geo-automation",
   "opsChecklist": [
     "Google Business Profile: add 10 keyword Q&As (same-day local AIO)",
@@ -63,7 +63,7 @@
     },
     {
       "origin": "https://www.semitruckmatch.com",
-      "urlCount": 573,
+      "urlCount": 540,
       "ok": true,
       "results": [
         {
@@ -78,8 +78,8 @@
         },
         {
           "endpoint": "https://yandex.com/indexnow",
-          "status": 202,
-          "ok": true
+          "status": 403,
+          "ok": false
         }
       ],
       "siteId": "semitruckmatch"
@@ -144,53 +144,6 @@
         "tableOnIndex": false,
         "faqOnIndex": false
       }
-    }
-  ],
-  "productionCrons": [
-    {
-      "url": "https://www.wreckmatch.com/api/geo/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://www.wreckmatch.com/api/exposure/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://www.wreckmatch.com/api/indexing/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://www.semitruckmatch.com/api/geo/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://www.semitruckmatch.com/api/exposure/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://www.semitruckmatch.com/api/indexing/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://injuredhelp.ai/api/geo/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://injuredhelp.ai/api/exposure/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
-    },
-    {
-      "url": "https://injuredhelp.ai/api/indexing/cron",
-      "ok": false,
-      "error": "HTTP Error 402: Payment Required"
     }
   ]
 }
